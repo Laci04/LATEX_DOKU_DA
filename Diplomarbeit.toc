@@ -1,0 +1,44 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{5}{}%
+\contentsline {subsection}{\numberline {1.1}Ziel und Anwendungsbereich des Diplomprojekts}{5}{}%
+\contentsline {subsection}{\numberline {1.2}Entwicklungsteam}{5}{}%
+\contentsline {section}{\numberline {2}Anforderungen}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Mechanik}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}RoboGlove}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Bionische Hand}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Hardware}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}RoboGlove}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Bionische Hand}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Software}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}RoboGlove}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Bionische Hand}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}User Interface}{7}{}%
+\contentsline {section}{\numberline {3}Beschreibung der Projektteile}{7}{}%
+\contentsline {subsection}{\numberline {3.1}RoboGlove (Eingabe)}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Bionische Hand (Ausgabe)}{7}{}%
+\contentsline {subsection}{\numberline {3.3}User Interface}{8}{}%
+\contentsline {section}{\numberline {4}Mechanische Entwicklung}{8}{}%
+\contentsline {subsection}{\numberline {4.1}RoboGlove}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Bionische Hand}{8}{}%
+\contentsline {section}{\numberline {5}Hardwareentwicklung}{8}{}%
+\contentsline {subsection}{\numberline {5.1}RoboGlove}{8}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Überlegungen und Versuchsaufbauten}{8}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Simulationen und Dimensionierung}{9}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Testaufbauten und Schaltungsdesign}{10}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Platinendesign}{10}{}%
+\contentsline {subsection}{\numberline {5.2}Bionische Hand}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Überlegungen und Versuchsaufbauten}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Simulationen und Dimensionierung}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Testaufbauten und Schaltungsdesign}{10}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}Platinendesign}{10}{}%
+\contentsline {section}{\numberline {6}Softwareentwicklung}{10}{}%
+\contentsline {subsection}{\numberline {6.1}RoboGlove}{10}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Konzept und Überlegungen}{10}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Realisierung}{10}{}%
+\contentsline {subsection}{\numberline {6.2}Bionische Hand}{10}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Konept und Überlegungen}{10}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Realisierung}{10}{}%
+\contentsline {subsection}{\numberline {6.3}User Interface}{10}{}%
+\contentsline {section}{\numberline {7}Testphase}{10}{}%
+\contentsline {section}{\numberline {8}Abschluss und Zusammenfassung}{10}{}%
+\contentsline {section}{\numberline {9}Anhang}{10}{}%
