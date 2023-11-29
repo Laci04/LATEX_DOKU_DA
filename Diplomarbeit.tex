@@ -2,13 +2,15 @@
 
 \usepackage{filecontents}
 \usepackage{graphicx}
-\graphicspath{{/Users/laci/Schule/5BHEL/Visual_Studio_Projects/LATEX/Diplomarbeit/src}}
+\graphicspath{{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src}}
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{xcolor}
+\usepackage{caption}
 \usepackage[autostyle]{csquotes}
 \usepackage{circuitikz}
 \usepackage{amsmath}
+\usepackage{textgreek}
 \usepackage{siunitx}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -32,75 +34,81 @@
 
 %==========================================================================
 %==TITELSEITE==============================================================
-\title{\textbf{\Huge{Diplomarbeit}}}
-\maketitle
 
-\begin{center}
+\begin{titlepage}
+	
+	\title{\textbf{\Huge{Diplomarbeit}}}
+	\maketitle
+	\thispagestyle{empty}
 
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\textbf{\Large{Gesamtprojekt}} \break
-	\textbf{\LARGE{RoboGlove - Bionische Hand}}
+	\begin{center}
 
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\hfill \break
+		\hfill \break
+		\hfill \break
+		\hfill \break
+		\textbf{\Large{Gesamtprojekt}} \break
+		\par
+		\textbf{\LARGE{RoboGlove - Bionische Hand}}
 
-	\begin{tabular}{p{10cm}p{1cm}l}
-		3D-Druck, Mechanik und User-Interface-Programmierung \\
-	\end{tabular}
+		\hfill \break
+		\hfill \break
+		\hfill \break
+		\hfill \break
+		\hfill \break
 
-	\begin{tabular}{p{3cm}p{2cm}l}
-		Amir Al-Maytah & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-	\end{tabular}
+		\begin{tabular}{p{10cm}p{1cm}l}
+			3D-Druck, Mechanik und User-Interface-Programmierung \\
+		\end{tabular}
 
-	\begin{tabular}{p{3.26cm}p{5cm}l}
-		& Fachlehrer: Robert Offner 
-	\end{tabular}
+		\begin{tabular}{p{3cm}p{2cm}l}
+			Amir Al-Maytah & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
+		\end{tabular}
 
-	\hfill \break
+		\begin{tabular}{p{3.26cm}p{5cm}l}
+			& Fachlehrer: Robert Offner 
+		\end{tabular}
 
-	\begin{tabular}{p{14cm}p{1cm}l}
-		Mikrokontroller-Promgrammierung, Testmanagement und Gesamtintegration \\
-	\end{tabular}
+		\hfill \break
 
-	\begin{tabular}{p{3cm}p{2cm}l}
-		Fabian Schweitzer & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-	\end{tabular}
+		\begin{tabular}{p{14cm}p{1cm}l}
+			Mikrokontroller-Promgrammierung, Testmanagement und Gesamtintegration \\
+		\end{tabular}
 
-	\begin{tabular}{p{3.26cm}p{5cm}l}
-		& Fachlehrer: Robert Offner 
-	\end{tabular}
+		\begin{tabular}{p{3cm}p{2cm}l}
+			Fabian Schweitzer & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
+		\end{tabular}
 
-	\hfill \break
+		\begin{tabular}{p{3.26cm}p{5cm}l}
+			& Fachlehrer: Robert Offner 
+		\end{tabular}
 
-	\begin{tabular}{p{10cm}p{1cm}l}
-		Hardwareentwicklung, PCB-Design und Projektleitung \\
-	\end{tabular}
+		\hfill \break
 
-	\begin{tabular}{p{3cm}p{2cm}l}
-		Ladislaus Szabo & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-	\end{tabular}
+		\begin{tabular}{p{10cm}p{1cm}l}
+			Hardwareentwicklung, PCB-Design und Projektleitung \\
+		\end{tabular}
 
-	\begin{tabular}{p{3.26cm}p{5cm}l}
-		& Fachlehrer: Robert Offner 
-	\end{tabular}
+		\begin{tabular}{p{3cm}p{2cm}l}
+			Ladislaus Szabo & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
+		\end{tabular}
 
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\hfill \break
-	\hfill \break
+		\begin{tabular}{p{3.26cm}p{5cm}l}
+			& Fachlehrer: Robert Offner 
+		\end{tabular}
 
-	Ausgeführt im Schuljahr 2023/24
+		\hfill \break
+		\hfill \break
+		\hfill \break
+		\hfill \break
+		\hfill \break
 
-\end{center}
+		Ausgeführt im Schuljahr 2023/24
 
-\pagebreak
+	\end{center}
+
+\end{titlepage}
+
+\newpage
 
 %==TITELSEITE-ENDE=========================================================
 %==========================================================================
@@ -122,40 +130,35 @@
 \\
 Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, 
 andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und 
-inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.
+inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.\\
+%-----------------------------
+\hfill \break
+\hfill \break
+\hfill \break
+
+\begin{figure}[h]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Amir_Unterschrift}}
+		\caption*{Amir Al-Maytah}
+	\end{center}
+\end{figure}
 %-----------------------------
 \begin{figure}[h]
 	\begin{center}
-	\scalebox{0.5}
-	{\includegraphics[width=0.8 \linewidth]{Amir_Unterschrift}}
-	%\caption{Schaltung Passive Bandsperre}
-	%\label{fig:schaltung3}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Fabian_Unterschrift}}
+		\caption*{Fabian Schweitzer}
 	\end{center}
 \end{figure}
-
-Amir Al-Maytah
 %-----------------------------
 \begin{figure}[h]
 	\begin{center}
-	\scalebox{0.5}
-	{\includegraphics[width=0.8 \linewidth]{Laci_Unterschrift}}
-	%\caption{Schaltung Passive Bandsperre}
-	%\label{fig:schaltung3}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Laci_Unterschrift}}
+		\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-
-Fabian Schweitzer
-%-----------------------------
-\begin{figure}[h]
-	\begin{center}
-	\scalebox{0.5}
-	{\includegraphics[width=0.8 \linewidth]{Laci_Unterschrift}}
-	%\caption{Schaltung Passive Bandsperre}
-	%\label{fig:schaltung3}
-	\end{center}
-\end{figure}
-
-Ladislaus Szabo
 %-----------------------------
 
 \pagebreak
@@ -198,6 +201,9 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
+
+\pagebreak
+
 \section{Einleitung}
 \subsection{Ziel und Anwendungsbereich des Diplomprojekts}
 Das Ziel des Diplomprojekts ist es, eine bionische Hand zu bauen, die mit einem drahtlos verbundenen Handschuh 
@@ -221,69 +227,69 @@ Amir Al-Maytah (3D-Druck, Mechanik, Userinterface-Programmierung)
 \subsection{Mechanik}
 \subsubsection{RoboGlove}
 \subsubsection{Bionische Hand}
--	Die Roboterhand/der Roboterarm soll mittels 3D-Druck gefertigt werden.\\
--	Die Servomotoren der Elektronik werden mithilfe von Schnüren mit den jeweiligen Fingern verbunden.\\
--	Die Finger sollen sich sowohl zum Handballen als auch vom Handballen weg kontrolliert bewegen können.\\
--	Die Finger sollen sich zitterfrei bewegen können.
+
+	\begin{itemize}
+		\item Die Roboterhand/der Roboterarm soll mittels 3D-Druck gefertigt werden.
+		\item Die Servomotoren der Elektronik werden mithilfe von Schnüren mit den jeweiligen Fingern verbunden.
+		\item Die Finger sollen sich sowohl zum Handballen als auch vom Handballen weg kontrolliert bewegen können.
+		\item Die Finger sollen sich zitterfrei bewegen können.
+	\end{itemize}
 
 \subsection{Hardware}
 \subsubsection{RoboGlove}
 Folgende Anforderungen muss der „RoboGlove“ nach Abschluss des Projekts erfüllen:
 
--	Die Bewegung der Finger muss mit Sensoren erfasst werden.
-
--	Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
-
--	Der zur Datenerfassung gewählte Mikrokontroller muss:
-
-Die I2C Kommunikation unterstützen.
-
-Die Möglichkeit für eine kabellose Kommunikation aufweisen.
-
-Analoge und Digitale Eingänge haben.
-
-Programmierbar sein.
-
--	Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, zu erfassen.
-
--	Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil aufweisen. 
+	\begin{itemize}
+		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
+		\item Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
+		\item Der zur Datenerfassung gewählte Mikrokontroller muss:
+		\begin{itemize}
+			\item Die I2C Kommunikation unterstützen.
+			\item Die Möglichkeit für eine kabellose Kommunikation aufweisen.
+			\item Analoge und Digitale Eingänge haben.
+			\item Programmierbar sein.
+		\end{itemize}
+		\item Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, 
+		      zu erfassen.
+		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
+		      aufweisen. 
+	\end{itemize}
 
 \subsubsection{Bionische Hand}
 Folgende Anforderungen muss die „Bionic Hand“ nach Abschluss des Projekts erfüllen:
 
--	Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
-
--	Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.
-
--	Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.
-
--	Diese Bewegungen sollen störungsfrei und ohne zittern erfolgen.
-
+	\begin{itemize}
+		\item Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
+		\item Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.	
+		\item Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.	
+		\item Diese Bewegungen sollen störungsfrei und ohne zittern erfolgen.
+	\end{itemize}
 
 \subsection{Software}
 \subsubsection{RoboGlove}
 Folgende Anforderungen müssen für die Software für die Handschuhplatine nach Abschluss des Projekts erfüllt sein:
 
--	Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, 
-soll einzeln ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor gebogen ist.
-
--	Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine gesendet werden.
+	\begin{itemize}
+		\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, 
+			  soll einzeln ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor 
+			  gebogen ist.
+		\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine gesendet werden.
+	\end{itemize}
 
 \subsubsection{Bionische Hand}
 Folgende Anforderungen müssen für die Software für die Roboterhandplatine nach Abschluss des Projekts erfüllt sein:
 
--	Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden.
-
--	Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten richtig verarbeitet werden können.
-
--	Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen Flexsensoren 
-stark variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
-
--	Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen dem 
-Bewegen der Finger immer wieder dieser gemessen werden.
-
--	Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. 
-Die Griffkraft soll je nach Objekt variieren.
+	\begin{itemize}
+		\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden.
+		\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten richtig verarbeitet werden können.
+		\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen 
+		      Flexsensoren .
+			  stark variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
+		\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen 
+		      dem Bewegen der Finger immer wieder dieser gemessen werden.
+		\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. 
+			  Die Griffkraft soll je nach Objekt variieren.
+	\end{itemize}
 
 \subsubsection{User Interface}
 %--------------------------------------------------------------------------
@@ -296,13 +302,13 @@ Dies geschieht durch Flexsensoren, die an den Fingern des „RoboGlove“ angebr
 so ändert sich der Widerstand des Sensors. Diese Änderungen werden von einem Mikrokontroller erfasst, ausgewertet 
 und für die kabellose Übertragung an die „Bionic Hand“ vorbereitet. Damit der „RoboGlove“ funktioniert, bedarf es 
 einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein. Für einen möglichen 
-stationären Betrieb kann der „RoboGlove“ auch mit einem Netzteil betrieben werden. Die Passform des „RoboGlove“ soll 
+stationären Betrieb kann der „RoboGlove“ auch mit einem Netzteil betrieben werden. Die Passform des RoboGlove soll 
 möglichst komfortabel sein, um eine möglichst lange Benützung zu ermöglichen. Dies setzt eine gut überlegte Integration 
 der Elektronik voraus, die bei diesem Projekt auch bestmöglich beachtet wurde. Der „RoboGlove“ ist so gebaut, dass er 
 auch von Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann.\\
-
-\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt „RoboGlove“ erfüllt:}
-
+\\
+\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt „RoboGlove“ erfüllt:}\\
+\\
 Die Software des Roboterhandschuhs ist dafür verantwortlich die sich verändernden Widerstandswerte der Flexsensoren 
 jeweils einzeln einzulesen. Über die UART-Schnittstelle wird die Software auf den ESP32 hochgeladen. Dabei werden 
 direkt aus dem in der Schaltung verbauten ADC-Werte, über die I2C-Schnittstelle, ausgelesen. Man erhält bereits digitale 
@@ -315,10 +321,10 @@ bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger 
 Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
 Servomotoren umgewandelt. Jeder Finger hat drei Gelenke und kann daher kontrolliert gebeugt und wieder gestreckt werden. 
 Die komplette „Bionic Hand“ wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
-mehr aus dem Griff der Hand rutschen können. 
-
-\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt Bionische Hand erfüllt:}
-
+mehr aus dem Griff der Hand rutschen können.\\
+\\
+\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt Bionische Hand erfüllt:}\\
+\\
 Die Software des Roboterarmes ist dafür verantwortlich, dass die von der Handschuhplatine, via ESP32, gesendeten Daten 
 erfolgreich empfangen und gespeichert werden. Die Software wird hierzu per UART-Schnittstelle auf den ESP32 hochgeladen. 
 Die Daten der Flexsensoren, die man bereits erhalten hat, sollen dann verarbeitet werden. Anhand des Widerstandwertes und 
@@ -347,7 +353,7 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 \subsection{RoboGlove}
 \subsubsection{Überlegungen und Versuchsaufbauten}
 Sensorik:
-
+\\
 Es muss in irgendeiner Weise die Fingerbeugung, beziehungsweise Bewegung, des Benutzers mit dem „RoboGlove“ gemessen 
 werden können. Dies könnte man durch das Messen des Beugungswinkels realisieren. Allerdings hat jeder Finger drei Gelenke, 
 wodurch man diese auch bei der „Bionic Hand“ individuell steuern müsste. Die zweite Möglichkeit wäre, durch eine visuelle 
@@ -356,10 +362,10 @@ mit Kameras ausgestatteten, Räumen funktionieren würde, ist dies für uns auch
 wir uns für die Erfassung der Fingerbewegungen mittels Flexsensoren entschieden. Diese ändern den Widerstand je nach der 
 aktuell vorherrschenden Beugung. Bei dieser Art der Bewegungserfassung muss man nicht jedes Fingergelenk einzeln steuern und 
 braucht auch keine externen Kameras. Somit ist bei dieser Methode der Datenerfassung ein sehr flexibler Verwendungsbereich 
-des „RoboGlove“ gewährleistet. 
-
+des „RoboGlove“ gewährleistet.\\
+\\
 Auslesen der Sensoren:
-
+\\
 Das Auslesen der Flexsensoren kann durch einen einfachen Spannungsteiler erfolgen. Dabei ist die Genauigkeit (Auflösung) 
 allerdings nicht gegeben und ist daher nicht für unsere Anwendung geeignet. Die Lösung für dieses Genauigkeitsproblem ist 
 eine ADC-Schaltung mit einer davor geschalteten OPV-Schaltung.
@@ -368,7 +374,7 @@ eine ADC-Schaltung mit einer davor geschalteten OPV-Schaltung.
 	\begin{center}
 	\scalebox{0.5}
 	{\includegraphics[width=0.8 \linewidth]{Messschaltung_Handschuh_Spannung}}
-	%\caption{Schaltung Passive Bandsperre}
+	\caption{Messchaltung Spannungsmessung}
 	%\label{fig:schaltung3}
 	\end{center}
 \end{figure}
@@ -382,10 +388,10 @@ diese an den verbauten Mikrokontroller. Da die OPV-Messschaltung verhältnismä�
 fünfmal, für jeden Flexsensor einmal, benötigt wird, wäre es von großem Vorteil alle Sensoren mit nur einer Schaltung 
 auszumessen. Hierfür verwenden wir einen Multiplexer, der in Bruchteilen einer Sekunde zwischen allen Biegemessstreifen 
 durchschaltet. Dies ermöglicht das Auslesen aller Sensoren mit nur einer Verstärkerschaltung und trägt wesentlich zur 
-möglichst kompakten Dimensionierung der später folgenden Platine bei. 
-
+möglichst kompakten Dimensionierung der später folgenden Platine bei.\\
+\\
 Mikrokontroller:
-
+\\
 Der zur Auswertung der Messdaten zuständige Mikrokontroller muss, die in Punkt 2.2.1 angeführten Anforderungen, erfüllen. 
 Hierzu haben wir uns für den ESP32 entschieden, da dieser mehr als genug Rechenleistung bietet, mehrere drahtlose 
 Übertragungsmöglichkeiten unterstützt und die Möglichkeit einer Verbindung mit dem Internet bietet. Der kleine Formfaktor, 
@@ -396,18 +402,18 @@ nicht direkt mit dem ESP32 verbinden kann, ist zusätzlich noch ein Bustreiber n
 vorhandenes Interface unterstützt.  
 
 \subsubsection{Simulationen und Dimensionierung}
-\textcolor{red}{Bild der Spannungs-Simulation hier einfügen!!}
-
-Der Widerstand der Flexsensoren ändert sich bei zunehmender Beugung von 25kOHM auf 125kOHM.
-
-Hier das Messprotokoll der Flexsensoren einfügen!!
-
+\textcolor{red}{Bild der Spannungs-Simulation hier einfügen!!}\\
+\\
+Der Widerstand der Flexsensoren ändert sich bei zunehmender Beugung von 25k\textOmega auf 125k\textOmega.\\
+\\
+\textcolor{red}{Hier das Messprotokoll der Flexsensoren einfügen!!}\\
+\\
 Die Flexsensoren werden mit +5V Gleichspannung versorgt. Zwischen der Versorgung und den Sensoren ist ein Shunt-Widerstand 
 (RS) geschaltet, an dem je nach Beugung der Sensoren eine gewisse Spannung abfällt. Dies ist der Fall, da bei einem 
 geringeren Widerstand des Flexsensors ein größerer Strom über den Widerstand RS fließt und somit der Spannungsabfall größer 
 ist. Bei großen (niederohmigen) Lasten ist es sehr wichtig dabei die Verlustleistung am Shunt zu beachten, allerdings ist 
-dies bei Flexsensoren kein Thema, da diese nur einen sehr kleinen Strom benötigen. 
-
+dies bei Flexsensoren kein Thema, da diese nur einen sehr kleinen Strom benötigen.
+\\
 Um nun die korrekte Verstärkung des OPVs und den korrekten Shunt-Widerstand zu wählen ist es wichtig zu wissen, dass wir 
 einen 10-Bit ADC mit +3.3V Versorgungsspannung verwenden. Mit dieser Information haben wir nun den Shunt und den Widerstand 
 Rg dimensioniert. Die Ausgangsspannung des Verstärkers bei maximaler Last des Flexsensors sollte knapp unter +3.3V sein, 
@@ -416,15 +422,16 @@ Störungen auftreten könnten. Dafür wurde aus dem Datenblatt des OPVs der Wide
 Information haben wir dann den Shunt Rs mit 240OHM dimensioniert. Da bei größeren Widerständen des Flexsensors der 
 Spanungsabfall allerdings so gering ist, dass der Operationsverstärker diesen nicht mehr exakt verstärken kann, ist es 
 notwendig eine +1V Referenzspannung am OPV anzulegen. Durch diese kann auch bei sehr kleinen Spannungsabfällen ein exakt 
-verstärktes Ausgangssignal generiert werden.
-
-\textcolor{red}{Dimensionierung Spannungsteiler für +1V hier einfügen!!}
-
-
-Durch den Tiefpass am Ausgang werden mögliche Spannungsripple der Versorgung gefiltert. Durch den Widerstand Rtp wird ein kleiner Spannungsabfall erzeugt, der bei der Messung zwar berücksichtigt wird, allerdings kein Problem darstellt. Die Grenzfrequenz des Filters wurde folgender Maßen berechnet:
-
-Berechnung fg hier einfügen!!
-
+verstärktes Ausgangssignal generiert werden.\\
+\\
+\textcolor{red}{Dimensionierung Spannungsteiler für +1V hier einfügen!!}\\
+\\
+Durch den Tiefpass am Ausgang werden mögliche Spannungsripple der Versorgung gefiltert. Durch den Widerstand Rtp wird 
+ein kleiner Spannungsabfall erzeugt, der bei der Messung zwar berücksichtigt wird, allerdings kein Problem darstellt. 
+Die Grenzfrequenz des Filters wurde folgender Maßen berechnet:\\
+\\
+\textcolor{red}{Berechnung fg hier einfügen!!}\\
+\\
 Durch den zu GND geschalteten Widerstand R1 mit 10kOHM, wird er Eingang des danach kommenden ADCs entlastet. 
 
 \subsubsection{Testaufbauten und Schaltungsdesign}
