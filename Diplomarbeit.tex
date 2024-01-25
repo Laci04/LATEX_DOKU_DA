@@ -205,14 +205,80 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \pagebreak
 
 \section{Einleitung}
-\subsection{Ziel und Anwendungsbereich des Diplomprojekts}
-Das Ziel des Diplomprojekts ist es, eine bionische Hand zu bauen, die mit einem drahtlos verbundenen Handschuh 
-gesteuert werden kann. Der Benutzer trägt den Handschuh und kann somit Objekte, mit denen er nicht in Berührung 
-kommen darf oder will, greifen. Folglich imitiert die bionische Hand die Bewegungen des Benutzers möglichst präzise 
-und führt somit die gewollte Arbeit des Benutzers aus. Anwendungsbereiche für diese Technologie wären zum Beispiel 
-elektronische Unternehmen, die klinisch sauber arbeiten müssen, um ihre Produkte korrekt fertigen zu können. Ein 
-weiteres Beispiel wäre die Anwendung bei Tätigkeiten, die mit radioaktiven, beziehungsweise giftigen Substanzen zu 
-tun haben. Hierbei könnte aus einer sicheren Entfernung gearbeitet werden, ohne Personen zu gefährden.
+
+\subsection{Kurzfassung}
+\textbf{Aufgabenstellung:} 
+Im Rahmen eines Diplomprojekts soll eine Roboterhand mittels eines Handschuhs gesteuert werden. 
+Dazu müssen verschiedene Sensoren auf Genauigkeit getestet und aanscließend die ausgewerteten Daten kabellos an die
+Roboterhand übertragen werden. Die Bewegungen der Finger sollen mit Motoren nachgebildet werden und die Stellungen
+dieser soll im User-Interface dargestellt werden. \\
+\textbf{Realisierung:} 
+Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
+anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
+Servomotoren realisiert. Als User-Interface soll eine Application dienen. \\
+\textbf{Ergebnis:} 
+Die Handbewegungen können korrekt ausgewertet und übertragen werden. Der Benutzer trägt den Handschuh und greift 
+ein Objekt. Die Servomotoren interpretieren mittels des PCBs die empfangenen Daten und ermöglichen es der Roboterhand 
+ebenfalls das gleiche Objekt zu greifen. Beim Öffnen der Hand muss sich die Roboterhand in ihre Ausgangsstellung 
+zurückbewegen.
+
+\subsection{Abstract}
+\textbf{Task:} 
+As part of a feasibility study, a robotic hand is to be controlled by means of a glove. For
+this purpose, various sensors must be tested for accuracy and the evaluated data then
+transmitted wirelessly to the robotic hand. The positions of the fingers are to be displayed in a
+user interface. \\
+\textbf{Realization:} 
+The movements of the human hand are recorded with Flex sensors on the glove.
+The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
+the user interface. \\
+\textbf{Result:} 
+The hand movements can be correctly evaluated and transmitted. The user wears the
+glove and grasps an object. The servo motors interpret the received data by means of the PCB
+and enable the robot hand to also grasp the same object. When the hand is opened, the robot
+hand must also move back to its starting position.
+
+\subsection{Ausgangslage}
+Es gibt Produktionsbereiche, die klinisch sauber gehalten werden müssen, da durch Menschen Kontaminationen entstehen
+können. Für dieses Vorhaben soll ein Prototyp einer Roboterhand, die über einen Sensorhandschuh kabellos gesteuert wird,
+entwickelt und aufgebaut werden. Diverse Parameter der Roboterhand sollen in einem Interface für den Benutzer 
+dargestellt werden.
+
+\subsection{Untersuchungsanliegen der individuellen Themenstellungen}
+Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design aufgebaut werden,
+die mit einem kabellos angebundenen Handschuh gesteuert wird. Zu diesem Zweck müssen
+verschiedene Sensoren getestet werden, die die Fingergelenksstellung messen. Deren Daten
+müssen ausgelesen und mittels kabelloser Schnittstelle an die Roboterhand übertragen werden
+(Schweitzer). Um die Fingerbewegungen an der Roboterhand nachzustellen, muss folglich eine
+Motoransteuerung entwickelt werden (Szabo). Um die elektronischen Bauelemente
+unterzubringen, muss ein entsprechendes Gehäuse, in Form einer menschlichen Hand
+beziehungsweise eines Arms, gefertigt werden. Zusätzlich soll ein Interface erstellt werden, in
+dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-Maytah)
+
+\subsection{Allgemeine Zielsetzung}
+Ziel des Projekts ist es, eine Roboterhand zu bauen, die über einen kabellos verbundenen
+Handschuh gesteuert werden kann. Das Ziel ist es, Daten der Fingergelenkssensoren auszulesen,
+zu übertragen und die Bewegungen mit der Roboterhand nachzustellen. Endziel ist es, Daten
+richtig zu verarbeiten und die Roboterhand entsprechend zu bewegen. Daten sollen in einem
+Interface dargestellt werden.
+
+\subsection{Terminplan (Milestones)}
+Lastenheft fertig – 10.10.2023 \\
+Kostenkalkulationen fertig – 24.10.2023 \\
+Prototypen proof of concept –21.11.2023 \\
+Hardwaredesign fertig – 05.12.2023 \\
+PCB-Design fertig – 09.01.2024 \\
+Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
+Integration aller Komponenten – 06.02.2024 \\
+User Interface fertiggestellt – 13.02.2024 \\
+Abnahme durch die Projektbetreuer – 12.03.2024
+
+\subsection{Geplantes Ergebnis der Prüfungskandidaten}
+Es soll eine Erfassung der Sensordaten möglich sein. Diese sollen übertragen und empfangen
+werden können. Die Roboterhand soll die Finger nach der Vorgabe des Handschuhs bewegen
+können. Als Endergebnis soll eine halbvolle 500mL Plastikflasche umschlossen und in der Luft
+gehalten werden. In dem Interface, dem User-Interface, sollen wichtige Daten dargestellt und
+Parameter verändert werden können.
 
 \subsection{Entwicklungsteam}
 Folgende Schüler des TGMs haben sich mit der Entwicklung des in Punkt 1.1 beschrieben Projekts befasst: \hfill \break
@@ -220,13 +286,27 @@ Folgende Schüler des TGMs haben sich mit der Entwicklung des in Punkt 1.1 besch
 Projektleiter:    Ladislaus Szabo (Hardwareentwicklung, PCB-Design, Projektleitung)\\
 Mitarbeiter: Fabian Schweitzer (Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration)\\
 Amir Al-Maytah (3D-Druck, Mechanik, Userinterface-Programmierung)
+
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{Anforderungen}
+
+\section{Anforderungen der einzelnen Projektteile}
 
 \subsection{Mechanik}
-\subsubsection{RoboGlove}
-\subsubsection{Bionische Hand}
+\subsubsection{Handschuh}
+Folgende machanische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+
+\subsubsection{Roboterhand}
+Folgende mechanische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
 
 	\begin{itemize}
 		\item Die Roboterhand/der Roboterarm soll mittels 3D-Druck gefertigt werden.
@@ -235,9 +315,12 @@ Amir Al-Maytah (3D-Druck, Mechanik, Userinterface-Programmierung)
 		\item Die Finger sollen sich zitterfrei bewegen können.
 	\end{itemize}
 
-\subsection{Hardware}
-\subsubsection{RoboGlove}
-Folgende Anforderungen muss der „RoboGlove“ nach Abschluss des Projekts erfüllen:
+\subsection{Eletronische Hardware}
+\subsection{Handschuh}
+Folgende elektronische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+
+\subsubsection{Roboterhand}
+Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Projekts erfüllen:
 
 	\begin{itemize}
 		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
@@ -253,12 +336,6 @@ Folgende Anforderungen muss der „RoboGlove“ nach Abschluss des Projekts erf�
 		      zu erfassen.
 		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
 		      aufweisen. 
-	\end{itemize}
-
-\subsubsection{Bionische Hand}
-Folgende Anforderungen muss die „Bionic Hand“ nach Abschluss des Projekts erfüllen:
-
-	\begin{itemize}
 		\item Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
 		\item Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.	
 		\item Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.	
@@ -266,8 +343,11 @@ Folgende Anforderungen muss die „Bionic Hand“ nach Abschluss des Projekts er
 	\end{itemize}
 
 \subsection{Software}
-\subsubsection{RoboGlove}
-Folgende Anforderungen müssen für die Software für die Handschuhplatine nach Abschluss des Projekts erfüllt sein:
+\subsubsection{Handschuh}
+Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+
+\subsubsection{Roboterhand}
+Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
 
 	\begin{itemize}
 		\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, 
@@ -292,22 +372,24 @@ Folgende Anforderungen müssen für die Software für die Roboterhandplatine nac
 	\end{itemize}
 
 \subsubsection{User Interface}
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-\section{Beschreibung der Projektteile}
 
-\subsection{RoboGlove (Eingabe)}
-Der „RoboGlove“ ist das Hauptaugenmerk des Projekts. Er ermöglicht dem Benutzer die „Bionic Hand“ zu steuern. 
-Dies geschieht durch Flexsensoren, die an den Fingern des „RoboGlove“ angebracht sind. Wird ein Finger gebeugt, 
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+
+\section{Detailierte Beschreibung der Projektteile}
+
+\subsection{Handschuh (Eingabe)}
+Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. 
+Dies geschieht durch Flexsensoren, die an den Fingern des Handschuhs angebracht sind. Wird ein Finger gebeugt, 
 so ändert sich der Widerstand des Sensors. Diese Änderungen werden von einem Mikrokontroller erfasst, ausgewertet 
-und für die kabellose Übertragung an die „Bionic Hand“ vorbereitet. Damit der „RoboGlove“ funktioniert, bedarf es 
+und für die kabellose Übertragung an die Roboterhand vorbereitet. Damit dem Handschuh funktioniert, bedarf es 
 einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein. Für einen möglichen 
-stationären Betrieb kann der „RoboGlove“ auch mit einem Netzteil betrieben werden. Die Passform des RoboGlove soll 
+stationären Betrieb kann der Handschuh auch mit einem Netzteil betrieben werden. Die Passform des Handschuhs soll 
 möglichst komfortabel sein, um eine möglichst lange Benützung zu ermöglichen. Dies setzt eine gut überlegte Integration 
-der Elektronik voraus, die bei diesem Projekt auch bestmöglich beachtet wurde. Der „RoboGlove“ ist so gebaut, dass er 
+der Elektronik voraus, die bei diesem Projekt auch bestmöglich beachtet wurde. Der Handschuh ist so gebaut, dass er 
 auch von Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann.\\
 \\
-\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt „RoboGlove“ erfüllt:}\\
+\textcolor{red}{Folgende Richtlinien und Normen werden vom Handschuh erfüllt:}\\
 \\
 Die Software des Roboterhandschuhs ist dafür verantwortlich die sich verändernden Widerstandswerte der Flexsensoren 
 jeweils einzeln einzulesen. Über die UART-Schnittstelle wird die Software auf den ESP32 hochgeladen. Dabei werden 
@@ -315,15 +397,15 @@ direkt aus dem in der Schaltung verbauten ADC-Werte, über die I2C-Schnittstelle
 Werte, die der ESP32 dann direkt in einer festgelegten Reihenfolge an die Empfängerplatine, bei der Roboterhand, per 
 ESP-NOW Übertragung senden kann.
 
-\subsection{Bionische Hand (Ausgabe)}
-Die „Bionic Hand“ ist die Ausgabe des Projekts und wird vom „RoboGlove“ gesteuert. Jeder Finge wird von einem Servomotor 
-bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom „RoboGlove“ kommenden 
+\subsection{Roboterhand (Ausgabe)}
+Die Roboterhand ist die Ausgabe des Projekts und wird vom Roboterarm gesteuert. Jeder Finge wird von einem Servomotor 
+bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom Handschuh kommenden 
 Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
 Servomotoren umgewandelt. Jeder Finger hat drei Gelenke und kann daher kontrolliert gebeugt und wieder gestreckt werden. 
-Die komplette „Bionic Hand“ wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
+Die komplette Roboterhand wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
 mehr aus dem Griff der Hand rutschen können.\\
 \\
-\textcolor{red}{Folgende Richtlinien und Normen werden von dem Produkt Bionische Hand erfüllt:}\\
+\textcolor{red}{Folgende Richtlinien und Normen werden von der Roboterhand erfüllt:}\\
 \\
 Die Software des Roboterarmes ist dafür verantwortlich, dass die von der Handschuhplatine, via ESP32, gesendeten Daten 
 erfolgreich empfangen und gespeichert werden. Die Software wird hierzu per UART-Schnittstelle auf den ESP32 hochgeladen. 
@@ -341,17 +423,18 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 
 \section{Mechanische Entwicklung}
 
-\subsection{RoboGlove}
+\subsection{Handschuh}
 
-\subsection{Bionische Hand}
+\subsection{Roboterhand}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
 \section{Hardwareentwicklung}
 
-\subsection{RoboGlove}
-\subsubsection{Überlegungen und Versuchsaufbauten}
+\subsection{Handschuh}
+
+\subsubsection{Simulationen und Versuchsaufbauten}
 Sensorik:
 \\
 Es muss in irgendeiner Weise die Fingerbeugung, beziehungsweise Bewegung, des Benutzers mit dem „RoboGlove“ gemessen 
@@ -401,7 +484,8 @@ Mikro-USB-Anschluss notwendig, um den in einer Entwicklungsumgebung erstellten C
 nicht direkt mit dem ESP32 verbinden kann, ist zusätzlich noch ein Bustreiber notwendig, der ein am Mikrokontroller 
 vorhandenes Interface unterstützt.  
 
-\subsubsection{Simulationen und Dimensionierung}
+\subsubsection{Überlegungen und Berechnungen}
+
 \textcolor{red}{Bild der Spannungs-Simulation hier einfügen!!}\\
 \\
 Der Widerstand der Flexsensoren ändert sich bei zunehmender Beugung von 25k\textOmega auf 125k\textOmega.\\
@@ -434,13 +518,13 @@ Die Grenzfrequenz des Filters wurde folgender Maßen berechnet:\\
 \\
 Durch den zu GND geschalteten Widerstand R1 mit 10kOHM, wird er Eingang des danach kommenden ADCs entlastet. 
 
-\subsubsection{Testaufbauten und Schaltungsdesign}
+\subsubsection{Schaltplandesign}
 \subsubsection{Platinendesign}
 
-\subsection{Bionische Hand}
-\subsubsection{Überlegungen und Versuchsaufbauten}
-\subsubsection{Simulationen und Dimensionierung}
-\subsubsection{Testaufbauten und Schaltungsdesign}
+\subsection{Roboterhand}
+\subsubsection{Simulationen und Versuchsaufbauten}
+\subsubsection{Überlegungen und Dimensionierung}
+\subsubsection{Schaltplandesign}
 \subsubsection{Platinendesign}
 
 %--------------------------------------------------------------------------
@@ -448,20 +532,18 @@ Durch den zu GND geschalteten Widerstand R1 mit 10kOHM, wird er Eingang des dana
 
 \section{Softwareentwicklung}
 
-\subsection{RoboGlove}
-\subsubsection{Konzept und Überlegungen}
-\subsubsection{Realisierung}
+\subsection{Handschuh}
+\subsubsection{Konzepte und Überlegungen}
+\subsubsection{Realisierung und Gliederung}
 
-\subsection{Bionische Hand}
-\subsubsection{Konept und Überlegungen}
-\subsubsection{Realisierung}
+\subsection{Roboterhand}
+\subsubsection{Konzepte und Überlegungen}
+\subsubsection{Realisierung und Gliederung}
 
 \subsection{User Interface}
-
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-
-\section{Testphase}
+\subsubsection{Entwicklungsumgebung}
+\subsubsection{Konzepte und Überlegungen}
+\subsubsection{Realisierung und Gliederung}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -472,5 +554,7 @@ Durch den zu GND geschalteten Widerstand R1 mit 10kOHM, wird er Eingang des dana
 %--------------------------------------------------------------------------
 
 \section{Anhang}
+\section{Quellen -und Literaturverzeichnis}
+\section{Abbildungsverzeichnis}
 
 \end{document}

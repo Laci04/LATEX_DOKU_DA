@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  28 NOV 2023 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  25 JAN 2024 23:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1078,18 +1078,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Overfull \hbox (2.38052pt too wide) in paragraph at lines 209--216
-\OT1/cmr/m/n/10.95 Das Ziel des Di-plom-pro-jekts ist es, ei-ne bio-ni-sche Hand zu bau-en, die mit ei-nem draht-los ver-bun-de-nen
+Overfull \hbox (12.08539pt too wide) in paragraph at lines 210--224
+\OT1/cmr/bx/n/10.95 Aufgabenstellung: \OT1/cmr/m/n/10.95 Im Rah-men ei-nes Di-plom-pro-jekts soll ei-ne Ro-bo-ter-hand mit-tels ei-nes Hand-schuhs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--225
-
+Overfull \hbox (6.83342pt too wide) in paragraph at lines 210--224
+[]\OT1/cmr/m/n/10.95 ubertragen. Die Be-we-gun-gen der Ro-bo-ter-fin-ger wer-den mit Ser-vo-mo-to-ren rea-li-siert. Als User-Interface
  []
 
 
-Overfull \hbox (23.35648pt too wide) in paragraph at lines 218--225
-\OT1/cmr/m/n/10.95 Mitarbeiter: Fa-bi-an Schweit-zer (Mikrokontroller-Programmierung, Test-ma-na-ge-ment, Ge-sam-tin-te-gra-ti-on) 
+Overfull \hbox (6.21175pt too wide) in paragraph at lines 248--257
+\OT1/cmr/m/n/10.95 Fin-ger-be-we-gun-gen an der Ro-bo-ter-hand nach-zu-stel-len, muss folg-lich ei-ne Mo-to-ran-steue-rung ent-wi-ckelt
+ []
+
+
+Overfull \hbox (13.26048pt too wide) in paragraph at lines 248--257
+\OT1/cmr/m/n/10.95 wer-den (Sz-abo). Um die elek-tro-ni-schen Bau-ele-men-te un-ter-zu-brin-gen, muss ein ent-spre-chen-des Geh[]ause,
  []
 
 
@@ -1099,19 +1104,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (3.8546pt too wide) in paragraph at lines 263--264
-[]\OT1/cmr/m/n/10.95 Jeder die-ser Mo-to-ren muss in-di-vi-du-ell re-gel-bar sein, um die Griff-kraft der Hand zu kon-trol-lie-ren. 
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 284--289
+
  []
 
 
-Overfull \hbox (10.86554pt too wide) in paragraph at lines 273--276
-[]\OT1/cmr/m/n/10.95 Der Wi-der-stand je-des Flex-sen-sors, der an je-dem Hand-schuh je-weils []uber je-dem Fin-ger an-ge-bracht
+Overfull \hbox (23.35648pt too wide) in paragraph at lines 284--289
+\OT1/cmr/m/n/10.95 Mitarbeiter: Fa-bi-an Schweit-zer (Mikrokontroller-Programmierung, Test-ma-na-ge-ment, Ge-sam-tin-te-gra-ti-on) 
  []
 
 
-Overfull \hbox (0.78056pt too wide) in paragraph at lines 285--288
-\OT1/cmr/m/n/10.95 ver-schie-de-nen Flex-sen-so-ren . stark va-ri-ie-ren. Es soll bei je-dem Fin-ger ei-ne gleich gu-te Steue-rung
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--298
+
  []
 
 
@@ -1122,43 +1162,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
-Overfull \hbox (5.06628pt too wide) in paragraph at lines 300--317
-\OT1/cmr/m/n/10.95 Hand\ zu steu-ern. Dies ge-schieht durch Flex-sen-so-ren, die an den Fin-gern des []Ro-bo-Glove\ an-ge-bracht
- []
-
-
-Overfull \hbox (9.36906pt too wide) in paragraph at lines 300--317
-\OT1/cmr/m/n/10.95 Be-trieb kann der []Ro-bo-Glove\ auch mit ei-nem Netz-teil be-trie-ben wer-den. Die Pass-form des Ro-bo-Glove
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--317
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--317
-
- []
-
-
-Overfull \hbox (6.21046pt too wide) in paragraph at lines 300--317
-\OT1/cmr/m/n/10.95 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
- []
-
-
-Overfull \hbox (2.78073pt too wide) in paragraph at lines 319--336
-\OT1/cmr/m/n/10.95 wird von ei-nem Ser-vo-mo-tor be-wegt. Die-ser ist durch zwei d[]unne Schn[]ure mit dem kor-re-spon-die-ren-den
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--336
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--336
-
+Overfull \hbox (3.8546pt too wide) in paragraph at lines 340--341
+[]\OT1/cmr/m/n/10.95 Jeder die-ser Mo-to-ren muss in-di-vi-du-ell re-gel-bar sein, um die Griff-kraft der Hand zu kon-trol-lie-ren. 
  []
 
 
@@ -1168,27 +1173,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 355--372
+[7{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (10.86554pt too wide) in paragraph at lines 353--356
+[]\OT1/cmr/m/n/10.95 Der Wi-der-stand je-des Flex-sen-sors, der an je-dem Hand-schuh je-weils []uber je-dem Fin-ger an-ge-bracht
+ []
+
+
+Overfull \hbox (0.78056pt too wide) in paragraph at lines 365--368
+\OT1/cmr/m/n/10.95 ver-schie-de-nen Flex-sen-so-ren . stark va-ri-ie-ren. Es soll bei je-dem Fin-ger ei-ne gleich gu-te Steue-rung
+ []
+
+
+Overfull \hbox (20.54404pt too wide) in paragraph at lines 382--399
+\OT1/cmr/m/n/10.95 Der Hand-schuh erm[]oglicht dem Be-nut-zer die Ro-bo-ter-hand zu steu-ern. Dies ge-schieht durch Flex-sen-so-ren,
+ []
+
+
+Overfull \hbox (12.54462pt too wide) in paragraph at lines 382--399
+\OT1/cmr/m/n/10.95 und f[]ur die ka-bel-lo-se []Ubertragung an die Ro-bo-ter-hand vor-be-rei-tet. Da-mit dem Hand-schuh funk-tio-niert,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--399
 
  []
 
 
-Overfull \hbox (21.44139pt too wide) in paragraph at lines 355--372
-\OT1/cmr/m/n/10.95 ge-eig-net. Die L[]osung f[]ur die-ses Ge-nau-ig-keits-pro-blem ist ei-ne ADC-Schaltung mit ei-ner da-vor ge-schal-te-ten
+Underfull \hbox (badness 10000) in paragraph at lines 382--399
+
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg, id=40, 993.7125pt x 852.18375pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg Graphic file (type jpg)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg  used on input line 376.
-(pdftex.def)             Requested size: 377.62642pt x 323.84619pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--403
-
+Overfull \hbox (6.21046pt too wide) in paragraph at lines 382--399
+\OT1/cmr/m/n/10.95 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
  []
 
 
@@ -1199,47 +1216,97 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Overfull \hbox (2.78073pt too wide) in paragraph at lines 401--418
+\OT1/cmr/m/n/10.95 wird von ei-nem Ser-vo-mo-tor be-wegt. Die-ser ist durch zwei d[]unne Schn[]ure mit dem kor-re-spon-die-ren-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Underfull \hbox (badness 10000) in paragraph at lines 401--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Underfull \hbox (badness 10000) in paragraph at lines 438--455
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Overfull \hbox (21.44139pt too wide) in paragraph at lines 438--455
+\OT1/cmr/m/n/10.95 ge-eig-net. Die L[]osung f[]ur die-ses Ge-nau-ig-keits-pro-blem ist ei-ne ADC-Schaltung mit ei-ner da-vor ge-schal-te-ten
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg, id=46, 993.7125pt x 852.18375pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg Graphic file (type jpg)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg  used on input line 459.
+(pdftex.def)             Requested size: 377.62642pt x 323.84619pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--486
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
 
  []
 
 
-Overfull \hbox (8.34096pt too wide) in paragraph at lines 405--436
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
+
+ []
+
+
+Overfull \hbox (8.34096pt too wide) in paragraph at lines 489--520
 \OT1/cmr/m/n/10.95 den Wi-der-stand Rtp wird ein klei-ner Span-nungs-ab-fall er-zeugt, der bei der Mes-sung zwar ber[]ucksichtigt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--436
+Underfull \hbox (badness 10000) in paragraph at lines 489--520
 
  []
 
 
-Overfull \hbox (10.7567pt too wide) in paragraph at lines 405--436
+Overfull \hbox (10.7567pt too wide) in paragraph at lines 489--520
 \OT1/cmr/m/n/10.95 Durch den zu GND ge-schal-te-ten Wi-der-stand R1 mit 10kOHM, wird er Ein-gang des da-nach kom-men-den
  []
 
@@ -1250,7 +1317,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>]
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1258,7 +1325,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]
+[12]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1266,7 +1333,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11] (./Diplomarbeit.aux) ) 
+[13] (./Diplomarbeit.aux) ) 
 Here is how much of TeX's memory you used:
  39137 strings out of 476025
  983234 string characters out of 5790016
@@ -1274,12 +1341,12 @@ Here is how much of TeX's memory you used:
  59176 multiletter control sequences out of 15000+600000
  520360 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Diplomarbeit.pdf (12 pages, 251522 bytes).
+Output written on Diplomarbeit.pdf (14 pages, 257031 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
