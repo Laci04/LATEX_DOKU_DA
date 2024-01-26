@@ -281,11 +281,17 @@ gehalten werden. In dem Interface, dem User-Interface, sollen wichtige Daten dar
 Parameter verändert werden können.
 
 \subsection{Entwicklungsteam}
-Folgende Schüler des TGMs haben sich mit der Entwicklung des in Punkt 1.1 beschrieben Projekts befasst: \hfill \break
+Folgende Schüler des TGMs haben, das in Punkt 1.1 zusammengefasste, Projekt entwickelt und gefertigt: \hfill \break
 \\
 Projektleiter:    Ladislaus Szabo (Hardwareentwicklung, PCB-Design, Projektleitung)\\
 Mitarbeiter: Fabian Schweitzer (Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration)\\
-Amir Al-Maytah (3D-Druck, Mechanik, Userinterface-Programmierung)
+Amir Al-Maytah (3D-Druck, Mechanik, Userinterface-Programmierung) 
+\\
+\\
+Die folgenden beiden Betreuer haben uns jeder Zeit geholfen:
+\\
+Dipl.Ing. Christoph Diemberger \\
+Fachlehrer Robert Offner
 
 \hfill \break
 \hfill \break
@@ -315,8 +321,8 @@ Folgende mechanische Anforderungen muss der Handschuh nach Abschluss des Projekt
 		\item Die Finger sollen sich zitterfrei bewegen können.
 	\end{itemize}
 
-\subsection{Eletronische Hardware}
-\subsection{Handschuh}
+\subsection{Hardware}
+\subsubsection{Handschuh}
 Folgende elektronische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
 
 \subsubsection{Roboterhand}
@@ -325,13 +331,8 @@ Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Pro
 	\begin{itemize}
 		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
 		\item Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
-		\item Der zur Datenerfassung gewählte Mikrokontroller muss:
-		\begin{itemize}
-			\item Die I2C Kommunikation unterstützen.
-			\item Die Möglichkeit für eine kabellose Kommunikation aufweisen.
-			\item Analoge und Digitale Eingänge haben.
-			\item Programmierbar sein.
-		\end{itemize}
+		\item Der zur Datenerfassung gewählte Mikrokontroller muss die I2C-Kommunikation unterstützen, die Möglichkeit
+			  für eine kabellose Kommunikation aufweisen, analoge und digitale Eingänge haben und programmierbar sein. 
 		\item Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, 
 		      zu erfassen.
 		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
@@ -354,12 +355,6 @@ Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts e
 			  soll einzeln ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor 
 			  gebogen ist.
 		\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine gesendet werden.
-	\end{itemize}
-
-\subsubsection{Bionische Hand}
-Folgende Anforderungen müssen für die Software für die Roboterhandplatine nach Abschluss des Projekts erfüllt sein:
-
-	\begin{itemize}
 		\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden.
 		\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten richtig verarbeitet werden können.
 		\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen 
