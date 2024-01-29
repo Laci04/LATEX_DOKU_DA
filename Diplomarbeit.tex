@@ -346,38 +346,43 @@ Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Pro
 \subsection{Software}
 \subsubsection{Handschuh \textcolor{red}{Fabian}}
 Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+\begin{itemize}
+	\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, soll einzeln 
+	ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor gebogen ist.
+	\item Ein Multiplexer soll angesteuert werden, damit der Wert des jeweiligen Flexsensors ausgelesen werden kann. 
+	Ein ADC, der die Spannung misst, wandelt die analogen Werte in digitale um. Dieser muss ebenso zur Messung der einzelnen 
+	Werte ausgelesen werden.
+	\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine über den Funkstandard ESP-NOW 
+	gesendet werden.
+	\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden. Eine Bestätigung 
+	soll im Serial Monitor gesehen werden können.
+	\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen Flexsensoren stark 
+	variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
+	\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen dem Bewegen 
+	der Finger immer wieder dieser gemessen werden.
+	\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. Die 
+	Griffkraft soll je nach Objekt variieren.
+\end{itemize}
 
 \subsubsection{Roboterhand \textcolor{red}{Fabian}}
 Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
 
-	\begin{itemize}
-		\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, 
-			  soll einzeln ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor 
-			  gebogen ist.
-		\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine gesendet werden.
-		\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden.
-		\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten richtig verarbeitet werden können.
-		\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen 
-		      Flexsensoren .
-			  stark variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
-		\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen 
-		      dem Bewegen der Finger immer wieder dieser gemessen werden.
-		\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. 
-			  Die Griffkraft soll je nach Objekt variieren.
-	\end{itemize}
+\begin{itemize}
+	\item Die von der Senderplatine, über ESP-NOW, gesendeten Daten sollen erfolgreich empfangen und verarbeitet werden.
+	\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten korrigiert werden können, um starke Werteabweichungen, 
+	die durch Fehlmessungen entstehen, zu reduzieren.
+	\item Die Servos, die zur Steuerung der einzelnen Finger der Roboterhand nötig sind, sollen über die Software einzeln 
+	angesprochen werden können. Der jeweils richtige Wert (der Biegung) des jeweiligen Flexsensors soll dann die idente 
+	Bewegung des Fingers verursachen.
+	\item Die empfangenen Werte sollen ebenso an das User Interface per UART übertragen werden, um sie dort grafisch 
+	darzustellen.
+	\item Die Werte, die im User Interface eingestellt werden, sollen von der Empfängerplatine verarbeitet werden. Die Finger 
+	sollen sich dann exakt so viel bewegen, wie es im User Interface eingestellt wird.
+		
+\end{itemize}
 
 \subsubsection{User Interface \textcolor{red}{Laci}}
 
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
 \hfill \break
 \hfill \break
 
@@ -387,15 +392,19 @@ Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts e
 \section{Detailierte Beschreibung der Projektteile}
 
 \subsection{Handschuh (Eingabe) \textcolor{red}{Fabian}}
-Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. 
-Dies geschieht durch Flexsensoren, die an den Fingern des Handschuhs angebracht sind. Wird ein Finger gebeugt, 
-so ändert sich der Widerstand des Sensors. Diese Änderungen werden von einem Mikrokontroller erfasst, ausgewertet 
-und für die kabellose Übertragung an die Roboterhand vorbereitet. Damit dem Handschuh funktioniert, bedarf es 
-einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein. Für einen möglichen 
-stationären Betrieb kann der Handschuh auch mit einem Netzteil betrieben werden. Die Passform des Handschuhs soll 
-möglichst komfortabel sein, um eine möglichst lange Benützung zu ermöglichen. Dies setzt eine gut überlegte Integration 
-der Elektronik voraus, die bei diesem Projekt auch bestmöglich beachtet wurde. Der Handschuh ist so gebaut, dass er 
-auch von Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann.\\
+Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
+Handschuhs angebracht sind. Wird ein Finger gebeugt, so ändert sich der Widerstandswert des Sensors. Diese Änderungen werden 
+von einem Mikrokontroller erfasst, der per Kabel über UART die Werte kontinuierlich ausliest. Anschließend wird die kabellose 
+Übertragung über den Funkstandard ESP-NOW realisiert. Das Senden an die Roboterhand wird vorbereitet. Damit der Handschuh 
+funktioniert, bedarf es einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein, 
+funktioniert aber allenfalls über ein USB-C Kabel. Für einen möglichen stationären Betrieb kann der Handschuh auch mit einem 
+Netzteil betrieben werden. Die Passform des Handschuhs soll möglichst komfortabel sein, um eine möglichst lange Benützung zu 
+ermöglichen. Dies setzt eine gut überlegte Integration der Elektronik voraus. Die Flexsensoren sollen fest auf dem Handschuh 
+befestigt sein. Die Widerstandswerte sind ansonsten bei jedem Mal biegen unterschiedlich, wenn die Flexsensoren nicht an einer 
+Stelle am Handschuh bleiben, sondern sich verschieben. Diese Montage wird bei diesem Projekt auch bestmöglich beachtet. Der 
+Handschuh ist so gebaut, dass er auch von Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann. Das 
+liegt daran, dass nur die Finger gebeugt oder gestreckt werden müssen. Jede Handbewegung kann also gemacht werden, die Werte 
+werden per Software automatisch richtig verarbeitet. \\
 \\
 \textcolor{red}{Folgende Richtlinien und Normen werden vom Handschuh erfüllt:}\\
 \\
@@ -714,6 +723,14 @@ verbunden. \\
 
 \subsection{Handschuh}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
+Datenübertragung:
+Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor ausliest, zu übertragen. Wichtig ist es, dass 
+dies einfach und auf eine sehr stabile Weise funktioniert. Anfangs war Bluetooth die favorisierte Option, später dann aber Wifi. 
+Schlussendlich wurde es dann ESP-NOW, das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro 
+Sendung 250 Byte gesendet werden. Ebenso ist eine Kommunikation zwischen mehreren ESP32 in beide Richtungen möglich. Der 
+Standard gilt allerdings wirklich nur für den ESP32, was allerdings aufgrund der Wahl von nur diesen letztgenannten, keine 
+Probleme darstellt.
+
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
 
 \subsection{Roboterhand}

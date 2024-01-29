@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.3}Software}{8}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Handschuh \textcolor {red}{Fabian}}{8}{}%
 \contentsline {subsubsection}{\numberline {2.3.2}Roboterhand \textcolor {red}{Fabian}}{8}{}%
-\contentsline {subsubsection}{\numberline {2.3.3}User Interface \textcolor {red}{Laci}}{8}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}User Interface \textcolor {red}{Laci}}{9}{}%
 \contentsline {section}{\numberline {3}Detailierte Beschreibung der Projektteile}{9}{}%
 \contentsline {subsection}{\numberline {3.1}Handschuh (Eingabe) \textcolor {red}{Fabian}}{9}{}%
 \contentsline {subsection}{\numberline {3.2}Roboterhand (Ausgabe) \textcolor {red}{Amir}}{9}{}%
@@ -40,15 +40,15 @@
 \contentsline {section}{\numberline {6}Softwareentwicklung}{16}{}%
 \contentsline {subsection}{\numberline {6.1}Handschuh}{16}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{16}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{16}{}%
-\contentsline {subsection}{\numberline {6.2}Roboterhand}{16}{}%
-\contentsline {subsubsection}{\numberline {6.2.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{16}{}%
-\contentsline {subsubsection}{\numberline {6.2.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{16}{}%
-\contentsline {subsection}{\numberline {6.3}User Interface}{16}{}%
-\contentsline {subsubsection}{\numberline {6.3.1}Entwicklungsumgebung \textcolor {red}{Laci}}{16}{}%
-\contentsline {subsubsection}{\numberline {6.3.2}Konzepte und Überlegungen \textcolor {red}{Laci}}{16}{}%
-\contentsline {subsubsection}{\numberline {6.3.3}Realisierung und Gliederung \textcolor {red}{Laci}}{16}{}%
-\contentsline {section}{\numberline {7}Abschluss und Zusammenfassung}{16}{}%
-\contentsline {section}{\numberline {8}Anhang}{16}{}%
-\contentsline {section}{\numberline {9}Quellen -und Literaturverzeichnis}{16}{}%
-\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{16}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{17}{}%
+\contentsline {subsection}{\numberline {6.2}Roboterhand}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{17}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{17}{}%
+\contentsline {subsection}{\numberline {6.3}User Interface}{17}{}%
+\contentsline {subsubsection}{\numberline {6.3.1}Entwicklungsumgebung \textcolor {red}{Laci}}{17}{}%
+\contentsline {subsubsection}{\numberline {6.3.2}Konzepte und Überlegungen \textcolor {red}{Laci}}{17}{}%
+\contentsline {subsubsection}{\numberline {6.3.3}Realisierung und Gliederung \textcolor {red}{Laci}}{17}{}%
+\contentsline {section}{\numberline {7}Abschluss und Zusammenfassung}{17}{}%
+\contentsline {section}{\numberline {8}Anhang}{17}{}%
+\contentsline {section}{\numberline {9}Quellen -und Literaturverzeichnis}{17}{}%
+\contentsline {section}{\numberline {10}Abbildungsverzeichnis}{17}{}%
