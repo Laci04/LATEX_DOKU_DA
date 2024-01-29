@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  26 JAN 2024 08:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 JAN 2024 16:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1189,27 +1189,87 @@ Overfull \hbox (0.78056pt too wide) in paragraph at lines 360--363
  []
 
 
-Overfull \hbox (20.54404pt too wide) in paragraph at lines 377--394
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--383
+
+ []
+
+
+Overfull \hbox (20.54404pt too wide) in paragraph at lines 390--407
 \OT1/cmr/m/n/10.95 Der Hand-schuh erm[]oglicht dem Be-nut-zer die Ro-bo-ter-hand zu steu-ern. Dies ge-schieht durch Flex-sen-so-ren,
  []
 
 
-Overfull \hbox (12.54462pt too wide) in paragraph at lines 377--394
+Overfull \hbox (12.54462pt too wide) in paragraph at lines 390--407
 \OT1/cmr/m/n/10.95 und f[]ur die ka-bel-lo-se []Ubertragung an die Ro-bo-ter-hand vor-be-rei-tet. Da-mit dem Hand-schuh funk-tio-niert,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--394
+Underfull \hbox (badness 10000) in paragraph at lines 390--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--394
+Underfull \hbox (badness 10000) in paragraph at lines 390--407
 
  []
 
 
-Overfull \hbox (6.21046pt too wide) in paragraph at lines 377--394
+Overfull \hbox (6.21046pt too wide) in paragraph at lines 390--407
 \OT1/cmr/m/n/10.95 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
  []
 
@@ -1221,28 +1281,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Overfull \hbox (2.78073pt too wide) in paragraph at lines 396--413
+Overfull \hbox (2.78073pt too wide) in paragraph at lines 409--426
 \OT1/cmr/m/n/10.95 wird von ei-nem Ser-vo-mo-tor be-wegt. Die-ser ist durch zwei d[]unne Schn[]ure mit dem kor-re-spon-die-ren-den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--413
+Underfull \hbox (badness 10000) in paragraph at lines 409--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--413
+Underfull \hbox (badness 10000) in paragraph at lines 409--426
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--450
+Overfull \hbox (0.10408pt too wide) in paragraph at lines 446--477
+\OT1/cmr/m/n/10.95 die Er-fas-sung der Fin-ger-be-we-gun-gen mit-tels Flex-sen-so-ren ent-schie-den. Die-se []andern den Wi-der-stand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--477
 
  []
 
 
-Overfull \hbox (21.44139pt too wide) in paragraph at lines 433--450
-\OT1/cmr/m/n/10.95 ge-eig-net. Die L[]osung f[]ur die-ses Ge-nau-ig-keits-pro-blem ist ei-ne ADC-Schaltung mit ei-ner da-vor ge-schal-te-ten
+Overfull \hbox (22.91052pt too wide) in paragraph at lines 446--477
+\OT1/cmr/m/n/10.95 Shunt-wi-der-stand die Span-nungs-dif-fe-renz mes-sen, die sich bei ei-ner Ver[]anderung des fle-xiblen Wi-der-stands
+ []
+
+
+Overfull \hbox (2.23323pt too wide) in paragraph at lines 446--477
+\OT1/cmr/m/n/10.95 er-gibt. Durch ei-ne ge-eig-ne-te Verst[]arkung des OPVs kann die-se mit ei-ner Re-fe-renz-span-nung ver-gli-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--477
+
  []
 
 
@@ -1253,13 +1338,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg, id=46, 993.7125pt x 852.18375pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg Graphic file (type jpg)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg  used on input line 454.
-(pdftex.def)             Requested size: 377.62642pt x 323.84619pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--481
+Underfull \hbox (badness 10000) in paragraph at lines 478--484
 
  []
 
@@ -1270,49 +1349,109 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Handschuh_Spannung.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 484--490
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Overfull \hbox (2.04344pt too wide) in paragraph at lines 484--490
+\OT1/cmr/m/n/10.95 OPV kei-ne Rail-to-Rail Tech-no-lo-gie be-sitzt, muss der Aus-gangs-span-nungs-pe-gel auf ein ge-wis-ses
+ []
+
+
+Overfull \hbox (9.96709pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 Aufgrund die-ser Kri-te-ri-en und der Not-wen-dig-keit von Ge-nau-ig-keit und ge-rin-ger St[]orungseigenschaften,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Overfull \hbox (2.29402pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 Der Shunt-Widerstand wur-de nicht be-rech-net. Die-ser wur-de ein-fach durch pro-bie-ren in-der Si-mu-la-ti-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Overfull \hbox (38.17976pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 Ein Tief-pass-fil-ter (Rf und Cf) ist hin-ter den Aus-gang des OPVs ge-schal-tet, um m[]ogliche Span-nungs-st[]orungen
+ []
+
+
+Overfull \hbox (30.7593pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 (Ripp-le), zus[]atzlich zu dem oh-ne-hin schon sehr st[]orungsarmen Aus-gangs-si-gnal des INA129, her-aus-zu-fil-tern.
+ []
+
+
+Overfull \hbox (15.26683pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 Der zu GND ge-schal-te-te Wi-der-stand (R1), ent-las-tet den Ein-gang des fol-gen-den AD-Cs. Der Tief-pass-fil-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Overfull \hbox (8.34096pt too wide) in paragraph at lines 484--515
-\OT1/cmr/m/n/10.95 den Wi-der-stand Rtp wird ein klei-ner Span-nungs-ab-fall er-zeugt, der bei der Mes-sung zwar ber[]ucksichtigt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--515
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
 
  []
 
 
-Overfull \hbox (10.7567pt too wide) in paragraph at lines 484--515
-\OT1/cmr/m/n/10.95 Durch den zu GND ge-schal-te-ten Wi-der-stand R1 mit 10kOHM, wird er Ein-gang des da-nach kom-men-den
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
+ []
+
+
+Overfull \hbox (51.01436pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 Um nun die ana-lo-gen Aus-gangs-wer-te des Ope-ra-ti-ons-verst[]arkers nach der Verst[]arkung der Span-nungs-dif-fe-ren-zen
+ []
+
+
+Overfull \hbox (21.93721pt too wide) in paragraph at lines 492--525
+\OT1/cmr/m/n/10.95 am Flex-sen-sor f[]ur den Mi-kro-kon-trol-ler m[]oglichst ef-fi-zi-ent und brauch-bar zu ma-chen, ist ei-ne Um-wand-lung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--525
+
  []
 
 
@@ -1323,6 +1462,80 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
+
+ []
+
+
+Overfull \hbox (13.26729pt too wide) in paragraph at lines 536--549
+\OT1/cmr/m/n/10.95 Der rea-le Aus-gangs-pe-gel des OPVs liegt wie bei der Si-mu-la-ti-on in Punkt []Aus-le-sen der Sen-so-ren^^?ermit-telt
+ []
+
+
+Overfull \hbox (21.41899pt too wide) in paragraph at lines 536--549
+\OT1/cmr/m/n/10.95 ha-ben wir uns noch da-zu ent-schie-den al-le Lo-gik-bau-tei-le die ei-ne Kom-mu-ni-ka-ti-on mit dem Mi-kro-kon-trol-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--556
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--578
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--578
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1330,20 +1543,170 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12] (./Diplomarbeit.aux) ) 
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 579--583
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 583--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--597
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 597--602
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--606
+
+ []
+
+
+Overfull \hbox (0.4162pt too wide) in paragraph at lines 602--606
+\OT1/cmr/m/n/10.95 Schlussendlich d[]urfen sich al-le Kri-te-ri-en je-doch nicht zu sehr auf die Gr[]o^^Ye des Mi-kro-kon-trol-lers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--617
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 622--626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 627--637
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 638--644
+
+ []
+
+
+Overfull \hbox (43.59995pt too wide) in paragraph at lines 638--644
+\OT1/cmr/m/n/10.95 bei ei-nem feh-ler-haf-ten Sen-sor eben-falls zu ber[]ucksichtigen. Auf-grund des-sen wird ei-ne 6-Pin-JST-Buchse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 645--650
+
+ []
+
+
+Overfull \hbox (12.3176pt too wide) in paragraph at lines 645--650
+\OT1/cmr/m/n/10.95 an-zul[]oten. Da der Ak-ku einen Ver-sor-gungs -und GND-Anschluss hat, wird ei-ne 2-Pin-JST-Buchse
+ []
+
+
+Overfull \hbox (51.47194pt too wide) in paragraph at lines 652--660
+\OT1/cmr/m/n/10.95 Bus-lei-tun-gen, al-so I2C und UART, wur-den Wi-derst[]ande in Se-rie hin-zu-gef[]ugt, um die Kom-mu-ni-ka-ti-ons-lei-tun-gen
+ []
+
+
+Overfull \hbox (4.46678pt too wide) in paragraph at lines 652--660
+\OT1/cmr/m/n/10.95 F[]ur die Da-ten-lei-tun-gen SDA und SCL des I2c Bus-ses sind zwei $10\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 
+$ PullUp-Widerst[]ande vor-ge-se-hen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 652--660
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 661--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--672
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--677
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--680
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--701
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 682--701
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16] (./Diplomarbeit.aux) ) 
 Here is how much of TeX's memory you used:
- 39137 strings out of 476025
- 983234 string characters out of 5790016
- 1866388 words of memory out of 5000000
- 59176 multiletter control sequences out of 15000+600000
- 520360 words of font info for 58 fonts, out of 8000000 for 9000
+ 39121 strings out of 476025
+ 982275 string characters out of 5790016
+ 1867388 words of memory out of 5000000
+ 59162 multiletter control sequences out of 15000+600000
+ 519664 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cbfonts/grmn1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Diplomarbeit.pdf (13 pages, 256345 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Diplomarbeit.pdf (17 pages, 268853 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
