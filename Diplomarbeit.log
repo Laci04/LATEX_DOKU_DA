@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 JAN 2024 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 JAN 2024 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1531,33 +1531,48 @@ Overfull \hbox (0.4162pt too wide) in paragraph at lines 611--615
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--626
+Underfull \hbox (badness 10000) in paragraph at lines 616--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--626
+Underfull \hbox (badness 10000) in paragraph at lines 616--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--635
+Overfull \hbox (14.97787pt too wide) in paragraph at lines 616--639
+\OT1/cmr/m/n/10.95 des Mi-kro-kon-trol-lers ver-wen-det wird. Da-zu ist al-ler-dings ei-ne re-la-tiv kom-plit-zier-te Schal-tung not-wen-dig,
+ []
+
+
+Overfull \hbox (3.17136pt too wide) in paragraph at lines 616--639
+\OT1/cmr/m/n/10.95 wes-we-gen bei vie-len Pro-duk-ten, die LiPo-Akkus ver-wen-den, ex-tra La-de-ger[]ate ge-kauft wer-den m[]ussen.
+ []
+
+
+Overfull \hbox (17.73851pt too wide) in paragraph at lines 616--639
+\OT1/cmr/m/n/10.95 Dies woll-ten wir ver-mei-den und ha-ben dement-spre-chend viel Zeit in die Re-ser-che f[]ur ei-ne funk-tio-nie-ren-de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--646
+Underfull \hbox (badness 10000) in paragraph at lines 616--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--653
+Underfull \hbox (badness 10000) in paragraph at lines 644--648
 
  []
 
 
-Overfull \hbox (43.59995pt too wide) in paragraph at lines 647--653
-\OT1/cmr/m/n/10.95 bei ei-nem feh-ler-haf-ten Sen-sor eben-falls zu ber[]ucksichtigen. Auf-grund des-sen wird ei-ne 6-Pin-JST-Buchse
+Underfull \hbox (badness 10000) in paragraph at lines 649--659
+
  []
 
 
@@ -1568,58 +1583,53 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 654--659
+Underfull \hbox (badness 10000) in paragraph at lines 660--666
 
  []
 
 
-Overfull \hbox (12.3176pt too wide) in paragraph at lines 654--659
+Overfull \hbox (43.59995pt too wide) in paragraph at lines 660--666
+\OT1/cmr/m/n/10.95 bei ei-nem feh-ler-haf-ten Sen-sor eben-falls zu ber[]ucksichtigen. Auf-grund des-sen wird ei-ne 6-Pin-JST-Buchse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 667--672
+
+ []
+
+
+Overfull \hbox (12.3176pt too wide) in paragraph at lines 667--672
 \OT1/cmr/m/n/10.95 an-zul[]oten. Da der Ak-ku einen Ver-sor-gungs -und GND-Anschluss hat, wird ei-ne 2-Pin-JST-Buchse
  []
 
 
-Overfull \hbox (51.47194pt too wide) in paragraph at lines 661--669
+Overfull \hbox (51.47194pt too wide) in paragraph at lines 674--682
 \OT1/cmr/m/n/10.95 Bus-lei-tun-gen, al-so I2C und UART, wur-den Wi-derst[]ande in Se-rie hin-zu-gef[]ugt, um die Kom-mu-ni-ka-ti-ons-lei-tun-gen
  []
 
 
-Overfull \hbox (4.46678pt too wide) in paragraph at lines 661--669
+Overfull \hbox (4.46678pt too wide) in paragraph at lines 674--682
 \OT1/cmr/m/n/10.95 F[]ur die Da-ten-lei-tun-gen SDA und SCL des I2c Bus-ses sind zwei $10\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 
 $ PullUp-Widerst[]ande vor-ge-se-hen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 661--669
+Underfull \hbox (badness 10000) in paragraph at lines 674--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 670--675
+Underfull \hbox (badness 10000) in paragraph at lines 683--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--681
+Underfull \hbox (badness 10000) in paragraph at lines 689--694
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 681--686
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 686--689
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 691--710
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 691--710
+Underfull \hbox (badness 10000) in paragraph at lines 694--699
 
  []
 
@@ -1631,6 +1641,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
+Underfull \hbox (badness 10000) in paragraph at lines 699--702
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--727
+
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1656,7 +1685,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Diplomarbeit.pdf (18 pages, 271828 bytes).
+Output written on Diplomarbeit.pdf (18 pages, 273147 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

@@ -621,7 +621,20 @@ Funktionalitäten immer noch im Rahmen. \\
 \\
 \textbf{Akkuversorgung:}
 \\
-Die Stromversorgung der gesamten Schaltung soll schlussendlich mit einem Akku erfolgen. Zu diesem Zweck, 
+Da es nicht praktikabel ist die Schaltung des Handschuhs dauerhaft mit einem Kabel zu versorgen, soll dies schlussendlich durch
+einen Akku oder eine Batterie erfolgen. Entschieden haben wir uns für eine Lithium-Polymer-Akku (LiPo), da diese trotz geringer 
+größe verglichen mit anderen Akkuarten eine hohe Kapazität besitzen. \\
+\\
+Die notwendige Kapazität für eine bestimmte Betriebsdauer wurde folgendermaßen berechnet:
+\textcolor{red}{Berechnung Akkukapazität hier einfügen}
+\\
+Um den LiPo-Akku nicht jedes mal extern aufladen zu müssen, haben wir uns eine Schaltung überlegt, die dies auch mithilfe des
+schon vorhandenen USB-C Anschlusses für das Programmieren des Mikrokontrollers verwendet wird. Dazu ist allerdings eine relativ 
+komplitzierte Schaltung notwendig, weswegen bei vielen Produkten, die LiPo-Akkus verwenden, extra Ladegeräte gekauft werden müssen.
+Dies wollten wir vermeiden und haben dementsprechend viel Zeit in die Reserche für eine funktionierende LiPo-Kontroller-Schaltung
+investiert. \\
+\\
+Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. Entschieden haben wir uns für den \textcolor{red}{LiPo-Akku}.
 \\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
@@ -698,6 +711,10 @@ verbunden. \\
 \textbf{Akku Versorgung:}
 \\
 \textbf{Multiplexer:}
+\\
+Der Multiplexer schaltet zwischen allen Flexsensoren durch und vermeidet somit die Messschaltung fünf mal bauen zu müssen. 
+Die Verbindung zum ESP32 erfolgt über drei digitale Addresspins und einen Enable Pin. Je nachdem welche Bitkombination übermittelt
+wird, ändert sich die interne Schalterposition und somit der gerade aktive Kanal zur Messung eines Flexsensors. \\
 \\
 \textbf{Operationsverstärker:}
 \\
