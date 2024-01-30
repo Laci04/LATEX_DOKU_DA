@@ -653,6 +653,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -686,6 +697,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.de
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./Diplomarbeit.aux
+INPUT Diplomarbeit.aux
+INPUT Diplomarbeit.aux
 OUTPUT Diplomarbeit.aux
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
@@ -799,6 +813,9 @@ INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Laci_Unterschrift
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Laci_Unterschrift.jpg
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT ./Diplomarbeit.toc
+INPUT Diplomarbeit.toc
+INPUT Diplomarbeit.toc
 OUTPUT Diplomarbeit.toc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm

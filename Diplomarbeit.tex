@@ -16,6 +16,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[margin=2.5cm]{geometry}
 \usepackage[none]{hyphenat}
+\usepackage{float}
 %==========================================================================
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -323,7 +324,19 @@ Folgende mechanische Anforderungen muss der Handschuh nach Abschluss des Projekt
 
 \subsection{Hardware}
 \subsubsection{Handschuh \textcolor{red}{Laci}}
-Folgende elektronische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+Die Hardware des Handschuhs muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtprojekt eingebaut 
+werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigste Punkt zu nennen. Da es bei diesem Projekt nicht nur
+um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, darf die entgültige Platine auf dem Handschuhrücken
+nicht größer als 3cm x 3cm sein. Beim Design der Elektronik muss durch die Größenrestriktion natürlich darauf geachtet, dass durch
+diese keine Einbußen in Bezug auf die korrekte und sichere Funktion des Projektteils entstehen. Übermäßige Wärmeentwicklung ist 
+ebenfalls zu vermeiden, da diese ab einer Temperatur von ca. 60C° unangenehm für den Endbenutzer wird. Die Versorgung der Schaltung
+sollte möglichst über einen kleinen und portablen Akku geschehen, um dem Benutzer das bestmögliche Erlebnis zu bereiten. Wenn diese
+schaltungsbezogenen Anforderungen bedacht sind, stellt sich nun die Frage wie und womit die Fingerbewegungen des Anwenders erfasst 
+werden sollen. Hier setzen wir auf Flexsensoren, wobei optional noch ein Gyro-Sensor, also ein Mikrochip mit einem eingebauten
+Gyroskop, zum Einsatz kommen kann. Diese Sensoren müssen durch einen Mikrokontroller gesteuert beziehungsweise ausgelesen werden.
+Für die Verwendung des Mikrokontrollers muss eine Art von Datendigitalisierung in der Schaltung vorhanden sein, die zumindest 30
+verschiedene Sensorpositionen erkennen kann. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
+auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen.
 
 \subsubsection{Roboterhand \textcolor{red}{Laci}}
 Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Projekts erfüllen:
@@ -393,8 +406,11 @@ Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts e
 
 \subsection{Handschuh (Eingabe) \textcolor{red}{Fabian}}
 Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
-Handschuhs angebracht sind. Wird ein Finger gebeugt, so ändert sich der Widerstandswert des Sensors. Diese Änderungen werden 
-von einem Mikrokontroller erfasst, der per Kabel über UART die Werte kontinuierlich ausliest. Anschließend wird die kabellose 
+Handschuhs entweder durch annähen, ankleben, oder einer 3D gedruckten Motage angebracht sind. Wird ein Finger gebeugt, so ändert
+sich der Widerstandswert der korrespondierenden Sensoren. Diese Änderungen werden von einer Messschaltung erfasst, die die Sensorwerte
+interpretiert, digitalisiert und anschließlich an den Mikrokontroller über ein Kommunikationsprotokoll weitergibt. \\
+
+Anschließend wird die kabellose 
 Übertragung über den Funkstandard ESP-NOW realisiert. Das Senden an die Roboterhand wird vorbereitet. Damit der Handschuh 
 funktioniert, bedarf es einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein, 
 funktioniert aber allenfalls über ein USB-C Kabel. Für einen möglichen stationären Betrieb kann der Handschuh auch mit einem 
@@ -481,7 +497,7 @@ werden. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 Die Flexsensoren (Rflex) beziehen ihre Versorgung über einen Shunt-Widerstand (Rs). Je nach Belastung, ändert sich der 
 Spannungsabfall an diesem (Je größer die Beugung des Sensors, desto kleiner ist der Spannungsabfall). Die Spannungsdifferenz 
 am Shunt-Widerstand wird von einem Operationsverstärker verstärkt. Bei der Auswahl des OPVs sind einige Punkte zu beachten, um 
@@ -714,7 +730,7 @@ Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeins
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \textbf{Mikrokontroller Buttons:}
 \\
 In der Schaltung sind drei Taster verbaut. Diese sind alle mit dem Mikrokontroller verbunden und erfüllen verschiedene Funktionen.
@@ -746,9 +762,7 @@ verbunden. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
-\textbf{Akku Versorgung:}
-\\ 
+
 \textbf{Multiplexer:}
 \\
 Der Multiplexer schaltet zwischen allen Flexsensoren durch und vermeidet somit die Messschaltung fünf mal bauen zu müssen. 
@@ -775,8 +789,17 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \textbf{Analog-Digital-Wandler:}
+\\
+Der Analog-Digital-Wandler ist dafür zuständig, die analogen Werte, vom Ausgang des Operationsverstärkers kommend, in digitale 
+Signale umzuwandeln. Der OPV und der ADC sind über das Label toADC verbunden. Da der Chip über 3.3V versorgt wird, befindet
+sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im Punkt Umwandlung der Diferenzwerte in ein geeignetes Format berechnet, 
+hat der ADC in unserer Schaltung ein LSB von 3.22mV. Da wir wissen, dass die kleinste Spannungsdifferenz am Shuntwiderstand 6.3mV
+ist und diese auch noch mit dem Faktor 46 verstärkt wird, kann festgestellt werden, dass der ADC mehr als genau genug für unsere
+Anwendung ist. Dies ist ein Vorteil, da bei der Programmierung anschließend nicht zwischen einzelnen ADC-Stufen unterschieden werden
+muss, sondern immer mehrere LSBs Unterschied auftritt. Die aktualisierten Werte, werden über die beiden I2C Leitungen an den 
+Mikrokontroller übertragen. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -785,8 +808,13 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \textbf{Gyroskop-Sensor:}
+\\
+Der Gyroskopsensor ist dafür zuständig die Drehung des Handschuhs in X, Y -und Z Richtung warzunehmen. Die Versorgung basiert 
+auf 3.3V und die Datenübertragung erneut mittels I2C-Bussystem. Der Unterschied bei diesem Chip ist allerdings, dass mehrere ADCs
+integriert sind, um die Positionsdaten der Achsen schon digitalisiert an den Mikrokontroller zu übergeben. AD0 wird dabei verwendet
+um die Adresse des Mikrochips festzulegen. Diese wird später benötigt um mit dem Sensor Daten austauschen zu können.
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -795,6 +823,12 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
+Am Pin CLKIN hätte man die Möglichkeit einen externen Referenztaktgeber anzuschließen. Bei unserer Anwendung ist der integrierte 
+Taktgeber allerdings völlig ausreichend, weswegen der Anschluss mit GND verbunden und damit deaktiviert wurde. Der CS Pin wird nur
+für die SPI Kommunikation benötigt, weshalb dieser ebenfalls deaktiviert wurde. Das gleiche gilt für den Anschluss FSYNC. Die beiden
+AUX-Anschlüsse könnte man verwenden, um mit anderen I2C fähigen Sensoren direkt zu kommunizieren. Da dies allerdings unser einziger
+Sensorchip mit dieser Fähigkeit ist, bleiben die beiden Pins auch nicht verbunden. Die Kondensatoren sind vom Hersteller im Datenblatt
+vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \\
 \textbf{Akku Versorgung:}
 \\
@@ -805,7 +839,7 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -813,7 +847,7 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -821,7 +855,7 @@ von 1V verwendet. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-\\
+
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
 \subsection{Roboterhand}

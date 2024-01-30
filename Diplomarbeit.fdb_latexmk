@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706623364 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1706623366 2
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1706623362 44003 dd4e769bcac8fd97ab3e874fa0d2cce9 ""
+["pdflatex"] 1706628754 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1706628756 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1706628754 47945 a46c756d24d0cc96fb4c32914dbd27f2 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -139,6 +139,7 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/filecontents/filecontents.sty" 1569102703 3408 71173360dc73c4a3f80bb0bc7b926ba0 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -181,9 +182,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1706623366 6979 aec6abc8ee99154f1f88aeb2661a3dab "pdflatex"
-  "Diplomarbeit.tex" 1706623362 44003 dd4e769bcac8fd97ab3e874fa0d2cce9 ""
-  "Diplomarbeit.toc" 1706623366 4703 9c2fd360cf8bd9ef13284bb2e058b4ae "pdflatex"
+  "Diplomarbeit.aux" 1706628756 6987 223549762192434a2e311745a5bb1312 "pdflatex"
+  "Diplomarbeit.tex" 1706628754 47945 a46c756d24d0cc96fb4c32914dbd27f2 ""
+  "Diplomarbeit.toc" 1706628756 4711 e9ac1cf274925187f7a53bd3e60a7a25 "pdflatex"
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/Akku_Boostconverter_Schaltplan_Handschuh.png" 1706622894 109363 6fd598b6378a1d4896a6bcee38051983 ""
   "src/Akku_Buckconverter_Schaltplan_Handschuh.png" 1706622732 70987 c62347e551259e1a1730f50bb66db2e4 ""
@@ -193,7 +194,7 @@
   "src/Fabian_Unterschrift.jpeg" 1700818055 55501 96984c7ee99791869cc5192c92b8f352 ""
   "src/Gyro_Schaltplan_Handschuh.png" 1706621622 82131 63ed140ce0b0282ede409b49db68ed10 ""
   "src/JST_Akku_Schaltplan_Handschuh.png" 1706400733 48381 599245243352ebc195961412f6fb829a ""
-  "src/JST_Flexsensoren_Schaltplan_Handschuh.png" 1706400658 71174 65f3b483439207712f4c782336d99318 ""
+  "src/JST_Flexsensoren_Schaltplan_Handschuh.png" 1706626755 66395 7503dc8aef895f11da2a3fe65eb6abdd ""
   "src/LEDs_Schaltplan_Handschuh.png" 1706621250 36005 aecca296329ae43e0c9d685f78cc7e18 ""
   "src/Laci_Unterschrift.jpg" 1700769089 6350 254870e4d258309b3c16d7af34094d8e ""
   "src/Operationsverstärker_Schaltplan_Handschuh.png" 1706598210 88689 bf38ab0d1684782d82d0d5e3673dfec6 ""
