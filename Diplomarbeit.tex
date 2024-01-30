@@ -474,8 +474,13 @@ allerdings nicht optimal und ist daher nicht für unsere Anwendung geeignet. Als
 OPV-Messschaltung gedacht. Diese soll mit einem Shuntwiderstand die Spannungsdifferenz messen, die sich bei einer Veränderung 
 des flexiblen Widerstands ergibt. Durch eine geeignete Verstärkung des OPVs kann diese mit einer Referenzspannung verglichen 
 werden. \\
-\\
-\textcolor{red}{Simulation hier einfügen} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Simulation_Spannungsmessung_Flexsensoren}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 \\
 Die Flexsensoren (Rflex) beziehen ihre Versorgung über einen Shunt-Widerstand (Rs). Je nach Belastung, ändert sich der 
 Spannungsabfall an diesem (Je größer die Beugung des Sensors, desto kleiner ist der Spannungsabfall). Die Spannungsdifferenz 
@@ -515,13 +520,21 @@ entlastet den Eingang des folgenden ADCs. Der Tiefpassfilter wurde folgendermaß
 \\
 \hspace*{4.25cm} $ C = 68 nF $ \hspace*{1cm} $ R = \frac{\tau}{68nF} = 117 \Omega $ \\
 \\
-\textbf{Berechnung der OPV Verstärkung:} \\
+\textbf{Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands:} \\
 \\
 \hspace*{1cm} Verstärkungsgleichung laut Datenblatt: $ G = 1+\frac{49.4k\Omega}{R_{g}} $ \\
+\textcolor{red}{diemensionierung shuntwiderstand noch einfügen}
 \\
 \hspace*{1cm} Gain gewählt mit 46. \hspace*{1cm} $ R_{g} = 1.1k\Omega $ \\
 \\
 Die Verstärkung wurde so gewählt, dass diese mit dem Shunt-Widerstand für den ADC optimal geeignet ist. (Simulation) \\
+\\
+Der Shuntwiderstand wurde nicht wirklich berechnet. Dieser wurde durch probieren in der Simulation ermittelt. Eine Berechnung
+des Shunts wäre nicht wirklich Zielführend gewesen, da diese normalerweise bei Schaltungen mit hohen Strömen verwendet werden. 
+Da sich die Flexsensoren allerdings in einem Widerstandsbereich von $25k\Omega$ - $125k\Omega$ befinden, benötigen diese nicht
+viel Strom, wodurch schon zu erwarten war, dass ein relativ hoher Wert benötigt wird. Schlussendlich wurden $240\Omega$ gewählt,
+da dieser Widerstand bei sowohl voller, als auch geringer Biegung der Flexsensoren, eine gute Spannungsdifferenz für die 
+Verstärkung mit dem OPV liefert. \\
 \\
 \textbf{Umwandlung der Differenzwerte in ein geeignetes Format:}
 \\
@@ -542,7 +555,7 @@ Folgende drei Kriterien sind maßgeblich bei der Wahl der Analog-Digital-Wandler
 		  \\
 		  \hspace*{1cm} $ ADC Ausgangsstufen = \frac{2.3V}{3.22mV} = 713 $ \\
 \end{itemize}
-Der reale Ausgangspegel des OPVs liegt wie bei der Simulation in Punkt "Auslesen der Sensoren" ermittelt zwischen 1.277V bis 2.416V.
+Der reale Ausgangspegel des OPVs liegt wie bei der Simulation in Punkt Auslesen der Sensoren ermittelt zwischen 1.277V bis 2.416V.
 Das beudeutet, dass eine Auflösung von 10Bit und ein Austeuerbereich von 0V - 3.3V ausreichend ist, um den kompletten Wertebereich
 sehr genau abzudecken. Zusätzlich haben wir uns noch dazu entschieden alle Logikbauteile die eine Kommunikation mit dem Mikrokontroller
 erfordern mit dem I2C Bussystem anzuschließen. Daher muss der Analog-Digital-Wandler diese Art der Kommunikation ebenfalls unterstützen.
@@ -655,21 +668,36 @@ das genaue Schaltungsdesign erläutert. \\
 		  Von der USB-Buchse werden die beiden Datenleitungen D+ und D- mit verbunden. Anschließend wird das umgewandelte Signal 
 		  über die UART-Leitungen an den ESP32 Mikrokontroller übertragen. Wichtig zu beachten ist hierbei, dass die UART-Leitungen
 		  ausgekreuzt sein müssen. Die Funktion der Anschlüsse RTS und DTR wird in Punkt \textcolor{red}{Mikrokontroller} erläutert. \\
-		  \textcolor{red}{USB C und Serial Uart Bridge hier einfügen}
-
+		  \begin{figure}[H]
+			\begin{center}
+				\scalebox{0.5}
+				{\includegraphics[width=0.8 \linewidth]{USB_C_Schaltplan_Handschuh}}
+				%\caption*{Ladislaus Szabo}
+			\end{center}
+		\end{figure}
 	\item Anschluss der Flexsensoren: \\
 		  \\
 		  Die Flexsensoren könnten natürlich einfach angelötet werden, jedoch ist die einfache Wartung bei einem fehlerhaften
 		  Sensor ebenfalls zu berücksichtigen. Aufgrund dessen wird eine 6-Pin-JST-Buchse als Anschluss verwendet. Alle GND-Pins
 		  werden auf einen zusammengefasst, um möglichst viel Platz zu Sparen. \\
-		  \textcolor{red}{JST Flexsensoren hier einfügen}
-
+		  \begin{figure}[H]
+			\begin{center}
+				\scalebox{0.5}
+				{\includegraphics[width=0.8 \linewidth]{JST_Flexsensoren_Schaltplan_Handschuh}}
+				%\caption*{Ladislaus Szabo}
+			\end{center}
+		\end{figure}
 	\item Anschluss des Akkus: \\
 		  \\
 		  Der Akku wird ebenfalls mit einer JST-Buchse mit der Schaltung verbunden anstatt diesen anzulöten. Da der Akku einen
 		  Versorgungs -und GND-Anschluss hat, wird eine 2-Pin-JST-Buchse verwendet. \\
-		  \textcolor{red}{JST Akku hier einfügen}
-\end{itemize}
+		  \begin{figure}[H]
+			\begin{center}
+				\scalebox{0.5}
+				{\includegraphics[width=0.8 \linewidth]{JST_Akku_Schaltplan_Handschuh}}
+				%\caption*{Ladislaus Szabo}
+			\end{center}
+		\end{figure}\end{itemize}
 
 \textbf{Mikrokontroller:} 
 \\
@@ -679,8 +707,13 @@ hinzugefügt, um die Kommunikationsleitungen vor Spannungsspitzen oder Überspan
 gegeben. Für die Datenleitungen SDA und SCL des I2c Busses sind zwei $10k\Omega$ PullUp-Widerstände vorgesehen. Zusätzlich 
 wird ebenfalls der Anschluss IO16 mit einem PullUp-Widerstand auf 3.3V gezogen, da dies so vom Datenblatt vorgegeben wird. 
 Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeinsam mit den damit verbundenen Bauteilen näher erläutert. \\
-
-\textcolor{red}{ESP32 hier einfügen} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{ESP32_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 \\
 \textbf{Mikrokontroller Buttons:}
 \\
@@ -706,10 +739,16 @@ In der Schaltung sind drei Taster verbaut. Diese sind alle mit dem Mikrokontroll
 Die beiden Leuchtdioden sind als Statusanzeige gedacht. Eine POWER LED, die immer leuchtet wenn die Schaltung mit +5V
 versorgt wird. Die Funktion der anderen LED ist, sowie bei einem Button, frei wählbar und ist deswegen mit Pin IO13 des ESP32
 verbunden. \\
-\textcolor{red}{LEDs hier einfügen} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{LEDs_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 \\
 \textbf{Akku Versorgung:}
-\\
+\\ 
 \textbf{Multiplexer:}
 \\
 Der Multiplexer schaltet zwischen allen Flexsensoren durch und vermeidet somit die Messschaltung fünf mal bauen zu müssen. 
@@ -718,13 +757,71 @@ wird, ändert sich die interne Schalterposition und somit der gerade aktive Kana
 \\
 \textbf{Operationsverstärker:}
 \\
+Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in Punkt "Auslesen der Sensoren" beschrieben, benötigt. Da am
+Shuntwiderstand nur sehr wenig Spannungsabfall auftritt und daher die Spannungsdifferenz zwischen positivem und negativem 
+Verstärkereingang sehr klein ist, muss das Signal verstärkt werden. Hierfür wird der INA129 Instrumentenverstärker verwendet.
+Dieser wird mit 5V versorgt, was für einen OPV eine relativ geringe Versorgungsspannung ist. Da die maximale Eingangsspannung
+der Verstärkereingänge allerdings nie mehr als 3.3V beträgt, ist dies kein Problem. \\
+\\
+Die +1V Spannungsreferenz ist notwendig, da der ausgewählte Operationsverstärker nicht über Rail-to-Rail Technologie besitzt. 
+Die kleinstmögliche Spannungsdifferenz am Eingang des OPV, wenn der Flexsensor seinen maximalen Widerstand von
+$125k\Omega$ erreicht, beträgt nur 6.3mV. Aufgrund der fehlenden Rail-to-Rail Fähigkeit, muss die Ausgangsspannung des OPV deshalb
+auf mindestens 800mV angehoben werden, um eine korrekte Funktion des OPVs zu gewährleisten. Deshalb wird eine Referenzspannung
+von 1V verwendet. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Operationsverstärker_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\\
 \textbf{Analog-Digital-Wandler:}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{ADC_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 \\
 \textbf{Gyroskop-Sensor:}
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Gyro_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\\
 \textbf{Akku Versorgung:}
 \\
-
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Akku_Controller_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Akku_Boostconverter_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Akku_Buckconverter_Schaltplan_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\\
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
 \subsection{Roboterhand}
