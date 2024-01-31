@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  31 JAN 2024 07:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  31 JAN 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1886,62 +1886,92 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverte
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png  used on input line 854.
 (pdftex.def)             Requested size: 377.62642pt x 152.25995pt.
 
-Overfull \hbox (4.72263pt too wide) in paragraph at lines 874--944
+Overfull \hbox (4.72263pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 Es gibt vie-le M[]oglichkeiten die Wer-te, die man von je-dem ein-zel-nen Flex-sen-sor aus-liest, zu []ubertragen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
 
-Overfull \hbox (27.91222pt too wide) in paragraph at lines 874--944
+Overfull \hbox (27.91222pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 Die Ar-dui-no IDE (1. & 2. Ver-si-on) wird als Ent-wick-lungs-um-ge-bung ver-wen-det, da die-se f[]ur Mi-kro-con-trol-ler
  []
 
 
-Overfull \hbox (5.73112pt too wide) in paragraph at lines 874--944
+Overfull \hbox (5.73112pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 wird die Im-ple-men-tie-rung von be-stimm-ten gew[]unschten Funk-tio-nen ver-ein-facht. Wich-tig ist al-ler-dings
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
 
-Overfull \hbox (12.54335pt too wide) in paragraph at lines 874--944
+Overfull \hbox (12.54335pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 For-mat []uber ESP-NOW an die Empf[]angerplatine (Ro-bo-ter-hand) ge-sen-det wer-den. Da-bei soll []uberpr[]uft
  []
 
 
-Overfull \hbox (3.0557pt too wide) in paragraph at lines 874--944
+Overfull \hbox (3.0557pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 wer-den, ob auch wirk-lich Da-ten ge-sen-det wer-den. Bei er-folg-rei-chem Emp-fan-gen der Empf[]angerplatine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
 
-Overfull \hbox (8.0672pt too wide) in paragraph at lines 874--944
+Overfull \hbox (8.0672pt too wide) in paragraph at lines 874--988
 \OT1/cmr/m/n/10.95 Die Sen-der-pla-ti-ne ist so kon-zi-piert wor-den, dass Flex-sen-so-ren []uber Dr[]ahte an die Pla-ti-ne an-ge-schlos-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 874--944
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
+
+ []
+
+
+Overfull \hbox (3.5808pt too wide) in paragraph at lines 874--988
+\OT1/cmr/m/n/10.95 Datenkorrektur auf Sen-der-sei-te Ur-spr[]unglich wur-de mit dem Ge-dan-ken ge-spielt, dass die ein-ge-le-se-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
+
+ []
+
+
+Overfull \hbox (19.20572pt too wide) in paragraph at lines 874--988
+\OT1/cmr/m/n/10.95 ein-ge-le-se-nen Wer-te mit je-weils ei-nem neu-en Wert. Der arith-me-ti-sche Mit-tel-wert soll hier-bei her-an-ge-zo-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 874--988
 
  []
 
@@ -1961,16 +1991,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=118, 215.80624pt x 399.4925pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 951.
-(pdftex.def)             Requested size: 377.62642pt x 699.12233pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 946--954
-
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1979,42 +1999,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=121, 215.80624pt x 399.4925pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 994.
+(pdftex.def)             Requested size: 377.62642pt x 699.12233pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 955--987
+Underfull \hbox (badness 10000) in paragraph at lines 989--997
 
  []
 
@@ -2025,28 +2016,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 990--1013
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--1013
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 990--1013
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png, id=127, 199.74625pt x 453.695pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--1030
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1056
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1056
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png, id=130, 199.74625pt x 453.695pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1020.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1063.
 (pdftex.def)             Requested size: 377.62642pt x 857.83424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1058--1066
 
  []
 
@@ -2057,13 +2095,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
-Overfull \hbox (14.43036pt too wide) in paragraph at lines 1025--1037
+[26]
+Overfull \hbox (14.43036pt too wide) in paragraph at lines 1068--1080
 \OT1/cmr/m/n/10.95 Am An-fang wird der Buf-fer des ESP32 aus-ge-le-sen. Die von der Sen-der-pla-ti-ne (Hand-schuh) emp-fan-ge-nen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1025--1037
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1080
 
  []
 
@@ -2074,7 +2112,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[26 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>]
+[27 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -2082,20 +2120,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27] (./Diplomarbeit.aux) ) 
+[28] (./Diplomarbeit.aux) ) 
 Here is how much of TeX's memory you used:
  39358 strings out of 476025
  995241 string characters out of 5790016
- 1867388 words of memory out of 5000000
+ 1874388 words of memory out of 5000000
  59381 multiletter control sequences out of 15000+600000
  519664 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Diplomarbeit.pdf (28 pages, 886384 bytes).
+Output written on Diplomarbeit.pdf (29 pages, 890758 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
