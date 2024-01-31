@@ -871,19 +871,170 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 
 \subsection{Handschuh}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
-Datenübertragung:
+\textbf{Datenübertragung:}
+\\
 Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor ausliest, zu übertragen. Wichtig ist es, dass 
-dies einfach und auf eine sehr stabile Weise funktioniert. Anfangs war Bluetooth die favorisierte Option, später dann aber Wifi. 
-Schlussendlich wurde es dann ESP-NOW, das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro 
-Sendung 250 Byte gesendet werden. Ebenso ist eine Kommunikation zwischen mehreren ESP32 in beide Richtungen möglich. Der 
-Standard gilt allerdings wirklich nur für den ESP32, was allerdings aufgrund der Wahl von nur diesen letztgenannten, keine 
-Probleme darstellt.
+dies einfach und auf eine sehr stabile Weise funktioniert. Werden nämlich Daten fehlerhaft oder nur teilweise übertragen, dann 
+wirkt sich das auf der Empfängerseite drastisch aus. Es könnten dadurch unerwartete Fehler passieren beziehungsweise könnte die 
+Roboterhand von einem unstabilen System sehr hohe Schwankungen der Werte andauern wahrnehmen, was zu einer durchgängigen 
+Belastung der Servos führen würde. Das ist zwar nicht allzu schlimm, aber verbraucht unnötig Ressourcen. Anfangs war Bluetooth 
+die favorisierte Option, da man im Alltag immer wieder mit Geräten zu tun hat, die Bluetooth als Standard der Funkübertragung 
+verwenden. Allerdings haben wir uns später dann aber für Wifi entschieden, da angenommen wurde, dass wir große Mengen an Daten 
+versenden. Dies ist nun aber nicht nötig, da nur die Widerstandswerte, die über einen ADC umgerechnet werden, nun versendet 
+werden Deshalb haben wir nach einer neuen Möglichkeit gesucht, die einfacher zu realisieren ist. Schlussendlich wurde es dann 
+ESP-NOW, das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro Sendung 250 Byte gesendet werden. 
+Ebenso ist eine Kommunikation zwischen mehreren ESP32 in beide Richtungen möglich. Der Standard gilt allerdings wirklich nur 
+für den ESP32, was allerdings aufgrund der Wahl von nur diesem letztgenannten, keine Probleme darstellt. ESP-NOW sendet auf dem 
+802.11 Protokoll, wie auch Wifi es macht. Der Vorteil liegt aber klar in der Energieeffizienz. ESP-NOW benötigt nämlich weniger 
+Energie (vor allem, weil weniger Daten maximal gesendet werden können) als Wifi und ist deshalb gerade für unseren Zweck, die 
+energiebetriebene Versorgung der Senderplatine, optimal. Nicht zu vergessen ist der schnellere Verbindungsaufbau. Beim Testen 
+hatten sich beide Platinen sofort miteinander verbunden. Ein großer Vorteil ist die Peer-to-Peer Kommunikation, die zwischen 
+den einzelnen ESP32 möglich ist. Es wird dafür kein Router oder Access Point benötigt. Dadurch, dass es auch einfach möglich 
+ist, einzustellen, welche Platine über ESP-NOW senden, empfangen oder der Transceiver sein soll, kann man sehr leicht den 
+spezifischen Anwendungsfall realisieren. \\
+\\
+\textbf{Programmiersprache/Entwicklungsumgebung:}
+\\
+Die Arduino IDE (1. \& 2. Version) wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
+konzipiert wurde. Der ESP32 gehört auch zu den Mikrocontrollern, weshalb er ebenfalls über eigene Bibliotheken bestenfalls 
+über die Arduino IDE angesteuert werden kann. Der Code wird in der Programmiersprache C oder C++ geschrieben, da diese für 
+die Programmierung von Mikrocontrollern bestens geeignet ist. Mit Hilfe von verschiedenen Bibliotheken aus dem Internet wird 
+die Implementierung von bestimmten gewünschten Funktionen vereinfacht. Wichtig ist allerdings dabei, dass alle benötigten 
+Funktionen auch getestet und angewandt werden können. Durch kleine Testprogramme wird also jede Funktion einzeln getestet und 
+dann am Schluss zu einem Programm zusammengefügt, aber erst, wenn alles fehlerfrei funktioniert hat. Der Vorteil der Arduino 
+IDE besteht darin, dass die unterschiedlichsten Möglichkeiten der Konfiguration des ESP32 darüber möglich sind. Es kann 
+beispielsweise die Baud-Rate geändert werden. Wichtig ist, dass es auch sowohl mit der Arduino IDE der ersten und zweiten 
+Generation ohne Probleme funktioniert, die Datei mit dem Programm auf den ESP32 zu laden. \\
+\\
+\textbf{Benutzerfreundlichkeit:}
+\\
+Es ist wichtig, dass jeder, der sich ein wenig mit der Software beschäftigt, diese auch verstehen und vor allem benutzen kann. 
+Es soll darauf geachtet werden, dass so viele Codezeilen wie möglich und nötig mit Kommentaren erklärt wird, sodass eine 
+einfachere Bearbeitung der Software realisiert werden kann. Die Fehlerbehebung soll damit um ein Vielfaches vereinfacht werden, 
+da man leicht abschätzen kann, wo ein Fehler liegen könnte. Zur effizienteren Erweiterung des Programmes soll es in 
+verschiedene Blöcke aufgeteilt werden. Damit ist gemeint, dass jeder Block einzeln einmal getestet wurde, bevor dieser im 
+endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass nur der ESP32 per UART-Verbindung, über eine 
+USB-C Kabel, angeschlossen wird und man das Programm nur auf diesen hochladen muss. Die optimalen Anpassungen sollen in der 
+Standardversion des Programmes dann bereits vorhanden sein. \\
+\\
+\textbf{Testen:}
+\\
+Jedes Programm muss ausführlich getestet werden. Die Tests bei der Senderplatine (Handschuh) beschäftigen sich vor allem mit 
+dem Auslesen der Widerstandswerte der Flexsensoren. Es soll überprüft werden, ob sich die Werte in dem von dem Benutzer 
+freiwillig ausgesuchten Bereich der map Funktion liegen. Bei dem Test soll bei dem gestreckten Flexsensor der maximale Wert 
+angezeigt werden und bei ganz gebeugtem Zustand (maximale Biegung am Handschuh durch Fingerbiegung) der niedrigste. Es ist 
+wichtig auch zu testen, ob der Multiplexer überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
+implementiert wurde, sollen die Werte des ADCs überprüft werden, der hinter den Multiplexer geschaltet wurde. Wenn diese Werte 
+ebenfalls realistisch sind, dann können diese Werte wie vorher bereits erwähnt gemapt werden und dann in einem bestimmten Format 
+über ESP-NOW an die Empfängerplatine (Roboterhand) gesendet werden. Dabei soll überprüft werden, ob auch wirklich Daten 
+gesendet werden. Bei erfolgreichem Empfangen der Empfängerplatine soll die Senderplatine im Serial Monitor der Arduino IDE 
+ausgeben, dass die Daten erfolgreich gesendet und empfangen wurden. \\
+\\
+\textbf{Allgemeines Konzept:}
+\\
+Die Senderplatine ist so konzipiert worden, dass Flexsensoren über Drähte an die Platine angeschlossen sind. An jedem Anschluss 
+befindet sich eine Leiterbahn zu einem Multiplexer. Dieser soll über die Software angesteuert werden und immer wieder im 
+richtigen Abstand durchschalten. Wenn dies richtig funktioniert, dann soll die Software die Werte des ADCs auslesen, da mit 
+diesen dann später gearbeitet wird. Diese Werte werden dann jeweils in folgendes Format gebracht: $"\$s:n:angepassterWert"$ 
+(n…Multiplexer 0 – 4; angepasster Wert…gemapter Wert des Flexsensors). Eine drahtlose Verbindung zur Empfängerplatine 
+(Roboterhand) ist über ESP-NOW herzustellen. Wenn die Verbindung von der Sender- zur Empfängerplatine erfolgreich hergestellt 
+wurde, dann können die Werte, die in das vorher beschriebene Format gebracht wurden, per ESP-NOW versendet werden. Als Antwort 
+soll man im Serial Monitor sehen können, ob die Werte erfolgreich empfangen wurden. \\
+\\
 
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
+\textbf{Realisierung:}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Flussdiagramm_Software_Handschuh}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+Der Code der Programmierung des ESP32 wurde in C/C++ geschrieben. Am Anfang werden die einzelnen Werte der Flexsensoren 
+ausgelesen, die per Ansteuerung des Multiplexers und des danach sitzenden ADCs bestimmt werden. Die ESP-NOW Verbindung wird 
+danach aufgebaut. Diese dient zur drahtlosen Datenübertragung. Wenn die Verbindung mit dem ESP32 der Empfängerseite erfolgreich 
+war, dann werden die Daten an die Empfängerplatine (Roboterhand) gesendet. Falls dies allerdings nicht erfolgreich war, dann 
+muss eine Fehlersuche durchgeführt werden. Ein oftmals auftretender Grund ist, dass die beiden ESPs zu weit auseinander liegen. 
+Falls diese Schritte alle abgearbeitet wurden, dann geht das ganze Prozedere wieder von vorne los. \\
+\\
+\textbf{Gliederung:}
+\\
+Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation für 
+den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi Bibliothek inkludiert wird. \\
+\\
+Danach werden die ADC-Parameter festgelegt, sowie die Ports zur Ansteuerung des Multiplexers. Minimale und maximale 
+Widerstandswerte werden festgelegt, damit es bei einer kleinen Toleranz im ganz unteren und oberen Bereich trotzdem immer den 
+minimalen oder maximalen Wert erreicht. \\
+\\
+Die ESP-NOW Parameter sind noch zu definieren. Also die Empfänger-Adresse, die Nummer des Flexsensors, sowie der Wert. Außerdem 
+wird eine Funktion erstellt, die später dazu verwendet wird, um zu überprüfen, ob die Empfängerplatine (Roboterarm) die Daten 
+erfolgreich empfangen hat. \\
+\\
+Im Setup Teil werden anfangs die Ausgänge festgelegt, die für den ADC notwendig sind, sowie die SDA und SCL. Danach wird das 
+ESP-NOW-Setup erstellt. In diesem Bereich werden alle notwendigen Schritte abgearbeitet, sodass man über ESP-NOW erfolgreich 
+Daten senden kann. \\
+\\
+In der Loop wird dann der Multiplexer angesteuert und immer wieder aufsteigend durchgeschalten. Der Wert, der vom ADC, der
+hinter den Multiplexer geschalten wurde, ausgegeben wird, wird dann durch eine Funktion in einen Wert umgerechnet. \\
+\\
+Dieser Wert wird dann in Form einer Zeichenkette, die im Format $"\$s:n:angepassterWert"$ geschrieben wird, an den ESP32 der 
+Empfängerplatine gesendet (n…Eingang des Multiplexers 0 – 4; angepassterWert…ausgelesener Wert (liegt zwischen Minimum und 
+Maximum, das oben festgelegt wurde)). Es wird dann noch im Serial Monitor ausgegeben, ob die Senderplatine (Handschuh) die 
+Daten erfolgreich senden konnte oder nicht. \\
+\\
 
 \subsection{Roboterhand}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
+Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe 6.1.1! \\
+\\
+\textbf{Testen:}
+\\
+Die von der Senderplatine (Handschuh) gesendeten Daten sollen ausgelesen werden. Sie wurden nach einem bestimmten Format 
+(Schema) gesendet. Diese Daten sollen nun ausgewertet werden. Diese Daten werden nun dazu verwendet, um die einzelnen Servos 
+anzusteuern. Dabei wird zuerst die Servo Nummer der empfangenen Daten ausgelesen und dann der Wert. Je nachdem wie groß der
+Wert ist, dreht sich der Servo. Es kann dann getestet werden, ob sich der Servo tatsächlich dreht und somit, ob die 
+Kommunikation mit dem Servo funktioniert. Wenn man die 3D-gedruckten Finger dann per Angelschnur mit den Servos verbindet, 
+dann kann man am besten feststellen, ob die Software richtig läuft oder nicht. \\
+\\
+\textbf{Allgemeines Konzept:}
+\\
+Die über ESP-NOW empfangenen Daten (Widerstandswerte samt Nummer des Flexsensors) sollen ausgelesen werden. Dadurch kann dann 
+bestimmt werden, welcher Servo sich um wie viel drehen soll. Es muss festgestellt werden, dass die Daten über eine 
+Datenkorrektur (Median der letzten 5 Werte) korrigiert wird. Das soll dazu beitragen, dass Fehlmessungen nicht in die Werte, 
+die an die Servos übergeben werden, einfließen. Dadurch wird sichergestellt, dass die korrigierten Werte weniger anfällig für 
+große Schwankungen gegenüber der möglicherweise fehlgemessenen Werten (Wackelkontakt zwischen Flexsensor und Sendeplatine) sind. 
+Durch die Strommessung kann dann noch festgestellt werden, ob ein Finger blockiert. Dies ist dann der Fall, wenn der Strom zu 
+lange einen gewissen festgelegten Schwellwert übersteigt. Die Servos sollen am Ende dann mit den korrigierten Werten angesteuert 
+werden und sich ja nach Wert dann um eine einen bestimmten Winkel drehen, sodass der 3D-gedruckte Finger herangezogen oder
+entlastet wird.
+\\
+
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
+\textbf{Realisierung:}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Flussdiagramm_Software_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+
+Der Code der Programmierung des ESP32 wurde in C/C++ geschrieben. \\
+Am Anfang wird der Buffer des ESP32 ausgelesen. Die von der Senderplatine (Handschuh) empfangenen Daten werden verarbeitet. 
+Der Strom, der eine mögliche Blockierung eines Fingers erkennen kann, muss alle 3ms gemessen werden. Wenn dieser je Finger zu 
+hoch ist, dann muss dieser Finger vorerst auf dem momentanen Wert belassen werden oder auf den maximalen Wert gesetzt werden. 
+Dieser beschreibt die Stellung, wenn ein Finger nicht gebeugt wurde. Da die empfangenen Daten möglicherweise eine Fehlmessung 
+beinhalten, muss eine Datenkorrektur diese entfernen. Der Median der letzten 5 Werte wird zu diesem Zweck verwendet. Dies soll 
+dazu führen, dass ein Wert, der sehr anders als die weiteren 4 Werte ist, nicht an die Servos gesendet wird, sondern aussortiert 
+wird. Nachdem dann alle Werte gesendet werden, wird überprüft, ob die Endposition des jeweiligen Servos erreicht wurde. Falls 
+nein, dann darf sich der Servo weiter zu dem gesendeten Wert hinbewegen. Falls dann die gewünschte Endposition erreicht ist 
+oder der Servo sich in eine beliebige Richtung dreht, dann wird noch der Timer von 10ms abgewartet und das Prozedere beginnt 
+wieder von vorne.
+\\
+
 
 \subsection{User Interface}
 \subsubsection{Entwicklungsumgebung \textcolor{red}{Laci}}
