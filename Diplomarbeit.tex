@@ -17,7 +17,8 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage[none]{hyphenat}
 \usepackage{float}
-%==========================================================================
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[L]{\MakeUppercase{Diplomarbeit 5BHEL 23/24}}
@@ -28,12 +29,16 @@
 
 \usepackage[round, sort, authoryear]{natbib}
 %\usepackage[nottoc]{tocbibind}
-%==========================================================================
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %==DOKUMENTBEGINN==========================================================
 
 \begin{document}
 
-%==========================================================================
+\pagenumbering{gobble}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %==TITELSEITE==============================================================
 
 \begin{titlepage}
@@ -111,15 +116,14 @@
 
 \newpage
 
-%==TITELSEITE-ENDE=========================================================
-%==========================================================================
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %==EIDESSTATTLICHE-ERKLÄRUNG===============================================
+
+\thispagestyle{empty}
 
 \begin{center}
 
-	\hfill \break
-	\hfill \break
-	\hfill \break
 	\hfill \break
 	\hfill \break
 	\title{\textbf{\LARGE{Eidesstattliche Erklärung}}}	
@@ -136,7 +140,7 @@ inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.\\
 \hfill \break
 \hfill \break
 \hfill \break
-
+\hfill \break
 \begin{figure}[h]
 	\begin{center}
 		\scalebox{0.5}
@@ -164,15 +168,57 @@ inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.\\
 
 \pagebreak
 
-%==EIDESSTATTLICHE-ERKLÄRUNG-ENDE==========================================
-%==========================================================================
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==KURZFASSUNG-DEUTSCH=====================================================
+
+\thispagestyle{empty}
+
+\textbf{Aufgabenstellung:} 
+Im Rahmen eines Diplomprojekts soll eine Roboterhand mittels eines Handschuhs gesteuert werden. 
+Dazu müssen verschiedene Sensoren auf Genauigkeit getestet und aanscließend die ausgewerteten Daten kabellos an die
+Roboterhand übertragen werden. Die Bewegungen der Finger sollen mit Motoren nachgebildet werden und die Stellungen
+dieser soll im User-Interface dargestellt werden. \\
+\textbf{Realisierung:} 
+Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
+anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
+Servomotoren realisiert. Als User-Interface soll eine Application dienen. \\
+\textbf{Ergebnis:} 
+Die Handbewegungen können korrekt ausgewertet und übertragen werden. Der Benutzer trägt den Handschuh und greift 
+ein Objekt. Die Servomotoren interpretieren mittels des PCBs die empfangenen Daten und ermöglichen es der Roboterhand 
+ebenfalls das gleiche Objekt zu greifen. Beim Öffnen der Hand muss sich die Roboterhand in ihre Ausgangsstellung 
+zurückbewegen. \\
+\\
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==KURZFASSUNG-ENGLISCH====================================================
+\textbf{Task:} 
+As part of a feasibility study, a robotic hand is to be controlled by means of a glove. For
+this purpose, various sensors must be tested for accuracy and the evaluated data then
+transmitted wirelessly to the robotic hand. The positions of the fingers are to be displayed in a
+user interface. \\
+\textbf{Realization:} 
+The movements of the human hand are recorded with Flex sensors on the glove.
+The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
+the user interface. \\
+\textbf{Result:} 
+The hand movements can be correctly evaluated and transmitted. The user wears the
+glove and grasps an object. The servo motors interpret the received data by means of the PCB
+and enable the robot hand to also grasp the same object. When the hand is opened, the robot
+hand must also move back to its starting position. \\
+\\
+
+\pagebreak
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 %==DANKSAGUNG==============================================================
+
+\thispagestyle{empty}
 
 \begin{center}
 
-	\hfill \break
-	\hfill \break
-	\hfill \break
 	\hfill \break
 	\hfill \break
 	\title{\textbf{\LARGE{Danksagung}}}	
@@ -203,85 +249,30 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\pagebreak
+\newpage
+\pagenumbering{arabic}
 
 \section{Einleitung}
-
-\subsection{\textcolor{green}{Kurzfassung}}
-\textbf{Aufgabenstellung:} 
-Im Rahmen eines Diplomprojekts soll eine Roboterhand mittels eines Handschuhs gesteuert werden. 
-Dazu müssen verschiedene Sensoren auf Genauigkeit getestet und aanscließend die ausgewerteten Daten kabellos an die
-Roboterhand übertragen werden. Die Bewegungen der Finger sollen mit Motoren nachgebildet werden und die Stellungen
-dieser soll im User-Interface dargestellt werden. \\
-\textbf{Realisierung:} 
-Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
-anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
-Servomotoren realisiert. Als User-Interface soll eine Application dienen. \\
-\textbf{Ergebnis:} 
-Die Handbewegungen können korrekt ausgewertet und übertragen werden. Der Benutzer trägt den Handschuh und greift 
-ein Objekt. Die Servomotoren interpretieren mittels des PCBs die empfangenen Daten und ermöglichen es der Roboterhand 
-ebenfalls das gleiche Objekt zu greifen. Beim Öffnen der Hand muss sich die Roboterhand in ihre Ausgangsstellung 
-zurückbewegen.
-
-\subsection{\textcolor{green}{Abstract}}
-\textbf{Task:} 
-As part of a feasibility study, a robotic hand is to be controlled by means of a glove. For
-this purpose, various sensors must be tested for accuracy and the evaluated data then
-transmitted wirelessly to the robotic hand. The positions of the fingers are to be displayed in a
-user interface. \\
-\textbf{Realization:} 
-The movements of the human hand are recorded with Flex sensors on the glove.
-The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
-the user interface. \\
-\textbf{Result:} 
-The hand movements can be correctly evaluated and transmitted. The user wears the
-glove and grasps an object. The servo motors interpret the received data by means of the PCB
-and enable the robot hand to also grasp the same object. When the hand is opened, the robot
-hand must also move back to its starting position.
-
-\subsection{\textcolor{green}{Ausgangslage}}
+\subsection{Ausgangslage und grundlegende Motivation}
 Es gibt Produktionsbereiche, die klinisch sauber gehalten werden müssen, da durch Menschen Kontaminationen entstehen
 können. Für dieses Vorhaben soll ein Prototyp einer Roboterhand, die über einen Sensorhandschuh kabellos gesteuert wird,
 entwickelt und aufgebaut werden. Diverse Parameter der Roboterhand sollen in einem Interface für den Benutzer 
 dargestellt werden.
 
-\subsection{\textcolor{green}{Untersuchungsanliegen der individuellen Themenstellungen}}
-Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design aufgebaut werden,
-die mit einem kabellos angebundenen Handschuh gesteuert wird. Zu diesem Zweck müssen
-verschiedene Sensoren getestet werden, die die Fingergelenksstellung messen. Deren Daten
-müssen ausgelesen und mittels kabelloser Schnittstelle an die Roboterhand übertragen werden
-(Schweitzer). Um die Fingerbewegungen an der Roboterhand nachzustellen, muss folglich eine
-Motoransteuerung entwickelt werden (Szabo). Um die elektronischen Bauelemente
-unterzubringen, muss ein entsprechendes Gehäuse, in Form einer menschlichen Hand
-beziehungsweise eines Arms, gefertigt werden. Zusätzlich soll ein Interface erstellt werden, in
-dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-Maytah)
-
-\subsection{\textcolor{green}{Allgemeine Zielsetzung}}
+\subsection{Themenerläuterung}
 Ziel des Projekts ist es, eine Roboterhand zu bauen, die über einen kabellos verbundenen
 Handschuh gesteuert werden kann. Das Ziel ist es, Daten der Fingergelenkssensoren auszulesen,
 zu übertragen und die Bewegungen mit der Roboterhand nachzustellen. Endziel ist es, Daten
 richtig zu verarbeiten und die Roboterhand entsprechend zu bewegen. Daten sollen in einem
-Interface dargestellt werden.
+Interface dargestellt werden. \\
 
-\subsection{\textcolor{green}{Terminplan (Milestones)}}
-Lastenheft fertig – 10.10.2023 \\
-Kostenkalkulationen fertig – 24.10.2023 \\
-Prototypen proof of concept –21.11.2023 \\
-Hardwaredesign fertig – 05.12.2023 \\
-PCB-Design fertig – 09.01.2024 \\
-Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
-Integration aller Komponenten – 06.02.2024 \\
-User Interface fertiggestellt – 13.02.2024 \\
-Abnahme durch die Projektbetreuer – 12.03.2024
-
-\subsection{\textcolor{green}{Geplantes Ergebnis der Prüfungskandidaten}}
 Es soll eine Erfassung der Sensordaten möglich sein. Diese sollen übertragen und empfangen
 werden können. Die Roboterhand soll die Finger nach der Vorgabe des Handschuhs bewegen
 können. Als Endergebnis soll eine halbvolle 500mL Plastikflasche umschlossen und in der Luft
 gehalten werden. In dem Interface, dem User-Interface, sollen wichtige Daten dargestellt und
-Parameter verändert werden können.
+Parameter verändert werden können. \\
 
-\subsection{\textcolor{green}{Entwicklungsteam}}
+\subsection{Grundgliederung der Arbeit}
 Folgende Schüler des TGMs haben, das in Punkt 1.1 zusammengefasste, Projekt entwickelt und gefertigt: \hfill \break
 \\
 Projektleiter:    Ladislaus Szabo (Hardwareentwicklung, PCB-Design, Projektleitung)\\
@@ -294,6 +285,17 @@ Die folgenden beiden Betreuer haben uns jeder Zeit geholfen:
 Dipl.Ing. Christoph Diemberger \\
 Fachlehrer Robert Offner
 
+\subsection{Untersuchungsanliegen der individuellen Themenstellungen}
+Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design aufgebaut werden,
+die mit einem kabellos angebundenen Handschuh gesteuert wird. Zu diesem Zweck müssen
+verschiedene Sensoren getestet werden, die die Fingergelenksstellung messen. Deren Daten
+müssen ausgelesen und mittels kabelloser Schnittstelle an die Roboterhand übertragen werden
+(Schweitzer). Um die Fingerbewegungen an der Roboterhand nachzustellen, muss folglich eine
+Motoransteuerung entwickelt werden (Szabo). Um die elektronischen Bauelemente
+unterzubringen, muss ein entsprechendes Gehäuse, in Form einer menschlichen Hand
+beziehungsweise eines Arms, gefertigt werden. Zusätzlich soll ein Interface erstellt werden, in
+dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-Maytah) \\
+
 \hfill \break
 \hfill \break
 \hfill \break
@@ -305,8 +307,19 @@ Fachlehrer Robert Offner
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
+\section{Lastenheft}
 
-\section{Anforderungen der einzelnen Projektteile}
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+\section{Vorwissenschaftlicher Theorieteil}
+
+\subsection{\textcolor{purple}{Platzhalter Thema Amir}}
+\subsection{\textcolor{purple}{Platzhalter Thema Fabian}}
+\subsection{\textcolor{purple}{Platzhalter Thema Laci}}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+\section{Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}
 
 \subsection{Mechanik}
 \subsubsection{Handschuh \textcolor{red}{Amir}}
@@ -457,8 +470,10 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 \section{Mechanische Entwicklung}
 
 \subsection{Handschuh \textcolor{red}{Amir}}
+\subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
 
 \subsection{Roboterhand \textcolor{red}{Amir}}
+\subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -1078,7 +1093,6 @@ oder der Servo sich in eine beliebige Richtung dreht, dann wird noch der Timer v
 wieder von vorne.
 \\
 
-
 \subsection{User Interface}
 \subsubsection{Entwicklungsumgebung \textcolor{red}{Laci}}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Laci}}
@@ -1086,14 +1100,71 @@ wieder von vorne.
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-
-\section{Abschluss und Zusammenfassung}
+%==TESTS-UND-MESSUNGEN=====================================================
+\section{Tests und Messungen}
+\subsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte}}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
+%==PROJEKTMANAGEMENT=======================================================
+\section{Projektmanagement}
+\subsection{Projektstrukturplan}
+\subsection{Milestoneplan}
+Lastenheft fertig – 10.10.2023 \\
+Kostenkalkulationen fertig – 24.10.2023 \\
+Prototypen proof of concept –21.11.2023 \\
+Hardwaredesign fertig – 05.12.2023 \\
+PCB-Design fertig – 09.01.2024 \\
+Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
+Integration aller Komponenten – 06.02.2024 \\
+User Interface fertiggestellt – 13.02.2024 \\
+Abnahme durch die Projektbetreuer – 12.03.2024
 
+\subsection{Gantt-Diagram}
+\subsection{Meeting Struktur}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==FERTIGUNGSUNTERLAGEN====================================================
+\section{Fertigungsunterlagen}
+\subsection{Mechanik}
+\subsubsection{händische Skizzen}
+\subsubsection{CAD-Zeichnungen}
+\subsubsection{3D-Modelle}
+
+\subsection{Hardware}
+\subsubsection{Stromlaufpläne}
+\subsubsection{Platinen}
+\subsubsection{Bestückungslisten}
+
+\subsection{Software}
+\subsubsection{Diagramme}
+\subsubsection{Code}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==ERGEBNISSE-UND-ERKENNTNISSE=============================================
+\section{Ergebnisse und Erkenntisse}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==AUSBLICK================================================================
+\section{Ausblick}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==VERZEICHNISSE===========================================================
+\section{Verzeichnisse}
+\subsection{Quellenverzeichnisse}
+\subsection{Abbildungsverzeichnis}
+\subsection{Abkürzungsverzeichnis}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==ANHANG==================================================================
 \section{Anhang}
-\section{Quellen -und Literaturverzeichnis}
-\section{Abbildungsverzeichnis}
 
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
 \end{document}
