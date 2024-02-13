@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {3.2}\textcolor {purple}{Platzhalter Thema Fabian}}{2}{}%
 \contentsline {subsection}{\numberline {3.3}\textcolor {purple}{Platzhalter Thema Laci}}{2}{}%
 \contentsline {section}{\numberline {4}Theoretische Grundlagen des Diplomprojekts}{2}{}%
-\contentsline {section}{\numberline {5}Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}{2}{}%
+\contentsline {section}{\numberline {5}Grundlegende Systemkonzepte}{2}{}%
 \contentsline {subsection}{\numberline {5.1}Handschuh}{2}{}%
 \contentsline {subsubsection}{\numberline {5.1.1}Mechanik \textcolor {red}{Amir}}{2}{}%
 \contentsline {subsubsection}{\numberline {5.1.2}Hardware \textcolor {red}{Laci}}{2}{}%
@@ -22,56 +22,56 @@
 \contentsline {subsubsection}{\numberline {5.2.3}Software \textcolor {red}{Fabian}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.4}User Interface \textcolor {red}{Laci}}{5}{}%
 \contentsline {subsubsection}{\numberline {5.2.5}Allgemein}{5}{}%
-\contentsline {section}{\numberline {6}Mechanische Entwicklung}{6}{}%
+\contentsline {section}{\numberline {6}Mechanische Realisierung}{6}{}%
 \contentsline {subsection}{\numberline {6.1}Handschuh \textcolor {red}{Amir}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte von Amir}}{6}{}%
 \contentsline {subsection}{\numberline {6.2}Roboterhand \textcolor {red}{Amir}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.2.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte von Amir}}{6}{}%
-\contentsline {section}{\numberline {7}Hardwareentwicklung}{6}{}%
+\contentsline {section}{\numberline {7}Hardware Realisierung}{6}{}%
 \contentsline {subsection}{\numberline {7.1}Handschuh}{6}{}%
 \contentsline {subsubsection}{\numberline {7.1.1}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{6}{}%
-\contentsline {subsubsection}{\numberline {7.1.2}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{10}{}%
-\contentsline {subsubsection}{\numberline {7.1.3}Schaltungsdesign \textcolor {red}{Laci}}{10}{}%
-\contentsline {subsubsection}{\numberline {7.1.4}Platinendesign \textcolor {red}{Laci}}{17}{}%
-\contentsline {subsection}{\numberline {7.2}Roboterhand}{17}{}%
-\contentsline {subsubsection}{\numberline {7.2.1}Simulationen und Versuchsaufbauten \textcolor {red}{Laci}}{17}{}%
-\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen und Dimensionierung \textcolor {red}{Laci}}{17}{}%
-\contentsline {subsubsection}{\numberline {7.2.3}Schaltplandesign \textcolor {red}{Laci}}{17}{}%
-\contentsline {subsubsection}{\numberline {7.2.4}Platinendesign \textcolor {red}{Laci}}{17}{}%
-\contentsline {section}{\numberline {8}Softwareentwicklung}{17}{}%
-\contentsline {subsection}{\numberline {8.1}Handschuh}{17}{}%
-\contentsline {subsubsection}{\numberline {8.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{17}{}%
-\contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{20}{}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand}{21}{}%
-\contentsline {subsubsection}{\numberline {8.2.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{21}{}%
-\contentsline {subsubsection}{\numberline {8.2.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{22}{}%
-\contentsline {subsection}{\numberline {8.3}User Interface}{23}{}%
-\contentsline {subsubsection}{\numberline {8.3.1}Entwicklungsumgebung \textcolor {red}{Laci}}{23}{}%
-\contentsline {subsubsection}{\numberline {8.3.2}Konzepte und Überlegungen \textcolor {red}{Laci}}{23}{}%
-\contentsline {subsubsection}{\numberline {8.3.3}Realisierung und Gliederung \textcolor {red}{Laci}}{23}{}%
-\contentsline {section}{\numberline {9}Tests und Messungen}{23}{}%
-\contentsline {subsection}{\numberline {9.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte}}{23}{}%
-\contentsline {section}{\numberline {10}Projektmanagement}{23}{}%
-\contentsline {subsection}{\numberline {10.1}Projektstrukturplan}{23}{}%
-\contentsline {subsection}{\numberline {10.2}Milestoneplan}{23}{}%
-\contentsline {subsection}{\numberline {10.3}Gantt-Diagram}{24}{}%
-\contentsline {subsection}{\numberline {10.4}Meeting Struktur}{24}{}%
-\contentsline {section}{\numberline {11}Fertigungsunterlagen}{24}{}%
-\contentsline {subsection}{\numberline {11.1}Mechanik}{24}{}%
-\contentsline {subsubsection}{\numberline {11.1.1}händische Skizzen}{24}{}%
-\contentsline {subsubsection}{\numberline {11.1.2}CAD-Zeichnungen}{24}{}%
-\contentsline {subsubsection}{\numberline {11.1.3}3D-Modelle}{24}{}%
-\contentsline {subsection}{\numberline {11.2}Hardware}{24}{}%
-\contentsline {subsubsection}{\numberline {11.2.1}Stromlaufpläne}{24}{}%
-\contentsline {subsubsection}{\numberline {11.2.2}Platinen}{24}{}%
-\contentsline {subsubsection}{\numberline {11.2.3}Bestückungslisten}{24}{}%
-\contentsline {subsection}{\numberline {11.3}Software}{24}{}%
-\contentsline {subsubsection}{\numberline {11.3.1}Diagramme}{24}{}%
-\contentsline {subsubsection}{\numberline {11.3.2}Code}{24}{}%
-\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{24}{}%
-\contentsline {section}{\numberline {13}Ausblick}{24}{}%
-\contentsline {section}{\numberline {14}Verzeichnisse}{24}{}%
-\contentsline {subsection}{\numberline {14.1}Quellenverzeichnisse}{24}{}%
-\contentsline {subsection}{\numberline {14.2}Abbildungsverzeichnis}{24}{}%
-\contentsline {subsection}{\numberline {14.3}Abkürzungsverzeichnis}{24}{}%
-\contentsline {section}{\numberline {15}Anhang}{24}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{11}{}%
+\contentsline {subsubsection}{\numberline {7.1.3}Schaltungsdesign \textcolor {red}{Laci}}{11}{}%
+\contentsline {subsubsection}{\numberline {7.1.4}Platinendesign \textcolor {red}{Laci}}{18}{}%
+\contentsline {subsection}{\numberline {7.2}Roboterhand}{18}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}Simulationen und Versuchsaufbauten \textcolor {red}{Laci}}{18}{}%
+\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen und Dimensionierung \textcolor {red}{Laci}}{18}{}%
+\contentsline {subsubsection}{\numberline {7.2.3}Schaltplandesign \textcolor {red}{Laci}}{18}{}%
+\contentsline {subsubsection}{\numberline {7.2.4}Platinendesign \textcolor {red}{Laci}}{18}{}%
+\contentsline {section}{\numberline {8}Software Realisierung}{18}{}%
+\contentsline {subsection}{\numberline {8.1}Handschuh}{18}{}%
+\contentsline {subsubsection}{\numberline {8.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{18}{}%
+\contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{21}{}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand}{23}{}%
+\contentsline {subsubsection}{\numberline {8.2.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{23}{}%
+\contentsline {subsubsection}{\numberline {8.2.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{24}{}%
+\contentsline {subsection}{\numberline {8.3}User Interface}{25}{}%
+\contentsline {subsubsection}{\numberline {8.3.1}Entwicklungsumgebung \textcolor {red}{Laci}}{25}{}%
+\contentsline {subsubsection}{\numberline {8.3.2}Konzepte und Überlegungen \textcolor {red}{Laci}}{25}{}%
+\contentsline {subsubsection}{\numberline {8.3.3}Realisierung und Gliederung \textcolor {red}{Laci}}{25}{}%
+\contentsline {section}{\numberline {9}Tests und Messungen}{25}{}%
+\contentsline {subsection}{\numberline {9.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte}}{25}{}%
+\contentsline {section}{\numberline {10}Projektmanagement}{25}{}%
+\contentsline {subsection}{\numberline {10.1}Projektstrukturplan}{25}{}%
+\contentsline {subsection}{\numberline {10.2}Milestoneplan}{25}{}%
+\contentsline {subsection}{\numberline {10.3}Gantt-Diagram}{26}{}%
+\contentsline {subsection}{\numberline {10.4}Meeting Struktur}{26}{}%
+\contentsline {section}{\numberline {11}Fertigungsunterlagen}{26}{}%
+\contentsline {subsection}{\numberline {11.1}Mechanik}{26}{}%
+\contentsline {subsubsection}{\numberline {11.1.1}händische Skizzen}{26}{}%
+\contentsline {subsubsection}{\numberline {11.1.2}CAD-Zeichnungen}{26}{}%
+\contentsline {subsubsection}{\numberline {11.1.3}3D-Modelle}{26}{}%
+\contentsline {subsection}{\numberline {11.2}Hardware}{26}{}%
+\contentsline {subsubsection}{\numberline {11.2.1}Stromlaufpläne}{26}{}%
+\contentsline {subsubsection}{\numberline {11.2.2}Platinen}{26}{}%
+\contentsline {subsubsection}{\numberline {11.2.3}Bestückungslisten}{26}{}%
+\contentsline {subsection}{\numberline {11.3}Software}{26}{}%
+\contentsline {subsubsection}{\numberline {11.3.1}Diagramme}{26}{}%
+\contentsline {subsubsection}{\numberline {11.3.2}Code}{26}{}%
+\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{26}{}%
+\contentsline {section}{\numberline {13}Ausblick}{26}{}%
+\contentsline {section}{\numberline {14}Verzeichnisse}{26}{}%
+\contentsline {subsection}{\numberline {14.1}Quellenverzeichnisse}{26}{}%
+\contentsline {subsection}{\numberline {14.2}Abbildungsverzeichnis}{26}{}%
+\contentsline {subsection}{\numberline {14.3}Abkürzungsverzeichnis}{26}{}%
+\contentsline {section}{\numberline {15}Anhang}{26}{}%

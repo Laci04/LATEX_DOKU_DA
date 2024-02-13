@@ -1,4 +1,16 @@
-\documentclass[11pt]{article}
+\documentclass[titlepage,12pt,twoside]{article}
+\raggedbottom 
+\pagenumbering{arabic}
+\textheight240mm            
+\textwidth150mm  
+\parskip0pt plus3pt
+\marginparwidth22mm  
+\marginparsep3mm
+\oddsidemargin4.6mm   
+\evensidemargin4.6mm  
+\topmargin-20mm
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{4}
 
 \usepackage{filecontents}
 \usepackage{graphicx}
@@ -42,174 +54,111 @@
 %==TITELSEITE==============================================================
 
 \begin{titlepage}
-	
-	\title{\textbf{\Huge{Diplomarbeit}}}
-	\maketitle
-	\thispagestyle{empty}
 
 	\begin{center}
-
-		\hfill \break
-		\hfill \break
-		\hfill \break
-		\textbf{\Large{Gesamtprojekt}} \break
-		\par
-		\textbf{\LARGE{RoboGlove - Bionische Hand}}
-
-		\hfill \break
-		\hfill \break
-		\hfill \break
-		\hfill \break
-		\hfill \break
-
-		\begin{tabular}{p{10cm}p{1cm}l}
-			3D-Druck, Mechanik und User-Interface-Programmierung \\
-		\end{tabular}
-
-		\begin{tabular}{p{3cm}p{2cm}l}
-			Amir Al-Maytah & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-		\end{tabular}
-
-		\begin{tabular}{p{3.26cm}p{5cm}l}
-			& Fachlehrer: Robert Offner 
-		\end{tabular}
-
-		\hfill \break
-
-		\begin{tabular}{p{14cm}p{1cm}l}
-			Mikrokontroller-Promgrammierung, Testmanagement und Gesamtintegration \\
-		\end{tabular}
-
-		\begin{tabular}{p{3cm}p{2cm}l}
-			Fabian Schweitzer & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-		\end{tabular}
-
-		\begin{tabular}{p{3.26cm}p{5cm}l}
-			& Fachlehrer: Robert Offner 
-		\end{tabular}
-
-		\hfill \break
-
-		\begin{tabular}{p{10cm}p{1cm}l}
-			Hardwareentwicklung, PCB-Design und Projektleitung \\
-		\end{tabular}
-
-		\begin{tabular}{p{3cm}p{2cm}l}
-			Ladislaus Szabo & 5BHEL & Betreuer: Dipl.-Ing. Christoph Diemberger \\
-		\end{tabular}
-
-		\begin{tabular}{p{3.26cm}p{5cm}l}
-			& Fachlehrer: Robert Offner 
-		\end{tabular}
-
-		\hfill \break
-		\hfill \break
-		\hfill \break
-		\hfill \break
-		\hfill \break
-
-		Ausgeführt im Schuljahr 2023/24
-
+	\begin{tabular}{p {2.4cm} p{10.8cm} p{2cm}}
+	\includegraphics[width=0.16\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}& \large{{\textbf{HTBLVA Technologisches Gewerbemuseum}}}\par\par\centering{\scriptsize{\textbf{Höhere Lehranstalt für Elektronik und Technische Informatik}}}&\includegraphics[width=0.12\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/HTL.png}\\
+	\end{tabular}
+	\noindent\rule{1.1\textwidth}{1pt} 
 	\end{center}
-
-\end{titlepage}
-
-\newpage
+	
+	\begin{center}
+	
+	\vspace*{1cm}
+	\LARGE
+	\textbf{DIPLOMARBEIT}
+	
+	\vspace{1.7cm}
+	\normalsize
+	Gesamtprojekt\\
+	\LARGE
+	\textbf{RoboGlove - Bionische Hand}\\
+	\end{center}
+	
+	\vspace{1.7cm}
+	
+	\normalsize 
+	\large
+	
+	\begin{tabular}{llr} 
+	\multicolumn{3}{l}{\large{ \textbf{3D-Druck, Mechanik, User-Interface Programmierung}}} \\
+	\large{Amir Al-Maytah} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+	 \\
+	\multicolumn{3}{l}{\large{ \textbf{Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration}}} \\
+	\large{Fabian Schweitzer} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+	 \\
+	\multicolumn{3}{l}{\large{ \textbf{Hardwareentwicklung, PCB-Design, Projektleitung}}} \\
+	\large{Ladislaus Szabo} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+	 \\
+	
+	\end{tabular}
+	
+	
+	
+	\vspace{1.5cm}
+	\normalsize
+	Ausgeführt im Schuljahr 2023/2024\\
+	\vspace{0.7cm}
+	\noindent\rule{\textwidth}{1pt}
+	\begin{tabular}{lr}
+	Abgabevermerk:\\
+	\\
+	\\
+	Datum: 13.2.2024 &\hspace{4cm}   übernommen von:\\
+	\end{tabular}
+	
+	\end{titlepage}
+	
+	\newpage
+	\thispagestyle{empty}
+	\clearpage\mbox{}\clearpage
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==EIDESSTATTLICHE-ERKLÄRUNG===============================================
 
 \thispagestyle{empty}
+	
+\begin {center}
+	\begin{tabular} {p {3cm} p{8cm} p{4.55cm}}
+  & 
+  & 
+  \vspace{1mm}\centering{\includegraphics[width=0.2\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}}\\ 
+\end{tabular}
 
-\begin{center}
+\hspace{40mm}
 
-	\hfill \break
-	\hfill \break
-	\title{\textbf{\LARGE{Eidesstattliche Erklärung}}}	
-	\maketitle
+\color{white}
+Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und
+	
+\color{blue}	
+\Large{\bfseries{Eidesstaatliche Erklärung}}	
+\color{black}	
 
-\end{center}
+\end {center}
 
-\hfill \break
+\hspace{10mm}
+
+Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.
+
+\begin{tabular}{p{7cm}}
 \\
-Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, 
-andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und 
-inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.\\
-%-----------------------------
-\hfill \break
-\hfill \break
-\hfill \break
-\hfill \break
-\begin{figure}[h]
-	\begin{center}
-		\scalebox{0.5}
-		{\includegraphics[width=0.8 \linewidth]{Amir_Unterschrift}}
-		\caption*{Amir Al-Maytah}
-	\end{center}
-\end{figure}
-%-----------------------------
-\begin{figure}[h]
-	\begin{center}
-		\scalebox{0.5}
-		{\includegraphics[width=0.8 \linewidth]{Fabian_Unterschrift}}
-		\caption*{Fabian Schweitzer}
-	\end{center}
-\end{figure}
-%-----------------------------
-\begin{figure}[h]
-	\begin{center}
-		\scalebox{0.5}
-		{\includegraphics[width=0.8 \linewidth]{Laci_Unterschrift}}
-		\caption*{Ladislaus Szabo}
-	\end{center}
-\end{figure}
-%-----------------------------
+\vspace{3cm}
+------------------------------------------------\\
+Amir Al-Maytah\\
+\vspace{3cm}
+------------------------------------------------\\
+Fabian Schweitzer\\
+\vspace{3cm}
+------------------------------------------------\\
+Ladislaus Szabo\\
 
-\pagebreak
 
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-%==KURZFASSUNG-DEUTSCH=====================================================
+\end{tabular}
 
+\newpage
 \thispagestyle{empty}
-
-\textbf{Aufgabenstellung:} 
-Im Rahmen eines Diplomprojekts soll eine Roboterhand mittels eines Handschuhs gesteuert werden. 
-Dazu müssen verschiedene Sensoren auf Genauigkeit getestet und aanscließend die ausgewerteten Daten kabellos an die
-Roboterhand übertragen werden. Die Bewegungen der Finger sollen mit Motoren nachgebildet werden und die Stellungen
-dieser soll im User-Interface dargestellt werden. \\
-\textbf{Realisierung:} 
-Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
-anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
-Servomotoren realisiert. Als User-Interface soll eine Application dienen. \\
-\textbf{Ergebnis:} 
-Die Handbewegungen können korrekt ausgewertet und übertragen werden. Der Benutzer trägt den Handschuh und greift 
-ein Objekt. Die Servomotoren interpretieren mittels des PCBs die empfangenen Daten und ermöglichen es der Roboterhand 
-ebenfalls das gleiche Objekt zu greifen. Beim Öffnen der Hand muss sich die Roboterhand in ihre Ausgangsstellung 
-zurückbewegen. \\
-\\
-
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-%==KURZFASSUNG-ENGLISCH====================================================
-\textbf{Task:} 
-As part of a feasibility study, a robotic hand is to be controlled by means of a glove. For
-this purpose, various sensors must be tested for accuracy and the evaluated data then
-transmitted wirelessly to the robotic hand. The positions of the fingers are to be displayed in a
-user interface. \\
-\textbf{Realization:} 
-The movements of the human hand are recorded with Flex sensors on the glove.
-The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
-the user interface. \\
-\textbf{Result:} 
-The hand movements can be correctly evaluated and transmitted. The user wears the
-glove and grasps an object. The servo motors interpret the received data by means of the PCB
-and enable the robot hand to also grasp the same object. When the hand is opened, the robot
-hand must also move back to its starting position. \\
-\\
-
-\pagebreak
+\clearpage\mbox{}\clearpage
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -218,30 +167,234 @@ hand must also move back to its starting position. \\
 \thispagestyle{empty}
 
 \begin{center}
-
-	\hfill \break
-	\hfill \break
-	\title{\textbf{\LARGE{Danksagung}}}	
-	\maketitle
-
+\Large{\textbf{Danksagung}} 
 \end{center}
 
-\hfill \break
+\hspace{2cm}
 \\
 Wir möchten uns herzlich bei unserem Betreuer Dipl.-Ing. Christoph Diemberger bedanken, 
-der uns bei diesem Projekt grundlegend unterstützt und motiviert hat. 
-\hfill \break
+der uns bei diesem Projekt grundlegend unterstützt und motiviert hat. \\
 \\
 Des Weiteren gilt unser Dank auch Fachlehrer Robert Offner und allen anderen Lehrpersonen, 
-die uns in der Werkstatt betreut und geholfen haben.
-\hfill \break
+die uns in der Werkstatt betreut und geholfen haben. \\
 \\
-Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
+Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.      
 
-\pagebreak
+\newpage
+\thispagestyle{empty}
+\clearpage\mbox{}\clearpage
 
-%==DANKSAGUNG-ENDE=========================================================
+%--------------------------------------------------------------------------
 %==========================================================================
+%== Diploma Thesis Englisch ===============================================
+
+\thispagestyle{empty}
+	
+\begin {center}
+\begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
+ \hline 
+\vspace{1mm}
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+\centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{College of}\par Electronic and Technical Information Technology}} &
+	\small{\bfseries{Diploma\par Exam}}\\ 
+	\hline
+\end{tabular}
+
+\vspace{5mm}
+\Large{\textbf{DIPLOMA THESIS\\}}
+\vspace{1mm}
+\small{\textbf{DOCUMENTATION\\}}
+\vspace{5mm}  
+
+	\begin{tabular} {|p {6cm}|p{10cm}|}
+	 \hline 
+		\bfseries{\small{Authors}} & \small{Amir Al-Maytah, Fabian Schweitzer, Ladislaus Szabo}\\
+	 \hline
+	  \bfseries{\small{From\par Academic year}} & \small{5BHEL 2023/2024}\\
+	 \hline 
+	  \bfseries{\small{Topic}} & \small{RoboGlove - Bionische Hand}\\ 
+	 \hline 
+	  \bfseries{\small{CO-operation partners}} & \small{}\\ 
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Assignment of tasks}} & \small{As part of a feasibility study, a robotic hand is to be controlled by means of a glove. For
+	  this purpose, various sensors must be tested for accuracy and the evaluated data then
+	  transmitted wirelessly to the robotic hand. The positions of the fingers are to be displayed in a
+	  user interface.}\\
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
+	 \hline
+	  \bfseries{\small{Realization}} & \small{The movements of the human hand are recorded with Flex sensors on the glove.
+	  The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
+	  the user interface.}\\  
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
+	 \hline
+	  \bfseries{\small{Results}} & \small{The hand movements can be correctly evaluated and transmitted. The user wears the
+	  glove and grasps an object. The servo motors interpret the received data by means of the PCB
+	  and enable the robot hand to also grasp the same object. When the hand is opened, the robot
+	  hand must also move back to its starting position.}\\
+	 \hline
+	\end{tabular}
+\end {center}
+
+\thispagestyle{empty}
+	
+\newpage
+\thispagestyle{empty}
+
+\begin{centering}
+\begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
+ \hline 
+\vspace{1mm}
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+\centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{College of}\par Electronic and Technical Information Technology}} &
+	\small{\bfseries{Diploma\par Exam}}\\ 
+	\hline
+\end{tabular}
+
+\vspace {2mm}
+
+	\begin{tabular} {|p {6cm}|p{10cm}|}
+	 \hline 
+		\bfseries{\small{Illustrative graph, photo\par (with explanation)}} & \vspace{0.0mm} \small{
+		\includegraphics[width=0.666\textwidth]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Final construction of the System
+		}\\
+	 \hline
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Participation in competitions,\par Awards}} & \small{}\\
+	 \hline 
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Accesibility
+		of\par Diploma Thesis}} & \small{Department administration}\\ 
+	 \hline 
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	\end{tabular}  
+	
+	\begin{tabular} {|p {6cm}|p{5cm}|p{4.6cm}|}
+	 \hline
+   \vspace{5mm}
+	  \bfseries{\small{Approval\par (Date/Signature)}} \vspace{5mm} & \tiny{Examiner} & \tiny{Head of College/Department}\\ 
+	 \hline 
+	\end{tabular} 
+	\end{centering}
+
+\thispagestyle{empty}
+
+\newpage
+
+%--------------------------------------------------------------------------
+%==========================================================================
+%== Diploma Thesis Deutsch ================================================
+
+\thispagestyle{empty}
+	
+\begin {center}
+\begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
+ \hline 
+\vspace{1mm}
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+\centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{Höhere Technische Lehranstalt für}\par Elektronik und Technische  Informatik}} &
+	\small{\bfseries{Reife- und\par Diplomprüfung}}\\ 
+	\hline
+\end{tabular}
+
+\vspace{5mm}
+\Large{\textbf{DIPLOMARBEIT\\}}
+\vspace{1mm}
+\small{\textbf{DOKUMENTATION\\}}
+\vspace{5mm}  
+
+	\begin{tabular} {|p {6cm}|p{10cm}|}
+	 \hline 
+		\bfseries{\small{Namen der\par Verfasser/innen}} & \small{Amir Al-Maytah, Fabian Schweitzer, Ladislaus Szabo}\\
+	 \hline
+	  \bfseries{\small{Jahrgang\par Schuljahr}} & \small{5BHEL 2023/2024}\\
+	 \hline 
+	  \bfseries{\small{Thema der Diplomarbeit}} & \small{RoboGlove - Bionische Hand}\\ 
+	 \hline 
+	  \bfseries{\small{Kooperationspartner}} & \small{}\\ 
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Aufgabenstellung}} & \small{Im Rahmen eines Diplomprojekts soll eine Roboterhand mittels eines Handschuhs gesteuert werden. 
+	  Dazu müssen verschiedene Sensoren auf Genauigkeit getestet und aanscließend die ausgewerteten Daten kabellos an die
+	  Roboterhand übertragen werden. Die Bewegungen der Finger sollen mit Motoren nachgebildet werden und die Stellungen
+	  dieser soll im User-Interface dargestellt werden.}\\
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
+	 \hline
+	  \bfseries{\small{Realisierung}} & \small{Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
+	  anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
+	  Servomotoren realisiert. Als User-Interface soll eine Application dienen.}\\  
+	 \hline
+	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
+	 \hline
+	  \bfseries{\small{Ergebnisse}} & \small{Die Handbewegungen können korrekt ausgewertet und übertragen werden. Der Benutzer trägt den Handschuh und greift 
+	  ein Objekt. Die Servomotoren interpretieren mittels des PCBs die empfangenen Daten und ermöglichen es der Roboterhand 
+	  ebenfalls das gleiche Objekt zu greifen. Beim Öffnen der Hand muss sich die Roboterhand in ihre Ausgangsstellung 
+	  zurückbewegen.}\\
+	 \hline
+	\end{tabular}
+\end {center}
+\thispagestyle{empty}
+	
+\newpage
+\thispagestyle{empty}
+
+\begin{centering}
+\begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
+ \hline 
+\vspace{1mm}
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+\centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{Höhere Technische Lehranstalt für}\par Elektronik und Technische  Informatik}} &
+	\small{\bfseries{Reife- und\par Diplomprüfung}}\\ 
+	\hline
+	\multicolumn{3}{l}{\large{ \textbf{}}}\\
+\end{tabular} 
+
+\vspace {1mm}
+
+	\begin{tabular} {|p {6cm}|p{10cm}|}
+	 \hline 
+		\bfseries{\small{Typische Grafik, Foto etc.\par (mit Erläuterung)}} & \vspace{0.0mm} \small{
+		\includegraphics[width=0.666\textwidth]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Vollständiger Aufbau des Systems
+		}\\
+	 \hline
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Teilnahme an Wettbewerben,\par Auszeichnungen}} & \small{}\\
+	 \hline 
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	 \hline
+	  \bfseries{\small{Möglichkeiten der\par Einsichtnahme in die Arbeit}} & \small{Abteilungsadministration}\\ 
+	 \hline 
+	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
+	\end{tabular}
+	
+	\begin{tabular} {|p {6cm}|p{5cm}|p{4.6cm}|}
+	 \hline
+   \vspace{5mm}
+	  \bfseries{\small{Approbation\par (Datum/Unterschrift)}} \vspace{5mm} & \tiny{Prüfer/Prüfernin} & \tiny{ Direktor/Direktorin\par Abteilungsvorstand/Abteilungsvorständin}\\ 
+	 \hline 
+	\end{tabular} 
+	\end{centering}
+	
+\thispagestyle{empty}
+
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \vspace*{\fill}
+    \Huge{\textbf{Inhaltsverzeichnis}}
+    \vspace*{\fill}
+\end{center}
+
+\newpage
+
 %==INHALT==================================================================
 
 \tableofcontents
@@ -250,6 +403,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 %--------------------------------------------------------------------------
 
 \newpage
+
 \pagenumbering{arabic}
 
 \section{Einleitung}
@@ -324,7 +478,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}
+\section{Grundlegende Systemkonzepte}
 
 \subsection{Handschuh}
 
@@ -466,7 +620,7 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Mechanische Entwicklung}
+\section{Mechanische Realisierung}
 
 \subsection{Handschuh \textcolor{red}{Amir}}
 \subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
@@ -477,7 +631,7 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Hardwareentwicklung}
+\section{Hardware Realisierung}
 
 \subsection{Handschuh}
 
@@ -881,7 +1035,7 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Softwareentwicklung}
+\section{Software Realisierung}
 
 \subsection{Handschuh}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
