@@ -28,13 +28,16 @@
 \usepackage[ngerman]{babel}
 \usepackage[margin=2.5cm]{geometry}
 \usepackage[none]{hyphenat}
-\usepackage{float}
+\usepackage{float} % für Positionierungsoption [H] beie Tables, figures,...
+\usepackage{hyperref} %Für URLS
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\fancyhead[L]{\MakeUppercase{Diplomarbeit 5BHEL 23/24}}
-%\fancyhead[R]{\chead{\includegraphics[width=\textwidth]{src/TGM.jpg}}}
+\fancyhf{}
+\setlength{\headheight}{20pt}
+\fancyhead[LE,RO]{\rightmark}
+
 \fancyfoot[L]{\small{Al-Maytah, Schweitzer, Szabo}}
 \fancyfoot[C]{}
 \fancyfoot[R]{\arabic{page}}
@@ -57,7 +60,7 @@
 
 	\begin{center}
 	\begin{tabular}{p {2.4cm} p{10.8cm} p{2cm}}
-	\includegraphics[width=0.16\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}& \large{{\textbf{HTBLVA Technologisches Gewerbemuseum}}}\par\par\centering{\scriptsize{\textbf{Höhere Lehranstalt für Elektronik und Technische Informatik}}}&\includegraphics[width=0.12\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/HTL.png}\\
+	\includegraphics[width=0.16\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}& \large{{\textbf{HTBLVA Technologisches Gewerbemuseum}}}\par\par\centering{\scriptsize{\textbf{Höhere Lehranstalt für Elektronik und Technische Informatik}}}&\includegraphics[width=0.12\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png}\\
 	\end{tabular}
 	\noindent\rule{1.1\textwidth}{1pt} 
 	\end{center}
@@ -123,7 +126,7 @@
 	\begin{tabular} {p {3cm} p{8cm} p{4.55cm}}
   & 
   & 
-  \vspace{1mm}\centering{\includegraphics[width=0.2\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}}\\ 
+  \vspace{1mm}\centering{\includegraphics[width=0.2\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}}\\ 
 \end{tabular}
 
 \hspace{40mm}
@@ -194,7 +197,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
  \hline 
 \vspace{1mm}
- \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
 \centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{College of}\par Electronic and Technical Information Technology}} &
 	\small{\bfseries{Diploma\par Exam}}\\ 
 	\hline
@@ -248,7 +251,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
  \hline 
 \vspace{1mm}
- \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
 \centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{College of}\par Electronic and Technical Information Technology}} &
 	\small{\bfseries{Diploma\par Exam}}\\ 
 	\hline
@@ -259,7 +262,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\begin{tabular} {|p {6cm}|p{10cm}|}
 	 \hline 
 		\bfseries{\small{Illustrative graph, photo\par (with explanation)}} & \vspace{0.0mm} \small{
-		\includegraphics[width=0.666\textwidth]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Final construction of the System
+		\includegraphics[width=0.666\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Final construction of the System
 		}\\
 	 \hline
 	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
@@ -296,7 +299,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
  \hline 
 \vspace{1mm}
- \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
 \centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{Höhere Technische Lehranstalt für}\par Elektronik und Technische  Informatik}} &
 	\small{\bfseries{Reife- und\par Diplomprüfung}}\\ 
 	\hline
@@ -349,7 +352,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \begin{tabular} {|p {3cm}|p{8cm}|p{4.55cm}|}
  \hline 
 \vspace{1mm}
- \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
+ \centering{\includegraphics[width=0.20\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}} &
 \centering{\normalsize{\textbf{HTBLVA Wien 20}}\par\small{\textbf{Höhere Technische Lehranstalt für}\par Elektronik und Technische  Informatik}} &
 	\small{\bfseries{Reife- und\par Diplomprüfung}}\\ 
 	\hline
@@ -361,7 +364,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\begin{tabular} {|p {6cm}|p{10cm}|}
 	 \hline 
 		\bfseries{\small{Typische Grafik, Foto etc.\par (mit Erläuterung)}} & \vspace{0.0mm} \small{
-		\includegraphics[width=0.666\textwidth]{/Users/laci/Downloads/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Vollständiger Aufbau des Systems
+		\includegraphics[width=0.666\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Vollständiger Aufbau des Systems
 		}\\
 	 \hline
 	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
@@ -480,24 +483,55 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 
 \section{Grundlegende Systemkonzepte}
 
-\subsection{Handschuh}
+\subsection{Gesamtsystemkonzept}
 
-\subsubsection{Mechanik \textcolor{red}{Amir}}
+\subsubsection{Systembeschreibung}
 
-\subsubsection{Hardware \textcolor{red}{Laci}}
-ie Hardware des Handschuhs muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtprojekt eingebaut 
-werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigste Punkt zu nennen. Da es bei diesem Projekt nicht nur
-um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, darf die entgültige Platine auf dem Handschuhrücken
-nicht größer als 3cm x 3cm sein. Beim Design der Elektronik muss durch die Größenrestriktion natürlich darauf geachtet, dass durch
-diese keine Einbußen in Bezug auf die korrekte und sichere Funktion des Projektteils entstehen. Übermäßige Wärmeentwicklung ist 
-ebenfalls zu vermeiden, da diese ab einer Temperatur von ca. 60C° unangenehm für den Endbenutzer wird. Die Versorgung der Schaltung
-sollte möglichst über einen kleinen und portablen Akku geschehen, um dem Benutzer das bestmögliche Erlebnis zu bereiten. Wenn diese
-schaltungsbezogenen Anforderungen bedacht sind, stellt sich nun die Frage wie und womit die Fingerbewegungen des Anwenders erfasst 
-werden sollen. Hier setzen wir auf Flexsensoren, wobei optional noch ein Gyro-Sensor, also ein Mikrochip mit einem eingebauten
-Gyroskop, zum Einsatz kommen kann. Diese Sensoren müssen durch einen Mikrokontroller gesteuert beziehungsweise ausgelesen werden.
-Für die Verwendung des Mikrokontrollers muss eine Art von Datendigitalisierung in der Schaltung vorhanden sein, die zumindest 30
-verschiedene Sensorpositionen erkennen kann. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
-auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{1.2}
+			{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Gesamtsystem}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+
+Das Gesamtsystem ist im oberhalb abgebildeten Blockschaltbild grafisch veranschaulicht. Die linke Hälfte zeigt das Konzept des 
+Handschuhs (Eingabe) und die rechte Hälfte die Roboterhand (Ausgabe). Die grundlegende Konzeptionierung der Bewegungserfassung 
+besteht darin, dass mithilfe von Sensoren die Fingerbeugung aller fünf Finger gemessen wird. Anschließend werden die Sensordaten
+ausgewertet und verarbeitet. Die resultierenden Informationen werden folglich über eine drahtlose Verbindung an das zweite 
+Subsystem, nämlich der Roboterhand, übertragen. Dort wird das Gesendete empfangen, weiterverarbeitet und interpretiert. Die Aktorik
+setzt die digitalen Anweisungen in mechanische Bewegungen um, wodurch die Roboterhand gesteuert wird. Im Ausgabesystem ist auch 
+ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkten näher erläutert.
+
+\subsubsection{Eingabesubsystem}
+
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{0.8}
+			{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Handschuhsystem}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+
+Die Sensorik besteht aus Flexsensoren. Der Output dieser, wird durch eine Messschaltung an einen Mikrokontroller übertragen.
+Die Datenübertragung erfolgt drahtlos, wodurch die Wahl von einigen verschiedenen Übertragungsprotokollen möglich ist. Die Eigenschaften
+und Überlegungen, die hinter allen Systemeinzeilteilen stecken, werden in den Punkten 7 und 8 näher erläutert.
+
+\subsubsection{Ausgabesubsystem}
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Roboterhandsystem}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+
+Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes Format für die Steuerung der Aktorik, also den Servomotoren,
+umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem ist ein Graphical-User-Interface, 
+weclhes in Punkt 8.3 näher erklrärt wird. 
+
+\subsection{Roboterhand}
 
 \subsubsection{Software \textcolor{red}{Fabian}}
 
@@ -593,27 +627,6 @@ Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Pro
 			  sollen sich dann exakt so viel bewegen, wie es im User Interface eingestellt wird.
 	\end{itemize}
 
-\subsubsection{User Interface \textcolor{red}{Laci}}
-
-\subsubsection{Allgemein}
-Die Roboterhand ist die Ausgabe des Projekts und wird vom Roboterarm gesteuert. Jeder Finge wird von einem Servomotor 
-bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom Handschuh kommenden 
-Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
-Servomotoren umgewandelt. Jeder Finger hat drei Gelenke und kann daher kontrolliert gebeugt und wieder gestreckt werden. 
-Die komplette Roboterhand wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
-mehr aus dem Griff der Hand rutschen können.\\
-\\
-\textcolor{red}{Folgende Richtlinien und Normen werden von der Roboterhand erfüllt:}\\
-\\
-Die Software des Roboterarmes ist dafür verantwortlich, dass die von der Handschuhplatine, via ESP32, gesendeten Daten 
-erfolgreich empfangen und gespeichert werden. Die Software wird hierzu per UART-Schnittstelle auf den ESP32 hochgeladen. 
-Die Daten der Flexsensoren, die man bereits erhalten hat, sollen dann verarbeitet werden. Anhand des Widerstandwertes und 
-der jeweiligen Veränderung, wird dann der Winkel des Servos eingestellt. Eine Fehlerkorrektur soll sicherstellen, dass die 
-Griffkraft passend eingestellt wird. Jeder Flexsensor hat unterschiedliche Widerstandswerte, es muss also über jeden Finger 
-eine gezielte Software geschrieben werden, damit man schlussendlich durch das Zusammenspiel aller Finger die Griffkraft 
-richtig einstellen kann. Falsche Messungen sollen bestmöglich korrigiert werden, sodass die Servos jeweils die richtigen 
-Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerung dar.
-
 \hfill \break
 \hfill \break
 
@@ -633,7 +646,18 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 
 \section{Hardware Realisierung}
 
-\subsection{Handschuh}
+\subsection{Eingabesubsystem}
+
+\subsubsection{Grundlegende Voraussetzungen \textcolor{red}{Laci}}
+Die Hardware des Eingabesubsystems muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtsystem eingebaut 
+werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigste Punkt zu nennen. Da es bei diesem Projekt nicht nur
+um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, sollte die entgültige Platine auf dem Handschuhrücken
+nicht größer als 4cm x 4cm sein. Beim Design der Elektronik muss durch die Größenrestriktion natürlich darauf geachtet, dass durch
+diese keine Einbußen in Bezug auf die korrekte und sichere Funktion des Projektteils entstehen. Übermäßige Wärmeentwicklung ist 
+ebenfalls zu vermeiden, da diese auf lange Zeit unangenehm für den Endnutzer wird. Die Versorgung der Schaltung
+sollte möglichst über einen kleinen und portablen Akku geschehen, um dem Benutzer das bestmögliche Erlebnis zu bereiten. Dieses Feature ist
+allerdings optional und ist daher nicht garantiert zur Verwendung bereit. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
+auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
 
 \subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
 \textbf{Bewegungserfassung der Fingerbeugung:}
@@ -1027,6 +1051,19 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
 \subsection{Roboterhand}
+
+\subsubsection{Grundlegende Vorraussetzungen}
+
+Die Roboterhand ist die Ausgabe des Projekts und wird vom Eingabesubsystem, dem Handschuh, gesteuert. Jeder Finge wird von einem Servomotor 
+bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom Handschuh kommenden 
+Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
+Servomotoren umgewandelt. Jeder Finger hat drei Gelenke und kann daher kontrolliert gebeugt und wieder gestreckt werden. 
+Die komplette Roboterhand wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
+mehr aus dem Griff der Hand rutschen können.\\
+\\
+\textcolor{red}{Folgende Richtlinien und Normen werden von der Roboterhand erfüllt:}\\
+\\
+
 \subsubsection{Simulationen und Versuchsaufbauten \textcolor{red}{Laci}}
 \subsubsection{Überlegungen und Dimensionierung \textcolor{red}{Laci}}
 \subsubsection{Schaltplandesign \textcolor{red}{Laci}}
@@ -1197,6 +1234,17 @@ Daten erfolgreich senden konnte oder nicht. \\
 \\
 
 \subsection{Roboterhand}
+
+\subsubsection{Grundlegende Vorraussetzungen}
+Die Software des Roboterarmes ist dafür verantwortlich, dass die von der Handschuhplatine, via ESP32, gesendeten Daten 
+erfolgreich empfangen und gespeichert werden. Die Software wird hierzu per UART-Schnittstelle auf den ESP32 hochgeladen. 
+Die Daten der Flexsensoren, die man bereits erhalten hat, sollen dann verarbeitet werden. Anhand des Widerstandwertes und 
+der jeweiligen Veränderung, wird dann der Winkel des Servos eingestellt. Eine Fehlerkorrektur soll sicherstellen, dass die 
+Griffkraft passend eingestellt wird. Jeder Flexsensor hat unterschiedliche Widerstandswerte, es muss also über jeden Finger 
+eine gezielte Software geschrieben werden, damit man schlussendlich durch das Zusammenspiel aller Finger die Griffkraft 
+richtig einstellen kann. Falsche Messungen sollen bestmöglich korrigiert werden, sodass die Servos jeweils die richtigen 
+Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerung dar.
+
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
 Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe 6.1.1! \\
 \\
@@ -1247,8 +1295,48 @@ wieder von vorne.
 \\
 
 \subsection{User Interface}
+
+\subsubsection{Grundlegende Vorraussetzungen}
+Grundvorraussetzungen die das User-Interface erfüllen muss sind eine Anzeige der aktuellen Griffkraft in kg und eine Anzeige für
+den aktuellen Winkel den jeder Servomotor zur Zeit hat. Es ist zwingend notwendig, dass für die Anbindung des GUIs keine technischen
+Vorauskenntnisse benötigt werden. Der Verbindungsaufbau muss daher ebenfalls fast von selbst erfolgen. Multiplatform Kompatibilibtät
+und eine stabile Laufleistung sollten ebenfalls gegeben sein, um dem Endbenutzer keine Technologie aufzuzwingen, die nicht gewünscht ist.
+
 \subsubsection{Entwicklungsumgebung \textcolor{red}{Laci}}
+
+Entschieden haben wir uns für QT. Dies ist eine C++ Entwicklungsumgebungen, die besonders Plattform unabhängig ist. Es sind keine Änderungen
+des Queellcodes notwendig, um die Anwedung für MAC, LINUX oder WINDOWS kompatibel zu machen. Dies bezeichnet man auch als source 
+code portability. Ebenfalls ist es relativ einfach möglich QML-Interfaces zu erstellen und diese mit umfangreichen Funktionalitäten auszustatten. \\
+\\ 
+Weitere Eigenschaften von Qt sind:
+\begin{itemize}
+	\item ein GUI-Designer
+	\item ein Debugger
+	\item eine 3D-Umgebung um Modelle zu animieren
+\end{itemize}
+
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Laci}}
+
+\textbf{Allgemeines Konzept:}
+\\
+Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
+erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das grafische Interface wurde 
+in der Beschreibungssprache QML erstellt, welche vielseitige Möglichkeiten zur individuellen Gestaltung bietet. Das Erstkonzept
+sieht folgendermaßen aus:
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{1.2}
+			{\includegraphics[width=0.8 \linewidth]{Konzept_UserInterface}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+Zu sehen sind die ersten Überlegungen bezüglich des visuellen Layouts. Auf der rechten Seite des Bildschirms sollen die erforderlichen
+Anzeigen für die Parameter der Griffkraft und des Servodrehwinkels abgebildet werden. Links und rechts oben sollen diverse Knöpfe 
+und Schieberegler zur weiteren Navigation und Kontrolle des UIs platziert werden. Optional kann noch ein 3D-Modell und Regler für 
+die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind allerdings nicht gefordert. \\
+\\
+
+
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Laci}}
 
 %--------------------------------------------------------------------------
@@ -1309,6 +1397,7 @@ Abnahme durch die Projektbetreuer – 12.03.2024
 %==VERZEICHNISSE===========================================================
 \section{Verzeichnisse}
 \subsection{Quellenverzeichnisse}
+
 \subsection{Abbildungsverzeichnis}
 \subsection{Abkürzungsverzeichnis}
 
