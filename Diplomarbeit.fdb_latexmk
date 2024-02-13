@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1707239020 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1707239022 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1707239020 67749 ba794ae24ab5828d79a0d6ffe730b0e4 ""
+["pdflatex"] 1707819099 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1707819101 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1707819099 67496 abc0e22925a09a7da1a806095d8e0b41 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
@@ -182,9 +182,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1707239022 9822 4ec57ae1f6b7c710ccc30b1bb234687d "pdflatex"
-  "Diplomarbeit.tex" 1707239020 67749 ba794ae24ab5828d79a0d6ffe730b0e4 ""
-  "Diplomarbeit.toc" 1707239022 6521 900b13aa338eae049390fb10321056d2 "pdflatex"
+  "Diplomarbeit.aux" 1707819101 9524 4073c9c3a7c4e988f9c1801c500ee688 "pdflatex"
+  "Diplomarbeit.tex" 1707819099 67496 abc0e22925a09a7da1a806095d8e0b41 ""
+  "Diplomarbeit.toc" 1707819101 6305 07466f6ccf81fa449d63c6c75a13664e "pdflatex"
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/Akku_Boostconverter_Schaltplan_Handschuh.png" 1706622894 109363 6fd598b6378a1d4896a6bcee38051983 ""
   "src/Akku_Buckconverter_Schaltplan_Handschuh.png" 1706622732 70987 c62347e551259e1a1730f50bb66db2e4 ""

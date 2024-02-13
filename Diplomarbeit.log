@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  6 FEB 2024 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  13 FEB 2024 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1103,6 +1103,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 257--261
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 263--268
 
  []
@@ -1190,28 +1195,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [1]
-Overfull \hbox (50.5332pt too wide) in paragraph at lines 322--322
+Overfull \hbox (50.5332pt too wide) in paragraph at lines 327--327
 []\OT1/cmr/bx/n/14.4 Anforderungen und de-tail-lier-te Be-schrei-bung der ein-zel-nen Pro-jekt-tei-le 
  []
 
 
-Overfull \hbox (14.91696pt too wide) in paragraph at lines 340--353
+Overfull \hbox (14.91696pt too wide) in paragraph at lines 334--347
 \OT1/cmr/m/n/10.95 Mi-kro-kon-trol-ler ge-steu-ert be-zie-hungs-wei-se aus-ge-le-sen wer-den. F[]ur die Ver-wen-dung des Mi-kro-kon-trol-lers
  []
 
 
-Overfull \hbox (8.31055pt too wide) in paragraph at lines 340--353
+Overfull \hbox (8.31055pt too wide) in paragraph at lines 334--347
 \OT1/cmr/m/n/10.95 muss ei-ne Art von Da-ten-di-gi-ta-li-sie-rung in der Schal-tung vor-han-den sein, die zu-min-dest 30 ver-schie-de-ne
  []
 
 
-Overfull \hbox (1.50209pt too wide) in paragraph at lines 340--353
+Overfull \hbox (1.50209pt too wide) in paragraph at lines 334--347
 \OT1/cmr/m/n/10.95 Sen-sor-po-si-tio-nen er-ken-nen kann. []Uber einen USB An-schluss soll der Mir-ko-kon-trol-ler pro-gram-mier-bar
  []
 
 
-Overfull \hbox (19.81401pt too wide) in paragraph at lines 340--353
+Overfull \hbox (19.81401pt too wide) in paragraph at lines 334--347
 \OT1/cmr/m/n/10.95 sein und die Schal-tung auch f[]ur Test -und War-tungs-zwe-cke ver-sorgt wer-den k[]onnen. Das Ma-xi-mal-ge-wicht
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--347
+
  []
 
 
@@ -1222,13 +1232,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.16252pt}.
 
 [2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (3.8546pt too wide) in paragraph at lines 367--368
-[]\OT1/cmr/m/n/10.95 Jeder die-ser Mo-to-ren muss in-di-vi-du-ell re-gel-bar sein, um die Griff-kraft der Hand zu kon-trol-lie-ren. 
+Overfull \hbox (10.86554pt too wide) in paragraph at lines 352--354
+[]\OT1/cmr/m/n/10.95 Der Wi-der-stand je-des Flex-sen-sors, der an je-dem Hand-schuh je-weils []uber je-dem Fin-ger an-ge-bracht
  []
 
 
-Overfull \hbox (10.86554pt too wide) in paragraph at lines 376--378
-[]\OT1/cmr/m/n/10.95 Der Wi-der-stand je-des Flex-sen-sors, der an je-dem Hand-schuh je-weils []uber je-dem Fin-ger an-ge-bracht
+Overfull \hbox (20.54404pt too wide) in paragraph at lines 370--374
+\OT1/cmr/m/n/10.95 Der Hand-schuh erm[]oglicht dem Be-nut-zer die Ro-bo-ter-hand zu steu-ern. Dies ge-schieht durch Flex-sen-so-ren,
+ []
+
+
+Overfull \hbox (43.47952pt too wide) in paragraph at lines 370--374
+\OT1/cmr/m/n/10.95 Mo-ta-ge an-ge-bracht sind. Wird ein Fin-ger ge-beugt, so []andert sich der Wi-der-stands-wert der kor-re-spon-die-ren-den
+ []
+
+
+Overfull \hbox (6.46236pt too wide) in paragraph at lines 370--374
+\OT1/cmr/m/n/10.95 Sen-so-ren. Die-se []Anderungen wer-den von ei-ner Mess-schal-tung er-fasst, die die Sen-sor-wer-te in-ter-pre-tiert,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--394
+
+ []
+
+
+Overfull \hbox (6.21046pt too wide) in paragraph at lines 375--394
+\OT1/cmr/m/n/10.95 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
  []
 
 
@@ -1239,116 +1279,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-13.16252pt}.
 
 [3]
-Overfull \hbox (3.20177pt too wide) in paragraph at lines 405--407
-[]\OT1/cmr/m/n/10.95 Die Wer-te, die im User In-ter-face ein-ge-stellt wer-den, sol-len von der Empf[]angerplatine ver-ar-bei-tet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
-
- []
-
-
-Overfull \hbox (20.54404pt too wide) in paragraph at lines 421--425
-\OT1/cmr/m/n/10.95 Der Hand-schuh erm[]oglicht dem Be-nut-zer die Ro-bo-ter-hand zu steu-ern. Dies ge-schieht durch Flex-sen-so-ren,
- []
-
-
-Overfull \hbox (43.47952pt too wide) in paragraph at lines 421--425
-\OT1/cmr/m/n/10.95 Mo-ta-ge an-ge-bracht sind. Wird ein Fin-ger ge-beugt, so []andert sich der Wi-der-stands-wert der kor-re-spon-die-ren-den
- []
-
-
-Overfull \hbox (6.46236pt too wide) in paragraph at lines 421--425
-\OT1/cmr/m/n/10.95 Sen-so-ren. Die-se []Anderungen wer-den von ei-ner Mess-schal-tung er-fasst, die die Sen-sor-wer-te in-ter-pre-tiert,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--425
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--445
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--445
-
- []
-
-
-Overfull \hbox (6.21046pt too wide) in paragraph at lines 426--445
-\OT1/cmr/m/n/10.95 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
+Overfull \hbox (3.8546pt too wide) in paragraph at lines 420--421
+[]\OT1/cmr/m/n/10.95 Jeder die-ser Mo-to-ren muss in-di-vi-du-ell re-gel-bar sein, um die Griff-kraft der Hand zu kon-trol-lie-ren. 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 25.16252pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.16252pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-13.16252pt}.
 
 [4]
-Overfull \hbox (2.78073pt too wide) in paragraph at lines 447--464
+Overfull \hbox (3.20177pt too wide) in paragraph at lines 438--440
+[]\OT1/cmr/m/n/10.95 Die Wer-te, die im User In-ter-face ein-ge-stellt wer-den, sol-len von der Empf[]angerplatine ver-ar-bei-tet
+ []
+
+
+Overfull \hbox (2.78073pt too wide) in paragraph at lines 445--462
 \OT1/cmr/m/n/10.95 wird von ei-nem Ser-vo-mo-tor be-wegt. Die-ser ist durch zwei d[]unne Schn[]ure mit dem kor-re-spon-die-ren-den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--464
+Underfull \hbox (badness 10000) in paragraph at lines 445--462
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--464
+Underfull \hbox (badness 10000) in paragraph at lines 445--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png, id=46, 864.22874pt x 278.03876pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png  used on input line 511.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png  used on input line 510.
 (pdftex.def)             Requested size: 377.62642pt x 121.48892pt.
 
-Overfull \hbox (0.10408pt too wide) in paragraph at lines 486--514
+Overfull \hbox (0.10408pt too wide) in paragraph at lines 485--513
 \OT1/cmr/m/n/10.95 die Er-fas-sung der Fin-ger-be-we-gun-gen mit-tels Flex-sen-so-ren ent-schie-den. Die-se []andern den Wi-der-stand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--514
+Underfull \hbox (badness 10000) in paragraph at lines 485--513
 
  []
 
 
-Overfull \hbox (22.91052pt too wide) in paragraph at lines 486--514
+Overfull \hbox (22.91052pt too wide) in paragraph at lines 485--513
 \OT1/cmr/m/n/10.95 Shunt-wi-der-stand die Span-nungs-dif-fe-renz mes-sen, die sich bei ei-ner Ver[]anderung des fle-xiblen Wi-der-stands
  []
 
 
-Overfull \hbox (2.23323pt too wide) in paragraph at lines 486--514
+Overfull \hbox (2.23323pt too wide) in paragraph at lines 485--513
 \OT1/cmr/m/n/10.95 er-gibt. Durch ei-ne ge-eig-ne-te Verst[]arkung des OPVs kann die-se mit ei-ner Re-fe-renz-span-nung ver-gli-chen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--514
+Underfull \hbox (badness 10000) in paragraph at lines 485--513
 
  []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                Make it at least 25.16252pt, for example:
+(fancyhdr)                \setlength{\headheight}{25.16252pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+(fancyhdr)                \addtolength{\topmargin}{-13.16252pt}.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 516--522
+Underfull \hbox (badness 10000) in paragraph at lines 515--521
 
  []
 
@@ -1360,122 +1370,122 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 523--529
+Underfull \hbox (badness 10000) in paragraph at lines 522--528
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--535
+Underfull \hbox (badness 10000) in paragraph at lines 528--534
 
  []
 
 
-Overfull \hbox (2.04344pt too wide) in paragraph at lines 529--535
+Overfull \hbox (2.04344pt too wide) in paragraph at lines 528--534
 \OT1/cmr/m/n/10.95 OPV kei-ne Rail-to-Rail Tech-no-lo-gie be-sitzt, muss der Aus-gangs-span-nungs-pe-gel auf ein ge-wis-ses
  []
 
 
-Overfull \hbox (9.96709pt too wide) in paragraph at lines 537--578
+Overfull \hbox (9.96709pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Aufgrund die-ser Kri-te-ri-en und der Not-wen-dig-keit von Ge-nau-ig-keit und ge-rin-ger St[]orungseigenschaften,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Overfull \hbox (2.29402pt too wide) in paragraph at lines 537--578
+Overfull \hbox (2.29402pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Der Shunt-Widerstand wur-de nicht be-rech-net. Die-ser wur-de ein-fach durch pro-bie-ren in-der Si-mu-la-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Overfull \hbox (38.17976pt too wide) in paragraph at lines 537--578
+Overfull \hbox (38.17976pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Ein Tief-pass-fil-ter (Rf und Cf) ist hin-ter den Aus-gang des OPVs ge-schal-tet, um m[]ogliche Span-nungs-st[]orungen
  []
 
 
-Overfull \hbox (30.7593pt too wide) in paragraph at lines 537--578
+Overfull \hbox (30.7593pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 (Ripp-le), zus[]atzlich zu dem oh-ne-hin schon sehr st[]orungsarmen Aus-gangs-si-gnal des INA129, her-aus-zu-fil-tern.
  []
 
 
-Overfull \hbox (15.26683pt too wide) in paragraph at lines 537--578
+Overfull \hbox (15.26683pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Der zu GND ge-schal-te-te Wi-der-stand (R1), ent-las-tet den Ein-gang des fol-gen-den AD-Cs. Der Tief-pass-fil-ter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Overfull \hbox (1.71611pt too wide) in paragraph at lines 537--578
+Overfull \hbox (1.71611pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Der Shunt-wi-der-stand wur-de nicht wirk-lich be-rech-net. Die-ser wur-de durch pro-bie-ren in der Si-mu-la-ti-on
  []
 
 
-Overfull \hbox (8.77397pt too wide) in paragraph at lines 537--578
+Overfull \hbox (8.77397pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 er-mit-telt. Ei-ne Be-rech-nung des Shunts w[]are nicht wirk-lich Zielf[]uhrend ge-we-sen, da die-se nor-ma-ler-wei-se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
 
-Overfull \hbox (51.01436pt too wide) in paragraph at lines 537--578
+Overfull \hbox (51.01436pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 Um nun die ana-lo-gen Aus-gangs-wer-te des Ope-ra-ti-ons-verst[]arkers nach der Verst[]arkung der Span-nungs-dif-fe-ren-zen
  []
 
 
-Overfull \hbox (21.93721pt too wide) in paragraph at lines 537--578
+Overfull \hbox (21.93721pt too wide) in paragraph at lines 536--577
 \OT1/cmr/m/n/10.95 am Flex-sen-sor f[]ur den Mi-kro-kon-trol-ler m[]oglichst ef-fi-zi-ent und brauch-bar zu ma-chen, ist ei-ne Um-wand-lung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--578
+Underfull \hbox (badness 10000) in paragraph at lines 536--577
 
  []
 
@@ -1487,52 +1497,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 579--588
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--588
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--588
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--588
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--588
+Underfull \hbox (badness 10000) in paragraph at lines 578--587
 
  []
 
 
-Overfull \hbox (17.18974pt too wide) in paragraph at lines 589--602
+Overfull \hbox (17.18974pt too wide) in paragraph at lines 588--601
 \OT1/cmr/m/n/10.95 Au-s-teu-er-be-reich von 0V - 3.3V aus-rei-chend ist, um den kom-plet-ten Wer-te-be-reich sehr ge-nau ab-zu-de-cken.
  []
 
 
-Overfull \hbox (24.86209pt too wide) in paragraph at lines 589--602
+Overfull \hbox (24.86209pt too wide) in paragraph at lines 588--601
 \OT1/cmr/m/n/10.95 Mi-kro-kon-trol-ler er-for-dern mit dem I2C Bus-sys-tem an-zu-schlie-^^Yen. Da-her muss der Analog-Digital-Wandler
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--602
+Underfull \hbox (badness 10000) in paragraph at lines 588--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--602
+Underfull \hbox (badness 10000) in paragraph at lines 588--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--609
+Underfull \hbox (badness 10000) in paragraph at lines 602--608
 
  []
 
@@ -1544,47 +1554,47 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 609--613
+Underfull \hbox (badness 10000) in paragraph at lines 608--612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--631
+Underfull \hbox (badness 10000) in paragraph at lines 613--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--631
+Underfull \hbox (badness 10000) in paragraph at lines 613--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--631
+Underfull \hbox (badness 10000) in paragraph at lines 613--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 614--631
+Underfull \hbox (badness 10000) in paragraph at lines 613--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--636
+Underfull \hbox (badness 10000) in paragraph at lines 631--635
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 636--640
+Underfull \hbox (badness 10000) in paragraph at lines 635--639
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--645
+Underfull \hbox (badness 10000) in paragraph at lines 639--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 645--650
+Underfull \hbox (badness 10000) in paragraph at lines 644--649
 
  []
 
@@ -1596,57 +1606,57 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 650--655
+Underfull \hbox (badness 10000) in paragraph at lines 649--654
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--659
+Underfull \hbox (badness 10000) in paragraph at lines 654--658
 
  []
 
 
-Overfull \hbox (0.4162pt too wide) in paragraph at lines 655--659
+Overfull \hbox (0.4162pt too wide) in paragraph at lines 654--658
 \OT1/cmr/m/n/10.95 Schlussendlich d[]urfen sich al-le Kri-te-ri-en je-doch nicht zu sehr auf die Gr[]o^^Ye des Mi-kro-kon-trol-lers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--683
+Underfull \hbox (badness 10000) in paragraph at lines 659--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--683
+Underfull \hbox (badness 10000) in paragraph at lines 659--682
 
  []
 
 
-Overfull \hbox (14.97787pt too wide) in paragraph at lines 660--683
+Overfull \hbox (14.97787pt too wide) in paragraph at lines 659--682
 \OT1/cmr/m/n/10.95 des Mi-kro-kon-trol-lers ver-wen-det wird. Da-zu ist al-ler-dings ei-ne re-la-tiv kom-plit-zier-te Schal-tung not-wen-dig,
  []
 
 
-Overfull \hbox (3.17136pt too wide) in paragraph at lines 660--683
+Overfull \hbox (3.17136pt too wide) in paragraph at lines 659--682
 \OT1/cmr/m/n/10.95 wes-we-gen bei vie-len Pro-duk-ten, die LiPo-Akkus ver-wen-den, ex-tra La-de-ger[]ate ge-kauft wer-den m[]ussen.
  []
 
 
-Overfull \hbox (17.73851pt too wide) in paragraph at lines 660--683
+Overfull \hbox (17.73851pt too wide) in paragraph at lines 659--682
 \OT1/cmr/m/n/10.95 Dies woll-ten wir ver-mei-den und ha-ben dement-spre-chend viel Zeit in die Re-ser-che f[]ur ei-ne funk-tio-nie-ren-de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--683
+Underfull \hbox (badness 10000) in paragraph at lines 659--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--683
+Underfull \hbox (badness 10000) in paragraph at lines 659--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--692
+Underfull \hbox (badness 10000) in paragraph at lines 687--691
 
  []
 
@@ -1661,35 +1671,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png, id=74, 539.01375pt x 601.24625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png  used on input line 705.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png  used on input line 704.
 (pdftex.def)             Requested size: 377.62642pt x 421.2273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--708
+Underfull \hbox (badness 10000) in paragraph at lines 692--707
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 693--708
+Underfull \hbox (badness 10000) in paragraph at lines 692--707
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png, id=75, 419.5675pt x 340.27126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png  used on input line 717.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png  used on input line 716.
 (pdftex.def)             Requested size: 377.62642pt x 306.25687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--720
+Underfull \hbox (badness 10000) in paragraph at lines 708--719
 
  []
 
 
-Overfull \hbox (43.59995pt too wide) in paragraph at lines 709--720
+Overfull \hbox (43.59995pt too wide) in paragraph at lines 708--719
 \OT1/cmr/m/n/10.95 bei ei-nem feh-ler-haf-ten Sen-sor eben-falls zu ber[]ucksichtigen. Auf-grund des-sen wird ei-ne 6-Pin-JST-Buchse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--720
+Underfull \hbox (badness 10000) in paragraph at lines 708--719
 
  []
 
@@ -1704,41 +1714,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png, id=80, 683.55376pt x 294.09875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png  used on input line 728.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png  used on input line 727.
 (pdftex.def)             Requested size: 377.62642pt x 162.47731pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--731
+Underfull \hbox (badness 10000) in paragraph at lines 720--730
 
  []
 
 
-Overfull \hbox (12.3176pt too wide) in paragraph at lines 721--731
+Overfull \hbox (12.3176pt too wide) in paragraph at lines 720--730
 \OT1/cmr/m/n/10.95 an-zul[]oten. Da der Ak-ku einen Ver-sor-gungs -und GND-Anschluss hat, wird ei-ne 2-Pin-JST-Buchse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--731
+Underfull \hbox (badness 10000) in paragraph at lines 720--730
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png, id=81, 606.265pt x 560.0925pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png  used on input line 744.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png  used on input line 743.
 (pdftex.def)             Requested size: 377.62642pt x 348.869pt.
 
-Overfull \hbox (51.47194pt too wide) in paragraph at lines 733--747
+Overfull \hbox (51.47194pt too wide) in paragraph at lines 732--746
 \OT1/cmr/m/n/10.95 Bus-lei-tun-gen, al-so I2C und UART, wur-den Wi-derst[]ande in Se-rie hin-zu-gef[]ugt, um die Kom-mu-ni-ka-ti-ons-lei-tun-gen
  []
 
 
-Overfull \hbox (4.46678pt too wide) in paragraph at lines 733--747
+Overfull \hbox (4.46678pt too wide) in paragraph at lines 732--746
 \OT1/cmr/m/n/10.95 F[]ur die Da-ten-lei-tun-gen SDA und SCL des I2c Bus-ses sind zwei $10\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 
 $ PullUp-Widerst[]ande vor-ge-se-hen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 733--747
+Underfull \hbox (badness 10000) in paragraph at lines 732--746
 
  []
 
@@ -1750,27 +1760,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 753--758
+Underfull \hbox (badness 10000) in paragraph at lines 752--757
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--763
+Underfull \hbox (badness 10000) in paragraph at lines 757--762
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 763--766
+Underfull \hbox (badness 10000) in paragraph at lines 762--765
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png, id=87, 340.27126pt x 313.17pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png  used on input line 776.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png  used on input line 775.
 (pdftex.def)             Requested size: 377.62642pt x 347.57024pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 768--779
+Underfull \hbox (badness 10000) in paragraph at lines 767--778
 
  []
 
@@ -1785,61 +1795,61 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png, id=93, 728.7225pt x 390.45876pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png  used on input line 803.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png  used on input line 802.
 (pdftex.def)             Requested size: 377.62642pt x 202.33669pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--806
+Underfull \hbox (badness 10000) in paragraph at lines 780--805
 
  []
 
 
-Overfull \hbox (22.5468pt too wide) in paragraph at lines 781--806
+Overfull \hbox (22.5468pt too wide) in paragraph at lines 780--805
 \OT1/cmr/m/n/10.95 F[]ur das Aus-le-sen der Flex-sen-so-ren, wird ei-ne Schal-tung, wie in Punkt []Aus-le-sen der Sen-so-ren"beschrieben,
  []
 
 
-Overfull \hbox (35.29622pt too wide) in paragraph at lines 781--806
+Overfull \hbox (35.29622pt too wide) in paragraph at lines 780--805
 \OT1/cmr/m/n/10.95 ben[]otigt. Da am Shunt-wi-der-stand nur sehr we-nig Span-nungs-ab-fall auf-tritt und da-her die Span-nungs-dif-fe-renz
  []
 
 
-Overfull \hbox (1.68454pt too wide) in paragraph at lines 781--806
+Overfull \hbox (1.68454pt too wide) in paragraph at lines 780--805
 \OT1/cmr/m/n/10.95 was f[]ur einen OPV ei-ne re-la-tiv ge-rin-ge Ver-sor-gungs-span-nung ist. Da die ma-xi-ma-le Ein-gangs-span-nung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--806
+Underfull \hbox (badness 10000) in paragraph at lines 780--805
 
  []
 
 
-Overfull \hbox (1.85463pt too wide) in paragraph at lines 781--806
+Overfull \hbox (1.85463pt too wide) in paragraph at lines 780--805
 \OT1/cmr/m/n/10.95 wenn der Flex-sen-sor sei-nen ma-xi-ma-len Wi-der-stand von $125\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 
 $ er-reicht, be-tr[]agt nur 6.3mV. Auf-grund
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 781--806
+Underfull \hbox (badness 10000) in paragraph at lines 780--805
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png, id=94, 525.965pt x 262.9825pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png  used on input line 822.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png  used on input line 821.
 (pdftex.def)             Requested size: 377.62642pt x 188.82156pt.
 
-Overfull \hbox (40.55348pt too wide) in paragraph at lines 808--825
+Overfull \hbox (40.55348pt too wide) in paragraph at lines 807--824
 \OT1/cmr/m/n/10.95 Der Analog-Digital-Wandler ist daf[]ur zust[]andig, die ana-lo-gen Wer-te, vom Aus-gang des Ope-ra-ti-ons-verst[]arkers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 808--825
+Underfull \hbox (badness 10000) in paragraph at lines 807--824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 808--825
+Underfull \hbox (badness 10000) in paragraph at lines 807--824
 
  []
 
@@ -1854,35 +1864,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png, id=100, 546.04pt x 465.74pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png  used on input line 837.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png  used on input line 836.
 (pdftex.def)             Requested size: 377.62642pt x 322.09293pt.
 
-Overfull \hbox (20.8471pt too wide) in paragraph at lines 827--840
+Overfull \hbox (20.8471pt too wide) in paragraph at lines 826--839
 \OT1/cmr/m/n/10.95 war-zu-neh-men. Die Ver-sor-gung ba-siert auf 3.3V und die Da-ten[]ubertragung er-neut mit-tels I2C-Bussystem.
  []
 
 
-Overfull \hbox (19.26175pt too wide) in paragraph at lines 827--840
+Overfull \hbox (19.26175pt too wide) in paragraph at lines 826--839
 \OT1/cmr/m/n/10.95 Der Un-ter-schied bei die-sem Chip ist al-ler-dings, dass meh-re-re AD-Cs in-te-griert sind, um die Po-si-ti-ons-da-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 827--840
+Underfull \hbox (badness 10000) in paragraph at lines 826--839
 
  []
 
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png, id=101, 629.35126pt x 575.14874pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png  used on input line 853.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png  used on input line 852.
 (pdftex.def)             Requested size: 377.62642pt x 345.10068pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 841--856
+Underfull \hbox (badness 10000) in paragraph at lines 840--855
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 841--856
+Underfull \hbox (badness 10000) in paragraph at lines 840--855
 
  []
 
@@ -1897,100 +1907,100 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png, id=107, 716.6775pt x 475.7775pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png  used on input line 861.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png  used on input line 860.
 (pdftex.def)             Requested size: 377.62642pt x 250.69438pt.
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png, id=108, 689.57625pt x 278.03876pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png  used on input line 869.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png  used on input line 868.
 (pdftex.def)             Requested size: 377.62642pt x 152.25995pt.
 
-Overfull \hbox (4.72263pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (4.72263pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 Es gibt vie-le M[]oglichkeiten die Wer-te, die man von je-dem ein-zel-nen Flex-sen-sor aus-liest, zu []ubertragen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Overfull \hbox (27.91222pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (27.91222pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 Die Ar-dui-no IDE (1. & 2. Ver-si-on) wird als Ent-wick-lungs-um-ge-bung ver-wen-det, da die-se f[]ur Mi-kro-con-trol-ler
  []
 
 
-Overfull \hbox (5.73112pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (5.73112pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 wird die Im-ple-men-tie-rung von be-stimm-ten gew[]unschten Funk-tio-nen ver-ein-facht. Wich-tig ist al-ler-dings
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Overfull \hbox (12.54335pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (12.54335pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 For-mat []uber ESP-NOW an die Empf[]angerplatine (Ro-bo-ter-hand) ge-sen-det wer-den. Da-bei soll []uberpr[]uft
  []
 
 
-Overfull \hbox (3.0557pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (3.0557pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 wer-den, ob auch wirk-lich Da-ten ge-sen-det wer-den. Bei er-folg-rei-chem Emp-fan-gen der Empf[]angerplatine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Overfull \hbox (8.0672pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (8.0672pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 Die Sen-der-pla-ti-ne ist so kon-zi-piert wor-den, dass Flex-sen-so-ren []uber Dr[]ahte an die Pla-ti-ne an-ge-schlos-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Overfull \hbox (3.5808pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (3.5808pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 Datenkorrektur auf Sen-der-sei-te Ur-spr[]unglich wur-de mit dem Ge-dan-ken ge-spielt, dass die ein-ge-le-se-nen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Overfull \hbox (19.20572pt too wide) in paragraph at lines 889--1003
+Overfull \hbox (19.20572pt too wide) in paragraph at lines 888--1002
 \OT1/cmr/m/n/10.95 ein-ge-le-se-nen Wer-te mit je-weils ei-nem neu-en Wert. Der arith-me-ti-sche Mit-tel-wert soll hier-bei her-an-ge-zo-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--1003
+Underfull \hbox (badness 10000) in paragraph at lines 888--1002
 
  []
 
@@ -2029,50 +2039,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=125, 215.80624pt x 399.4925pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 1009.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 1008.
 (pdftex.def)             Requested size: 377.62642pt x 699.12233pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1004--1012
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1011
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1013--1045
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1044
 
  []
 
@@ -2084,17 +2094,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [20 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1070
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1070
 
  []
 
@@ -2109,20 +2119,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png, id=133, 199.74625pt x 453.695pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1078.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1077.
 (pdftex.def)             Requested size: 377.62642pt x 857.83424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1081
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1080
 
  []
 
 
-Overfull \hbox (14.43036pt too wide) in paragraph at lines 1083--1095
+Overfull \hbox (14.43036pt too wide) in paragraph at lines 1082--1094
 \OT1/cmr/m/n/10.95 Am An-fang wird der Buf-fer des ESP32 aus-ge-le-sen. Die von der Sen-der-pla-ti-ne (Hand-schuh) emp-fan-ge-nen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1082--1094
 
  []
 
@@ -2159,7 +2169,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,520b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Diplomarbeit.pdf (30 pages, 892080 bytes).
+Output written on Diplomarbeit.pdf (30 pages, 891561 bytes).
 PDF statistics:
  197 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

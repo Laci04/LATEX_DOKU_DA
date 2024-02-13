@@ -257,7 +257,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 Es gibt Produktionsbereiche, die klinisch sauber gehalten werden müssen, da durch Menschen Kontaminationen entstehen
 können. Für dieses Vorhaben soll ein Prototyp einer Roboterhand, die über einen Sensorhandschuh kabellos gesteuert wird,
 entwickelt und aufgebaut werden. Diverse Parameter der Roboterhand sollen in einem Interface für den Benutzer 
-dargestellt werden.
+dargestellt werden. \\
 
 \subsection{Themenerläuterung}
 Ziel des Projekts ist es, eine Roboterhand zu bauen, die über einen kabellos verbundenen
@@ -319,25 +319,19 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
+\section{Theoretische Grundlagen des Diplomprojekts}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+
 \section{Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}
 
-\subsection{Mechanik}
-\subsubsection{Handschuh \textcolor{red}{Amir}}
-Folgende machanische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+\subsection{Handschuh}
 
-\subsubsection{Roboterhand \textcolor{red}{Amir}}
-Folgende mechanische Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+\subsubsection{Mechanik \textcolor{red}{Amir}}
 
-	\begin{itemize}
-		\item Die Roboterhand soll mittels 3D-Druck gefertigt werden.
-		\item Die Servomotoren der Elektronik werden mithilfe von Schnüren mit den jeweiligen Fingern verbunden.
-		\item Die Finger sollen sich sowohl zum Handballen als auch vom Handballen weg kontrolliert bewegen können.
-		\item Die Finger sollen sich zitterfrei bewegen können.
-	\end{itemize}
-
-\subsection{Hardware}
-\subsubsection{Handschuh \textcolor{red}{Laci}}
-Die Hardware des Handschuhs muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtprojekt eingebaut 
+\subsubsection{Hardware \textcolor{red}{Laci}}
+ie Hardware des Handschuhs muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtprojekt eingebaut 
 werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigste Punkt zu nennen. Da es bei diesem Projekt nicht nur
 um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, darf die entgültige Platine auf dem Handschuhrücken
 nicht größer als 3cm x 3cm sein. Beim Design der Elektronik muss durch die Größenrestriktion natürlich darauf geachtet, dass durch
@@ -349,75 +343,30 @@ werden sollen. Hier setzen wir auf Flexsensoren, wobei optional noch ein Gyro-Se
 Gyroskop, zum Einsatz kommen kann. Diese Sensoren müssen durch einen Mikrokontroller gesteuert beziehungsweise ausgelesen werden.
 Für die Verwendung des Mikrokontrollers muss eine Art von Datendigitalisierung in der Schaltung vorhanden sein, die zumindest 30
 verschiedene Sensorpositionen erkennen kann. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
-auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen.
+auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
 
-\subsubsection{Roboterhand \textcolor{red}{Laci}}
-Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Projekts erfüllen:
+\subsubsection{Software \textcolor{red}{Fabian}}
 
+Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
 	\begin{itemize}
-		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
-		\item Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
-		\item Der zur Datenerfassung gewählte Mikrokontroller muss die I2C-Kommunikation unterstützen, die Möglichkeit
-			  für eine kabellose Kommunikation aufweisen, analoge und digitale Eingänge haben und programmierbar sein. 
-		\item Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, 
-		      zu erfassen.
-		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
-		      aufweisen. 
-		\item Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
-		\item Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.	
-		\item Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.	
-		\item Diese Bewegungen sollen störungsfrei und ohne zittern erfolgen.
-	\end{itemize}
-
-\subsection{Software}
-\subsubsection{Handschuh \textcolor{red}{Fabian}}
-Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
-\begin{itemize}
-	\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, soll einzeln 
-	ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor gebogen ist.
-	\item Ein Multiplexer soll angesteuert werden, damit der Wert des jeweiligen Flexsensors ausgelesen werden kann. 
-	Ein ADC, der die Spannung misst, wandelt die analogen Werte in digitale um. Dieser muss ebenso zur Messung der einzelnen 
-	Werte ausgelesen werden.
-	\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine über den Funkstandard ESP-NOW 
-	gesendet werden.
-	\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden. Eine Bestätigung 
-	soll im Serial Monitor gesehen werden können.
-	\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen Flexsensoren stark 
-	variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
-	\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen dem Bewegen 
-	der Finger immer wieder dieser gemessen werden.
-	\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. Die 
-	Griffkraft soll je nach Objekt variieren.
+		\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, soll einzeln 
+			  ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor gebogen ist.
+		\item Ein Multiplexer soll angesteuert werden, damit der Wert des jeweiligen Flexsensors ausgelesen werden kann. 
+			  Ein ADC, der die Spannung misst, wandelt die analogen Werte in digitale um. Dieser muss ebenso zur Messung der einzelnen 
+			  Werte ausgelesen werden.
+		\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine über den Funkstandard ESP-NOW 
+			  gesendet werden.
+		\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden. Eine Bestätigung 
+			  soll im Serial Monitor gesehen werden können.
+		\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen Flexsensoren stark 
+			  variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
+		\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen dem Bewegen 
+			  der Finger immer wieder dieser gemessen werden.
+		\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. Die 
+			  Griffkraft soll je nach Objekt variieren.
 \end{itemize}
 
-\subsubsection{Roboterhand \textcolor{red}{Fabian}}
-Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
-
-\begin{itemize}
-	\item Die von der Senderplatine, über ESP-NOW, gesendeten Daten sollen erfolgreich empfangen und verarbeitet werden.
-	\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten korrigiert werden können, um starke Werteabweichungen, 
-	die durch Fehlmessungen entstehen, zu reduzieren.
-	\item Die Servos, die zur Steuerung der einzelnen Finger der Roboterhand nötig sind, sollen über die Software einzeln 
-	angesprochen werden können. Der jeweils richtige Wert (der Biegung) des jeweiligen Flexsensors soll dann die idente 
-	Bewegung des Fingers verursachen.
-	\item Die empfangenen Werte sollen ebenso an das User Interface per UART übertragen werden, um sie dort grafisch 
-	darzustellen.
-	\item Die Werte, die im User Interface eingestellt werden, sollen von der Empfängerplatine verarbeitet werden. Die Finger 
-	sollen sich dann exakt so viel bewegen, wie es im User Interface eingestellt wird.
-		
-\end{itemize}
-
-\subsubsection{User Interface \textcolor{red}{Laci}}
-
-\hfill \break
-\hfill \break
-
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-
-\section{Detailierte Beschreibung der Projektteile}
-
-\subsection{Handschuh (Eingabe) \textcolor{red}{Fabian}}
+\subsubsection{Allgemein}
 Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
 Handschuhs entweder durch annähen, ankleben, oder einer 3D gedruckten Motage angebracht sind. Wird ein Finger gebeugt, so ändert
 sich der Widerstandswert der korrespondierenden Sensoren. Diese Änderungen werden von einer Messschaltung erfasst, die die Sensorwerte
@@ -443,7 +392,56 @@ direkt aus dem in der Schaltung verbauten ADC-Werte, über die I2C-Schnittstelle
 Werte, die der ESP32 dann direkt in einer festgelegten Reihenfolge an die Empfängerplatine, bei der Roboterhand, per 
 ESP-NOW Übertragung senden kann.
 
-\subsection{Roboterhand (Ausgabe) \textcolor{red}{Amir}}
+\subsection{Roboterhand}
+
+\subsubsection{Mechanik \textcolor{red}{Amir}}
+
+	\begin{itemize}
+		\item Die Roboterhand soll mittels 3D-Druck gefertigt werden.
+		\item Die Servomotoren der Elektronik werden mithilfe von Schnüren mit den jeweiligen Fingern verbunden.
+		\item Die Finger sollen sich sowohl zum Handballen als auch vom Handballen weg kontrolliert bewegen können.
+		\item Die Finger sollen sich zitterfrei bewegen können.
+	\end{itemize}
+
+\subsubsection{Hardware \textcolor{red}{Laci}}
+
+Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Projekts erfüllen:
+
+	\begin{itemize}
+		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
+		\item Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
+		\item Der zur Datenerfassung gewählte Mikrokontroller muss die I2C-Kommunikation unterstützen, die Möglichkeit
+			  für eine kabellose Kommunikation aufweisen, analoge und digitale Eingänge haben und programmierbar sein. 
+		\item Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, 
+		      zu erfassen.
+		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
+		      aufweisen. 
+		\item Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
+		\item Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.	
+		\item Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.	
+		\item Diese Bewegungen sollen störungsfrei und ohne zittern erfolgen.
+	\end{itemize}
+
+\subsubsection{Software \textcolor{red}{Fabian}}
+
+	Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
+
+	\begin{itemize}
+		\item Die von der Senderplatine, über ESP-NOW, gesendeten Daten sollen erfolgreich empfangen und verarbeitet werden.
+		\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten korrigiert werden können, um starke Werteabweichungen, 
+			  die durch Fehlmessungen entstehen, zu reduzieren.
+		\item Die Servos, die zur Steuerung der einzelnen Finger der Roboterhand nötig sind, sollen über die Software einzeln 
+			  angesprochen werden können. Der jeweils richtige Wert (der Biegung) des jeweiligen Flexsensors soll dann die idente 
+			  Bewegung des Fingers verursachen.
+		\item Die empfangenen Werte sollen ebenso an das User Interface per UART übertragen werden, um sie dort grafisch 
+			  darzustellen.
+		\item Die Werte, die im User Interface eingestellt werden, sollen von der Empfängerplatine verarbeitet werden. Die Finger 
+			  sollen sich dann exakt so viel bewegen, wie es im User Interface eingestellt wird.
+	\end{itemize}
+
+\subsubsection{User Interface \textcolor{red}{Laci}}
+
+\subsubsection{Allgemein}
 Die Roboterhand ist die Ausgabe des Projekts und wird vom Roboterarm gesteuert. Jeder Finge wird von einem Servomotor 
 bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom Handschuh kommenden 
 Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
@@ -462,7 +460,8 @@ eine gezielte Software geschrieben werden, damit man schlussendlich durch das Zu
 richtig einstellen kann. Falsche Messungen sollen bestmöglich korrigiert werden, sodass die Servos jeweils die richtigen 
 Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerung dar.
 
-\subsection{User Interface \textcolor{red}{Laci}}
+\hfill \break
+\hfill \break
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------

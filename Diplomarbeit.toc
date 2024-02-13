@@ -9,21 +9,19 @@
 \contentsline {subsection}{\numberline {3.1}\textcolor {purple}{Platzhalter Thema Amir}}{2}{}%
 \contentsline {subsection}{\numberline {3.2}\textcolor {purple}{Platzhalter Thema Fabian}}{2}{}%
 \contentsline {subsection}{\numberline {3.3}\textcolor {purple}{Platzhalter Thema Laci}}{2}{}%
-\contentsline {section}{\numberline {4}Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}{2}{}%
-\contentsline {subsection}{\numberline {4.1}Mechanik}{2}{}%
-\contentsline {subsubsection}{\numberline {4.1.1}Handschuh \textcolor {red}{Amir}}{2}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}Roboterhand \textcolor {red}{Amir}}{2}{}%
-\contentsline {subsection}{\numberline {4.2}Hardware}{2}{}%
-\contentsline {subsubsection}{\numberline {4.2.1}Handschuh \textcolor {red}{Laci}}{2}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}Roboterhand \textcolor {red}{Laci}}{3}{}%
-\contentsline {subsection}{\numberline {4.3}Software}{3}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Handschuh \textcolor {red}{Fabian}}{3}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Roboterhand \textcolor {red}{Fabian}}{4}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}User Interface \textcolor {red}{Laci}}{4}{}%
-\contentsline {section}{\numberline {5}Detailierte Beschreibung der Projektteile}{4}{}%
-\contentsline {subsection}{\numberline {5.1}Handschuh (Eingabe) \textcolor {red}{Fabian}}{4}{}%
-\contentsline {subsection}{\numberline {5.2}Roboterhand (Ausgabe) \textcolor {red}{Amir}}{5}{}%
-\contentsline {subsection}{\numberline {5.3}User Interface \textcolor {red}{Laci}}{6}{}%
+\contentsline {section}{\numberline {4}Theoretische Grundlagen des Diplomprojekts}{2}{}%
+\contentsline {section}{\numberline {5}Anforderungen und detaillierte Beschreibung der einzelnen Projektteile}{2}{}%
+\contentsline {subsection}{\numberline {5.1}Handschuh}{2}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Mechanik \textcolor {red}{Amir}}{2}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Hardware \textcolor {red}{Laci}}{2}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Software \textcolor {red}{Fabian}}{3}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Allgemein}{3}{}%
+\contentsline {subsection}{\numberline {5.2}Roboterhand}{4}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}Mechanik \textcolor {red}{Amir}}{4}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}Hardware \textcolor {red}{Laci}}{4}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}Software \textcolor {red}{Fabian}}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}User Interface \textcolor {red}{Laci}}{5}{}%
+\contentsline {subsubsection}{\numberline {5.2.5}Allgemein}{5}{}%
 \contentsline {section}{\numberline {6}Mechanische Entwicklung}{6}{}%
 \contentsline {subsection}{\numberline {6.1}Handschuh \textcolor {red}{Amir}}{6}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte von Amir}}{6}{}%
@@ -32,8 +30,8 @@
 \contentsline {section}{\numberline {7}Hardwareentwicklung}{6}{}%
 \contentsline {subsection}{\numberline {7.1}Handschuh}{6}{}%
 \contentsline {subsubsection}{\numberline {7.1.1}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{6}{}%
-\contentsline {subsubsection}{\numberline {7.1.2}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{11}{}%
-\contentsline {subsubsection}{\numberline {7.1.3}Schaltungsdesign \textcolor {red}{Laci}}{11}{}%
+\contentsline {subsubsection}{\numberline {7.1.2}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{10}{}%
+\contentsline {subsubsection}{\numberline {7.1.3}Schaltungsdesign \textcolor {red}{Laci}}{10}{}%
 \contentsline {subsubsection}{\numberline {7.1.4}Platinendesign \textcolor {red}{Laci}}{17}{}%
 \contentsline {subsection}{\numberline {7.2}Roboterhand}{17}{}%
 \contentsline {subsubsection}{\numberline {7.2.1}Simulationen und Versuchsaufbauten \textcolor {red}{Laci}}{17}{}%
