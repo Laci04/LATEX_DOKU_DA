@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1707901406 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1707901408 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1707901404 81927 a4f952335119ce5d8a543bea6c46b91f ""
+["pdflatex"] 1707905379 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1707905381 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1707905379 80750 eada5561fbb7b41843e557aa9a7535e7 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -206,10 +206,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1707901408 15307 eed13270af37930ee498e4c65599facc "pdflatex"
-  "Diplomarbeit.out" 1707901408 18528 28f9b50061186d9f90d25e3055f82c6f "pdflatex"
-  "Diplomarbeit.tex" 1707901404 81927 a4f952335119ce5d8a543bea6c46b91f ""
-  "Diplomarbeit.toc" 1707901408 10336 daab3ab4611f72fd10d10a6b59c721a6 "pdflatex"
+  "Diplomarbeit.aux" 1707905381 19383 980d76e822ad84f7c296557a22b3a00d "pdflatex"
+  "Diplomarbeit.out" 1707905381 24297 87dd76ad243e5addb97caac401e2d57f "pdflatex"
+  "Diplomarbeit.tex" 1707905379 80750 eada5561fbb7b41843e557aa9a7535e7 ""
+  "Diplomarbeit.toc" 1707905381 13182 eecfea03f74fdee4a284bcfd321d4f09 "pdflatex"
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/Akku_Boostconverter_Schaltplan_Handschuh.png" 1706622894 109363 6fd598b6378a1d4896a6bcee38051983 ""
   "src/Akku_Buckconverter_Schaltplan_Handschuh.png" 1706622732 70987 c62347e551259e1a1730f50bb66db2e4 ""

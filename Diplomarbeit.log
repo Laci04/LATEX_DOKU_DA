@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  14 FEB 2024 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  14 FEB 2024 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,7 +1094,7 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \@outlinefile=\write4
 \openout4 = `Diplomarbeit.out'.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf, id=433, page=1, 597.23125pt x 195.76538pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf, id=553, page=1, 597.23125pt x 195.76538pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf , page1 used on input line 63.
@@ -1104,7 +1104,7 @@ Overfull \hbox (7.24028pt too wide) in paragraph at lines 63--63
 []|[]| 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png, id=434, 290.58563pt x 124.96687pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png, id=554, 290.58563pt x 124.96687pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/HTL.png  used on input line 63.
@@ -1228,7 +1228,7 @@ Overfull \hbox (8.00916pt too wide) in paragraph at lines 251--259
  [][] 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf, id=470, 597.23125pt x 195.76538pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf, id=590, 597.23125pt x 195.76538pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf  used on input line 265.
@@ -1381,13 +1381,18 @@ l.399 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 ...onzepterläuterung}{10}{paragraph.6.2.5.1}
+l.42 ...form und Asuwertung}{9}{paragraph.6.2.5.2}
                                                   % [12]
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 ...ine {10}Projektmanagement}{33}{section.10}
-                                                  % [13])
+l.85 ...olor {red}{Laci}}{24}{subsubsection.7.2.5}
+                                                  % [13]
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.126 ...1.2.2}Platinen}{35}{subsubsection.11.2.2}
+                                                  % [14])
 \tf@toc=\write5
 \openout5 = `Diplomarbeit.toc'.
 
@@ -1396,7 +1401,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has be
 <to be read again> 
                    \relax 
 l.408 \newpage
-               [14]
+               [15]
 Overfull \hbox (2.62444pt too wide) in paragraph at lines 414--418
 \OT1/cmr/m/n/12 Kon-ta-mi-na-tio-nen ent-ste-hen k[]onnen. F[]ur die-ses Vor-ha-ben soll ein Pro-to-typ ei-ner Ro-bo-ter-hand,
  []
@@ -1491,7 +1496,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 456--464
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg, id=610, 2295.57625pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg, id=765, 2295.57625pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg  used on input line 493.
@@ -1521,1116 +1526,1366 @@ Overfull \hbox (13.75572pt too wide) in paragraph at lines 498--505
 \OT1/cmr/m/n/12 ge-steu-ert wird. Im Aus-ga-be-sys-tem ist auch ein User-Interface ent-hal-ten. Die di-ver-sen Funk-tio-nen
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg, id=615, 1003.75pt x 1113.15875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg, id=770, 1003.75pt x 1113.15875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg  used on input line 511.
 (pdftex.def)             Requested size: 377.62642pt x 418.79234pt.
 [3 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg, id=621, 1065.9825pt x 1003.75pt>
+Overfull \hbox (20.93571pt too wide) in paragraph at lines 516--520
+[]\OT1/cmr/m/n/12 Anderungen wer-den von ei-ner Mess-schal-tung er-fasst, die die Sen-sor-wer-te in-ter-pre-tiert, di-gi-ta-li-siert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--520
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg, id=776, 1065.9825pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg  used on input line 525.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg  used on input line 526.
 (pdftex.def)             Requested size: 377.62642pt x 355.5756pt.
- [4 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg>]
-Overfull \hbox (0.77306pt too wide) in paragraph at lines 530--533
+[4 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg>]
+Overfull \hbox (0.77306pt too wide) in paragraph at lines 531--534
 \OT1/cmr/m/n/12 dem Mi-kro-kon-trol-ler. An-ge-bun-den an das Aus-ga-be-sub-sys-tem ist ein Graphical-User-Interface,
  []
 
 
-Overfull \hbox (2.18129pt too wide) in paragraph at lines 540--542
-\OT1/cmr/m/n/12 an-ge-bracht ist, soll ein-zeln aus-ge-le-sen wer-den k[]onnen. Die Soft-wa-re soll da-mit fest-stel-len,
- []
-
-[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 558--562
-
- []
-
-
-Overfull \hbox (1.62785pt too wide) in paragraph at lines 563--582
-[]\OT1/cmr/m/n/12 Anschlie^^Yend wird die ka-bel-lo-se []Ubertragung []uber den Funk-stan-dard ESP-NOW rea-li-siert.
- []
-
-
-Overfull \hbox (11.24284pt too wide) in paragraph at lines 563--582
+Overfull \hbox (11.24284pt too wide) in paragraph at lines 540--559
 \OT1/cmr/m/n/12 Hand-schuhs soll m[]oglichst kom-for-ta-bel sein, um ei-ne m[]oglichst lan-ge Ben[]utzung zu erm[]oglichen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--582
+Underfull \hbox (badness 10000) in paragraph at lines 540--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--582
+Underfull \hbox (badness 10000) in paragraph at lines 540--559
 
  []
 
 
-Overfull \hbox (40.84262pt too wide) in paragraph at lines 563--582
+Overfull \hbox (40.84262pt too wide) in paragraph at lines 540--559
 \OT1/cmr/m/n/12 Die Soft-wa-re des Ro-bo-ter-hand-schuhs ist daf[]ur ver-ant-wort-lich die sich ver[]andernden Wi-der-stands-wer-te
  []
 
-[6]
-Overfull \hbox (29.60663pt too wide) in paragraph at lines 601--603
+[5 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg>]
+Overfull \hbox (29.60663pt too wide) in paragraph at lines 578--580
 []\OT1/cmr/m/n/12 Der zur Da-ten-er-fas-sung gew[]ahlte Mi-kro-kon-trol-ler muss die I2C-Kommunikation un-terst[]utzen,
  []
 
 
-Overfull \hbox (1.6486pt too wide) in paragraph at lines 605--607
+Overfull \hbox (1.6486pt too wide) in paragraph at lines 582--584
 []\OT1/cmr/m/n/12 Der Ro-bo-Glove muss die M[]oglichkeit zur Ver-sor-gung mit ei-nem Ak-ku oder ei-ner Bat-te-rie
  []
 
-
-Overfull \hbox (14.72478pt too wide) in paragraph at lines 618--619
+[6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (14.72478pt too wide) in paragraph at lines 595--596
 []\OT1/cmr/m/n/12 Die von der Sen-der-pla-ti-ne, []uber ESP-NOW, ge-sen-de-ten Da-ten sol-len er-folg-reich emp-fan-gen
  []
 
 
-Overfull \hbox (0.60269pt too wide) in paragraph at lines 619--621
+Overfull \hbox (0.60269pt too wide) in paragraph at lines 596--598
 []\OT1/cmr/m/n/12 Eine Feh-ler-kor-rek-tur sorgt daf[]ur, dass die emp-fan-ge-nen Da-ten kor-ri-giert wer-den k[]onnen,
  []
 
 
-Overfull \hbox (14.79707pt too wide) in paragraph at lines 621--624
+Overfull \hbox (14.79707pt too wide) in paragraph at lines 598--601
 \OT1/cmr/m/n/12 Bie-gung) des je-wei-li-gen Flex-sen-sors soll dann die iden-te Be-we-gung des Fin-gers ver-ur-sa-chen. 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
+Underfull \hbox (badness 10000) in paragraph at lines 607--609
 
  []
 
 
-Overfull \hbox (6.60818pt too wide) in paragraph at lines 643--652
+Overfull \hbox (6.60818pt too wide) in paragraph at lines 620--629
 \OT1/cmr/m/n/12 dar-un-ter das Fin-ger-grund-glied, das Fin-ger-mit-tel-glied und das Fin-ge-rend-glied mit aus-schlie^^Y-lich
  []
 
 
-Overfull \hbox (2.12714pt too wide) in paragraph at lines 643--652
+Overfull \hbox (2.12714pt too wide) in paragraph at lines 620--629
 \OT1/cmr/m/n/12 ein Zug-sys-tem, wel-ches f[]ur ein Auf-klap-pen und ein Zu-klap-pen des Fin-gers erm[]oglicht. Ge-zo-gen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--652
+Underfull \hbox (badness 10000) in paragraph at lines 620--629
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--657
+Underfull \hbox (badness 10000) in paragraph at lines 631--634
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 636--648
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--671
+Underfull \hbox (badness 10000) in paragraph at lines 636--648
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--671
+Underfull \hbox (badness 10000) in paragraph at lines 650--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--666
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--671
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--671
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--679
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--679
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 673--689
+Underfull \hbox (badness 10000) in paragraph at lines 682--684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--689
+Underfull \hbox (badness 10000) in paragraph at lines 682--684
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--689
+Underfull \hbox (badness 10000) in paragraph at lines 686--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
+Underfull \hbox (badness 10000) in paragraph at lines 686--688
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--698
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--698
+Underfull \hbox (badness 10000) in paragraph at lines 695--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--702
+Underfull \hbox (badness 10000) in paragraph at lines 695--697
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 700--702
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--707
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 705--707
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--711
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 709--711
+Underfull \hbox (badness 10000) in paragraph at lines 707--709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 707--709
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 711--713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 711--713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--721
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--721
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 713--715
+Underfull \hbox (badness 10000) in paragraph at lines 723--725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--715
+Underfull \hbox (badness 10000) in paragraph at lines 723--725
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--720
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 718--720
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+Underfull \hbox (badness 10000) in paragraph at lines 732--734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+Underfull \hbox (badness 10000) in paragraph at lines 732--734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--728
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--728
+Underfull \hbox (badness 10000) in paragraph at lines 736--738
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--732
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--732
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--736
+Underfull \hbox (badness 10000) in paragraph at lines 744--746
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--736
+Underfull \hbox (badness 10000) in paragraph at lines 744--746
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 738--740
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 738--740
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--744
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--744
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--748
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 746--748
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--753
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 751--753
+Underfull \hbox (badness 10000) in paragraph at lines 755--764
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 755--757
+Underfull \hbox (badness 10000) in paragraph at lines 767--782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 755--757
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 759--761
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--765
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 763--765
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 767--769
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 767--769
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 778--787
-
- []
-
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png, id=655, 864.22874pt x 278.03876pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png  used on input line 814.
-(pdftex.def)             Requested size: 377.62642pt x 121.48892pt.
-
-Overfull \hbox (30.17554pt too wide) in paragraph at lines 789--817
+Overfull \hbox (30.17554pt too wide) in paragraph at lines 767--782
 \OT1/cmr/m/n/12 M[]oglichkeit. Schlie^^Y-lich ha-ben wir uns f[]ur die Er-fas-sung der Fin-ger-be-we-gun-gen mit-tels Flex-sen-so-ren
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--817
+Underfull \hbox (badness 10000) in paragraph at lines 767--782
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--817
+Underfull \hbox (badness 10000) in paragraph at lines 767--782
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png, id=811, 864.22874pt x 278.03876pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png  used on input line 793.
+(pdftex.def)             Requested size: 377.62642pt x 121.48892pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 783--796
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 819--825
+Underfull \hbox (badness 10000) in paragraph at lines 798--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 826--832
+Underfull \hbox (badness 10000) in paragraph at lines 805--811
 
  []
 
 
-Overfull \hbox (4.418pt too wide) in paragraph at lines 826--832
+Overfull \hbox (4.418pt too wide) in paragraph at lines 805--811
 \OT1/cmr/m/n/12 ei-ne ma-xi-ma-le Span-nung von 3.3V an-liegt, muss dies bei Verst[]arkern mit ei-ner ge-eig-ne-ten
  []
 
-[12 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 832--838
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--817
 
  []
 
 
-Overfull \hbox (44.90091pt too wide) in paragraph at lines 840--881
+Overfull \hbox (44.90091pt too wide) in paragraph at lines 819--828
 \OT1/cmr/m/n/12 Aufgrund die-ser Kri-te-ri-en und der Not-wen-dig-keit von Ge-nau-ig-keit und ge-rin-ger St[]orungseigenschaften,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 819--828
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 819--828
 
  []
 
 
-Overfull \hbox (29.45515pt too wide) in paragraph at lines 840--881
+Overfull \hbox (29.45515pt too wide) in paragraph at lines 819--828
 \OT1/cmr/m/n/12 Span-nungs-st[]orungen (Ripp-le), zus[]atzlich zu dem oh-ne-hin schon sehr st[]orungsarmen Aus-gangs-si-gnal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 819--828
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 819--828
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 829--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 829--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 829--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 829--837
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 829--837
+
+ []
+
+[12 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.png>]
+Overfull \hbox (36.39789pt too wide) in paragraph at lines 838--854
+ \OT1/cmr/bx/n/12 7.1.2.4 Be-rech-nung der OPV Verst[]arkung und Di-men-sio-nie-rung des Shunt-wi-der-stands[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
 
  []
 
 
-Overfull \hbox (3.60411pt too wide) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 838--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 855--863
+
+ []
+
+
+Overfull \hbox (3.60411pt too wide) in paragraph at lines 855--863
 \OT1/cmr/m/n/12 Span-nungs-dif-fe-ren-zen am Flex-sen-sor f[]ur den Mi-kro-kon-trol-ler m[]oglichst ef-fi-zi-ent und brauch-bar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 840--881
+Underfull \hbox (badness 10000) in paragraph at lines 855--863
 
  []
 
 
-Overfull \hbox (7.86519pt too wide) in paragraph at lines 840--881
+Overfull \hbox (7.86519pt too wide) in paragraph at lines 855--863
 \OT1/cmr/m/n/12 Folgende drei Kri-te-ri-en sind ma^^Y-geb-lich bei der Wahl der Analog-Digital-Wandlers zu be-ach-ten: 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--873
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--873
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--873
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--873
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--873
+
+ []
+
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 882--891
+Underfull \hbox (badness 10000) in paragraph at lines 874--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--891
+Underfull \hbox (badness 10000) in paragraph at lines 874--880
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--891
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--891
+Underfull \hbox (badness 10000) in paragraph at lines 881--888
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--891
+Underfull \hbox (badness 10000) in paragraph at lines 889--895
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--905
+Underfull \hbox (badness 10000) in paragraph at lines 895--899
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 892--905
+Underfull \hbox (badness 10000) in paragraph at lines 900--903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 906--912
+Underfull \hbox (badness 10000) in paragraph at lines 900--903
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--912
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 912--916
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--934
+Underfull \hbox (badness 10000) in paragraph at lines 913--919
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--934
+Underfull \hbox (badness 10000) in paragraph at lines 920--924
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--934
+Underfull \hbox (badness 10000) in paragraph at lines 924--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--934
+Underfull \hbox (badness 10000) in paragraph at lines 928--933
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 935--939
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 939--943
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 943--948
-
- []
-
-
-Overfull \hbox (36.96434pt too wide) in paragraph at lines 943--948
+Overfull \hbox (36.96434pt too wide) in paragraph at lines 928--933
 \OT1/cmr/m/n/12 die-ses von dem gew[]ahlten Mi-kro-kon-trol-ler un-terst[]utzzt wer-den. Als zwei-te Pflicht-un-terst[]utzung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--953
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 953--958
+Underfull \hbox (badness 10000) in paragraph at lines 933--938
 
  []
 
 
-Overfull \hbox (46.64066pt too wide) in paragraph at lines 953--958
+Underfull \hbox (badness 10000) in paragraph at lines 938--943
+
+ []
+
+
+Overfull \hbox (46.64066pt too wide) in paragraph at lines 938--943
 \OT1/cmr/m/n/12 Mi-kro-kon-trol-lern ein ex-tra De-bug-tool um viel Geld er-wor-ben wer-den muss. Ei-ne Pro-gram-mie-rung
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 958--962
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 943--947
 
  []
 
 
-Overfull \hbox (34.65657pt too wide) in paragraph at lines 958--962
+Overfull \hbox (34.65657pt too wide) in paragraph at lines 943--947
 \OT1/cmr/m/n/12 Schlussendlich d[]urfen sich al-le Kri-te-ri-en je-doch nicht zu sehr auf die Gr[]o^^Ye des Mi-kro-kon-trol-lers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--986
+Underfull \hbox (badness 10000) in paragraph at lines 948--954
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--986
+Underfull \hbox (badness 10000) in paragraph at lines 948--954
 
  []
 
 
-Overfull \hbox (1.02359pt too wide) in paragraph at lines 963--986
+Underfull \hbox (badness 10000) in paragraph at lines 955--972
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--972
+
+ []
+
+
+Overfull \hbox (1.02359pt too wide) in paragraph at lines 955--972
 \OT1/cmr/m/n/12 Die not-wen-di-ge Ka-pa-zit[]at f[]ur ei-ne be-stimm-te Be-triebs-dau-er wur-de fol-gen-der-ma-^^Yen be-rech-net:
  []
 
 
-Overfull \hbox (20.01508pt too wide) in paragraph at lines 963--986
+Overfull \hbox (20.01508pt too wide) in paragraph at lines 955--972
 []\OT1/cmr/m/n/12 uberlegt, die dies auch mit-hil-fe des schon vor-han-de-nen USB-C An-schlus-ses f[]ur das Pro-gram-mie-ren
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--986
+Underfull \hbox (badness 10000) in paragraph at lines 955--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 963--986
+Underfull \hbox (badness 10000) in paragraph at lines 955--972
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 991--995
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 977--980
 
  []
 
 [16]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png, id=689, 539.01375pt x 601.24625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 981--983
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--983
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png, id=845, 539.01375pt x 601.24625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png  used on input line 1008.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png  used on input line 996.
 (pdftex.def)             Requested size: 377.62642pt x 421.2273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 996--1011
+Underfull \hbox (badness 10000) in paragraph at lines 984--999
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 996--1011
+Underfull \hbox (badness 10000) in paragraph at lines 984--999
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png, id=690, 419.5675pt x 340.27126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png, id=846, 419.5675pt x 340.27126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png  used on input line 1020.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png  used on input line 1008.
 (pdftex.def)             Requested size: 377.62642pt x 306.25687pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1011
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1012--1023
+Underfull \hbox (badness 10000) in paragraph at lines 1000--1011
 
  []
 
 [17 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png, id=698, 683.55376pt x 294.09875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png, id=853, 683.55376pt x 294.09875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png  used on input line 1031.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png  used on input line 1019.
 (pdftex.def)             Requested size: 377.62642pt x 162.47731pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1022
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1024--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1022
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png, id=699, 606.265pt x 560.0925pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png, id=854, 606.265pt x 560.0925pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png  used on input line 1047.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png  used on input line 1036.
 (pdftex.def)             Requested size: 377.62642pt x 348.869pt.
 
-Overfull \hbox (10.62161pt too wide) in paragraph at lines 1036--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1039
+
+ []
+
+
+Overfull \hbox (10.62161pt too wide) in paragraph at lines 1025--1039
 \OT1/cmr/m/n/12 Der ESP32-Chip wird mit +3.3V ver-sorgt. Wich-tig zu be-ach-ten ist da-durch, das ein Logic-HIGH
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1036--1050
+Underfull \hbox (badness 10000) in paragraph at lines 1025--1039
 
  []
 
 [18 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Akku_Schaltplan_Handschuh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1061
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1045
 
  []
 
 
-Overfull \hbox (36.5273pt too wide) in paragraph at lines 1056--1061
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1051
+
+ []
+
+
+Overfull \hbox (36.5273pt too wide) in paragraph at lines 1046--1051
 \OT1/cmr/m/n/12 Hoch-la-den von Co-de kurz-zei-tig ge-dr[]uckt wer-den, um den Mi-kro-kon-trol-ler in den Upload-Modus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1061--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1056
 
  []
 
 
-Overfull \hbox (4.52347pt too wide) in paragraph at lines 1061--1066
+Overfull \hbox (4.52347pt too wide) in paragraph at lines 1051--1056
 \OT1/cmr/m/n/12 oder ein an-der-wei-ti-ges Pro-blem auf-tritt, durch das die-ser nicht mehr kor-rekt funk-tio-niert. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1059
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png, id=708, 340.27126pt x 313.17pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png, id=863, 340.27126pt x 313.17pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png  used on input line 1079.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png  used on input line 1070.
 (pdftex.def)             Requested size: 377.62642pt x 347.57024pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1082
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1073
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1062--1073
 
  []
 
 [19 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png, id=715, 728.7225pt x 390.45876pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png  used on input line 1106.
-(pdftex.def)             Requested size: 377.62642pt x 202.33669pt.
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1082
 
-Overfull \hbox (24.91084pt too wide) in paragraph at lines 1084--1109
+ []
+
+
+Overfull \hbox (24.91084pt too wide) in paragraph at lines 1076--1082
 \OT1/cmr/m/n/12 Der Mul-ti-ple-xer schal-tet zwi-schen al-len Flex-sen-so-ren durch und ver-mei-det so-mit die Mess-schal-tung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1082
 
  []
 
 
-Overfull \hbox (58.43118pt too wide) in paragraph at lines 1084--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1076--1082
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png, id=870, 728.7225pt x 390.45876pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png  used on input line 1099.
+(pdftex.def)             Requested size: 377.62642pt x 202.33669pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1102
+
+ []
+
+
+Overfull \hbox (58.43118pt too wide) in paragraph at lines 1083--1102
 \OT1/cmr/m/n/12 F[]ur das Aus-le-sen der Flex-sen-so-ren, wird ei-ne Schal-tung, wie in Punkt []Aus-le-sen der Sen-so-ren"beschrieben,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1102
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png, id=716, 525.965pt x 262.9825pt>
+[20 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png, id=877, 525.965pt x 262.9825pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png  used on input line 1125.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png  used on input line 1119.
 (pdftex.def)             Requested size: 377.62642pt x 188.82156pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1128
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1122
 
  []
 
-[20 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png, id=725, 546.04pt x 465.74pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1105--1122
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png, id=878, 546.04pt x 465.74pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png  used on input line 1140.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png  used on input line 1135.
 (pdftex.def)             Requested size: 377.62642pt x 322.09293pt.
 
-Overfull \hbox (7.97482pt too wide) in paragraph at lines 1130--1143
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1138
+
+ []
+
+
+Overfull \hbox (7.97482pt too wide) in paragraph at lines 1125--1138
 \OT1/cmr/m/n/12 sind, um die Po-si-ti-ons-da-ten der Ach-sen schon di-gi-ta-li-siert an den Mi-kro-kon-trol-ler zu []ubergeben.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1130--1143
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1138
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png, id=726, 629.35126pt x 575.14874pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png  used on input line 1156.
-(pdftex.def)             Requested size: 377.62642pt x 345.10068pt.
-
-Overfull \hbox (6.32364pt too wide) in paragraph at lines 1144--1159
+[21 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png>]
+Overfull \hbox (6.32364pt too wide) in paragraph at lines 1139--1146
 []\OT1/cmr/m/n/12 Am Pin CL-KIN h[]atte man die M[]oglichkeit einen ex-ter-nen Re-fe-renz-takt-ge-ber an-zu-schlie-^^Yen.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1159
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1159
+Underfull \hbox (badness 10000) in paragraph at lines 1139--1146
 
  []
 
-[21 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png, id=735, 716.6775pt x 475.7775pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png, id=887, 629.35126pt x 575.14874pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png  used on input line 1152.
+(pdftex.def)             Requested size: 377.62642pt x 345.10068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1155
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png, id=888, 716.6775pt x 475.7775pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png  used on input line 1164.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png  used on input line 1160.
 (pdftex.def)             Requested size: 377.62642pt x 250.69438pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png, id=736, 689.57625pt x 278.03876pt>
+[22 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png, id=899, 689.57625pt x 278.03876pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png  used on input line 1172.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png  used on input line 1168.
 (pdftex.def)             Requested size: 377.62642pt x 152.25995pt.
 
-Overfull \hbox (17.72752pt too wide) in paragraph at lines 1183--1192
+Overfull \hbox (17.72752pt too wide) in paragraph at lines 1179--1188
 \OT1/cmr/m/n/12 Die Ro-bo-ter-hand ist die Aus-ga-be des Pro-jekts und wird vom Ein-ga-be-sub-sys-tem, dem Hand-schuh,
  []
 
 
-Overfull \hbox (43.60649pt too wide) in paragraph at lines 1183--1192
+Overfull \hbox (43.60649pt too wide) in paragraph at lines 1179--1188
 \OT1/cmr/m/n/12 Da-ten wer-den von ei-nem Mi-kro-kon-trol-ler aus-ge-wer-tet und in ein PWM-Signal (Puls-wei-ten-mo-du-la-ti-on)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1183--1192
+Underfull \hbox (badness 10000) in paragraph at lines 1179--1188
 
  []
 
-[22 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Controller_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png>]
-Overfull \hbox (12.42433pt too wide) in paragraph at lines 1205--1319
+
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1224
+
+ []
+
+
+Overfull \hbox (12.42433pt too wide) in paragraph at lines 1202--1224
 \OT1/cmr/m/n/12 Empf[]angerseite dras-tisch aus. Es k[]onnten da-durch un-er-war-te-te Feh-ler pas-sie-ren be-zie-hungs-wei-se
  []
 
 
-Overfull \hbox (4.45898pt too wide) in paragraph at lines 1205--1319
+Overfull \hbox (4.45898pt too wide) in paragraph at lines 1202--1224
 \OT1/cmr/m/n/12 kein Rou-ter oder Ac-cess Point ben[]otigt. Da-durch, dass es auch ein-fach m[]oglich ist, ein-zu-stel-len,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1224
 
  []
 
 
-Overfull \hbox (22.34775pt too wide) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1224
+
+ []
+
+[23 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Boostconverter_Schaltplan_Handschuh.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Akku_Buckconverter_Schaltplan_Handschuh.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1238
+
+ []
+
+
+Overfull \hbox (22.34775pt too wide) in paragraph at lines 1225--1238
 \OT1/cmr/m/n/12 be-stimm-ten gew[]unschten Funk-tio-nen ver-ein-facht. Wich-tig ist al-ler-dings da-bei, dass al-le ben[]otigten
  []
 
 
-Overfull \hbox (3.1819pt too wide) in paragraph at lines 1205--1319
+Overfull \hbox (3.1819pt too wide) in paragraph at lines 1225--1238
 \OT1/cmr/m/n/12 al-so je-de Funk-ti-on ein-zeln ge-tes-tet und dann am Schluss zu ei-nem Pro-gramm zu-sam-men-gef[]ugt,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1238
 
  []
 
 
-Overfull \hbox (16.6394pt too wide) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1225--1238
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1250
+
+ []
+
+
+Overfull \hbox (16.6394pt too wide) in paragraph at lines 1239--1250
 \OT1/cmr/m/n/12 wer-den, da man leicht absch[]atzen kann, wo ein Feh-ler lie-gen k[]onnte. Zur ef-fi-zi-en-te-ren Er-wei-te-rung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1250
 
  []
 
 
-Overfull \hbox (10.72296pt too wide) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1264
+
+ []
+
+
+Overfull \hbox (10.72296pt too wide) in paragraph at lines 1251--1264
 \OT1/cmr/m/n/12 Jedes Pro-gramm muss ausf[]uhrlich ge-tes-tet wer-den. Die Tests bei der Sen-der-pla-ti-ne (Hand-schuh)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1264
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1264
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1276
 
  []
 
 
-Overfull \hbox (11.80211pt too wide) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1300
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1300
+
+ []
+
+
+Overfull \hbox (11.80211pt too wide) in paragraph at lines 1277--1300
 \OT1/cmr/m/n/12 wer-den. Der mi-ni-ma-le und ma-xi-ma-le Wert je-des ein-zel-nen Flex-sen-sors muss un-be-dingt fest-ge-legt
  []
 
 
-Overfull \hbox (31.92041pt too wide) in paragraph at lines 1205--1319
+Overfull \hbox (31.92041pt too wide) in paragraph at lines 1277--1300
 \OT1/cmr/m/n/12 fest-ge-leg-ten Grenz-wer-te, al-ler-dings ist dies nicht merk-bar und re-du-ziert deut-lich Un-re-gelm[]a^^Yigkeiten
  []
 
 
-Overfull \hbox (17.99927pt too wide) in paragraph at lines 1205--1319
+Overfull \hbox (17.99927pt too wide) in paragraph at lines 1277--1300
 \OT1/cmr/m/n/12 und Fehl-mes-sun-gen. Wenn nun die Flex-sen-so-ren zus[]atzlich auch noch am Hand-schuh ver-rut-schen,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1205--1319
-
- []
-
-[23] [24] [25]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=761, 215.80624pt x 399.4925pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 1325.
-(pdftex.def)             Requested size: 377.62642pt x 699.12233pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1320--1328
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1300
 
  []
 
 [26]
-Overfull \hbox (0.85545pt too wide) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1322
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=920, 215.80624pt x 399.4925pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 1329.
+(pdftex.def)             Requested size: 377.62642pt x 699.12233pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1332
+
+ []
+
+[27]
+Overfull \hbox (0.85545pt too wide) in paragraph at lines 1333--1340
 \OT1/cmr/m/n/12 wer-den die ein-zel-nen Wer-te der Flex-sen-so-ren aus-ge-le-sen, die per An-steue-rung des Mul-ti-ple-xers
  []
 
 
-Overfull \hbox (2.82991pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (2.82991pt too wide) in paragraph at lines 1333--1340
 \OT1/cmr/m/n/12 (Ro-bo-ter-hand) ge-sen-det. Falls dies al-ler-dings nicht er-folg-reich war, dann muss ei-ne Feh-ler-su-che
  []
 
 
-Overfull \hbox (7.36874pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (7.36874pt too wide) in paragraph at lines 1333--1340
 \OT1/cmr/m/n/12 aus-ein-an-der lie-gen. Falls die-se Schrit-te al-le ab-ge-ar-bei-tet wur-den, dann geht das gan-ze Pro-ze-de-re
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1340
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1340
 
  []
 
 
-Overfull \hbox (15.96088pt too wide) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
+
+ []
+
+
+Overfull \hbox (15.96088pt too wide) in paragraph at lines 1341--1366
 \OT1/cmr/m/n/12 Danach wer-den die ADC-Parameter fest-ge-legt, so-wie die Ports zur An-steue-rung des Mul-ti-ple-xers.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
 
-Overfull \hbox (10.85251pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (10.85251pt too wide) in paragraph at lines 1341--1366
 \OT1/cmr/m/n/12 ver-wen-det wird, um zu []uberpr[]ufen, ob die Empf[]angerplatine (Ro-bo-ter-arm) die Da-ten er-folg-reich
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
 
-Overfull \hbox (23.44418pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (23.44418pt too wide) in paragraph at lines 1341--1366
 \OT1/cmr/m/n/12 In der Loop wird dann der Mul-ti-ple-xer an-ge-steu-ert und im-mer wie-der auf-stei-gend durch-ge-schal-ten.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
 
-Overfull \hbox (4.41516pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (4.41516pt too wide) in paragraph at lines 1341--1366
 \OT1/cmr/m/n/12 ge-schrie-ben wird, an den ESP32 der Empf[]angerplatine ge-sen-det (n...Eingang des Mul-ti-ple-xers
  []
 
 
-Overfull \hbox (4.85349pt too wide) in paragraph at lines 1329--1361
+Overfull \hbox (4.85349pt too wide) in paragraph at lines 1341--1366
 \OT1/cmr/m/n/12 oben fest-ge-legt wur-de)). Es wird dann noch im Se-ri-al Mo-ni-tor aus-ge-ge-ben, ob die Sen-der-pla-ti-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1366
 
  []
 
-[27 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>]
-Overfull \hbox (20.67694pt too wide) in paragraph at lines 1365--1373
+[28 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>]
+Overfull \hbox (20.67694pt too wide) in paragraph at lines 1370--1378
 \OT1/cmr/m/n/12 und der je-wei-li-gen Ver[]anderung, wird dann der Win-kel des Ser-vos ein-ge-stellt. Ei-ne Feh-ler-kor-rek-tur
  []
 
 
-Overfull \hbox (21.61444pt too wide) in paragraph at lines 1365--1373
+Overfull \hbox (21.61444pt too wide) in paragraph at lines 1370--1378
 \OT1/cmr/m/n/12 soll si-cher-stel-len, dass die Griff-kraft pas-send ein-ge-stellt wird. Je-der Flex-sen-sor hat un-ter-schied-li-che
  []
 
 
-Overfull \hbox (4.21106pt too wide) in paragraph at lines 1365--1373
+Overfull \hbox (4.21106pt too wide) in paragraph at lines 1370--1378
 \OT1/cmr/m/n/12 da-mit man schlus-send-lich durch das Zu-sam-men-spiel al-ler Fin-ger die Griff-kraft rich-tig ein-stel-len
  []
 
 
-Overfull \hbox (1.02492pt too wide) in paragraph at lines 1375--1398
+Overfull \hbox (1.02492pt too wide) in paragraph at lines 1380--1382
 \OT1/cmr/m/n/12 Daten[]ubertragung, Pro-gram-mier-spra-che/Entwicklungsumgebung und Be-nut-zer-freund-lich-keit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1398
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1382
 
  []
 
 
-Overfull \hbox (7.92021pt too wide) in paragraph at lines 1375--1398
-\OT1/cmr/m/n/12 wur-den nach ei-nem be-stimm-ten For-mat (Sche-ma) ge-sen-det. Die-se Da-ten sol-len nun aus-ge-wer-tet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1398
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1398
-
- []
-
-[28]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png, id=776, 199.74625pt x 453.695pt>
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png Graphic file (type png)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1405.
-(pdftex.def)             Requested size: 377.62642pt x 857.83424pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1408
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1382
 
  []
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1422
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1392
 
  []
 
-[30 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>]
-Overfull \hbox (11.8984pt too wide) in paragraph at lines 1426--1430
+
+Overfull \hbox (7.92021pt too wide) in paragraph at lines 1383--1392
+\OT1/cmr/m/n/12 wur-den nach ei-nem be-stimm-ten For-mat (Sche-ma) ge-sen-det. Die-se Da-ten sol-len nun aus-ge-wer-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1383--1392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1405
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1393--1405
+
+ []
+
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png, id=936, 199.74625pt x 453.695pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png  used on input line 1413.
+(pdftex.def)             Requested size: 377.62642pt x 857.83424pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1416
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1430
+
+ []
+
+[31 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>]
+Overfull \hbox (11.8984pt too wide) in paragraph at lines 1434--1438
 \OT1/cmr/m/n/12 Es ist zwin-gend not-wen-dig, dass f[]ur die An-bin-dung des GUIs kei-ne tech-ni-schen Vor-aus-kennt-nis-se
  []
 
 
-Overfull \hbox (36.7763pt too wide) in paragraph at lines 1426--1430
+Overfull \hbox (36.7763pt too wide) in paragraph at lines 1434--1438
 \OT1/cmr/m/n/12 ben[]otigt wer-den. Der Ver-bin-dungs-auf-bau muss da-her eben-falls fast von selbst er-fol-gen. Mul-ti-plat-form
  []
 
 
-Overfull \hbox (20.47748pt too wide) in paragraph at lines 1426--1430
+Overfull \hbox (20.47748pt too wide) in paragraph at lines 1434--1438
 \OT1/cmr/m/n/12 Kom-pa-ti-bi-libt[]at und ei-ne sta-bi-le Lauf-leis-tung soll-ten eben-falls ge-ge-ben sein, um dem End-be-nut-zer
  []
 
 
-Overfull \hbox (4.12766pt too wide) in paragraph at lines 1433--1438
+Overfull \hbox (4.12766pt too wide) in paragraph at lines 1441--1446
 \OT1/cmr/m/n/12 Entschieden ha-ben wir uns f[]ur QT. Dies ist ei-ne C++ Ent-wick-lungs-um-ge-bun-gen, die be-son-ders
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1433--1438
+Underfull \hbox (badness 10000) in paragraph at lines 1441--1446
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=788, 1385.175pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=947, 1385.175pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg  used on input line 1455.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg  used on input line 1464.
 (pdftex.def)             Requested size: 377.62642pt x 273.63515pt.
 
-Overfull \hbox (18.33316pt too wide) in paragraph at lines 1446--1458
+Underfull \hbox (badness 10000) in paragraph at lines 1455--1467
+
+ []
+
+
+Overfull \hbox (18.33316pt too wide) in paragraph at lines 1455--1467
 \OT1/cmr/m/n/12 Be-schrei-bungs-spra-che QML er-stellt, wel-che viel-sei-ti-ge M[]oglichkeiten zur in-di-vi-du-el-len Ge-stal-tung
  []
 
-[31]
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1464
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1468--1473
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1464
+Underfull \hbox (badness 10000) in paragraph at lines 1468--1473
 
  []
 
-[32 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>] [33] [34] (./Diplomarbeit.aux)
+[33 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>] [34] [35] (./Diplomarbeit.aux)
 Package rerunfilecheck Info: File `Diplomarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 28F9B50061186D9F90D25E3055F82C6F;18528.
+(rerunfilecheck)             Checksum: 87DD76AD243E5ADDB97CAAC401E2D57F;24297.
  ) 
 Here is how much of TeX's memory you used:
- 45874 strings out of 476025
- 1099167 string characters out of 5790016
- 1876388 words of memory out of 5000000
- 65650 multiletter control sequences out of 15000+600000
+ 45935 strings out of 476025
+ 1100230 string characters out of 5790016
+ 1870388 words of memory out of 5000000
+ 65680 multiletter control sequences out of 15000+600000
  521587 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,94p,551b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,94p,560b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (48 pages, 1772179 bytes).
+Output written on Diplomarbeit.pdf (50 pages, 1776591 bytes).
 PDF statistics:
- 901 PDF objects out of 1000 (max. 8388607)
- 775 compressed objects within 8 object streams
- 161 named destinations out of 1000 (max. 500000)
- 966 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1068 PDF objects out of 1200 (max. 8388607)
+ 938 compressed objects within 10 object streams
+ 192 named destinations out of 1000 (max. 500000)
+ 1206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

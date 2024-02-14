@@ -503,7 +503,7 @@ Subsystem, nämlich der Roboterhand, übertragen. Dort wird das Gesendete empfan
 setzt die digitalen Anweisungen in mechanische Bewegungen um, wodurch die Roboterhand gesteuert wird. Im Ausgabesystem ist auch 
 ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkten näher erläutert.
 
-\subsubsection{Eingabesubsystem}
+\subsection{Eingabesubsystem}
 
 	\begin{figure}[H]
 		\begin{center}
@@ -513,11 +513,12 @@ ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkte
 		\end{center}
 	\end{figure}
 
-Die Sensorik besteht aus Flexsensoren. Der Output dieser, wird durch eine Messschaltung an einen Mikrokontroller übertragen.
-Die Datenübertragung erfolgt drahtlos, wodurch die Wahl von einigen verschiedenen Übertragungsprotokollen möglich ist. Die Eigenschaften
-und Überlegungen, die hinter allen Systemeinzeilteilen stecken, werden in den Punkten 7 und 8 näher erläutert.
+Der Sensorhandschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
+Handschuhs angebracht sind. Wird ein Finger gebeugt, so ändert sich ich der Widerstandswert der korrespondierenden Sensoren. Diese Änderungen 
+werden von einer Messschaltung erfasst, die die Sensorwerte interpretiert, digitalisiert und anschließlich an den Mikrokontroller über ein 
+Kommunikationsprotokoll weitergibt. \\
 
-\subsubsection{Ausgabesubsystem}
+\subsection{Ausgabesubsystem}
 
 \begin{figure}[H]
 	\begin{center}
@@ -533,32 +534,8 @@ weclhes in Punkt 8.3 näher erklrärt wird.
 
 \subsection{Roboterhand}
 
-\subsubsection{Software \textcolor{red}{Fabian}}
-
-Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
-	\begin{itemize}
-		\item Der Widerstand jedes Flexsensors, der an jedem Handschuh jeweils über jedem Finger angebracht ist, soll einzeln 
-			  ausgelesen werden können. Die Software soll damit feststellen, wie sehr der Flexsensor gebogen ist.
-		\item Ein Multiplexer soll angesteuert werden, damit der Wert des jeweiligen Flexsensors ausgelesen werden kann. 
-			  Ein ADC, der die Spannung misst, wandelt die analogen Werte in digitale um. Dieser muss ebenso zur Messung der einzelnen 
-			  Werte ausgelesen werden.
-		\item Diese Daten sollen erfolgreich eingelesen werden und direkt an die Empfängerplatine über den Funkstandard ESP-NOW 
-			  gesendet werden.
-		\item Die von der Handschuhplatine gesendeten Daten sollen erfolgreich empfangen und gespeichert werden. Eine Bestätigung 
-			  soll im Serial Monitor gesehen werden können.
-		\item Die Software muss bei jedem Finger etwas anders agieren, da die Widerstandswerte der verschiedenen Flexsensoren stark 
-			  variieren. Es soll bei jedem Finger eine gleich gute Steuerung der Roboterhand möglich sein.
-		\item Es muss immer wieder (alle 10ms) der Strom gemessen werden. Mit einem Timing Interrupt muss also zwischen dem Bewegen 
-			  der Finger immer wieder dieser gemessen werden.
-		\item Es sollen unterschiedliche Modi erstellt werden, je nachdem, was mit der Roboterhand gehalten werden soll. Die 
-			  Griffkraft soll je nach Objekt variieren.
-\end{itemize}
-
 \subsubsection{Allgemein}
-Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
-Handschuhs entweder durch annähen, ankleben, oder einer 3D gedruckten Motage angebracht sind. Wird ein Finger gebeugt, so ändert
-sich der Widerstandswert der korrespondierenden Sensoren. Diese Änderungen werden von einer Messschaltung erfasst, die die Sensorwerte
-interpretiert, digitalisiert und anschließlich an den Mikrokontroller über ein Kommunikationsprotokoll weitergibt. \\
+
 
 Anschließend wird die kabellose 
 Übertragung über den Funkstandard ESP-NOW realisiert. Das Senden an die Roboterhand wird vorbereitet. Damit der Handschuh 
@@ -786,8 +763,9 @@ allerdings optional und ist daher nicht garantiert zur Verwendung bereit. Über 
 auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
 
 \subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
-\textbf{Bewegungserfassung der Fingerbeugung:}
-\\
+\paragraph{Bewegungserfassung der Fingerbeugung}
+\hfill \break
+\hfill \break
 Die Bewegungen des Benutzers müssen gemessen werden können. Das bedeutet, dass eine Form von Messschaltung notwendig ist um die  
 Beugung der Finger interpretieren zu können. Dies könnte man durch das Messen des Beugungswinkels realisieren. Allerdings hat 
 jeder Finger drei Gelenke, wodurch man diese auch bei der Roboterhand individuell steuern müsste. Die zweite Möglichkeit wäre, 
@@ -801,8 +779,9 @@ notwendig. Diese muss Wertdifferenzen erkennen und in ein geeignetes Format zur 
 umwandeln können.
 \\
 \\
-\textbf{Auslesen der Sensoren:}
-\\
+\paragraph{Auslesen der Sensoren}
+\hfill \break
+\hfill \break
 Das Auslesen der Flexsensoren kann durch einen einfachen Spannungsteiler erfolgen. Dabei ist die Genauigkeit
 allerdings nicht optimal und ist daher nicht für unsere Anwendung geeignet. Als Lösung für dieses Problem haben wir an eine 
 OPV-Messschaltung gedacht. Diese soll mit einem Shuntwiderstand die Spannungsdifferenz messen, die sich bei einer Veränderung 
@@ -846,16 +825,18 @@ Ein Tiefpassfilter (Rf und Cf) ist hinter den Ausgang des OPVs geschaltet, um m�
 zu dem ohnehin schon sehr störungsarmen Ausgangssignal des INA129, herauszufiltern. Der zu GND geschaltete Widerstand (R1), 
 entlastet den Eingang des folgenden ADCs. Der Tiefpassfilter wurde folgendermaßen dimensioniert. \\
 \\
-\textbf{Berechnung des Tiefpassfilters:} \\
-\\
+\paragraph{Berechnung des Tiefpassfilters}
+\hfill \break
+\hfill \break
 \hspace*{1cm} $f_{g} = 20 kHz $ \hspace*{1cm} $\tau = \frac{1}{\omega_{g}} = \frac{1}{2\pi * 20 kHz} $ \\
 \\
 \hspace*{1cm} $f_{g} = \frac{\omega_{g}}{2\pi} $ \hspace*{1.7cm} $\tau = R * C $ \\
 \\
 \hspace*{4.25cm} $ C = 68 nF $ \hspace*{1cm} $ R = \frac{\tau}{68nF} = 117 \Omega $ \\
 \\
-\textbf{Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands:} \\
-\\
+\paragraph{Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}
+\hfill \break
+\hfill \break
 \hspace*{1cm} Verstärkungsgleichung laut Datenblatt: $ G = 1+\frac{49.4k\Omega}{R_{g}} $ \\
 \textcolor{red}{diemensionierung shuntwiderstand noch einfügen}
 \\
@@ -870,8 +851,9 @@ viel Strom, wodurch schon zu erwarten war, dass ein relativ hoher Wert benötigt
 da dieser Widerstand bei sowohl voller, als auch geringer Biegung der Flexsensoren, eine gute Spannungsdifferenz für die 
 Verstärkung mit dem OPV liefert. \\
 \\
-\textbf{Umwandlung der Differenzwerte in ein geeignetes Format:}
-\\
+\paragraph{Umwandlung der Differenzwerte in ein geeignetes Format}
+\hfill \break
+\hfill \break
 Um nun die analogen Ausgangswerte des Operationsverstärkers nach der Verstärkung der Spannungsdifferenzen am Flexsensor für
 den Mikrokontroller möglichst effizient und brauchbar zu machen, ist eine Umwandlung in ein digitales Signal notwendig.
 Dies Funktion wird mit mit einem ADC umgesetzt. Bei der Wahl dieses Logikbauteils, sind, wie beim OPV, einige Kriterien zu 
@@ -895,8 +877,9 @@ sehr genau abzudecken. Zusätzlich haben wir uns noch dazu entschieden alle Logi
 erfordern mit dem I2C Bussystem anzuschließen. Daher muss der Analog-Digital-Wandler diese Art der Kommunikation ebenfalls unterstützen.
 Aufgrund dieser Auswahlkriterien ist die Wahl des Bauteils auf den MAX11611 gefallen.\\
 \\
-\textbf{Vervielfachung der Schaltung für alle Flexsensoren:}
-\\
+\paragraph{Vervielfachung der Schaltung für alle Flexsensoren}
+\hfill \break
+\hfill \break
 Um die zuvor beschriebene Schaltung nun nicht für jeden Flexsensor einzeln bauen zu müssen, wäre eine Art Schalter vorteilhaft.
 Dieser soll in Sekundenbruchteilen zwischen allen Sensoren durchschalten. Das bedeutet also, dass zwischen dem Shunt-Widerstand
 und $R_{flex}$ in der Simulation dieses Bauteil platziert werden muss. \\
@@ -917,16 +900,18 @@ Für diesen Zweck ist ein Multiplexer bestens geeignet. Folgende Kriterien muss 
 Folglich viel die Wahl auf den MUX508IDR. Dieser ist ein 8:1 Channel Multiplexer, der über 5V versorgt werden kann und über drei 
 Analoganschlüsse für die Auswahl des Kanals verfügt. \\
 \\
-\textbf{Bewegungserfassung der Handgelenksdrehung:}
-\\
+\paragraph{Bewegungserfassung der Handgelenksdrehung}
+\hfill \break
+\hfill \break
 Um die Drehung des Handgelenks zu erfassen ist ein anderer Sensor als ein Flexsensor notwendig. Dieser neue Sensor muss die 
 Funktion eines Gyroskops haben und folglich die Positionen von X, Y -und Z-Achse übermitteln. Dieser Übermittlung muss per
 I2C-Bus erfolgen, um die Kompatiblität mit der restlichen Schaltung zu ermöglichen. \\
 \\
 Ausgewählt wurder der Sensor MPU-6000, da dieser schon eingebaute ADCs hat, um die Achswerte vor der Übertragung zu digitalisieren. \\
 \\
-\textbf{Mikrokontroller:}
-\\
+\paragraph{Mikrokontroller}
+\hfill \break
+\hfill \break
 Bei der Auswahl des Mikrokontrollers wurden sehr viele Aspekte beachtet. Dieser ist das Herzstück der Schaltung und ermöglicht
 allen Komponenten zusammen zu funktionieren und diese auch zu steuern. \\
 \\
@@ -966,8 +951,9 @@ schon integriert sind. Nach Abwägungen von Größe und Performance, haben wir u
 Dieses hat eine integrierte Antenne, reichlich Performance und viel Flash-Speicher. Der Formfaktor ist bei allen diesen 
 Funktionalitäten immer noch im Rahmen. \\
 \\
-\textbf{Akkuversorgung:}
-\\
+\paragraph{Akkuversorgung}
+\hfill \break
+\hfill \break
 Da es nicht praktikabel ist die Schaltung des Handschuhs dauerhaft mit einem Kabel zu versorgen, soll dies schlussendlich durch
 einen Akku oder eine Batterie erfolgen. Entschieden haben wir uns für eine Lithium-Polymer-Akku (LiPo), da diese trotz geringer 
 größe verglichen mit anderen Akkuarten eine hohe Kapazität besitzen. \\
@@ -991,7 +977,9 @@ Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. En
 Nach den generellen Überlegungen, die zu der Entwicklung der Schaltung des Hanschuhs beigetragen haben, wird in diesem Punkt 
 das genaue Schaltungsdesign erläutert. \\
 \\
-\textbf{Externe Anschlüsse:}
+\paragraph{Externe Anschlüsse}
+\hfill \break
+\hfill \break
 \begin{itemize}
 	\item Anschluss zur Programmierung des Mikrokontrollers: \\
 		  \\
@@ -1033,8 +1021,9 @@ das genaue Schaltungsdesign erläutert. \\
 			\end{center}
 		\end{figure}\end{itemize}
 
-\textbf{Mikrokontroller:} 
-\\
+\paragraph{Mikrokontroller} 
+\hfill \break
+\hfill \break
 Der ESP32-Chip wird mit +3.3V versorgt. Wichtig zu beachten ist dadurch, das ein Logic-HIGH somit auch 3.3V und nicht 5V ist!
 Die Versorgung wird mit einem Kondensator stabilisiert. Für alle Busleitungen, also I2C und UART, wurden Widerstände in Serie
 hinzugefügt, um die Kommunikationsleitungen vor Spannungsspitzen oder Überspannung zu schützen. Die Funktion wäre auch ohne diese
@@ -1049,8 +1038,9 @@ Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeins
 	\end{center}
 \end{figure}
 
-\textbf{Mikrokontroller Buttons:}
-\\
+\paragraph{Mikrokontroller Buttons}
+\hfill \break
+\hfill \break
 In der Schaltung sind drei Taster verbaut. Diese sind alle mit dem Mikrokontroller verbunden und erfüllen verschiedene Funktionen.
 \begin{itemize}
 	\item Upload Button: \\
@@ -1068,8 +1058,9 @@ In der Schaltung sind drei Taster verbaut. Diese sind alle mit dem Mikrokontroll
 		  Die Funktion dieses Buttons kann frei durch den programmierten Code gewählt werden. 
 \end{itemize}
 
-\textbf{Status LEDs:}
-\\
+\paragraph{Status LEDs}
+\hfill \break
+\hfill \break
 Die beiden Leuchtdioden sind als Statusanzeige gedacht. Eine POWER LED, die immer leuchtet wenn die Schaltung mit +5V
 versorgt wird. Die Funktion der anderen LED ist, sowie bei einem Button, frei wählbar und ist deswegen mit Pin IO13 des ESP32
 verbunden. \\
@@ -1081,14 +1072,16 @@ verbunden. \\
 	\end{center}
 \end{figure}
 
-\textbf{Multiplexer:}
-\\
+\paragraph{Multiplexer}
+\hfill \break
+\hfill \break
 Der Multiplexer schaltet zwischen allen Flexsensoren durch und vermeidet somit die Messschaltung fünf mal bauen zu müssen. 
 Die Verbindung zum ESP32 erfolgt über drei digitale Addresspins und einen Enable Pin. Je nachdem welche Bitkombination übermittelt
 wird, ändert sich die interne Schalterposition und somit der gerade aktive Kanal zur Messung eines Flexsensors. \\
 \\
-\textbf{Operationsverstärker:}
-\\
+\paragraph{Operationsverstärker}
+\hfill \break
+\hfill \break
 Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in Punkt "Auslesen der Sensoren" beschrieben, benötigt. Da am
 Shuntwiderstand nur sehr wenig Spannungsabfall auftritt und daher die Spannungsdifferenz zwischen positivem und negativem 
 Verstärkereingang sehr klein ist, muss das Signal verstärkt werden. Hierfür wird der INA129 Instrumentenverstärker verwendet.
@@ -1108,8 +1101,9 @@ von 1V verwendet. \\
 	\end{center}
 \end{figure}
 
-\textbf{Analog-Digital-Wandler:}
-\\
+\paragraph{Analog-Digital-Wandler}
+\hfill \break
+\hfill \break
 Der Analog-Digital-Wandler ist dafür zuständig, die analogen Werte, vom Ausgang des Operationsverstärkers kommend, in digitale 
 Signale umzuwandeln. Der OPV und der ADC sind über das Label toADC verbunden. Da der Chip über 3.3V versorgt wird, befindet
 sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im Punkt Umwandlung der Diferenzwerte in ein geeignetes Format berechnet, 
@@ -1127,8 +1121,9 @@ Mikrokontroller übertragen. \\
 	\end{center}
 \end{figure}
 
-\textbf{Gyroskop-Sensor:}
-\\
+\paragraph{Gyroskop-Sensor}
+\hfill \break
+\hfill \break
 Der Gyroskopsensor ist dafür zuständig die Drehung des Handschuhs in X, Y -und Z Richtung warzunehmen. Die Versorgung basiert 
 auf 3.3V und die Datenübertragung erneut mittels I2C-Bussystem. Der Unterschied bei diesem Chip ist allerdings, dass mehrere ADCs
 integriert sind, um die Positionsdaten der Achsen schon digitalisiert an den Mikrokontroller zu übergeben. AD0 wird dabei verwendet
@@ -1148,8 +1143,9 @@ AUX-Anschlüsse könnte man verwenden, um mit anderen I2C fähigen Sensoren dire
 Sensorchip mit dieser Fähigkeit ist, bleiben die beiden Pins auch nicht verbunden. Die Kondensatoren sind vom Hersteller im Datenblatt
 vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \\
-\textbf{Akku Versorgung:}
-\\
+\paragraph{Akku Versorgung}
+\hfill \break
+\hfill \break
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -1202,8 +1198,9 @@ mehr aus dem Griff der Hand rutschen können.\\
 
 \subsection{Handschuh}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
-\textbf{Datenübertragung:}
-\\
+\paragraph{Datenübertragung}
+\hfill \break
+\hfill \break
 Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor ausliest, zu übertragen. Wichtig ist es, dass 
 dies einfach und auf eine sehr stabile Weise funktioniert. Werden nämlich Daten fehlerhaft oder nur teilweise übertragen, dann 
 wirkt sich das auf der Empfängerseite drastisch aus. Es könnten dadurch unerwartete Fehler passieren beziehungsweise könnte die 
@@ -1224,8 +1221,9 @@ den einzelnen ESP32 möglich ist. Es wird dafür kein Router oder Access Point b
 ist, einzustellen, welche Platine über ESP-NOW senden, empfangen oder der Transceiver sein soll, kann man sehr leicht den 
 spezifischen Anwendungsfall realisieren. \\
 \\
-\textbf{Programmiersprache/Entwicklungsumgebung:}
-\\
+\paragraph{Programmiersprache/Entwicklungsumgebung}
+\hfill \break
+\hfill \break
 Die Arduino IDE (1. \& 2. Version) wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
 konzipiert wurde. Der ESP32 gehört auch zu den Mikrocontrollern, weshalb er ebenfalls über eigene Bibliotheken bestenfalls 
 über die Arduino IDE angesteuert werden kann. Der Code wird in der Programmiersprache C oder C++ geschrieben, da diese für 
@@ -1237,8 +1235,9 @@ IDE besteht darin, dass die unterschiedlichsten Möglichkeiten der Konfiguration
 beispielsweise die Baud-Rate geändert werden. Wichtig ist, dass es auch sowohl mit der Arduino IDE der ersten und zweiten 
 Generation ohne Probleme funktioniert, die Datei mit dem Programm auf den ESP32 zu laden. \\
 \\
-\textbf{Benutzerfreundlichkeit:}
-\\
+\paragraph{Benutzerfreundlichkeit}
+\hfill \break
+\hfill \break
 Es ist wichtig, dass jeder, der sich ein wenig mit der Software beschäftigt, diese auch verstehen und vor allem benutzen kann. 
 Es soll darauf geachtet werden, dass so viele Codezeilen wie möglich und nötig mit Kommentaren erklärt wird, sodass eine 
 einfachere Bearbeitung der Software realisiert werden kann. Die Fehlerbehebung soll damit um ein Vielfaches vereinfacht werden, 
@@ -1248,8 +1247,9 @@ endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass
 USB-C Kabel, angeschlossen wird und man das Programm nur auf diesen hochladen muss. Die optimalen Anpassungen sollen in der 
 Standardversion des Programmes dann bereits vorhanden sein. \\
 \\
-\textbf{Testen:}
-\\
+\paragraph{Testen}
+\hfill \break
+\hfill \break
 Jedes Programm muss ausführlich getestet werden. Die Tests bei der Senderplatine (Handschuh) beschäftigen sich vor allem mit 
 dem Auslesen der Widerstandswerte der Flexsensoren. Es soll überprüft werden, ob sich die Werte in dem von dem Benutzer 
 freiwillig ausgesuchten Bereich der map Funktion liegen. Bei dem Test soll bei dem gestreckten Flexsensor der maximale Wert 
@@ -1261,8 +1261,9 @@ ebenfalls realistisch sind, dann können diese Werte wie vorher bereits erwähnt
 gesendet werden. Bei erfolgreichem Empfangen der Empfängerplatine soll die Senderplatine im Serial Monitor der Arduino IDE 
 ausgeben, dass die Daten erfolgreich gesendet und empfangen wurden. \\
 \\
-\textbf{Allgemeines Konzept:}
-\\
+\paragraph{Allgemeines Konzept}
+\hfill \break
+\hfill \break
 Die Senderplatine ist so konzipiert worden, dass Flexsensoren über Drähte an die Platine angeschlossen sind. An jedem Anschluss 
 befindet sich eine Leiterbahn zu einem Multiplexer. Dieser soll über die Software angesteuert werden und immer wieder im 
 richtigen Abstand durchschalten. Wenn dies richtig funktioniert, dann soll die Software die Werte des ADCs auslesen, da mit 
@@ -1272,8 +1273,9 @@ diesen dann später gearbeitet wird. Diese Werte werden dann jeweils in folgende
 wurde, dann können die Werte, die in das vorher beschriebene Format gebracht wurden, per ESP-NOW versendet werden. Als Antwort 
 soll man im Serial Monitor sehen können, ob die Werte erfolgreich empfangen wurden. \\
 \\
-\textbf{Minimaler \& maximaler Widerstandswert:}
-\\
+\paragraph{Minimaler \& maximaler Widerstandswert}
+\hfill \break
+\hfill \break
 Anfangs gingen wir davon aus, dass die Werte der Flexsensoren sehr genau ausgelesen werden können. Wir sind davon ausgegangen, 
 dass jedes Mal die Werte je bestimmter Biegung sehr ähnlich sein werden. Grundsätzlich ist dies nicht falsch, jedoch gibt es 
 ein Problem, das wir erst im Laufe der Zeit wahrgenommen haben. Die Flexsensoren halten nämlich nicht so gut wie gedacht auf 
@@ -1295,8 +1297,9 @@ sehr kleinen Wertebereich durch diese festgelegten Grenzwerte, allerdings ist di
 Unregelmäßigkeiten und Fehlmessungen. Wenn nun die Flexsensoren zusätzlich auch noch am Handschuh verrutschen, dann wird 
 trotzdem noch eine sehr gute Messung und valide Werte zur Übertragung möglich sein. \\
 \\
-\textbf{Verworfene Ideen:}
-\\
+\paragraph{Verworfene Ideen}
+\hfill \break
+\hfill \break
 Datenkorrektur auf Senderseite
 Ursprünglich wurde mit dem Gedanken gespielt, dass die eingelesenen Werte bereits auf der Senderseite korrigiert werden. 
 Allerdings haben wir uns dann überlegt, dass es aus energietechnischer Sicht sinnvoller ist, wenn man es auf der Empfängerseite 
@@ -1317,8 +1320,9 @@ Roboterhandplatine durchgeführt werden, da in diesem Fall keine begrenzte Spann
 wird.
 \\
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
-\textbf{Realisierung:}
-\\
+\paragraph{Realisierung}
+\hfill \break
+\hfill \break
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -1333,8 +1337,9 @@ war, dann werden die Daten an die Empfängerplatine (Roboterhand) gesendet. Fall
 muss eine Fehlersuche durchgeführt werden. Ein oftmals auftretender Grund ist, dass die beiden ESPs zu weit auseinander liegen. 
 Falls diese Schritte alle abgearbeitet wurden, dann geht das ganze Prozedere wieder von vorne los. \\
 \\
-\textbf{Gliederung:}
-\\
+\paragraph{Gliederung}
+\hfill \break
+\hfill \break
 Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation für 
 den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi Bibliothek inkludiert wird. \\
 \\
@@ -1374,8 +1379,9 @@ Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerun
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
 Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe 6.1.1! \\
 \\
-\textbf{Testen:}
-\\
+\paragraph{Testen}
+\hfill \break
+\hfill \break
 Die von der Senderplatine (Handschuh) gesendeten Daten sollen ausgelesen werden. Sie wurden nach einem bestimmten Format 
 (Schema) gesendet. Diese Daten sollen nun ausgewertet werden. Diese Daten werden nun dazu verwendet, um die einzelnen Servos 
 anzusteuern. Dabei wird zuerst die Servo Nummer der empfangenen Daten ausgelesen und dann der Wert. Je nachdem wie groß der
@@ -1383,8 +1389,9 @@ Wert ist, dreht sich der Servo. Es kann dann getestet werden, ob sich der Servo 
 Kommunikation mit dem Servo funktioniert. Wenn man die 3D-gedruckten Finger dann per Angelschnur mit den Servos verbindet, 
 dann kann man am besten feststellen, ob die Software richtig läuft oder nicht. \\
 \\
-\textbf{Allgemeines Konzept:}
-\\
+\paragraph{Allgemeines Konzept}
+\hfill \break
+\hfill \break
 Die über ESP-NOW empfangenen Daten (Widerstandswerte samt Nummer des Flexsensors) sollen ausgelesen werden. Dadurch kann dann 
 bestimmt werden, welcher Servo sich um wie viel drehen soll. Es muss festgestellt werden, dass die Daten über eine 
 Datenkorrektur (Median der letzten 5 Werte) korrigiert wird. Das soll dazu beitragen, dass Fehlmessungen nicht in die Werte, 
@@ -1397,8 +1404,9 @@ entlastet wird.
 \\
 
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
-\textbf{Realisierung:}
-\\
+\paragraph{Realisierung}
+\hfill \break
+\hfill \break
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -1443,8 +1451,9 @@ Weitere Eigenschaften von Qt sind:
 
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Laci}}
 
-\textbf{Allgemeines Konzept:}
-\\
+\paragraph{Allgemeines Konzept}
+\hfill \break
+\hfill \break
 Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
 erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das grafische Interface wurde 
 in der Beschreibungssprache QML erstellt, welche vielseitige Möglichkeiten zur individuellen Gestaltung bietet. Das Erstkonzept
