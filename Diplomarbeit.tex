@@ -536,9 +536,10 @@ konfiguriert wurde. Eine Energiesparen Funktion kann über
 esp\_wifi\_connectionless\_module\_set\_wakre\_interval$()$ festgelegt werden. Hier 
 kann man dann einstellen, wann sich der ESP einschalten soll. \\
 \\
-Im Freien, ohne Hindernisse, kann die Übertragung per ESP-NOW schon an die 
-150-200m weit übertragen werden. In geschlossenen Räumen meist durch eine 
-Wand, wenn sogar in seltenen Fällen, je nach Dicke, durch zwei. \\
+Im Freien, ohne störende Wände oder Möbel, kann ESP-NOW Daten auf jeden Fall von 150 
+bis 200 Metern weit übertragen. In geschlossenen Räumen funktioniert die Übertragung 
+meist durch eine Wand, in seltenen Fällen sogar durch zwei, abhängig von der Dicke 
+und anderen störenden Einflüssen. \\
 \\
 Das OSI-Modell wird bei dem ESP-NOW Modell von fünf Schichten auf eine 
 einzige reduziert. Daten müssen somit nicht den Network layer, nicht den 
@@ -549,11 +550,138 @@ Paketköpfe oder Entpacker auf jeder Schicht. Dies führt zu einer schnelleren
 Reaktion und die Paketverluste werden dadurch in überlasteten Netzen 
 reduziert. Dies führt zu einer deutlichen Verbesserung der möglichen 
 Verzögerung, indem diese sehr niedrig gehalten werden kann. \\
-\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+
+\subsubsection{OSI-Modell}
+Das OSI-Modell ist standardisiert und ermöglicht die Kommunikation zwischen den 
+verschiedensten Computersystemen. OSI (Open Systems Interconnection) wurde von der 
+ISO (International Organization for Standardization) erfunden. 
+Es besteht aus 7 Schichten (application layer, presentation layer, session layer, 
+transport layer, network layer, data link layer und physical layer). Wichtig ist, 
+dass jede einzelne Schichte eine andere Aufgabe erfüllt. Durch das System der 
+einzelnen Schichten kann die Fehlersuche vereinfacht werden, da man die jeweiligen 
+durchforsten kann. Zu beachten ist allerdings, dass diese untereinander ebenfalls 
+Daten austauschen und untereinander kommunizieren können. Dabei ist jede Schicht 
+nach international standardisierten Protokollen definiert. Das bedeutet, das gewisse 
+Regeln zur Kommunikation eingehalten werden müssen. Dabei ist es möglich, dass sich 
+ein Protokoll über mehrere Schichten verteilt. \\
+\\
+Beim Sender und Empfänger werden diese sieben Schichten jeweils einmal angewandt. \\
+\\
+
+\paragraph{Physical Layer}
+\hfill \break
+\hfill \break
+Beschreibt die mechanische und funktionale Schnittstelle zum Übertragungsmedium. Die 
+Datenübertragung der physischen Geräte, wie Schalter, Kabel, usw. ist hiermit gemeint. 
+Daten werden in einen Bitstrom umgewandelt. Zu beachten ist, dass das Übertragungsmedium 
+an sich nicht zur 1. Schicht gehört, nur die Datenübertragung bei Einschalten des 
+physischen Geräts gehört in diese.\\
+
+\paragraph{Data Link Layer}
+\hfill \break
+\hfill \break
+Beschreibt die Sicherungsschicht, die eine stabile und funktionierende Verbindung 
+zwischen Endgerät und Übertragungsmedium herstellt. Der Data Link Layer verarbeitet 
+Pakete vom Network Layer, spaltet diese in kleinere Teile namens Frames und ist für 
+den Datentransfer zwischen zwei Geräten im selben Netzwerk verantwortlich. Die 
+physikalische Adressierung von Datenpaketen wird hier durchgeführt. Außerdem werden 
+auch eine Fehlererkennung, Fehlerbehebung und Datenflusskontrolle angewandt. \\
+
+\paragraph{Network Layer}
+\hfill \break
+\hfill \break
+Beschreibt den regulierten Datentransfer zwischen zwei verschiedenen Netzwerken. Hier 
+werden einzelne Segmente auf dem Sendergerät von dem Transport Layer in Fragmente 
+aufgeteilt und auf dem Empfängergerät dann wieder zusammengefügt. Die logische Adressierung 
+findet ebenfalls statt. \\
+
+\paragraph{Transport Layer}
+\hfill \break
+\hfill \break
+Beschreibt das Bindeglied zwischen den transportorientierten und den anwendungsorientierten 
+Schichten. Wie immer, werden die Daten in kleinere Bestandteile zerlegt. Header-Informationen 
+und eine Fehlerkontrolle werden von den Segmenten beinhaltet, falls nicht alle Daten 
+erfolgreich angekommen sind oder fallengelassen wurden, kann dies hilfreich sein. \\
+
+\paragraph{Session Layer}
+\hfill \break
+\hfill \break
+Beschreibt die Verbindung zwischen den Endsystemen. Session nennt man den zeitlichen 
+Bereich zwischen dem Starten und Beenden der Kommunikation. Wichtig ist auch, dass 
+dieser Layer dafür verantwortlich ist, dass genug lange Daten übertragen werden können 
+und die Verbindung nicht schon zuvor beendet wird. Für die Effizienz soll allerdings 
+nach einem abgeschlossenen Vorgang die Verbindung unterbrochen werden. \\
+
+\paragraph{Presentation Layer}
+\hfill \break
+\hfill \break
+Beschreibt die Aufbereitung der Daten, sodass der Nutzer diese verstehen kann. Damit 
+ist gemeint, dass beispielsweise verschlüsselte Daten zuerst entschlüsselt werden 
+müssen, bevor sie der Nutzer verstehen kann. Die Komprimierung und Dekomprimierung 
+von Daten werden hier auch durchgeführt. \\
+
+\paragraph{Application Layer}
+\hfill \break
+\hfill \break
+Beschreibt die Bereitstellung von Funktionen für Anwendungen und die Verbindung zu 
+den unteren Schichten. Die Dateneingabe und Datenausgabe werden hier ebenfalls 
+durchgeführt. Softwareanwendungen sind auf den Application Layer angewiesen (http, SMTP, …). 
+Diese Protokolle sind für die Kommunikation notwendig und standardisiert. \\
+
+\paragraph{ESP-NOW Schichten}
+\hfill \break
+\hfill \break
+Es gibt bei ESP-NOW zwei Schichten, den Data Link Layer und den Physical Layer 
+(siehe OSI-Modell). Dabei beruht der Physical Layer auf dem IEEE 802.15.4 Standard. 
+Da jedoch nicht so viele Schichten, wie bei dem OSI-Modell vorhanden sind, gibt es 
+mehrere Möglichkeiten, wo Fehler liegen können und es ist nicht so leicht den Fehler 
+an der richtigen Stelle zu suchen. \\
+
+\paragraph{IEEE 802.15.4 Standard}
+\hfill \break
+\hfill \break
+Es ist ein internationaler Standard für die drahtlose Kommunikation, der von 
+Electrical and Electronics Engineers (IEEE) entwickelt wurde. Besonders wird Wert auf 
+die geringe Datenrate und dem daraus folgend geringen Stromverbrauch Wert gelegt. Es 
+werden lizenzfreie Frequenzbänder im 2,4GHz-, 915MHz- und 868MHz-Bereich verwendet. \\
+
+\subsection{OPV Technologien}
+Ein Operationsverstärker, kurz OPV, ist ein analoger Gleichspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
+Verstärkung auszeichnet. Der elektroische Grundbaustein ist ein Differenzverstärker, der durch äußere Beschaltungen angepasst werden kann.
+In der grundlegendsten Funktion, verstärkt ein OPV die Differenz der beiden Eingangsspannungen am $"$+$"$ und $"$-$"$ Anschluss. Das Ergebnis
+dieses Verstärkungsprozesses wird anschließend über $"$Vout$"$ ausgegeben. \\
+\\
+Operationsverstärker können mit einem sogenannten $"$Single-Supply$"$ oder $"$Dual-Supply$"$ versorgt werden. Dies bezieht sich auf
+die Art der Versorgungsspannung. \\
+\\
+\subsubsection{Single-Supply}
+Bei dieser Art der Versorgung, wird ausschließlich eine positive Spannung und das Groundpotential genutzt. Das bedeutet, dass der OPV
+theoretisch einen maximalen Ausgangsbereich von GND bis VCC haben kann. Negative Spannungen können nicht ausgegeben werden. \\
+\\
+
+\subsubsection{Dual-Supply}
+Beim Dual-Supply Betrieb, wird der OPV von einer positiven und negativen Spannung versorgt. Das bedeutet, dass der OPV nun die Fähigkeit
+besitzt auch negative Spannungen auszugeben und der Ausgangsspannungsbereich somit größer als beim Single-Supply ist.
+
+\subsubsection{Rail-to-Rail Technologie}
+Hat ein OPV die sogenannte $"$Rail-to-Rail Technologie$"$, so ist die Rede von Spannweite des Ausgangsspannungsbereichs. Bei diesem Feature
+ist der Operationsverstärker dazu fähig fast bis auf das positive und negative Versorgungspotential Spannung auszugeben. Dies ist oft 
+von Vorteil, da dadurch die Versorgungsspannungen nicht übermäßig hoch sind und somit die Schaltungen mit niedrigeren Spannungen arbeiten
+kann. Dies ist auch für die Benutzer der entsprechenden Endgeräte sicherer.\\
+\\
+In der folgenden Grafik sind die Ausgangsspannungsbereiche eines normalen OPVs, in blau, und eines OPVs mit Rail-to-Rail Technologie,
+in Orange, dargestellt. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{RAILtoRAIL_OPV}}
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
@@ -762,7 +890,7 @@ werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigs
 um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, sollte die entgültige Platine auf dem Handschuhrücken
 nicht größer als 4cm x 4cm sein. Beim Design der Elektronik muss durch die Größenrestriktion natürlich darauf geachtet, dass durch
 diese keine Einbußen in Bezug auf die korrekte und sichere Funktion des Projektteils entstehen. Übermäßige Wärmeentwicklung ist 
-ebenfalls zu vermeiden, da diese auf lange Zeit unangenehm für den Endnutzer wird. Die Versorgung der Schaltung
+ebenfalls zu vermeiden, da diese auf lange Zeit unangenehm für den Endnutzer ist. Die Versorgung der Schaltung
 sollte möglichst über einen kleinen und portablen Akku geschehen, um dem Benutzer das bestmögliche Erlebnis zu bereiten. Dieses Feature ist
 allerdings optional und ist daher nicht garantiert zur Verwendung bereit. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
 auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
@@ -976,7 +1104,90 @@ Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. En
 \\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
+In den folgenden Punkten werden die praktischen Tests, der in Punkt 7.1.2 beschriebenen Konzepte und Überlegungen, erläutert.\\
+\paragraph{Messchaltung der Flexsensoren}
+\hfill \break
+\hfill \break
+Zunächst wurde die Schaltung aus Punkt 7.1.2.2 auf einem Steckbrett aufgebaut. Das Ziel der Messung ist es, den Widerstand 
+bei jeder Stellung eines Flexsensoren zu wissen. Dies ist wichtig, um die Daten der Sensoren korrekt auszulesen und an die 
+Roboterhand zu senden. Werden die Widerstandswerte nicht korrekt gemessen, so bewegt sich die Roboterhand nicht entsprechend 
+nach den Bewegungen des Benutzers. \\
+\\
+Die zu messende Größe ist die Ausgangsspannung des OPVs, die sich je nach Widerstand der Last verändert. Die Last wird in 
+unserem Versuchsaufbau von drei Widerständen simuliert, da wir die Flexsensoren zu dem Zeitpunkt der Messung noch nicht zu 
+Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt, da der Widerstandsbereich der Sensoren bei 
+25k – 125k liegt. Im nächsten Punkt werden die Messergebnisse dargestellt. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Steckbrettaufbau_Spannungsmessung_INA129}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Bild_Einstellungen_Netzteil}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
++3.3V für die Versorgung des Flexsensors (Last), simuliert mit drei normalen Widerständen.\\
++1V als Referenzspannung für den INA-129.\\
++5V zur Versorgung des INA129.\\
+\\
 
+\paragraph{Messergebnisse}
+\hfill \break
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_27k}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+Das obige Oszilloskopbild zeigt die, mit einem Tastkopf, gemessene Ausgangsspannung des Operationsverstärkers, bei einem Flexsensorwiderstand
+von 27k$\Omega$. Die gemessene Spannung ist rot eingekreist und beträgt 2.28V. Da bei der Simulation in LTspice mit einem Widerstand 
+von 25k$\Omega$ eine Ausgangsspannung von 2.416V resultierte, ist anzunehmen, dass 2.28V 
+für den gewählten Widerstand angemessen sind. Daraus kann man schließen, dass die Schaltung
+für diesen Widerstandswert des Flexsensors korrekt funktioniert.
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_67k}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Nun wurde die gleiche Messung erneut durchgeführt, allerdings mit einem Flexsensorwiderstand
+von 67k$\Omega$. Wir zu erwarten, ist die Ausgangsspannung des OPVs gesunken, da der 
+Spannungsabfall am Shuntwiderstand nun geringer ausfällt. Zu erwarten war ein Spannungswert
+von rund 1.5V. Dieser Pegel wurde mit 1.52V fast genau getroffen, wodurch die funktionsfähigkeit
+der Schaltung weiter sichergestellt wurde.
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_118k}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Schlussendlich wurde noch ein Flexsensorwiderstand von 118k$\Omega$ simuliert, um den
+nahezu Maximalwert des Sensors zu simulieren. Zu erwarten waren rund 1.3V. Die Messung
+bestätigt die Überlegungen, wodurch die Funktionalität dieser Schaltungskomponente bewiesen
+wurde. \\
+\\
+Zusätzlich ist nun die Notwendigkeit einer Referenzspannung von +1V bewiesen worden, da
+ohne dieser ein theoretischer Spannungspegel von nur 500mV am Ausgang des INA-129 aufgetreten
+wäre.  Dies ist praktisch allerdings nicht möglich, da der OPV über keine Rail-to-Rail
+Technologie verfügt, wodurch er nur eine minimale Ausgangsspannung von rund 800mV ausgeben 
+kann.
+\\
 
 \subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
 Nach den generellen Überlegungen, die zu der Entwicklung der Schaltung des Hanschuhs beigetragen haben, wird in diesem Punkt 
@@ -1432,7 +1643,29 @@ nein, dann darf sich der Servo weiter zu dem gesendeten Wert hinbewegen. Falls d
 oder der Servo sich in eine beliebige Richtung dreht, dann wird noch der Timer von 10ms abgewartet und das Prozedere beginnt 
 wieder von vorne.
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 \subsection{User Interface}
 
 \subsubsection{Grundlegende Vorraussetzungen}
