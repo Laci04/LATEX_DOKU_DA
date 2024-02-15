@@ -478,6 +478,13 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 \section{Theoretische Grundlagen des Diplomprojekts}
 
+\subsection{Mechanik}
+
+\subsection{Hardware}
+
+\subsection{Software}
+subsubsection{ESP-NOW}
+
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
@@ -530,82 +537,7 @@ Kommunikationsprotokoll weitergibt. \\
 
 Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes Format für die Steuerung der Aktorik, also den Servomotoren,
 umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem ist ein Graphical-User-Interface, 
-weclhes in Punkt 8.3 näher erklrärt wird. 
-
-\subsection{Roboterhand}
-
-\subsubsection{Allgemein}
-
-
-Anschließend wird die kabellose 
-Übertragung über den Funkstandard ESP-NOW realisiert. Das Senden an die Roboterhand wird vorbereitet. Damit der Handschuh 
-funktioniert, bedarf es einer Spannungsversorgung. Diese wird in Form einer Batterie oder eines Akkus vorgesehen sein, 
-funktioniert aber allenfalls über ein USB-C Kabel. Für einen möglichen stationären Betrieb kann der Handschuh auch mit einem 
-Netzteil betrieben werden. Die Passform des Handschuhs soll möglichst komfortabel sein, um eine möglichst lange Benützung zu 
-ermöglichen. Dies setzt eine gut überlegte Integration der Elektronik voraus. Die Flexsensoren sollen fest auf dem Handschuh 
-befestigt sein. Die Widerstandswerte sind ansonsten bei jedem Mal biegen unterschiedlich, wenn die Flexsensoren nicht an einer 
-Stelle am Handschuh bleiben, sondern sich verschieben. Diese Montage wird bei diesem Projekt auch bestmöglich beachtet. Der 
-Handschuh ist so gebaut, dass er auch von Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann. Das 
-liegt daran, dass nur die Finger gebeugt oder gestreckt werden müssen. Jede Handbewegung kann also gemacht werden, die Werte 
-werden per Software automatisch richtig verarbeitet. \\
-\\
-\textcolor{red}{Folgende Richtlinien und Normen werden vom Handschuh erfüllt:}\\
-\\
-Die Software des Roboterhandschuhs ist dafür verantwortlich die sich verändernden Widerstandswerte der Flexsensoren 
-jeweils einzeln einzulesen. Über die UART-Schnittstelle wird die Software auf den ESP32 hochgeladen. Dabei werden 
-direkt aus dem in der Schaltung verbauten ADC-Werte, über die I2C-Schnittstelle, ausgelesen. Man erhält bereits digitale 
-Werte, die der ESP32 dann direkt in einer festgelegten Reihenfolge an die Empfängerplatine, bei der Roboterhand, per 
-ESP-NOW Übertragung senden kann.
-
-\subsection{Roboterhand}
-
-\subsubsection{Mechanik \textcolor{red}{Amir}}
-
-	\begin{itemize}
-		\item Die Roboterhand soll mittels 3D-Druck gefertigt werden.
-		\item Die Servomotoren der Elektronik werden mithilfe von Schnüren mit den jeweiligen Fingern verbunden.
-		\item Die Finger sollen sich sowohl zum Handballen als auch vom Handballen weg kontrolliert bewegen können.
-		\item Die Finger sollen sich zitterfrei bewegen können.
-	\end{itemize}
-
-\subsubsection{Hardware \textcolor{red}{Laci}}
-
-Folgende elektronische Anforderungen muss die Roboterhand nach Abschluss des Projekts erfüllen:
-
-	\begin{itemize}
-		\item Die Bewegung der Finger muss mit Sensoren erfasst werden.
-		\item Die Sensordaten müssen mit einem Mikrokontroller ausgewertet werden können.
-		\item Der zur Datenerfassung gewählte Mikrokontroller muss die I2C-Kommunikation unterstützen, die Möglichkeit
-			  für eine kabellose Kommunikation aufweisen, analoge und digitale Eingänge haben und programmierbar sein. 
-		\item Es muss möglich sein, mindestens 30 verschiedene Sensorwerte, von minimaler bis maximaler Fingerbeugung, 
-		      zu erfassen.
-		\item Der RoboGlove muss die Möglichkeit zur Versorgung mit einem Akku oder einer Batterie und einem Netzteil 
-		      aufweisen. 
-		\item Jeder Finger der „Bionic Hand“ soll durch einen eigenen Motor gesteuert werden.
-		\item Jeder dieser Motoren muss individuell regelbar sein, um die Griffkraft der Hand zu kontrollieren.	
-		\item Jeder Finger soll sich zum Handballen beugen und wieder strecken lassen.	
-		\item Diese Bewegungen sollen störungsfrei und ohne zittern erfolgen.
-	\end{itemize}
-
-\subsubsection{Software \textcolor{red}{Fabian}}
-
-	Folgende Software Anforderungen muss der Handschuh nach Abschluss des Projekts erfüllen:
-
-	\begin{itemize}
-		\item Die von der Senderplatine, über ESP-NOW, gesendeten Daten sollen erfolgreich empfangen und verarbeitet werden.
-		\item Eine Fehlerkorrektur sorgt dafür, dass die empfangenen Daten korrigiert werden können, um starke Werteabweichungen, 
-			  die durch Fehlmessungen entstehen, zu reduzieren.
-		\item Die Servos, die zur Steuerung der einzelnen Finger der Roboterhand nötig sind, sollen über die Software einzeln 
-			  angesprochen werden können. Der jeweils richtige Wert (der Biegung) des jeweiligen Flexsensors soll dann die idente 
-			  Bewegung des Fingers verursachen.
-		\item Die empfangenen Werte sollen ebenso an das User Interface per UART übertragen werden, um sie dort grafisch 
-			  darzustellen.
-		\item Die Werte, die im User Interface eingestellt werden, sollen von der Empfängerplatine verarbeitet werden. Die Finger 
-			  sollen sich dann exakt so viel bewegen, wie es im User Interface eingestellt wird.
-	\end{itemize}
-
-\hfill \break
-\hfill \break
+weclhes in Punkt 8.3 näher erklrärt wird. \\
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
