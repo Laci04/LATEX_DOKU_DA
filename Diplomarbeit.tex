@@ -478,12 +478,85 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 \section{Theoretische Grundlagen des Diplomprojekts}
 
-\subsection{Mechanik}
-
-\subsection{Hardware}
-
-\subsection{Software}
-subsubsection{ESP-NOW}
+\subsection{ESP-NOW}
+Das ESP-NOW Protokoll macht es möglich, dass man Daten problemlos per 
+Funkstrecke versenden kann. Dabei kann dieses auf dem ESP32 und ESP8266 
+verwendet werden, da nur diese dafür ausgewählt wurden. Der Hersteller 
+$"$Espressif$"$ hat dieses Protokoll entwickelt. Es können bis zu 250 Bytes 
+pro Senden ausgetauscht werden. Dies ist auch bis zu einer maximalen Anzahl 
+von zwanzig ESP32/ESP8266 Slaves möglich. Das Mischen der beiden genannten 
+Boards ist möglich. Dabei kann auch jeder der ESPs jeweils als Transmitter, 
+Receiver oder Transceiver verwendet werden. Ein Vorteil dieser Übertragungsmöglichkeit 
+ist, dass die dafür benötigten Bibliotheken in der Arduino IDE zu finden 
+sind. Diese sind nämlich schon standardmäßig im Paket für den ESP32 und 
+ESP8266 vorhanden. \\
+\\
+Als Erstes muss die MAC-Adresse des jeweiligen ESPs identifiziert werden. 
+Bei Bedarf kann diese auch geändert werden. Es wird hierfür also kein 
+Router benötigt. Diese besteht aus sechs Bytes. Angegeben wird sie im 
+Hexadezimalsystem, wobei zwischen Zweierblöcken von Buchstaben und Zahlen 
+jeweils ein Doppelpunkt steht. Um auf alle WIFI-Funktionen nutzen zu können, 
+muss auch die Bibliothek für WIFI eingebunden werden. Wichtig ist, dass WIFI 
+zuvor aktiviert wurde, da sonst keine Daten übertragen werden können. Durch 
+den Aufruf der Funktion esp\_now\_init$()$ kann ESP-NOW initialisiert werden, 
+mit esp\_now\_deinit$()$ kann es wieder rückgängig gemacht werden. Durch die 
+Funktion esp\_now\_add\_peer$()$ können neue Geräte gespeichert werden, an die 
+man dann etwas sendet. Zu beachten ist, dass Kanäle von 0 bis 14 vorhanden 
+sind, wobei 0 für den aktuellen Kanal steht. Darüber wird dann auch gesendet, 
+außer man stellt einen spezifischen Kanal ein, auf dem sich das lokale Gerät 
+befindet. \\
+\\
+Um Daten zu senden, muss die Funktion esp\_now\_send$()$ aufgerufen werden. 
+Dadurch können dann Daten gesendet werden. Die Funktion esp\_now\_register\_send\_cb$()$ 
+ist dafür da, um die Sende-Callback-Funktion zu registrieren. Es wird ein 
+Feedback zurückgeliefert, ob die Daten erfolgreich gesendet wurden oder 
+nicht. Bei erfolgreichem Senden wird ESP\_NOW\_SEND\_SUCCESS zurückgeliefert. 
+Dies passiert, wenn sie erfolgreich am MAC-Layer empfangen wurden, ansonsten 
+ESP\_NOW\_SEND\_FAIL. Warum eine Fehlermeldung ausgegeben wird, kann nicht 
+nur einen Grund haben. Beispielsweise existiert die angestrebte MAC-Adresse 
+nicht, die Kanäle sind nicht identisch oder der Action frame geht bei der 
+drahtlosen Übertragung verloren. Um doppelte Daten auszuschließen, ist es 
+möglich, dass man eine Sequenznummer verwendet, um zu überprüfen, ob es eine 
+fehlerbehaftete Übertragung sein könnte. Ein zu kurzes Intervall zwischen 
+dem Senden der verschiedenen Daten kann dazu führen, dass eine Störung 
+auftreten kann. Die Sende-Callback-Funktion kann dadurch gestört werden. Es 
+sollte deshalb auf jeden Fall der Moment abgewartet werden, bis die Sende-Callback-Funktion 
+eine Antwort geliefert hat. Dabei wird diese Funktion jedes Mal mit hoher 
+Priorität beim Wifi-Task ausgeführt. In der Callback-Funktion sollen auf 
+jeden Fall nur die wichtigsten Operationen abgearbeitet werden. \\
+\\
+Um Daten zu empfangen, muss die Funktion esp\_now\_register\_recv\_cb$()$ aufgerufen 
+werden. Dies ist dafür verantwortlich, um die Empfangs-Callback-Funktion zu 
+realisieren. Genauso, wie beim Sender, wird hierzu der WIFI-Task verwendet, 
+weshalb nur die nötigsten Operationen abgearbeitet werden sollen. \\
+\\
+Mit der Funktion esp\_wifi\_config\_espnow\_rate$()$ kann die ESP-NOW Rate angegeben 
+werden. Dabei muss beachtet werden, dass die gewünschte Schnittstelle bereits 
+konfiguriert wurde. Eine Energiesparen Funktion kann über 
+esp\_wifi\_connectionless\_module\_set\_wakre\_interval$()$ festgelegt werden. Hier 
+kann man dann einstellen, wann sich der ESP einschalten soll. \\
+\\
+Im Freien, ohne Hindernisse, kann die Übertragung per ESP-NOW schon an die 
+150-200m weit übertragen werden. In geschlossenen Räumen meist durch eine 
+Wand, wenn sogar in seltenen Fällen, je nach Dicke, durch zwei. \\
+\\
+Das OSI-Modell wird bei dem ESP-NOW Modell von fünf Schichten auf eine 
+einzige reduziert. Daten müssen somit nicht den Network layer, nicht den 
+Transport layer, nicht den Session layer, nicht den Presentation layer und 
+nicht den Application layer durchlaufen. Der große Vorteil liegt außerdem 
+darin, dass man einige Dinge nicht berücksichtigen muss. Es gibt keine 
+Paketköpfe oder Entpacker auf jeder Schicht. Dies führt zu einer schnelleren 
+Reaktion und die Paketverluste werden dadurch in überlasteten Netzen 
+reduziert. Dies führt zu einer deutlichen Verbesserung der möglichen 
+Verzögerung, indem diese sehr niedrig gehalten werden kann. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
