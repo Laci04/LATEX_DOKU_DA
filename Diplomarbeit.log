@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  18 FEB 2024 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  18 FEB 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1391,7 +1391,7 @@ l.77 ....8}Mikrokontroller}{20}{paragraph.7.1.2.8}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 ...lor {red}{Laci}}{45}{subsubsection.8.3.2}
+l.121 ...lor {red}{Laci}}{47}{subsubsection.8.3.2}
                                                   % [14])
 \tf@toc=\write5
 \openout5 = `Diplomarbeit.toc'.
@@ -3207,106 +3207,117 @@ Underfull \hbox (badness 10000) in paragraph at lines 1683--1691
  []
 
 [41]
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg Graphic file (type jpg)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg  used on input line 1708.
-(pdftex.def)             Requested size: 377.62642pt x 285.8573pt.
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_1.png, id=1067, 465.74pt x 232.87pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_1.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_1.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_1.png  used on input line 1707.
+(pdftex.def)             Requested size: 377.62642pt x 188.81908pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1693--1711
+Underfull \hbox (badness 10000) in paragraph at lines 1693--1709
 
  []
 
 [42 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Roboterhand.png>]
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg Graphic file (type jpg)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg  used on input line 1716.
-(pdftex.def)             Requested size: 377.62642pt x 285.8573pt.
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg Graphic file (type jpg)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg  used on input line 1724.
-(pdftex.def)             Requested size: 377.62642pt x 285.8573pt.
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_2.png, id=1074, 673.51625pt x 332.24126pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_2.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_2.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_2.png  used on input line 1712.
+(pdftex.def)             Requested size: 377.62642pt x 186.28195pt.
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_3.png, id=1075, 449.68pt x 552.0625pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_3.png Graphic file (type png)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_3.png>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_3.png  used on input line 1717.
+(pdftex.def)             Requested size: 377.62642pt x 463.61983pt.
 
-Overfull \hbox (12.81729pt too wide) in paragraph at lines 1728--1771
+Overfull \hbox (37.9534pt too wide) in paragraph at lines 1717--1719
+ [][] 
+ []
+
+[43 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_1.png>]
+Overfull \vbox (27.02248pt too high) has occurred while \output is active []
+
+ [44 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_2.png>]
+Overfull \hbox (12.81729pt too wide) in paragraph at lines 1720--1763
 \OT1/cmr/m/n/12 wer-den, da die-ser nicht in der (fest-leg-ba-ren) To-le-ranz liegt. Der Me-di-an wird al-so im schlimms-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1728--1771
+Underfull \hbox (badness 10000) in paragraph at lines 1720--1763
 
  []
 
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 1772--1787
+[45 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1764--1779
 
  []
 
-[44]
-Overfull \hbox (11.8984pt too wide) in paragraph at lines 1795--1799
+
+Overfull \hbox (11.8984pt too wide) in paragraph at lines 1787--1791
 \OT1/cmr/m/n/12 Es ist zwin-gend not-wen-dig, dass f[]ur die An-bin-dung des GUIs kei-ne tech-ni-schen Vor-aus-kennt-nis-se
  []
 
 
-Overfull \hbox (36.7763pt too wide) in paragraph at lines 1795--1799
+Overfull \hbox (36.7763pt too wide) in paragraph at lines 1787--1791
 \OT1/cmr/m/n/12 ben[]otigt wer-den. Der Ver-bin-dungs-auf-bau muss da-her eben-falls fast von selbst er-fol-gen. Mul-ti-plat-form
  []
 
 
-Overfull \hbox (20.47748pt too wide) in paragraph at lines 1795--1799
+Overfull \hbox (20.47748pt too wide) in paragraph at lines 1787--1791
 \OT1/cmr/m/n/12 Kom-pa-ti-bi-libt[]at und ei-ne sta-bi-le Lauf-leis-tung soll-ten eben-falls ge-ge-ben sein, um dem End-be-nut-zer
  []
 
-
-Overfull \hbox (4.12766pt too wide) in paragraph at lines 1802--1807
+[46]
+Overfull \hbox (4.12766pt too wide) in paragraph at lines 1794--1799
 \OT1/cmr/m/n/12 Entschieden ha-ben wir uns f[]ur QT. Dies ist ei-ne C++ Ent-wick-lungs-um-ge-bun-gen, die be-son-ders
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1807
+Underfull \hbox (badness 10000) in paragraph at lines 1794--1799
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=1084, 1385.175pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=1099, 1385.175pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg  used on input line 1825.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg  used on input line 1817.
 (pdftex.def)             Requested size: 377.62642pt x 273.63515pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1816--1828
+Underfull \hbox (badness 10000) in paragraph at lines 1808--1820
 
  []
 
 
-Overfull \hbox (18.33316pt too wide) in paragraph at lines 1816--1828
+Overfull \hbox (18.33316pt too wide) in paragraph at lines 1808--1820
 \OT1/cmr/m/n/12 Be-schrei-bungs-spra-che QML er-stellt, wel-che viel-sei-ti-ge M[]oglichkeiten zur in-di-vi-du-el-len Ge-stal-tung
  []
 
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1834
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1826
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1834
+Underfull \hbox (badness 10000) in paragraph at lines 1821--1826
 
  []
 
-[46 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>] [47] [48] (./Diplomarbeit.aux)
+[48 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>] [49] [50] (./Diplomarbeit.aux)
 Package rerunfilecheck Info: File `Diplomarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 4121D696404BD7FCFD5C44BC9AE5AC79;26647.
  ) 
 Here is how much of TeX's memory you used:
- 46104 strings out of 476025
- 1106764 string characters out of 5790016
+ 46142 strings out of 476025
+ 1108602 string characters out of 5790016
  1869388 words of memory out of 5000000
- 65806 multiletter control sequences out of 15000+600000
+ 65839 multiletter control sequences out of 15000+600000
  521587 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,94p,560b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (63 pages, 10879111 bytes).
+Output written on Diplomarbeit.pdf (65 pages, 11111396 bytes).
 PDF statistics:
- 1214 PDF objects out of 1440 (max. 8388607)
- 1063 compressed objects within 11 object streams
- 228 named destinations out of 1000 (max. 500000)
- 1345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1229 PDF objects out of 1440 (max. 8388607)
+ 1070 compressed objects within 11 object streams
+ 230 named destinations out of 1000 (max. 500000)
+ 1360 words of extra memory for PDF output out of 10000 (max. 10000000)
 
