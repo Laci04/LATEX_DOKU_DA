@@ -981,12 +981,12 @@ des flexiblen Widerstands ergibt. Durch eine geeignete Verstärkung des OPVs kan
 werden. \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.8}
+		\scalebox{1.25}
 		{\includegraphics[width=0.8 \linewidth]{Simulation_Spannungsmessung_Flexsensoren}}
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-
+\hfill \break
 Die Flexsensoren (Rflex) beziehen ihre Versorgung über einen Shunt-Widerstand (Rs). Je nach Belastung, ändert sich der 
 Spannungsabfall an diesem (Je größer die Beugung des Sensors, desto kleiner ist der Spannungsabfall). Die Spannungsdifferenz 
 am Shunt-Widerstand wird von einem Operationsverstärker verstärkt. Bei der Auswahl des OPVs sind einige Punkte zu beachten, um 
@@ -1411,6 +1411,7 @@ um die Adresse des Mikrochips festzulegen. Diese wird später benötigt um mit d
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
+\hfill \break
 Am Pin CLKIN hätte man die Möglichkeit einen externen Referenztaktgeber anzuschließen. Bei unserer Anwendung ist der integrierte 
 Taktgeber allerdings völlig ausreichend, weswegen der Anschluss mit GND verbunden und damit deaktiviert wurde. Der CS Pin wird nur
 für die SPI Kommunikation benötigt, weshalb dieser ebenfalls deaktiviert wurde. Das gleiche gilt für den Anschluss FSYNC. Die beiden
@@ -1450,19 +1451,37 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \subsection{Roboterhand}
 
 \subsubsection{Grundlegende Vorraussetzungen}
+Die Roboterhand ist die Ausgabe des Gesamtsystems und wird vom Eingabesubsystem gesteuert. Jeder Finger wird von einem Motor 
+bewegt. Die ankommenden Daten müssen interpretiert und anschließend in ein geeignetes Format zur Ansteuerung der Motoren
+umgewandelt werden. Zusätzlich zu dieser grundlegenden Funktionalität der Ansteuerung, müssen auch noch einige weitere Aspekte
+beachtet werden. Hier sind zum Beispiel die möglichst geringe Größe der Schaltung und die trotzdem ausgiebigen Funktionen 
+zu nennen. Dazu zählen visuelle Indikatoren für diverse Parameter, Schalter und Taster, Anschlüsse und Erweiterungsmöglichkeiten.
+Die detailierten Entwicklungs -und Designschritte, werden in den folgenden Punkten näher erläutert. \\
 
-Die Roboterhand ist die Ausgabe des Projekts und wird vom Eingabesubsystem, dem Handschuh, gesteuert. Jeder Finge wird von einem Servomotor 
-bewegt. Dieser ist durch zwei dünne Schnüre mit dem korrespondierenden Finger verbunden. Die vom Handschuh kommenden 
-Daten werden von einem Mikrokontroller ausgewertet und in ein PWM-Signal (Pulsweitenmodulation) zur Ansteuerung der 
-Servomotoren umgewandelt. Jeder Finger hat drei Gelenke und kann daher kontrolliert gebeugt und wieder gestreckt werden. 
-Die komplette Roboterhand wird mittels 3D-Druck gefertigt. Silikonprofile auf den Fingern versichern das Objekte nicht 
-mehr aus dem Griff der Hand rutschen können.\\
-\\
-\textcolor{red}{Folgende Richtlinien und Normen werden von der Roboterhand erfüllt:}\\
-\\
+\subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
+\paragraph{Aktorik zur Fingerbewegung}
+\hfill \break
+\hfill \break
+Bei der Aktorik zur Bewegung der Roboterfinger, gibt es, wie bei Sensorik zur Erfassung der Bewegungen, ebenfalls unzählige Methoden
+und Konzepte zur Auswahl. Bei schon etablierten Herstellern von bionischen Händen werden fast ausschließlich lineare DC Motoren 
+verwendet. Diese sind sehr hochpräzise, sehr gut gefertigt und haben für ihre Größe sehr viel Kraft. Nachteile sind allerdings
+die hohen Preiseund die vergleichweise kompliziertere Ansteuerung. Außerdem sollten diese Motoren in präzise gefertigten Produkten
+Anwendung finden, die möglichst wenig Reibung aufweisen und gelagerte Gelenke haben. Da wir in der Schule die Möglichkeit zur Fertigung 
+eines solchen Produkts nicht haben und dies ebenfalls zu teuer wäre, haben wir uns entschieden diese Art der Aktorik, obwohl es die beste Wahl wäre,
+nicht zu verwenden. Stattdessen haben wir uns für die Verwendung von Servo Motoren entschieden, die wesentlich billiger und einfacher anzusteuern sind und trotzdem mehr als
+genügend Kraft haben. Der Nachteil bei diesen Motoren ist allerdings die Größe, wodurch unser Endprodukt ziemlich sicher etwas größer als gehofft
+ausfallen wird. \\
 
-\subsubsection{Simulationen und Versuchsaufbauten \textcolor{red}{Laci}}
-\subsubsection{Überlegungen und Dimensionierung \textcolor{red}{Laci}}
+\paragraph{Datenempfang und Ansteuerung der Motoren}
+\hfill \break
+\hfill \break
+
+
+\paragraph{Positionsmessung der Fingerstellung}
+\hfill \break
+\hfill \break
+
+\subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
 \subsubsection{Schaltplandesign \textcolor{red}{Laci}}
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
