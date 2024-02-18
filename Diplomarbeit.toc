@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {3}Vorwissenschaftlicher Theorieteil}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}\textcolor {purple}{Platzhalter Thema Amir}}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}\textcolor {purple}{Platzhalter Thema Fabian}}{2}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}\textcolor {purple}{Platzhalter Thema Laci}}{2}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Sicherheitsaspekte der Mensch-Roboter-Kollaboration}{2}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Theoretische Grundlagen des Diplomprojekts}{2}{section.4}%
-\contentsline {subsection}{\numberline {4.1}ESP-NOW}{2}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}ESP-NOW \textcolor {red}{Fabian}}{2}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}OSI-Modell}{4}{subsubsection.4.1.1}%
 \contentsline {paragraph}{\numberline {4.1.1.1}Physical Layer}{4}{paragraph.4.1.1.1}%
 \contentsline {paragraph}{\numberline {4.1.1.2}Data Link Layer}{5}{paragraph.4.1.1.2}%
@@ -21,7 +21,7 @@
 \contentsline {paragraph}{\numberline {4.1.1.7}Application Layer}{6}{paragraph.4.1.1.7}%
 \contentsline {paragraph}{\numberline {4.1.1.8}ESP-NOW Schichten}{6}{paragraph.4.1.1.8}%
 \contentsline {paragraph}{\numberline {4.1.1.9}IEEE 802.15.4 Standard}{6}{paragraph.4.1.1.9}%
-\contentsline {subsection}{\numberline {4.2}OPV Technologien}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}OPV Technologien \textcolor {red}{Laci}}{6}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Single-Supply}{7}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Dual-Supply}{7}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Rail-to-Rail Technologie}{7}{subsubsection.4.2.3}%
