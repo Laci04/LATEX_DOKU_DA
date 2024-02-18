@@ -760,6 +760,42 @@ Verlängern oder Verkürzen zum Bewegen. Ebenso ist je nach Zug wählbar in welc
 Stellung der Finger sich dann befindet. Befestigt wird dies an einem mit dem Servomotor 
 gesteuertem Zugmechanismus. \\
 
+\paragraph{Fertigung und CAD}
+\hfill \break
+\hfill \break
+Der Entwurf eines Modells ist mit ständiger Weiterentwicklung verbunden, sind in 
+solch einem Modell mechanische Komponenten vorhanden nimmt die Fertigungsschleife 
+ersichtlich mehr Komplexität an und erfordert die Möglichkeit in kürzester Zeit 
+flexibel Anpassungen und Optimierungen am Entwurf ausgiebig zu testen. Speziell 
+während der Entwicklung der mechanischen Komponente einer Roboterhand ist auf 
+viele Faktoren zu achten, es ergeben sich ständig neue Erkenntnisse sowie auch 
+Problematiken, welche eine Lösung erfordern. Sei es mangelnde Stabilität unter 
+hoher Belastung, zu viel Reibung oder gängige Konstruktionsfehler. \\
+\\
+Dank dem neuen Fertigungsverfahren des 3D-Drucks ist es möglich Versuchsaufbauten 
+in einem CAD-Programm zu entwerfen, diese folglich zu drucken und dementsprechend 
+auf ihr Verhalten zu testen. \\
+\\
+Ein CAD-Programm ist eine Software, welche zur Erstellung von zweidimensionalen 
+oder auch dreidimensionalen Komponenten Modellen dient, CAD steht für Computer-Aided 
+Design(engl.) und bedeutet übersetzt „Computerunterstütztes Entwerfen“. Neben 
+dem reinen Entwerfen von Modellen haben solche Programme auch die Eigenschaft, 
+das Modell je nach Material auf Stabilität, maximal Belastung oder sonstige 
+Verhaltensmuster zu testen. \\
+\\
+Das 3D-Verfahren arbeitet mit den exportierten Modell-Dateien eines CAD-Programms 
+und setzt diese in ein greifbares Modell um. \\
+Dabei gibt es darunter mehrere Fertigungsmethoden, die von uns gewählte ist die 
+gängigste, FDM (Fused Deposition Modeling), dieses Verfahren arbeitet hauptsächlich 
+mit Kunststoffen. Dabei zeichnet ein Extruder mit eingeführtem Filament Sichtweise 
+ein Modell auf eine Druckplatte und formt damit ein reales Objekt. Kunststoffe, 
+die für dieses Fertigungsverfahren verwendet werden ist PLA, ABS, PETG und weitere. \\
+Die Vorteile des FDM-Drucks sind, dass die Druckgeräte sowie das Filament billig 
+zu erhalten sind. Aber auch die das Verfahren einfach und nicht besonders komplex 
+ist, sowie auch schnell. \\
+
+\textcolor{red}{(Quelle: Zum zitieren und Quellenverzeichnis: https://filamentworld.de/3d-druckverfahren/)}
+
 \subsubsection{Versuchsaufbauten}
 In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
@@ -798,6 +834,29 @@ bei Biegen des Fingers spannen. Desto kürzer die Zugschnur im Finger, desto lä
 Gummikordel. \\
 
 \subsubsection{Erste Testhand}
+\paragraph{Konzept Einführung}
+\hfill \break
+\hfill \break
+Die erste Testhand zielt darauf ab ein Modell welches durchgängig erweitert 
+werden kann zu schaffen. Mit Rücksicht auf etwaige Testergebnisse des 
+Versuchsresultats (Verweis auf 6.2.1.2) soll ein Modell geschaffen werden, 
+welches den im Versuch aufgetretenen Problematiken entgegenwirkt. Unter anderem 
+der nicht vorhandene Rückzug, eine Schnur für den Zug mit ausreichender 
+Reißfestigkeit sowie eine anwendungsgemäße Konstruktion des Fingers. \\
+\\
+Eine konkrete Lösung, um für mehr Sicherheit im Zusammenhang mit dem Zugsystem 
+zu sorgen wurde für diesen Aufbau eine Angelschnur mit einem Durchmesser von 
+XXmm gewählt, diese hat eine Kraft von XX/m. Aufgrund der XXX ist die Schnur 
+ebenso schnittfest. \\
+\\
+Im Versuch (Verweis) hat sich erwiesen, dass eine Fläche aus PLA welche die 
+Fingerglieder verbindet nicht genügend Kraft aufbringt, um den Finger wieder in 
+seine Ursprungsposition zu bewegen. Demnach wird eine Kraft benötigt, welche 
+ständig dem Zug der Angelschnur entgegenwirkt und den Finger entsprechend 
+austreckt. \\
+In diesem Modell wird daher ein Elastomer, ein elastisches Material in Form 
+eines Bandes mit ausreichender Kraft gewählt. \\
+
 \paragraph{Mechanismus}
 \hfill \break
 \hfill \break
@@ -1666,6 +1725,70 @@ wieder von vorne.
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
+Als Erstes werden die von der Senderplatine gesendeten Daten ausgelesen. Diese 
+werden mit ESP-NOW übertragen. Gesendet wird in folgendem Format: 
+\$fingerNummer:Wert. Somit kann herausgefunden werden, welcher Wert eines 
+bestimmten Fingers gerade gesendet wird. Der Fingerindex (Nummer) gibt dabei den 
+Finger des Handschuhs an. Die Fingerposition kann einen Wert von 0-100 
+(Minimum-Maximum) annehmen. Die ausgelesenen Werte werden dann jeweils bei jedem 
+neuen Auslesen um eine Stelle nach rechts geshiftet. Somit ergibt sich ein Array, 
+das eine maximale Anzahl von 5 Werten pro Zeile erlaubt. Um zu vermeiden, dass 
+sehr von den anderen Werten abweichende Zahlen in die Steuerung der Servos miteinfließen, 
+wird der Median aus den 5 Werten des Arrays gebildet. Dabei würde dann beispielsweise 
+ein Wert von 20, wenn sich die anderen 4 im Bereich zwischen 2 und 5 liegen, 
+herausgefiltert werden, da dieser nicht in der (festlegbaren) Toleranz liegt. 
+Der Median wird also im schlimmsten Fall zur Vermeidung von Fehlern verwendet. 
+Die Griffkraftkontrolle achtet ständig auf den aktuellen Stromwert. Falls dieser 
+zu hoch sein sollte, wird die Position des Servos gehalten. Die aktuellen Werte, 
+beziehungsweise der Median im Falle einer Abweichung, werden übergeben. Der 
+Servo wird dann jedes Mal um 5° weitergedreht. Die Schutzvariable hat dann anfangs 
+den Wert 1, wenn allerdings der Strom laut Charakteristik einen bestimmten Schwellenwert 
+überschreitet, dann wird die Schutzvariable auf den Wert 2 gesetzt und der Servo 
+dreht sich nur noch um 3° weiter. Wenn schlussendlich dann der Strom zu hoch sein 
+sollte, dann bleibt der Servo auf der momentanen Position stehen und die Schutzvariable 
+wird auf den Wert 3 gesetzt. Damit soll eine mögliche Blockierung der Finger 
+erkannt und die weitere Drehung des Servos erfolgreich gestoppt werden, um 
+Schäden an der Mechanik zu vermeiden. \\
+\\
+\textbf{UART Funktionsweise}
+\\
+Der Arduino, beziehungsweise der ESP, werden über die serielle Verbindung UART 
+(Universal Asynchronous Receiver and Transmitter) vom Computer angesprochen. 
+Dabei stellt diese Verbindung eine asynchrone Datenübertragung mit fester Baudrate, 
+Datenbits, Paritätsbits und Stoppbits dar. Es werden ausschließlich zwei Leitungen 
+benötigt, nämlich eine zum Senden von Daten (TX – Transmit) und eine zum Empfangen 
+von Daten (RX – Receive), um eine Möglichkeit der Kommunikation zu ermöglichen. 
+Die Start- und Stopbits geben an, wann gesendet werden soll und wann dies nicht 
+mehr geschehen soll. Sobald der Sender ein Startbit erhält, beginnt die Übertragung 
+der Daten, aber beim Empfangen des Stopbit wird diese unterbrochen. Es wird 
+dadurch keine Clock benötigt, da die Baud Rate dies regelt, allerdings ist zu 
+beachten, dass diese maximal 10\% von jeder des anderen Geräts abweichen darf. 
+Die Baud Rate gibt an, wie viele Symbole pro Sekunde übertragen werden. Dabei 
+kann ein Symbol ein einzelnes Bit oder eine Gruppe von Bits sein. Die Baudrate 
+gibt also an in welchem Abstand jeweils ein Symbol gesendet wird (1s/Baudrate) 
+oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden 
+(Baudrate/1s). 
+
+Beispiel Protokoll für 8-bit Packet \\
+Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
+Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
+Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
+ein Paritybit mitgesendet, das angibt, ob die Anzahl dieser gerade oder ungerade 
+ist. Es gibt klarerweise keine hundertprozentige Sicherheit, aber man kann sich 
+mehr auf die Nutzbarkeit der Daten verlassen. Wenn das Paritybit auf 0 gesetzt 
+ist (odd), dann ist die Anazhl der Highbits ungerade. Wenn das Paritybit auf 1 
+gesetzt ist (even), dann ist die Anzahl der Highbits gerade. Es werden am 
+Schluss meistens zwei Stopbits gesendet, um eine längere Ruhephase zu realisieren. 
+Dies führt zu einer stabileren Synchronität und Erhöhung der Robustheit gegen 
+Signalstörungen. Bei UART wird das LSB (least significant bit) immer ganz rechts 
+in den Daten gefunden. Sollte das Paritybit nicht stimmen, dann wird vom 
+Empfänger an den Sender eine Anfrage mit der Bitte um erneutes Senden gesendet, 
+da der Datensatz nicht stimmt. \\
+
+\textcolor{red}{https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a}
+
+
+
 \subsection{User Interface}
 
 \subsubsection{Grundlegende Vorraussetzungen}
