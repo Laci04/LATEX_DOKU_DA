@@ -686,6 +686,8 @@ in Orange, dargestellt. \\
 	\end{center}
 \end{figure}
 
+\subsection{PWM-Signale}
+
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
@@ -1472,9 +1474,26 @@ nicht zu verwenden. Stattdessen haben wir uns für die Verwendung von Servo Moto
 genügend Kraft haben. Der Nachteil bei diesen Motoren ist allerdings die Größe, wodurch unser Endprodukt ziemlich sicher etwas größer als gehofft
 ausfallen wird. \\
 
-\paragraph{Datenempfang und Ansteuerung der Motoren}
+\paragraph{Datenempfang}
 \hfill \break
 \hfill \break
+Um den Datentransfer möglichst einfach zu gestallten und keine Kompatibilitätsprobleme zu haben, entschieden wir uns den gleichen Mikrokontroller
+wie beim Eingabesubsystem zu verwenden. Dies ermöglicht eine relativ einfache Datenübertragung ohne zusätzliche Antennen. Werden Daten empfangen,
+so wird die Software am Chip aktiv, die in Punkt (\textcolor{red}{Verweis auf Roboterhand Softwarebeschreibung}) näher beschrieben wird. Der
+Entschluss zur Verwendung dieser \"identischen\" Systeme, wurde relativ rasch getroffen, da wir genug andere Schwierigkeiten haben werden und 
+die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in Punkt 7.2.5 erklärt.
+
+\paragraph{Ansteuerung der Motoren}
+\hfill \break
+\hfill \break
+Nachdem die Daten in Software verarbeitet wurden, müssen nun die Servomotoren angesteuert werden. Da diese über ein PWM-Signal (\textcolor{red}{siehe Punkt 4.3})
+angesteuert werden, stellt sich die Frage ob man dies direkt über den Mikrokontroller realisiert, oder mithilfe einer PWM-Controller-Schaltung.
+Da wir eine Mindestanzahl von fünf Servomotoren haben und auch für zukünftige Erweiterungen bereit sein möchten, haben wir uns für die Ansteuerung
+via Servo-Controller entschieden. \\
+\\
+Bei der Ansteuerung der Motoren ohne Controller, ist das Problemm, dass für jeden Servomotor ein eigener Pin des Mikrokontrollers benötigt wird.
+Dies ist nicht gerade Vorteilhaft, weil dadurch zwangsweise andere Funktionen des Mikrokontrollers, die nur mit bestimmten Pins funktionsfähig sind,
+außer Kraft gesetzt werden. 
 
 
 \paragraph{Positionsmessung der Fingerstellung}
