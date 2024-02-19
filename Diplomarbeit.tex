@@ -1502,12 +1502,91 @@ via Servo-Controller entschieden. \\
 \\
 Bei der Ansteuerung der Motoren ohne Controller, ist das Problemm, dass für jeden Servomotor ein eigener Pin des Mikrokontrollers benötigt wird.
 Dies ist nicht gerade Vorteilhaft, weil dadurch zwangsweise andere Funktionen des Mikrokontrollers, die nur mit bestimmten Pins funktionsfähig sind,
-außer Kraft gesetzt werden. 
+außer Kraft gesetzt werden. Um dieses Problem zu vermeiden verwenden wir einen PWM-Controller-Chip, dessen Auswahö im folgenden Punkt näher erläutert wird. \\
+\\
+\textbf{PWM-Controller-Chip}
+\\
+Bei der Auswahl des Mirkochips war die Ansteueurngsmöglichkeit das größte Auswahlkriterium. Da wir bei der Schaltung des Eingabesubsystems
+auf die I2C-Kommunikation setzen, wollten wir dem treu bleiben und haben das gleiche bei dem gesamten Schaltungsdesign des Ausgabesubsystems
+ebenfalls beachtet. Das bedeutet, dass nur Mikrochips in Frage kommen, die diese Art des Übertagungsprotokolls unterstützen. Als nächstes
+ist die Anzahl der PWM Ausgangskanäle zu beachten und wie diese und der Baustein selbst adressiert werden können. Ebenfalls zu beachten war,
+dass der Chip mit 5V Versorgungsspannung zurecht kommen muss. \\
+\\
+Die Wahl viel schlussendlich auf den PCA9685, welcher 16 PWM-Kanäle hat und über alle anderen, soeben beschriebenen, Anforderungen verfügt.
+Durch die hohe Anzahl von Signal-Ausgängen bleiben wir ebenfalls für zukünftige Erweiterungen kompatibel. \\
+\\
 
-
-\paragraph{Positionsmessung der Fingerstellung}
+\paragraph{Positions -und Kraftmessung der Roboterfinger}
 \hfill \break
 \hfill \break
+Da mit der Roboterhand Objekte gegreift werden sollen, ohne diese zu beschädigen oder zu zerquetschen, mussten wir uns eine Schaltung überlegen,
+mit der man einen, mit der Griffkraft steigenden, Parameter messen kann. Hierfür könnte man den Winkel jedes Fingers messen, wodurch
+allerdings extra Sensoren notwendig wären. Außerdem ändert sich der Gelenkswinkel der Finger nicht mehr, sobald die Roboterhand
+etwas festhält und nur mehr stärker zudrückt. Diese Methode der Griffkraftmessung haben wir deswegen verworfen. \\
+\\
+Stattdessen haben wir uns dazu entschieden den Strom zu messen, den jeder einzelne Servomotor beim Schließen des jeweiligen Fingers
+benötigt. Dies ermöglicht uns jeden Motor einzeln zu regulieren und gegebenenfalls bei einer Fehlfunktion abzuschalten. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Schaltbild_Strommessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Diese Messung basiert auf dem gleichen Prinzip wie die der Flexsensorstellung in \textcolor{red}{Punkt 7.1.2.2}. Mithilfe eines 
+Shunt-Widerstands wird ein Spannungsabfall gemessen, der anschließend über eine Messchaltung verstärkt und in ein Digitalsignal
+umgewandelt wird. \\
+\\
+Je mehr Strom der Servomotor benötigt, um die gewünschte Position zu erreichen und somit dem Widerstand des Objekts in der Hand entgegen
+zu wirken, desto größer ist der Spannungsabfall am Shunt-Widerstand $R_{S}$. Der Motor wird in der obigen Abbildung mit $R_{L}$ dargestellt,
+da eine höher Strombedarf dem senken dieses Widerstands in der Simulation gleicht. \\
+\\
+Wird nun ein Spannungsabfall gemessen, so wird dieser durch den Operationsverstärker verstärkt. Die Verstärkung wird bei dieser Schaltung von 
+den Widerständen $R_{1}$ und $R_{2}$ bestimmt. In Serie kommt anschließend ein Tiefpassfilter, um, sowie bei der Schaltung des Eingabesubsystems,
+ungewünschte Störungen herauszufiltern. Der Widerstand $R_{3}$ entlasstet den Eingang des folgenden Bauelements, nämlich einem ADC. \\
+\\
+Folgendes Kriterium wurde bei der Wahl des Operationsverstärkers beachtet:
+\begin{itemize}
+	\item Ausgangspegel bei gewählter Versorgungsspannung: \\
+		  \\
+		  Zunächst wurde das Kriterium der Versorgungsspannung betrachtet. Da wir maximal
+		  5V Gleichspannung in der gesamten Schaltung verwenden wollen, muss der OPV mit
+		  dieser geringen Spannung immer noch verstärken. Da am positiven Verstärkereingang
+		  eine maximale Spannung von 5V anliegt, muss dies bei Verstärkern mit einer geeigneten
+		  Supply Range auch mit nur 5V Versorgungsspannung gewährleistet sein. Folglich wird
+		  die Rail-to-Rail Technolgie (\textcolor{red}{Punkt 4.2.3}) tragend, um keine Referenzspannung
+		  zu benötigen.
+\end{itemize}
+Da wir nicht bis ganz an die Grenzen des Aussteuerbereichs kommen werden (wird anhand der Berechnungen verständlich), ist der TLV232 wie für diese Anwendung gemacht. \\
+\\
+\textbf{Dimensionierung der Schaltung} \\
+\\
+Den theoretischen Widerstand der Servomotoren, haben wir uns, anhand der im Datenblatt angegebenen Stromwerte bei 5V Versorgungsspannung, mit dem ohmschen Gesetz ausgerechnet.
+Dies hilft uns unter anderem auch in LTspice, da wir so verschiedene Lasten simulieren können. \\
+\\
+$R_{Idle} = 500\Omega$ \\
+$R_{no Load} = 29.41\Omega$ \\
+$R_{max. Load} = 4.16\Omega$ \\
+\\
+Der OPV, wurde zusammen mit dem Shunt-Widerstand so dimensioniert, dass am Ausgang, bei voller Belastung des Motors, annähernd 5V auftreten. Dabei sollten ca. $100mV$ - $200mV$ 
+\"Sicherheitsabsstand\" gelassen werden, da die Rail-to-Rail Technologie auch ihre Grenzen hat und nicht undendlich genau an den Versorgungspegel ausgeben kann. Dies lässt die 
+Physik einfach nicht zu. \\
+\\
+Es wurde ein relativ hochohmiger Shunt-Wdierstand mit $R_{s} = 165m\Omega$ gewählt, um die Leistung, die über den Widerstand verloren geht, möglichst gering zu halten. \\
+\\
+Mit den folgenden Formeln wude anschließend die notwendige Verstärkung des OPVs berechnet, um auf den gewünschten Ausgangsspannungsbereich zu kommen. \\
+\\
+$G = 1+\frac{R_{1}}{R_{2}}$ \\
+\\
+$V_{out} = G*(V_{in+}-V_{in-})+V_{ref}$ \\
+\\
+Die entgültigen Werte lauten wie folgt: $R_{1} = 100k\Omega$ \\
+\hspace*{7.03cm}						$R_{2} = 6.2k\Omega$ \\
+\\
+Mit diesen Widestandswerten ergibt sich eine Verstärkung von $G = 17.13$. \\
+
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
 \subsubsection{Schaltplandesign \textcolor{red}{Laci}}
