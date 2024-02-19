@@ -651,6 +651,15 @@ Es ist ein internationaler Standard für die drahtlose Kommunikation, der von
 Electrical and Electronics Engineers (IEEE) entwickelt wurde. Besonders wird Wert auf 
 die geringe Datenrate und dem daraus folgend geringen Stromverbrauch Wert gelegt. Es 
 werden lizenzfreie Frequenzbänder im 2,4GHz-, 915MHz- und 868MHz-Bereich verwendet. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{ESP_NOW_Theorie}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
 
 \subsection{OPV Technologien \textcolor{red}{Laci}}
 Ein Operationsverstärker, kurz OPV, ist ein analoger Gleichspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
@@ -1630,8 +1639,52 @@ obwohl dies nicht so sein sollte, dann wird dieser nicht bei der Ausgabe an den 
 Die Handschuhplatine wird über einen Akku versorgt. Deshalb sollte diese Platine nur für die wichtigsten beziehungsweise 
 nötigsten Messungen und Berechnungen verwendet werden. Der Rest kann und soll dann lieber auf der per Netzteil betriebenen 
 Roboterhandplatine durchgeführt werden, da in diesem Fall keine begrenzte Spannungsversorgung besteht, da kein Akku verwendet 
-wird.
+wird. \\
 \\
+\textbf{Verzögerung beim Senden} 
+\\
+Eine Verzögerung vor dem Senden des ESP32 auf der Senderseite einzubauen war eine 
+Idee, an der sehr lange festgehalten wurde. Es schien äußerst sinnvoll, eine 
+gewisse selbst gewählte Zeit abzuwarten, bis man dann die Daten von der Sender- zu 
+der Empfängerplatine sendet. Dies ist grundsätzlich keine schlechte Idee, allerdings 
+konnte erfreulicherweise folgendes festgestellt werden: Nämlich, dass es auch ohne 
+Abwarten eines bestimmten Intervalls möglich ist, die Daten zu senden. Der ESP32 auf 
+der Empfängerseite kann die Daten genug schnell empfangen, ohne, dass ein bestimmter 
+zeitlicher Abstand eingehalten werden muss. Das Beste daran ist, dass auch die 
+Verarbeitung der Daten ohne Probleme abgearbeitet werden kann. Dies ist möglich, da 
+so wenige Rohdaten, wie möglich, von der Senderseite aus übermittelt werden, sodass 
+alles auf der Empfängerseite dann verarbeitet wird. Durch sehr schnelles Senden und 
+Empfangen der Daten kann somit beinahe eine Bewegung in Echtzeit dargestellt werden. \\
+\\
+\textbf{Modus zum Einstellen des minimalen und maximalen Wertes jedes Flexsensors}
+\\
+Es war ursprünglich geplant, dass beim Starten des Programmes am ESP32, der mit der 
+Arduino IDE verbunden ist, jeder einzelne Wert der Flexsensoren jeweils eingelesen 
+wird. Der große Vorteil davon wäre, dass es bei jedem Start des Programmes, samt 
+Serial Monitor in der Arduino IDE, es möglich wäre, dass neue minimale und maximale 
+Werte jedes Flexsensors ausgelesen werden. Durch einen festgelegten Befehl, den man 
+in den Serial Monitor eingibt, könnte somit beispielsweise ein Wert des Flexsensors 
+vom kleinen Finger gemessen werden. Für das Einstellen, welcher Finger und ob der 
+minimale oder maximale Wert ausgelesen werden soll, hätte es dann verschiedene 
+Befehle gegeben, die man in den Serial Monitor eingegeben hätte. Jeder einzelne 
+minimale und maximale Wert hätte somit ausgelesen werden sollen und bis zum Neustart 
+des ESP32 erhalten bleiben sollen. \\
+Dies stellte sich aber als keine sinnvolle Lösung heraus. Als Erstes ist zu erwähnen, 
+dass dieselben Flexsensoren jedes Mal zum Messen des jeweiligen Fingers genutzt 
+werden. Es gibt keinen Wechsel dieser, es sei denn, einer geht kaputt. In diesem 
+Fall muss für diesen dann manuell der minimale und maximale Wert ausgelesen werden. 
+Des Weiteren verändert sich deshalb der minimale und maximale Wert jedes Flexsensors 
+nicht. Diese beiden Grenzen werden einmalig manuell ausgelesen und nun im Programm 
+als eigene Variable festgelegt. Dies funktioniert dann viel besser. Bei der manuellen 
+Messung wurden die minimalen und maximalen Werte öfter ausgelesen. Es wurde dann 
+nach unten hin ein kleiner Spielraum gelassen, sowie auch nach oben hin. Das bedeutet, 
+dass man beim Abbiegen oder Strecken des Fingers bereits den minimalen oder maximalen 
+Wert kurz vor dem kompletten Abbiegen und Strecken erreicht. Dieser Schutzbereich 
+garantiert, dass der minimale und maximale Wert immer erreicht werden können und die 
+map-Funktion somit immer gute Werte übermitteln kann. \\
+\\
+
+
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
 \paragraph{Realisierung}
 \hfill \break
@@ -1643,6 +1696,7 @@ wird.
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
+\hfill \break
 Der Code der Programmierung des ESP32 wurde in C/C++ geschrieben. Am Anfang werden die einzelnen Werte der Flexsensoren 
 ausgelesen, die per Ansteuerung des Multiplexers und des danach sitzenden ADCs bestimmt werden. Die ESP-NOW Verbindung wird 
 danach aufgebaut. Diese dient zur drahtlosen Datenübertragung. Wenn die Verbindung mit dem ESP32 der Empfängerseite erfolgreich 
@@ -1676,6 +1730,74 @@ Empfängerplatine gesendet (n…Eingang des Multiplexers 0 – 4; angepassterWer
 Maximum, das oben festgelegt wurde)). Es wird dann noch im Serial Monitor ausgegeben, ob die Senderplatine (Handschuh) die 
 Daten erfolgreich senden konnte oder nicht. \\
 \\
+
+\paragraph{Wichtige Codezeilen}
+\hfill \break
+\hfill \break
+In dem obenstehenden Code kann man zwei erstellte integer Arrays sehen. Eines ist 
+für das Speichern des minimalen Widerstandwertes zuständig. Dort werden dann die 
+manuell gemessenen Werte eingetragen. Das Array besitzt fünf Variablen. Die Variable 
+auf Stelle 0 des minWiderstand Arrays gibt den minimalen Wert des Daumens an. 1 gibt 
+den jeweiligen für den Zeigefinger an, 2 gibt den jeweiligen für den Mittelfinger an, 
+3 gibt den jeweiligen für den Ringfinger an und 4 gibt den jeweiligen für den 
+kleinen Finger an. Somit kann jeder Finger im Array leicht einen neuen Wert 
+zugewiesen bekommen und das Programm arbeitet automatisch mit den neu zugewiesenen 
+Werten bei erneutem Hochladen auf den ESP32. \\
+\\
+Obenstehend ist nun der Codeabschnitt zu sehen, in welchem der vom ADC verarbeitete 
+Wert des Flexsensors von dem ESP32 ausgelesen wird. Dieser wird dann mit dem Wert 
+des minimalen und maximalen Widerstands verglichen. Wenn der ausgelesene Widerstandswert 
+unter jenem des minimal erlaubten ist, dann wird dieser auf den minimal erlaubten 
+gesetzt, um grobe Fehlmessungen zu vermeiden. Das gleiche gilt für den anderen Fall, 
+nämlich, wenn der ausgelesene Wert über dem maximal festgelegten liegt. Dann wird 
+der ausgelesene auf den maximal zulässigen Wert gesetzt. Dies ist sehr wichtig, da 
+ein zu hoher Wert meist indiziert, dass es keine Verbindung zwischen dem Flexsensor 
+und den anderen Komponenten, wie dem ADC, mehr besteht. Der Wert ist dann um ein 
+Vielfaches höher als gewünscht. Um eine Beschädigung auf Empfängerseite, beziehungsweise 
+dem dadurch folglich falschen Ansteuern der Servos zu verhindern, ist diese Maßnahme 
+notwendig. Die Servos könnten sich ansonsten zu weit drehen und eine Beschädigung an 
+der Mechanik hinterlassen. \\
+\\
+In obenstehendem Codeabschnitt wird der Multiplexer richtig eingestellt. Je nach 
+Channelnummer wird dann festgelegt, welcher Eingang zum ADC weitergeschalten werden 
+soll. Durch einige if-Bedingungen kann somit immer sichergestellt werden, dass man 
+zu jeder Zeit den richtigen, gewünschten Wert auslesen kann. \\
+\\
+Untenstehend kann man noch anhand einer einfachen Logikschaltung eines 2-zu-1 
+Multiplexers die Funktionsweise eines Multiplexers. Grundsätzlich wird über 
+elektrische Signale einer von mehreren Eingangssignalen an den Ausgang 
+durchgeschaltet. Meist funktioniert dies durch Halbleiterelemente. Das Steuersignals
+schaltet noch zusätzlich. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Multiplexer_Beispiel}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Obenstehend sieht man nun das Format, in welchem die Daten an die Empfängerseite 
+gesendet werden. Es wird ein String geformt. Dieser beginnt mit einem \$. Dies zeigt 
+an, dass nun ein \"Befehl\" gesendet wird und man diesen verwerten soll. Danach noch 
+ein \"s\" als Abkürzung für Servo. Der String von der Laufvariable \"i\" gibt dann an, 
+welcher Wert nun gesendet wird, also beispielsweise \"\$s:1\" würde bedeuten, dass nun 
+der Wert des Daumens gesendet wird. Der \":\" gibt dann eine Trennung an. Auf der 
+Empfängerseite muss erkannt werden, wo die Trennung zwischen der Nummer des Fingers 
+und des Wertes, zu dem sich der Servo dann hinbewegen soll, liegt. Der String von 
+\"angepassterWert\" gibt dann den Wert an, den die Servoposition dann endgültig 
+erreichen soll. Dabei ist es wichtig, dass dies allerdings auf der Empfängerseite 
+dann umgesetzt wird. Auf der Senderseite wird der angepasste Wert zuvor 
+möglicherweise durch die Grenzen von minimalem oder maximalem Widerstandswert 
+begrenzt und dann noch mit der map-Funktion auf Werte von 0-100 gebracht, da damit 
+dann auf der Empfängerseite gearbeitet wird. Gesamt schaut der String für den 
+Zeigefinger mit dem angepassten Wert und einem halben Abknicken dieses also wie 
+folgt aus: \"\$s:2:50\". Schlussendlich wird dann der gesamte String namens 
+\"package\" per drahtloser Übertragung über ESP-NOW von der Sender- zu der 
+Empfängerplatine gesendet. \\
+\\
+
+
 
 \subsection{Roboterhand}
 
@@ -1727,7 +1849,7 @@ entlastet wird.
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
-
+\hfill \break
 Der Code der Programmierung des ESP32 wurde in C/C++ geschrieben. \\
 Am Anfang wird der Buffer des ESP32 ausgelesen. Die von der Senderplatine (Handschuh) empfangenen Daten werden verarbeitet. 
 Der Strom, der eine mögliche Blockierung eines Fingers erkennen kann, muss alle 3ms gemessen werden. Wenn dieser je Finger zu 
@@ -1755,6 +1877,7 @@ wieder von vorne.
 	\scalebox{1.1}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_3}}
 	%\caption*{Ladislaus Szabo}
 \end{figure}
+\hfill \break
 Als Erstes werden die von der Senderplatine gesendeten Daten ausgelesen. Diese 
 werden mit ESP-NOW übertragen. Gesendet wird in folgendem Format: 
 \$fingerNummer:Wert. Somit kann herausgefunden werden, welcher Wert eines 
@@ -1797,9 +1920,9 @@ Die Baud Rate gibt an, wie viele Symbole pro Sekunde übertragen werden. Dabei
 kann ein Symbol ein einzelnes Bit oder eine Gruppe von Bits sein. Die Baudrate 
 gibt also an in welchem Abstand jeweils ein Symbol gesendet wird (1s/Baudrate) 
 oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden 
-(Baudrate/1s). 
-
-Beispiel Protokoll für 8-bit Packet \\
+(Baudrate/1s). \\
+\\
+\textbf{Beispiel Protokoll für 8-bit Packet} \\
 Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
 Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
 Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
@@ -1817,6 +1940,55 @@ da der Datensatz nicht stimmt. \\
 
 \textcolor{red}{https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a}
 
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{UART}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{I2C Funktionsweise}
+\\
+I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
+kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
+Leitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
+interpretiert der I2C-Bus die Daten und steuert den Ablauf. Bei unserem Projekt ist 
+der ESP32 der Master und die Flexsensoren beispielsweise die Slaves. Der Master ist 
+dann der wichtige Bestandteil, da dieser für alle anderen Slaves derjenige ist, der 
+sagt, was welches Bauteil machen soll. Dabei hängen alle Geräte beziehungsweise 
+Bauteile an zwei Leitungen. Eine heißt SDA (serial data) und ist für die serielle 
+Übertragung der Daten verantwortlich. Jedoch ist zu erwähnen, dass diese bidirektional 
+benutzt wird. Das heißt es kann in beide Richtungen gesendet werden (Master zum 
+Slave und umgekehrt). Es muss aber der Master regeln, also entweder Daten senden 
+oder welche von einem Slave anfordern. Die zweite Leitung heißt SCL (serial clock) 
+und ist für den Takt zuständig, der für alle per I2C verbundenen Geräte gilt. Es 
+wird also ein synchroner Bus verwendet. \\
+\\
+\textbf{Beispiel Protokoll I2C}
+Die Daten sind grundsätzlich in Datenpaketen verpackt, jedes besteht aus 1 Byte. 
+Wenn nichts kommuniziert wird, dann hat SDA und SCL den Wert 1. Nachdem eine 
+Start-Condition gesendet wurde, durch die alle Slaves wissen, dass sie nun auf den 
+Master jederzeit reagieren sollen, wird die Adresse des Slaves gesendet, mit dem 
+nun Daten ausgetauscht werden sollen. 7 Bit werden hierfür standardmäßig verwendet. 
+Danach wird ein weiteres Bit gesetzt. Dieses kann den Wert 0, was Schreiben bedeutet, 
+oder 1, was lesen bedeutet, haben. Nun ist der Slave an der Reihe. Dieser muss 
+ebenso 0, wenn die Kommunikation bereitsteht, an den Master zurücksenden. Der Master 
+sendet dann oder empfängt Daten vom Slave. Sobald alle Daten versendet wurden, 
+kommt die Bestätigung. Der ganze Vorgang des Senden und Empfangens wird am Ende 
+dann durch die Stop-Condition beendet. SDA wird hier auf 1 gesetzt, währenddessen 
+SCL auch den Wert 1 besitzt. \\
+\\
+\textcolor{red}{http://fmh-studios.de/theorie/informationstechnik/i2c-bus/}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{I2C}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
 
 
 \subsection{User Interface}
