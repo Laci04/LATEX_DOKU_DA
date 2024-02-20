@@ -1586,10 +1586,120 @@ Die entgültigen Werte lauten wie folgt: $R_{1} = 100k\Omega$ \\
 \hspace*{7.03cm}						$R_{2} = 6.2k\Omega$ \\
 \\
 Mit diesen Widestandswerten ergibt sich eine Verstärkung von $G = 17.13$. \\
-
+\\
+Da nun sichergestellt ist, dass der Ausgangsspannungspegel des OPVs bei der gewählten Verstärkung, dem gewählten Shunt-Widerstand und der 
+maximalen Belastung des Servos 5V nicht übersteigt, kann ein Analog-Digital-Wandler ausgewählt werden, um das analoge Signal zu
+digitalisieren. Da wir bei der Wahl von ADCs durch das Schaltungsdesign des Eingabesubsystems schon Erfahrung gesammelt haben, viel
+das Aussuchen des jetzigen Wandlers nicht schwer. Entschieden haben wir uns für den identen Baustein wie bei der Sensorschaltung, 
+jedoch mit dem Unterschied, dass dieser nun einen Aussteuerbereich von 0V - 5V hat, anstatt von 0V - 3.3V. Mit den folgenden Berechnungen
+wurde die Auswahl nochmals überprüft und die Stufenweite bestimmt. \\
+\\
+Auflösung = 10 Bit, beo 0V - 5V Aussteuerbereich\\
+\\
+$LSB = \frac{5}{1024} = 4.88mV$ \\
+\\
+Durch diese hohe Auflösung, kann die Griffkraft der einzelnen Finger sehr genau geregelt werden, wodurch ein feines Greifen von Ibjekten
+ermöglicht wird. \\
+\\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
-\subsubsection{Schaltplandesign \textcolor{red}{Laci}}
+\paragraph{Messschaltung der Griffkraftkontrolle}
+\hfill \break
+\hfill \break
+Das Ziel der Messung ist es, herauszufinden wieviel Strom ein Servomotor, abhängig von dem gerade erzeugten Drehmoment, 
+braucht. Die gemessenen Daten sollen uns bei Feinjustierung der Griffkraftregelung der Roboterhand behilflich sein. \\
+\\
+Der folgende Steckbrettaufbau repräsentiert die oben gezeichnete Schaltung. \\
+Die Grundidee ist, dass sich der Spannungsabfall am Shunt Widerstand je nach Auslastung des Servos ändert und somit der 
+Stromverbrauch gemessen werden kann. Anhand der vom OPV ausgegebenen Werte, kann folglich in Software die Ansteuerung programmiert 
+werden. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Messschaltung_Servomessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Erklärung des Testablaufs}\\
+Die Schaltung wird mit +5V versorgt. Der OPV „TLV232“ kann, dank RailToRail Technologie, den Ausgang bis fast auf die 
+Versorgungsspannung anheben. Durch die Simulation von verschiedenen Lasten am Servo mit einer Zugkraftwaage, fällt am Shunt 
+Widerstand eine andere Spannung ab. Dadurch variiert die Ausgangsspannung des OPVs und im Programm kann ausgewertet werden, 
+wie stark ein Finger der Roboterhand belastet wird. Je nachdem, kann dann geregelt werden. 
+Wichtig zu beachten ist allerdings, dass diese Messung nicht die wahre Verwendung der Servos widerspiegelt. Für eine 
+wahrheitsgetreue Ausmessung der Servobelastung, muss diese an der Hand (den einzelnen Fingern) durchgeführt werden und nicht 
+in einem Testaufbau. Im folgenden Bild wird der gesamte Testaufbau gezeigt. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Testaufbau_Servomessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Messergebnisse}\\
+Die gemessenen Werte wurden in einer Tabelle dargestellt und anschließend grafisch in Diagrammen visualisiert. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.3}
+		{\includegraphics[width=0.8 \linewidth]{Messtabelle_Servomessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+In der linkesten Spalte, ist die Servostellung, in Grad, vom Nullpunkt des Servos gemessen, abgebildet. Gleich daneben, wurde 
+der Strom aufgetragen, der mit einem Multimeter gemessen wurde. \\
+\\
+Da bei der Messchaltung ein Fehler aufgetreten ist, sind die Spalten $max. Spannung v. Einsch. (V)$ und $Spannung n. Einsch(V)$
+nicht zu beachten! \\
+\\
+Die Zugkraft des Servomotors ist in Kilogramm und in Newton abgebildet. Rechts daneben ist noch eine Delay-Spalte zu sehen, die
+angibt wie lange der Servo gebraucht hat, um sich dem gewählten Winkel anzunähern. Am Anfang wurde es dem Motor selbst überlassen
+wie schnell er sich bewegt, jedoch führte dies zu unerwünschten Ungenauigkeiten, weshalb wir diesen Fehlerfaktor der Messung durch 
+das Delay ausgeschlossen haben. \\
+\\
+Ebenfalls zu erkennen ist, dass sich die Zugkraft des Motors ab der halben Vollaussteuerung des Servodrehwinkels nicht mehr ändert.
+Dies liegt daran, dass der 3D gedruckte Aufsatz, auf dem die Schnur zur Verbindung des Motors und der Zugkraftwaage angebracht ist,
+ab ca. $45N$ Zugkraft nachgegeben hat und in Folge auch kaputt gegangen ist. Dieser Materialfehler hat uns geholfen später im
+Projekt neue Aufsätze zu designen, die dem Zug des Servos standhalten. \\
+\\
+Die Messergebnisse wurden im folgenden Diagramm visualisiert. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Zugkraft_Strom_Diagramm_Servomessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Der nicht-lineare Anstieg der Stromwerte in Abhängigkeit der Zugkraft, ist weitestgehend auf die Ungnauigkeit des Servomotors
+und die leichten Varianzen im Testaufbau zurückzuführen. Erwartet, beziehungsweise erhofft, haben wir uns einen möglichst linearen
+Ansiteg, jedoch hat dies keinen wirklichen Einfluss auf die Funktion des Gesamtsystems, wenn der Kurvenverrlauf in der Software
+berücksichtigt wird. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Oszibild_Servomessung}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+An dem Oszilloskopbild ist zu erkennen, wie sich der Strom bei der Ansteuerung eines Servomotors verhält. Es ist deutlich sichtbar,
+dass der Strom nicht linear steigt, sondern sich dem Spitzenwert immer weiter annähert, bis die gewünschte Position erreicht ist.
+Wird kein Objekt gegriffen, so exisitert kein mechanischer Widerstand gegen den der Servo ankämpfen muss, wodurch sich der Strom
+wieder auf ein Minimum senkt. Würde der Roboterfinger und somit der Motor einem Widerstand entgegenwirken, so bliebe der Strom auf
+einem relativ konstanten Wert stehen bleiben. Dies ist der Fall, da ein Servo einen Gleichstrommotor eingebaut hat und dieser nicht 
+nur für die Bewegung, sondern auch für das Entgegnwirken einer mechanischen Last Strom benötigt. 
+
+\subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
+Nach den diversen Überlegungen, Konzepten und Berechnungen, wird in diesem Punkt das genauere Schaltungsdesign erläutert. Es wird
+erklärt worauf bei dem Schaltungsentwurf geachtet werden musste und mit welchen Besonderheiten, beziehungsweise Problemen, wir zu
+tun hatten. 
+
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
 %--------------------------------------------------------------------------
