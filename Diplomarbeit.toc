@@ -116,42 +116,42 @@
 \contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{49}{paragraph.8.1.2.1}%
 \contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{50}{paragraph.8.1.2.2}%
 \contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{51}{paragraph.8.1.2.3}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand}{53}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{53}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{53}{subsubsection.8.2.2}%
-\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{53}{paragraph.8.2.2.1}%
-\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{54}{paragraph.8.2.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{54}{subsubsection.8.2.3}%
-\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{54}{paragraph.8.2.3.1}%
-\contentsline {subsection}{\numberline {8.3}User Interface}{61}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{61}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{61}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{61}{subsubsection.8.3.3}%
-\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{61}{paragraph.8.3.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.4}Realisierung und Gliederung \textcolor {red}{Laci}}{63}{subsubsection.8.3.4}%
-\contentsline {section}{\numberline {9}Tests und Messungen}{63}{section.9}%
-\contentsline {subsection}{\numberline {9.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte}}{63}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Projektmanagement}{63}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Projektstrukturplan}{63}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Milestoneplan}{63}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Gantt-Diagram}{64}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Meeting Struktur}{64}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Fertigungsunterlagen}{64}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Mechanik}{64}{subsection.11.1}%
-\contentsline {subsubsection}{\numberline {11.1.1}händische Skizzen}{64}{subsubsection.11.1.1}%
-\contentsline {subsubsection}{\numberline {11.1.2}CAD-Zeichnungen}{64}{subsubsection.11.1.2}%
-\contentsline {subsubsection}{\numberline {11.1.3}3D-Modelle}{64}{subsubsection.11.1.3}%
-\contentsline {subsection}{\numberline {11.2}Hardware}{64}{subsection.11.2}%
-\contentsline {subsubsection}{\numberline {11.2.1}Stromlaufpläne}{64}{subsubsection.11.2.1}%
-\contentsline {subsubsection}{\numberline {11.2.2}Platinen}{64}{subsubsection.11.2.2}%
-\contentsline {subsubsection}{\numberline {11.2.3}Bestückungslisten}{64}{subsubsection.11.2.3}%
-\contentsline {subsection}{\numberline {11.3}Software}{64}{subsection.11.3}%
-\contentsline {subsubsection}{\numberline {11.3.1}Diagramme}{64}{subsubsection.11.3.1}%
-\contentsline {subsubsection}{\numberline {11.3.2}Code}{64}{subsubsection.11.3.2}%
-\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{64}{section.12}%
-\contentsline {section}{\numberline {13}Ausblick}{64}{section.13}%
-\contentsline {section}{\numberline {14}Verzeichnisse}{64}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Quellenverzeichnisse}{64}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Abbildungsverzeichnis}{64}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Abkürzungsverzeichnis}{64}{subsection.14.3}%
-\contentsline {section}{\numberline {15}Anhang}{64}{section.15}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand}{54}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{54}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{54}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{54}{paragraph.8.2.2.1}%
+\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{55}{paragraph.8.2.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{55}{subsubsection.8.2.3}%
+\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{55}{paragraph.8.2.3.1}%
+\contentsline {subsection}{\numberline {8.3}User Interface}{62}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{62}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{62}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{62}{subsubsection.8.3.3}%
+\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{62}{paragraph.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.4}Realisierung und Gliederung \textcolor {red}{Laci}}{64}{subsubsection.8.3.4}%
+\contentsline {section}{\numberline {9}Tests und Messungen}{64}{section.9}%
+\contentsline {subsection}{\numberline {9.1}\textcolor {purple}{Platzhalter für diverse Unterpunkte}}{64}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Projektmanagement}{64}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Projektstrukturplan}{64}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Milestoneplan}{64}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Gantt-Diagram}{65}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Meeting Struktur}{65}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Fertigungsunterlagen}{65}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Mechanik}{65}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}händische Skizzen}{65}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}CAD-Zeichnungen}{65}{subsubsection.11.1.2}%
+\contentsline {subsubsection}{\numberline {11.1.3}3D-Modelle}{65}{subsubsection.11.1.3}%
+\contentsline {subsection}{\numberline {11.2}Hardware}{65}{subsection.11.2}%
+\contentsline {subsubsection}{\numberline {11.2.1}Stromlaufpläne}{65}{subsubsection.11.2.1}%
+\contentsline {subsubsection}{\numberline {11.2.2}Platinen}{65}{subsubsection.11.2.2}%
+\contentsline {subsubsection}{\numberline {11.2.3}Bestückungslisten}{65}{subsubsection.11.2.3}%
+\contentsline {subsection}{\numberline {11.3}Software}{65}{subsection.11.3}%
+\contentsline {subsubsection}{\numberline {11.3.1}Diagramme}{65}{subsubsection.11.3.1}%
+\contentsline {subsubsection}{\numberline {11.3.2}Code}{65}{subsubsection.11.3.2}%
+\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{65}{section.12}%
+\contentsline {section}{\numberline {13}Ausblick}{65}{section.13}%
+\contentsline {section}{\numberline {14}Verzeichnisse}{65}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Quellenverzeichnisse}{65}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Abbildungsverzeichnis}{65}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Abkürzungsverzeichnis}{65}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Anhang}{65}{section.15}%

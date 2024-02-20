@@ -30,6 +30,8 @@
 \usepackage[none]{hyphenat}
 \usepackage{float} % für Positionierungsoption [H] beie Tables, figures,...
 \usepackage{hyperref} %Für URLS
+\usepackage{listings} %Für Codezeilen
+\lstset{language=C++}
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \usepackage{fancyhdr}
@@ -1843,7 +1845,7 @@ zeitlicher Abstand eingehalten werden muss. Das Beste daran ist, dass auch die
 Verarbeitung der Daten ohne Probleme abgearbeitet werden kann. Dies ist möglich, da 
 so wenige Rohdaten, wie möglich, von der Senderseite aus übermittelt werden, sodass 
 alles auf der Empfängerseite dann verarbeitet wird. Durch sehr schnelles Senden und 
-Empfangen der Daten kann somit beinahe eine Bewegung in Echtzeit dargestellt werden. \\
+Empfangen der Daten, kann die schnellstmögliche Bewegung der Roboterhand realisiert werden. \\
 \\
 \textbf{Modus zum Einstellen des minimalen und maximalen Wertes jedes Flexsensors}
 \\
@@ -1923,6 +1925,12 @@ Daten erfolgreich senden konnte oder nicht. \\
 \paragraph{Wichtige Codezeilen}
 \hfill \break
 \hfill \break
+\begin{lstlisting}
+	int minWiderstand[5] = {1350, 1520, 1845, 1330, 1750};  
+	//Daumen, Zeigefinger, Mittelfinger,Ringfinger, kleiner Finger
+	int maxWiderstand[5] = {1900, 2000, 2135, 1900, 2050};
+\end{lstlisting}
+\hfill \break
 In dem obenstehenden Code kann man zwei erstellte integer Arrays sehen. Eines ist 
 für das Speichern des minimalen Widerstandwertes zuständig. Dort werden dann die 
 manuell gemessenen Werte eingetragen. Das Array besitzt fünf Variablen. Die Variable 
@@ -1933,6 +1941,22 @@ kleinen Finger an. Somit kann jeder Finger im Array leicht einen neuen Wert
 zugewiesen bekommen und das Programm arbeitet automatisch mit den neu zugewiesenen 
 Werten bei erneutem Hochladen auf den ESP32. \\
 \\
+\begin{lstlisting}
+uint16_t result_mcp = mcp3021.read();
+value[i - 1] = mcp3021.toVoltage(result_mcp, ref_voltage);
+
+    if (value[i - 1] < minWiderstand[i - 1]) {
+      value[i - 1] = minWiderstand[i - 1];
+    }
+    if (value[i - 1] > maxWiderstand[i - 1]) {
+      value[i - 1] = maxWiderstand[i - 1];
+    }
+    // Anpassen des Wertes
+    int angepassterWert = map(value[i - 1], minWiderstand[i - 1],
+	maxWiderstand[i - 1], 0, 100);
+
+\end{lstlisting}
+\hfill \break
 Obenstehend ist nun der Codeabschnitt zu sehen, in welchem der vom ADC verarbeitete 
 Wert des Flexsensors von dem ESP32 ausgelesen wird. Dieser wird dann mit dem Wert 
 des minimalen und maximalen Widerstands verglichen. Wenn der ausgelesene Widerstandswert 
@@ -1947,6 +1971,39 @@ dem dadurch folglich falschen Ansteuern der Servos zu verhindern, ist diese Maß
 notwendig. Die Servos könnten sich ansonsten zu weit drehen und eine Beschädigung an 
 der Mechanik hinterlassen. \\
 \\
+\begin{lstlisting}
+    if(value[i - 1] <= vergleich[i - 1]-10 || value[i-1]
+	>= vergleich[i - 1]+10){
+      value[i-1];
+    } else {
+      value[i-1] = vergleich[i-1];
+    }
+\end{lstlisting}
+\hfill \break
+In obenstehendem Code wird der Wert des Flexsensors ausgelesen und dann mit dem 
+vorherigen Wert verglichen. Man nimmt also eine Toleranz zur Hilfe, um ein starkes 
+Zittern der Finger zu verhindern. Es ist wichtig dies zu begrenzen, da man bei jeder 
+minimalsten Änderung des Wertes ein extremes Zittern der Finger beziehungsweise der 
+Servos auslösen würde, was einen Schaden an der Mechanik auslösen kann (ganzer 
+Roboterarm zittert extrem). Es wird also der Wert des Flexsensors ausgelesen und falls 
+dieser nicht mindestens um 10 größer oder kleiner als der zuvor gemessene Wert ist, dann 
+wird weiterhin der vorherige Wert herangezogen. Erst sobald der momentan gemessene Wert 
+den zuletzt gespeicherten um 10 über- oder unterschreitet, wird der aktuell gemessene 
+Wert dann an die Empfängerseite übermittelt, ansonsten der alte Wert, der in der 
+Variable ,,vergleich“ gespeichert steht. \\
+\\
+\begin{lstlisting}
+	void selectMuxChannel(int channel) {
+		if (channel == 1) {
+		  digitalWrite(EN, HIGH);
+		  digitalWrite(A_0, LOW);
+		  digitalWrite(A1, LOW);
+		  digitalWrite(A2, LOW);
+		} else if (channel == 2) {
+		...
+		...
+\end{lstlisting}
+\hfill \break
 In obenstehendem Codeabschnitt wird der Multiplexer richtig eingestellt. Je nach 
 Channelnummer wird dann festgelegt, welcher Eingang zum ADC weitergeschalten werden 
 soll. Durch einige if-Bedingungen kann somit immer sichergestellt werden, dass man 
@@ -1971,7 +2028,7 @@ gesendet werden. Es wird ein String geformt. Dieser beginnt mit einem \$. Dies z
 an, dass nun ein \"Befehl\" gesendet wird und man diesen verwerten soll. Danach noch 
 ein \"s\" als Abkürzung für Servo. Der String von der Laufvariable \"i\" gibt dann an, 
 welcher Wert nun gesendet wird, also beispielsweise \"\$s:1\" würde bedeuten, dass nun 
-der Wert des Daumens gesendet wird. Der \":\" gibt dann eine Trennung an. Auf der 
+der Wert des Daumens gesendet wird. Der gibt dann eine Trennung an. Auf der 
 Empfängerseite muss erkannt werden, wo die Trennung zwischen der Nummer des Fingers 
 und des Wertes, zu dem sich der Servo dann hinbewegen soll, liegt. Der String von 
 \"angepassterWert\" gibt dann den Wert an, den die Servoposition dann endgültig 
@@ -1985,7 +2042,6 @@ folgt aus: \"\$s:2:50\". Schlussendlich wird dann der gesamte String namens
 \"package\" per drahtloser Übertragung über ESP-NOW von der Sender- zu der 
 Empfängerplatine gesendet. \\
 \\
-
 
 
 \subsection{Roboterhand}
