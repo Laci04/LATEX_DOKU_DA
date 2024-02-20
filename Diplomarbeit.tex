@@ -1784,9 +1784,145 @@ tun hatten.
 \hfill \break
 \hfill \break
 Wie auch schon bei der Schaltung des Eingabesubsystems, setzen wir auch beim Ausgabesubsystems auf einen USB-C Anschluss.
-Dieser dient zur Programmierung des Mikrokontrollers. Versorgt werden kann die Platine aufgrund der Servomotoren allerdings
-nicht. Vorteilhaft ist dies allerdings auch, da die Platine gleichzeitig mit einem Netzteil verbunden sein kann und keine 
+Dieser dient zur Programmierung des Mikrokontrollers. Versorgt werden kann die Schaltung aufgrund des hohen Strombedarfs der Servomotoren
+allerdings nicht. Vorteilhaft ist dies allerdings auch, da die Platine gleichzeitig mit einem Netzteil verbunden sein kann und keine 
 Gefahr besteht zwei Versorgungen gleichzeitig anzuschließen. 
+\textbf{Anschluss zur Programmierung des Mikrokontrollers} \\
+\\
+Für de Programmierung des Mikrokontroller ist ein USB-Anschluss notwendig. Da das Projekt mit den neuesten Computern
+kompatibel sein soll, haben wir uns, genauso wie beim Eingabesubsystem, für einen USB-C-Typ2.0 entschieden. Das Serial-Signal
+des angeschlossenen Computers, wird über die beiden Leitungen $D+$ und $D-$ übertragen. Die Anschlüsse $CC1$ und $CC2$ werden
+nicht benötigt, weshalb diese mit über einen Widerstand mit $GND$ verbunden sind. $SBU1$ und $SBU2$ werden ebenfalls nicht 
+benötigt. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{USB_C_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Anschluss zur Versorgung der Schaltung} \\
+\\
+Da die Schaltung nicht über die USB-C-Buchse versorgt werden kann, muss dies über ein Netzteil geschehen. Für diesen Zweck
+haben wir einen Connector mit zwei Pins vorgesehen. Ein Pin für die positive Versorgung und der andere für den $GND-Anschluss$
+des Netzteils.  Zusätzlich dazu, wurde noch ein Jumper verbaut, der es uns erlaubt die Schaltung von der Versorgung zu trennen
+ohne jedes mal das Netzteil abdrehen zu müssen. Bei der nächsten Schaltungsversion wird die Versorgung über einen Barrel Jack
+erfolgen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Netzteil_Anschluss_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{Serial-UART-Bridge}
+\hfill \break
+\hfill \break
+Der Serial-UART-Chip, hat die Aufgabe das über die USB-Buchse kommende Serial-Signal in ein UART-Signal umzuwandeln.
+Dies ist notwendig, da der verwendete Mikrokontroller keine Serial-Signale verarbeiten kann. Über die \textbf{ausgekreuzten}
+Leitungen $RXD$ und $TXD$, werden die Daten zur Weiterverabeitung übertragen. Die Versorgung basiert auf $3.3V$. Die Pins
+$DTR$ und $RTS$ sind über eine Transistorschaltung ebenfalls mit dem Mikrokontroller verbunden. Die $EN$ Leitung ist für 
+die $RESET-Funktion$ gedacht und die $IO0$ Leitung für den Uploadvorgang von programmiertem Code. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{UART_Bridge_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{Mikrokontroller}
+\hfill \break
+\hfill \break
+Der Mikrokontroller ist das Herz der Schaltung. Aufgrund der nötigen Kompatibilität in Bezug auf den Funk, haben wir uns, genauso wie beim Eingabesubsystem, für einen ESP32-Chip entschieden.
+Die geneue Bezeichnung lautet $ESP32-WROOM-32E-N16$. Zu diesem Chip führen unter anderem die zuvor beschriebenen Leitungen der Serial-UART-Bridge wodurch die Anbindung an die Außenwelt ermöglicht 
+wird. Von diesem Chip gehen außerdem die I2C-Datenleitungen weg, welche mit dem ADC und dem PWM-Controller verbunden sind. Um eine möglichst störungsfreie Übertragung zu gewährleisten, wurden, außer 
+den offensichtlichen $10k\Omega$ Pull-Up-Widerständen, noch Serienwiderstände in den Datenleitungen beigefügt. Diese dienen dem Schutz gegen Spannungsspitzen und mindern teilweise auch die Störungen
+die während dem normalen Betrieb auftreten können. \\
+Die Funktionen der weiteren Pins werden in den folgenden Punkten, gemeinsam mit den dazugehörigen Bauteilen, näher erläutert. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Mikrokontroller_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{Mikrokontroller Buttons}
+\hfill \break
+\hfill \break
+Wie auch schon bei der Schaltung des Eingabesubsystems, werden für den ESP32 jeweils ein Drucktaster für das Hochladen von Code und das Zurücksetzen des Chips benötigt. Diese Buttons sind mit dem Mikrokontroller
+und des Serial-UART-Bridge verbunden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Buttons_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{Versorgung}
+\hfill \break
+\hfill \break
+Da nicht alle Schaltungsteile mit 5V versorggt werden können, muss die Spannung auf einen geeigneten Pegel umgewandelt werden. Hierzu verwenden wir einen Spannungswandler. Am Eingang und Ausgang des Bausteins
+sind Stützkondensatoren zu $GND$ geschalten, um die Spannungspegel von $5V$ und $3.3V$ zu stabilisieren. Zusätzlich dazu, ist bei jedem Versorgungspin eines Schaltungsbausteins noch ein Stützkondensator vorgesehen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Spannungswandler_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{PWM-Controller}
+\hfill \break
+\hfill \break
+Der PWM-Controller ist das Bauteil, das für die korrekte Datenübertragung der Steuerungsdaten an die Servomotoren zuständig ist. Da wir keine Funktionen und Anschlüsse des Mikrokontrollers blockieren wollen (siehe Punkt 7.2.2.3), 
+haben wir den $PCA9685$ gewählt. Dieser ist per I2C-Protokoll ansteuerbar und hilft uns daher die Anzahl der elektrischen Leitungen auf ein Minimum zu reduzieren. Um die korrekte Ansteuerung des Mikrochips zu gewährleisten, existieren
+natürlich auch Adresspins (A0 - A5). Diese können auf $HIGH$ oder $LOW$ gesetzt werden, um die I2C-Adresse benutzerdefiniert einzustellen. Wir haben uns dazu entschieden diese Adressierung mit Lötjumpern einstellbar zu machen. Standardmäßig
+ist die Adresse auf $0 0 0 0 0 0$, kann jedoch geziehlt durch das zulöten einzelner Jumper modifiziert werden. Der Pin $OE$, ist mit dem ESP32 verbunden. Dieser Anschluss erlaubt uns den PWM-Output des Mikrochips, durch ein $HIGH$ oder $LOW$ 
+Signal, ein -und auszuschalten. Es ist zu erkennen, dass der Chip die Möglichkeit bietet bis zu 16 Servomtoren anzusteuern. Bei unserer Anwendung werden bei der aktuellen Entwicklungsstufe allerdings nur 6 Anschlüsse benötigt. Versorgt wird
+der Controller mit 5V. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{PWM_Controller_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\paragraph{Servoanschlüsse}
+\hfill \break
+\hfill \break
+Jeder Servomotor ist mit einem PWM-Pin des PWM-Controllers verbunden. Durch diese elektrischen Leitungen erhalten die Motoren ihre Drehbefehle. Um kompatibel mit dem Rest der Schaltung zu sein, haben wir die Versorgungsspannung für die Motoren mit
+5V gewählt. Ein höherer Spannungspegel mit 6V wäre auch möglich gewesen, allerdings ist der Aufwand die Spannung zu erhöhen mit dem daraus resultierenden Gewinn an Zugkraft nicht zu vergleichen. Aufgrund dieses Umstands, wurde der Versorgungspegel
+wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung (siehe Punkt 7.2.2.4) realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
+Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. 
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Servoanschluss_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
