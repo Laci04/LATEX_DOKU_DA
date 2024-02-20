@@ -32,6 +32,7 @@
 \usepackage{hyperref} %Für URLS
 \usepackage{listings} %Für Codezeilen
 \lstset{language=C++}
+\setlength{\fboxsep}{5pt} % Ändere die Rahmenbreite nach Bedarf
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \usepackage{fancyhdr}
@@ -470,6 +471,136 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Lastenheft}
+
+\begin{table}[H]
+    \centering
+    \caption{Lastenheft}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
+        \hline
+        1 & \fcolorbox{white}{white}{\parbox{5cm}{Es soll ein Handchuh (Eingabe) entwickelt werden, mit dem man eine Roboterhand (Ausgabe) steuern kann.}} & Y &  \\
+		\hline
+		2 & \fcolorbox{white}{white}{\parbox{5cm}{Der Handschuh soll kabellos mit der Roboterhand verbunden werden können.}} & Y &  \\
+        \hline
+		3 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungen der Roboterhand sollen möglichst gut die einer echten Hand immitieren.}} & Y &  \\
+		\hline
+		4 & \fcolorbox{white}{white}{\parbox{5cm}{Die Roboterhand ist ein fertiges Design (3D Druck), dass im Projekt integriert wird.}} & Y &  \\
+        \hline
+		5 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungserfassung soll mit entsprechender Sensorik erfolgen.}} & Y &  \\
+		\hline
+		6 & \fcolorbox{white}{white}{\parbox{5cm}{ - Flex Sensoren für die Finger}} & Y &  \\
+        \hline
+		7 & \fcolorbox{white}{white}{\parbox{5cm}{ - Gyro Sensor für die Drehung des Handgelenks}} & N &  \\
+		\hline
+		8 & \fcolorbox{white}{white}{\parbox{5cm}{Die Datenauswertung soll mit einem Mikrokontroller erfolgen.}} & Y &  \\
+        \hline
+		9 & \fcolorbox{white}{white}{\parbox{5cm}{Eine Platine für das Verbinden aller Komponenten am Handschuh muss gebaut werden.}} & Y &  \\
+		\hline
+		10 & \fcolorbox{white}{white}{\parbox{5cm}{ - soll auf den Handrücken des Handschuhs passen}} & Y &  \\
+        \hline
+    \end{tabular}
+    \label{tab:zeilenumbruch_parbox}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Lastenheft}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
+        \hline
+		11 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschlussmöglichkeiten für einen Akku (Akkupack oder LiPo), plus alternativ für eine externe Stromversorgung müssen vorhanden sein}} & Y &  \\
+		\hline
+		12 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschluss zum Programmieren des ESP32}} & Y &  \\
+        \hline
+		13 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload und Reset Button für ESP32}} & Y &  \\
+		\hline
+		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & Y &  \\
+        \hline
+		15 & \fcolorbox{white}{white}{\parbox{5cm}{Mit einem ADC, sollen mindestens 30 verschiedene Positionen der Flexsensoren detektiert werden können.}} & Y &  \\
+		\hline
+		16 & \fcolorbox{white}{white}{\parbox{5cm}{ - diese Positionen sollen wiederherstellbar sein}} & Y &  \\
+        \hline
+		17 & \fcolorbox{white}{white}{\parbox{5cm}{Das Maximalgewicht des Handschuhs soll 500g nicht übersteigen.}} & Y &  \\
+		\hline
+		18 & \fcolorbox{white}{white}{\parbox{5cm}{Fertigung mittels 3D-Druck (fertiges Design)}} & Y &  \\
+        \hline
+		19 & \fcolorbox{white}{white}{\parbox{5cm}{ - metallische Gelenke für die Finger}} & Y &  \\
+		\hline
+		20 & \fcolorbox{white}{white}{\parbox{5cm}{ - Abmessungen der Hand und Finger wie eine echte !!}} & Y &  \\
+        \hline
+		21 & \fcolorbox{white}{white}{\parbox{5cm}{Drucksensoren an den Fingerspitzen}} & Y &  \\
+		\hline
+		22 & \fcolorbox{white}{white}{\parbox{5cm}{Nachstellung der Bewegungen mit Motoren}} & Y &  \\
+        \hline
+		23 & \fcolorbox{white}{white}{\parbox{5cm}{ - Servomotoren}} & Y &  \\
+		\hline
+		24 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich kontrolliert zum und vom Handballen weg bewegen können.}} & Y &  \\
+        \hline
+
+    \end{tabular}
+    \label{tab:zeilenumbruch_parbox}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Lastenheft}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
+        \hline
+		25 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich seitlich bewegen können.}} & Y &  \\
+		\hline
+		26 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich zitterfrei bewegen können.}} & Y &  \\
+        \hline
+		27 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich störungsfrei bewegen können.}} & Y &  \\
+		\hline
+		28 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile kabellose Verbindung !! (störungstolerantes Kommunikationsprotokoll)}} & Y &  \\
+        \hline
+		29 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile Spannungsversorgung für jeden einzelnen Motor}} & Y &  \\
+		\hline
+		30 & \fcolorbox{white}{white}{\parbox{5cm}{ - Mikrokontroller für die Kommunikation mit dem Handschuh und die Steuerung der Servomotoren (ESP32)}} & Y &  \\
+        \hline
+		31 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschluss für externes Netzteil}} & Y &  \\
+		\hline
+		32 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschlus zum Programmieren des ESP32}} & Y &  \\
+        \hline
+		33 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload -und Reset Button für ESP32}} & Y &  \\
+		\hline
+		34 & \fcolorbox{white}{white}{\parbox{5cm}{Jeder einzelne Servomotor soll eine Stromüberwachung haben.}} & Y &  \\
+        \hline
+		35 & \fcolorbox{white}{white}{\parbox{5cm}{ - mit dieser soll die Griffkraft der Finger kontrolliert werden können. (leicht - mittel - stark)}} & Y &  \\
+		\hline
+		36 & \fcolorbox{white}{white}{\parbox{5cm}{ - die Parameter der Griffkraft soll eingestellt werden können.}} & Y &  \\
+        \hline
+
+    \end{tabular}
+    \label{tab:zeilenumbruch_parbox}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Lastenheft}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
+        \hline
+		37 & \fcolorbox{white}{white}{\parbox{5cm}{Die Hand soll eine 500mL Plastikflasche, die zur Hälfte gefüllt ist, als Endziel greifen können und in der Luft halten.}} & Y &  \\
+		\hline
+		38 & \fcolorbox{white}{white}{\parbox{5cm}{Das User Interface soll folgende Elemente aufweisen:}} & Y &  \\
+        \hline
+		39 & \fcolorbox{white}{white}{\parbox{5cm}{ - 3D Modell der Hand}} & Y &  \\
+		\hline
+		40 & \fcolorbox{white}{white}{\parbox{5cm}{ - Griffkraftanzeige (in kg)}} & Y &  \\
+        \hline
+        41 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anzeige der Servostellung (Winkel)}} & Y &  \\
+		\hline
+		42 & \fcolorbox{white}{white}{\parbox{5cm}{ - in Form einer Applikation}} & Y &  \\
+        \hline
+    \end{tabular}
+    \label{tab:zeilenumbruch_parbox}
+\end{table}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
