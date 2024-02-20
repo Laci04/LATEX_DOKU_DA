@@ -806,7 +806,16 @@ die für dieses Fertigungsverfahren verwendet werden ist PLA, ABS, PETG und weit
 Die Vorteile des FDM-Drucks sind, dass die Druckgeräte sowie das Filament billig 
 zu erhalten sind. Aber auch die das Verfahren einfach und nicht besonders komplex 
 ist, sowie auch schnell. \\
-
+\\
+In der initialen Entwicklungsphase des Projekts „Bionic-Hand“ kommen zwei private 3D, 
+Drucker zum Einsatz, welche das FDM-Verfahren nutzen. Der sich daraus erschließende 
+Vorteil ist eine effektive und besonders effektive Prototypenherstellung. Von großer 
+Bedeutung ist die Möglichkeit, jederzeit ein Modell in den Drucker zu laden und damit 
+innerhalb weniger Stunden neues Versuchsobjekt zu erhalten. \\
+Im Laufe der ersten Versuchsaufbauten war die Druckqualität nicht sehr relevant, denn 
+der Fokus lag auf der Zeitersparnis und hauptsächlich auf dem Gewinn von Erkenntnissen, 
+sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
+\\
 \textcolor{red}{(Quelle: Zum zitieren und Quellenverzeichnis: https://filamentworld.de/3d-druckverfahren/)}
 
 \subsubsection{Versuchsaufbauten}
@@ -870,13 +879,82 @@ austreckt. \\
 In diesem Modell wird daher ein Elastomer, ein elastisches Material in Form 
 eines Bandes mit ausreichender Kraft gewählt. \\
 
-\paragraph{Mechanismus}
-\hfill \break
-\hfill \break
-
 \paragraph{Realisierung und Zusammenbau}
 \hfill \break
 \hfill \break
+Das Konzept wird anhand einer Testhand realisiert, diese setzt sich im Wesentlichen 
+aus zwei Komponenten zusammen: dem Motorblock, welcher für die Antriebsmechanik 
+zuständig ist, und der Roboterhand, welche die eigentliche die Bewegungen der Motoren 
+in der Bionic Hand umsetzen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Hand_1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Das komplexeste Modell ist die Roboterhand, die aus mehreren Elementen besteht, 
+darunter die Handfläche sowie die einzelnen Finger, die sich jeweils in drei Glieder 
+unterteilen lassen. Der Mechanismus in jedem Finger erfüllt dieselbe Funktion: Durch 
+ziehen an der Schnur verkürzt sich ihre Länge, was dazu führt, dass sich der 
+jeweilige Finger zusammenzieht. Im Detail betrachtet beschränkt sich der Mechanismus 
+des Fingers nicht nur auf das bloße Ziehen an ihm. Der Finger unterteilt in weitere 
+Elemente. Er besteht aus drei Gliedern, von denen jedes eine Abschrägung an beiden 
+Kanten, die zum nächsten Glied ausgerichtet sind, aufweist. Durch die Verjüngung der 
+Kanten, kann beim sogenannten Falten des Fingers dafür gesorgt werden, dass sich der 
+Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Finger_1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Wie in dieser Grafik ersichtlich wird hier der Querschnitt aller Finger dargestellt, 
+dabei ist es nicht von Relevanz welches der drei Fingerglieder hier genommen wird. 
+Alle Glieder, das unterste, das mittlere sowie das oberste Glied haben eine 
+gemeinsame Eigenschaft: Durch jeden Finger verlaufen drei Tunnel. Der oberste Tunnel 
+hat den Zweck einen Durchgang für die Angelschnur zu schaffen, an dieser wird gezogen 
+und bewirkt das Falten des Fingers. In den beiden unteren Tunneln oder auch Kanälen, 
+welche einen ersichtlich größeren Durchmesser von XX mm besitzen verläuft das 
+Elastomer, ein elastisches Band. Durch Falten des Fingers, welcher durch Zug an der 
+Angelschnur ausgelöst wird, verlängert sich die Strecke auf, die sich das elastische 
+Band spannen muss. Dies löst gegengleich zum Zug eine gegenwirkende Spannung aus. 
+Anhand der durch das Band entstandenen Zugkraft, behält der Finger seine Position, 
+er wird somit gesichert, um weiter in Richtung Zug der Angelschnur zu kippen und 
+wiederrum von der Angelschnur, um in Richtung des Bandes zu kippen. Neben der 
+Funktion des Rückzuges verbinden die beiden Bänder alle aneinander liegenden 
+Fingerglieder sowie auch das unterste Glied mit dem Handflächenelement. Dabei 
+spielt auch die Position der Tunnel für das Band eine wesentliche Rolle, denn 
+diese verhindern durch ihre Parallele Anordnung, an den unteren äußeren Seiten 
+des Gliedes, dass sich die Glieder nach rechts oder links neigen. 
+Ebenso befindet sich an dem inneren Teil des Gliedes, welches die Fingerkuppe 
+nachstellt, beim Fingerabdruck eine runde Einkerbung sowie ein rechteckiger Kanal. 
+Diese Eigenschaft des Modells hält die Option eines optionalen Kraftsensors frei. 
+Mit so einem Sensor könnte, bei Integration der Funktion auch die Druckkraft 
+gemessen werden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Handfläche_1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Verbunden sind alle Finger mit dem Element der Handfläche, dieses Element fungiert 
+lediglich als Verbindungskomponente zwischen allen Fingern und dem Daumen. 
+Im Querschnitt der Handfläche lässt sich erkennen, dass diese von innen einen 
+Hohlraum beinhaltet. Dieser Hohlraum hat jeweils einen Kanal zu jedem der Finger, 
+sowie Daumen. Dort soll später die Angelschnur durchgeführt werden. Nahe dem 
+Handgelenk befindet sich eine große Öffnung, diese ist für alle fünf Schnüre 
+gedacht und hat ausreichend Größe für die Schnüre und evtl. auch Kabel für die 
+optionalen Kraftsensoren. \\
+\\
 
 \paragraph{Fazit und Ergebnisse}
 \hfill \break
@@ -1596,7 +1674,7 @@ das Aussuchen des jetzigen Wandlers nicht schwer. Entschieden haben wir uns für
 jedoch mit dem Unterschied, dass dieser nun einen Aussteuerbereich von 0V - 5V hat, anstatt von 0V - 3.3V. Mit den folgenden Berechnungen
 wurde die Auswahl nochmals überprüft und die Stufenweite bestimmt. \\
 \\
-Auflösung = 10 Bit, beo 0V - 5V Aussteuerbereich\\
+Auflösung = 10 Bit, bei 0V - 5V Aussteuerbereich\\
 \\
 $LSB = \frac{5}{1024} = 4.88mV$ \\
 \\
@@ -1701,6 +1779,14 @@ nur für die Bewegung, sondern auch für das Entgegnwirken einer mechanischen La
 Nach den diversen Überlegungen, Konzepten und Berechnungen, wird in diesem Punkt das genauere Schaltungsdesign erläutert. Es wird
 erklärt worauf bei dem Schaltungsentwurf geachtet werden musste und mit welchen Besonderheiten, beziehungsweise Problemen, wir zu
 tun hatten. 
+
+\paragraph{Externe Anschlüsse}
+\hfill \break
+\hfill \break
+Wie auch schon bei der Schaltung des Eingabesubsystems, setzen wir auch beim Ausgabesubsystems auf einen USB-C Anschluss.
+Dieser dient zur Programmierung des Mikrokontrollers. Versorgt werden kann die Platine aufgrund der Servomotoren allerdings
+nicht. Vorteilhaft ist dies allerdings auch, da die Platine gleichzeitig mit einem Netzteil verbunden sein kann und keine 
+Gefahr besteht zwei Versorgungen gleichzeitig anzuschließen. 
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
@@ -1926,9 +2012,9 @@ Daten erfolgreich senden konnte oder nicht. \\
 \hfill \break
 \hfill \break
 \begin{lstlisting}
-	int minWiderstand[5] = {1350, 1520, 1845, 1330, 1750};  
-	//Daumen, Zeigefinger, Mittelfinger,Ringfinger, kleiner Finger
-	int maxWiderstand[5] = {1900, 2000, 2135, 1900, 2050};
+int minWiderstand[5] = {1350, 1520, 1845, 1330, 1750};  
+//Daumen, Zeigefinger, Mittelfinger,Ringfinger, kleiner Finger
+int maxWiderstand[5] = {1900, 2000, 2135, 1900, 2050};
 \end{lstlisting}
 \hfill \break
 In dem obenstehenden Code kann man zwei erstellte integer Arrays sehen. Eines ist 
@@ -1993,15 +2079,17 @@ Wert dann an die Empfängerseite übermittelt, ansonsten der alte Wert, der in d
 Variable ,,vergleich“ gespeichert steht. \\
 \\
 \begin{lstlisting}
-	void selectMuxChannel(int channel) {
-		if (channel == 1) {
-		  digitalWrite(EN, HIGH);
-		  digitalWrite(A_0, LOW);
-		  digitalWrite(A1, LOW);
-		  digitalWrite(A2, LOW);
-		} else if (channel == 2) {
+void selectMuxChannel(int channel){
+
+	if (channel == 1) {
+		digitalWrite(EN, HIGH);
+		digitalWrite(A_0, LOW);
+		digitalWrite(A1, LOW);
+		digitalWrite(A2, LOW);
+	} else if (channel == 2) 
 		...
 		...
+	}
 \end{lstlisting}
 \hfill \break
 In obenstehendem Codeabschnitt wird der Multiplexer richtig eingestellt. Je nach 
@@ -2022,6 +2110,15 @@ schaltet noch zusätzlich. \\
 		%\caption*{Ladislaus Szabo}
 	\end{center}
 \end{figure}
+\hfill \break
+\begin{lstlisting}
+String package = "$s:" + String(i-1) + ":" + String(angepassterWert);
+
+Serial.println(package);
+
+esp_err_t result = esp_now_send(broadcastAddress, 
+        	   (uint8_t *)package.c_str(), package.length() + 1);
+\end{lstlisting}
 \hfill \break
 Obenstehend sieht man nun das Format, in welchem die Daten an die Empfängerseite 
 gesendet werden. Es wird ein String geformt. Dieser beginnt mit einem \$. Dies zeigt 
