@@ -1541,6 +1541,86 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \end{figure}
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
+\paragraph{Erste Testplatine}
+\hfill \break
+\hfill \break
+Die erste Testplatine wurde in der schuleigenen Werkstatt, mithilfe einer Platinenfräse,
+gefertigt. Da das Design auch zu dem frühen Zeitpunkt des Projekts schon relativ kompliziert
+war, gab es bei der Fertigung einige Probleme. Aufgrund schon vorhandener Erfahrung,
+wurden die Bauteile mit möglichst großem Fottprint (1206) gewählt, um ein einfaches Löten
+per Hand zu ermöglichen. Da es ICs aber leider nur in einer, für das Bauteil festgelegten,
+Größe zu kaufen gibt, mussten Leiterbahnen mit einer Breite von nur 0.3mm verwendet
+werden. Dies führte beim Löten leider zum Ablösen dieser, weshalb einige Jumper-Kabel
+notwendig waren, um die kaputten Leiterbahnen zu ersetzen. Die Installation dieser Ersatzkabel,
+hat einige Zeit in Anspruch genommen, wodurch der Entwicklungsprozess der Hardware
+kurzzeitig verzögert wurde. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platine_Handschuh_oben_v1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Zu sehen ist die Oberseite der ersten Testplatine des Eingabesubsystems. In der oberen linken Ecke des Bilds, sind die Anschlüsse für die 5 Flexsensoren zu sehen. Diese werden für Testzwecke mit 
+Jumper-Kabeln verbunden, um ein schnelles Auswechseln der Sensoren und einsetzen von fixen Referenzwidersänden zu ermöglichen. Bei der Fertigung der Platne sind einige Leiterbahnen sehr dünn ausgefallen, 
+weshalb einige Kabel zur erneuten Verbindung von Lötpads gebraucht wurden. Zu dem frühen Entwicklungszeitpunkt, wurde noch eine Micro-USB-Buchse verwendet, da diese größere Pins hat und das Löten somit erleichtert. \\
+\\
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platine_Handschuh_unten_v1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+An der Unterseite, kann der Grund für die Fehler in der Fertigung erkannt werden. Da die verwendeten ICs mit einer maximalen Leiterbahnbreite von 0.3mm verbunden werden müssen, kam es, vor allem bei der Serial-UART-Bridge in der
+oberen linken Ecke des Bilds, zu Leiterbahnablösungen. Das blaue und rote Kabel stellt die Versorgung der Platine dar. 
+
+\paragraph{Zweite Version der Platine}
+\hfill \break
+\hfill \break
+
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Handschuh_oben_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Handschuh_unten_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Handschuh_oben_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Handschuh_unten_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+
 
 \subsection{Roboterhand}
 
@@ -1998,6 +2078,82 @@ Funktion der anderen LED kann frei gewählt werden. \\
 \hfill \break
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
+\paragraph{Erste Testplatine}
+\hfill \break
+\hfill \break
+Die erste Testplatine wurde in der schuleigenen Werkstatt, mithilfe einer Platinenfräse, geffertigt. Da das Design auch zu dem frühen Zeitpunkt des Projekts schon relativ kompliziert war, gab es bei der Fertigung einige Probleme.
+Aufgrund schon vorhandener Erfahrung, wurden die Bauteile mit möglichst großem Fottprint (1206) gewählt, um ein einfaches Löten per Hand zu ermöglichen. Da es ICs aber leider nur in einer, für das Bauteil festgelegten, Größe zu kaufen gibt,
+mussten Leiterbahnen mit einer Breite von nur 0.3mm verwendet werden. Dies führte beim Löten leider zum Ablösen dieser, weshalb einige Jumper-Kabel notwendig waren, um die kaputten Leiterbahnen zu ersetzen. Die Installation dieser 
+Ersatzkabel, hat einige Zeit in Anspruch genommen, wodurch der Entwicklungsprozess der Hardware kurzzeitig verzögert wurde. \\
+\\ 
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platine_Roboterhand_oben_v1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Dies ist die Oberseite der ersten Testplatine. Es ist der ESP32 zu sehen. Rechts und links daneben die Taster zum Hochladen von Code und zum Zurücksetzen des Mikrokontrollers. Zu diesem Zeitpunkt der Entwicklung wurde noch eine Micro-USB-Buchse
+verwendet, da diese weitaus leichter zu löten ist als USB-C-Buchsen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platine_Roboterhand_unten_v1}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+Nun ist die Unterseite der ersten Testplatine zu sehen. Es kann erkannt werden, dass einige ungeplante Modifikationen vorgenommen wurden, um die Platine ein erstes mal in Betrieb setzen zu können. Unter anderem wurden zwei Pins zum ESP32 (grüne Kabel)
+neu verbunden und die Shunt-Widerstände mit 6, parallel geschalteten, $1\Omega$ Widersständen realisiert, da es Lieferschwierigkeiten mit den korrekten SMD-Widerständen gab. Über das rote und blaue, etwas dickere Kabel, wurde die Platine erstmals versorgt. \\
+\\
+Unter den grünen Kabeln ist zu erkennen, wie dünn die Leiterbahnen sein mussten, um diese mit den Pins der ICs verbinden zu können. In der rechten, oberen Ecke des Bildes, sind die Adress-Jumper des PWM-Controllers zu erknennen. Dieser wurde für Testzwecke 
+auf dieser Platine schon integriert, obwohl nur ein Servomotor angeschlossen werden kann. \\
+\\
+Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt und mit dem Entwurf der zweiten Platinenversion begonnen. \\
+\\
+
+\paragraph{Zweite Version der Platine}
+\hfill \break
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Roboterhand_oben_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Roboterhand_unten_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Roboterhand_oben_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Roboterhand_unten_v2}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
+
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
