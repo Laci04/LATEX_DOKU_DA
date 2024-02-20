@@ -134,8 +134,7 @@
 \hspace{40mm}
 
 \color{white}
-Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und
-	
+
 \color{blue}	
 \Large{\bfseries{Eidesstaatliche Erklärung}}	
 \color{black}	
@@ -144,7 +143,11 @@ Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständi
 
 \hspace{10mm}
 
-Ich erkläre an Eides statt, dass ich die vorliegende Diplomarbeit selbstständig und ohne fremde Hilfe verfasst, andere als die angegebenen Quellen und Hilfsmittel nicht benutzt und die den benutzen Quellen wörtlich und inhaltlich entnommenen Stellen als solche erkenntlich gemacht habe.
+Hiermit versichere ich, dass ich die vorliegende Arbeit selbstständig verfasst und keine anderen Hilfsmittel als die angegebenen benützt habe. Die Stellen, die anderen Werken (gilt ebenso für Werke
+aus elektronischen Datenbanken oder aus dem Internet) wörtlich oder sinngemäß entnommen sind, habe ich unter Angabe der Quelle und Einhaltung der Regeln wissenschaftlichen Zitierens kenntlich
+gemacht. Diese Versicherung umfasst auch in der Arbeit verwendete bildliche Darstellungen, Tabellen, Skizzen und Zeichnungen. Für die Erstellung der Arbeit habe ich auch folgende Hilfsmittel generativer
+KI-Tools (z. B. ChatGPT, Grammarly Go, Midjourney) zu folgendem Zweck verwendet: [Bitte hier Einsatzgebiet anführen.]. Die verwendeten Hilfsmittel wurden vollständig und wahrheitsgetreu inkl. Produktversion 
+und Prompt ausgewiesen. \\
 
 \begin{tabular}{p{7cm}}
 \\
@@ -1912,7 +1915,7 @@ der Controller mit 5V. \\
 Jeder Servomotor ist mit einem PWM-Pin des PWM-Controllers verbunden. Durch diese elektrischen Leitungen erhalten die Motoren ihre Drehbefehle. Um kompatibel mit dem Rest der Schaltung zu sein, haben wir die Versorgungsspannung für die Motoren mit
 5V gewählt. Ein höherer Spannungspegel mit 6V wäre auch möglich gewesen, allerdings ist der Aufwand die Spannung zu erhöhen mit dem daraus resultierenden Gewinn an Zugkraft nicht zu vergleichen. Aufgrund dieses Umstands, wurde der Versorgungspegel
 wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung (siehe Punkt 7.2.2.4) realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
-Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. 
+Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. Die weitere Logik hinter dem $GND_servo-Anschluss$ wird iim folgenden Punkt erklärt. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -1923,6 +1926,76 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 \end{figure}
 \hfill \break
 
+\paragraph{Strommessung zur Griffkraftkontrolle}
+\hfill \break
+\hfill \break
+
+\begin{itemize}
+	\item \textbf{Multiplexer} \\
+	\\
+	Der Multiplexer ermöglicht es, die Messschaltung der Griffkraftkontrolle nur einmal bauen zu müssen. Dies ermöglicht die Fähigkeit des Bauteils, in Bruchteilen einer Sekunde zwischen 8 verschiedenen Eingangskanälen zu wechseln.
+	Die oben dargestellten Anschlüsse für die Servomotoren, müssen für jeden Motor einzeln vorhanden sein. Dank des Multiplexers, kann jeder $GND-Pin$ allerdings auch zur Messung des Spannungsabfalls am Shunt-Widerstand gemessen werden.
+	Jede Leitung die mit dem Label $GND\_servo$ beschriftet ist, wird an den Multiplexer angeschlossen, der mit dem Operationsverstärker der Messschaltung verbunden ist. Durch diese Schaltungslogik, kann jeder Motor mit nur einer einzigen
+	Schltung überwacht werden. Da der OPV einen sehr, sehr hohen Eingangswiderstand hat, fließt der, von den Motoren benötigte Strom, fast ausschließlich über die Shunt-Widerstände. Dies verhindert, dass der Multiplexer hohe Ströme
+	schalten muss und somit Verluste auftreten. \\
+	\\
+	Mithilfe der Pins A0 - A2, kann der Multiplexer gesteuert werden. Durch eine Bitkombination, die in der Software variiert wird, kann somit der Eingangskanal gewählt und durchgeschaltet werden. Mit den Pin $EN$ kann das Bauteil deaktiviert,
+	beziehungsweise aktiviert werden. \\
+	\\
+	Der Anschluss $to\_GND\_servos$, verbindet den Multiplexer mit dem Operationsverstärker $TLV232$.
+	\\
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{1.0}
+			{\includegraphics[width=0.8 \linewidth]{Multiplexer_Schaltplan_Roboterhand}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+	\hfill \break
+
+	\item \textbf{Operationsversätker} \\
+	\\
+	Mit dem Operationsverstärker wird der Spannungsabfall am Shunt-Widerstand jedes Servos verstärkt. Der Ausgang des Multiplexers ist nun der positive Eingang des OPVs. Nach der Verstärkung des Spannungspegels, wird
+	das Signal noch gefiltert, bevor es über das Label $to\_ADC$ zum Analog-Digital-Wandler übertragen wird. Für weitere Informationen zum Schaltungsdesign, siehe Punkt 7.2.2.4 \\
+	\\
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{1.0}
+			{\includegraphics[width=0.8 \linewidth]{OPV_Schaltplan_Roboterhand}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+	\hfill \break
+
+	\item \textbf{Analog-Digital-Wandler} \\
+	\\
+	Das Ausgangssignal des Operationsverstärkers wird nun digitalisiert, um vom Mikrokontroller verarbeitet werden zu können. Über die beiden Datenleitungen $SDA$ und $SCL$ werden die digitalen Daten an den ESP32 übertragen. 
+	Adresspins sind bei diesem Bauteil keine vorhanden, weshalb die Standardadresse aus dem Datenblatt zur Ansteuerung zu verwenden ist. \\
+	\\
+	\begin{figure}[H]
+		\begin{center}
+			\scalebox{1.0}
+			{\includegraphics[width=0.8 \linewidth]{ADC_Schaltplan_Roboterhand}}
+			%\caption*{Ladislaus Szabo}
+		\end{center}
+	\end{figure}
+	\hfill \break
+\end{itemize}
+
+\paragraph{Status LEDs}
+\hfill \break
+\hfill \break
+Genau wie bei der Schaltung des Eingabesubsystems, soll den Benutzer des Produkts ein optisches Feedback über wichtige Parameter bekommen. Dies wird durch zwei Leuchtdioden umgesetzt. Eine leuchtet bei aufrechter Versorgung und die
+Funktion der anderen LED kann frei gewählt werden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{LEDs_Schaltplan_Roboterhand}}
+		%\caption*{Ladislaus Szabo}
+	\end{center}
+\end{figure}
+\hfill \break
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
 
