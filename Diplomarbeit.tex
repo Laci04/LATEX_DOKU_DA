@@ -418,19 +418,22 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \pagenumbering{arabic}
 
 \section{Einleitung}
+\label{chap:Einleitung}
 \subsection{Ausgangslage und grundlegende Motivation}
+\label{chap:Ausgangslage und grundlegende Motivation}
 Es gibt Produktionsbereiche, die klinisch sauber gehalten werden müssen, da durch Menschen Kontaminationen entstehen
 können. Für dieses Vorhaben soll ein Prototyp einer Roboterhand, die über einen Sensorhandschuh kabellos gesteuert wird,
 entwickelt und aufgebaut werden. Diverse Parameter der Roboterhand sollen in einem Interface für den Benutzer 
 dargestellt werden. \\
 
 \subsection{Themenerläuterung}
+\label{chap:Themenerläuterung}
 Ziel des Projekts ist es, eine Roboterhand zu bauen, die über einen kabellos verbundenen
 Handschuh gesteuert werden kann. Das Ziel ist es, Daten der Fingergelenkssensoren auszulesen,
 zu übertragen und die Bewegungen mit der Roboterhand nachzustellen. Endziel ist es, Daten
 richtig zu verarbeiten und die Roboterhand entsprechend zu bewegen. Daten sollen in einem
 Interface dargestellt werden. \\
-
+\\
 Es soll eine Erfassung der Sensordaten möglich sein. Diese sollen übertragen und empfangen
 werden können. Die Roboterhand soll die Finger nach der Vorgabe des Handschuhs bewegen
 können. Als Endergebnis soll eine halbvolle 500mL Plastikflasche umschlossen und in der Luft
@@ -438,7 +441,8 @@ gehalten werden. In dem Interface, dem User-Interface, sollen wichtige Daten dar
 Parameter verändert werden können. \\
 
 \subsection{Grundgliederung der Arbeit}
-Folgende Schüler des TGMs haben, das in Punkt 1.1 zusammengefasste, Projekt entwickelt und gefertigt: \hfill \break
+\label{chap:Grundgliederung der Arbeit}
+Folgende Schüler des TGMs haben, das in \autoref{chap:Themenerläuterung} erläuterte Projekt, entwickelt und gefertigt: \hfill \break
 \\
 Projektleiter:    Ladislaus Szabo (Hardwareentwicklung, PCB-Design, Projektleitung)\\
 Mitarbeiter: Fabian Schweitzer (Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration)\\
@@ -451,6 +455,7 @@ Dipl.Ing. Christoph Diemberger \\
 Fachlehrer Robert Offner
 
 \subsection{Untersuchungsanliegen der individuellen Themenstellungen}
+\label{chap:Untersuchungsanliegen der individuellen Themenstellungen}
 Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design aufgebaut werden,
 die mit einem kabellos angebundenen Handschuh gesteuert wird. Zu diesem Zweck müssen
 verschiedene Sensoren getestet werden, die die Fingergelenksstellung messen. Deren Daten
@@ -473,6 +478,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Lastenheft}
+\label{chap:Lastenheft}
 
 \begin{table}[H]
     \centering
@@ -607,6 +613,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Vorwissenschaftlicher Theorieteil}
+\label{chap:Vorwissenschaftlicher Theorieteil}
 
 \subsection{\textcolor{purple}{Platzhalter Thema Amir}}
 \subsection{\textcolor{purple}{Platzhalter Thema Fabian}}
@@ -615,8 +622,10 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Theoretische Grundlagen des Diplomprojekts}
+\label{chap:Theoretische Grundlagen des Diplomprojekts}
 
 \subsection{ESP-NOW \textcolor{red}{Fabian}}
+\label{chap:ESP-NOW}
 Das ESP-NOW Protokoll macht es möglich, dass man Daten problemlos per 
 Funkstrecke versenden kann. Dabei kann dieses auf dem ESP32 und ESP8266 
 verwendet werden, da nur diese dafür ausgewählt wurden. Der Hersteller 
@@ -698,6 +707,7 @@ Verzögerung, indem diese sehr niedrig gehalten werden kann. \\
 \end{figure}
 
 \subsubsection{OSI-Modell}
+\label{chap:OSI-Modell}
 Das OSI-Modell ist standardisiert und ermöglicht die Kommunikation zwischen den 
 verschiedensten Computersystemen. OSI (Open Systems Interconnection) wurde von der 
 ISO (International Organization for Standardization) erfunden. 
@@ -802,6 +812,7 @@ werden lizenzfreie Frequenzbänder im 2,4GHz-, 915MHz- und 868MHz-Bereich verwen
 \hfill \break
 
 \subsection{OPV Technologien \textcolor{red}{Laci}}
+\label{chap:OPV Technologien}
 Ein Operationsverstärker, kurz OPV, ist ein analoger Gleichspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
 Verstärkung auszeichnet. Der elektroische Grundbaustein ist ein Differenzverstärker, der durch äußere Beschaltungen angepasst werden kann.
 In der grundlegendsten Funktion, verstärkt ein OPV die Differenz der beiden Eingangsspannungen am $"$+$"$ und $"$-$"$ Anschluss. Das Ergebnis
@@ -837,13 +848,16 @@ in Orange, dargestellt. \\
 \end{figure}
 
 \subsection{PWM-Signale}
+\label{chap:PWM-Signale}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
 \section{Grundlegende Systemkonzepte}
+\label{chap:Grundlegende Systemkonzepte}
 
 \subsection{Gesamtsystemkonzept}
+\label{chap:Gesamtsystemkonzept}
 
 \subsubsection{Systembeschreibung}
 
@@ -865,6 +879,7 @@ setzt die digitalen Anweisungen in mechanische Bewegungen um, wodurch die Robote
 ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkten näher erläutert.
 
 \subsection{Eingabesubsystem}
+\label{chap:Eingabesubsystem}
 
 	\begin{figure}[H]
 		\begin{center}
@@ -881,6 +896,7 @@ werden von einer Messschaltung erfasst, die die Sensorwerte interpretiert, digit
 Kommunikationsprotokoll weitergibt. \\
 
 \subsection{Ausgabesubsystem}
+\label{chap:Ausgabesubsystem}
 
 \begin{figure}[H]
 	\begin{center}
@@ -892,13 +908,14 @@ Kommunikationsprotokoll weitergibt. \\
 \end{figure}
 
 Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes Format für die Steuerung der Aktorik, also den Servomotoren,
-umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem ist ein Graphical-User-Interface, 
-weclhes in Punkt 8.3 näher erklrärt wird. \\
+umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem, ist ein Graphical-User-Interface, 
+welches in \autoref{chap:User Interface} näher erklrärt wird. \\
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
 \section{Mechanische Realisierung}
+\label{chap:Mechanische Realisierung}
 
 \subsection{Handschuh \textcolor{red}{Amir}}
 \subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
@@ -1308,6 +1325,7 @@ allerdings optional und ist daher nicht garantiert zur Verwendung bereit. Über 
 auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
 
 \subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
+\label{chap:Überlegungen, Simulationen und Berechnungen}
 \paragraph{Bewegungserfassung der Fingerbeugung}
 \hfill \break
 \hfill \break
@@ -1321,10 +1339,10 @@ aktuell vorherrschenden Beugung. Bei dieser Art der Bewegungserfassung muss man 
 braucht auch keine externen Kameras. Somit ist bei dieser Methode der Datenerfassung ein sehr flexibler Verwendungsbereich 
 des Handschuhs gewährleistet. Um die Änderungen der Widerstandsstreifen messen und verarbeiten zu können ist nun eine Schaltung 
 notwendig. Diese muss Wertdifferenzen erkennen und in ein geeignetes Format zur Weiterverarbeitung mit einem Mikrokontroller
-umwandeln können.
-\\
+umwandeln können. \\
 \\
 \paragraph{Auslesen der Sensoren}
+\label{par:Auslesen der Sensoren}
 \hfill \break
 \hfill \break
 Das Auslesen der Flexsensoren kann durch einen einfachen Spannungsteiler erfolgen. Dabei ist die Genauigkeit
@@ -1417,7 +1435,7 @@ Folgende drei Kriterien sind maßgeblich bei der Wahl der Analog-Digital-Wandler
 		  \\
 		  \hspace*{1cm} $ ADC Ausgangsstufen = \frac{2.3V}{3.22mV} = 713 $ \\
 \end{itemize}
-Der reale Ausgangspegel des OPVs liegt wie bei der Simulation in Punkt Auslesen der Sensoren ermittelt zwischen 1.277V bis 2.416V.
+Der reale Ausgangspegel des OPVs liegt, wie bei der Simulation in \autoref{par:Auslesen der Sensoren} ermittelt, zwischen 1.277V bis 2.416V.
 Das beudeutet, dass eine Auflösung von 10Bit und ein Austeuerbereich von 0V - 3.3V ausreichend ist, um den kompletten Wertebereich
 sehr genau abzudecken. Zusätzlich haben wir uns noch dazu entschieden alle Logikbauteile die eine Kommunikation mit dem Mikrokontroller
 erfordern mit dem I2C Bussystem anzuschließen. Daher muss der Analog-Digital-Wandler diese Art der Kommunikation ebenfalls unterstützen.
@@ -1456,6 +1474,7 @@ I2C-Bus erfolgen, um die Kompatiblität mit der restlichen Schaltung zu ermögli
 Ausgewählt wurder der Sensor MPU-6000, da dieser schon eingebaute ADCs hat, um die Achswerte vor der Übertragung zu digitalisieren. \\
 \\
 \paragraph{Mikrokontroller}
+\label{par:Mikrokontroller}
 \hfill \break
 \hfill \break
 Bei der Auswahl des Mikrokontrollers wurden sehr viele Aspekte beachtet. Dieser ist das Herzstück der Schaltung und ermöglicht
@@ -1474,8 +1493,8 @@ Folgende Kriterien müssen vonn dem verwendeten Mikrokontroller folglich erfüll
 	\item Unterstützte Bussysteme: \\
 		  \\
 		  Da die wir bei der Schaltung eunheitlich auf das I2C Bussystem setzen, muss zumindest dieses von dem gewählten Mikrokontroller
-		  unterstützzt werden. Als zweite Pflichtunterstützung gilt die UART-Kommunikation. Die Funktion und Notwendigkeit dieser
-		  wird in Punkt \textcolor{red}{(externe Anschlüsse)} erläutert.
+		  unterstützzt werden. Als zweite Pflichtunterstützung gilt die UART-Kommunikation. Die Funktion und Notwendigkeit dieser,
+		  wird in \autoref{par:Externe Anschlüsse} erläutert.
 	\item Möglichkeiten der drahtlosen Übertragung: \\
 		  \\
 		  Da die Flexsensorwerte drahtlos Übertragen werden müssen, muss der Mikrokontroller eine Form dieser Übertragung unterstützen.
@@ -1517,11 +1536,11 @@ Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. En
 \\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
-In den folgenden Punkten werden die praktischen Tests, der in Punkt 7.1.2 beschriebenen Konzepte und Überlegungen, erläutert.\\
+In den folgenden Punkten, werden die praktischen Tests der, in \autoref{chap:Überlegungen, Simulationen und Berechnungen} beschriebenen Konzepte und Überlegungen, erläutert.\\
 \paragraph{Messchaltung der Flexsensoren}
 \hfill \break
 \hfill \break
-Zunächst wurde die Schaltung aus Punkt 7.1.2.2 auf einem Steckbrett aufgebaut. Das Ziel der Messung ist es, den Widerstand 
+Zunächst wurde die Schaltung aus \autoref{par:Auslesen der Sensoren} auf einem Steckbrett aufgebaut. Das Ziel der Messung ist es, den Widerstand 
 bei jeder Stellung eines Flexsensoren zu wissen. Dies ist wichtig, um die Daten der Sensoren korrekt auszulesen und an die 
 Roboterhand zu senden. Werden die Widerstandswerte nicht korrekt gemessen, so bewegt sich die Roboterhand nicht entsprechend 
 nach den Bewegungen des Benutzers. \\
@@ -1529,7 +1548,7 @@ nach den Bewegungen des Benutzers. \\
 Die zu messende Größe ist die Ausgangsspannung des OPVs, die sich je nach Widerstand der Last verändert. Die Last wird in 
 unserem Versuchsaufbau von drei Widerständen simuliert, da wir die Flexsensoren zu dem Zeitpunkt der Messung noch nicht zu 
 Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt, da der Widerstandsbereich der Sensoren bei 
-25k – 125k liegt. Im nächsten Punkt werden die Messergebnisse dargestellt. \\
+25k – 125k liegt. In \autoref{par:Messergebnisse} werden die Messergebnisse dargestellt. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -1556,6 +1575,7 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 \\
 
 \paragraph{Messergebnisse}
+\label{par:Messergebnisse}
 \hfill \break
 \hfill \break
 \begin{figure}[H]
@@ -1612,6 +1632,7 @@ Nach den generellen Überlegungen und Versuchsaufbauten, die zu der Entwicklung 
 das genaue Schaltungsdesign erläutert. \\
 \\
 \paragraph{Externe Anschlüsse}
+\label{par:Externe Anschlüsse}
 \hfill \break
 \hfill \break
 \begin{itemize}
@@ -1623,7 +1644,7 @@ das genaue Schaltungsdesign erläutert. \\
 		  diese auch unterstützen. Mit einer Serial-UART-Bridge, wird das Signal umgewandelt. Der Chip wird von +3.3V versorgt.
 		  Von der USB-Buchse werden die beiden Datenleitungen D+ und D- mit verbunden. Anschließend wird das umgewandelte Signal 
 		  über die UART-Leitungen an den ESP32 Mikrokontroller übertragen. Wichtig zu beachten ist hierbei, dass die UART-Leitungen
-		  ausgekreuzt sein müssen. Die Funktion der Anschlüsse RTS und DTR wird in Punkt \textcolor{red}{Mikrokontroller} erläutert. \\
+		  ausgekreuzt sein müssen. Die Funktion der Anschlüsse RTS und DTR wird in \autoref{par:Mikrokontroller} erläutert. \\
 		  \begin{figure}[H]
 			\begin{center}
 				\scalebox{0.5}
@@ -3015,6 +3036,7 @@ SCL auch den Wert 1 besitzt. \\
 
 
 \subsection{User Interface}
+\label{chap:User Interface}
 
 \subsubsection{Grundlegende Vorraussetzungen}
 Grundvorraussetzungen die das User-Interface erfüllen muss sind eine Anzeige der aktuellen Griffkraft in kg und eine Anzeige für
