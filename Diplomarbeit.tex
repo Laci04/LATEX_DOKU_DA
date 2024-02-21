@@ -630,7 +630,7 @@ Das ESP-NOW Protokoll macht es möglich, dass man Daten problemlos per
 Funkstrecke versenden kann. Dabei kann dieses auf dem ESP32 und ESP8266 
 verwendet werden, da nur diese dafür ausgewählt wurden. Der Hersteller 
 $"$Espressif$"$ hat dieses Protokoll entwickelt. Es können bis zu 250 Bytes 
-pro Senden ausgetauscht werden. Dies ist auch bis zu einer maximalen Anzahl 
+pro Sendevorgang ausgetauscht werden. Dies ist auch bis zu einer maximalen Anzahl 
 von zwanzig ESP32/ESP8266 Slaves möglich. Das Mischen der beiden genannten 
 Boards ist möglich. Dabei kann auch jeder der ESPs jeweils als Transmitter, 
 Receiver oder Transceiver verwendet werden. Ein Vorteil dieser Übertragungsmöglichkeit 
@@ -647,8 +647,8 @@ muss auch die Bibliothek für WIFI eingebunden werden. Wichtig ist, dass WIFI
 zuvor aktiviert wurde, da sonst keine Daten übertragen werden können. Durch 
 den Aufruf der Funktion esp\_now\_init$()$ kann ESP-NOW initialisiert werden, 
 mit esp\_now\_deinit$()$ kann es wieder rückgängig gemacht werden. Durch die 
-Funktion esp\_now\_add\_peer$()$ können neue Geräte gespeichert werden, an die 
-man dann etwas sendet. Zu beachten ist, dass Kanäle von 0 bis 14 vorhanden 
+Funktion esp\_now\_add\_peer$()$ können neue Geräte, an die man dann etwas sendet, 
+in die Liste der Geräte aufgenommen werden. Zu beachten ist, dass Kanäle von 0 bis 14 vorhanden 
 sind, wobei 0 für den aktuellen Kanal steht. Darüber wird dann auch gesendet, 
 außer man stellt einen spezifischen Kanal ein, auf dem sich das lokale Gerät 
 befindet. \\
@@ -656,9 +656,9 @@ befindet. \\
 Um Daten zu senden, muss die Funktion esp\_now\_send$()$ aufgerufen werden. 
 Dadurch können dann Daten gesendet werden. Die Funktion esp\_now\_register\_send\_cb$()$ 
 ist dafür da, um die Sende-Callback-Funktion zu registrieren. Es wird ein 
-Feedback zurückgeliefert, ob die Daten erfolgreich gesendet wurden oder 
-nicht. Bei erfolgreichem Senden wird ESP\_NOW\_SEND\_SUCCESS zurückgeliefert. 
-Dies passiert, wenn sie erfolgreich am MAC-Layer empfangen wurden, ansonsten 
+Wert zurückgeliefert, der angibt, ob die Daten erfolgreich gesendet wurden oder 
+nicht. Bei einem erfolgreichen Sendevorgang wird ESP\_NOW\_SEND\_SUCCESS zurückgeliefert. 
+Dies passiert, wenn sie erfolgreich am MAC-Layer der Empfängerseite empfangen wurden, ansonsten 
 ESP\_NOW\_SEND\_FAIL. Warum eine Fehlermeldung ausgegeben wird, kann nicht 
 nur einen Grund haben. Beispielsweise existiert die angestrebte MAC-Adresse 
 nicht, die Kanäle sind nicht identisch oder der Action frame geht bei der 
@@ -677,16 +677,16 @@ werden. Dies ist dafür verantwortlich, um die Empfangs-Callback-Funktion zu
 realisieren. Genauso, wie beim Sender, wird hierzu der WIFI-Task verwendet, 
 weshalb nur die nötigsten Operationen abgearbeitet werden sollen. \\
 \\
-Mit der Funktion esp\_wifi\_config\_espnow\_rate$()$ kann die ESP-NOW Rate angegeben 
+Mit der Funktion esp\_wifi\_config\_espnow\_rate$()$ kann die ESP-NOW Datenrate angegeben 
 werden. Dabei muss beachtet werden, dass die gewünschte Schnittstelle bereits 
 konfiguriert wurde. Eine Energiesparen Funktion kann über 
 esp\_wifi\_connectionless\_module\_set\_wakre\_interval$()$ festgelegt werden. Hier 
+meist durch eine Wand, in seltenen Fällen sogar durch zwei, abhängig von der Dicke 
 kann man dann einstellen, wann sich der ESP einschalten soll. \\
 \\
-Im Freien, ohne störende Wände oder Möbel, kann ESP-NOW Daten auf jeden Fall von 150 
-bis 200 Metern weit übertragen. In geschlossenen Räumen funktioniert die Übertragung 
-meist durch eine Wand, in seltenen Fällen sogar durch zwei, abhängig von der Dicke 
-und anderen störenden Einflüssen. \\
+Im Freien, ohne störende Wände oder Möbel, kann ESP-NOW Daten auf jeden Fall 100 
+bis 250 Meter weit übertragen. In geschlossenen Räumen funktioniert die Übertragung 
+und anderen störenden Einflüssen. \footnote{\url{https://wolles-elektronikkiste.de/esp-now\#range}, (Stand: 21.02.2024)} \\
 \\
 Das OSI-Modell wird bei dem ESP-NOW Modell von fünf Schichten auf eine 
 einzige reduziert. Daten müssen somit nicht den Network layer, nicht den 
@@ -694,9 +694,9 @@ Transport layer, nicht den Session layer, nicht den Presentation layer und
 nicht den Application layer durchlaufen. Der große Vorteil liegt außerdem 
 darin, dass man einige Dinge nicht berücksichtigen muss. Es gibt keine 
 Paketköpfe oder Entpacker auf jeder Schicht. Dies führt zu einer schnelleren 
-Reaktion und die Paketverluste werden dadurch in überlasteten Netzen 
+Reaktion, zu weniger Overhead und die Paketverluste werden dadurch in überlasteten Netzen 
 reduziert. Dies führt zu einer deutlichen Verbesserung der möglichen 
-Verzögerung, indem diese sehr niedrig gehalten werden kann. \\
+Verzögerung, indem diese sehr niedrig gehalten werden kann. \footnote{\url{https://www.espressif.com/en/solutions/low-power-solutions/esp-now}, (Stand: 21.02.2024)} \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.0}
@@ -717,7 +717,7 @@ dass jede einzelne Schichte eine andere Aufgabe erfüllt. Durch das System der
 einzelnen Schichten kann die Fehlersuche vereinfacht werden, da man die jeweiligen 
 durchforsten kann. Zu beachten ist allerdings, dass diese untereinander ebenfalls 
 Daten austauschen und untereinander kommunizieren können. Dabei ist jede Schicht 
-nach international standardisierten Protokollen definiert. Das bedeutet, das gewisse 
+nach international standardisierten Protokollen definiert. Das bedeutet, dass gewisse 
 Regeln zur Kommunikation eingehalten werden müssen. Dabei ist es möglich, dass sich 
 ein Protokoll über mehrere Schichten verteilt. \\
 \\
@@ -2461,7 +2461,7 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Roboterhand_oben_v2}}
-		\caption{Toplayer zweites PlatinendesignUnterseite erste Testplatine Ausgabesubsystem}
+		\caption{Toplayer zweites Platinendesign}
 		\label{fig:Platinenlayout_Roboterhand_oben_v2}	
 	\end{center}
 \end{figure}
@@ -2966,9 +2966,8 @@ Schäden an der Mechanik zu vermeiden. \\
 Der Arduino, beziehungsweise der ESP, werden über die serielle Verbindung UART 
 (Universal Asynchronous Receiver and Transmitter) vom Computer angesprochen. 
 Dabei stellt diese Verbindung eine asynchrone Datenübertragung mit fester Baudrate, 
-Datenbits, Paritätsbits und Stoppbits dar. Es werden ausschließlich zwei Leitungen 
-benötigt, nämlich eine zum Senden von Daten (TX – Transmit) und eine zum Empfangen 
-von Daten (RX – Receive), um eine Möglichkeit der Kommunikation zu ermöglichen. 
+Datenbits, Paritätsbits und Stoppbits dar. Es sind zwei Datenleitungen vorhanden, wobei 
+eine für das Senden (TX) und die andere für das Empfangen (Rx) von Daten zuständig ist. 
 Die Start- und Stopbits geben an, wann gesendet werden soll und wann dies nicht 
 mehr geschehen soll. Sobald der Sender ein Startbit erhält, beginnt die Übertragung 
 der Daten, aber beim Empfangen des Stopbit wird diese unterbrochen. Es wird 
@@ -2986,10 +2985,11 @@ Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH).
 Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
 ein Paritybit mitgesendet, das angibt, ob die Anzahl dieser gerade oder ungerade 
 ist. Es gibt klarerweise keine hundertprozentige Sicherheit, aber man kann sich 
-mehr auf die Nutzbarkeit der Daten verlassen. Wenn das Paritybit auf 0 gesetzt 
-ist (odd), dann ist die Anazhl der Highbits ungerade. Wenn das Paritybit auf 1 
-gesetzt ist (even), dann ist die Anzahl der Highbits gerade. Es werden am 
-Schluss meistens zwei Stopbits gesendet, um eine längere Ruhephase zu realisieren. 
+mehr auf die Nutzbarkeit der Daten verlassen. Bei der UART-Kommunikation bedeutet 
+ein Paritybit von 0 (odd), dass die Summe der Highbits eine ungerade Zahl ist. Ein 
+Paritybit von 1 (even) hingegen zeigt an, dass die Summe der Highbits eine gerade 
+Zahl ist. Üblicherweise werden zwei Stopbits am Ende einer Übertragung gesendet, 
+um eine verlängerte Ruhephase zu gewährleisten. 
 Dies führt zu einer stabileren Synchronität und Erhöhung der Robustheit gegen 
 Signalstörungen. Bei UART wird das LSB (least significant bit) immer ganz rechts 
 in den Daten gefunden. Sollte das Paritybit nicht stimmen, dann wird vom 
@@ -3011,7 +3011,7 @@ da der Datensatz nicht stimmt. \\
 \\
 I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
 kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
-Leitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
+Datenleitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
 interpretiert der I2C-Bus die Daten und steuert den Ablauf. Bei unserem Projekt ist 
 der ESP32 der Master und die Flexsensoren beispielsweise die Slaves. Der Master ist 
 dann der wichtige Bestandteil, da dieser für alle anderen Slaves derjenige ist, der 
