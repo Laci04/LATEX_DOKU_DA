@@ -87,11 +87,11 @@
 \contentsline {paragraph}{\numberline {7.1.4.5}Multiplexer}{43}{paragraph.7.1.4.5}%
 \contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{43}{paragraph.7.1.4.6}%
 \contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{44}{paragraph.7.1.4.7}%
-\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{44}{paragraph.7.1.4.8}%
-\contentsline {paragraph}{\numberline {7.1.4.9}Akku Versorgung}{45}{paragraph.7.1.4.9}%
-\contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{46}{subsubsection.7.1.5}%
-\contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{46}{paragraph.7.1.5.1}%
-\contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{48}{paragraph.7.1.5.2}%
+\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{45}{paragraph.7.1.4.8}%
+\contentsline {paragraph}{\numberline {7.1.4.9}Akku Versorgung}{46}{paragraph.7.1.4.9}%
+\contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{47}{subsubsection.7.1.5}%
+\contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{47}{paragraph.7.1.5.1}%
+\contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{49}{paragraph.7.1.5.2}%
 \contentsline {subsection}{\numberline {7.2}Roboterhand}{52}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Grundlegende Vorraussetzungen}{52}{subsubsection.7.2.1}%
 \contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{52}{subsubsection.7.2.2}%

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1708529607 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708529614 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708529600 169315 a76476ea9de8a75d54e5d351ce91a689 ""
+["pdflatex"] 1708532805 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708532812 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708532797 170088 43e1fe02d461ce1047de380b8395d14d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -216,10 +216,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1708529614 44655 d499058504ee477a0c529e7cca813f0d "pdflatex"
-  "Diplomarbeit.out" 1708529614 30319 20fb72a1cbef0c85957f87024d4e3bf7 "pdflatex"
-  "Diplomarbeit.tex" 1708529600 169315 a76476ea9de8a75d54e5d351ce91a689 ""
-  "Diplomarbeit.toc" 1708529614 16307 259731f730b8d562fa899c9182965742 "pdflatex"
+  "Diplomarbeit.aux" 1708532812 45746 f2e0b0740c0bb16cf8890981c65a5b86 "pdflatex"
+  "Diplomarbeit.out" 1708532812 30319 20fb72a1cbef0c85957f87024d4e3bf7 "pdflatex"
+  "Diplomarbeit.tex" 1708532797 170088 43e1fe02d461ce1047de380b8395d14d ""
+  "Diplomarbeit.toc" 1708532812 16307 1c5e595e97e6c39c9050d028ce79424f "pdflatex"
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
   "src/Akku_Boostconverter_Schaltplan_Handschuh.png" 1706622894 109363 6fd598b6378a1d4896a6bcee38051983 ""
@@ -252,6 +252,7 @@
   "src/Mikrokontroller_Schaltplan_Roboterhand.png" 1708451610 184742 5b9ebf9dff0efc79f932ecad60b27ea5 ""
   "src/Motorblock_1.png" 1708503549 416054 960d0d3dbc17cd0b3ac2b5ce76de8589 ""
   "src/Multiplexer_Beispiel.jpg" 1708439496 63422 777080c28d7b0da44e35a6c0d153161b ""
+  "src/Multiplexer_Schaltplan_Handschuh.png" 1708531028 55033 78b29ef5aea7bf8e0fcbd063ef8eda00 ""
   "src/Multiplexer_Schaltplan_Roboterhand.png" 1708454713 67864 1fe97ceed7d9dac5edcd79d066a2000f ""
   "src/Netzteil_Anschluss_Schaltplan_Roboterhand.png" 1708446955 40285 71f3c5d248ddb0324a40f23035eb991e ""
   "src/OPV_Schaltplan_Roboterhand.png" 1708455935 58149 3ac79743d5c5846aae13624e52fa83d2 ""

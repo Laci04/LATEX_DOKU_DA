@@ -788,7 +788,7 @@ Diese Protokolle sind für die Kommunikation notwendig und standardisiert. \\
 \hfill \break
 \hfill \break
 Es gibt bei ESP-NOW zwei Schichten, den Data Link Layer und den Physical Layer 
-(siehe OSI-Modell). Dabei beruht der Physical Layer auf dem IEEE 802.15.4 Standard. 
+(siehe \autoref{chap:OSI-Modell}). Dabei beruht der Physical Layer auf dem IEEE 802.15.4 Standard. 
 Da jedoch nicht so viele Schichten, wie bei dem OSI-Modell vorhanden sind, gibt es 
 mehrere Möglichkeiten, wo Fehler liegen können und es ist nicht so leicht den Fehler 
 an der richtigen Stelle zu suchen. \\
@@ -997,6 +997,7 @@ in Richtung der Fläche verjüngt, dies ermöglicht dem Finger sich auf noch eng
 zusammenzuziehen.
 
 \paragraph{Versuchsresultat}
+\label{par:Versuchsresultat}
 \hfill \break
 \hfill \break
 Das Versuchsresultat war nahrhaft und bot einen breiten Einblick in den Mechanismus. 
@@ -1020,7 +1021,7 @@ Gummikordel. \\
 \hfill \break
 Die erste Testhand zielt darauf ab ein Modell welches durchgängig erweitert 
 werden kann zu schaffen. Mit Rücksicht auf etwaige Testergebnisse des 
-Versuchsresultats (Verweis auf 6.2.1.2) soll ein Modell geschaffen werden, 
+Versuchsresultats (siehe \autoref{par:Versuchsresultat}) soll ein Modell geschaffen werden, 
 welches den im Versuch aufgetretenen Problematiken entgegenwirkt. Unter anderem 
 der nicht vorhandene Rückzug, eine Schnur für den Zug mit ausreichender 
 Reißfestigkeit sowie eine anwendungsgemäße Konstruktion des Fingers. \\
@@ -1416,6 +1417,7 @@ da dieser Widerstand bei sowohl voller, als auch geringer Biegung der Flexsensor
 Verstärkung mit dem OPV liefert. \\
 \\
 \paragraph{Umwandlung der Differenzwerte in ein geeignetes Format}
+\label{par:Umwandlung der Differenzwerte in ein geeignetes Format}
 \hfill \break
 \hfill \break
 Um nun die analogen Ausgangswerte des Operationsverstärkers nach der Verstärkung der Spannungsdifferenzen am Flexsensor für
@@ -1739,10 +1741,19 @@ Der Multiplexer schaltet zwischen allen Flexsensoren durch und vermeidet somit d
 Die Verbindung zum ESP32 erfolgt über drei digitale Addresspins und einen Enable Pin. Je nachdem welche Bitkombination übermittelt
 wird, ändert sich die interne Schalterposition und somit der gerade aktive Kanal zur Messung eines Flexsensors. \\
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Multiplexer_Schaltplan_Handschuh}}
+		\caption{Multiplexer}
+		\label{fig:Multiplexer_Schaltplan_Handschuh}		
+	\end{center}
+\end{figure}
+
 \paragraph{Operationsverstärker}
 \hfill \break
 \hfill \break
-Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in Punkt "Auslesen der Sensoren" beschrieben, benötigt. Da am
+Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in \autoref{par:Auslesen der Sensoren} beschrieben, benötigt. Da am
 Shuntwiderstand nur sehr wenig Spannungsabfall auftritt und daher die Spannungsdifferenz zwischen positivem und negativem 
 Verstärkereingang sehr klein ist, muss das Signal verstärkt werden. Hierfür wird der INA129 Instrumentenverstärker verwendet.
 Dieser wird mit 5V versorgt, was für einen OPV eine relativ geringe Versorgungsspannung ist. Da die maximale Eingangsspannung
@@ -1767,7 +1778,7 @@ von 1V verwendet. \\
 \hfill \break
 Der Analog-Digital-Wandler ist dafür zuständig, die analogen Werte, vom Ausgang des Operationsverstärkers kommend, in digitale 
 Signale umzuwandeln. Der OPV und der ADC sind über das Label toADC verbunden. Da der Chip über 3.3V versorgt wird, befindet
-sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im Punkt Umwandlung der Diferenzwerte in ein geeignetes Format berechnet, 
+sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im \autoref{par:Umwandlung der Differenzwerte in ein geeignetes Format} berechnet, 
 hat der ADC in unserer Schaltung ein LSB von 3.22mV. Da wir wissen, dass die kleinste Spannungsdifferenz am Shuntwiderstand 6.3mV
 ist und diese auch noch mit dem Faktor 46 verstärkt wird, kann festgestellt werden, dass der ADC mehr als genau genug für unsere
 Anwendung ist. Dies ist ein Vorteil, da bei der Programmierung anschließend nicht zwischen einzelnen ADC-Stufen unterschieden werden
@@ -1956,21 +1967,22 @@ ausfallen wird. \\
 \hfill \break
 Um den Datentransfer möglichst einfach zu gestallten und keine Kompatibilitätsprobleme zu haben, entschieden wir uns den gleichen Mikrokontroller
 wie beim Eingabesubsystem zu verwenden. Dies ermöglicht eine relativ einfache Datenübertragung ohne zusätzliche Antennen. Werden Daten empfangen,
-so wird die Software am Chip aktiv, die in Punkt (\textcolor{red}{Verweis auf Roboterhand Softwarebeschreibung}) näher beschrieben wird. Der
+so wird die Software am Chip aktiv, die in \autoref{chap:Realisierung und Gleiderung Roboterhandsoftware} näher beschrieben wird. Der
 Entschluss zur Verwendung dieser \"identischen\" Systeme, wurde relativ rasch getroffen, da wir genug andere Schwierigkeiten haben werden und 
-die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in Punkt 7.2.5 erklärt.
+die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in \autoref{chap:Platinendesign Roboterhand} erklärt.
 
 \paragraph{Ansteuerung der Motoren}
+\label{par:Ansteuerung der Motoren}
 \hfill \break
 \hfill \break
-Nachdem die Daten in Software verarbeitet wurden, müssen nun die Servomotoren angesteuert werden. Da diese über ein PWM-Signal (\textcolor{red}{siehe Punkt 4.3})
+Nachdem die Daten in Software verarbeitet wurden, müssen nun die Servomotoren angesteuert werden. Da diese über ein PWM-Signal (siehe \autoref{chap:PWM-Signale})
 angesteuert werden, stellt sich die Frage ob man dies direkt über den Mikrokontroller realisiert, oder mithilfe einer PWM-Controller-Schaltung.
 Da wir eine Mindestanzahl von fünf Servomotoren haben und auch für zukünftige Erweiterungen bereit sein möchten, haben wir uns für die Ansteuerung
 via Servo-Controller entschieden. \\
 \\
 Bei der Ansteuerung der Motoren ohne Controller, ist das Problemm, dass für jeden Servomotor ein eigener Pin des Mikrokontrollers benötigt wird.
 Dies ist nicht gerade Vorteilhaft, weil dadurch zwangsweise andere Funktionen des Mikrokontrollers, die nur mit bestimmten Pins funktionsfähig sind,
-außer Kraft gesetzt werden. Um dieses Problem zu vermeiden verwenden wir einen PWM-Controller-Chip, dessen Auswahö im folgenden Punkt näher erläutert wird. \\
+außer Kraft gesetzt werden. Um dieses Problem zu vermeiden verwenden wir einen PWM-Controller-Chip, dessen Auswahl im folgenden Punkt näher erläutert wird. \\
 \\
 \textbf{PWM-Controller-Chip}
 \\
@@ -1985,6 +1997,7 @@ Durch die hohe Anzahl von Signal-Ausgängen bleiben wir ebenfalls für zukünfti
 \\
 
 \paragraph{Positions -und Kraftmessung der Roboterfinger}
+\label{par:Positions -und Kraftmessung der Roboterfinger}
 \hfill \break
 \hfill \break
 Da mit der Roboterhand Objekte gegreift werden sollen, ohne diese zu beschädigen oder zu zerquetschen, mussten wir uns eine Schaltung überlegen,
@@ -2004,7 +2017,7 @@ benötigt. Dies ermöglicht uns jeden Motor einzeln zu regulieren und gegebenenf
 	\end{center}
 \end{figure}
 \hfill \break
-Diese Messung basiert auf dem gleichen Prinzip wie die der Flexsensorstellung in \textcolor{red}{Punkt 7.1.2.2}. Mithilfe eines 
+Diese Messung basiert auf dem gleichen Prinzip wie die der Flexsensorstellung in \autoref{par:Auslesen der Sensoren}. Mithilfe eines 
 Shunt-Widerstands wird ein Spannungsabfall gemessen, der anschließend über eine Messchaltung verstärkt und in ein Digitalsignal
 umgewandelt wird. \\
 \\
@@ -2025,7 +2038,7 @@ Folgendes Kriterium wurde bei der Wahl des Operationsverstärkers beachtet:
 		  dieser geringen Spannung immer noch verstärken. Da am positiven Verstärkereingang
 		  eine maximale Spannung von 5V anliegt, muss dies bei Verstärkern mit einer geeigneten
 		  Supply Range auch mit nur 5V Versorgungsspannung gewährleistet sein. Folglich wird
-		  die Rail-to-Rail Technolgie (\textcolor{red}{Punkt 4.2.3}) tragend, um keine Referenzspannung
+		  die Rail-to-Rail Technolgie (siehe \autoref{chap:OPV Technologien}) tragend, um keine Referenzspannung
 		  zu benötigen.
 \end{itemize}
 Da wir nicht bis ganz an die Grenzen des Aussteuerbereichs kommen werden (wird anhand der Berechnungen verständlich), ist der TLV232 wie für diese Anwendung gemacht. \\
@@ -2290,7 +2303,7 @@ sind Stützkondensatoren zu $GND$ geschalten, um die Spannungspegel von $5V$ und
 \paragraph{PWM-Controller}
 \hfill \break
 \hfill \break
-Der PWM-Controller ist das Bauteil, das für die korrekte Datenübertragung der Steuerungsdaten an die Servomotoren zuständig ist. Da wir keine Funktionen und Anschlüsse des Mikrokontrollers blockieren wollen (siehe Punkt 7.2.2.3), 
+Der PWM-Controller ist das Bauteil, das für die korrekte Datenübertragung der Steuerungsdaten an die Servomotoren zuständig ist. Da wir keine Funktionen und Anschlüsse des Mikrokontrollers blockieren wollen (siehe \autoref{par:Ansteuerung der Motoren}), 
 haben wir den $PCA9685$ gewählt. Dieser ist per I2C-Protokoll ansteuerbar und hilft uns daher die Anzahl der elektrischen Leitungen auf ein Minimum zu reduzieren. Um die korrekte Ansteuerung des Mikrochips zu gewährleisten, existieren
 natürlich auch Adresspins (A0 - A5). Diese können auf $HIGH$ oder $LOW$ gesetzt werden, um die I2C-Adresse benutzerdefiniert einzustellen. Wir haben uns dazu entschieden diese Adressierung mit Lötjumpern einstellbar zu machen. Standardmäßig
 ist die Adresse auf $0 0 0 0 0 0$, kann jedoch geziehlt durch das zulöten einzelner Jumper modifiziert werden. Der Pin $OE$, ist mit dem ESP32 verbunden. Dieser Anschluss erlaubt uns den PWM-Output des Mikrochips, durch ein $HIGH$ oder $LOW$ 
@@ -2312,8 +2325,8 @@ der Controller mit 5V. \\
 \hfill \break
 Jeder Servomotor ist mit einem PWM-Pin des PWM-Controllers verbunden. Durch diese elektrischen Leitungen erhalten die Motoren ihre Drehbefehle. Um kompatibel mit dem Rest der Schaltung zu sein, haben wir die Versorgungsspannung für die Motoren mit
 5V gewählt. Ein höherer Spannungspegel mit 6V wäre auch möglich gewesen, allerdings ist der Aufwand die Spannung zu erhöhen mit dem daraus resultierenden Gewinn an Zugkraft nicht zu vergleichen. Aufgrund dieses Umstands, wurde der Versorgungspegel
-wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung (siehe Punkt 7.2.2.4) realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
-Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. Die weitere Logik hinter dem $GND_servo-Anschluss$ wird iim folgenden Punkt erklärt. \\
+wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung (siehe \autoref{par:Positions -und Kraftmessung der Roboterfinger}) realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
+Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. Die weitere Logik hinter dem $GND_servo-Anschluss$ wird im folgenden Punkt erklärt. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -2356,7 +2369,7 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 	\item \textbf{Operationsversätker} \\
 	\\
 	Mit dem Operationsverstärker wird der Spannungsabfall am Shunt-Widerstand jedes Servos verstärkt. Der Ausgang des Multiplexers ist nun der positive Eingang des OPVs. Nach der Verstärkung des Spannungspegels, wird
-	das Signal noch gefiltert, bevor es über das Label $to\_ADC$ zum Analog-Digital-Wandler übertragen wird. Für weitere Informationen zum Schaltungsdesign, siehe Punkt 7.2.2.4 \\
+	das Signal noch gefiltert, bevor es über das Label $to\_ADC$ zum Analog-Digital-Wandler übertragen wird. Für weitere Informationen zum Schaltungsdesign, siehe \autoref{par:Positions -und Kraftmessung der Roboterfinger} \\
 	\\
 	\begin{figure}[H]
 		\begin{center}
@@ -2401,6 +2414,7 @@ Funktion der anderen LED kann frei gewählt werden. \\
 \hfill \break
 
 \subsubsection{Platinendesign \textcolor{red}{Laci}}
+\label{chap:Platinendesign Roboterhand}
 \paragraph{Erste Testplatine}
 \hfill \break
 \hfill \break
@@ -2492,6 +2506,7 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 \subsection{Handschuh}
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
 \paragraph{Datenübertragung}
+\label{par:Datenübertragung}
 \hfill \break
 \hfill \break
 Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor ausliest, zu übertragen. Wichtig ist es, dass 
@@ -2850,7 +2865,7 @@ richtig einstellen kann. Falsche Messungen sollen bestmöglich korrigiert werden
 Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerung dar.
 
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
-Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe 6.1.1! \\
+Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe \autoref{par:Datenübertragung} \\
 \\
 \paragraph{Testen}
 \hfill \break
@@ -2877,6 +2892,7 @@ entlastet wird.
 \\
 
 \subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
+\label{chap:Realisierung und Gleiderung Roboterhandsoftware}
 \paragraph{Realisierung}
 \hfill \break
 \hfill \break
