@@ -3106,11 +3106,33 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 \subsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte}}
 
 %--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==Zusammenfassung=========================================================
+\section{Ergebnisse und Erkenntisse}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+%==AUSBLICK================================================================
+\section{Ausblick}
+
+
+%--------------------------------------------------------------------------
 \section{Anhang}
 %--------------------------------------------------------------------------
+\section{Abkürzungsverzeichnis}
+\textbf{MAC-Adresse} \\
+\\
+\textbf{IP-Adresse} \\
+\\
+\textbf{CAD-Software/Programm} \\
+\\
+
+
+
 %==PROJEKTMANAGEMENT=======================================================
 \section{Projektmanagement}
 \subsection{Projektstrukturplan}
+
 \subsection{Milestoneplan}
 \begin{table}[h]
     \centering
@@ -3134,47 +3156,173 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 \end{table}
 
 \subsection{Gantt-Diagram}
+
 \subsection{Meeting Struktur}
+
+\subsection{Arbeitstunden}
+
+%--------------------------------------------------------------------------
+%--------------------------------------------------------------------------
+\section{Programme, Installationen und Plugins}
+\subsection{Fusion 360}
+Autodesk Fusion 360 vereint CAD-, CAM-, CAE- und Leiterplatten-Funktionen in einer einzigen, integrierten Cloud-Softwareplattform. Die Software enthält alle Werkzeuge, die Sie benötigen, 
+um sämtliche Prozesse vom Entwurf bis zur Fertigung nahtlos auszuführen. \\
+\\
+Mit Fusion 360 können Sie: \\
+
+\begin{itemize}
+	\item Konstruktionsvarianten mit benutzerfreundlichen 3D-Modellierungswerkzeugen überprüfen;
+	\item hochwertige CNC-bearbeitete Bauteile mit integriertem CAD/CAM erstellen;
+	\item Zugriff auf eine einheitliche Umgebung für die Elektronikplanung erhalten;
+	\item die Leistung Ihrer Entwürfe mit 3D-Simulationswerkzeugen testen;
+	\item mit generativem Design fertigungsfähige Varianten untersuchen,
+	\item nahtlos zusammenarbeiten und Daten in der Cloud verwalten. \footnote{\url{https://www.autodesk.de/solutions/what-is-fusion-360}, (Stand: 21.02.2024)}
+\end{itemize}
+
+\subsection{KiCad}
+KiCad ist ein Open Source Softwaretool zum Erstellen von elektronischen Schaltplänen und PCB Layouts. \\
+\\
+KiCad kann als ausreichend ausgereift betrachtet werden um erfolgreich auch komplexe elektronische Schaltungen und Leiter- platten entwickeln und managen zu können.
+KiCad hat keine Beschränkungen bei der Platinengröße und es kann einfach bis zu 32 Kupferlagen kontrollieren, bis zu 14 technische Lagen und bis zu vier Hilfslagen. Ebenso 
+kann KiCad alle Dateien erstellen die nötig sind für gedruckte Schaltungen, ebenso Gerber Dateien für Foto Plotter, Bohrdateien, Bauteilplatzierungsdateien und noch vieles mehr.
+Durch die Open Source Ausrichtung (GPL Lizenz) repräsentiert KiCad sich als das ideale Tool für fortschrittlich ausgerichtete Projekte die elektronische Hardware erstellen. \footnote{\url{https://docs.kicad.org/4.0/de/getting_started_in_kicad/getting_started_in_kicad.pdf}, (Stand: 21.02.2024)} \\
+\\
+Es wurde ausschließlich die $Version 7.0.7$ zum Entwurf von Schaltplänen und PCB-Layouts verwendet. \\
+\\
+Die beiden, zur Anwendung gekommen, Plug-Ins lauten:
+\begin{itemize}
+	\item Interactive Html Bom
+	\item JLC PCB Fabrication Toolkit
+\end{itemize}
+
+\subsection{Arduino IDE}
+Die Arduino IDE (IDE = Integrated Development Environment) ist eine Software zum Programmieren von Arduino-Mikrocontrollern. Sie ermöglicht es, Programme mit der Programmiersprache C oder C++ 
+zu schreiben und auf die Arduino-Boards zu laden und diese auf dem Arduino-Mikrocontroller auszuführen. Die Arduino IDE ist kostenlos und für verschiedene Betriebssysteme (Windows, macOS und 
+Linux) erhältlich. \footnote{\url{https://de.wikipedia.org/wiki/Arduino_IDE}, (Stand: 21.02.2024)} \\
+\\
+Folgende Plug-Ins und Bibliotheken wurden installiert, um die Programmierung zu erleichtern:
+\begin{itemize}
+	\item ererf
+\end{itemize}
+
+\subsection{QT Framework}
+Qt ist ein Framework, dass die plattformunabhängige Entwicklung für Desktop-, Embedded- und Mobilanwendungen unterstützt. Unterstützte Plattformen sind Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS und weitere. \\
+Qt ist keine eigenständige Programmiersprache. Es ist ein in C++ geschriebenes Framework. Ein Präprozessor, der MOC (Meta-Object Compiler), wird eingesetzt, um die Programmiersprache C++ um Features wie z.B. Signals und Slots zu 
+erweitern. Vor der Kompilierung parst der MOC die Quelldateien, die in C++ mit Qt-Erweiterungen geschrieben sind, und generiert aus ihnen C++-Standard-konforme Quelldateien. Deshalb kann das Framework selbst und Anwendungen bzw. 
+Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Clang, GCC, ICC, MinGW und MSVC kompiliert werden. \footnote{\url{https://wiki.qt.io/About_Qt/de}, (Stand: 21.02.2024)} \\
+\\
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==FERTIGUNGSUNTERLAGEN====================================================
 \section{Fertigungsunterlagen}
+\subsection{Gesamtprojekt}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.4}
+		{\includegraphics[width=0.8 \linewidth, angle=-90]{erste_Überlegungen}}
+		\caption{erste Überlegungen}
+		\label{fig:erste_Überlegungen}		
+	\end{center}
+\end{figure}
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.4}
+		{\includegraphics[width=0.8 \linewidth, angle=-90]{Übersicht_Handschuh}}
+		\caption{Übersicht Sensorhandschuh}
+		\label{fig:Übersicht_Handschuh}		
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.5}
+		{\includegraphics[width=0.8 \linewidth, angle=-90]{erstes_Blockschaltbild}}
+		\caption{erstes Blockschaltbild}
+		\label{fig:erstes_Blockschaltbild}		
+	\end{center}
+\end{figure}
+\hfill \break
+
 \subsection{Mechanik}
-\subsubsection{händische Skizzen}
+\subsubsection{Skizzen ud Konzepte}
+
 \subsubsection{CAD-Zeichnungen}
+
 \subsubsection{3D-Modelle}
 
+
 \subsection{Hardware}
+\subsubsection{Skizzen und Konzepte}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.5}
+		{\includegraphics[width=0.8 \linewidth, angle=-90]{erster_Steckbrettaufbau_Roboterhand}}
+		\caption{erste Schaltungsidee zur Servoansteuerung}
+		\label{fig:erster_Steckbrettaufbau_Roboterhand}		
+	\end{center}
+\end{figure}
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.3}
+		{\includegraphics[width=0.8 \linewidth, angle=-90]{erstes_Handschuh_Schaltbild_mit_Bluetooth}}
+		\caption{erste Schaltungsidee zur Flexsensormessung}
+		\label{fig:erstes_Handschuh_Schaltbild_mit_Bluetooth}		
+	\end{center}
+\end{figure}
+\hfill \break
+
 \subsubsection{Stromlaufpläne}
+
 \subsubsection{Platinen}
+
 \subsubsection{Bestückungslisten}
 
+
 \subsection{Software}
+\subsubsection{Skizzen und Konzepte}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.6}
+		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Handschuh}}
+		\caption{Softwarekonzept Eingabesubsystem}
+		\label{fig:Softwarekonzept_Handschuh}		
+	\end{center}
+\end{figure}
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.6}
+		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Roboterhand}}
+		\caption{Softwarekonzept Ausgabesubsystem}
+		\label{fig:Softwarekonzept_Roboterhand}		
+	\end{center}
+\end{figure}
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.6}
+		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Teilbereich_Servostellung}}
+		\caption{Softwarekonzept Teilbereich Servostellung}
+		\label{fig:Softwarekonzept_Teilbereich_Servostellung}		
+	\end{center}
+\end{figure}
+\hfill \break
+
 \subsubsection{Diagramme}
+
 \subsubsection{Code}
 
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-%==ERGEBNISSE-UND-ERKENNTNISSE=============================================
-\section{Ergebnisse und Erkenntisse}
-
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-%==AUSBLICK================================================================
-\section{Ausblick}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==VERZEICHNISSE===========================================================
-\section{Verzeichnisse}
-\subsection{Literaturverzeichnis}
+\section{Abbildungsverzeichnis}
 
-\subsection{Abbildungsverzeichnis}
+\section{Tabellenverzeichnis}
 
-\subsection{Tabellenverzeichnis}
-
-\subsection{Abkürzungsverzeichnis}
+\section{Literaturverzeichnis}
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
