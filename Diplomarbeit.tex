@@ -31,6 +31,8 @@
 \usepackage{float} % für Positionierungsoption [H] beie Tables, figures,...
 \usepackage{hyperref} %Für URLS
 \usepackage{listings} %Für Codezeilen
+\usepackage{titlesec} %Für Buchstaben als Überschriftsnummerierung
+\usepackage{enumitem}
 \lstset{language=C++}
 \setlength{\fboxsep}{5pt} % Ändere die Rahmenbreite nach Bedarf
 %--------------------------------------------------------------------------
@@ -126,7 +128,7 @@
 \thispagestyle{empty}
 	
 \begin {center}
-	\begin{tabular} {p {3cm} p{8cm} p{4.55cm}}
+	\begin{tabular} {p{3cm} p{1cm} p{1cm}}
   & 
   & 
   \vspace{1mm}\centering{\includegraphics[width=0.2\textwidth,page=1]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf}}\\ 
@@ -690,7 +692,8 @@ Verzögerung, indem diese sehr niedrig gehalten werden kann. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{ESPNOW_Model}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ESPNOW - Model}
+		\label{fig:ESPNOW_Model}
 	\end{center}
 \end{figure}
 
@@ -792,7 +795,8 @@ werden lizenzfreie Frequenzbänder im 2,4GHz-, 915MHz- und 868MHz-Bereich verwen
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{ESP_NOW_Theorie}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ESPNOW - Theorie}
+		\label{fig:ESP_NOW_Theorie}
 	\end{center}
 \end{figure}
 \hfill \break
@@ -821,13 +825,14 @@ ist der Operationsverstärker dazu fähig fast bis auf das positive und negative
 von Vorteil, da dadurch die Versorgungsspannungen nicht übermäßig hoch sind und somit die Schaltungen mit niedrigeren Spannungen arbeiten
 kann. Dies ist auch für die Benutzer der entsprechenden Endgeräte sicherer.\\
 \\
-In der folgenden Grafik sind die Ausgangsspannungsbereiche eines normalen OPVs, in blau, und eines OPVs mit Rail-to-Rail Technologie,
+In \autoref{fig:RAILtoRAIL_OPV} sind die Ausgangsspannungsbereiche eines normalen OPVs, in blau, und eines OPVs mit Rail-to-Rail Technologie,
 in Orange, dargestellt. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{RAILtoRAIL_OPV}}
-		%\caption*{Ladislaus Szabo}
+		\caption{OPV Ausgangsspannungbereiche}
+		\label{fig:RAILtoRAIL_OPV}
 	\end{center}
 \end{figure}
 
@@ -846,11 +851,12 @@ in Orange, dargestellt. \\
 		\begin{center}
 			\scalebox{1.2}
 			{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Gesamtsystem}}
-			%\caption*{Ladislaus Szabo}
+			\caption{Blockschaltbild des Gesamtsystems}
+			\label{fig:Blockschaltbild_Gesamtsystem}		
 		\end{center}
 	\end{figure}
 
-Das Gesamtsystem ist im oberhalb abgebildeten Blockschaltbild grafisch veranschaulicht. Die linke Hälfte zeigt das Konzept des 
+Das Gesamtsystem ist in \autoref{fig:Blockschaltbild_Gesamtsystem} grafisch veranschaulicht. Die linke Hälfte zeigt das Konzept des 
 Handschuhs (Eingabe) und die rechte Hälfte die Roboterhand (Ausgabe). Die grundlegende Konzeptionierung der Bewegungserfassung 
 besteht darin, dass mithilfe von Sensoren die Fingerbeugung aller fünf Finger gemessen wird. Anschließend werden die Sensordaten
 ausgewertet und verarbeitet. Die resultierenden Informationen werden folglich über eine drahtlose Verbindung an das zweite 
@@ -864,7 +870,8 @@ ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkte
 		\begin{center}
 			\scalebox{0.8}
 			{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Handschuhsystem}}
-			%\caption*{Ladislaus Szabo}
+			\caption{Blockschaltbild des Eingabesubsystems}
+			\label{fig:Blockschaltbild_Handschuhsystem}			
 		\end{center}
 	\end{figure}
 
@@ -879,7 +886,8 @@ Kommunikationsprotokoll weitergibt. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Blockschaltbild_Roboterhandsystem}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Blockschaltbild des Ausgabesubsystems}
+		\label{fig:Blockschaltbild_Roboterhandsystem}		
 	\end{center}
 \end{figure}
 
@@ -1025,7 +1033,8 @@ in der Bionic Hand umsetzen. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Hand_1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ergonerg}
+		\label{fig:Hand_1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1044,7 +1053,8 @@ Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Finger_1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ergonerg}
+		\label{fig:Finger_1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1076,7 +1086,8 @@ gemessen werden. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Handfläche_1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ergonerg}
+		\label{fig:Handfläche_1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1093,7 +1104,8 @@ optionalen Kraftsensoren. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Halterung_1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ergonerg}
+		\label{fig:Halterung_1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1111,7 +1123,8 @@ werden. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Motorblock_1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ergonerg}
+		\label{fig:Motorblock_1}			
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1213,7 +1226,6 @@ Wissen in dieses eingeflossen sind. Ziel ist es dieses 3D druckbare Hand
 selbst zu realisieren, je nach Anforderung zu modifizieren und anhand dessen 
 eine weitere Versuchshand zu schaffen. \\
 \\
-
 
 \paragraph{Realisierung und Zusammenbau}
 \hfill \break
@@ -1324,7 +1336,8 @@ werden. \\
 	\begin{center}
 		\scalebox{1.25}
 		{\includegraphics[width=0.8 \linewidth]{Simulation_Spannungsmessung_Flexsensoren}}
-		%\caption*{Ladislaus Szabo}
+		\caption{LTspice Simulation der Flexesnor - Messschaltung}
+		\label{fig:Simulation_Spannungsmessung_Flexsensoren}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1522,7 +1535,8 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Steckbrettaufbau_Spannungsmessung_INA129}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Steckbrettaufbau der Flexesnor - Messschaltung}
+		\label{fig:Steckbrettaufbau_Spannungsmessung_INA129}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1531,7 +1545,8 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Bild_Einstellungen_Netzteil}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Netzteileinstellungen}
+		\label{fig:Bild_Einstellungen_Netzteil}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1547,7 +1562,8 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_27k}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oszilloskopbild mit $R_{L} = 27k\Omega$}
+		\label{fig:Oszibild_RL_27k}		
 	\end{center}
 \end{figure}
 Das obige Oszilloskopbild zeigt die, mit einem Tastkopf, gemessene Ausgangsspannung des Operationsverstärkers, bei einem Flexsensorwiderstand
@@ -1560,7 +1576,8 @@ für diesen Widerstandswert des Flexsensors korrekt funktioniert.
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_67k}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oszilloskopbild mit $R_{L} = 67k\Omega$}
+		\label{fig:Oszibild_RL_67k}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1573,7 +1590,8 @@ der Schaltung weiter sichergestellt wurde.
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Oszibild_RL_118k}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oszilloskopbild mit $R_{L} = 118k\Omega$}
+		\label{fig:Oszibild_RL_118k}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1610,7 +1628,8 @@ das genaue Schaltungsdesign erläutert. \\
 			\begin{center}
 				\scalebox{0.5}
 				{\includegraphics[width=0.8 \linewidth]{USB_C_Schaltplan_Handschuh}}
-				%\caption*{Ladislaus Szabo}
+				\caption{USB-C-Buchse}
+				\label{fig:USB_C_Schaltplan_Handschuh}				
 			\end{center}
 		\end{figure}
 	\item Anschluss der Flexsensoren: \\
@@ -1622,7 +1641,8 @@ das genaue Schaltungsdesign erläutert. \\
 			\begin{center}
 				\scalebox{0.5}
 				{\includegraphics[width=0.8 \linewidth]{JST_Flexsensoren_Schaltplan_Handschuh}}
-				%\caption*{Ladislaus Szabo}
+				\caption{Flexsensor Connector}
+				\label{fig:JST_Flexsensoren_Schaltplan_Handschuh}				
 			\end{center}
 		\end{figure}
 	\item Anschluss des Akkus: \\
@@ -1633,7 +1653,8 @@ das genaue Schaltungsdesign erläutert. \\
 			\begin{center}
 				\scalebox{0.5}
 				{\includegraphics[width=0.8 \linewidth]{JST_Akku_Schaltplan_Handschuh}}
-				%\caption*{Ladislaus Szabo}
+				\caption{Akku Connector}
+				\label{fig:JST_Akku_Schaltplan_Handschuh}				
 			\end{center}
 		\end{figure}\end{itemize}
 
@@ -1650,7 +1671,8 @@ Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeins
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{ESP32_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ESP32 Mikrokontroller}
+		\label{fig:ESP32_Schaltplan_Handschuh}	
 	\end{center}
 \end{figure}
 
@@ -1684,7 +1706,8 @@ verbunden. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{LEDs_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Status LEDs}
+		\label{fig:LEDs_Schaltplan_Handschuh}		
 	\end{center}
 \end{figure}
 
@@ -1713,7 +1736,8 @@ von 1V verwendet. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Operationsverstärker_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Operationsverstärker - Schaltung}
+		\label{fig:Operationsverstärker_Schaltplan_Handschuh}		
 	\end{center}
 \end{figure}
 
@@ -1733,7 +1757,8 @@ Mikrokontroller übertragen. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{ADC_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{ADC - Schaltung}
+		\label{fig:ADC_Schaltplan_Handschuh}	
 	\end{center}
 \end{figure}
 
@@ -1749,7 +1774,8 @@ um die Adresse des Mikrochips festzulegen. Diese wird später benötigt um mit d
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Gyro_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Gyroskopsensor - Schaltung}
+		\label{fig:Gyro_Schaltplan_Handschuh}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1767,7 +1793,8 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Akku_Controller_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Akku - Controller}
+		\label{fig:Akku_Controller_Schaltplan_Handschuh}	
 	\end{center}
 \end{figure}
 
@@ -1775,7 +1802,8 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Akku_Boostconverter_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Akku - Boostconverter}
+		\label{fig:Akku_Boostconverter_Schaltplan_Handschuh}		
 	\end{center}
 \end{figure}
 
@@ -1783,7 +1811,8 @@ vorgesehen und gewährleisten einen stabilen Betrieb. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Akku_Buckconverter_Schaltplan_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Akku - Buckconverter}
+		\label{fig:Akku_Buckconverter_Schaltplan_Handschuh}		
 	\end{center}
 \end{figure}
 
@@ -1806,7 +1835,8 @@ kurzzeitig verzögert wurde. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platine_Handschuh_oben_v1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Platinenoberseite - erste Testplatine - Eingabesubsystem}
+		\label{fig:Platine_Handschuh_oben_v1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1819,7 +1849,8 @@ weshalb einige Kabel zur erneuten Verbindung von Lötpads gebraucht wurden. Zu d
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platine_Handschuh_unten_v1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Platinenunterseite - erste Testplatine - Eingabesubsystem}
+		\label{fig:Platine_Handschuh_unten_v1}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1829,13 +1860,16 @@ oberen linken Ecke des Bilds, zu Leiterbahnablösungen. Das blaue und rote Kabel
 \paragraph{Zweite Version der Platine}
 \hfill \break
 \hfill \break
-
+Bei dem Design der zweiten Platinenversion, wurden schon einige Anforderungen für die Integration in das Gesamtsystem
+berücksichtigt. Zu nennen sind hier beispielsweise die Abmessungen, die Konnektivität und die visuelle Darstellung 
+von Parametern für den Benutzer. 
 
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Handschuh_oben_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Toplayer des zweiten Platinenlayouts}
+		\label{fig:Platinenlayout_Handschuh_oben_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1844,7 +1878,8 @@ oberen linken Ecke des Bilds, zu Leiterbahnablösungen. Das blaue und rote Kabel
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Handschuh_unten_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Bottomlayer des zweiten Platinenlayouts}
+		\label{fig:Platinenlayout_Handschuh_unten_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1853,7 +1888,8 @@ oberen linken Ecke des Bilds, zu Leiterbahnablösungen. Das blaue und rote Kabel
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Handschuh_oben_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Topside des zweiten Platinenmodells}
+		\label{fig:Platinenmodell_Handschuh_oben_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1862,7 +1898,8 @@ oberen linken Ecke des Bilds, zu Leiterbahnablösungen. Das blaue und rote Kabel
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Handschuh_unten_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Bottomside des zweiten Platinenmodells}
+		\label{fig:Platinenmodell_Handschuh_unten_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -1941,7 +1978,8 @@ benötigt. Dies ermöglicht uns jeden Motor einzeln zu regulieren und gegebenenf
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Schaltbild_Strommessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Schaltbild der Stromessschaltung}
+		\label{fig:Schaltbild_Strommessung}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2027,7 +2065,8 @@ werden. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Messschaltung_Servomessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Steckbrettaufbau der Messchaltung zur Strommessung}
+		\label{fig:Messschaltung_Servomessung}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2044,7 +2083,8 @@ in einem Testaufbau. Im folgenden Bild wird der gesamte Testaufbau gezeigt. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Testaufbau_Servomessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Testaufbau der Strommessung eines Servomotors}
+		\label{fig:Testaufbau_Servomessung}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2055,7 +2095,8 @@ Die gemessenen Werte wurden in einer Tabelle dargestellt und anschließend grafi
 	\begin{center}
 		\scalebox{1.3}
 		{\includegraphics[width=0.8 \linewidth]{Messtabelle_Servomessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Messtabelle Strommessung}
+		\label{fig:Messtabelle_Servomessung}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2081,7 +2122,8 @@ Die Messergebnisse wurden im folgenden Diagramm visualisiert. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Zugkraft_Strom_Diagramm_Servomessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Diagramm der Strommessung in Abhängigkeit der Zugkraft}
+		\label{fig:Zugkraft_Strom_Diagramm_Servomessung}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2094,7 +2136,8 @@ berücksichtigt wird. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Oszibild_Servomessung}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oszilloskopbild - Stromanlaufverhalten eines Servomotors}
+		\label{fig:Oszibild_Servomessung}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2129,7 +2172,8 @@ benötigt. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{USB_C_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{USB-C-Buchse}
+		\label{fig:USB_C_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2145,7 +2189,8 @@ erfolgen. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Netzteil_Anschluss_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Netzteil Input Connector}
+		\label{fig:Netzteil_Anschluss_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2163,7 +2208,8 @@ die $RESET-Funktion$ gedacht und die $IO0$ Leitung für den Uploadvorgang von pr
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{UART_Bridge_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Serial-UART-Bridge}
+		\label{fig:UART_Bridge_Schaltplan_Roboterhand}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2182,7 +2228,8 @@ Die Funktionen der weiteren Pins werden in den folgenden Punkten, gemeinsam mit 
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Mikrokontroller_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Mikrokontroller ESP32}
+		\label{fig:Mikrokontroller_Schaltplan_Roboterhand}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2197,7 +2244,8 @@ und des Serial-UART-Bridge verbunden. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Buttons_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Mikorkontroller Buttons}
+		\label{fig:Buttons_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2212,7 +2260,8 @@ sind Stützkondensatoren zu $GND$ geschalten, um die Spannungspegel von $5V$ und
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Spannungswandler_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Spannungswandler 5V - 3.3V}
+		\label{fig:Spannungswandler_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2231,7 +2280,8 @@ der Controller mit 5V. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{PWM_Controller_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{PWM Controller}
+		\label{fig:PWM_Controller_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2248,7 +2298,8 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{Servoanschluss_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Servo Anschlüsse}
+		\label{fig:Servoanschluss_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2275,8 +2326,9 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 		\begin{center}
 			\scalebox{1.0}
 			{\includegraphics[width=0.8 \linewidth]{Multiplexer_Schaltplan_Roboterhand}}
-			%\caption*{Ladislaus Szabo}
-		\end{center}
+			\caption{Multiplexer Schaltung}
+			\label{fig:Multiplexer_Schaltplan_Roboterhand}		
+			\end{center}
 	\end{figure}
 	\hfill \break
 
@@ -2289,7 +2341,8 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 		\begin{center}
 			\scalebox{1.0}
 			{\includegraphics[width=0.8 \linewidth]{OPV_Schaltplan_Roboterhand}}
-			%\caption*{Ladislaus Szabo}
+			\caption{OPV Schaltung}
+			\label{fig:OPV_Schaltplan_Roboterhand}		
 		\end{center}
 	\end{figure}
 	\hfill \break
@@ -2303,7 +2356,8 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 		\begin{center}
 			\scalebox{1.0}
 			{\includegraphics[width=0.8 \linewidth]{ADC_Schaltplan_Roboterhand}}
-			%\caption*{Ladislaus Szabo}
+			\caption{ADC Schaltung}
+			\label{fig:ADC_Schaltplan_Roboterhand}			
 		\end{center}
 	\end{figure}
 	\hfill \break
@@ -2319,7 +2373,8 @@ Funktion der anderen LED kann frei gewählt werden. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{LEDs_Schaltplan_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Status LEDs}
+		\label{fig:LEDs_Schaltplan_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2337,7 +2392,8 @@ Ersatzkabel, hat einige Zeit in Anspruch genommen, wodurch der Entwicklungsproze
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platine_Roboterhand_oben_v1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oberseite erste Testplatine Ausgabesubsystem}
+		\label{fig:Platine_Roboterhand_oben_v1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2348,7 +2404,8 @@ verwendet, da diese weitaus leichter zu löten ist als USB-C-Buchsen. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platine_Roboterhand_unten_v1}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Unterseite erste Testplatine Ausgabesubsystem}
+		\label{fig:Platine_Roboterhand_unten_v1}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2369,7 +2426,8 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Roboterhand_oben_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Toplayer zweites PlatinendesignUnterseite erste Testplatine Ausgabesubsystem}
+		\label{fig:Platinenlayout_Roboterhand_oben_v2}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2378,7 +2436,8 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenlayout_Roboterhand_unten_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Bottomlayer zweites Platinendesign}
+		\label{fig:Platinenlayout_Roboterhand_unten_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2387,7 +2446,8 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Roboterhand_oben_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Oberseite zweites Platinenmodell}
+		\label{fig:Platinenmodell_Roboterhand_oben_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2396,7 +2456,8 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Platinenmodell_Roboterhand_unten_v2}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Unterseite zweites Platinenmodell}
+		\label{fig:Platinenmodell_Roboterhand_unten_v2}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2582,7 +2643,8 @@ map-Funktion somit immer gute Werte übermitteln kann. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Flussdiagramm_Software_Handschuh}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Flussdiagramm Software Eingabesubsystem}
+		\label{fig:Flussdiagramm_Software_Handschuh}			
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2719,7 +2781,8 @@ schaltet noch zusätzlich. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Multiplexer_Beispiel}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Multiplexer erklärendes Schaltbild}
+		\label{fig:Multiplexer_Beispiel}	
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2800,7 +2863,8 @@ entlastet wird.
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Flussdiagramm_Software_Roboterhand}}
-		%\caption*{Ladislaus Szabo}
+		\caption{Flussdiagram Software Ausgabesubsystem}
+		\label{fig:Flussdiagramm_Software_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2819,17 +2883,20 @@ wieder von vorne.
 \begin{figure}[H]
 	\centering
 	\scalebox{1.5}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_1}}
-	%\caption*{Ladislaus Szabo}
+	%\caption{}
+	%\label{fig:Softwaremap_1}	
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\scalebox{1.8}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_2}}
-	%\caption*{Ladislaus Szabo}
+	%\caption{}
+	%\label{fig:Softwaremap_2}	
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\scalebox{1.1}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_3}}
-	%\caption*{Ladislaus Szabo}
+	\caption{Softwaremap Ausgabesubsystem}
+	\label{fig:Softwaremap_3}	
 \end{figure}
 \hfill \break
 Als Erstes werden die von der Senderplatine gesendeten Daten ausgelesen. Diese 
@@ -2898,7 +2965,8 @@ da der Datensatz nicht stimmt. \\
 	\begin{center}
 		\scalebox{1.0}
 		{\includegraphics[width=0.8 \linewidth]{UART}}
-		%\caption*{Ladislaus Szabo}
+		\caption{UART erklärendes Diagramm}
+		\label{fig:UART}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2939,7 +3007,8 @@ SCL auch den Wert 1 besitzt. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{I2C}}
-		%\caption*{Ladislaus Szabo}
+		\caption{I2C Adressierung}
+		\label{fig:I2C}		
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2979,7 +3048,8 @@ sieht folgendermaßen aus:
 		\begin{center}
 			\scalebox{1.2}
 			{\includegraphics[width=0.8 \linewidth]{Konzept_UserInterface}}
-			%\caption*{Ladislaus Szabo}
+			\caption{User-Interface Konzept}
+			\label{fig:Konzept_UserInterface}				
 		\end{center}
 	\end{figure}
 Zu sehen sind die ersten Überlegungen bezüglich des visuellen Layouts. Auf der rechten Seite des Bildschirms sollen die erforderlichen
@@ -2998,20 +3068,32 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 \subsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte}}
 
 %--------------------------------------------------------------------------
+\section{Anhang}
 %--------------------------------------------------------------------------
 %==PROJEKTMANAGEMENT=======================================================
 \section{Projektmanagement}
 \subsection{Projektstrukturplan}
 \subsection{Milestoneplan}
-Lastenheft fertig – 10.10.2023 \\
-Kostenkalkulationen fertig – 24.10.2023 \\
-Prototypen proof of concept –21.11.2023 \\
-Hardwaredesign fertig – 05.12.2023 \\
-PCB-Design fertig – 09.01.2024 \\
-Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
-Integration aller Komponenten – 06.02.2024 \\
-User Interface fertiggestellt – 13.02.2024 \\
-Abnahme durch die Projektbetreuer – 12.03.2024
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Nummer} & \textbf{Beschreibung} \\
+        \hline
+        A & Lastenheft fertig – 10.10.2023 \\
+        B & Kostenkalkulationen fertig – 24.10.2023 \\
+        C & Prototypen proof of concept – 21.11.2023 \\
+        D & Hardwaredesign fertig – 05.12.2023 \\
+        E & PCB-Design fertig – 09.01.2024 \\
+        F & Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
+        G & Integration aller Komponenten – 06.02.2024 \\
+        H & User Interface fertiggestellt – 13.02.2024 \\
+        I & Abnahme durch die Projektbetreuer – 12.03.2024 \\
+        \hline
+    \end{tabular}
+    \caption{Zeitplan für das Projekt}
+    \label{tab:projektzeitplan}
+\end{table}
 
 \subsection{Gantt-Diagram}
 \subsection{Meeting Struktur}
@@ -3055,12 +3137,6 @@ Abnahme durch die Projektbetreuer – 12.03.2024
 \subsection{Tabellenverzeichnis}
 
 \subsection{Abkürzungsverzeichnis}
-
-%--------------------------------------------------------------------------
-%--------------------------------------------------------------------------
-%==ANHANG==================================================================
-\section{Anhang}
-
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
