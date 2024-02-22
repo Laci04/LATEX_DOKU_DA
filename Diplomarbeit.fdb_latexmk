@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1708539568 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708539576 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708539567 176535 2679082bd4be4b35f94218426e449d4b ""
+["pdflatex"] 1708603577 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708603585 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708603569 178847 6a20bb7c3404b8b0f8269dd085c1e0a1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -219,10 +219,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1708539575 48889 a4bbdb95a7ade959c892e4a9bff9c907 "pdflatex"
-  "Diplomarbeit.out" 1708539575 31447 09d445cfdcde5ca86eb8ee932562b15a "pdflatex"
-  "Diplomarbeit.tex" 1708539567 176535 2679082bd4be4b35f94218426e449d4b ""
-  "Diplomarbeit.toc" 1708539575 16976 c425fc1052a9d14be96047cd1395f1f4 "pdflatex"
+  "Diplomarbeit.aux" 1708603585 49050 6aa17095726271eaa61c0dd032020048 "pdflatex"
+  "Diplomarbeit.out" 1708603585 31447 09d445cfdcde5ca86eb8ee932562b15a "pdflatex"
+  "Diplomarbeit.tex" 1708603569 178847 6a20bb7c3404b8b0f8269dd085c1e0a1 ""
+  "Diplomarbeit.toc" 1708603585 16976 23b39810c74c15fe7e566f22165dec6b "pdflatex"
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
   "src/Akku_Boostconverter_Schaltplan_Handschuh.png" 1706622894 109363 6fd598b6378a1d4896a6bcee38051983 ""

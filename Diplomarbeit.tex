@@ -1700,6 +1700,7 @@ Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeins
 \end{figure}
 
 \paragraph{Mikrokontroller Buttons}
+\label{par:Mikrokontroller Buttons}
 \hfill \break
 \hfill \break
 In der Schaltung sind drei Taster verbaut. Diese sind alle mit dem Mikrokontroller verbunden und erfüllen verschiedene Funktionen.
@@ -1905,7 +1906,15 @@ von Parametern für den Benutzer.
 	\end{center}
 \end{figure}
 \hfill \break
-
+In \autoref{fig:Platinenlayout_Handschuh_oben_v2}, ist der Toplayer des zweiten Platinenlayouts in KiCad (siehe \autoref{chap:KiCad}) zu sehen.
+Der Großteil des Platzes wird vom Mikrokontroller, dem ESP32, eingenommen. An diesen sind alle anderen Komponenten angeschlossen. Wie in 
+\autoref{par:Mikrokontroller Buttons} erläutert, sind zwei Buttons zur Steuerung des ESPs vorgesehen. Mit einem $R$ ist der Reset-Button markiert
+mit einem $B$ der Upload-Button. \\
+\\
+In der linken oberen Ecke der \autoref{fig:Platinenlayout_Handschuh_oben_v2}, sind die Anschlüsse für die Flexsensorem zu sehen. Recths daneben
+ist die USB-C-Buchse platziert. Außer den genannten Bauteilen, sind nur mehr die beiden Leuchtdioden, zur Visualisierung für den Benutzer, auf dem 
+Toplayer angebracht. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -1915,7 +1924,18 @@ von Parametern für den Benutzer.
 	\end{center}
 \end{figure}
 \hfill \break
-
+In \autoref{fig:Platinenlayout_Handschuh_unten_v2}, ist der Bottomlayer der zweiten Platinenversion zu sehen. Hier sind alle Elemente der Messchaltung
+(siehe \autoref{par:Auslesen der Sensoren}) verbaut. Dies beinhaltet den Multiplexer, Operationsverstärker, ADC, Gyroskopsensor, Spannungswandler
+und die Serial-UART Bridge. Alle Bauteile wurden möglichst Platzsparend platziert, damit die Dimensionen der Platine gering gehalten werden können.
+Die Abmessungen betragen ca. 3.5cm x 3.5cm. \\
+\\
+Alle Leiterbahnen wurden so breit wie möglich gemacht, um mögliche Defekte ausschließen zu können. Dies gilt für die Fertigung, als auch für mechanische
+Abnützungen bei der Verwendung. \\
+\\
+Der größte Fehler bei diesem Platinendesign ist, dass in der Zone des Funkmoduls vom Mikrokontroller, Leiterbahnen und Bauteile platziert wurden.
+Dies beeinträchtigt die Übertragung allerdings nur teilweise, indem diese nur mehr bis zu 10 Meter weit funktioniert. Dies ist allerdings zum Testen
+kein Problem und wird beim nächsten Platinenlayout behoben. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -1925,7 +1945,9 @@ von Parametern für den Benutzer.
 	\end{center}
 \end{figure}
 \hfill \break
-
+In \autoref{fig:Platinenmodell_Handschuh_oben_v2}, ist ein 3D-Modell des Toplayers abgebildet. Dies ist eine exakte Representation der gefertigten
+Platine, die anschließend bestückt worden ist. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -1935,8 +1957,9 @@ von Parametern für den Benutzer.
 	\end{center}
 \end{figure}
 \hfill \break
-
-
+In \autoref{fig:Platinenmodell_Handschuh_unten_v2}, ist das 3D-Modell des Bottomlayersabgebildet. Dies ist ebenfalls eine exakte Representation der
+gefertigten Platine und muss noch bestückt werden. \\
+\\
 
 \subsection{Roboterhand}
 
@@ -3180,6 +3203,7 @@ Mit Fusion 360 können Sie: \\
 \end{itemize}
 
 \subsection{KiCad}
+\label{chap:KiCad}
 KiCad ist ein Open Source Softwaretool zum Erstellen von elektronischen Schaltplänen und PCB Layouts. \\
 \\
 KiCad kann als ausreichend ausgereift betrachtet werden um erfolgreich auch komplexe elektronische Schaltungen und Leiter- platten entwickeln und managen zu können.

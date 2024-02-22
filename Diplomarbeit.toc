@@ -94,8 +94,8 @@
 \contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{49}{paragraph.7.1.5.2}%
 \contentsline {subsection}{\numberline {7.2}Roboterhand}{52}{subsection.7.2}%
 \contentsline {subsubsection}{\numberline {7.2.1}Grundlegende Vorraussetzungen}{52}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{52}{subsubsection.7.2.2}%
-\contentsline {paragraph}{\numberline {7.2.2.1}Aktorik zur Fingerbewegung}{52}{paragraph.7.2.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{53}{subsubsection.7.2.2}%
+\contentsline {paragraph}{\numberline {7.2.2.1}Aktorik zur Fingerbewegung}{53}{paragraph.7.2.2.1}%
 \contentsline {paragraph}{\numberline {7.2.2.2}Datenempfang}{53}{paragraph.7.2.2.2}%
 \contentsline {paragraph}{\numberline {7.2.2.3}Ansteuerung der Motoren}{53}{paragraph.7.2.2.3}%
 \contentsline {paragraph}{\numberline {7.2.2.4}Positions -und Kraftmessung der Roboterfinger}{54}{paragraph.7.2.2.4}%
