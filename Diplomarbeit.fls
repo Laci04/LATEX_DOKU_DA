@@ -1155,6 +1155,15 @@ INPUT ./Diplomarbeit.toc
 INPUT Diplomarbeit.toc
 INPUT Diplomarbeit.toc
 OUTPUT Diplomarbeit.toc
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flexsensor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flexsensor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flexsensor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flexsensor.jpg
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg
@@ -1169,6 +1178,10 @@ INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jp
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg
+INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg
 INPUT /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg
@@ -1490,4 +1503,5 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

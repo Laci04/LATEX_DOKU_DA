@@ -624,6 +624,49 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \section{Theoretische Grundlagen des Diplomprojekts}
 \label{chap:Theoretische Grundlagen des Diplomprojekts}
 
+\subsection{Flexsensor}
+\label{chap:Flexsensor}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Flexsensor}}
+		\caption{Flexsensor}
+		\label{fig:Flexsensor}
+	\end{center}
+\end{figure}
+\hfill \break
+\textcolor{red}{\url{https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg\#/media/File:Flex_Sensor.jpg}} \\
+Ein Flexsensor (Biegesensor) misst die Biegung des aus Kunststoff bestehenden 
+Streifens. Die Kohlenstoffbeschichtung macht diesen dann zu einem variablen 
+Widerstand. Je mehr der Flexsensor gebogen wird, desto größer wird der Widerstand. 
+Die Biegung kann somit gemessen werden. Diese Information wird dann in ein 
+elektrisches Signal umgewandelt, was auch für das Einlesen in den Mikrocontroller 
+nötig ist. Diese Flexsensoren können beispielsweise auf einem Handschuh angenäht 
+werden, um zu messen, wie sehr ein Finger abgebogen wurde. \\
+\\
+
+\subsection{Servomotor}
+\label{chap:Servomotor}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Servomotor}}
+		\caption{Servomotor}
+		\label{fig:Servomotor}
+	\end{center}
+\end{figure}
+\hfill \break
+\textcolor{red}{\url{https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg}} \\
+Ein Servomotor ist ein kleiner Elektromotor. Er besteht aus einer Steuereinheit, 
+sowie einer Antriebseinheit. Ein Servo kann die Winkelposition einstellen, die 
+Drehgeschwindigkeit variieren und dadurch auch die Beschleunigung beeinflussen. 
+Dies funktioniert über einen Sensor, der die Positionsbestimmung durchführen kann. 
+Der Servo kann über die Software festlegen, wie sich dieser drehen soll. Durch 
+Sollwerte wird angegeben, wie weit sich dieser drehen soll. Für die Ansteuerung 
+von einzelnen 3D-gedruckten Fingern ist ein Servo die optimale Wahl, da dieser 
+die an ihm befestigten Schnüre spannen oder entlasten kann. \\
+\\
+
 \subsection{ESP-NOW \textcolor{red}{Fabian}}
 \label{chap:ESP-NOW}
 Das ESP-NOW Protokoll macht es möglich, dass man Daten problemlos per 
@@ -846,6 +889,39 @@ in Orange, dargestellt. \\
 		\label{fig:RAILtoRAIL_OPV}
 	\end{center}
 \end{figure}
+
+\subsection{Analog-Digital-Wandler}
+\label{chap:Analog-Digital-Wandler}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{ADC_Blockschaltbild}}
+		\caption{Blockschaltbild Analog-Digital-Wandler}
+		\label{fig:ADC_Blockschaltbild}
+	\end{center}
+\end{figure}
+\hfill \break
+Ein ADC (Analog-Digital-Converter) wandelt kontinuierliche analoge Signale 
+(physikalische Größen) in digitale Signale um. Dies ist notwendig, damit ein 
+Prozessor die Werte verarbeiten kann. Deshalb kommen ADCs in elektronischen 
+Schaltungen häufig vor. \\
+\\
+Abtastung: Es werden kontinuierliche analoge Signale mit einer bestimmten 
+Abtastrate abgetastet. Das kontinuierliche Signal wird hierbei zu einem 
+zeitdiskreten, wobei die Amplitude stets kontinuierlich bleibt. \\
+\\
+Halteschaltung: \\
+Die nach der Abtastung vorhandenen Messwerte werden in der Halteschaltung so 
+lange zurückgehalten, bis ein neuer die Halteschaltung erreicht. \\
+\\
+Quantisierer: \\
+Die Messwerte werden hier in diskrete Amplitudenwerte aufgeteilt. Das Signal 
+ist ab dem Quantisierer zeitdiskret und besitzt nun eine diskrete Amplitude. \\
+\\
+Codierer: \\
+Der Codierer wandelt dann das quantisierte Signal in ein binäres um. Am Ende ist 
+dann ein digitales Signal in Binärform vorhanden. \\
+\\
 
 \subsection{PWM-Signale}
 \label{chap:PWM-Signale}
