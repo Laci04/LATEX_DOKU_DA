@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1708604859 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708604868 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708604859 182062 f626bef662cb14f03dd28bdab25312c1 ""
+["pdflatex"] 1708680356 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1708680363 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1708680348 185367 cdce14f35aaabf9af90edc3b2796b27f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -221,10 +221,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1708604867 50371 722e50a5cb6cbb81247811d4f81feaad "pdflatex"
-  "Diplomarbeit.out" 1708604867 31834 bac853cf8ab003a93a8e4c63a707e978 "pdflatex"
-  "Diplomarbeit.tex" 1708604859 182062 f626bef662cb14f03dd28bdab25312c1 ""
-  "Diplomarbeit.toc" 1708604867 17229 0b84ad8e2e0aca1919307b058519d860 "pdflatex"
+  "Diplomarbeit.aux" 1708680363 52244 d24bdc2b7800e1b452ec6aeaf7edd8cd "pdflatex"
+  "Diplomarbeit.out" 1708680363 32352 ca4291f60b79e4eec3ee0c470e15d559 "pdflatex"
+  "Diplomarbeit.tex" 1708680348 185367 cdce14f35aaabf9af90edc3b2796b27f ""
+  "Diplomarbeit.toc" 1708680363 17554 8d30b5f14512e8fa14e79b354a1e2a92 "pdflatex"
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
@@ -300,6 +300,7 @@
   "src/UART_Bridge_Schaltplan_Roboterhand.png" 1708446463 81886 2f13d4f2c1d5f3ef0a524233c9a6a211 ""
   "src/USB_C_Schaltplan_Handschuh.png" 1706400157 104826 bc9afcda7cc7f68ede941a56e6067606 ""
   "src/USB_C_Schaltplan_Roboterhand.png" 1708445857 76230 d49979ea6aee8e5272533b6a9e0dc8e4 ""
+  "src/WiFi_Logo.jpg" 1708678324 76764 0107e7f8bc4810dfa3a8af5f68adfe6b ""
   "src/Zugkraft_Strom_Diagramm_Servomessung.png" 1708424500 58496 ab0f2b33fd6c668205365f4714614469 ""
   "src/erste_Überlegungen.png" 1708538035 392653 cdf5802e475407c834cdd162e43d90ed ""
   "src/erster_Steckbrettaufbau_Roboterhand.pdf" 1694108499 88716 b9dd13cb2d2ed8b59648ea23274733be ""

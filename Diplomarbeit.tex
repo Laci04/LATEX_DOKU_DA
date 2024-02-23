@@ -768,6 +768,7 @@ Beim Sender und Empfänger werden diese sieben Schichten jeweils einmal angewand
 \\
 
 \paragraph{Physical Layer}
+\label{par:Physical Layer}
 \hfill \break
 \hfill \break
 Beschreibt die mechanische und funktionale Schnittstelle zum Übertragungsmedium. Die 
@@ -777,6 +778,7 @@ an sich nicht zur 1. Schicht gehört, nur die Datenübertragung bei Einschalten 
 physischen Geräts gehört in diese.\\
 
 \paragraph{Data Link Layer}
+\label{par:Data Link Layer}
 \hfill \break
 \hfill \break
 Beschreibt die Sicherungsschicht, die eine stabile und funktionierende Verbindung 
@@ -787,6 +789,7 @@ physikalische Adressierung von Datenpaketen wird hier durchgeführt. Außerdem w
 auch eine Fehlererkennung, Fehlerbehebung und Datenflusskontrolle angewandt. \\
 
 \paragraph{Network Layer}
+\label{par:Network Layer}
 \hfill \break
 \hfill \break
 Beschreibt den regulierten Datentransfer zwischen zwei verschiedenen Netzwerken. Hier 
@@ -795,6 +798,7 @@ aufgeteilt und auf dem Empfängergerät dann wieder zusammengefügt. Die logisch
 findet ebenfalls statt. \\
 
 \paragraph{Transport Layer}
+\label{par:Transport Layer}
 \hfill \break
 \hfill \break
 Beschreibt das Bindeglied zwischen den transportorientierten und den anwendungsorientierten 
@@ -803,6 +807,7 @@ und eine Fehlerkontrolle werden von den Segmenten beinhaltet, falls nicht alle D
 erfolgreich angekommen sind oder fallengelassen wurden, kann dies hilfreich sein. \\
 
 \paragraph{Session Layer}
+\label{par:Session Layer}
 \hfill \break
 \hfill \break
 Beschreibt die Verbindung zwischen den Endsystemen. Session nennt man den zeitlichen 
@@ -812,6 +817,7 @@ und die Verbindung nicht schon zuvor beendet wird. Für die Effizienz soll aller
 nach einem abgeschlossenen Vorgang die Verbindung unterbrochen werden. \\
 
 \paragraph{Presentation Layer}
+\label{par:Presentation Layer}
 \hfill \break
 \hfill \break
 Beschreibt die Aufbereitung der Daten, sodass der Nutzer diese verstehen kann. Damit 
@@ -820,6 +826,7 @@ müssen, bevor sie der Nutzer verstehen kann. Die Komprimierung und Dekomprimier
 von Daten werden hier auch durchgeführt. \\
 
 \paragraph{Application Layer}
+\label{par:Application Layer}
 \hfill \break
 \hfill \break
 Beschreibt die Bereitstellung von Funktionen für Anwendungen und die Verbindung zu 
@@ -836,13 +843,17 @@ Da jedoch nicht so viele Schichten, wie bei dem OSI-Modell vorhanden sind, gibt 
 mehrere Möglichkeiten, wo Fehler liegen können und es ist nicht so leicht den Fehler 
 an der richtigen Stelle zu suchen. \\
 
-\paragraph{IEEE 802.15.4 Standard}
+\paragraph{IEEE 802.11b/g/n Standard}
+\label{par:802.11b/g/n Standard}
 \hfill \break
 \hfill \break
 Es ist ein internationaler Standard für die drahtlose Kommunikation, der von 
 Electrical and Electronics Engineers (IEEE) entwickelt wurde. Besonders wird Wert auf 
-die geringe Datenrate und dem daraus folgend geringen Stromverbrauch Wert gelegt. Es 
-werden lizenzfreie Frequenzbänder im 2,4GHz-, 915MHz- und 868MHz-Bereich verwendet. \\
+die geringe Datenrate und dem daraus folgend geringen Stromverbrauch Wert gelegt. Der 
+802.11b Standard hat eine maximale Datenübertragungsrate von 11Mbit/s, 802.11g eine 
+maximale Datenübertragungsrate von 54Mbit/s und 802.11, kann bis zu 600Mbit/s übertragen. 
+Der letztgenannte Standard ist der einzige, der auch das 5GHz-Band nutzen kann, alle 
+drei können jedoch das 2,4GHz-Band zum Datenaustausch verwenden.  \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -923,9 +934,139 @@ Der Codierer wandelt dann das quantisierte Signal in ein binäres um. Am Ende is
 dann ein digitales Signal in Binärform vorhanden. \\
 \\
 
+\subsection{Multiplexer}
+\label{chap:Multiplexer}
+Untenstehend kann man noch anhand einer einfachen Logikschaltung eines 2-zu-1 
+Multiplexers die Funktionsweise eines Multiplexers. Grundsätzlich wird über elektrische 
+Signale einer von mehreren Eingangssignalen an den Ausgang durchgeschaltet. Meist 
+funktioniert dies durch Halbleiterelemente. Das Steuersignal s schaltet noch zusätzlich. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Multiplexer_Beispiel}}
+		\caption{Multiplexer Beispiel}
+		\label{fig:Multiplexer_Beispiel}
+	\end{center}
+\end{figure}
+\hfill \break
+
 \subsection{PWM-Signale}
 \label{chap:PWM-Signale}
 
+\subsection{I2C Funktionsweise}
+\label{chap:I2C Funktionsweise}
+\textbf{I2C Funktionsweise}
+\\
+I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
+kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
+Datenleitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
+interpretiert der I2C-Bus die Daten und steuert den Ablauf. Bei unserem Projekt ist 
+der ESP32 der Master und die Flexsensoren beispielsweise die Slaves. Der Master ist 
+dann der wichtige Bestandteil, da dieser für alle anderen Slaves derjenige ist, der 
+sagt, was welches Bauteil machen soll. Dabei hängen alle Geräte beziehungsweise 
+Bauteile an zwei Leitungen. Eine heißt SDA (serial data) und ist für die serielle 
+Übertragung der Daten verantwortlich. Jedoch ist zu erwähnen, dass diese bidirektional 
+benutzt wird. Das heißt es kann in beide Richtungen gesendet werden (Master zum 
+Slave und umgekehrt). Es muss aber der Master regeln, also entweder Daten senden 
+oder welche von einem Slave anfordern. Die zweite Leitung heißt SCL (serial clock) 
+und ist für den Takt zuständig, der für alle per I2C verbundenen Geräte gilt. Es 
+wird also ein synchroner Bus verwendet. \\
+\\
+\textbf{Beispiel Protokoll I2C}
+Die Daten sind grundsätzlich in Datenpaketen verpackt, jedes besteht aus 1 Byte. 
+Wenn nichts kommuniziert wird, dann hat SDA und SCL den Wert 1. Nachdem eine 
+Start-Condition gesendet wurde, durch die alle Slaves wissen, dass sie nun auf den 
+Master jederzeit reagieren sollen, wird die Adresse des Slaves gesendet, mit dem 
+nun Daten ausgetauscht werden sollen. 7 Bit werden hierfür standardmäßig verwendet. 
+Danach wird ein weiteres Bit gesetzt. Dieses kann den Wert 0, was Schreiben bedeutet, 
+oder 1, was lesen bedeutet, haben. Nun ist der Slave an der Reihe. Dieser muss 
+ebenso 0, wenn die Kommunikation bereitsteht, an den Master zurücksenden. Der Master 
+sendet dann oder empfängt Daten vom Slave. Sobald alle Daten versendet wurden, 
+kommt die Bestätigung. Der ganze Vorgang des Senden und Empfangens wird am Ende 
+dann durch die Stop-Condition beendet. SDA wird hier auf 1 gesetzt, währenddessen 
+SCL auch den Wert 1 besitzt. \\
+\\
+\textcolor{red}{http://fmh-studios.de/theorie/informationstechnik/i2c-bus/}
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{I2C}}
+		\caption{I2C Adressierung}
+		\label{fig:I2C}		
+	\end{center}
+\end{figure}
+\hfill \break
+
+\subsection{UART Funktionsweise}
+\label{chap:UART Funktionsweise}
+Der Arduino, beziehungsweise der ESP, werden über die serielle Verbindung UART 
+(Universal Asynchronous Receiver and Transmitter) vom Computer angesprochen. 
+Dabei stellt diese Verbindung eine asynchrone Datenübertragung mit fester Baudrate, 
+Datenbits, Paritätsbits und Stoppbits dar. Es sind zwei Datenleitungen vorhanden, wobei 
+eine für das Senden (TX) und die andere für das Empfangen (Rx) von Daten zuständig ist. 
+Die Start- und Stopbits geben an, wann gesendet werden soll und wann dies nicht 
+mehr geschehen soll. Sobald der Sender ein Startbit erhält, beginnt die Übertragung 
+der Daten, aber beim Empfangen des Stopbit wird diese unterbrochen. Es wird 
+dadurch keine Clock benötigt, da die Baud Rate dies regelt, allerdings ist zu 
+beachten, dass diese maximal 10\% von jeder des anderen Geräts abweichen darf. 
+Die Baud Rate gibt an, wie viele Symbole pro Sekunde übertragen werden. Dabei 
+kann ein Symbol ein einzelnes Bit oder eine Gruppe von Bits sein. Die Baudrate 
+gibt also an in welchem Abstand jeweils ein Symbol gesendet wird (1s/Baudrate) 
+oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden 
+(Baudrate/1s). \\
+\\
+\textbf{Beispiel Protokoll für 8-Bit Packet}
+Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
+Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
+Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
+ein Paritybit mitgesendet, das angibt, ob die Anzahl dieser gerade oder ungerade 
+ist. Es gibt klarerweise keine hundertprozentige Sicherheit, aber man kann sich 
+mehr auf die Nutzbarkeit der Daten verlassen. Bei der UART-Kommunikation bedeutet 
+ein Paritybit von 0 (odd), dass die Summe der Highbits eine ungerade Zahl ist. Ein 
+Paritybit von 1 (even) hingegen zeigt an, dass die Summe der Highbits eine gerade 
+Zahl ist. Üblicherweise werden zwei Stopbits am Ende einer Übertragung gesendet, 
+um eine verlängerte Ruhephase zu gewährleisten. 
+Dies führt zu einer stabileren Synchronität und Erhöhung der Robustheit gegen 
+Signalstörungen. Bei UART wird das LSB (least significant bit) immer ganz rechts 
+in den Daten gefunden. Sollte das Paritybit nicht stimmen, dann wird vom 
+Empfänger an den Sender eine Anfrage mit der Bitte um erneutes Senden gesendet, 
+da der Datensatz nicht stimmt. \\
+
+\textcolor{red}{https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a}
+
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{UART}}
+		\caption{UART erklärendes Diagramm}
+		\label{fig:UART}		
+	\end{center}
+\end{figure}
+\hfill \break
+
+\subsection{WiFi}
+\label{chap:WiFi}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{WiFi_Logo}}
+		\caption{WiFi Logo}
+		\label{fig:WiFi_Logo}
+	\end{center}
+\end{figure}
+\hfill \break
+\textcolor{red}{\url{https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg\#/media/Datei:WiFi_Logo.svg}}
+WIFI (Wireless Fidelity) ist eine Technologie zur Verbindung von drahtlosen Netzwerken. Es wird 
+hauptsächlich dazu verwendet, um einen Zugang zum Internet herzustellen. Mobile Geräte werden meistens 
+über WIFI mit dem Internet oder untereinander verbunden. WLAN (Wireless Local Area Network) ist dabei 
+der Name für die lokale drahtlose Verbindung der Geräte innerhalb des lokalen Netzwerkes. Es können 
+Datenpakete gesendet und empfangen werden. Der Vorteil dieser drahtlosen Verbindung liegt darin, dass 
+die Geräte keine Verbindung per Datenkabel benötigen, sondern auch innerhalb einer bestimmten Reichweite 
+überall miteinander kommunizieren können. Die Reichweite von WIFI kann dabei von verschiedenen Faktoren 
+vermindert werden, wie beispielsweise durch Wände. \\
+\\
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
@@ -966,10 +1107,26 @@ ein User-Interface enthalten. Die diversen Funktionen werden in späteren Punkte
 		\end{center}
 	\end{figure}
 
-Der Sensorhandschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht durch Flexsensoren, die an den Fingern des 
-Handschuhs angebracht sind. Wird ein Finger gebeugt, so ändert sich ich der Widerstandswert der korrespondierenden Sensoren. Diese Änderungen 
-werden von einer Messschaltung erfasst, die die Sensorwerte interpretiert, digitalisiert und anschließlich an den Mikrokontroller über ein 
-Kommunikationsprotokoll weitergibt. \\
+Der Handschuh ermöglicht dem Benutzer die Roboterhand zu steuern. Dies geschieht 
+durch Flexsensoren, die an den Fingern des Handschuhs angebracht sind. Wird ein 
+Finger gebeugt, so ändert sich der Widerstandswert des Sensors. Diese Änderungen 
+werden von einem Mikrokontroller erfasst, der per Kabel über UART die Werte 
+kontinuierlich ausliest. Anschließend wird die kabellose Übertragung über den 
+Funkstandard ESP-NOW realisiert. Das Senden an die Roboterhand wird vorbereitet. 
+Damit der Handschuh funktioniert, bedarf es einer Spannungsversorgung. Diese wird 
+in Form einer Batterie oder eines Akkus vorgesehen sein, funktioniert aber allenfalls 
+über ein USB-C Kabel. Für einen möglichen stationären Betrieb kann der Handschuh 
+auch mit einem Netzteil betrieben werden. Die Passform des Handschuhs soll 
+möglichst komfortabel sein, um eine möglichst lange Benützung zu ermöglichen. 
+Dies setzt eine gut überlegte Integration der Elektronik voraus. Die Flexsensoren 
+sollen fest auf dem Handschuh befestigt sein. Die Widerstandswerte sind ansonsten 
+bei jedem Mal biegen unterschiedlich, wenn die Flexsensoren nicht an einer Stelle 
+am Handschuh bleiben, sondern sich verschieben. Diese Montage wird bei diesem 
+Projekt auch bestmöglich beachtet. Der Handschuh ist so gebaut, dass er auch von 
+Personen ohne elektronische Ausbildung und ohne Vorwissen bedient werden kann. 
+Das liegt daran, dass nur die Finger gebeugt oder gestreckt werden müssen. Jede 
+Handbewegung kann also gemacht werden, die Werte werden per Software automatisch 
+richtig verarbeitet. \\
 
 \subsection{Ausgabesubsystem}
 \label{chap:Ausgabesubsystem}
@@ -2608,19 +2765,19 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 \label{par:Datenübertragung}
 \hfill \break
 \hfill \break
-Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor ausliest, zu übertragen. Wichtig ist es, dass 
+Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor (siehe \autoref{chap:Flexsensor}) ausliest, zu übertragen. Wichtig ist es, dass 
 dies einfach und auf eine sehr stabile Weise funktioniert. Werden nämlich Daten fehlerhaft oder nur teilweise übertragen, dann 
 wirkt sich das auf der Empfängerseite drastisch aus. Es könnten dadurch unerwartete Fehler passieren beziehungsweise könnte die 
 Roboterhand von einem unstabilen System sehr hohe Schwankungen der Werte andauern wahrnehmen, was zu einer durchgängigen 
-Belastung der Servos führen würde. Das ist zwar nicht allzu schlimm, aber verbraucht unnötig Ressourcen. Anfangs war Bluetooth 
+Belastung der Servos (siehe \autoref{chap:Servomotor}) führen würde. Das ist zwar nicht allzu schlimm, aber verbraucht unnötig Ressourcen. Anfangs war Bluetooth 
 die favorisierte Option, da man im Alltag immer wieder mit Geräten zu tun hat, die Bluetooth als Standard der Funkübertragung 
-verwenden. Allerdings haben wir uns später dann aber für Wifi entschieden, da angenommen wurde, dass wir große Mengen an Daten 
-versenden. Dies ist nun aber nicht nötig, da nur die Widerstandswerte, die über einen ADC umgerechnet werden, nun versendet 
+verwenden. Allerdings haben wir uns später dann aber für Wifi (siehe \autoref{chap:WiFi}) entschieden, da angenommen wurde, dass wir große Mengen an Daten 
+versenden. Dies ist nun aber nicht nötig, da nur die Widerstandswerte, die über einen ADC (siehe \autoref{chap:Analog-Digital-Wandler}) umgerechnet werden, nun versendet 
 werden Deshalb haben wir nach einer neuen Möglichkeit gesucht, die einfacher zu realisieren ist. Schlussendlich wurde es dann 
-ESP-NOW, das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro Sendung 250 Byte gesendet werden. 
+ESP-NOW (siehe \autoref{chap:ESP-NOW}), das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro Sendung 250 Byte gesendet werden. 
 Ebenso ist eine Kommunikation zwischen mehreren ESP32 in beide Richtungen möglich. Der Standard gilt allerdings wirklich nur 
 für den ESP32, was allerdings aufgrund der Wahl von nur diesem letztgenannten, keine Probleme darstellt. ESP-NOW sendet auf dem 
-802.11 Protokoll, wie auch Wifi es macht. Der Vorteil liegt aber klar in der Energieeffizienz. ESP-NOW benötigt nämlich weniger 
+802.11 Protokoll (siehe \autoref{par:802.11b/g/n Standard}), wie auch Wifi es macht. Der Vorteil liegt aber klar in der Energieeffizienz. ESP-NOW benötigt nämlich weniger 
 Energie (vor allem, weil weniger Daten maximal gesendet werden können) als Wifi und ist deshalb gerade für unseren Zweck, die 
 energiebetriebene Versorgung der Senderplatine, optimal. Nicht zu vergessen ist der schnellere Verbindungsaufbau. Beim Testen 
 hatten sich beide Platinen sofort miteinander verbunden. Ein großer Vorteil ist die Peer-to-Peer Kommunikation, die zwischen 
@@ -2631,7 +2788,7 @@ spezifischen Anwendungsfall realisieren. \\
 \paragraph{Programmiersprache/Entwicklungsumgebung}
 \hfill \break
 \hfill \break
-Die Arduino IDE (1. \& 2. Version) wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
+Die Arduino IDE (1. \& 2. Version) (siehe \autoref{chap:Arduino IDE}) wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
 konzipiert wurde. Der ESP32 gehört auch zu den Mikrocontrollern, weshalb er ebenfalls über eigene Bibliotheken bestenfalls 
 über die Arduino IDE angesteuert werden kann. Der Code wird in der Programmiersprache C oder C++ geschrieben, da diese für 
 die Programmierung von Mikrocontrollern bestens geeignet ist. Mit Hilfe von verschiedenen Bibliotheken aus dem Internet wird 
@@ -2650,7 +2807,7 @@ Es soll darauf geachtet werden, dass so viele Codezeilen wie möglich und nötig
 einfachere Bearbeitung der Software realisiert werden kann. Die Fehlerbehebung soll damit um ein Vielfaches vereinfacht werden, 
 da man leicht abschätzen kann, wo ein Fehler liegen könnte. Zur effizienteren Erweiterung des Programmes soll es in 
 verschiedene Blöcke aufgeteilt werden. Damit ist gemeint, dass jeder Block einzeln einmal getestet wurde, bevor dieser im 
-endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass nur der ESP32 per UART-Verbindung, über eine 
+endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass nur der ESP32 per UART-Verbindung (siehe \autoref{chap:UART Funktionsweise}), über eine 
 USB-C Kabel, angeschlossen wird und man das Programm nur auf diesen hochladen muss. Die optimalen Anpassungen sollen in der 
 Standardversion des Programmes dann bereits vorhanden sein. \\
 \\
@@ -2661,7 +2818,7 @@ Jedes Programm muss ausführlich getestet werden. Die Tests bei der Senderplatin
 dem Auslesen der Widerstandswerte der Flexsensoren. Es soll überprüft werden, ob sich die Werte in dem von dem Benutzer 
 freiwillig ausgesuchten Bereich der map Funktion liegen. Bei dem Test soll bei dem gestreckten Flexsensor der maximale Wert 
 angezeigt werden und bei ganz gebeugtem Zustand (maximale Biegung am Handschuh durch Fingerbiegung) der niedrigste. Es ist 
-wichtig auch zu testen, ob der Multiplexer überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
+wichtig auch zu testen, ob der Multiplexer (siehe \autoref{chap:Multiplexer}) überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
 implementiert wurde, sollen die Werte des ADCs überprüft werden, der hinter den Multiplexer geschaltet wurde. Wenn diese Werte 
 ebenfalls realistisch sind, dann können diese Werte wie vorher bereits erwähnt gemapt werden und dann in einem bestimmten Format 
 über ESP-NOW an die Empfängerplatine (Roboterhand) gesendet werden. Dabei soll überprüft werden, ob auch wirklich Daten 
@@ -2793,7 +2950,7 @@ Falls diese Schritte alle abgearbeitet wurden, dann geht das ganze Prozedere wie
 \paragraph{Gliederung}
 \hfill \break
 \hfill \break
-Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation für 
+Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation (siehe \autoref{chap:I2C Funktionsweise}) für 
 den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi Bibliothek inkludiert wird. \\
 \\
 Danach werden die ADC-Parameter festgelegt, sowie die Ports zur Ansteuerung des Multiplexers. Minimale und maximale 
@@ -2906,21 +3063,6 @@ Channelnummer wird dann festgelegt, welcher Eingang zum ADC weitergeschalten wer
 soll. Durch einige if-Bedingungen kann somit immer sichergestellt werden, dass man 
 zu jeder Zeit den richtigen, gewünschten Wert auslesen kann. \\
 \\
-Untenstehend kann man noch anhand einer einfachen Logikschaltung eines 2-zu-1 
-Multiplexers die Funktionsweise eines Multiplexers. Grundsätzlich wird über 
-elektrische Signale einer von mehreren Eingangssignalen an den Ausgang 
-durchgeschaltet. Meist funktioniert dies durch Halbleiterelemente. Das Steuersignals
-schaltet noch zusätzlich. \\
-\\
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.2}
-		{\includegraphics[width=0.8 \linewidth]{Multiplexer_Beispiel}}
-		\caption{Multiplexer erklärendes Schaltbild}
-		\label{fig:Multiplexer_Beispiel}	
-	\end{center}
-\end{figure}
-\hfill \break
 \begin{lstlisting}
 String package = "$s:" + String(i-1) + ":" + String(angepassterWert);
 
@@ -3060,95 +3202,6 @@ wird auf den Wert 3 gesetzt. Damit soll eine mögliche Blockierung der Finger
 erkannt und die weitere Drehung des Servos erfolgreich gestoppt werden, um 
 Schäden an der Mechanik zu vermeiden. \\
 \\
-\textbf{UART Funktionsweise}
-\\
-Der Arduino, beziehungsweise der ESP, werden über die serielle Verbindung UART 
-(Universal Asynchronous Receiver and Transmitter) vom Computer angesprochen. 
-Dabei stellt diese Verbindung eine asynchrone Datenübertragung mit fester Baudrate, 
-Datenbits, Paritätsbits und Stoppbits dar. Es sind zwei Datenleitungen vorhanden, wobei 
-eine für das Senden (TX) und die andere für das Empfangen (Rx) von Daten zuständig ist. 
-Die Start- und Stopbits geben an, wann gesendet werden soll und wann dies nicht 
-mehr geschehen soll. Sobald der Sender ein Startbit erhält, beginnt die Übertragung 
-der Daten, aber beim Empfangen des Stopbit wird diese unterbrochen. Es wird 
-dadurch keine Clock benötigt, da die Baud Rate dies regelt, allerdings ist zu 
-beachten, dass diese maximal 10\% von jeder des anderen Geräts abweichen darf. 
-Die Baud Rate gibt an, wie viele Symbole pro Sekunde übertragen werden. Dabei 
-kann ein Symbol ein einzelnes Bit oder eine Gruppe von Bits sein. Die Baudrate 
-gibt also an in welchem Abstand jeweils ein Symbol gesendet wird (1s/Baudrate) 
-oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden 
-(Baudrate/1s). \\
-\\
-\textbf{Beispiel Protokoll für 8-bit Packet} \\
-Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
-Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
-Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
-ein Paritybit mitgesendet, das angibt, ob die Anzahl dieser gerade oder ungerade 
-ist. Es gibt klarerweise keine hundertprozentige Sicherheit, aber man kann sich 
-mehr auf die Nutzbarkeit der Daten verlassen. Bei der UART-Kommunikation bedeutet 
-ein Paritybit von 0 (odd), dass die Summe der Highbits eine ungerade Zahl ist. Ein 
-Paritybit von 1 (even) hingegen zeigt an, dass die Summe der Highbits eine gerade 
-Zahl ist. Üblicherweise werden zwei Stopbits am Ende einer Übertragung gesendet, 
-um eine verlängerte Ruhephase zu gewährleisten. 
-Dies führt zu einer stabileren Synchronität und Erhöhung der Robustheit gegen 
-Signalstörungen. Bei UART wird das LSB (least significant bit) immer ganz rechts 
-in den Daten gefunden. Sollte das Paritybit nicht stimmen, dann wird vom 
-Empfänger an den Sender eine Anfrage mit der Bitte um erneutes Senden gesendet, 
-da der Datensatz nicht stimmt. \\
-
-\textcolor{red}{https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a}
-
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.0}
-		{\includegraphics[width=0.8 \linewidth]{UART}}
-		\caption{UART erklärendes Diagramm}
-		\label{fig:UART}		
-	\end{center}
-\end{figure}
-\hfill \break
-\textbf{I2C Funktionsweise}
-\\
-I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
-kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
-Datenleitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
-interpretiert der I2C-Bus die Daten und steuert den Ablauf. Bei unserem Projekt ist 
-der ESP32 der Master und die Flexsensoren beispielsweise die Slaves. Der Master ist 
-dann der wichtige Bestandteil, da dieser für alle anderen Slaves derjenige ist, der 
-sagt, was welches Bauteil machen soll. Dabei hängen alle Geräte beziehungsweise 
-Bauteile an zwei Leitungen. Eine heißt SDA (serial data) und ist für die serielle 
-Übertragung der Daten verantwortlich. Jedoch ist zu erwähnen, dass diese bidirektional 
-benutzt wird. Das heißt es kann in beide Richtungen gesendet werden (Master zum 
-Slave und umgekehrt). Es muss aber der Master regeln, also entweder Daten senden 
-oder welche von einem Slave anfordern. Die zweite Leitung heißt SCL (serial clock) 
-und ist für den Takt zuständig, der für alle per I2C verbundenen Geräte gilt. Es 
-wird also ein synchroner Bus verwendet. \\
-\\
-\textbf{Beispiel Protokoll I2C}
-Die Daten sind grundsätzlich in Datenpaketen verpackt, jedes besteht aus 1 Byte. 
-Wenn nichts kommuniziert wird, dann hat SDA und SCL den Wert 1. Nachdem eine 
-Start-Condition gesendet wurde, durch die alle Slaves wissen, dass sie nun auf den 
-Master jederzeit reagieren sollen, wird die Adresse des Slaves gesendet, mit dem 
-nun Daten ausgetauscht werden sollen. 7 Bit werden hierfür standardmäßig verwendet. 
-Danach wird ein weiteres Bit gesetzt. Dieses kann den Wert 0, was Schreiben bedeutet, 
-oder 1, was lesen bedeutet, haben. Nun ist der Slave an der Reihe. Dieser muss 
-ebenso 0, wenn die Kommunikation bereitsteht, an den Master zurücksenden. Der Master 
-sendet dann oder empfängt Daten vom Slave. Sobald alle Daten versendet wurden, 
-kommt die Bestätigung. Der ganze Vorgang des Senden und Empfangens wird am Ende 
-dann durch die Stop-Condition beendet. SDA wird hier auf 1 gesetzt, währenddessen 
-SCL auch den Wert 1 besitzt. \\
-\\
-\textcolor{red}{http://fmh-studios.de/theorie/informationstechnik/i2c-bus/}
-\\
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.2}
-		{\includegraphics[width=0.8 \linewidth]{I2C}}
-		\caption{I2C Adressierung}
-		\label{fig:I2C}		
-	\end{center}
-\end{figure}
-\hfill \break
-
 
 \subsection{User Interface}
 \label{chap:User Interface}
@@ -3264,6 +3317,7 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 %--------------------------------------------------------------------------
 \section{Programme, Installationen und Plugins}
 \subsection{Fusion 360}
+\label{chap:Fusion 360}
 Autodesk Fusion 360 vereint CAD-, CAM-, CAE- und Leiterplatten-Funktionen in einer einzigen, integrierten Cloud-Softwareplattform. Die Software enthält alle Werkzeuge, die Sie benötigen, 
 um sämtliche Prozesse vom Entwurf bis zur Fertigung nahtlos auszuführen. \\
 \\
@@ -3296,6 +3350,7 @@ Die beiden, zur Anwendung gekommen, Plug-Ins lauten:
 \end{itemize}
 
 \subsection{Arduino IDE}
+\label{chap:Arduino IDE}
 Die Arduino IDE (IDE = Integrated Development Environment) ist eine Software zum Programmieren von Arduino-Mikrocontrollern. Sie ermöglicht es, Programme mit der Programmiersprache C oder C++ 
 zu schreiben und auf die Arduino-Boards zu laden und diese auf dem Arduino-Mikrocontroller auszuführen. Die Arduino IDE ist kostenlos und für verschiedene Betriebssysteme (Windows, macOS und 
 Linux) erhältlich. \footnote{\url{https://de.wikipedia.org/wiki/Arduino_IDE}, (Stand: 21.02.2024)} \\
@@ -3306,6 +3361,7 @@ Folgende Plug-Ins und Bibliotheken wurden installiert, um die Programmierung zu 
 \end{itemize}
 
 \subsection{QT Framework}
+\label{chap:QT Framework}
 Qt ist ein Framework, dass die plattformunabhängige Entwicklung für Desktop-, Embedded- und Mobilanwendungen unterstützt. Unterstützte Plattformen sind Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS und weitere. \\
 Qt ist keine eigenständige Programmiersprache. Es ist ein in C++ geschriebenes Framework. Ein Präprozessor, der MOC (Meta-Object Compiler), wird eingesetzt, um die Programmiersprache C++ um Features wie z.B. Signals und Slots zu 
 erweitern. Vor der Kompilierung parst der MOC die Quelldateien, die in C++ mit Qt-Erweiterungen geschrieben sind, und generiert aus ihnen C++-Standard-konforme Quelldateien. Deshalb kann das Framework selbst und Anwendungen bzw. 
