@@ -1,14 +1,14 @@
 \documentclass[titlepage,12pt,twoside]{article}
-\raggedbottom 
+%\usepackage[a4paper, inner=25mm, outer=20mm, top=20mm, bottom=20mm, bindingoffset=0mm]{geometry}
+
+\raggedbottom
 \pagenumbering{arabic}
-\textheight240mm            
-\textwidth150mm  
-\parskip0pt plus3pt
-\marginparwidth22mm  
-\marginparsep3mm
-\oddsidemargin4.6mm   
-\evensidemargin4.6mm  
-\topmargin-20mm
+\textheight=240mm
+\textwidth=150mm
+\parskip=0pt plus3pt
+\marginparwidth=22mm
+\marginparsep=3mm
+
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{4}
 
@@ -26,7 +26,7 @@
 \usepackage{siunitx}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
-\usepackage[margin=2.5cm]{geometry}
+\usepackage[margin=2.2cm]{geometry}
 \usepackage[none]{hyphenat}
 \usepackage{float} % für Positionierungsoption [H] beie Tables, figures,...
 \usepackage{hyperref} %Für URLS
@@ -91,14 +91,13 @@
 	\begin{tabular}{llr} 
 	\multicolumn{3}{l}{\large{ \textbf{3D-Druck, Mechanik, User-Interface Programmierung}}} \\
 	\large{Amir Al-Maytah} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	 \\
+	\\
 	\multicolumn{3}{l}{\large{ \textbf{Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration}}} \\
 	\large{Fabian Schweitzer} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	 \\
+	\\
 	\multicolumn{3}{l}{\large{ \textbf{Hardwareentwicklung, PCB-Design, Projektleitung}}} \\
 	\large{Ladislaus Szabo} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	 \\
-	
+	\\
 	\end{tabular}
 	
 	
@@ -3231,25 +3230,100 @@ Weitere Eigenschaften von Qt sind:
 \hfill \break
 \hfill \break
 Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
-erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das grafische Interface wurde 
-in der Beschreibungssprache QML erstellt, welche vielseitige Möglichkeiten zur individuellen Gestaltung bietet. Das Erstkonzept
-sieht folgendermaßen aus:
-	\begin{figure}[H]
-		\begin{center}
-			\scalebox{1.2}
-			{\includegraphics[width=0.8 \linewidth]{Konzept_UserInterface}}
-			\caption{User-Interface Konzept}
-			\label{fig:Konzept_UserInterface}				
-		\end{center}
-	\end{figure}
+erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das Erstkonzept sieht folgendermaßen aus:
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Konzept_UserInterface}}
+		\caption{User-Interface Konzept}
+		\label{fig:Konzept_UserInterface}				
+	\end{center}
+\end{figure}
+\hfill \break
 Zu sehen sind die ersten Überlegungen bezüglich des visuellen Layouts. Auf der rechten Seite des Bildschirms sollen die erforderlichen
 Anzeigen für die Parameter der Griffkraft und des Servodrehwinkels abgebildet werden. Links und rechts oben sollen diverse Knöpfe 
 und Schieberegler zur weiteren Navigation und Kontrolle des UIs platziert werden. Optional kann noch ein 3D-Modell und Regler für 
 die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind allerdings nicht gefordert. \\
 \\
 
+\subsubsection{Realisierung des Frontends \textcolor{red}{Laci}}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{UI_Oberfläche}}
+		\caption{UI Benutzeroberfläche}
+		\label{fig:UI_Oberfläche}				
+	\end{center}
+\end{figure}
+\hfill \break
+Die Benutzeroberfläche wurde mit der Beschreibungssprache $QML$ programmiert. Mit dieser können sehr einfach Tabellen und benutzerdefinierte
+Anordnungen erstellt werden, mit denen folglich ein visuell ansprechendes GUI kreiert werden kann. \\
+\\
+\paragraph{Erläuterung der Grafikoberfläche}
+\hfill \break
+\hfill \break
+\textbf{Einstellung des Steuermodus} \\
+Links oben in \autoref{fig:UI_Oberfläche}, sind zwei Elemente zu sehen. Der obere Schalter, ein sogenannter $Toggle-Switch$, ist dafür zuständig
+zwischen zwei Kontrolmodi für die Roboterhand zu wechseln. In der gezeigten Stellung, kann das Ausgabesubsystem ausschließlich vom Eingabesubsystem,
+mithilfe der angebrachten Flexsensoren gesteuert werden. Wird dieser Schalter betätigt, so kann die Roboterhand nur mehr mit dem User-Interface
+bewegt werden. \\
+\\
+Als erweiterte Funktion für die Zukunft, kann auf der Platine des Eingabesubsystems ein Schalter angebracht werden, der bei Bestätigung
+den Steuermodus automatisch umstellt. Hierzu müsste ein kurzer String übergeben werden, der folglich in der QT-Entwicklungsumgebung verarbeitet
+und erkannt wird. \\
+\\
+\textbf{Serial-Port Initialisierung} \\
+Direkt unter dem Schalter zur Einstellung des Steuermodus, befindet sich das Eingabefeld für den Serial-Port, der vom Benutzer eingegeben werden muss. Durch 
+einen Druck mit der Maus of den $OK-Button$, oder durch ein Drücken der $Enter-Taste$ nach dem Eingeben des Portnamen, wird die Serial-Kommunikation mit der Platine des Ausgabesubsystem 
+initialisiert und gestartet. \\
+\\
+\textbf{Dark-Mode-Switch} \\
+In der rechten, oberen Ecke der UI-Oberfläche, befindet sich ein Schalter, mit dem der $Theme$ des Interfaces zwischen $Dark$ und $Light$ gewechselt werden kann. Dies dient ausschließlich der 
+visuellen Darstellung und hat keinen Einfluss auf die Funktionalitäten der Anwendung. QT führt die Farbänderung aller Elemente automatisch durch, wodurch Programmieraufwand gespart wird. \\
+\\
+\textbf{Standby-Switch} \\
+Unterhalb des $Dark-Mode-Switches$, befindet sich ein $Standby-Button$. Wird dieser Knopf gedrückt, so bewegen sich alle Finger der Roboterhand in eine halbgeschlossene Stellung. Der Standby-Modus
+wird aufgehoben, sobald eine erneute Eingabe erfolgt. Wichtig zu beachten ist allerdings, dass die $Standby-Funktion$ im User-Interface nur verwendet werden kann, wenn der Schalter zum Einstellen des 
+Steuermodus auf $UI-Controlled$ gestellt ist. \\
+\\
+Als zukünftige Verbesserung, könnte, wie auch schon bei der Einstellung des Steuermodus erwähnt, eine Funktion auf der Platine des Eingabesubsystems eingebaut werden, mit der eine $Standby-Condition$
+ebenfalls bei der Steuerung mit dem Handschuh erzwungen werden kann. Um nicht zu viele Schalter und Drucktaster auf der Platine verbauen zu müssen, könnte diese Eingabe auch sprachlich realisiert werden. \\
+\\
+\textbf{Vorgefertigte Posen} \\
+\\
+Links, mittig im User-Interface, befindet sich eine Tabellenstruktur. Diese ist mit sechs $Buttons$ bestückt, die, bei Betätigung dieser, eine schon vorgefertigte Pose an das Ausgabesubsystem schicken. Diese Handstellung
+wird folglich von der Roboterhand eingenommen. \\
+\\
+Bei jeder, durch das User-Interface, initiierten Bewegung, wird ein $String$ an das Ausgabesubsystem geschickt. Durch dieses, im Vorhinein, festgelegte Protokoll, wird die Servostellung übergeben, wodurch die Finger der
+Roboterhand in die gewünschte Position bewegt werden. Das Code des Ausgabesubsystems prüft die ankommenden Werte vor der Bewegung der Motoren auf Plausibilität. \\
+\\
+\textbf{Finger-Slider} \\
+Im untere, linken Bereich des Grafikoberfläche, befindet sich ein $Stack-Layout$, das mit sechs $Slidern$ gefüllt ist. Diese Schieberegler ermöglichen es dem Benutzer jeden Finger der Roboterhand einzeln zu steuern. Dies
+funktioniert allerdings wieder nur, wenn der $Steuermodusschalter$ auf $UI-Controlled$ gestellt ist. Mit dem untersten Slider, können auch alle Finger auf einmal bewegt werden. Steuermöglichkeiten wie diese sind vorgesehen, 
+damit der Benutzer bei einer möglichen Fehlfunktion des Eingabesubsystems nicht handlungsunfähig wird. Mit dem User-Interface kann somit noch weitergearbeitet werden, wennauch nicht so praktikabel wie per Eingabesubsystem, nämlich dem Handschuh. \\
+\\
+Die Übergabe der Steuerwerte erfolgt mit einem Protokoll \textcolor{red}{(Verweis auf Amir Protokollbeschreibung)} \\
+\\
+\textbf{Kontrollanzeigen} \\ 
+Im unteren, rechten Bereich von \autoref{fig:UI_Oberfläche}, befinden sich die $Kontrollanzeigen$ für die Servostellungen und die Griffkraft der Roboterhand. Mittels dem Protokoll (\textcolor{red}{Verweis auf Protokollbeschreibung von Amir}), werden
+die Servowinkelwerte jedes einzelnen Servos an das User-Interface gesendet. Diese werden interpretiert und auf Plausibilität geprüft. Folglich werden die vorherigen Werte, die im Anzeigefenster standen, überschrieben und der neue aktualisierte Wert angezeigt. \\
+\\
+\textbf{3D-Modell} \\
+In der Mitte der Grafikoberfläche, ist die, nicht übersehbare, Darstellung eines echten Handskelets zu sehen. Dieses 3D-Modell wurde in Fusion 360 erstellt. Jedes einzelne Teil wurde anschließend exportiert und im QT-DesignStudio korrekt positioniert. Wichtig
+hierbei ist es zu beachten, dass jedes Hand -und Fingerglied vor dem Export aus Fusion 360 genau an seinem Ursprung liegen muss, da die Beugung der Finger ansonsten nicht korrekt nachgestellt werden kann. Die Drehachse jedes Gelenks, wäre durch einen inkorrekten Export
+verschoben.  
 
-\subsubsection{Realisierung und Gliederung \textcolor{red}{Laci}}
+\subsubsection{Realisierung des Backends \textcolor{red}{Laci}}
+Mithilfe von C++, wurde im QT-Designer das Backend programmiert. Dies beinhaltet alle Funktionen die für die Serial-Kommunikation notwendig sind und alle weiteren Funktionalitäten die bei der Benutzerinteraktion gefordert sind. \\
+\\
+Das Backend ist in ein $Main-Programm$, ein $Header-File$ und ein $Source-File$ gegliedert. Im Header-File $functions.h$, werden alle benötigten Funktionen erstellt. Im Source-File $functions.cpp$, werden die Funktionen anschließend 
+ausprogrammiert und miteinander verknüpft. Das Wort $Verknuepfen$, bezieht sich dabei auf das $Signal-Slot-System$ von QT, durch das Funktionen anhand von bestimmten Ereignissen aufgerufen werden können. Im Main-Programm $main.cpp$, werden die $Signals$
+und $Slots$ in Abhängigkeit gesetzt und somit die Funktionen des Backends miteinander verknüpft. \\
+\\
+Der gesamte Code des User-Interface, ist in Punkt \autoref{chap:Fertigungsunterlagen_Software_Code} zu sehen. \\
+\\
+Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden. \\
+\\
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -3288,90 +3362,497 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 \subsection{Milestoneplan}
 \begin{table}[h]
     \centering
-    \begin{tabular}{|c|l|}  % c für zentrierte Ausrichtung, l für linksbündig
+    \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
         \hline
-        \textbf{Nummer} & \textbf{Beschreibung} \\
+        \textbf{Milestonenummer} & \textbf{Beschreibung} & \textbf{Fälligkeitsdatum} \\
         \hline
-        A & Lastenheft fertig – 10.10.2023 \\
-        B & Kostenkalkulationen fertig – 24.10.2023 \\
-        C & Prototypen proof of concept – 21.11.2023 \\
-        D & Hardwaredesign fertig – 05.12.2023 \\
-        E & PCB-Design fertig – 09.01.2024 \\
-        F & Softwareimplementierung für Integrationstest fertig - 30.01.2024 \\
-        G & Integration aller Komponenten – 06.02.2024 \\
-        H & User Interface fertiggestellt – 13.02.2024 \\
-        I & Abnahme durch die Projektbetreuer – 12.03.2024 \\
+        1 & Lastenheft fertig & 10.10.2023 \\
+		\hline
+        2 & Kostenkalkulationen fertig & 24.10.2023 \\
+		\hline
+        3 & Prototypen proof of concept & 21.11.2023 \\
+		\hline
+        4 & Hardwaredesign fertig & 05.12.2023 \\
+		\hline
+        5 & PCB-Design fertig & 09.01.2024 \\
+		\hline
+        6 & Softwareimplementierung für Integrationstest fertig & 30.01.2024 \\
+		\hline
+        7 & Integration aller Komponenten & 06.02.2024 \\
+		\hline
+        8 & User Interface fertiggestellt & 13.02.2024 \\
+		\hline
+        9 & Abnahme durch die Projektbetreuer & 12.03.2024 \\
         \hline
     \end{tabular}
-    \caption{Zeitplan für das Projekt}
-    \label{tab:projektzeitplan}
+    \caption{Milestoneplan}
+    \label{tab:Milestoneplan}
 \end{table}
 
 \subsection{Gantt-Diagram}
 
 \subsection{Meeting Struktur}
 
+\newpage
 \subsection{Arbeitstunden}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		07.09.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Datenbanktexte fertigstellen, mechanische Überlegungen für Roboterhand konkretisieren}} \\
+		\hline
+		07.09.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Datenbanktexte fertigstellen, mechanische Überlegungen für Roboterhand konkretisieren}} \\
+		\hline
+		07.09.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Datenbanktexte fertigstellen, mechanische Überlegungen für Roboterhand konkretisieren}} \\
+		\hline
+		12.09.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Kostenkalkulationen begonnen}} \\
+		\hline
+		12.09.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Testaufbau der Roboterhand mit Servomotoren, Netzteil und Potentiometern}} \\
+		\hline
+		12.09.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Platinen fertig bearbeitet und Prof. Fuchsberger zur Inspektion und möglichen Bestellung gegeben}} \\
+		\hline
+		19.09.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Kostenkalkulationen weitergeführt}} \\
+		\hline
+		19.09.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Testaufbau der Roboterhand weitergemacht}} \\
+		\hline
+		19.09.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Hardwaredesign der Messschaltungen für Strom und Spannung mittels ADC}} \\
+		\hline
+		20.09.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Mindmap für Programmierung erstellt, Software Roadmap erstellt}} \\
+		\hline
+		20.09.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Testaufbau Roboterhand, Konzept für die Programmierung überlegt}} \\
+		\hline  
+    \end{tabular}
+    \label{tab:Arbeitsstunden1}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		20.09.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Hardwareentwicklung Spannungs -und Strommessung, Kicad Schaltplan bearbeiten}} \\
+		\hline
+		21.09.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Softwareentwicklung, Übertragungsraten der ADCs angeschaut}} \\
+		\hline
+		21.09.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Überarbeitung der Mechanik}} \\
+		\hline
+		21.09.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Hardwareentwicklung, Simulationen}} \\
+		\hline
+		26.09.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Flexsensoren ausmessen}} \\
+		\hline
+		26.09.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Servomotor ausmessen}} \\
+		\hline
+		26.09.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{bei beiden Messungen unterstützt}} \\
+		\hline 
+		27.09.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Ausmessung der Flexsensoren und Dokumentieren der Ergebnisse}} \\
+		\hline
+		27.09.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Kalibirierung der Roboterhand }} \\
+		\hline  
+		27.09.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Versuchsaufbau Spannungsmessung mit INA129 und Hardwareentwicklung}} \\
+		\hline
+		28.09.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation und Testen der Flexsensoren}} \\
+		\hline
+		28.09.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Verbesserung der Roboterhand}} \\
+		\hline
+		28.09.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Hardwareentwicklung und PCB-Design, Bauteilliste aktualisieren}} \\
+		\hline
+		03.10.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Software für das Auslesen der Flexsensoren geplant und Strommessung mitaufgebaut}} \\
+		\hline
+		03.10.2023 & 1,5 & 12:30 - 14:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Strommessschaltung (Servoansteuerung)}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden2}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		03.10.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Auswertung der Strommessung am Steckbrett}} \\
+		\hline
+		04.10.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Servomessung und Versuchsaufbau}} \\
+		\hline
+		04.10.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Servomessung und Versuchsaufbau}} \\
+		\hline  
+		04.10.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Richtlinien heraussuchen und Pflichtenheft verfasst}} \\
+		\hline
+		05.10.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation der Richtlinien und das Projekthandbuch weitergemacht}} \\
+		\hline
+		05.10.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung des User-Interface}} \\
+		\hline
+		05.10.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Platinen fräsen und in der mechanischen Werkstatt wegen dem Fräsen von Teilen fragen}} \\
+		\hline
+		10.10.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Platinen gelötet}} \\
+		\hline
+		10.10.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand zusammengebaut }} \\
+		\hline
+		10.10.2023 & 1,0 & 13:20 - 14:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation und Hilfe beim Löten}} \\
+		\hline
+		11.10.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Platinen gelötet}} \\
+		\hline
+		11.10.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand zusammengebaut }} \\
+		\hline  
+		11.10.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation und Messprotokoll erstellt}} \\
+		\hline
+		12.10.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Am Programm zum Auslesen der Flexsensoren weitergearbeitet}} \\
+		\hline
+		12.10.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhad kalibiriert}} \\
+		\hline
+		12.10.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation und Messprotokolle erstellt}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden3}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		17.10.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Bestücken der Platinen}} \\
+		\hline
+		17.10.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Mechanik und erste Überlegungen für die Programmierung}} \\
+		\hline
+		17.10.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Bestückung der Platinen}} \\
+		\hline
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Flussdiagramm für die Softwareentwicklung erstellt}} \\
+		\hline
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der Handschuhplatine}} \\
+		\hline  
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Löten der Platinen}} \\
+		\hline
+		19.10.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der ESPs}} \\
+		\hline
+		19.10.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der ESPs}} \\
+		\hline
+		19.10.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Löten der Platinen}} \\
+		\hline
+		24.10.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der ESPs und Besprechung des generellen Aufbaus der Programme mit Prof. Diemberger}} \\
+		\hline
+		24.10.2023 & 0,0 & / & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		24.10.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Löten der Platinen und ausbessern von diversen Fehlern und Kurzschlüssen}} \\
+		\hline
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der Übertragung zwischen zwei ESPs}} \\
+		\hline
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der Übertragung zwischen zwei ESPs}} \\
+		\hline  
+		18.10.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Löten der Platinen und ausbessern von Fehlern}} \\
+		\hline
+		07.11.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		07.11.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		07.11.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Letzter Check der Platinen und diese bei JLCPCB bestellt}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden4}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		09.11.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		09.11.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		09.11.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokument "Hardwarebeschreibung" verfasst}} \\
+		\hline
+		21.11.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der drahtlosen Schnittstelle zwischen beiden ESPs}} \\
+		\hline
+		21.11.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der drahtlosen Schnittstelle zwischen beiden ESPs}} \\
+		\hline
+		21.11.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Testen der neuen Platinen }} \\
+		\hline
+		22.11.2023 & 0,0 & 11:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der Übertragung zwischen zwei ESPs}} \\
+		\hline
+		22.11.2023 & 4,5 & 11:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung der Übertragung zwischen zwei ESPs}} \\
+		\hline  
+		22.11.2023 & 4,5 & 11:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Löten der Platinen und ausbessern von Fehlern}} \\
+		\hline
+		23.11.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung und Platinentesting}} \\
+		\hline
+		23.11.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung und Platinentesting}} \\
+		\hline
+		23.11.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Testen und Durchmesen der Platinen gemeinsam mit Softwareüberprüfung}} \\
+		\hline
+		28.11.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{erste Servoansteuerung mit der neuen Platine}} \\
+		\hline
+		28.11.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Weiterentwicklung der Roboterhand und erneutes Testen der Handschuhplatine nach beheben eines Lötfehlers}} \\
+		\hline
+		28.11.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Fehlersuche an den Platinen und Messtabelle für die Messchaltung der Flexsensoren erstellt}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden5}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		29.11.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung des ESP Senderprogramms}} \\
+		\hline
+		29.11.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Programmierung des ESP Empfängerprogramms}} \\
+		\hline  
+		29.11.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Unterstützung bei der Programmierung}} \\
+		\hline
+		30.11.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Überlegungen für Algorithmus zur Korrektur der Flexsensortoleranz}} \\
+		\hline
+		30.11.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Entwicklung des Algorithmus für Fehlerwertkorrektur auf der Roboterhandplatine}} \\
+		\hline
+		30.11.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{ESPnow Interface testing und Datenübertragung}} \\
+		\hline
+		05.12.2023 & 1,5 & 12:30 - 14:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Testen der Strommessung der Roboterhandplatine}} \\
+		\hline
+		05.12.2023 & 0,0 & / & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		05.12.2023 & 1,5 & 12:30 - 14:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Testen der Strommessung der Roboterhandplatine}} \\
+		\hline
+		06.12.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		06.12.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline  
+		06.12.2023 & 0,0 & / & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		07.12.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung und erste Inbetriebnahme aller Komponenten gemeinsam}} \\
+		\hline
+		07.12.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung und erste Inbetriebnahme aller Komponenten gemeinsam}} \\
+		\hline
+		07.12.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Überprüfung aller Schaltungsteile bei der ersten Komplettinbetriebnahme}} \\
+		\hline
+		12.12.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		12.12.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand 3D-Design}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden6}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		12.12.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Platinendesign letzte Iteration}} \\
+		\hline
+		13.12.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		13.12.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand 3D-Design}} \\
+		\hline  
+		13.12.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Platinendesign letzte Iteration}} \\
+		\hline
+		14.12.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		14.12.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand 3D-Design}} \\
+		\hline
+		14.12.2023 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Platinendesign letzte Iteration}} \\
+		\hline
+		19.12.2023 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		19.12.2023 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Design der Roboterhand }} \\
+		\hline
+		19.12.2023 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{UI Programmierung}} \\
+		\hline
+		20.12.2023 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		20.12.2023 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Design der Roboterhand}} \\
+		\hline  
+		20.12.2023 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{UI Programmierung}} \\
+		\hline
+		21.12.2023 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP32 Programmierung}} \\
+		\hline
+		21.12.2023 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Design der Roboterhand}} \\
+		\hline
+		21.12.2023 & 0.0 & / & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		09.01.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		09.01.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Modelierung der Roboterhand}} \\
+		\hline
+		09.01.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Handschuh mit Sensoren bestückt und verdrahtet}} \\
+		\hline
+		10.01.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Handschuhplatine programmiert}} \\
+		\hline
+		10.01.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{C++ Dateien für Roboterhand zusammengeführt}} \\
+		\hline  
+		10.01.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{UI Programmierung}} \\
+		\hline
+		11.01.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		11.01.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Roboterhand - 3D Druck}} \\
+		\hline
+		11.01.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{UI Programmierung}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden7}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		16.01.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		16.01.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		16.01.2024 & 3,5 & / & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		17.01.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		17.01.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Mechanik der Roboterhand verbessert}} \\
+		\hline  
+		17.01.2024 & 3,5 & / & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		18.01.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		18.01.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		18.01.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{finalen Schaltlan der Handschuhplatine erstellt}} \\
+		\hline
+		23.01.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		23.01.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		23.01.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		24.01.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{ESP Programmierung}} \\
+		\hline
+		24.01.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Mechanik der Roboterhand zum 3D drucken fertig gemacht}} \\
+		\hline
+		24.01.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation fortgesetzt}} \\
+		\hline  
+		25.01.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Tag der offenen Tür Projektvorstellung}} \\
+		\hline
+		25.01.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Tag der offenen Tür Projektvorstellung}} \\
+		\hline
+		25.01.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Tag der offenen Tür Projektvorstellung}} \\
+		\hline
+		30.01.2024 & 0,0 & / & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		30.01.2024 & 0,0 & / & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		30.01.2024 & 0,0 & / & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		31.01.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Strommessung der Roboterhandplatine in Betrieb genommen}} \\
+		\hline
+		31.01.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Zusammenbau der gedruckten Teile der Mechanik}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden8}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		31.01.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation fortgesetzt und beim Zusammenbau der Mechanik geholfen}} \\
+		\hline  
+		01.02.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Finetuning der Sensorik am Handschuh}} \\
+		\hline
+		01.02.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Feinsjustierung der Mechanik}} \\
+		\hline
+		01.02.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation fortgeführt und Verbesserungen für die Mechanik überlegt}} \\
+		\hline
+		13.02.2024 & 0,0 & / & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{/}} \\
+		\hline
+		13.02.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Feinsjustierung der Mechanik}} \\
+		\hline
+		13.02.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Dokumentation fortgeführt}} \\
+		\hline
+		14.02.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		14.02.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		14.02.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline  
+		15.02.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		15.02.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		15.02.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		20.02.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		20.02.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Feinjustierung der Mechanik und weiterarbeiten an der Dokumentation}} \\
+		\hline
+		20.02.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{Feinjustierung der Mechanik und weiterarbeiten an der Dokumentation}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden9}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		21.02.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		21.02.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		21.02.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline  
+		22.02.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		22.02.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		22.02.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		27.02.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		27.02.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		27.02.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden10}
+\end{table}
+
+\newpage
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Programme, Installationen und Plugins}
 \subsection{Fusion 360}
 \label{chap:Fusion 360}
-Autodesk Fusion 360 vereint CAD-, CAM-, CAE- und Leiterplatten-Funktionen in einer einzigen, integrierten Cloud-Softwareplattform. Die Software enthält alle Werkzeuge, die Sie benötigen, 
-um sämtliche Prozesse vom Entwurf bis zur Fertigung nahtlos auszuführen. \\
+Fusion 360 ist eine CAD-Software, die es ermöglicht 3D-Modelle zu erstellen, diese zu bearbeiten und anschließend zu exportieren. \\
 \\
-Mit Fusion 360 können Sie: \\
-
-\begin{itemize}
-	\item Konstruktionsvarianten mit benutzerfreundlichen 3D-Modellierungswerkzeugen überprüfen;
-	\item hochwertige CNC-bearbeitete Bauteile mit integriertem CAD/CAM erstellen;
-	\item Zugriff auf eine einheitliche Umgebung für die Elektronikplanung erhalten;
-	\item die Leistung Ihrer Entwürfe mit 3D-Simulationswerkzeugen testen;
-	\item mit generativem Design fertigungsfähige Varianten untersuchen,
-	\item nahtlos zusammenarbeiten und Daten in der Cloud verwalten. \footnote{\url{https://www.autodesk.de/solutions/what-is-fusion-360}, (Stand: 21.02.2024)}
-\end{itemize}
-
 \subsection{KiCad}
 \label{chap:KiCad}
-KiCad ist ein Open Source Softwaretool zum Erstellen von elektronischen Schaltplänen und PCB Layouts. \\
+KiCad ist ein Tool zum Erstellen von Schaltplänen und Platinenlayouts. Es können Footprints zugewiesen, Schaltungsfunktionen überprüft und anschließend Bauteile auf einem Platinenmodell angeordnet werden. \\
 \\
-KiCad kann als ausreichend ausgereift betrachtet werden um erfolgreich auch komplexe elektronische Schaltungen und Leiter- platten entwickeln und managen zu können.
-KiCad hat keine Beschränkungen bei der Platinengröße und es kann einfach bis zu 32 Kupferlagen kontrollieren, bis zu 14 technische Lagen und bis zu vier Hilfslagen. Ebenso 
-kann KiCad alle Dateien erstellen die nötig sind für gedruckte Schaltungen, ebenso Gerber Dateien für Foto Plotter, Bohrdateien, Bauteilplatzierungsdateien und noch vieles mehr.
-Durch die Open Source Ausrichtung (GPL Lizenz) repräsentiert KiCad sich als das ideale Tool für fortschrittlich ausgerichtete Projekte die elektronische Hardware erstellen. \footnote{\url{https://docs.kicad.org/4.0/de/getting_started_in_kicad/getting_started_in_kicad.pdf}, (Stand: 21.02.2024)} \\
-\\
-Es wurde ausschließlich die $Version 7.0.7$ zum Entwurf von Schaltplänen und PCB-Layouts verwendet. \\
-\\
-Die beiden, zur Anwendung gekommen, Plug-Ins lauten:
-\begin{itemize}
-	\item Interactive Html Bom
-	\item JLC PCB Fabrication Toolkit
-\end{itemize}
-
 \subsection{Arduino IDE}
 \label{chap:Arduino IDE}
-Die Arduino IDE (IDE = Integrated Development Environment) ist eine Software zum Programmieren von Arduino-Mikrocontrollern. Sie ermöglicht es, Programme mit der Programmiersprache C oder C++ 
-zu schreiben und auf die Arduino-Boards zu laden und diese auf dem Arduino-Mikrocontroller auszuführen. Die Arduino IDE ist kostenlos und für verschiedene Betriebssysteme (Windows, macOS und 
-Linux) erhältlich. \footnote{\url{https://de.wikipedia.org/wiki/Arduino_IDE}, (Stand: 21.02.2024)} \\
+Die Arduino IDE ist eine Entwicklungsumgebung zur Programmierung von Arduino-Mikrokontrollern. Durch diverse Plugins können auch andere Mikrokontroller programmiert werden, wie in unserem Fall der ESP23. \\
 \\
-Folgende Plug-Ins und Bibliotheken wurden installiert, um die Programmierung zu erleichtern:
-\begin{itemize}
-	\item ererf
-\end{itemize}
-
 \subsection{QT Framework}
 \label{chap:QT Framework}
-Qt ist ein Framework, dass die plattformunabhängige Entwicklung für Desktop-, Embedded- und Mobilanwendungen unterstützt. Unterstützte Plattformen sind Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS und weitere. \\
-Qt ist keine eigenständige Programmiersprache. Es ist ein in C++ geschriebenes Framework. Ein Präprozessor, der MOC (Meta-Object Compiler), wird eingesetzt, um die Programmiersprache C++ um Features wie z.B. Signals und Slots zu 
-erweitern. Vor der Kompilierung parst der MOC die Quelldateien, die in C++ mit Qt-Erweiterungen geschrieben sind, und generiert aus ihnen C++-Standard-konforme Quelldateien. Deshalb kann das Framework selbst und Anwendungen bzw. 
-Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Clang, GCC, ICC, MinGW und MSVC kompiliert werden. \footnote{\url{https://wiki.qt.io/About_Qt/de}, (Stand: 21.02.2024)} \\
+QT ist ein Softwareentwicklungstool, das eine plattformunabhängige Programmierung von Anwendungen ermöglicht. Apps können ohne Änderungen des Quellcodes für Linux, Windows und Mac kompiliert werden. Es können ebenfalls Mobile-Anwendungen
+erstellt werden. \\
 \\
-
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==FERTIGUNGSUNTERLAGEN====================================================
 \section{Fertigungsunterlagen}
+\label{chap:Fertigungsunterlagen}
 \subsection{Gesamtprojekt}
 \begin{figure}[H]
 	\begin{center}
@@ -3401,6 +3882,7 @@ Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Cla
 \hfill \break
 
 \subsection{Mechanik}
+\label{chap:Fertigungsunterlagen_Mechanik}
 \subsubsection{Skizzen ud Konzepte}
 
 \subsubsection{CAD-Zeichnungen}
@@ -3409,6 +3891,7 @@ Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Cla
 
 
 \subsection{Hardware}
+\label{chap:Fertigungsunterlagen_Hardware}
 \subsubsection{Skizzen und Konzepte}
 \begin{figure}[H]
 	\begin{center}
@@ -3437,6 +3920,7 @@ Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Cla
 
 
 \subsection{Software}
+\label{chap:Fertigungsunterlagen_Software}
 \subsubsection{Skizzen und Konzepte}
 \begin{figure}[H]
 	\begin{center}
@@ -3469,6 +3953,7 @@ Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Cla
 \subsubsection{Diagramme}
 
 \subsubsection{Code}
+\label{chap:Fertigungsunterlagen_Software_Code}
 
 
 %--------------------------------------------------------------------------
@@ -3476,7 +3961,42 @@ Bibliotheken, die es benutzen, von jedem C++-Standard-konformen Compiler wie Cla
 %==VERZEICHNISSE===========================================================
 \section{Abbildungsverzeichnis}
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \autoref{fig:Flexsensor} & Flexsensor \\
+        2 & Kostenkalkulationen fertig \\
+        3 & Prototypen proof of concept \\
+        4 & Hardwaredesign fertig \\
+        5 & PCB-Design fertig \\
+        6 & Softwareimplementierung für Integrationstest fertig \\
+        7 & Integration aller Komponenten \\
+        8 & User Interface fertiggestellt \\
+        9 & Abnahme durch die Projektbetreuer \\
+        \hline
+    \end{tabular}
+    \label{tab:Abbildungsverzeichnis}
+\end{table}
+
 \section{Tabellenverzeichnis}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        2 & Kostenkalkulationen fertig \\
+        3 & Prototypen proof of concept \\
+        4 & Hardwaredesign fertig \\
+        5 & PCB-Design fertig \\
+        6 & Softwareimplementierung für Integrationstest fertig \\
+        7 & Integration aller Komponenten \\
+        8 & User Interface fertiggestellt \\
+        9 & Abnahme durch die Projektbetreuer \\
+        \hline
+    \end{tabular}
+    \label{tab:Tabellenverzeichnis}
+\end{table}
 
 \section{Literaturverzeichnis}
 
