@@ -33,6 +33,7 @@
 \usepackage{listings} %Für Codezeilen
 \usepackage{titlesec} %Für Buchstaben als Überschriftsnummerierung
 \usepackage{enumitem}
+\usepackage{siunitx}
 \lstset{language=C++}
 \setlength{\fboxsep}{5pt} % Ändere die Rahmenbreite nach Bedarf
 %--------------------------------------------------------------------------
@@ -474,6 +475,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \hfill \break
 \hfill \break
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Lastenheft}
@@ -609,6 +611,8 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
     \label{tab:zeilenumbruch_parbox}
 \end{table}
 
+
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Vorwissenschaftlicher Theorieteil}
@@ -618,6 +622,8 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \subsection{\textcolor{purple}{Platzhalter Thema Fabian}}
 \subsection{Sicherheitsaspekte der Mensch-Roboter-Kollaboration}
 
+
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Theoretische Grundlagen des Diplomprojekts}
@@ -730,10 +736,12 @@ Im Freien, ohne störende Wände oder Möbel, kann ESP-NOW Daten auf jeden Fall 
 bis 250 Meter weit übertragen. In geschlossenen Räumen funktioniert die Übertragung 
 und anderen störenden Einflüssen. \footnote{\url{https://wolles-elektronikkiste.de/esp-now\#range}, (Stand: 21.02.2024)} \\
 \\
-Das OSI-Modell wird bei dem ESP-NOW Modell von fünf Schichten auf eine 
-einzige reduziert. Daten müssen somit nicht den Network layer, nicht den 
-Transport layer, nicht den Session layer, nicht den Presentation layer und 
-nicht den Application layer durchlaufen. Der große Vorteil liegt außerdem 
+Das OSI-Modell wird bei dem ESP-NOW Modell von sieben Schichten auf 
+zwei reduziert. Daten müssen somit nicht den Network-Layer, den 
+Transport-Layer, den Session-Layer, den Presentation-Layer und 
+den Application-Layer durchlaufen. Nur der Data-Link-Layer (SLIP/PPP/MTU), 
+sowie der Physical-Layer (802.11b/g/n), werden verwendet. 
+Der große Vorteil liegt außerdem 
 darin, dass man einige Dinge nicht berücksichtigen muss. Es gibt keine 
 Paketköpfe oder Entpacker auf jeder Schicht. Dies führt zu einer schnelleren 
 Reaktion, zu weniger Overhead und die Paketverluste werden dadurch in überlasteten Netzen 
@@ -837,7 +845,7 @@ Diese Protokolle sind für die Kommunikation notwendig und standardisiert. \\
 \hfill \break
 \hfill \break
 Es gibt bei ESP-NOW zwei Schichten, den Data Link Layer und den Physical Layer 
-(siehe \autoref{chap:OSI-Modell}). Dabei beruht der Physical Layer auf dem IEEE 802.15.4 Standard. 
+(siehe \autoref{chap:OSI-Modell}). Dabei beruht der Physical Layer auf dem IEEE 802.11b/g/n Standard. 
 Da jedoch nicht so viele Schichten, wie bei dem OSI-Modell vorhanden sind, gibt es 
 mehrere Möglichkeiten, wo Fehler liegen können und es ist nicht so leicht den Fehler 
 an der richtigen Stelle zu suchen. \\
@@ -1066,6 +1074,8 @@ die Geräte keine Verbindung per Datenkabel benötigen, sondern auch innerhalb e
 überall miteinander kommunizieren können. Die Reichweite von WIFI kann dabei von verschiedenen Faktoren 
 vermindert werden, wie beispielsweise durch Wände. \\
 \\
+
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
@@ -1143,15 +1153,17 @@ Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes 
 umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem, ist ein Graphical-User-Interface, 
 welches in \autoref{chap:User Interface} näher erklrärt wird. \\
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-
 \section{Mechanische Realisierung}
 \label{chap:Mechanische Realisierung}
 
 \subsection{Handschuh \textcolor{red}{Amir}}
 \subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
 
+
+\newpage
 \subsection{Roboterhand \textcolor{red}{Amir}}
 \subsubsection{Der Grundgedanke}
 Der Grundgedanke der Mechanik in der Roboterhand ist es alle drei Glieder eines Fingers,
@@ -1539,9 +1551,9 @@ eine weitere Versuchshand zu schaffen. \\
 \hfill \break
 \hfill \break
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-
 \section{Hardware Realisierung}
 
 \subsection{Eingabesubsystem}
@@ -1861,6 +1873,7 @@ Technologie verfügt, wodurch er nur eine minimale Ausgangsspannung von rund 800
 kann.
 \\
 
+\newpage
 \subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
 Nach den generellen Überlegungen und Versuchsaufbauten, die zu der Entwicklung der Schaltung des Eingabesubsystems beigetragen haben, wird in diesem Punkt 
 das genaue Schaltungsdesign erläutert. \\
@@ -2193,6 +2206,7 @@ In \autoref{fig:Platinenmodell_Handschuh_unten_v2}, ist das 3D-Modell des Bottom
 gefertigten Platine und muss noch bestückt werden. \\
 \\
 
+\newpage
 \subsection{Roboterhand}
 
 \subsubsection{Grundlegende Vorraussetzungen}
@@ -2752,10 +2766,9 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 \end{figure}
 \hfill \break
 
-
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-
 \section{Software Realisierung}
 
 \subsection{Handschuh}
@@ -3091,7 +3104,7 @@ folgt aus: \"\$s:2:50\". Schlussendlich wird dann der gesamte String namens
 Empfängerplatine gesendet. \\
 \\
 
-
+\newpage
 \subsection{Roboterhand}
 
 \subsubsection{Grundlegende Vorraussetzungen}
@@ -3202,6 +3215,7 @@ erkannt und die weitere Drehung des Servos erfolgreich gestoppt werden, um
 Schäden an der Mechanik zu vermeiden. \\
 \\
 
+\newpage
 \subsection{User Interface}
 \label{chap:User Interface}
 
@@ -3325,23 +3339,143 @@ Der gesamte Code des User-Interface, ist in Punkt \autoref{chap:Fertigungsunterl
 Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden. \\
 \\
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==TESTS-UND-MESSUNGEN=====================================================
 \section{Tests und Messungen}
-\subsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte}}
+\subsection{Widerstandsmessung der Flexsensoren \textcolor{red}{Fabian}}
+\textbf{Ziel und Sinn der Messung} \\
+Jeder Flexsensor besitzt einen bestimmten Widerstandsbereich ($25k\Omega$ bis maximal $125k\Omega$). Laut Datenblatt muss allerdings von einer Toleranz von $+-30\%$ ausgegangen 
+werden. Deshalb muss der Widerstandswert jedes einzelnen Flexsensors ausgelesen werden, um festzustellen, wie sehr dieser je Flexsensor variiert. \\
+\\
+Als Erstes wurde eine Messung jedes einzelnen Flexsensors durchgeführt. Dabei wurden zuerst Punkte auf einem Blatt Papier aufgezeichnet \autoref{fig:Punkte_zur_Messung_Flexsensoren}. 
+Der Flexsensor, der am Anfang, bevor dieser gebogen wird, nur auf der y-Achse liegt, wird dann immer mehr Richtung der jeweilig gekennzeichneten Punkte gebogen. 
+Der untere Teil des Flexsensors bleibt stets auf den Koordinaten $(0|0)$, damit der Winkel von der y-Achse zur x-Achse gemessen werden kann. Punkt Nummer 1 liegt 
+beispielsweise bei dem Winkel von 17\textdegree. Es wurde von zwei Flexsensoren der sich ändernde Widerstandswert mit dieser Methode ausgemessen. Man hat am Ende also sieben 
+Widerstandswerte (Winkel von 0\textdegree, 17\textdegree, 27\textdegree, 40\textdegree, 53\textdegree, 65\textdegree, 76\textdegree, 90\textdegree) bei jedem der beiden Flexsensoren gemessen (siehe \autoref{tab:Messergebnisse_Papier}). \\
+Man kann klar erkennen, dass die Widerstandswerte von Flexsensor 1 klar von jenen von Flexsensor 2 abweichen, gerade immer höheren Bereich des Biegungsgrades. 
+Flexsensor 1 erreicht bei einer Biegung von 90\textdegree einen maximalen Widerstandswert von $110k\Omega$, bei Flexsensor 2 sind es nur $45k\Omega$. Des Weiteren konnte festgestellt 
+werden, dass sich der Wert, aufgrund der Befestigung am Handschuh, welche keine stabile Position garantiert, teils bei jeder getätigten Messung wieder etwas verändert hat. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.0}
+		{\includegraphics[width=0.8 \linewidth]{Punkte_zur_Messung_Flexsensoren}}
+		\caption{Punkte zur Messung (Winkel)}
+		\label{fig:Punkte_zur_Messung_Flexsensoren}				
+	\end{center}
+\end{figure}
+\hfill \break
 
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \multicolumn{2}{|c|}{\textbf{Flexsensor 1}} & \multicolumn{2}{c|}{\textbf{Flexsensor 2}} \\
+        \hline
+        Winkel (\textdegree) & Widerstand ($k\Omega$) & Winkel (\textdegree) & Widerstand ($k\Omega$) \\
+        \hline
+        0 & 44 & 0 & 25 \\
+		17 & 55 & 17 & 28 \\
+		27 & 65 & 27 & 31 \\
+		40 & 75 & 40 & 36 \\
+		53 & 85 & 53 & 39 \\
+		65 & 92 & 65 & 41 \\
+		76 & 102 & 76 & 42 \\
+		90 & 110 & 90 & 45 \\
+        \hline
+    \end{tabular}
+    \caption{Messergebnisse am Papier}
+    \label{tab:Messergebnisse_Papier}
+\end{table}
+\hfill \break
+Als Zweites wurden die ausgemessenen Werte von Flexsensor 2 \autoref{tab:Messergebnisse_Papier} übernommen. Zusätzlich wurde nun der Flexsensor 2 auf den 
+Handschuh am Bereich des Zeigefingers der rechten Hand montiert. Die in \autoref{tab:Messergebnisse_Handschuh} zu sehende Einstellung (x/8), gibt den in der linken 
+Tabelle nebenstehenden Winkel jeweils dazu an. Das bedeutet, dass man den Finger ungefähr bei der Einstellung von 2 um 17° abgebogen hat. Die nachfolgenden 
+Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einstellung (1-8). \\
+\\
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \multicolumn{2}{|c|}{\textbf{Flexsensor 2 (Papier)}} & \multicolumn{2}{c|}{\textbf{Flexsensor 2 (Handschuh)}} \\
+        \hline
+        Winkel (\textdegree) & Widerstand ($k\Omega$) & Einstellung (x/8) & Widerstand ($k\Omega$) \\
+        \hline
+        0 & 25 & 1 & 25 \\
+		17 & 28 & 2 & 27 \\
+		27 & 31 & 3 & 29 \\
+		40 & 36 & 4 & 31 \\
+		53 & 39 & 5 & 33 \\
+		65 & 41 & 6 & 35 \\
+		76 & 42 & 7 & 37 \\
+		90 & 45 & 8 & 39 \\
+        \hline
+    \end{tabular}
+    \caption{Messergebnisse am Handschuh}
+    \label{tab:Messergebnisse_Handschuh}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        \begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_1}
+            \captionof{figure}{Einstellung 1}
+        \end{minipage}
+        &
+        \begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_2}
+            \captionof{figure}{Einstellung 2}
+        \end{minipage} \\
+		\begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_3}
+            \captionof{figure}{Einstellung 3}
+        \end{minipage}
+        &
+        \begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_4}
+            \captionof{figure}{Einstellung 4}
+        \end{minipage} \\
+		\begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_5}
+            \captionof{figure}{Einstellung 5}
+        \end{minipage}
+        &
+        \begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_6}
+            \captionof{figure}{Einstellung 6}
+        \end{minipage} \\
+		\begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_7}
+            \captionof{figure}{Einstellung 7}
+        \end{minipage}
+        &
+        \begin{minipage}[c]{0.4\linewidth}
+            \includegraphics[width=\linewidth]{Einstellung_8}
+            \captionof{figure}{Einstellung 8}
+        \end{minipage} \\
+		\hline
+	\end{tabular}
+    \caption{Messpositionen mit dem Handschuh}
+    \label{tab:Messposition mit dem Handschuh}
+\end{table}
+
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==Zusammenfassung=========================================================
 \section{Ergebnisse und Erkenntisse}
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==AUSBLICK================================================================
 \section{Ausblick}
 
-
+\newpage
 %--------------------------------------------------------------------------
 \section{Anhang}
 %--------------------------------------------------------------------------
@@ -3354,13 +3488,13 @@ Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem 
 \\
 
 
-
+\newpage
 %==PROJEKTMANAGEMENT=======================================================
 \section{Projektmanagement}
 \subsection{Projektstrukturplan}
 
 \subsection{Milestoneplan}
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
         \hline
@@ -3827,7 +3961,6 @@ Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem 
 \end{table}
 
 \newpage
-
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \section{Programme, Installationen und Plugins}
@@ -3848,6 +3981,7 @@ Die Arduino IDE ist eine Entwicklungsumgebung zur Programmierung von Arduino-Mik
 QT ist ein Softwareentwicklungstool, das eine plattformunabhängige Programmierung von Anwendungen ermöglicht. Apps können ohne Änderungen des Quellcodes für Linux, Windows und Mac kompiliert werden. Es können ebenfalls Mobile-Anwendungen
 erstellt werden. \\
 \\
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==FERTIGUNGSUNTERLAGEN====================================================
@@ -3955,13 +4089,13 @@ erstellt werden. \\
 \subsubsection{Code}
 \label{chap:Fertigungsunterlagen_Software_Code}
 
-
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==VERZEICHNISSE===========================================================
 \section{Abbildungsverzeichnis}
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
         \hline
@@ -3979,9 +4113,10 @@ erstellt werden. \\
     \label{tab:Abbildungsverzeichnis}
 \end{table}
 
+\newpage
 \section{Tabellenverzeichnis}
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
         \hline
@@ -3998,8 +4133,10 @@ erstellt werden. \\
     \label{tab:Tabellenverzeichnis}
 \end{table}
 
+\newpage
 \section{Literaturverzeichnis}
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \end{document}
