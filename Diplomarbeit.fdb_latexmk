@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1709125750 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1709125758 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1709125749 232771 115254852bfc74575fd7614e78ee8bbd ""
+["pdflatex"] 1709126008 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1709126017 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1709126000 232948 870380e5666ab9a36b583f8ccc128b1b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -221,10 +221,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1709125758 57468 f82136c57dec4add9031f2d76f7fca94 "pdflatex"
-  "Diplomarbeit.out" 1709125758 33159 5f6476e79cce17870dcda65995ea9b74 "pdflatex"
-  "Diplomarbeit.tex" 1709125749 232771 115254852bfc74575fd7614e78ee8bbd ""
-  "Diplomarbeit.toc" 1709125758 18021 a5c7fd5de3918df96b82c0cc3b5e7c48 "pdflatex"
+  "Diplomarbeit.aux" 1709126016 57992 a58ba7200214301a450cb60d05cf39fb "pdflatex"
+  "Diplomarbeit.out" 1709126016 33556 8fa2556dcb9814990c7d7b4cb4bba45f "pdflatex"
+  "Diplomarbeit.tex" 1709126000 232948 870380e5666ab9a36b583f8ccc128b1b ""
+  "Diplomarbeit.toc" 1709126016 18326 a96e55fb97e72d579ed8ecd2dba95251 "pdflatex"
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
