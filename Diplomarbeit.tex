@@ -3323,6 +3323,21 @@ sehr kleinen Wertebereich durch diese festgelegten Grenzwerte, allerdings ist di
 Unregelmäßigkeiten und Fehlmessungen. Wenn nun die Flexsensoren zusätzlich auch noch am Handschuh verrutschen, dann wird 
 trotzdem noch eine sehr gute Messung und valide Werte zur Übertragung möglich sein. \\
 \\
+
+\paragraph{Toleranz bei Werten}
+\hfill \break
+\hfill \break
+Da alle Widerstandswerte der Flexsensoren auf die Stelle genau und beinahe ohne 
+Pause ausgelesen werden, wird jede kleinste Veränderung wahrgenommen. Die 
+Finger der Roboterhand fangen zum Zittern an. Die gesamte Mechanik wird instabil, 
+da durch diese kleinsten Änderungen diese nur noch am Zittern ist. Das könnte 
+zu Schäden führen. Um dies zu vermeiden, wird ein Toleranzbereich festgelegt, 
+in unserem Fall +10. Das bedeutet, dass Änderungen des digitalen Wertes erst 
+ab +-10, im Vergleich zum zuletzt gesendeten Wert, wahrgenommen und an die 
+Empfängerseite drahtlos übertragen werden. Dies führt zu deutlich ruhigeren 
+und realistischeren Bewegungen der Finger auf der Empfängerseite. \\
+\\
+
 \paragraph{Verworfene Ideen}
 \hfill \break
 \hfill \break
@@ -3435,6 +3450,15 @@ Empfängerplatine gesendet (n…Eingang des Multiplexers 0 – 4; angepassterWer
 Maximum, das oben festgelegt wurde)). Es wird dann noch im Serial Monitor ausgegeben, ob die Senderplatine (Handschuh) die 
 Daten erfolgreich senden konnte oder nicht. \\
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Softwaremap_Handschuh}}
+		\caption{Softwaremap Eingabesubsystem}
+		\label{fig:Softwaremap_Handschuh}			
+	\end{center}
+\end{figure}
+\hfill \break
 
 \paragraph{Wichtige Codezeilen}
 \hfill \break
@@ -3955,6 +3979,45 @@ Erneut war zu erkennen, dass sich die Mühe am Anfang der Entwicklung ausgezahlt
 \subsection{Software}
 
 \subsubsection{Eingabesubsystem \textcolor{red}{Fabian}}
+Als Erstes wurde ein Konzept entwickelt, was das Eingabesubsystem alles machen 
+soll. Es wurden etliche Überlegungen getroffen, inwiefern welche Funktionen 
+implementiert werden sollen oder nicht, um eine zuverlässige Steuerung des 
+Ausgabesubsystems zu ermöglichen. Nachdem das Grundkonzept für die Hardware 
+fertiggestellt worden war, konnte mit der detaillierten Planung für das 
+Eingabesubsystem angefangen werden. \\
+\\
+Anfangs waren zu viele verschiedene Funktionen, die das Eingabesubsystem 
+unterstützen soll, angedacht gewesen. Es wurde die ersten Wochen mit sehr 
+optimistischen Zügen in die Zukunft geschaut. Es stellte sich jedoch nach 
+nicht allzu langer Zeit heraus, dass es nicht möglich ist, all diese 
+Funktionalitäten zu integrieren. Deshalb wurde ein erneut ein Konzept erstellt, 
+in dem die wichtigsten davon vorhanden waren. \\
+\\ 
+Das Konzept sah wie folgt aus: Es soll über einen ESP32 jeder einzelne 
+Widerstandswert der Flexsensoren beinahe pausenlos ausgelesen werden. 
+Diese Werte sollen dann verarbeitet und, falls die durch den ADC umgewandelten
+Werte außerhalb des festgelegten Wertebereichs liegen sollten, korrigiert 
+werden. \\
+\\
+Mit der Überlegung, welche Datenübertragung gewählt werden soll, wurde 
+ebenfalls Zeit verbracht. Die zu Beginn angestrebte Übertragung per Bluetooth 
+wurde schlussendlich verworfen. Schlussendlich wird diese nun per ESP-NOW 
+Protokoll (ähnlich zu Wifi) durchgeführt. Einige Wochen vergingen, bis klar 
+war, inwiefern die Datenübertragung per ESP-NOW realisiert werden kann. Als 
+es aber dann möglich war, einen stabilen Datenaustausch zwischen Eingabe- und 
+Ausgabesubsystem herzustellen, wurde dieser Schritt, nicht Bluetooth zu 
+verwenden, als der absolut richtige angesehen. \\
+\\
+Nachdem das Auslesen der Daten der Flexsensoren vom Eingabesubsystem 
+erfolgreich durchgeführt werden konnte, wurde eine Datenkorrektur angestrebt. 
+Zwischendurch wurde angedacht, keine Korrektur durchzuführen, aber 
+schlussendlich wurde eine Schutzmaßnahme eingeführt, um das Zittern der Finger 
+des Ausgabesubsystems zu verringern, indem die Werte, die aus dem ADC 
+ausgelesen werden, nur dann gesendet werden, wenn diese um +-10 vom zuletzt 
+gesendeten Wert abweichen. Durch diese Maßnahme konnte eine deutliche 
+Verbesserung der natürlich aussehenden Bewegung der Roboterhand vom 
+Ausgabesubsystem sichergestellt werden. \\
+\\
 
 \subsubsection{Ausgabesubsystem \textcolor{red}{Amir}}
 

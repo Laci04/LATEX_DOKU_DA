@@ -127,66 +127,67 @@
 \contentsline {paragraph}{\numberline {8.1.1.4}Testen}{118}{paragraph.8.1.1.4}%
 \contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{119}{paragraph.8.1.1.5}%
 \contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{119}{paragraph.8.1.1.6}%
-\contentsline {paragraph}{\numberline {8.1.1.7}Verworfene Ideen}{120}{paragraph.8.1.1.7}%
+\contentsline {paragraph}{\numberline {8.1.1.7}Toleranz bei Werten}{120}{paragraph.8.1.1.7}%
+\contentsline {paragraph}{\numberline {8.1.1.8}Verworfene Ideen}{120}{paragraph.8.1.1.8}%
 \contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{121}{subsubsection.8.1.2}%
 \contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{121}{paragraph.8.1.2.1}%
 \contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{122}{paragraph.8.1.2.2}%
 \contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{123}{paragraph.8.1.2.3}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand}{126}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{126}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{126}{subsubsection.8.2.2}%
-\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{126}{paragraph.8.2.2.1}%
-\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{126}{paragraph.8.2.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{127}{subsubsection.8.2.3}%
-\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{127}{paragraph.8.2.3.1}%
-\contentsline {subsection}{\numberline {8.3}User Interface}{133}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{133}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{133}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{133}{subsubsection.8.3.3}%
-\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{133}{paragraph.8.3.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{135}{subsubsection.8.3.4}%
-\contentsline {paragraph}{\numberline {8.3.4.1}Erläuterung der Grafikoberfläche}{135}{paragraph.8.3.4.1}%
-\contentsline {subsubsection}{\numberline {8.3.5}Realisierung des Backends \textcolor {red}{Laci}}{137}{subsubsection.8.3.5}%
-\contentsline {section}{\numberline {9}Tests und Messungen}{138}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{138}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{142}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{142}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{142}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Software}{143}{subsection.10.3}%
-\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{143}{subsubsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{143}{subsubsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{143}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Ausblick}{144}{section.11}%
-\contentsline {section}{\numberline {12}Anhang}{145}{section.12}%
-\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{145}{section.13}%
-\contentsline {section}{\numberline {14}Projektmanagement}{146}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{146}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Milestoneplan}{146}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{146}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{147}{subsection.14.4}%
-\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{157}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Fusion 360}{157}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}KiCad}{157}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Arduino IDE}{157}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}QT Framework}{157}{subsection.15.4}%
-\contentsline {section}{\numberline {16}Fertigungsunterlagen}{158}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{158}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Mechanik}{161}{subsection.16.2}%
-\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{161}{subsubsection.16.2.1}%
-\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{161}{subsubsection.16.2.2}%
-\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{161}{subsubsection.16.2.3}%
-\contentsline {subsection}{\numberline {16.3}Hardware}{163}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{163}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{165}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{165}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{165}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Software}{166}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{166}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{169}{subsubsection.16.4.2}%
-\contentsline {subsubsection}{\numberline {16.4.3}Code}{169}{subsubsection.16.4.3}%
-\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{169}{paragraph.16.4.3.1}%
-\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{169}{paragraph.16.4.3.2}%
-\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{169}{paragraph.16.4.3.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{170}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{171}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{172}{section.19}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand}{127}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{127}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{127}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{127}{paragraph.8.2.2.1}%
+\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{127}{paragraph.8.2.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{128}{subsubsection.8.2.3}%
+\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{128}{paragraph.8.2.3.1}%
+\contentsline {subsection}{\numberline {8.3}User Interface}{134}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{134}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{134}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{134}{subsubsection.8.3.3}%
+\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{134}{paragraph.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{136}{subsubsection.8.3.4}%
+\contentsline {paragraph}{\numberline {8.3.4.1}Erläuterung der Grafikoberfläche}{136}{paragraph.8.3.4.1}%
+\contentsline {subsubsection}{\numberline {8.3.5}Realisierung des Backends \textcolor {red}{Laci}}{138}{subsubsection.8.3.5}%
+\contentsline {section}{\numberline {9}Tests und Messungen}{139}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{139}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{143}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{143}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{143}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Software}{144}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{144}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{145}{subsubsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{145}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Ausblick}{146}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{147}{section.12}%
+\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{147}{section.13}%
+\contentsline {section}{\numberline {14}Projektmanagement}{148}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{148}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Milestoneplan}{148}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{148}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{149}{subsection.14.4}%
+\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{159}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Fusion 360}{159}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}KiCad}{159}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Arduino IDE}{159}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}QT Framework}{159}{subsection.15.4}%
+\contentsline {section}{\numberline {16}Fertigungsunterlagen}{160}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{160}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Mechanik}{163}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{163}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{163}{subsubsection.16.2.2}%
+\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{163}{subsubsection.16.2.3}%
+\contentsline {subsection}{\numberline {16.3}Hardware}{165}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{165}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{167}{subsubsection.16.3.2}%
+\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{167}{subsubsection.16.3.3}%
+\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{167}{subsubsection.16.3.4}%
+\contentsline {subsection}{\numberline {16.4}Software}{168}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{168}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{171}{subsubsection.16.4.2}%
+\contentsline {subsubsection}{\numberline {16.4.3}Code}{171}{subsubsection.16.4.3}%
+\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{171}{paragraph.16.4.3.1}%
+\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{171}{paragraph.16.4.3.2}%
+\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{171}{paragraph.16.4.3.3}%
+\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{172}{section.17}%
+\contentsline {section}{\numberline {18}Tabellenverzeichnis}{173}{section.18}%
+\contentsline {section}{\numberline {19}Literaturverzeichnis}{174}{section.19}%

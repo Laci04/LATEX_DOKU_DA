@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1709131584 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1709131593 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1709131575 266179 24f617c4798bfa1d473117e8996a43e0 ""
+["pdflatex"] 1709133580 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1709133589 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1709133580 269594 dc33e771a03ea94366223fe86ff7396f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -221,10 +221,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1709131593 63696 e1cd3a850de8743aec925bd0bdff997a "pdflatex"
-  "Diplomarbeit.out" 1709131593 32886 3a4a15996781d869bfcfb6d37e941e44 "pdflatex"
-  "Diplomarbeit.tex" 1709131575 266179 24f617c4798bfa1d473117e8996a43e0 ""
-  "Diplomarbeit.toc" 1709131593 18277 56e2a3cb65a6579eb2aa97adfcb35d62 "pdflatex"
+  "Diplomarbeit.aux" 1709133589 64097 66a818746b5e0e3f082d24e479b5c518 "pdflatex"
+  "Diplomarbeit.out" 1709133589 33059 b59e8e79a0088f0c4270ddc2e41342d2 "pdflatex"
+  "Diplomarbeit.tex" 1709133580 269594 dc33e771a03ea94366223fe86ff7396f ""
+  "Diplomarbeit.toc" 1709133589 18370 e3a688c8ffc7efbb1d53249a2ae2e41e "pdflatex"
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
@@ -322,6 +322,7 @@
   "src/Softwaremap_1.png" 1708260137 63257 36bdc84fac29df30ff1f4b264ca7b7b6 ""
   "src/Softwaremap_2.png" 1708260160 155746 e618efe7bb2dfe3070ef0445013a94dc ""
   "src/Softwaremap_3.png" 1708260176 227792 fd7a57b641eb373c2950c126d206351b ""
+  "src/Softwaremap_Handschuh.pdf" 1709133458 255113 69a9afc4bf0e5c233e1d3d731d10f078 ""
   "src/Spannungswandler_Schaltplan_Roboterhand.png" 1708452506 27994 70cd3afe75761b776a7fb29529fa2814 ""
   "src/Steckbrettaufbau_Spannungsmessung_INA129.jpg" 1707991929 3019498 62d28688d785e2a26b6a126955db3cdf ""
   "src/TGM_logo.pdf" 1707834370 53660 e4e09671dc7538101700ec4439e2c380 ""
