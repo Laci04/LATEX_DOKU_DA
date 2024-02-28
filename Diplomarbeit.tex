@@ -1200,6 +1200,7 @@ Stellung der Finger sich dann befindet. Befestigt wird dies an einem mit dem Ser
 gesteuertem Zugmechanismus. \\
 
 \paragraph{Fertigung und CAD}
+\label{par:Fertigung und CAD}
 \hfill \break
 \hfill \break
 Der Entwurf eines Modells ist mit ständiger Weiterentwicklung verbunden, sind in 
@@ -1283,6 +1284,7 @@ bei Biegen des Fingers spannen. Desto kürzer die Zugschnur im Finger, desto lä
 Gummikordel. \\
 
 \subsubsection{Erste Testhand}
+\label{chap:Erste Testhand}
 \paragraph{Konzept Einführung}
 \hfill \break
 \hfill \break
@@ -1494,6 +1496,7 @@ zur Zugkraft zu Falten. \\
 \\
 
 \subsubsection{Zweite Testhand (Inmoov)}
+\label{chap:Zweite Testhand}
 \paragraph{Einführung}
 \hfill \break
 \hfill \break
@@ -1512,59 +1515,464 @@ selbst zu realisieren, je nach Anforderung zu modifizieren und anhand dessen
 eine weitere Versuchshand zu schaffen. \\
 \\
 
-\paragraph{Realisierung und Zusammenbau}
+\paragraph{Mechanismus}
+\label{par:Mechanismus_zweite_Hand}
 \hfill \break
 \hfill \break
+Der Mechanismus der zweiten Versuchshand \"InMoov\" ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus \autoref{chap:Erste Testhand} auf. \\
+\\
+Die Problematik, dass wie beim vorherigen Modell die beiden Glieder aneinander reiben und sich nicht parallel zur Zugkraft kontinuierlich umrollen ist hier nicht vorhanden, da die Konstruktion von Grund auf andere Eigenschaften aufweist. 
+Denn die jeweiligen Glieder werden hier nicht mit Bändern verbunden, sondern mit einer Schraube, welche die beiden Glieder, die ineinander gehen verbinden. Durch diese Verbindung sind die Finger zu einem stabil – können nicht nach links und 
+rechts kippen und sich ausschließlich vom ausgestreckten Zustand nach innen Falten. Auch wird mechanisch ein Falten in die andere Richtung, verhindert. \\
+\\
+Am tatsächlichen Faltmechanismus hat sich bis auf einer Anpassung am Elastomer nicht viel geändert, denn der Rückzug erfolgt nicht mehr traditionell per elastischem Band. Diese Umsetzung des Faltmechanismus ist jedoch von großer Bedeutung, dar 
+nur der Rückzug sowie der Faltung von ein und demselben Motor ausgelöst wird. Im Detail funktioniert der Mechanismus wie mit Hilfe der Grafik ersichtlich wie folgt: Am Servomotor wird eine runde Vorrichtung montiert, diese hat an der Außenkante 
+eine beidseitige Verjüngung, an dieser soll die Schnur entlanglaufen. Nun verlaufen beide Schnüre, die für den Ein- sowie Auszug verantwortlichen Schnüre, jeweils auf einer Seite, an dieser Runden Vorrichtung und sind an dem Ende dieser montiert. 
+Dreht sich nun der Motor um 90\textdegree gibt er mehr der Schnur(1) her und verkürzt die Schnur(2). Bei diesem Vorgang müssen jedoch beide Schnüre so gespannt sein, dass keine der beiden nachgibt und sich bei Bewegung des Motors lockert. \\
+\\
+Das Modell der Handfläche, an dem alle Finger und weitere Komponenten zentral zusammenkommen setzt sich selbst aus insgesamt vier tatsächlichen Elementen zusammen und zwei Hilfselementen. \\
+Das Hauptelement ist in dem Fall wie in der Grafik ersichtlich (1), dies ist das Größte und Zentrale Element, durch dieses Element verlaufen 15 Kanäle, die mittleren fünf dienen optionaler Sensorik. Die oberen fünf Kanäle sind für die Schnüre, 
+welche dem Einfalten dienen, die oberen dienen der Schnüre für den Rückzug. \\
+Um die Hand noch dynamischer zu gestalten besitzen der Ringfinger sowie der Kleinefinger ein zusätzliches Element (2) sowie (3), welches sich bei Zug auf wenige Grad mit faltet. Der Daumen hat eine ähnliche Funktion, Element (4) in der Grafik. \\
+Als Hilfselement werden hier die Stifte (5) und (6) welche zur Verbindung zwischen Element (1) sowie den weiteren Elementen dienen. \\
+\\
+Ein ebenso neuer und optionaler Mechanismus ist die des Handgelenks, dieser ermöglicht es der Hand um ihre eigene Achse zu rotieren. Umgesetzt wird dies mit einem Servomotor, welcher mit einer Übersetzung anhand zweier Zahnräder die Hand rotiert. \\
+\\
+Montiert wird dieser Handgelenksmechanismus auf ein Unterarmkonstrukt, dieses besteht aus mehreren einzelnen Teilen um den Druck auf mit einem kleinen Drucker zu ermöglichen. Grundsätzlich sind alle Modelle des Projekts \"InMoov\" auf einem Drucker 
+mit einer Druckfläche von $12x12x12cm$ ausgelegt. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Roboterhand_Version2}}
+		\caption{Roboterhand zweite Version}
+		\label{fig:Roboterhand_Version2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Im Unterarm befindet sich an der Innenseite eine Umlenkung, die die Schnüre über den Rotationsmechanismus des Handgelenks lenkt. Dies verhindert vor allem eine Reibung zwischen der Schnüre und dem Servomotor für das Handgelenk, welcher in der 
+idealen Strecke zwischen Schnur und Zielmotor steht. \\
+\\
+Weiters werden daraufhin die Schnüre zum Motorblock der Antriebsmechanik für den Faltmechanismus der Finger geführt. In diesem Block befinden sich fünf Motoren, für die Finger.
+Dort wird der bereits beschriebene Mechanismus der beiden Schnüre umgesetzt. \\
+\\
+Wurde ein Modell in einer CAD-Software wie beispielsweise Fusion 360 entworfen und soll nun in ein reales greifbares Objekt umgewandelt werden, so benötigt man eine sogenannte Slicer-Software. Die Bezeichnung \"Slicer\" stammt dabei vom englischen 
+Wort Slice (engl.) und bedeutet so viel wie Scheibe. Dies stammt der Tatsache ab, dass diese Software das 3D-Modell in einzelne Scheiben mit einer Sichthöhe geringer als 1mm teilt, denn wie bereits in \autoref{par:Fertigung und CAD} erklärt, geht das 3D-Druck Verfahren 
+FDM so beim Schaffen eines realen Objekts vor. \\
+Gewählt wird die Open-Source Software Ultimaker Cura, in der Version 5.6.0, in diesem kann man zahlreiche Optionen treffen: Die Sichthöhe der einzelnen Scheiben, in Fachsprache "Layers", die Druckgeschwindigkeit, die Füllungsdichte, ob Stützstrukturen für den 
+Druck vorhanden sein sollen oder nicht. Durch das Regeln dieser Optionen wird die Druckqualität beeinflusst, druckt der Drucker zu schnell so leidet die Qualität und es können Fehler im Druck auftauchen, ist die Schichthöhe zu hoch ist der Druck 
+äußerst ungenau und weist eine unschöne Textur an seiner Oberfläche auf. \\
+Auch können Faktoren, wie die Drucktemperatur oder das Filament gewählt werden. Je nach Filament gibt es bereits im Vorhinein konfigurierte Optionen. \\
+\\
+Sind nun alle gewünschten Werte angepasst, kann „gesliced“ werden dabei wird nun von der Software das Objekt in einzelne Scheiben geteilt und ein g-code File erstellt, welches dem Drucker daraufhin Anweisungen gibt. \\
+\\
+Ein Druck dauert in der Regel mehrere Stunden, dies variiert jedoch je nach Drucker – neuere schaffen das selbe Ergebnis in 20\% der eigentlichen Druckzeit. \\
+Nach einiger Zeit ist der Druck fertig und kann von der Druckplatte gelöst werden, vorhandene Stützstrukturen können im Bestfall einfach vom Druck gelöst werden. \\
+\\
+Für den Zusammenbau der InMoov Hand werden neben dem Druck auch weitere Elemente benötigt, die nicht aus dem 3D-Drucker stammen. 
+Als Auflistung die zusätzlich benötigten Komponenten:
+\begin{itemize}
+	\item 16 Stück M3x20mm Schrauben
+	\item 16 Stück M3-Mutter
+	\item Superkleber
+	\item Angelschnur: 3 Meter
+\end{itemize}
 
 \paragraph{Fazit und Ergebnisse}
 \hfill \break
 \hfill \break
+Der Versuchsaufbau hat nur kurzfristig und teilweise funktioniert. Für einen kurzen Moment konnten alle Finger, sowie der Daumen geöffnet und geschlossen werden. Der Faltmechanismus hat sich zwar bewiesen, jedoch mit einigen Unstimmigkeiten. \\
+Während dem Testen sind zwei Punkte besonders auffällig gewesen: Zu einem die Stabilität mit und ohne Belastung, sowie die Spannung der jeweils beiden Schnüre. Unter die Stabilität fallen in diesem Fall, das gesamte Gerüst vom einzelnen Finger 
+bis zum Motorblock, die Antriebsmechanik und ihre Halterung für die Umwicklung. Sowie die Schnüre, welche einige Probleme und demnach auch Schäden verursacht haben. \\
+\\
+\textbf{Problematik-1: "Unstimmigkeiten bei dem Umwickeln der jeweils beiden Schnüre"} \\
+Wie in \autoref{par:Mechanismus_zweite_Hand} erläutert, sollen sich beide Schnüre um eine runde Halterung wickeln und dabei je nach Drehung den verbundenen Finger ein -oder auffalten. Damit dieser Mechanismus funktioniert müssen beide Schnüre 
+ständig unter Spannung stehen, da sonst die Gegenwirkung des Systems nicht vorhanden ist und der Finger Überklappen kann. \\
+Es gab mehrere Lösungsversuche, zu einem den Servomotor in 5° Schritten von 0 bis 180\textdegree Grad approximieren und dabei während jedem Schritt die Schnüre nach zu spannen, jedoch blieb auch dies erfolglos. \\
+\\
+\textbf{Problematik-2: "Instabilität der Halterungen auf dem Motor"} \\
+Die Angelschnur hat neben ihren Vorteilen auch einen trivialen Nachteil, denn sie ist sehr dünn und daraus folglich unter Spannung äußerst schneidend. Stand die Schnur unter zu hoher Spannung hat dies dazu geführt, dass diese sich 
+selbst aufgrund der zu hohen Reibung durch die Halterung am Motor geschnitten hat und ihn dabei meist auch horizontal zerteilt. Nach Erkenntnis dieses Problems gab es drei grundlegende Lösungsversuch:
 
-\subsubsection{Drite Testhand (Projekt-Silikonhand)}
-\paragraph{Konzepterläuterung}
+\begin{itemize}
+	\item \textbf{Lösungsversuch 1:} \\
+	Hier wurde versucht das gedruckte Objekt selbst härter und dicker zu drucken. Umgesetzt wurde das durch Erhöhen der Fülldichte von 25\% auf 65\%, dadurch ist das innere Modell von Innen dichter ist. Weiters wurde auch die Wandstärke 
+	und -dicke erhöht. \\
+	Das Ergebnis war ernüchternd, bereits nach neuem Anspannen führte es bereits wieder zum selben Problem und die Halterung hielt nicht stand.
+	\item \textbf{Lösungsversuch 2:} \\
+	Nach genauerem Hinblick wurde klar, es liegt am Druckverfahren, denn wie bereits erklärt druckt der Drucker in einzelnen Schichten. Das Problem: Die Schnur liegt parallel zu den einzelnen Schichten und genau zwischen diesen Schichten 
+	liegen die Schwachpunkte des Modells. Somit wurde die Entscheidung getroffen das Modell so zu drucken, dass die Schnur und die einzelnen Schichten nicht parallel zueinander liegen, bewirkt wurde dies indem die Halterung in einem 45\textdegree 
+	Winkel gedruckt wurde.
+\end{itemize}
 \hfill \break
-\hfill \break
+Der zweite Lösungsversuch ist somit erfolgreich und die Schnur schneidet oder halbiert nicht mehr die Halterung. Jedoch nicht perfekt, denn die Schnur reibt an der gerippelten Oberfläche der Halterung. In diesem Fall muss ein anderes Material als 
+PLA und damit auch ein anderes 3D-Druck Verfahren verwendet werden. Ergeben hat sich der SLS (engl. Selective Laser Sintering). Dies ist ebenso eine additive Fertigungstechnologie, dabei verschmilzt ein Laser selektiv Pulverpartikel und das 
+schichtweise um daraus dann das gewünschte 3D-Objekt zu fertigen. Finalerweise entstanden dann für das Projekt Halterungen aus dem Material Nylon mit Glasfaserverstärkung. %\footnote{\url{https://sls3d.de/wissen/was-ist-selektives-lasersintern/\#:\~:text=SLS\%20\%E2%80%93%20engl.,(3D\%2DDruck)\%20aufzubauen}, (Stand: 24.02.2024)} \\
+\\
+\textbf{Problematik-3:} \\
+Zwar sind Angelschnüre sehr stabil und stark, tendieren jedoch unter ständiger Reibung trotz ihrer acht fachen Flechtung mit der Zeit zu reißen. Die Strecke von Fingerkuppe, bis zum Motor beträgt dabei je nach Finger zwischen 20-30cm, 
+auf dieser Strecke reibt sich die Schnur an mehreren Stellen des Modells auf. Da dieses Problem erst mit der Zeit auftritt und somit mit der Hand dennoch ausgiebig getestet werden kann bis zum nächsten Riss wurde dieses Problem im Versuchsaufbau der 
+zweiten Hand noch nicht behandelt. \\
+\\
+\textbf{Problematik-4: } \\
+Ein weiteres Problem ist die Befestigung der Schnur am Fingerende, der Fingerkuppe. Diese hat zwei Bohrungen bzw. Löcher, zwischen diesen werden beide Schnüre befestigt. Das Problem, da diese Schnüre so klein sind und dauerhaft 
+unter Spannung stehen reißt die Fläche zwischen den Löchern meist ein und die Schnüre können nicht mehr befestigt werden. \\
+\\
+Das Modell löst einige Probleme und schafft neue Ansätze. Der Faltmechanismus wurde grundlegend erweitert, der Rückzug wird nun nicht mehr per Elastomer, sondern mit einer zweiten Schnur bewirkt.
+Die einzelnen Fingerglieder, sind tatsächlich mechanisch durch eine Schraube miteinander verbunden. \\
+All dies führt zu präziseren und genaueren Bewegungen, der Faltmechanismus erfolgt annähernd linear zur Zugkraft. Trotzdem hat sich herausgestellt, wie brüchig das Modell ist, besonders an den Fingern. Reibung ist weiterhin ein großes Thema und 
+wird durch die zweite Schnur im Faltmechanismus noch trivialer. \\
+Ziel ist es im dritten Versuchsmodell die Problematik mit der Reibung zu verringern und daraus folglich auch ein stabileres Modell zu ermöglichen.\\
+\\
 
-\paragraph{Erste Versuche einer Gussform und Asuwertung}
+\subsubsection{Dritte Testhand (Projekt-Silikonhand)}
+\paragraph{Das Konzept}
 \hfill \break
 \hfill \break
+Nachdem die vorherigen Versuche erwiesen, haben welche Problematiken sich aus einem festen Modell aus PLA ergeben, stand ein großes Umdenken im Raum. Auf Vorschlag einer Betreuungskraft stellte sich heraus, dass das Modell elastischer sein muss und 
+ein hartes Material nicht immer die Beste Lösung ist. Der Vorschlag war Silikon in das Modell der Hand zu integrieren, ein ähnliches Projekt habe so bereits eine Hand realisiert. Ähnlich wie bei dem Modell aus \autoref{chap:Erste Testhand} bestanden 
+dort die einzelnen Glieder aus einzelnen Teilen, zwar aus Silikon, waren jedoch auch per Elastomer verbunden. Die Handfläche bestand bei dem Modell aus dem Vorschlag dennoch aus harten Kunststoff. \\
+\\
+Für das Projekt "Bionic-Hand" ergab sich eine neue Ebene und Vielfalt der Möglichkeiten. Die neue Idee ist es die gesamte Hand vollständig aus Silikon zu entwickeln und somit Problemen wie der Reibung und Brüchen unter starker Last aus dem 
+Weg zu gehen. \\
+\\
+Genauer lässt sich das neue Konzept wie folgt beschreiben: Die gesamte Hand besteht aus dem Material Silikon, seien es die einzelnen Finger, der Daumen und die Handfläche. Daraus ergeben sich mehrere Vorteile. Zu einem ein Grip (engl.), aufgrund des 
+Silikons hat die Hand beim Greifen mehr Griff und Objekte können gehalten werden, ohne aus der Hand zu rutschen. Der nächste Vorteil ist, dass die Hand anpassbarer wird und sich aufgrund ihrer elastischen Struktur genau um das Objekt stülpen kann, 
+dies ist eine große Verbesserung im Vergleich zu der festen Hand aus hartem Kunststoff. \\
+Ein Hand aus Silikon springt von selbst wieder in ihre Ursprungsposition zurück, dies liegt an den Eigenschaften des Materials, dadurch wird sich ein externer Elastomer erspart, der Rückzug erledigt sich von selbst. Die Fingerglieder der Hand sollen 
+ähnlich wie bei den vorherigen Modellen eine Verjüngung zueinander haben und durch Zug an der Schnur der Finger sich Falten. Reibung dürfte nach Überlegungen nicht mehr existieren, da die Schnur bei Bewegt das Material eher bewegt und nicht wirklich 
+reibt. Befestigt wird dies dann an einer Vorrichtung am Handgelenk. \\
+\\
 
-\paragraph{Verbesserungen und Realisierung (Gelenke im Guss)}
+\paragraph{Gussform}
+\label{par:Gussform}
 \hfill \break
 \hfill \break
+Eine Herausforderung von diesem Versuchsmodell ist das Verfahren des Silikongusses, um das Verfahren des Silikon gießen zu verstehen wird eine Gussform in der CAD-Software entworfen. \\
+\\
+Als Testobjekt wurde ein einfacher Finger, welcher einen Faltmechanismus ermöglicht entworfen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger1}}
+		\caption{Silikon-Testfinger}
+		\label{fig:Silikon_Testfinger1}			
+	\end{center}
+\end{figure}
+\hfill \break
+Im oberen Teil des Fingers verläuft durch jedes einzelne Glied ein Kanal, für die Zugschnur, die Verbindungen zwischen den einzelnen Gliedern wird durch eine Fläche geschaffen. Bei Zug faltet sich dann der Finger an den dünneren Punkten des Objekts. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger2}}
+		\caption{Silikon-Testfinger}
+		\label{fig:Silikon_Testfinger2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Um diese Fläche optional nochmals im Nachhinein zu verdicken und dadurch zu beeinflussen, wie stark der Rückzug ist wurden zwei Einkerbungen in das Modell des Fingers implementiert. Durch das Aufgießen mit Silikon dieser rechteckigen Einkerbungen 
+an den Biegungspunkten, kann dies bewirkt werden. \\
+\\
+Der ganze Finger wird in eine Gussform gegossen, diese besteht aus zwei Teilen um den Finger leicht aus der Form lösen zu können, ohne dabei die beiden Objekte zu beschädigen. \\
+Verbunden sind beide Teile der Form mit einem Steckmechanismus, wie in der Grafik (x.x.x) ersichtlich. Am oberen Teil der Gussform befindet sich ein Loch in dieses wird das flüssige Silikon später gegossen, das Loch wurde extra groß 
+dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger_Gussform}}
+		\caption{Silikon-Testfinger-Gussform}
+		\label{fig:Silikon_Testfinger_Gussform}			
+	\end{center}
+\end{figure}
+\hfill \break
+\textcolor{red}{Quelle: https://silikon-profis.de/2-Komponenten-Massen\#:\~:text=2\%2D\%20Komponenten\%20Silikonkautschuke\%20vulkanisieren\%20bei,anspruchsvolle\%20Profi\%2DAbformungen\%20und\%20Gie\%C3\%9Fverfahren} \\
+\\
+Das hier verwendete flüssig Silikon besteht aus zwei Komponenten welche als Teil A und Teil B bezeichnet werden. Teil A ist die Hauptkomponente des Silikons und Teil B ist die Härtekomponente, zusammen vermischt führt dies zu einem festen elastischen 
+Material. \\
+\\
+Das Ergebnis nach dem ersten Guss: Während dem Entwurf des Gussform wurde nicht daran gedacht, dass das Loch für den Einguss auf derselben Höhe wie die höchste Fläche oder Decke des Innenraums sein muss. Durch diesen Fehler hat sich ab dieser Höhe 
+ein Luftraum gebildet, welcher nicht mit Silikon gefüllt wurde. \\
+\\
+\textbf{Verbesserung:} \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger_Verbesserung}}
+		\caption{Silikon-Testfinger-Verbesserung}
+		\label{fig:Silikon_Testfinger_Verbesserung}			
+	\end{center}
+\end{figure}
+\hfill \break
+Dies wurde durch eine Form, in der der Finger aufrechtstehend gegossen werden soll verbessert. Das Loch ist somit am Anfang des Fingers und die Luft kann vollständig entweichen. Eine kleine Anpassung ist, dass neben dem Steckmechanismus auch eine 
+Verschraubungsmöglichkeit geschaffen wurde um die beiden Teile der Gussform stärker aneinander zu pressen, dies verhindert das Austreten von Silikon während dem Guss. \\
+Gezeigt hat sich nach dem Guss, dass das fertige Objekt aus Silikon, sich auch in andere Richtungen biegen lässt als ausschließlich in die Faltrichtung. Um alle anderen Richtung außer die gewünschte zu verhindern, benötigt der Finger einen 
+Stabilisator von Innen, ähnlich wie der Finger des Menschen, welche einen Knochen hat. \\
+\\
 
-\paragraph{Verbesserung der Gelenke}
+\paragraph{Gelenke}
 \hfill \break
+\hfill \break
+Um zu verhindern, dass sich der Finger nach links, rechts, oder nach hinten biegt also nicht in die Richtung, in die er sich Falten soll wird im Inneren des Fingers etwas benötigt, dass nur das Biegen in die Faltrichtung erlaubt. Somit ein 
+mechanisches Gelenk welches durch den gesamten Finger geht. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gelenke1}}
+		\caption{Fingergelenke}
+		\label{fig:Gelenke1}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gelenke2}}
+		\caption{Fingergelenke}
+		\label{fig:Gelenke2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Das Gelenk besteht aus drei Komponenten, verbunden sind diese durch eine Schraube, exakt an dem Punkt an dem sich der Finger beim Falten biegt. Durch eine mechanische Blockade kann sich das Gelenk ausschließlich in Faltrichtung falten. \\
+Mit einer Erweiterung wird das gesamte Modell in der Gussform befestigt und positioniert, nach dem Guss findet sich dann das Gelenk eingegossen im Finger. \\
+\\
+\textbf{Ergebnis:} \\
+\\
+Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, damit dies nicht passiert – wie die Verschraub Möglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
+Gelöst konnte dies mit Klebebändern, die zum Abdichten verwendet wurden. \\
+Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, denn der Finger funktioniert in Zusammenspiel mit dem Gelenk wie erwartet. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gelenke_real}}
+		\caption{Gelenke in echt}
+		\label{fig:Gelenke_real}			
+	\end{center}
+\end{figure}
 \hfill \break
 
 \paragraph{Entwurf einer neuen Gussform}
 \hfill \break
 \hfill \break
+Nachdem sich gezeigt hat, dass ein einzelner Finger umsetzbar ist der nächste Schritt eine gesamte Hand zu entwerfen. Für diese wird somit ein vollständiges Gelenksgerüst für die gesamte Hand benötigt, ein Modell einer Hand sowie eine dafür entworfene 
+Gussform. \\
+\\
+Das Modell der Hand – Grundsätzlich ist Ziel die gesamte Hand aus Silikon zu verwirklich und diese aus Silikon zu gießen. Der Faltmechanismus funktioniert dabei wie in Kapitel (6.2.4.2 Finger), mit der zusätzlichen Eigenschaft, dass die Finger früher 
+in der Handfläche beginnen, damit sich diese besser um das gewünschte Objekt "Falten" kann. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikonhand_3Dmodell}}
+		\caption{3D-Modell Silikonhand}
+		\label{fig:Silikonhand_3Dmodell}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikonhand_3Dmodell2}}
+		\caption{3D-Modell Silikonhand}
+		\label{fig:Silikonhand_3Dmodell2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Ohne nun bereits auf das Gerüst einzugehen ist in dieser Grafik zu sehen, dass die Handfläche zwischen den Fingern kein Material hat. Dies schafft auch die optionale Möglichkeit die Finger mit einem weiteren Mechanismus seitlich zu bewegen. \\
+In der Grafik ist ebenso die sich von den anderen Fingern unterscheidende Anordnung des Daumens, dieser liegt seitlich und soll beim Falten sich ähnlich wie der echte Daumen des Menschen verhalten.
+Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsächlichen Knochen eines Menschen orientiert, damit soll für mehr Ähnlichkeit zur Anatomie der menschlichen Hand gesorgt werden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Skelett1}}
+		\caption{Skelett}
+		\label{fig:Skelett1}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Skelett2}}
+		\caption{Skelett}
+		\label{fig:Skelett2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Im Unterschied zu einer vorherigen Version des Gerüsts, ist zu erkennen, welche Vorteile die neue gegenüber ihr hat. Zu einem ist diese viel flexibler und hat keine große und starre Handwurzel. 
+Ein weiter Unterschied ist die Verbindung der einzelnen Knochen in jedem Finger. Anders wie bei der alten Version werden hier keine Schrauben zu der Verbindung einzelner Gelenksteile, sondern Gummikordeln verwendet. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Fingerglieder}}
+		\caption{Fingerglieder}
+		\label{fig:Fingerglieder}			
+	\end{center}
+\end{figure}
+\hfill \break
+Diese neue Form der Verbindung war notwendig um die einzelnen Elemente der Knochen platzsparend und effektiv zu verbinden. Zwar wurde kurzzeitig eine Verbindung anhand einer Schraube getestet, dies zeigte jedoch, dass das mit der Größe der Knochen 
+und dem Raum im Finger nicht umsetzbar wäre. Zwar blockiert dieser Mechanismus nicht Bewegungen in alle anderen Richtungen außer die Faltrichtung, schafft jedoch mehr Flexibilität für den Finger – dennoch wurde jeder Finger so modelliert und an den 
+Krümmungsstellen so verstärkt, dass er sich hauptsächlich in die Faltrichtung biegt. \\
+\\
 
-\paragraph{Vorbereitung und Probleme beim Guss}
+\paragraph{Gussform und Gussversuch}
 \hfill \break
 \hfill \break
+Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus Versuch von Kapitel (x.x.x), eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das "Skelet" auch 
+bekannt als das Gelenksgerüst präzise in der Mitte eines Fingers platziert werden muss. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gussform1}}
+		\caption{Gussform}
+		\label{fig:Gussform1}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gussform2}}
+		\caption{Gussform}
+		\label{fig:Gussform2}			
+	\end{center}
+\end{figure}
+\hfill \break
+Zu sehen sind in den beiden Grafiken, vier Teile der Gussform, dies ist darauf zurückzuführen, dass die Druckfläche des Druckers sonst überschritten werden würde. Daher muss jeweils der untere und der obere Teil der Form halbiert werden. Zu der 
+unteren Hälfte der Gussform in der linken Grafik gehört das rote und braune Element und zu der oberen gehören wie in der rechten Grafik sichtbar das beige und graue Element. Befestigt werden die beiden Teile jeweils mit vier Stiften in Form einer 
+Steckvorrichtung. Sichtbar ist ebenso zwischen dem unteren und dem oberen Element der Gussform eine weitere Steckvorrichtung, durch diese werden beide Hälften der Form verbunden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Gussform3}}
+		\caption{Gussform}
+		\label{fig:Gussform3}			
+	\end{center}
+\end{figure}
+\hfill \break
+Wie in dieser Veranschaulichung ersichtlich wird in aufrechtem Zustand der Gussform das Silikon in das obere Loch eingegossen. Wie in \autoref{par:Gussform} an einem Versuch zu sehen ist, ist es von großer Bedeutung, dass das Eingussloch an der höchsten 
+Stelle des Innenraums liegt. Um sicherzustellen, dass die Hand stets aufrecht bleibt und während dem Härteprozess des Silikons nicht gesichert in ihrer Position bleibt wurde eine Halterung entworfen, auf diese Kann die Form gesteckt werden. Das Loch 
+wurde möglichst groß modelliert, damit die im Innenraum verbleibende Luft der Gussform ausreichend entweichen kann. \\
+\\
+\textbf{Der Guss:} \\
+\\
+Der Gussprozess ist nicht einwandfrei verlaufen, mitunter lag dies hauptsächlich an den Lücken zwischen den einzelnen Elementen. Aufgrund des FDM-Druckverfahren sind zwischen den einzelnen Flächen entweder Rillen oder versetzte Schichten und dies 
+führt dazu, dass diese nicht exakt aufeinander Aufliegen. Dort fließt das Silikon dann meist aus der Gussform aus. \\
+Um diesem Problem entgegenzuwirken, ohne das Model aus Kostengründen neu drucken zu müssen gab es folgende Lösungsversuche:
+\begin{itemize}
+	\item Ein Versuch war es mit einem Dichtenden Klebeband, diese Freiräume von außen abzudichten. Dies hat kaum zu einer Verbesserung beigetragen. Das Band hat dem Druck vom Silikon meist nicht standgehalten und hatte keine ideale Haftung an 
+	den äußeren Wänden der Gussform.
+	\item Weiters wurde versucht mit einer Dichtmasse abzudichten, doch selbst diese konnte das Modell nicht vollständig abdichten. Zwar wurde es besser, jedoch besonders an komplexeren Bereichen, wie bei dem Daumen gab es keine bemerkbare Verbesserung.
+\end{itemize}
+\hfill \break
+Letztlich konnte kein nutzbares Ergebnis mit der Gussform erzielt, werden. Die Versuche das Modell abzudichten war nur teilweise erfolgreich. Wie an dieser Abbildung ersichtlich konnten die Finger zwar gegossen werden, jedoch konnte das Silikon 
+nicht die „Handfläche“ halten ohne auszurinnen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch}}
+		\caption{Silikonhand Fehlversuch}
+		\label{fig:Silikonhand_Fehlversuch}			
+	\end{center}
+\end{figure}
+\hfill \break
+Jedoch gab es einen Notlösungsversuch um das vorhandene Material zu retten, dafür wurden die Finger abgeschnitten bis zu dem Punkt, an dem der Guss nicht gelungen ist, daraufhin vermessen und ein Modell wurde modelliert. Dieses ersetzt die Handfläche 
+aus Silikon mit einer 3D Gedruckten und auf diese können die bestehenden Silikonfinger auf eine Einkerbung für diese gesteckt werden. In der Abbildung ist der Unterschied, zwischen Silikon und Kunststoff anhand der Farben zu sehen, dunkelgrau steht 
+für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind auch fünf Kanäle, durch diese soll die Angelschnur gehen und an den Fingern ziehen. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch2}}
+		\caption{Silikonhand Fehlversuch 2}
+		\label{fig:Silikonhand_Fehlversuch2}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch3}}
+		\caption{Silikonhand Fehlversuch 3}
+		\label{fig:Silikonhand_Fehlversuch3}			
+	\end{center}
+\end{figure}
+\hfill \break
+In der Praxis hat sich dann herausgestellt, dass die Finger sehr weich sind und daher ihr eigenes Gewicht kaum halten können. Der hat Faltmechanismus funktioniert, jedoch nicht ausreichend und in auch nicht in gewünschtem Maße. Lösen könnte man die 
+Instabilität der einzelnen Fingern mit härterem Silikon. Grundsätzlich wurde moderat hartes Silikongewählt mit dem Härtefaktor 25A, das doppelte somit 50A oder mehr wären notwendig um die Finger stabil zu halten. \\
+\\
+Die Problematik mit dem Guss, dass das Modell sich nicht in einem gießen lässt und die Erkenntnis beim Notmodell, dass die Finger nicht stabil bleiben, hat gezeigt dass dieses Konzept für unser Projekt nicht tauglich ist. Aufgrund dieser 
+Ergebnisse wird das Konzept vorerst verworfen, dennoch soll Silikon weiterhin ein Bestandteil der zukünftigen Modelle bleiben besonders aufgrund des Griffs, der damit gesichert werden kann. \\
+\\
 
-\paragraph{Konzeptverbesserung}
-\hfill \break
-\hfill \break
-
-\paragraph{Fazit und Stellungnahme (Konzept verworfen)}
-\hfill \break
-\hfill \break
-
-\subsubsection{Vierte Hand}
+\subsubsection{Vierte Hand (Hybrid-Konzept)}
 \paragraph{Erfahrung und Konzepterläuterung}
 \hfill \break
 \hfill \break
+Aus den Versuchen der letzten Kapitel konnte einiges an Erfahrung gesammelt werden. Nun ist klar worauf bei dem Modell einer Hand geachtet werden muss. \\
+Wie in Kapitel \autoref{chap:Erste Testhand} hat sich gezeigt, dass die einzelnen Fingerglieder sich kontinuierlich um die anderen Falten müssen. Auch hat sich im Kapitel „zweite Testhand“ gezeigt, wie wichtig es ist für ein Modell zu sorgen, dass einer hohen 
+Last standhält und nicht brüchig ist. In den letzten Versuchen hat sich gezeigt, dass die Zugschnur an sämtlichen Stellen auf Reibung trifft. \\
+\\
+Entdeckt wurde eine erweiterte Version der Hand aus \autoref{chap:Zweite Testhand} von Gael Levin. Diese hat sämtliche Optimierungen, sei es die zu bemängelnde Stabilität der vorherigen Version oder auch der problematische Mechanismus der 
+Zugschnüren. Im neuen Modell der "i2Hand", sind die Fingerglieder besonders an ihren Schwachstellen verstärkt worden, somit kann verhindert werden, dass die Verbindungen der einzelnen Glieder bei hoher Last oder gar der Montage brechen. Die 
+Verbindungen haben vorgesehene Einkerbungen für den Kopf der Schraube oder eine Mutter, somit steht an den Seiten der Finger nichts ab. \\
+Der Faltmechanismus besteht nicht mehr aus zwei Schnüre, sondern reduziert sich ausschließlich auf die Zugschnur, diese hat eine eigene Führung mit abgerundeten Kanten um die Reibung zu reduzieren. Der Rückzug wird durch eine Zugfeder verursacht, 
+diese erstreckt sich durch den gesamten Finger und ist am Anfang und seinem Ende montiert. \\
+\\
+Doch nicht alles war ideal an dem Modell der neuen Hand, den der Motorblock wurde nicht optimiert und nutzt weiterhin den Mechanismus, in dem sich die Zugschnur um einen Aufsatz auf dem Motor wickelt. Daher muss eigens ein neuer Mechanismus 
+entworfen werden in diesem soll die Drehbewegung des Servomotors in eine lineare Zugbewegung übersetzt werden. \\
+\\
 
 \paragraph{Erster Entwurf}
 \hfill \break
 \hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Motorblock_v2}}
+		\caption{Motorblock v2}
+		\label{fig:Motorblock_v2}			
+	\end{center}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Motorblock_v2_Mechanismus}}
+		\caption{Motorblock v2 Mechanismus}
+		\label{fig:Motorblock_v2}			
+	\end{center}
+\end{figure}
+\hfill \break
+In der \autoref{fig:Motorblock_v2} ist ein Gerüst zu sehen, dieses in Kombination mit den fünf Motoren, den zugehörigen Zahnstangen und Zahnrädern als Motorblock bezeichnet. Auf jeden Motor wird ein Zahnrad befestigt, dreht sich dieses Zahnrad bewegt es die 
+in der Fassung platzierte Zahnstange. Der Mechanismus nennt sich "Rack and Pinion" (engl.) und wurde so dimensioniert um mit einer Drehung von 180 Grad die Zahnstange um 60mm zu bewegen. \\
+\\
+Nach dem Druck und einer ersten Inbetriebnahme hat sich die Funktionalität des Mechanismus erwiesen. Der Motor dreht sich und wandelt dies in eine lineare Zugbewegung um, auf der Zahnstange wird dann die Angelschnur montiert und somit kann an 
+dieser kontrolliert gezogen werden. \\
+\\
 
 \paragraph{Verbesserungen – zweiter Entwurf}
 \hfill \break
 \hfill \break
+Neben der Funktionalität hat sich gezeigt, dass das Modell in einer deutlich kleineren Form und raumeffizienter entworfen werden kann. Dafür spricht, dass sich die Zahnstange nur um 30mm Bewegen muss um den Finger ausreichend zu Falten. 
+Dadurch konnte der Durchmesser des Zahnrades um ein Vielfaches verkleinert werden und dies bewirkt, dass die Halterung auch kleiner ausfällt. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Zahnstangenmechanismus_Unterarm}}
+		\caption{Zahnstangenmechanismus Unterarm}
+		\label{fig:Zahnstangenmechanismus_Unterarm}			
+	\end{center}
+\end{figure}
+\hfill \break
+In diesem Modell ist zu sehen, dass alle Servomotoren auf einer Höhe liegen. Diese werden auf einer Servohalterung (2) montiert, welche dann auf der Platte (1) montiert wird, aufgrund der Toleranzen des 3D-Drucks können die Halterungen mit 
+Langlöchern adjustiert werden. Das Modell wurde mit der Rücksicht entworfen, Schrauben und Muttern im Modell zu versenken. \\
+\\
 
 \paragraph{Realisierung und Aufbau}
 \hfill \break
@@ -3558,7 +3966,8 @@ Erneut war zu erkennen, dass sich die Mühe am Anfang der Entwicklung ausgezahlt
 %==AUSBLICK================================================================
 \section{Ausblick}
 
-Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. Einige Änderungs- oder Verbesserungsvorschläge des Gesamtdesigns sind in Folge beschrieben. \\
+Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. Einige Änderungs -oder Verbesserungsvorschläge des Gesamtdesigns sind in Folge beschrieben. \\
+\\
 
 
 \newpage

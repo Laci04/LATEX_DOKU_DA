@@ -53,143 +53,140 @@
 \contentsline {paragraph}{\numberline {6.2.3.3}Fazit und Ergebnisse}{35}{paragraph.6.2.3.3}%
 \contentsline {subsubsection}{\numberline {6.2.4}Zweite Testhand (Inmoov)}{36}{subsubsection.6.2.4}%
 \contentsline {paragraph}{\numberline {6.2.4.1}Einführung}{36}{paragraph.6.2.4.1}%
-\contentsline {paragraph}{\numberline {6.2.4.2}Realisierung und Zusammenbau}{36}{paragraph.6.2.4.2}%
-\contentsline {paragraph}{\numberline {6.2.4.3}Fazit und Ergebnisse}{36}{paragraph.6.2.4.3}%
-\contentsline {subsubsection}{\numberline {6.2.5}Drite Testhand (Projekt-Silikonhand)}{36}{subsubsection.6.2.5}%
-\contentsline {paragraph}{\numberline {6.2.5.1}Konzepterläuterung}{36}{paragraph.6.2.5.1}%
-\contentsline {paragraph}{\numberline {6.2.5.2}Erste Versuche einer Gussform und Asuwertung}{36}{paragraph.6.2.5.2}%
-\contentsline {paragraph}{\numberline {6.2.5.3}Verbesserungen und Realisierung (Gelenke im Guss)}{36}{paragraph.6.2.5.3}%
-\contentsline {paragraph}{\numberline {6.2.5.4}Verbesserung der Gelenke}{36}{paragraph.6.2.5.4}%
-\contentsline {paragraph}{\numberline {6.2.5.5}Entwurf einer neuen Gussform}{37}{paragraph.6.2.5.5}%
-\contentsline {paragraph}{\numberline {6.2.5.6}Vorbereitung und Probleme beim Guss}{37}{paragraph.6.2.5.6}%
-\contentsline {paragraph}{\numberline {6.2.5.7}Konzeptverbesserung}{37}{paragraph.6.2.5.7}%
-\contentsline {paragraph}{\numberline {6.2.5.8}Fazit und Stellungnahme (Konzept verworfen)}{37}{paragraph.6.2.5.8}%
-\contentsline {subsubsection}{\numberline {6.2.6}Vierte Hand}{37}{subsubsection.6.2.6}%
-\contentsline {paragraph}{\numberline {6.2.6.1}Erfahrung und Konzepterläuterung}{37}{paragraph.6.2.6.1}%
-\contentsline {paragraph}{\numberline {6.2.6.2}Erster Entwurf}{37}{paragraph.6.2.6.2}%
-\contentsline {paragraph}{\numberline {6.2.6.3}Verbesserungen – zweiter Entwurf}{37}{paragraph.6.2.6.3}%
-\contentsline {paragraph}{\numberline {6.2.6.4}Realisierung und Aufbau}{37}{paragraph.6.2.6.4}%
-\contentsline {paragraph}{\numberline {6.2.6.5}Versuche...}{37}{paragraph.6.2.6.5}%
-\contentsline {section}{\numberline {7}Hardware Realisierung}{38}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Eingabesubsystem}{38}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Grundlegende Voraussetzungen \textcolor {red}{Laci}}{38}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{38}{subsubsection.7.1.2}%
-\contentsline {paragraph}{\numberline {7.1.2.1}Bewegungserfassung der Fingerbeugung}{38}{paragraph.7.1.2.1}%
-\contentsline {paragraph}{\numberline {7.1.2.2}Auslesen der Sensoren}{38}{paragraph.7.1.2.2}%
-\contentsline {paragraph}{\numberline {7.1.2.3}Berechnung des Tiefpassfilters}{40}{paragraph.7.1.2.3}%
-\contentsline {paragraph}{\numberline {7.1.2.4}Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}{40}{paragraph.7.1.2.4}%
-\contentsline {paragraph}{\numberline {7.1.2.5}Umwandlung der Differenzwerte in ein geeignetes Format}{40}{paragraph.7.1.2.5}%
-\contentsline {paragraph}{\numberline {7.1.2.6}Vervielfachung der Schaltung für alle Flexsensoren}{41}{paragraph.7.1.2.6}%
-\contentsline {paragraph}{\numberline {7.1.2.7}Bewegungserfassung der Handgelenksdrehung}{42}{paragraph.7.1.2.7}%
-\contentsline {paragraph}{\numberline {7.1.2.8}Mikrokontroller}{42}{paragraph.7.1.2.8}%
-\contentsline {paragraph}{\numberline {7.1.2.9}\textcolor {red}{Akkuversorgung}}{43}{paragraph.7.1.2.9}%
-\contentsline {subsubsection}{\numberline {7.1.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{44}{subsubsection.7.1.3}%
-\contentsline {paragraph}{\numberline {7.1.3.1}Messchaltung der Flexsensoren}{44}{paragraph.7.1.3.1}%
-\contentsline {paragraph}{\numberline {7.1.3.2}Messergebnisse}{46}{paragraph.7.1.3.2}%
-\contentsline {subsubsection}{\numberline {7.1.4}Schaltungsdesign \textcolor {red}{Laci}}{50}{subsubsection.7.1.4}%
-\contentsline {paragraph}{\numberline {7.1.4.1}Externe Anschlüsse}{50}{paragraph.7.1.4.1}%
-\contentsline {paragraph}{\numberline {7.1.4.2}Mikrokontroller}{51}{paragraph.7.1.4.2}%
-\contentsline {paragraph}{\numberline {7.1.4.3}Mikrokontroller Buttons}{52}{paragraph.7.1.4.3}%
-\contentsline {paragraph}{\numberline {7.1.4.4}Status LEDs}{52}{paragraph.7.1.4.4}%
-\contentsline {paragraph}{\numberline {7.1.4.5}Multiplexer}{53}{paragraph.7.1.4.5}%
-\contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{53}{paragraph.7.1.4.6}%
-\contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{54}{paragraph.7.1.4.7}%
-\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{55}{paragraph.7.1.4.8}%
-\contentsline {paragraph}{\numberline {7.1.4.9}\textcolor {red}{Akku Versorgung}}{55}{paragraph.7.1.4.9}%
-\contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{56}{subsubsection.7.1.5}%
-\contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{56}{paragraph.7.1.5.1}%
-\contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{58}{paragraph.7.1.5.2}%
-\contentsline {subsection}{\numberline {7.2}Roboterhand}{63}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Grundlegende Vorraussetzungen}{63}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{63}{subsubsection.7.2.2}%
-\contentsline {paragraph}{\numberline {7.2.2.1}Aktorik zur Fingerbewegung}{63}{paragraph.7.2.2.1}%
-\contentsline {paragraph}{\numberline {7.2.2.2}Datenempfang}{63}{paragraph.7.2.2.2}%
-\contentsline {paragraph}{\numberline {7.2.2.3}Ansteuerung der Motoren}{63}{paragraph.7.2.2.3}%
-\contentsline {paragraph}{\numberline {7.2.2.4}Positions -und Kraftmessung der Roboterfinger}{64}{paragraph.7.2.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{67}{subsubsection.7.2.3}%
-\contentsline {paragraph}{\numberline {7.2.3.1}Messschaltung der Griffkraftkontrolle}{67}{paragraph.7.2.3.1}%
-\contentsline {subsubsection}{\numberline {7.2.4}Schaltungsdesign \textcolor {red}{Laci}}{72}{subsubsection.7.2.4}%
-\contentsline {paragraph}{\numberline {7.2.4.1}Externe Anschlüsse}{72}{paragraph.7.2.4.1}%
-\contentsline {paragraph}{\numberline {7.2.4.2}Serial-UART-Bridge}{74}{paragraph.7.2.4.2}%
-\contentsline {paragraph}{\numberline {7.2.4.3}Mikrokontroller}{75}{paragraph.7.2.4.3}%
-\contentsline {paragraph}{\numberline {7.2.4.4}Mikrokontroller Buttons}{76}{paragraph.7.2.4.4}%
-\contentsline {paragraph}{\numberline {7.2.4.5}Versorgung}{77}{paragraph.7.2.4.5}%
-\contentsline {paragraph}{\numberline {7.2.4.6}PWM-Controller}{78}{paragraph.7.2.4.6}%
-\contentsline {paragraph}{\numberline {7.2.4.7}Servoanschlüsse}{79}{paragraph.7.2.4.7}%
-\contentsline {paragraph}{\numberline {7.2.4.8}Strommessung zur Griffkraftkontrolle}{80}{paragraph.7.2.4.8}%
-\contentsline {paragraph}{\numberline {7.2.4.9}Status LEDs}{83}{paragraph.7.2.4.9}%
-\contentsline {subsubsection}{\numberline {7.2.5}Platinendesign \textcolor {red}{Laci}}{84}{subsubsection.7.2.5}%
-\contentsline {paragraph}{\numberline {7.2.5.1}Erste Testplatine}{84}{paragraph.7.2.5.1}%
-\contentsline {paragraph}{\numberline {7.2.5.2}Zweite Version der Platine}{87}{paragraph.7.2.5.2}%
-\contentsline {section}{\numberline {8}Software Realisierung}{91}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Handschuh}{91}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{91}{subsubsection.8.1.1}%
-\contentsline {paragraph}{\numberline {8.1.1.1}Datenübertragung}{91}{paragraph.8.1.1.1}%
-\contentsline {paragraph}{\numberline {8.1.1.2}Programmiersprache/Entwicklungsumgebung}{91}{paragraph.8.1.1.2}%
-\contentsline {paragraph}{\numberline {8.1.1.3}Benutzerfreundlichkeit}{92}{paragraph.8.1.1.3}%
-\contentsline {paragraph}{\numberline {8.1.1.4}Testen}{92}{paragraph.8.1.1.4}%
-\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{92}{paragraph.8.1.1.5}%
-\contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{93}{paragraph.8.1.1.6}%
-\contentsline {paragraph}{\numberline {8.1.1.7}Verworfene Ideen}{94}{paragraph.8.1.1.7}%
-\contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{95}{subsubsection.8.1.2}%
-\contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{95}{paragraph.8.1.2.1}%
-\contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{96}{paragraph.8.1.2.2}%
-\contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{97}{paragraph.8.1.2.3}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand}{100}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{100}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{100}{subsubsection.8.2.2}%
-\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{100}{paragraph.8.2.2.1}%
-\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{100}{paragraph.8.2.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{101}{subsubsection.8.2.3}%
-\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{101}{paragraph.8.2.3.1}%
-\contentsline {subsection}{\numberline {8.3}User Interface}{107}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{107}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{107}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{107}{subsubsection.8.3.3}%
-\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{107}{paragraph.8.3.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{109}{subsubsection.8.3.4}%
-\contentsline {paragraph}{\numberline {8.3.4.1}Erläuterung der Grafikoberfläche}{109}{paragraph.8.3.4.1}%
-\contentsline {subsubsection}{\numberline {8.3.5}Realisierung des Backends \textcolor {red}{Laci}}{111}{subsubsection.8.3.5}%
-\contentsline {section}{\numberline {9}Tests und Messungen}{112}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{112}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{116}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{116}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{116}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Software}{117}{subsection.10.3}%
-\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{117}{subsubsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{117}{subsubsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{117}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Ausblick}{118}{section.11}%
-\contentsline {section}{\numberline {12}Anhang}{119}{section.12}%
-\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{119}{section.13}%
-\contentsline {section}{\numberline {14}Projektmanagement}{120}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{120}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Milestoneplan}{120}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{120}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{121}{subsection.14.4}%
-\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{131}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Fusion 360}{131}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}KiCad}{131}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Arduino IDE}{131}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}QT Framework}{131}{subsection.15.4}%
-\contentsline {section}{\numberline {16}Fertigungsunterlagen}{132}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{132}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Mechanik}{135}{subsection.16.2}%
-\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{135}{subsubsection.16.2.1}%
-\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{135}{subsubsection.16.2.2}%
-\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{135}{subsubsection.16.2.3}%
-\contentsline {subsection}{\numberline {16.3}Hardware}{137}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{137}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{139}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{139}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{139}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Software}{140}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{140}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{143}{subsubsection.16.4.2}%
-\contentsline {subsubsection}{\numberline {16.4.3}Code}{143}{subsubsection.16.4.3}%
-\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{143}{paragraph.16.4.3.1}%
-\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{143}{paragraph.16.4.3.2}%
-\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{143}{paragraph.16.4.3.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{144}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{145}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{146}{section.19}%
+\contentsline {paragraph}{\numberline {6.2.4.2}Mechanismus}{36}{paragraph.6.2.4.2}%
+\contentsline {paragraph}{\numberline {6.2.4.3}Fazit und Ergebnisse}{38}{paragraph.6.2.4.3}%
+\contentsline {subsubsection}{\numberline {6.2.5}Dritte Testhand (Projekt-Silikonhand)}{40}{subsubsection.6.2.5}%
+\contentsline {paragraph}{\numberline {6.2.5.1}Das Konzept}{40}{paragraph.6.2.5.1}%
+\contentsline {paragraph}{\numberline {6.2.5.2}Gussform}{41}{paragraph.6.2.5.2}%
+\contentsline {paragraph}{\numberline {6.2.5.3}Gelenke}{45}{paragraph.6.2.5.3}%
+\contentsline {paragraph}{\numberline {6.2.5.4}Entwurf einer neuen Gussform}{47}{paragraph.6.2.5.4}%
+\contentsline {paragraph}{\numberline {6.2.5.5}Gussform und Gussversuch}{52}{paragraph.6.2.5.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Vierte Hand (Hybrid-Konzept)}{60}{subsubsection.6.2.6}%
+\contentsline {paragraph}{\numberline {6.2.6.1}Erfahrung und Konzepterläuterung}{60}{paragraph.6.2.6.1}%
+\contentsline {paragraph}{\numberline {6.2.6.2}Erster Entwurf}{60}{paragraph.6.2.6.2}%
+\contentsline {paragraph}{\numberline {6.2.6.3}Verbesserungen – zweiter Entwurf}{62}{paragraph.6.2.6.3}%
+\contentsline {paragraph}{\numberline {6.2.6.4}Realisierung und Aufbau}{63}{paragraph.6.2.6.4}%
+\contentsline {paragraph}{\numberline {6.2.6.5}Versuche...}{63}{paragraph.6.2.6.5}%
+\contentsline {section}{\numberline {7}Hardware Realisierung}{64}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Eingabesubsystem}{64}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Grundlegende Voraussetzungen \textcolor {red}{Laci}}{64}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{64}{subsubsection.7.1.2}%
+\contentsline {paragraph}{\numberline {7.1.2.1}Bewegungserfassung der Fingerbeugung}{64}{paragraph.7.1.2.1}%
+\contentsline {paragraph}{\numberline {7.1.2.2}Auslesen der Sensoren}{64}{paragraph.7.1.2.2}%
+\contentsline {paragraph}{\numberline {7.1.2.3}Berechnung des Tiefpassfilters}{66}{paragraph.7.1.2.3}%
+\contentsline {paragraph}{\numberline {7.1.2.4}Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}{66}{paragraph.7.1.2.4}%
+\contentsline {paragraph}{\numberline {7.1.2.5}Umwandlung der Differenzwerte in ein geeignetes Format}{66}{paragraph.7.1.2.5}%
+\contentsline {paragraph}{\numberline {7.1.2.6}Vervielfachung der Schaltung für alle Flexsensoren}{67}{paragraph.7.1.2.6}%
+\contentsline {paragraph}{\numberline {7.1.2.7}Bewegungserfassung der Handgelenksdrehung}{68}{paragraph.7.1.2.7}%
+\contentsline {paragraph}{\numberline {7.1.2.8}Mikrokontroller}{68}{paragraph.7.1.2.8}%
+\contentsline {paragraph}{\numberline {7.1.2.9}\textcolor {red}{Akkuversorgung}}{69}{paragraph.7.1.2.9}%
+\contentsline {subsubsection}{\numberline {7.1.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{70}{subsubsection.7.1.3}%
+\contentsline {paragraph}{\numberline {7.1.3.1}Messchaltung der Flexsensoren}{70}{paragraph.7.1.3.1}%
+\contentsline {paragraph}{\numberline {7.1.3.2}Messergebnisse}{72}{paragraph.7.1.3.2}%
+\contentsline {subsubsection}{\numberline {7.1.4}Schaltungsdesign \textcolor {red}{Laci}}{76}{subsubsection.7.1.4}%
+\contentsline {paragraph}{\numberline {7.1.4.1}Externe Anschlüsse}{76}{paragraph.7.1.4.1}%
+\contentsline {paragraph}{\numberline {7.1.4.2}Mikrokontroller}{77}{paragraph.7.1.4.2}%
+\contentsline {paragraph}{\numberline {7.1.4.3}Mikrokontroller Buttons}{78}{paragraph.7.1.4.3}%
+\contentsline {paragraph}{\numberline {7.1.4.4}Status LEDs}{78}{paragraph.7.1.4.4}%
+\contentsline {paragraph}{\numberline {7.1.4.5}Multiplexer}{79}{paragraph.7.1.4.5}%
+\contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{79}{paragraph.7.1.4.6}%
+\contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{80}{paragraph.7.1.4.7}%
+\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{81}{paragraph.7.1.4.8}%
+\contentsline {paragraph}{\numberline {7.1.4.9}\textcolor {red}{Akku Versorgung}}{81}{paragraph.7.1.4.9}%
+\contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{82}{subsubsection.7.1.5}%
+\contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{82}{paragraph.7.1.5.1}%
+\contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{84}{paragraph.7.1.5.2}%
+\contentsline {subsection}{\numberline {7.2}Roboterhand}{89}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Grundlegende Vorraussetzungen}{89}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{89}{subsubsection.7.2.2}%
+\contentsline {paragraph}{\numberline {7.2.2.1}Aktorik zur Fingerbewegung}{89}{paragraph.7.2.2.1}%
+\contentsline {paragraph}{\numberline {7.2.2.2}Datenempfang}{89}{paragraph.7.2.2.2}%
+\contentsline {paragraph}{\numberline {7.2.2.3}Ansteuerung der Motoren}{89}{paragraph.7.2.2.3}%
+\contentsline {paragraph}{\numberline {7.2.2.4}Positions -und Kraftmessung der Roboterfinger}{90}{paragraph.7.2.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{93}{subsubsection.7.2.3}%
+\contentsline {paragraph}{\numberline {7.2.3.1}Messschaltung der Griffkraftkontrolle}{93}{paragraph.7.2.3.1}%
+\contentsline {subsubsection}{\numberline {7.2.4}Schaltungsdesign \textcolor {red}{Laci}}{98}{subsubsection.7.2.4}%
+\contentsline {paragraph}{\numberline {7.2.4.1}Externe Anschlüsse}{98}{paragraph.7.2.4.1}%
+\contentsline {paragraph}{\numberline {7.2.4.2}Serial-UART-Bridge}{100}{paragraph.7.2.4.2}%
+\contentsline {paragraph}{\numberline {7.2.4.3}Mikrokontroller}{101}{paragraph.7.2.4.3}%
+\contentsline {paragraph}{\numberline {7.2.4.4}Mikrokontroller Buttons}{102}{paragraph.7.2.4.4}%
+\contentsline {paragraph}{\numberline {7.2.4.5}Versorgung}{103}{paragraph.7.2.4.5}%
+\contentsline {paragraph}{\numberline {7.2.4.6}PWM-Controller}{104}{paragraph.7.2.4.6}%
+\contentsline {paragraph}{\numberline {7.2.4.7}Servoanschlüsse}{105}{paragraph.7.2.4.7}%
+\contentsline {paragraph}{\numberline {7.2.4.8}Strommessung zur Griffkraftkontrolle}{106}{paragraph.7.2.4.8}%
+\contentsline {paragraph}{\numberline {7.2.4.9}Status LEDs}{109}{paragraph.7.2.4.9}%
+\contentsline {subsubsection}{\numberline {7.2.5}Platinendesign \textcolor {red}{Laci}}{110}{subsubsection.7.2.5}%
+\contentsline {paragraph}{\numberline {7.2.5.1}Erste Testplatine}{110}{paragraph.7.2.5.1}%
+\contentsline {paragraph}{\numberline {7.2.5.2}Zweite Version der Platine}{113}{paragraph.7.2.5.2}%
+\contentsline {section}{\numberline {8}Software Realisierung}{117}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Handschuh}{117}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{117}{subsubsection.8.1.1}%
+\contentsline {paragraph}{\numberline {8.1.1.1}Datenübertragung}{117}{paragraph.8.1.1.1}%
+\contentsline {paragraph}{\numberline {8.1.1.2}Programmiersprache/Entwicklungsumgebung}{117}{paragraph.8.1.1.2}%
+\contentsline {paragraph}{\numberline {8.1.1.3}Benutzerfreundlichkeit}{118}{paragraph.8.1.1.3}%
+\contentsline {paragraph}{\numberline {8.1.1.4}Testen}{118}{paragraph.8.1.1.4}%
+\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{119}{paragraph.8.1.1.5}%
+\contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{119}{paragraph.8.1.1.6}%
+\contentsline {paragraph}{\numberline {8.1.1.7}Verworfene Ideen}{120}{paragraph.8.1.1.7}%
+\contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{121}{subsubsection.8.1.2}%
+\contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{121}{paragraph.8.1.2.1}%
+\contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{122}{paragraph.8.1.2.2}%
+\contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{123}{paragraph.8.1.2.3}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand}{126}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{126}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Konzepte und Überlegungen \textcolor {red}{Fabian}}{126}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}Testen}{126}{paragraph.8.2.2.1}%
+\contentsline {paragraph}{\numberline {8.2.2.2}Allgemeines Konzept}{126}{paragraph.8.2.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Realisierung und Gliederung \textcolor {red}{Fabian}}{127}{subsubsection.8.2.3}%
+\contentsline {paragraph}{\numberline {8.2.3.1}Realisierung}{127}{paragraph.8.2.3.1}%
+\contentsline {subsection}{\numberline {8.3}User Interface}{133}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{133}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{133}{subsubsection.8.3.2}%
+\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{133}{subsubsection.8.3.3}%
+\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{133}{paragraph.8.3.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{135}{subsubsection.8.3.4}%
+\contentsline {paragraph}{\numberline {8.3.4.1}Erläuterung der Grafikoberfläche}{135}{paragraph.8.3.4.1}%
+\contentsline {subsubsection}{\numberline {8.3.5}Realisierung des Backends \textcolor {red}{Laci}}{137}{subsubsection.8.3.5}%
+\contentsline {section}{\numberline {9}Tests und Messungen}{138}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{138}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{142}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{142}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{142}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Software}{143}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{143}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{143}{subsubsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{143}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Ausblick}{144}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{145}{section.12}%
+\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{145}{section.13}%
+\contentsline {section}{\numberline {14}Projektmanagement}{146}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{146}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Milestoneplan}{146}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{146}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{147}{subsection.14.4}%
+\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{157}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Fusion 360}{157}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}KiCad}{157}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Arduino IDE}{157}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}QT Framework}{157}{subsection.15.4}%
+\contentsline {section}{\numberline {16}Fertigungsunterlagen}{158}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{158}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Mechanik}{161}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{161}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{161}{subsubsection.16.2.2}%
+\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{161}{subsubsection.16.2.3}%
+\contentsline {subsection}{\numberline {16.3}Hardware}{163}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{163}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{165}{subsubsection.16.3.2}%
+\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{165}{subsubsection.16.3.3}%
+\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{165}{subsubsection.16.3.4}%
+\contentsline {subsection}{\numberline {16.4}Software}{166}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{166}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{169}{subsubsection.16.4.2}%
+\contentsline {subsubsection}{\numberline {16.4.3}Code}{169}{subsubsection.16.4.3}%
+\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{169}{paragraph.16.4.3.1}%
+\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{169}{paragraph.16.4.3.2}%
+\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{169}{paragraph.16.4.3.3}%
+\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{170}{section.17}%
+\contentsline {section}{\numberline {18}Tabellenverzeichnis}{171}{section.18}%
+\contentsline {section}{\numberline {19}Literaturverzeichnis}{172}{section.19}%
