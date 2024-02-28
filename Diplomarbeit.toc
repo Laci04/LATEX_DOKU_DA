@@ -128,7 +128,7 @@
 \contentsline {paragraph}{\numberline {8.1.1.2}Programmiersprache/Entwicklungsumgebung}{91}{paragraph.8.1.1.2}%
 \contentsline {paragraph}{\numberline {8.1.1.3}Benutzerfreundlichkeit}{92}{paragraph.8.1.1.3}%
 \contentsline {paragraph}{\numberline {8.1.1.4}Testen}{92}{paragraph.8.1.1.4}%
-\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{93}{paragraph.8.1.1.5}%
+\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{92}{paragraph.8.1.1.5}%
 \contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{93}{paragraph.8.1.1.6}%
 \contentsline {paragraph}{\numberline {8.1.1.7}Verworfene Ideen}{94}{paragraph.8.1.1.7}%
 \contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{95}{subsubsection.8.1.2}%
