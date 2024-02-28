@@ -155,7 +155,10 @@
 \contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{116}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{116}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{116}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Software \textcolor {red}{Fabian}}{117}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.3}Software}{117}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{117}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{117}{subsubsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{117}{subsection.10.4}%
 \contentsline {section}{\numberline {11}Ausblick}{118}{section.11}%
 \contentsline {section}{\numberline {12}Anhang}{119}{section.12}%
 \contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{119}{section.13}%
