@@ -89,17 +89,19 @@
 	\normalsize 
 	\large
 	
-	\begin{tabular}{llr} 
-	\multicolumn{3}{l}{\large{ \textbf{3D-Druck, Mechanik, User-Interface Programmierung}}} \\
-	\large{Amir Al-Maytah} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	\\
-	\multicolumn{3}{l}{\large{ \textbf{Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration}}} \\
-	\large{Fabian Schweitzer} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	\\
-	\multicolumn{3}{l}{\large{ \textbf{Hardwareentwicklung, PCB-Design, Projektleitung}}} \\
-	\large{Ladislaus Szabo} & \hspace{0.5cm}\large{5BHEL}\hspace{0.5cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
-	\\
-	\end{tabular}
+	\begin{center}
+		\begin{tabular}{llr} 
+			\multicolumn{3}{c}{\large{\textbf{3D-Druck, Mechanik, User-Interface Programmierung}}} \\
+			\large{Amir Al-Maytah} & \hspace{0.3cm}\large{5BHEL}\hspace{0.3cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+			\\
+			\multicolumn{3}{c}{\large{\textbf{Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration}}} \\
+			\large{Fabian Schweitzer} & \hspace{0.3cm}\large{5BHEL}\hspace{0.3cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+			\\
+			\multicolumn{3}{c}{\large{\textbf{Hardwareentwicklung, PCB-Design, Projektleitung}}} \\
+			\large{Ladislaus Szabo} & \hspace{0.3cm}\large{5BHEL}\hspace{0.3cm} &  \large{Betreuer: Prof. Dipl.-Ing. Christoph Diemberger}\\
+			\\
+		\end{tabular}
+	\end{center}
 	
 	
 	
@@ -139,7 +141,7 @@
 \color{white}
 
 \color{blue}	
-\Large{\bfseries{Eidesstaatliche Erklärung}}	
+\Large{\bfseries{Eidesstattliche Erklärung}}	
 \color{black}	
 
 \end {center}
@@ -1391,7 +1393,7 @@ werden. \\
 \end{figure}
 \hfill \break
 Letztlich beinhalt das Modell der Roboterhand ein Element welches hier als 
-\"Motorblock\" bezeichnet wird, dieses Element trägt diesen Namen da es alle 
+Motorblock bezeichnet wird, dieses Element trägt diesen Namen da es alle 
 für die Antriebsmechanik relevanten Komponenten beinhaltet. \\
 Das Modell setzt sich aus einer Grundplatte, der fünf Halterungen für die 
 Motoren und jeweils einer passend angeordneten Umlenkung zusammen. \\
@@ -2452,6 +2454,7 @@ einem relativ konstanten Wert stehen bleiben. Dies ist der Fall, da ein Servo ei
 nur für die Bewegung, sondern auch für das Entgegnwirken einer mechanischen Last Strom benötigt. 
 
 \subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
+\label{chap:Schaltungsdesign_Roboterhand}
 Nach den diversen Überlegungen, Konzepten und Berechnungen, wird in diesem Punkt das genauere Schaltungsdesign erläutert. Es wird
 erklärt worauf bei dem Schaltungsentwurf geachtet werden musste und mit welchen Besonderheiten, beziehungsweise Problemen, wir zu
 tun hatten. 
@@ -2735,7 +2738,12 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\end{center}
 \end{figure}
 \hfill \break
-
+In \autoref{fig:Platinenlayout_Roboterhand_oben_v2}, ist der Toplayer des zweiten Platinenldesigns zu sehen. Auf der Oberseite des
+PCBs, sind alle Komponenten angebracht, die für Wartungszwecke zugänglich sein müssen. Dies umfasst alle Anschlüsse für die Servomotoren,
+die Adressjumper des PWM-Controllers, den Reset -und Upload-Button und die beiden Status-LEDs zur visuellen Überwachung der Schaltung. 
+Bei diesem Layout wurde, im Gegensatz zur ersten Testplatine, auf die größe geachtet. Diese sollte so klein wie möglich sein, muss
+aber trotzdem genügend Raum für die großen Shunt-Widerstände und dicken Leiterbahnen auf dem Bottom-Layer lassen. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2745,7 +2753,12 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\end{center}
 \end{figure}
 \hfill \break
-
+Auf dem Bottom-Layer in \autoref{fig:Platinenlayout_Roboterhand_unten_v2}, wurden alle Komponenten platziert, die zur Messung und Verarbeitung
+der Daten notwendig sind. Am unteren und rechten Rand der Platine, sind die Shunt-Widerstände zu sehen, die aufgrund der zu vertragenden
+Leistung einen größeren Footprint haben. Zusätzlich dazu, sind diese nochmals parallel geschaltet, wodurch die Verlustleistung auf 
+zwei Widerstände aufgeteilt wird. Um lange Leiterbahnen, auf denen ein hoher Strom fließt, zu vermeiden, wurden die Shunts sehr nah 
+an den $5V$ Anschlüssen der Servos positioniert. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2755,7 +2768,12 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\end{center}
 \end{figure}
 \hfill \break
-
+In \autoref{fig:Platinenmodell_Roboterhand_oben_v2}, ist das 3D-Modell der Platine für das Ausgabesbusystem zu sehen. In der rechten, oberen
+Ecke der Abbildung, sind die beiden Versorgungspins der Schaltung zu sehen. Diese sind bei der zweiten Platinenversion noch Pinheader, sollen
+später allerdinsg in Form eines Barrel-Jack realisiert werden. Links neben der Versorgungsanschlüssen, ist der Footprint für einen Ein -Ausschalter
+zu sehen, wie in \autoref{par:Externe Anschlüsse} zu sehen. Alle weiteren Schaltungsteile sind in \autoref{chap:Schaltungsdesign_Roboterhand} näher
+erklärt. \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2765,7 +2783,9 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\end{center}
 \end{figure}
 \hfill \break
-
+Zu sehen in \autoref{fig:Platinenmodell_Roboterhand_unten_v2}, ist der Bottom-Layer als 3D-Modell. Es wurde auf eine möglichst effiziente
+Anordnung der Bauteile geachtet, damit die Platine so wenig Platz wie möglich in Anspruch nimmt. \\
+\\
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -3480,13 +3500,37 @@ Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einst
 \section{Anhang}
 %--------------------------------------------------------------------------
 \section{Abkürzungsverzeichnis}
-\textbf{MAC-Adresse} \\
-\\
-\textbf{IP-Adresse} \\
-\\
-\textbf{CAD-Software/Programm} \\
-\\
 
+{\large \textbf{ADC}} Analog-Digital-Wandler \\
+\\
+{\large \textbf{CAD-Software}} Computer Aided Design Software \\
+\\
+{\large \textbf{GUI}} Graphical User Interface \\
+\\
+{\large \textbf{GND}} Ground \\
+\\
+{\large \textbf{IC}} Integrated Circuit \\
+\\
+{\large \textbf{I2C}} Inter-Integrated Circuit \\
+\\
+{\large \textbf{IP-Adresse}} Internet Protocol Address \\
+\\
+{\large \textbf{MAC-Adresse}} Media Access Control Address \\
+\\
+{\large \textbf{OPV}} Operationsverstärker \\
+\\
+{\large \textbf{PCB}} Printed Circuit Board \\
+\\
+{\large \textbf{SMD}} Surface Mount Device \\
+\\
+{\large \textbf{THT}} Through Hole Technology \\
+\\
+{\large \textbf{UART}} Universal Asynchronus Receiver / Transmitter \\
+\\
+{\large \textbf{UI}} User Interface \\
+\\
+{\large \textbf{USB}} Universal Serial Bus \\
+\\
 
 \newpage
 %==PROJEKTMANAGEMENT=======================================================
@@ -3524,8 +3568,6 @@ Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einst
 \end{table}
 
 \subsection{Gantt-Diagram}
-
-\subsection{Meeting Struktur}
 
 \newpage
 \subsection{Arbeitstunden}
@@ -4015,6 +4057,7 @@ erstellt werden. \\
 \end{figure}
 \hfill \break
 
+\newpage
 \subsection{Mechanik}
 \label{chap:Fertigungsunterlagen_Mechanik}
 \subsubsection{Skizzen ud Konzepte}
@@ -4023,7 +4066,7 @@ erstellt werden. \\
 
 \subsubsection{3D-Modelle}
 
-
+\newpage
 \subsection{Hardware}
 \label{chap:Fertigungsunterlagen_Hardware}
 \subsubsection{Skizzen und Konzepte}
@@ -4052,7 +4095,7 @@ erstellt werden. \\
 
 \subsubsection{Bestückungslisten}
 
-
+\newpage
 \subsection{Software}
 \label{chap:Fertigungsunterlagen_Software}
 \subsubsection{Skizzen und Konzepte}
@@ -4088,6 +4131,11 @@ erstellt werden. \\
 
 \subsubsection{Code}
 \label{chap:Fertigungsunterlagen_Software_Code}
+\paragraph{Eingabesubsystem}
+
+\paragraph{Ausgabesubsystem}
+
+\paragraph{User-Interface}
 
 \newpage
 %--------------------------------------------------------------------------

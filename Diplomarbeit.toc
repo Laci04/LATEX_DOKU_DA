@@ -160,8 +160,7 @@
 \contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{119}{subsection.14.1}%
 \contentsline {subsection}{\numberline {14.2}Milestoneplan}{119}{subsection.14.2}%
 \contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{119}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Meeting Struktur}{119}{subsection.14.4}%
-\contentsline {subsection}{\numberline {14.5}Arbeitstunden}{120}{subsection.14.5}%
+\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{120}{subsection.14.4}%
 \contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{130}{section.15}%
 \contentsline {subsection}{\numberline {15.1}Fusion 360}{130}{subsection.15.1}%
 \contentsline {subsection}{\numberline {15.2}KiCad}{130}{subsection.15.2}%
@@ -173,15 +172,18 @@
 \contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{134}{subsubsection.16.2.1}%
 \contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{134}{subsubsection.16.2.2}%
 \contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{134}{subsubsection.16.2.3}%
-\contentsline {subsection}{\numberline {16.3}Hardware}{134}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{134}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{136}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{136}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{136}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Software}{136}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{136}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{139}{subsubsection.16.4.2}%
-\contentsline {subsubsection}{\numberline {16.4.3}Code}{139}{subsubsection.16.4.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{140}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{141}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{142}{section.19}%
+\contentsline {subsection}{\numberline {16.3}Hardware}{136}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{136}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{138}{subsubsection.16.3.2}%
+\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{138}{subsubsection.16.3.3}%
+\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{138}{subsubsection.16.3.4}%
+\contentsline {subsection}{\numberline {16.4}Software}{139}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{139}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{142}{subsubsection.16.4.2}%
+\contentsline {subsubsection}{\numberline {16.4.3}Code}{142}{subsubsection.16.4.3}%
+\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{142}{paragraph.16.4.3.1}%
+\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{142}{paragraph.16.4.3.2}%
+\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{142}{paragraph.16.4.3.3}%
+\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{143}{section.17}%
+\contentsline {section}{\numberline {18}Tabellenverzeichnis}{144}{section.18}%
+\contentsline {section}{\numberline {19}Literaturverzeichnis}{145}{section.19}%
