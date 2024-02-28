@@ -421,6 +421,27 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 
 \section{Einleitung}
 \label{chap:Einleitung}
+In einer sterilen Umgebung ist es unerlässlich, eine keimfreie Methode zu haben, um Aufgaben zu erledigen, die normalerweise von 
+menschlichen Händen ausgeführt werden. Beispielsweise muss ein Objekt gegriffen und an eine andere Position innerhalb dieser 
+geschlossenen Umgebung bewegt werden. Zusätzlich ist es hilfreich, eine Möglichkeit zur Analyse gefährlicher Güter zu haben.
+Diese Anforderungen können durch eine bionische Hand erfüllt werden. Diese Hand wird drahtlos vom Menschen über eine, in einen 
+Handschuh integrierte elektronische Schaltung, gesteuert. Weitere Hardware-, Software- und Mechanikkomponenten sind erforderlich, 
+um den gewünschten Anwendungsfall zu realisieren. Ein Prototyp eines Roboterarms wird entwickelt, der je nach Einsatzgebiet 
+drahtlos gesteuert und vielfältig eingesetzt werden kann. \\
+\\
+Diese Diplomarbeit wurde von mehreren Autoren verfasst und ist in verschiedene Kapitel unterteilt, um eine klare Struktur zu 
+gewährleisten. Dadurch können die benötigten Informationen schnell gefunden werden. Zunächst werden grundlegende theoretische 
+Kenntnisse festgehalten, um den Einstieg in das Thema zu erleichtern. Anschließend beschreiben wir die Umsetzung der Mechanik, 
+gefolgt von der Hardware und der Software. Alle relevanten Aspekte der bionischen Hand werden in diesen Hauptkapiteln abgedeckt. 
+Darüber hinaus werden Tests, Messungen und die während der Entwicklungsphase erzielten Ergebnisse aufgeführt und ausgewertet. Die 
+abschließenden Erkenntnisse geben einen Überblick darüber, inwiefern die gewünschte Realisierung möglich ist. Jedes dieser 
+Hauptkapitel enthält auch Unterkapitel, um die jeweilige Thematik detaillierter zu beschreiben. \\
+\\
+In dieser Diplomarbeit sind alle durchgeführten Überlegungen und Entwicklungsschritte genau dokumentiert. Dadurch wird der gesamte 
+Arbeitsfortschritt nachvollziehbar. Die verwendeten Informationen stammen aus eigener Erfahrung, Internetrecherchen oder 
+Fachliteratur. Falls externe Quellen genutzt wurden, sind diese in Fußnoten mit entsprechenden Verweisen gekennzeichnet. \\
+\\
+
 \subsection{Ausgangslage und grundlegende Motivation}
 \label{chap:Ausgangslage und grundlegende Motivation}
 Es gibt Produktionsbereiche, die klinisch sauber gehalten werden müssen, da durch Menschen Kontaminationen entstehen
@@ -1649,11 +1670,12 @@ entlastet den Eingang des folgenden ADCs. Der Tiefpassfilter wurde folgendermaß
 \hfill \break
 \hfill \break
 \hspace*{1cm} Verstärkungsgleichung laut Datenblatt: $ G = 1+\frac{49.4k\Omega}{R_{g}} $ \\
-\textcolor{red}{diemensionierung shuntwiderstand noch einfügen}
 \\
 \hspace*{1cm} Gain gewählt mit 46. \hspace*{1cm} $ R_{g} = 1.1k\Omega $ \\
 \\
-Die Verstärkung wurde so gewählt, dass diese mit dem Shunt-Widerstand für den ADC optimal geeignet ist. (Simulation) \\
+Die Verstärkung wurde so gewählt, dass diese mit dem Shunt-Widerstand für den ADC optimal geeignet ist.
+Der Shunt-Widerstand wurde mithilfe der Simulation in \autoref{fig:Simulation_Spannungsmessung_Flexsensoren}
+gewählt. \\
 \\
 Der Shuntwiderstand wurde nicht wirklich berechnet. Dieser wurde durch probieren in der Simulation ermittelt. Eine Berechnung
 des Shunts wäre nicht wirklich Zielführend gewesen, da diese normalerweise bei Schaltungen mit hohen Strömen verwendet werden. 
@@ -3488,6 +3510,34 @@ Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einst
 %--------------------------------------------------------------------------
 %==Zusammenfassung=========================================================
 \section{Ergebnisse und Erkenntisse}
+In diesem Punkt werden alle, in Laufe der Projektentwicklung gewonnen, Erkenntnisse erläutert. Dazu zählen nicht nur die
+positiven Erfolge, sondern auch die negativen Aspekte und Rückschläge, die wir erfahren haben. \\
+\\
+Zunächst wurde ein erstes Konzept entwickelt. In Zuge dessen, wurde hauptsächlich recherchiert und überlegt, wie die 
+einzelnen Ideen zum Bau einer bionischen Hand umgesetzt werden können. Dies betrifft die Messung der Fingerbeugung durch geeignete Sensorik, 
+die Datenübertragung und die Aktorik in Form von Motoren. \\
+\\
+Anfangs war der Fortschritt sehr groß. Jede Woche wurden neue Konzepte getestet und durchdacht. Es war sehr schnell klar, dass wir Flexsensoren
+als Sensorik verwenden wollen und somit konnte der Schaltungsentwurf beginnen. Entscheidungsfreudigkeit am Anfang des Projekts zahlt sich im Laufe der Entwicklung aus,
+da nicht unnötige Zeit verschwendet wird unnütze und nicht funktionierende Konzepte durchzusetzen. Dieer Fehler wurde bei uns vermieden und somit hatten wir schon sehr früh 
+Schaltungen und Testplatinen. Durch diese konnten wir Verbesserungen vornehmen und Fehler frühzeitig erkennen. \\
+\\
+Frühzeitige Fehler bei der Testschaltung des Eingabesubsystems waren keine Seltenheit. Rund ein -bis zwei Wochen wurden damit verbracht die Platine funktionsfähig zu machen, da 
+durch die Schuliinterne Fertigung einige Fehler beim Fräsen der Leiterbahnen aufgetreten sind. Nicht nur Probleme bei der Fertigung, sondern auch beim Anlöten der Bauteile stoppten 
+den Entwicklungsprozess kurzzeitig. Nachdem mit Jumper-Kabeln alle kaputten elektrischen Leitungen überbrückt worden sind, konnte die Schaltung auf Funktionalität durchgemessen werden.
+Diese Messungen verliefen, nach der Behebung aller Leitungsdefekte, reibungslos und das Konzept der Messschaltung wurde bestätigt. Dies gab uns die Sicherheit nun die zweite Version der
+Platine für das Eingabesubsystem zu entwerfen und extern, bei der Firma JLCPCB, fertigen zu lassen. \\
+\\
+Durch diese relativ gut verlaufene Phase der Schaltungsentwicklung, hat sich gezeigt, dass es sich auszahlt im Vorhinein zu planen, Schaltungen zu simulieren und zu berechnen und das initiale Konzept mehrmals durchzudenken. \\
+\\
+Ein sehr ähnlicher Entwicklungsprozess kam bei der Fertigung der Platine für das Ausgabesubsystem zu tragen. Nach dem Entschluss Servomotoren für die Ansteuerung der Roboterfinger zu verwenden, begann das erneute Überlegen. Diesmal
+musste allerdings der beste und einfachste Weg für eine Motoransteuerung, bestenfalls mit einer Griffkraftüberwachung, konzeptioniert werden. Die gewählte Schaltung wurde erneut simuliert und auf einem Steckbrett aufgebaut. 
+Danach wurde in der Schule eine Testplatine gefertigt und bestückt. Erneut sind allerdings die gleichen Probleme wie bei der Entwicklung der Schaltung für das Eingabesubsystem aufgetreten. Leiterbahnen haben sich beim Löten der 
+eletronischen Bauteile gelöst, weshalb Jumper-Kabel verwendet werden mussten. Nach der Überbrückung der kaputten Leitungen, wurde die Platine erneut durchgemessen und ein Betrieb simuliert. Dadurch konnten wir die korrekte Funktion der 
+Schaltung nachweisen und mit dem Design der zweiten Platine für das Ausgabesubsystem beginnen. Diese wurde ebenfalls bei der Firma JLCPCB bestellt. \\
+\\
+Erneut war zu erkennen, dass sich die Mühe am Anfang der Entwicklung ausgezahlt hat um mögliche Probleme, die später im Entwicklungsprozess auftreten könnten, auszuschließen. \\
+\\
 
 \newpage
 %--------------------------------------------------------------------------

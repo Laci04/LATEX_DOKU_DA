@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Ausgangslage und grundlegende Motivation}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Themenerläuterung}{1}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Grundgliederung der Arbeit}{1}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Untersuchungsanliegen der individuellen Themenstellungen}{1}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.3}Grundgliederung der Arbeit}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Untersuchungsanliegen der individuellen Themenstellungen}{2}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Lastenheft}{3}{section.2}%
 \contentsline {section}{\numberline {3}Vorwissenschaftlicher Theorieteil}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}\textcolor {purple}{Platzhalter Thema Amir}}{7}{subsection.3.1}%
@@ -153,37 +153,37 @@
 \contentsline {section}{\numberline {9}Tests und Messungen}{112}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{112}{subsection.9.1}%
 \contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{116}{section.10}%
-\contentsline {section}{\numberline {11}Ausblick}{117}{section.11}%
-\contentsline {section}{\numberline {12}Anhang}{118}{section.12}%
-\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{118}{section.13}%
-\contentsline {section}{\numberline {14}Projektmanagement}{119}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{119}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Milestoneplan}{119}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{119}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{120}{subsection.14.4}%
-\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{130}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Fusion 360}{130}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}KiCad}{130}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Arduino IDE}{130}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}QT Framework}{130}{subsection.15.4}%
-\contentsline {section}{\numberline {16}Fertigungsunterlagen}{131}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{131}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Mechanik}{134}{subsection.16.2}%
-\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{134}{subsubsection.16.2.1}%
-\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{134}{subsubsection.16.2.2}%
-\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{134}{subsubsection.16.2.3}%
-\contentsline {subsection}{\numberline {16.3}Hardware}{136}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{136}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{138}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{138}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{138}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Software}{139}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{139}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{142}{subsubsection.16.4.2}%
-\contentsline {subsubsection}{\numberline {16.4.3}Code}{142}{subsubsection.16.4.3}%
-\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{142}{paragraph.16.4.3.1}%
-\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{142}{paragraph.16.4.3.2}%
-\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{142}{paragraph.16.4.3.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{143}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{144}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{145}{section.19}%
+\contentsline {section}{\numberline {11}Ausblick}{118}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{119}{section.12}%
+\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{119}{section.13}%
+\contentsline {section}{\numberline {14}Projektmanagement}{120}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{120}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Milestoneplan}{120}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{120}{subsection.14.3}%
+\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{121}{subsection.14.4}%
+\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{131}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Fusion 360}{131}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}KiCad}{131}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Arduino IDE}{131}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}QT Framework}{131}{subsection.15.4}%
+\contentsline {section}{\numberline {16}Fertigungsunterlagen}{132}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{132}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Mechanik}{135}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{135}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{135}{subsubsection.16.2.2}%
+\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{135}{subsubsection.16.2.3}%
+\contentsline {subsection}{\numberline {16.3}Hardware}{137}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{137}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{139}{subsubsection.16.3.2}%
+\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{139}{subsubsection.16.3.3}%
+\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{139}{subsubsection.16.3.4}%
+\contentsline {subsection}{\numberline {16.4}Software}{140}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{140}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{143}{subsubsection.16.4.2}%
+\contentsline {subsubsection}{\numberline {16.4.3}Code}{143}{subsubsection.16.4.3}%
+\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{143}{paragraph.16.4.3.1}%
+\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{143}{paragraph.16.4.3.2}%
+\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{143}{paragraph.16.4.3.3}%
+\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{144}{section.17}%
+\contentsline {section}{\numberline {18}Tabellenverzeichnis}{145}{section.18}%
+\contentsline {section}{\numberline {19}Literaturverzeichnis}{146}{section.19}%
