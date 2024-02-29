@@ -2680,7 +2680,7 @@ gefertigten Platine und muss noch bestückt werden. \\
 \newpage
 \subsection{Roboterhand}
 
-\subsubsection{Grundlegende Vorraussetzungen}
+\subsubsection{Grundlegende Voraussetzungen}
 Die Roboterhand ist die Ausgabe des Gesamtsystems und wird vom Eingabesubsystem gesteuert. Jeder Finger wird von einem Motor 
 bewegt. Die ankommenden Daten müssen interpretiert und anschließend in ein geeignetes Format zur Ansteuerung der Motoren
 umgewandelt werden. Zusätzlich zu dieser grundlegenden Funktionalität der Ansteuerung, müssen auch noch einige weitere Aspekte
@@ -4641,10 +4641,293 @@ erstellt werden. \\
 \includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf}
 \includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf}
 
-\subsubsection{Platinen}
-
+\subsubsection{Platinenlayouts}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Handschuh_v1}}
+		\caption{PCB Layout Eingabesubsystem Version 1}
+		\label{fig:PCBlayout_Handschuh_v1}		
+	\end{center}
+\end{figure}
+\pagebreak
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Handschuh_v2}}
+		\caption{PCB Layout Eingabesubsystem Version 2}
+		\label{fig:PCBlayout_Handschuh_v2}		
+	\end{center}
+\end{figure}
+\pagebreak
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Handschuh_v3}}
+		\caption{PCB Layout Eingabesubsystem Version 3}
+		\label{fig:PCBlayout_Handschuh_v3}		
+	\end{center}
+\end{figure}
+\pagebreak
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Roboterhand_v1}}
+		\caption{PCB Layout Ausgabesubsystem Version 1}
+		\label{fig:PCBlayout_Roboterhand_v1}		
+	\end{center}
+\end{figure}
+\pagebreak
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Roboterhand_v2}}
+		\caption{PCB Layout Ausgabesubsystem Version 2}
+		\label{fig:PCBlayout_Roboterhand_v2}		
+	\end{center}
+\end{figure}
+\pagebreak
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{PCBlayout_Roboterhand_v3}}
+		\caption{PCB Layout Ausgabesubsystem Version 3}
+		\label{fig:PCBlayout_Roboterhand_v3}		
+	\end{center}
+\end{figure}
 
 \subsubsection{Bestückungslisten}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+        \hline
+		C2, C6 & 10u & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 2 \\
+		\hline
+		C1 & 100n & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		C7 & 68n & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R6, R9, R12, R13, R14 & 10k & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 5 \\
+		\hline
+		R1, R3, R4 & 4k7 & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 3 \\
+		\hline
+		R5 & 120R & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R7 & 2k32 & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R8 & 1k & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R10 & 1k1 & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R11 & 240R & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		U1 & ESP32-WROOM-32 & \fcolorbox{white}{white}{\parbox{5cm}{ESP32-WROOM-32}} & 1 \\
+		\hline
+		U2 & INA129 & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-8N}} & 1 \\
+		\hline
+		U3 & CH340C & \fcolorbox{white}{white}{\parbox{5cm}{SOIC-16\_3.9x9.9mm \_P1.27mm}} & 1 \\
+		\hline
+		U5 & AMS1117-3.3 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-223-3\_TabPin2}} & 1 \\
+		\hline
+		U6 & MAX11613 & \fcolorbox{white}{white}{\parbox{5cm}{MSOP-8\_3x3mm\_P0.65mm}} & 1 \\
+		\hline
+		SW1, SW2 & SW\_Push\_Dual & \fcolorbox{white}{white}{\parbox{5cm}{SW\_SPST\_TL3305A}} & 2 \\
+		\hline
+		JP2, JP3, JP4, JP5 & Jumper\_2\_Open & \fcolorbox{white}{white}{\parbox{5cm}{SolderJumper-2\_P1.3mm \_Bridged2Bar\_Pad1.0x1.5mm}} & 4 \\
+		\hline
+		Q1, Q2 & BC846 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-23}} & 2 \\
+		\hline
+		IC1 & MUX508IDR & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-16N}} & 1 \\
+		\hline
+		J2, J3, J4, J5, J6 & Conn\_01x02\_Socket & \fcolorbox{white}{white}{\parbox{5cm}{PinSocket\_1x02\_P2.54mm \_Vertical}} & 5 \\
+		\hline
+	\end{tabular}
+	\caption{Betstückungsliste Platine Eingabesubsystem Version 1}
+    \label{tab:Bestückungsliste1}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+		\hline
+		J7 & Conn\_01x02\_Socket & \fcolorbox{white}{white}{\parbox{5cm}{TerminalBlock\_Phoenix \_MKDS-1,5-2-5.08\_1x02 \_P5.08mm\_Horizontal}} & 1 \\
+		\hline
+		J8 & USB\_B\_Micro & \fcolorbox{white}{white}{\parbox{5cm}{USB\_Micro-B\_Amphenol \_10103594-0001LF\_Horizontal}} & 1 \\
+		\hline
+	\end{tabular}
+	\caption{Betstückungsliste Platine Eingabesubsystem Version 1}
+    \label{tab:Bestückungsliste1}
+\end{table}
+\pagebreak
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+        \hline
+		\fcolorbox{white}{white}{\parbox{5cm}{C1, C4, C5, C6, C8, C11, C12, C13, C15, C16}} & 0.1u & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 10 \\
+		\hline
+		C9, C10 & 22u & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 2 \\
+		\hline
+		C2 & 10u & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		C3 & 2.2n & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		C7 & 68n & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R6, R13, R14, R15 & 10k & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 4 \\
+		\hline
+		R2, R16 & 5k1 & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 2 \\
+		\hline
+		R3, R4 & 4k7 & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 2 \\
+		\hline
+		R17, R19 & 22R & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 2 \\
+		\hline
+		R18, R20 & 330R & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 2 \\
+		\hline
+		R5 & 120R & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R7 & 2k32 & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R8 & 1k & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R9 & 220R & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R10 & 1k1 & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		R11 & 240R & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 30x1.75mm\_HandSolder}} & 1 \\
+		\hline
+		R12 & 100R & \fcolorbox{white}{white}{\parbox{5cm}{R\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 1 \\
+		\hline
+		D2 & D\_POWER & \fcolorbox{white}{white}{\parbox{5cm}{D\_0805\_2012Metric\_Pad1. 15x1.40mm\_HandSolder}} & 1 \\
+		\hline
+	\end{tabular}
+	\caption{Betstückungsliste Platine Eingabesubsystem Version 2}
+    \label{tab:Bestückungsliste2}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+        \hline
+		D3 & D\_prog1 & \fcolorbox{white}{white}{\parbox{5cm}{D\_0805\_2012Metric\_Pad1. 15x1.40mm\_HandSolder}} & 1 \\
+		\hline
+		U2 & INA129 & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-8N}} & 1 \\
+		\hline
+		U3 & CH340C & \fcolorbox{white}{white}{\parbox{5cm}{SOIC-16\_3.9x9.9mm \_P1.27mm}} & 1 \\
+		\hline
+		U4 & MPU-6000 & \fcolorbox{white}{white}{\parbox{5cm}{QFN50P400X400X95-25N}} & 1 \\
+		\hline
+		U8 & AMS1117-3.3 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-223-3\_TabPin2}} & 1 \\
+		\hline
+		Q1, Q2 & BC846 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-23}} & 2 \\
+		\hline
+		S1, S2 & FSM2JSMAATR & \fcolorbox{white}{white}{\parbox{5cm}{FSM2J\_1}} & 2 \\
+		\hline
+		IC1 & MUX508IDR & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-16N}} & 1 \\
+		\hline
+		IC2 & ESP32-WROOM-32E-N16 & \fcolorbox{white}{white}{\parbox{5cm}{ESP32WROOM32EN16}} & 1 \\
+		\hline
+		IC4 & MCP3021A5T-E\_OT & \fcolorbox{white}{white}{\parbox{5cm}{SOT95P280X145-5N}} & 1 \\
+		\hline
+		JP2 & SolderJumper\_2\_Open & \fcolorbox{white}{white}{\parbox{5cm}{SolderJumper-2\_P1.3mm \_Open\_Pad1.0x1.5mm}} & 1 \\
+		\hline
+		J1, J2 & Conn\_01x05\_Socket & \fcolorbox{white}{white}{\parbox{5cm}{PinSocket\_1x05\_P2.54mm \_Vertical}} & 2 \\
+		\hline
+		J3 & USB\_C\_Receptacle\_USB2.0 & \fcolorbox{white}{white}{\parbox{5cm}{USB4110GFA}} & 1 \\
+		\hline
+	\end{tabular}
+	\caption{Betstückungsliste Platine Eingabesubsystem Version 2}
+    \label{tab:Bestückungsliste3}
+\end{table}
+\pagebreak
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+        \hline
+		C1, C8, C11, C12 & 10u & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 4 \\
+		\hline
+		C3, C4, C5, C7 & 0.1u & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 4 \\
+		\hline
+		C2 & 68n & \fcolorbox{white}{white}{\parbox{5cm}{C\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		\fcolorbox{white}{white}{\parbox{4cm}{R1, R2, R8, R15, R17, R18, R19. R20, R21, R22, R27, R28, R40, R47}} & 10k & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 14 \\
+		\hline
+		R29, R41, R42 & 4k7 & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 3 \\
+		\hline
+		R4, R7 & 330m & \fcolorbox{white}{white}{\parbox{5cm}{R\_2512\_6332Metric\_Pad1. 40x3.35mm\_HandSolder}} & 2 \\
+		\hline
+		R3 & 220R & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R9 & 100k & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R10 & 6k2 & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		R13 & 120R & \fcolorbox{white}{white}{\parbox{5cm}{R\_1206\_3216Metric\_Pad1. 33x1.80mm\_HandSolder}} & 1 \\
+		\hline
+		U1 & PCA9685PW & \fcolorbox{white}{white}{\parbox{5cm}{TSSOP-28\_4.4x9.7mm \_P0.65mm}} & 1 \\
+		\hline
+		U6 & ESP32-WROOM-32 & \fcolorbox{white}{white}{\parbox{5cm}{ESP32-WROOM-32}} & 1 \\
+		\hline
+		U7 & CH340C & \fcolorbox{white}{white}{\parbox{5cm}{SOIC-16\_3.9x9.9mm \_P1.27mm}} & 1 \\
+		\hline
+		U10 & AMS1117-3.3 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-223-3\_TabPin2}} & 1 \\
+		\hline
+		SW1, SW2 & SW\_Push\_Dual & \fcolorbox{white}{white}{\parbox{5cm}{SW\_SPST\_TL3305A}} & 2 \\
+		\hline
+		\fcolorbox{white}{white}{\parbox{4cm}{JP1, JP2, JP3, JP4, JP5, JP6, JP7, JP8, JP9, JP10}} & Jumper\_2\_Open & \fcolorbox{white}{white}{\parbox{5cm}{SolderJumper-2\_P1.3mm \_Bridged2Bar\_Pad1.0x1.5mm}} & 10 \\
+		\hline
+		Q1, Q2 & BC846 & \fcolorbox{white}{white}{\parbox{5cm}{SOT-23}} & 2 \\
+		\hline
+		IC1 & MUX508IDR & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-16N}} & 1 \\
+		\hline
+		IC2 & MCP3021A5T-E\_OT & \fcolorbox{white}{white}{\parbox{5cm}{SOT95P280X145-5N}} & 1 \\
+		\hline
+		IC3 & TLV2322ID & \fcolorbox{white}{white}{\parbox{5cm}{SOIC127P600X175-8N}} & 1 \\
+		\hline
+	\end{tabular}
+	\caption{Betstückungsliste Platine Ausgabesubsystem Version 1}
+    \label{tab:Bestückungsliste4}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+		\hline
+		\fcolorbox{white}{white}{\parbox{5cm}{C1, C4, C5, C6, C8, C11, C12, C13, C15, C16}} & 0.1u & \fcolorbox{white}{white}{\parbox{5cm}{C\_0603\_1608Metric\_Pad1. 08x0.95mm\_HandSolder}} & 10 \\
+		\hline
+	\end{tabular}
+\caption{Betstückungsliste Platine Ausgabesubsystem Version 1}
+\label{tab:Bestückungsliste5}
+\end{table}
+\pagebreak
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{References} & \textbf{Value} & \textbf{Footprint} & \textbf{Quantity} \\
+        \hline
+		J1 & Conn\_01x03\_Pin & \fcolorbox{white}{white}{\parbox{5cm}{PinHeader\_1x03\_P2.54mm \_Vertical}} & 2 \\
+		\hline
+		J5 & USB\_B\_Micro & \fcolorbox{white}{white}{\parbox{5cm}{USB\_Micro-B\_Amphenol \_10103594-0001LF\_Horizontal}} & 1 \\
+		\hline
+	\end{tabular}
+\caption{Betstückungsliste Platine Ausgabesubsystem Version 2}
+\label{tab:Bestückungsliste6}
+\end{table}
 
 \newpage
 \subsection{Software}
