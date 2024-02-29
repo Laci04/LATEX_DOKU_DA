@@ -33,6 +33,7 @@
 \usepackage{listings} %Für Codezeilen
 \usepackage{titlesec} %Für Buchstaben als Überschriftsnummerierung
 \usepackage{enumitem}
+\usepackage{pdfpages} %Für A3-Seiten
 \usepackage{siunitx}
 \lstset{language=C++}
 \setlength{\fboxsep}{5pt} % Ändere die Rahmenbreite nach Bedarf
@@ -4043,6 +4044,8 @@ Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. E
 \\
 {\large \textbf{CAD-Software}} Computer Aided Design Software \\
 \\
+{\large \textbf{FDM}} Fused Deposition Modelling \\
+\\
 {\large \textbf{GUI}} Graphical User Interface \\
 \\
 {\large \textbf{GND}} Ground \\
@@ -4058,6 +4061,10 @@ Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. E
 {\large \textbf{OPV}} Operationsverstärker \\
 \\
 {\large \textbf{PCB}} Printed Circuit Board \\
+\\
+{\large \textbf{PLA}} Polyactid \\
+\\
+{\large \textbf{SLS}} Selective Laser Sintering \\
 \\
 {\large \textbf{SMD}} Surface Mount Device \\
 \\
@@ -4548,6 +4555,11 @@ Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. E
 \label{chap:Fusion 360}
 Fusion 360 ist eine CAD-Software, die es ermöglicht 3D-Modelle zu erstellen, diese zu bearbeiten und anschließend zu exportieren. \\
 \\
+\subsection{UltiMaker Cura}
+\label{chap:UltiMaker Cura}
+Ultimaker Cura ist eine Software, die es ermöglicht 3D-Modelle für den 3D-Druck vorzubereiten und Problemstellen auszubessern. Die 
+Software bietet einige Einstellmöglichkeiten, wie beispielsweise für das Slicen von Objekten. \\
+\\
 \subsection{KiCad}
 \label{chap:KiCad}
 KiCad ist ein Tool zum Erstellen von Schaltplänen und Platinenlayouts. Es können Footprints zugewiesen, Schaltungsfunktionen überprüft und anschließend Bauteile auf einem Platinenmodell angeordnet werden. \\
@@ -4567,35 +4579,6 @@ erstellt werden. \\
 %==FERTIGUNGSUNTERLAGEN====================================================
 \section{Fertigungsunterlagen}
 \label{chap:Fertigungsunterlagen}
-\subsection{Gesamtprojekt}
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.4}
-		{\includegraphics[width=0.8 \linewidth, angle=-90]{erste_Überlegungen}}
-		\caption{erste Überlegungen}
-		\label{fig:erste_Überlegungen}		
-	\end{center}
-\end{figure}
-\hfill \break
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.4}
-		{\includegraphics[width=0.8 \linewidth, angle=-90]{Übersicht_Handschuh}}
-		\caption{Übersicht Sensorhandschuh}
-		\label{fig:Übersicht_Handschuh}		
-	\end{center}
-\end{figure}
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.5}
-		{\includegraphics[width=0.8 \linewidth, angle=-90]{erstes_Blockschaltbild}}
-		\caption{erstes Blockschaltbild}
-		\label{fig:erstes_Blockschaltbild}		
-	\end{center}
-\end{figure}
-\hfill \break
-
-\newpage
 \subsection{Mechanik}
 \label{chap:Fertigungsunterlagen_Mechanik}
 \subsubsection{Skizzen ud Konzepte}
@@ -4608,32 +4591,30 @@ erstellt werden. \\
 \subsection{Hardware}
 \label{chap:Fertigungsunterlagen_Hardware}
 \subsubsection{Skizzen und Konzepte}
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.5}
-		{\includegraphics[width=0.8 \linewidth, angle=-90]{erster_Steckbrettaufbau_Roboterhand}}
-		\caption{erste Schaltungsidee zur Servoansteuerung}
-		\label{fig:erster_Steckbrettaufbau_Roboterhand}		
-	\end{center}
-\end{figure}
-\hfill \break
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{1.3}
-		{\includegraphics[width=0.8 \linewidth, angle=-90]{erstes_Handschuh_Schaltbild_mit_Bluetooth}}
-		\caption{erste Schaltungsidee zur Flexsensormessung}
-		\label{fig:erstes_Handschuh_Schaltbild_mit_Bluetooth}		
-	\end{center}
-\end{figure}
-\hfill \break
 
+\newpage
 \subsubsection{Stromlaufpläne}
 
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf}
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf}
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf}
+
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf}
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf}
+\includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf}
+
 \subsubsection{Platinen}
+
 
 \subsubsection{Bestückungslisten}
 
 \newpage
+\subsection{Software}
+\label{chap:Fertigungsunterlagen_Software}
+\subsubsection{Skizzen und Konzepte}
+
+
+\subsubsection{Diagramme}
 \subsection{Software}
 \label{chap:Fertigungsunterlagen_Software}
 \subsubsection{Skizzen und Konzepte}
@@ -4664,8 +4645,6 @@ erstellt werden. \\
 	\end{center}
 \end{figure}
 \hfill \break
-
-\subsubsection{Diagramme}
 
 \subsubsection{Code}
 \label{chap:Fertigungsunterlagen_Software_Code}

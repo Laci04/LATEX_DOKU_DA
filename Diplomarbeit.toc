@@ -167,27 +167,29 @@
 \contentsline {subsection}{\numberline {14.4}Arbeitstunden}{149}{subsection.14.4}%
 \contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{159}{section.15}%
 \contentsline {subsection}{\numberline {15.1}Fusion 360}{159}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}KiCad}{159}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Arduino IDE}{159}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}QT Framework}{159}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.2}UltiMaker Cura}{159}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}KiCad}{159}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Arduino IDE}{159}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}QT Framework}{159}{subsection.15.5}%
 \contentsline {section}{\numberline {16}Fertigungsunterlagen}{160}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Gesamtprojekt}{160}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Mechanik}{163}{subsection.16.2}%
-\contentsline {subsubsection}{\numberline {16.2.1}Skizzen ud Konzepte}{163}{subsubsection.16.2.1}%
-\contentsline {subsubsection}{\numberline {16.2.2}CAD-Zeichnungen}{163}{subsubsection.16.2.2}%
-\contentsline {subsubsection}{\numberline {16.2.3}3D-Modelle}{163}{subsubsection.16.2.3}%
-\contentsline {subsection}{\numberline {16.3}Hardware}{165}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{165}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Stromlaufpläne}{167}{subsubsection.16.3.2}%
-\contentsline {subsubsection}{\numberline {16.3.3}Platinen}{167}{subsubsection.16.3.3}%
-\contentsline {subsubsection}{\numberline {16.3.4}Bestückungslisten}{167}{subsubsection.16.3.4}%
-\contentsline {subsection}{\numberline {16.4}Software}{168}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{168}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Diagramme}{171}{subsubsection.16.4.2}%
-\contentsline {subsubsection}{\numberline {16.4.3}Code}{171}{subsubsection.16.4.3}%
-\contentsline {paragraph}{\numberline {16.4.3.1}Eingabesubsystem}{171}{paragraph.16.4.3.1}%
-\contentsline {paragraph}{\numberline {16.4.3.2}Ausgabesubsystem}{171}{paragraph.16.4.3.2}%
-\contentsline {paragraph}{\numberline {16.4.3.3}User-Interface}{171}{paragraph.16.4.3.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{172}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{173}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{174}{section.19}%
+\contentsline {subsection}{\numberline {16.1}Mechanik}{160}{subsection.16.1}%
+\contentsline {subsubsection}{\numberline {16.1.1}Skizzen ud Konzepte}{160}{subsubsection.16.1.1}%
+\contentsline {subsubsection}{\numberline {16.1.2}CAD-Zeichnungen}{160}{subsubsection.16.1.2}%
+\contentsline {subsubsection}{\numberline {16.1.3}3D-Modelle}{160}{subsubsection.16.1.3}%
+\contentsline {subsection}{\numberline {16.2}Hardware}{161}{subsection.16.2}%
+\contentsline {subsubsection}{\numberline {16.2.1}Skizzen und Konzepte}{161}{subsubsection.16.2.1}%
+\contentsline {subsubsection}{\numberline {16.2.2}Stromlaufpläne}{162}{subsubsection.16.2.2}%
+\contentsline {subsubsection}{\numberline {16.2.3}Platinen}{169}{subsubsection.16.2.3}%
+\contentsline {subsubsection}{\numberline {16.2.4}Bestückungslisten}{169}{subsubsection.16.2.4}%
+\contentsline {subsection}{\numberline {16.3}Software}{170}{subsection.16.3}%
+\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{170}{subsubsection.16.3.1}%
+\contentsline {subsubsection}{\numberline {16.3.2}Diagramme}{170}{subsubsection.16.3.2}%
+\contentsline {subsection}{\numberline {16.4}Software}{170}{subsection.16.4}%
+\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{170}{subsubsection.16.4.1}%
+\contentsline {subsubsection}{\numberline {16.4.2}Code}{173}{subsubsection.16.4.2}%
+\contentsline {paragraph}{\numberline {16.4.2.1}Eingabesubsystem}{173}{paragraph.16.4.2.1}%
+\contentsline {paragraph}{\numberline {16.4.2.2}Ausgabesubsystem}{173}{paragraph.16.4.2.2}%
+\contentsline {paragraph}{\numberline {16.4.2.3}User-Interface}{173}{paragraph.16.4.2.3}%
+\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{174}{section.17}%
+\contentsline {section}{\numberline {18}Tabellenverzeichnis}{175}{section.18}%
+\contentsline {section}{\numberline {19}Literaturverzeichnis}{176}{section.19}%
