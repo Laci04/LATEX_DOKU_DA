@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 FEB 2024 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  29 FEB 2024 14:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1473,7 +1473,7 @@ l.132 ... {red}{Fabian}}{123}{subsubsection.8.1.2}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.172 ... {15.4}Arduino IDE}{161}{subsection.15.4}
+l.172 ... {15.4}Arduino IDE}{163}{subsection.15.4}
                                                   % [15])
 \tf@toc=\write5
 \openout5 = `Diplomarbeit.toc'.
@@ -6110,1579 +6110,1739 @@ Underfull \hbox (badness 10000) in paragraph at lines 3989--4017
  []
 
 [145]
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Overfull \hbox (7.94162pt too wide) in paragraph at lines 4021--4060
+Overfull \hbox (7.94162pt too wide) in paragraph at lines 4021--4085
 \OT1/cmr/m/n/12 Mit der []Uberlegung, wel-che Da-ten[]ubertragung gew[]ahlt wer-den soll, wur-de eben-falls Zeit ver-bracht.
  []
 
 
-Overfull \hbox (22.56888pt too wide) in paragraph at lines 4021--4060
+Overfull \hbox (22.56888pt too wide) in paragraph at lines 4021--4085
 \OT1/cmr/m/n/12 Die zu Be-ginn an-ge-streb-te []Ubertragung per Blue-tooth wur-de schlus-send-lich ver-wor-fen. Schlus-send-lich
  []
 
 
-Overfull \hbox (2.80669pt too wide) in paragraph at lines 4021--4060
+Overfull \hbox (2.80669pt too wide) in paragraph at lines 4021--4085
 \OT1/cmr/m/n/12 wird die-se nun per ESP-NOW Pro-to-koll ([]ahnlich zu Wi-fi) durch-gef[]uhrt. Ei-ni-ge Wo-chen ver-gin-gen,
  []
 
 
-Overfull \hbox (10.75818pt too wide) in paragraph at lines 4021--4060
+Overfull \hbox (10.75818pt too wide) in paragraph at lines 4021--4085
 \OT1/cmr/m/n/12 her-zu-stel-len, wur-de die-ser Schritt, nicht Blue-tooth zu ver-wen-den, als der ab-so-lut rich-ti-ge an-ge-se-hen. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Overfull \hbox (10.6112pt too wide) in paragraph at lines 4021--4060
+Overfull \hbox (10.6112pt too wide) in paragraph at lines 4021--4085
 \OT1/cmr/m/n/12 Nachdem das Aus-le-sen der Da-ten der Flex-sen-so-ren vom Ein-ga-be-sub-sys-tem er-folg-reich durch-gef[]uhrt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
+Overfull \hbox (15.5495pt too wide) in paragraph at lines 4021--4085
+\OT1/cmr/m/n/12 Be-we-gung der Ro-bo-ter-hand vom Aus-ga-be-sub-sys-tem si-cher-ge-stellt wer-den. Sch[]aden an der Me-cha-nik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4021--4060
-
- []
-
-[146] [147]
-Underfull \hbox (badness 10000) in paragraph at lines 4071--4073
-
+Overfull \hbox (3.1414pt too wide) in paragraph at lines 4021--4085
+\OT1/cmr/m/n/12 Die Ar-dui-no IDE hat sich durch-wegs als pas-sen-de Ent-wick-lungs-um-ge-bung bew[]ahrt. Sie erm[]oglicht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4071--4073
-
- []
-
-[148]
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (20.14944pt too wide) in paragraph at lines 4021--4085
+\OT1/cmr/m/n/12 von de-ren Ur-sa-che. Oft wird die Kom-ple-xit[]at bei der Um-set-zung be-stimm-ter Funk-tio-nen un-tersch[]atzt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4021--4085
+
+ []
+
+[146]
+Overfull \hbox (45.10938pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 In die-sem Ab-schnitt re-flek-tie-ren wir die Viel-falt an Er-kennt-nis-sen, die wir w[]ahrend der Pro-jekt-ent-wick-lung
+ []
+
+
+Overfull \hbox (51.12968pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 ge-sam-melt ha-ben. Da-bei neh-men wir so-wohl die po-si-ti-ven Er-run-gen-schaf-ten als auch die Her-aus-for-de-run-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (2.71352pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 har-mo-nisch zu-sam-men-ar-bei-ten und ein funk-tio-nie-ren-des Ge-samt-sys-tem bil-den soll-ten. In un-se-rem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (9.5495pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 konn-ten wir uns den De-tails zu-wen-den. Es stand schnell fest, dass wir die Po-si-ti-on der Fin-ger-ge-len-ke
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (34.67336pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 gibt schlicht-weg kei-ne ein-fa-che-re Me-tho-de, um in k[]urzester Zeit ma-nu-ell mit ei-ner Mo-del-lie-rungs-soft-wa-re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (9.47772pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 Die Ent-wick-lung der Hard-wa-re konn-te be-gin-nen, so-bald wir fest-ge-legt hat-ten, wel-che elek-tro-ni-schen
+ []
+
+
+Overfull \hbox (89.34035pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 Bau-tei-le zum Ein-satz kom-men soll-ten. Je-de ein-zel-ne Ver-bin-dung, die wir in der Elektronik-Design-Automatisierung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (3.4774pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 wei-ter. Das Aus-ga-be-sys-tem in-ter-pre-tiert die emp-fan-ge-nen Da-ten und ver-ar-bei-tet sie ent-spre-chend.
+ []
+
+
+Overfull \hbox (1.32326pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 Letzt-end-lich wer-den die Ser-vo-mo-to-ren mit die-sen Da-ten an-ge-steu-ert. Im Co-de sind Schutz-gren-zen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Overfull \hbox (46.25511pt too wide) in paragraph at lines 4089--4173
+\OT1/cmr/m/n/12 Die Hard-wa-re, ein-schlie^^Y-lich der Mess-schal-tun-gen, funk-tio-niert ein-wand-frei und erf[]ullt al-le An-for-de-run-gen.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4081--4117
+Underfull \hbox (badness 10000) in paragraph at lines 4089--4173
 
  []
 
-[149]
-Overfull \hbox (16.93729pt too wide) in paragraph at lines 4126--4149
- [][] 
+[147] [148] [149]
+Underfull \hbox (badness 10000) in paragraph at lines 4180--4182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4180--4182
+
  []
 
 [150]
-Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
-[]\OT1/cmr/m/n/12 Datenbanktexte
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
-\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4164--4164
-[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4166--4166
-[]\OT1/cmr/m/n/12 Datenbanktexte
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4166--4166
-\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4166--4166
-[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4168--4168
-[]\OT1/cmr/m/n/12 Datenbanktexte
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4168--4168
-\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4168--4168
-[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4170--4170
-[]\OT1/cmr/m/n/12 Kostenkalkulationen
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4172--4172
-[]\OT1/cmr/m/n/12 Testaufbau der
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4172--4172
-\OT1/cmr/m/n/12 Ro-bo-ter-hand mit
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4172--4172
-\OT1/cmr/m/n/12 Ser-vo-mo-to-ren, Netz-teil
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 4174--4174
-[]\OT1/cmr/m/n/12 Platinen fer-tig be-ar-bei-tet
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 4174--4174
-\OT1/cmr/m/n/12 In-spek-ti-on und m[]oglichen
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4176--4176
-[]\OT1/cmr/m/n/12 Kostenkalkulationen
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4178--4178
-[]\OT1/cmr/m/n/12 Testaufbau der
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4178--4178
-\OT1/cmr/m/n/12 Ro-bo-ter-hand
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4180--4180
-[]\OT1/cmr/m/n/12 Hardwaredesign der
- []
+Underfull \hbox (badness 10000) in paragraph at lines 4190--4226
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 4182--4182
-[]\OT1/cmr/m/n/12 Mindmap f[]ur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4182--4182
-\OT1/cmr/m/n/12 Pro-gram-mie-rung er-stellt,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4184--4184
-[]\OT1/cmr/m/n/12 Testaufbau Ro-bo-ter-hand,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4184--4184
-\OT1/cmr/m/n/12 Kon-zept f[]ur die
- []
-
-
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4160--4188
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4196--4196
-[]\OT1/cmr/m/n/12 Hardwareentwicklung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4196--4196
-\OT1/cmr/m/n/12 Span-nungs -und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4196--4196
-\OT1/cmr/m/n/12 Strom-mes-sung, Ki-cad
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4198--4198
-[]\OT1/cmr/m/n/12 Softwareentwicklung,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4198--4198
-[]\OT1/cmr/m/n/12 Ubertragungsraten der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4200--4200
-[][]\OT1/cmr/m/n/12 Uberarbeitung der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4202--4202
-[]\OT1/cmr/m/n/12 Hardwareentwicklung,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4208--4208
-[]\OT1/cmr/m/n/12 bei bei-den Mes-sun-gen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4210--4210
-[]\OT1/cmr/m/n/12 Ausmessung der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4210--4210
-\OT1/cmr/m/n/12 Flex-sen-so-ren und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4210--4210
-\OT1/cmr/m/n/12 Do-ku-men-tie-ren der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4212--4212
-[]\OT1/cmr/m/n/12 Kalibirierung der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4214--4214
-[]\OT1/cmr/m/n/12 Versuchsaufbau
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4214--4214
-\OT1/cmr/m/n/12 Span-nungs-mes-sung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4214--4214
-\OT1/cmr/m/n/12 mit INA129 und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4218--4218
-[]\OT1/cmr/m/n/12 Verbesserung der
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 4220--4220
-[]\OT1/cmr/m/n/12 Hardwareentwicklung und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4220--4220
-\OT1/cmr/m/n/12 PCB-Design, Bau-teil-lis-te
- []
-
-
-Underfull \hbox (badness 5622) in paragraph at lines 4222--4222
-\OT1/cmr/m/n/12 der Flex-sen-so-ren ge-plant
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4222--4222
-\OT1/cmr/m/n/12 und Strom-mes-sung
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4224--4224
-[]\OT1/cmr/m/n/12 Strommessschaltung
- []
-
-
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4192--4228
- [][] 
  []
 
 [151]
-Underfull \hbox (badness 10000) in paragraph at lines 4236--4236
-[]\OT1/cmr/m/n/12 Auswertung der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4236--4236
-\OT1/cmr/m/n/12 Strom-mes-sung am
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4238--4238
-[]\OT1/cmr/m/n/12 Servomessung und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4240--4240
-[]\OT1/cmr/m/n/12 Servomessung und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4242--4242
-[]\OT1/cmr/m/n/12 Richtlinien her-aus-su-chen
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4244--4244
-[]\OT1/cmr/m/n/12 Dokumentation der
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4244--4244
-\OT1/cmr/m/n/12 Richt-li-ni-en und das
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4244--4244
-\OT1/cmr/m/n/12 Pro-jekt-hand-buch
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4246--4246
-[]\OT1/cmr/m/n/12 Programmierung des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4248--4248
-\OT1/cmr/m/n/12 me-cha-ni-schen Werk-statt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4248--4248
-\OT1/cmr/m/n/12 we-gen dem Fr[]asen von
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4252--4252
-[]\OT1/cmr/m/n/12 Roboterhand
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 4254--4254
-[]\OT1/cmr/m/n/12 Dokumentation und Hil-fe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4258--4258
-[]\OT1/cmr/m/n/12 Roboterhand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4260--4260
-[]\OT1/cmr/m/n/12 Dokumentation und
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4262--4262
-[]\OT1/cmr/m/n/12 Am Pro-gramm zum
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4266--4266
-[]\OT1/cmr/m/n/12 Dokumentation und
- []
-
-
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4232--4270
+Overfull \hbox (16.93729pt too wide) in paragraph at lines 4235--4258
  [][] 
  []
 
 [152]
-Underfull \hbox (badness 10000) in paragraph at lines 4280--4280
-[]\OT1/cmr/m/n/12 Mechanik und ers-te
+Underfull \hbox (badness 10000) in paragraph at lines 4273--4273
+[]\OT1/cmr/m/n/12 Datenbanktexte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4280--4280
-[]\OT1/cmr/m/n/12 Uberlegungen f[]ur die
+Underfull \hbox (badness 10000) in paragraph at lines 4273--4273
+\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4284--4284
-[]\OT1/cmr/m/n/12 Flussdiagramm f[]ur die
+Underfull \hbox (badness 10000) in paragraph at lines 4273--4273
+[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4284--4284
-\OT1/cmr/m/n/12 Soft-wa-re-ent-wick-lung
+Underfull \hbox (badness 10000) in paragraph at lines 4275--4275
+[]\OT1/cmr/m/n/12 Datenbanktexte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4286--4286
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4275--4275
+\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4296--4296
-\OT1/cmr/m/n/12 und Be-spre-chung des
+Underfull \hbox (badness 10000) in paragraph at lines 4275--4275
+[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4296--4296
-\OT1/cmr/m/n/12 ge-ne-rel-len Auf-baus der
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
+[]\OT1/cmr/m/n/12 Datenbanktexte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4296--4296
-\OT1/cmr/m/n/12 Pro-gram-me mit Prof.
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
+\OT1/cmr/m/n/12 fer-tig-stel-len, me-cha-ni-sche
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 4300--4300
-[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4277
+[]\OT1/cmr/m/n/12 Uberlegungen f[]ur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4300--4300
-\OT1/cmr/m/n/12 aus-bes-sern von di-ver-sen
+Underfull \hbox (badness 10000) in paragraph at lines 4279--4279
+[]\OT1/cmr/m/n/12 Kostenkalkulationen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4302--4302
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4281--4281
+[]\OT1/cmr/m/n/12 Testaufbau der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4304--4304
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4281--4281
+\OT1/cmr/m/n/12 Ro-bo-ter-hand mit
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 4306--4306
-[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
+Underfull \hbox (badness 10000) in paragraph at lines 4281--4281
+\OT1/cmr/m/n/12 Ser-vo-mo-to-ren, Netz-teil
  []
 
 
-Underfull \hbox (badness 6859) in paragraph at lines 4312--4312
-\OT1/cmr/m/n/12 und die-se bei JLCP-CB
+Underfull \hbox (badness 2781) in paragraph at lines 4283--4283
+[]\OT1/cmr/m/n/12 Platinen fer-tig be-ar-bei-tet
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4274--4316
+Underfull \hbox (badness 1509) in paragraph at lines 4283--4283
+\OT1/cmr/m/n/12 In-spek-ti-on und m[]oglichen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4285--4285
+[]\OT1/cmr/m/n/12 Kostenkalkulationen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4287--4287
+[]\OT1/cmr/m/n/12 Testaufbau der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4287--4287
+\OT1/cmr/m/n/12 Ro-bo-ter-hand
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4289--4289
+[]\OT1/cmr/m/n/12 Hardwaredesign der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4291--4291
+[]\OT1/cmr/m/n/12 Mindmap f[]ur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4291--4291
+\OT1/cmr/m/n/12 Pro-gram-mie-rung er-stellt,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4293--4293
+[]\OT1/cmr/m/n/12 Testaufbau Ro-bo-ter-hand,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4293--4293
+\OT1/cmr/m/n/12 Kon-zept f[]ur die
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4269--4297
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4305--4305
+[]\OT1/cmr/m/n/12 Hardwareentwicklung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4305--4305
+\OT1/cmr/m/n/12 Span-nungs -und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4305--4305
+\OT1/cmr/m/n/12 Strom-mes-sung, Ki-cad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4307--4307
+[]\OT1/cmr/m/n/12 Softwareentwicklung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4307--4307
+[]\OT1/cmr/m/n/12 Ubertragungsraten der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4309--4309
+[][]\OT1/cmr/m/n/12 Uberarbeitung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4311--4311
+[]\OT1/cmr/m/n/12 Hardwareentwicklung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4317--4317
+[]\OT1/cmr/m/n/12 bei bei-den Mes-sun-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4319--4319
+[]\OT1/cmr/m/n/12 Ausmessung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4319--4319
+\OT1/cmr/m/n/12 Flex-sen-so-ren und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4319--4319
+\OT1/cmr/m/n/12 Do-ku-men-tie-ren der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4321--4321
+[]\OT1/cmr/m/n/12 Kalibirierung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4323--4323
+[]\OT1/cmr/m/n/12 Versuchsaufbau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4323--4323
+\OT1/cmr/m/n/12 Span-nungs-mes-sung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4323--4323
+\OT1/cmr/m/n/12 mit INA129 und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4327--4327
+[]\OT1/cmr/m/n/12 Verbesserung der
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 4329--4329
+[]\OT1/cmr/m/n/12 Hardwareentwicklung und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4329--4329
+\OT1/cmr/m/n/12 PCB-Design, Bau-teil-lis-te
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 4331--4331
+\OT1/cmr/m/n/12 der Flex-sen-so-ren ge-plant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4331--4331
+\OT1/cmr/m/n/12 und Strom-mes-sung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4333--4333
+[]\OT1/cmr/m/n/12 Strommessschaltung
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4301--4337
  [][] 
  []
 
 [153]
-Underfull \hbox (badness 10000) in paragraph at lines 4328--4328
-[]\OT1/cmr/m/n/12 Dokument
+Underfull \hbox (badness 10000) in paragraph at lines 4345--4345
+[]\OT1/cmr/m/n/12 Auswertung der
  []
 
 
-Overfull \hbox (24.71088pt too wide) in paragraph at lines 4328--4328
-\OT1/cmr/m/n/12 "Hard-wa-re-be-schrei-bung"verfasst 
+Underfull \hbox (badness 10000) in paragraph at lines 4345--4345
+\OT1/cmr/m/n/12 Strom-mes-sung am
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4330--4330
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4347--4347
+[]\OT1/cmr/m/n/12 Servomessung und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4330--4330
-\OT1/cmr/m/n/12 draht-lo-sen Schnitt-stel-le
+Underfull \hbox (badness 10000) in paragraph at lines 4349--4349
+[]\OT1/cmr/m/n/12 Servomessung und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4332--4332
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4351--4351
+[]\OT1/cmr/m/n/12 Richtlinien her-aus-su-chen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4332--4332
-\OT1/cmr/m/n/12 draht-lo-sen Schnitt-stel-le
+Underfull \hbox (badness 10000) in paragraph at lines 4353--4353
+[]\OT1/cmr/m/n/12 Dokumentation der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4336--4336
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4353--4353
+\OT1/cmr/m/n/12 Richt-li-ni-en und das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4338--4338
-[]\OT1/cmr/m/n/12 Programmierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4353--4353
+\OT1/cmr/m/n/12 Pro-jekt-hand-buch
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 4340--4340
-[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
+Underfull \hbox (badness 10000) in paragraph at lines 4355--4355
+[]\OT1/cmr/m/n/12 Programmierung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4342--4342
-[]\OT1/cmr/m/n/12 ESP32 Pro-gram-mie-rung
+Underfull \hbox (badness 10000) in paragraph at lines 4357--4357
+\OT1/cmr/m/n/12 me-cha-ni-schen Werk-statt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4344--4344
-[]\OT1/cmr/m/n/12 ESP32 Pro-gram-mie-rung
+Underfull \hbox (badness 10000) in paragraph at lines 4357--4357
+\OT1/cmr/m/n/12 we-gen dem Fr[]asen von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4346--4346
-[]\OT1/cmr/m/n/12 Testen und Durch-me-sen
+Underfull \hbox (badness 10000) in paragraph at lines 4361--4361
+[]\OT1/cmr/m/n/12 Roboterhand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4346--4346
-\OT1/cmr/m/n/12 der Pla-ti-nen ge-mein-sam
+Underfull \hbox (badness 2351) in paragraph at lines 4363--4363
+[]\OT1/cmr/m/n/12 Dokumentation und Hil-fe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4350--4350
-[]\OT1/cmr/m/n/12 Weiterentwicklung der
+Underfull \hbox (badness 10000) in paragraph at lines 4367--4367
+[]\OT1/cmr/m/n/12 Roboterhand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4350--4350
-\OT1/cmr/m/n/12 Ro-bo-ter-hand und
+Underfull \hbox (badness 10000) in paragraph at lines 4369--4369
+[]\OT1/cmr/m/n/12 Dokumentation und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4350--4350
-\OT1/cmr/m/n/12 er-neu-tes Tes-ten der
+Underfull \hbox (badness 10000) in paragraph at lines 4371--4371
+[]\OT1/cmr/m/n/12 Am Pro-gramm zum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4350--4350
-\OT1/cmr/m/n/12 Hand-schuh-pla-ti-ne nach
+Underfull \hbox (badness 10000) in paragraph at lines 4375--4375
+[]\OT1/cmr/m/n/12 Dokumentation und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4352--4352
-\OT1/cmr/m/n/12 und Mes-sta-bel-le f[]ur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4352--4352
-\OT1/cmr/m/n/12 die Mes-schal-tung der
- []
-
-
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4320--4356
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4341--4379
  [][] 
  []
 
 [154]
-Underfull \hbox (badness 1292) in paragraph at lines 4364--4364
-[]\OT1/cmr/m/n/12 Programmierung des ESP
+Underfull \hbox (badness 10000) in paragraph at lines 4389--4389
+[]\OT1/cmr/m/n/12 Mechanik und ers-te
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 4366--4366
-[]\OT1/cmr/m/n/12 Programmierung des ESP
+Underfull \hbox (badness 10000) in paragraph at lines 4389--4389
+[]\OT1/cmr/m/n/12 Uberlegungen f[]ur die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4368--4368
-[]\OT1/cmr/m/n/12 Unterst[]utzung bei der
+Underfull \hbox (badness 10000) in paragraph at lines 4393--4393
+[]\OT1/cmr/m/n/12 Flussdiagramm f[]ur die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4370--4370
-[][]\OT1/cmr/m/n/12 Uberlegungen f[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4393--4393
+\OT1/cmr/m/n/12 Soft-wa-re-ent-wick-lung
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4372--4372
-[]\OT1/cmr/m/n/12 Entwicklung des
+Underfull \hbox (badness 10000) in paragraph at lines 4395--4395
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4372--4372
-\OT1/cmr/m/n/12 Al-go-rith-mus f[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4405--4405
+\OT1/cmr/m/n/12 und Be-spre-chung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4372--4372
-\OT1/cmr/m/n/12 Feh-ler-wert-kor-rek-tur auf
+Underfull \hbox (badness 10000) in paragraph at lines 4405--4405
+\OT1/cmr/m/n/12 ge-ne-rel-len Auf-baus der
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 4374--4374
-[]\OT1/cmr/m/n/12 ESPnow In-ter-face tes-ting
+Underfull \hbox (badness 10000) in paragraph at lines 4405--4405
+\OT1/cmr/m/n/12 Pro-gram-me mit Prof.
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 4376--4376
-[]\OT1/cmr/m/n/12 Testen der Strom-mes-sung
+Underfull \hbox (badness 5119) in paragraph at lines 4409--4409
+[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 4380--4380
-[]\OT1/cmr/m/n/12 Testen der Strom-mes-sung
+Underfull \hbox (badness 10000) in paragraph at lines 4409--4409
+\OT1/cmr/m/n/12 aus-bes-sern von di-ver-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4392--4392
-[][]\OT1/cmr/m/n/12 Uberpr[]ufung al-ler
+Underfull \hbox (badness 10000) in paragraph at lines 4411--4411
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4392--4392
-\OT1/cmr/m/n/12 Schal-tungs-tei-le
+Underfull \hbox (badness 10000) in paragraph at lines 4413--4413
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4392--4392
-\OT1/cmr/m/n/12 bei der ers-ten
+Underfull \hbox (badness 5119) in paragraph at lines 4415--4415
+[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4360--4400
+Underfull \hbox (badness 6859) in paragraph at lines 4421--4421
+\OT1/cmr/m/n/12 und die-se bei JLCP-CB
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4383--4425
  [][] 
  []
 
 [155]
-Underfull \hbox (badness 10000) in paragraph at lines 4408--4408
-[]\OT1/cmr/m/n/12 Platinendesign letz-te
+Underfull \hbox (badness 10000) in paragraph at lines 4437--4437
+[]\OT1/cmr/m/n/12 Dokument
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4414--4414
-[]\OT1/cmr/m/n/12 Platinendesign letz-te
+Overfull \hbox (24.71088pt too wide) in paragraph at lines 4437--4437
+\OT1/cmr/m/n/12 "Hard-wa-re-be-schrei-bung"verfasst 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4420--4420
-[]\OT1/cmr/m/n/12 Platinendesign letz-te
+Underfull \hbox (badness 10000) in paragraph at lines 4439--4439
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4442--4442
-[]\OT1/cmr/m/n/12 Modelierung der
+Underfull \hbox (badness 10000) in paragraph at lines 4439--4439
+\OT1/cmr/m/n/12 draht-lo-sen Schnitt-stel-le
  []
 
 
-Underfull \hbox (badness 5802) in paragraph at lines 4444--4444
-[]\OT1/cmr/m/n/12 Handschuh mit Sen-so-ren
+Underfull \hbox (badness 10000) in paragraph at lines 4441--4441
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4446--4446
-[]\OT1/cmr/m/n/12 Handschuhplatine
+Underfull \hbox (badness 10000) in paragraph at lines 4441--4441
+\OT1/cmr/m/n/12 draht-lo-sen Schnitt-stel-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4448--4448
-[]\OT1/cmr/m/n/12 C++ Da-tei-en
+Underfull \hbox (badness 10000) in paragraph at lines 4445--4445
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4448--4448
-\OT1/cmr/m/n/12 f[]ur Ro-bo-ter-hand
+Underfull \hbox (badness 10000) in paragraph at lines 4447--4447
+[]\OT1/cmr/m/n/12 Programmierung der
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4404--4460
+Underfull \hbox (badness 5119) in paragraph at lines 4449--4449
+[]\OT1/cmr/m/n/12 L[]oten der Pla-ti-nen und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4451--4451
+[]\OT1/cmr/m/n/12 ESP32 Pro-gram-mie-rung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4453--4453
+[]\OT1/cmr/m/n/12 ESP32 Pro-gram-mie-rung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4455--4455
+[]\OT1/cmr/m/n/12 Testen und Durch-me-sen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4455--4455
+\OT1/cmr/m/n/12 der Pla-ti-nen ge-mein-sam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4459--4459
+[]\OT1/cmr/m/n/12 Weiterentwicklung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4459--4459
+\OT1/cmr/m/n/12 Ro-bo-ter-hand und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4459--4459
+\OT1/cmr/m/n/12 er-neu-tes Tes-ten der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4459--4459
+\OT1/cmr/m/n/12 Hand-schuh-pla-ti-ne nach
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4461--4461
+\OT1/cmr/m/n/12 und Mes-sta-bel-le f[]ur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4461--4461
+\OT1/cmr/m/n/12 die Mes-schal-tung der
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4429--4465
  [][] 
  []
 
 [156]
-Underfull \hbox (badness 10000) in paragraph at lines 4484--4484
-[]\OT1/cmr/m/n/12 finalen Schalt-lan der
+Underfull \hbox (badness 1292) in paragraph at lines 4473--4473
+[]\OT1/cmr/m/n/12 Programmierung des ESP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4494--4494
-\OT1/cmr/m/n/12 zum 3D dru-cken fer-tig
+Underfull \hbox (badness 1292) in paragraph at lines 4475--4475
+[]\OT1/cmr/m/n/12 Programmierung des ESP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4498--4498
-[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4477--4477
+[]\OT1/cmr/m/n/12 Unterst[]utzung bei der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4500--4500
-[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4479--4479
+[][]\OT1/cmr/m/n/12 Uberlegungen f[]ur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4502--4502
-[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+Underfull \hbox (badness 10000) in paragraph at lines 4481--4481
+[]\OT1/cmr/m/n/12 Entwicklung des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4510--4510
-[]\OT1/cmr/m/n/12 Strommessung der
+Underfull \hbox (badness 10000) in paragraph at lines 4481--4481
+\OT1/cmr/m/n/12 Al-go-rith-mus f[]ur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4510--4510
-\OT1/cmr/m/n/12 Ro-bo-ter-hand-pla-ti-ne in
+Underfull \hbox (badness 10000) in paragraph at lines 4481--4481
+\OT1/cmr/m/n/12 Feh-ler-wert-kor-rek-tur auf
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4512--4512
-[]\OT1/cmr/m/n/12 Zusammenbau der
+Underfull \hbox (badness 2856) in paragraph at lines 4483--4483
+[]\OT1/cmr/m/n/12 ESPnow In-ter-face tes-ting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4512--4512
-\OT1/cmr/m/n/12 ge-druck-ten Tei-le der
+Underfull \hbox (badness 1603) in paragraph at lines 4485--4485
+[]\OT1/cmr/m/n/12 Testen der Strom-mes-sung
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4464--4516
+Underfull \hbox (badness 1603) in paragraph at lines 4489--4489
+[]\OT1/cmr/m/n/12 Testen der Strom-mes-sung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4501--4501
+[][]\OT1/cmr/m/n/12 Uberpr[]ufung al-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4501--4501
+\OT1/cmr/m/n/12 Schal-tungs-tei-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4501--4501
+\OT1/cmr/m/n/12 bei der ers-ten
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4469--4509
  [][] 
  []
 
 [157]
+Underfull \hbox (badness 10000) in paragraph at lines 4517--4517
+[]\OT1/cmr/m/n/12 Platinendesign letz-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4523--4523
+[]\OT1/cmr/m/n/12 Platinendesign letz-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4529--4529
+[]\OT1/cmr/m/n/12 Platinendesign letz-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4551--4551
+[]\OT1/cmr/m/n/12 Modelierung der
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 4553--4553
+[]\OT1/cmr/m/n/12 Handschuh mit Sen-so-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4555--4555
+[]\OT1/cmr/m/n/12 Handschuhplatine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4557--4557
+[]\OT1/cmr/m/n/12 C++ Da-tei-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4557--4557
+\OT1/cmr/m/n/12 f[]ur Ro-bo-ter-hand
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4513--4569
+ [][] 
+ []
+
+[158]
+Underfull \hbox (badness 10000) in paragraph at lines 4593--4593
+[]\OT1/cmr/m/n/12 finalen Schalt-lan der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4603--4603
+\OT1/cmr/m/n/12 zum 3D dru-cken fer-tig
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4607--4607
+[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4609--4609
+[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4611--4611
+[]\OT1/cmr/m/n/12 Tag der of-fe-nen T[]ur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4619--4619
+[]\OT1/cmr/m/n/12 Strommessung der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4619--4619
+\OT1/cmr/m/n/12 Ro-bo-ter-hand-pla-ti-ne in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4621--4621
+[]\OT1/cmr/m/n/12 Zusammenbau der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4621--4621
+\OT1/cmr/m/n/12 ge-druck-ten Tei-le der
+ []
+
+
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4573--4625
+ [][] 
+ []
+
+[159]
 Overfull \vbox (9.75429pt too high) has occurred while \output is active []
 
- [158]
-Underfull \hbox (badness 1616) in paragraph at lines 4524--4524
+ [160]
+Underfull \hbox (badness 1616) in paragraph at lines 4633--4633
 []\OT1/cmr/m/n/12 Dokumentation fort-ge-setzt
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 4524--4524
+Underfull \hbox (badness 6252) in paragraph at lines 4633--4633
 \OT1/cmr/m/n/12 und beim Zu-sam-men-bau
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4528--4528
+Underfull \hbox (badness 10000) in paragraph at lines 4637--4637
 []\OT1/cmr/m/n/12 Feinsjustierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4534--4534
+Underfull \hbox (badness 10000) in paragraph at lines 4643--4643
 []\OT1/cmr/m/n/12 Feinsjustierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4538--4538
+Underfull \hbox (badness 10000) in paragraph at lines 4647--4647
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4540--4540
+Underfull \hbox (badness 10000) in paragraph at lines 4649--4649
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4542--4542
+Underfull \hbox (badness 10000) in paragraph at lines 4651--4651
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4544--4544
+Underfull \hbox (badness 10000) in paragraph at lines 4653--4653
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4546--4546
+Underfull \hbox (badness 10000) in paragraph at lines 4655--4655
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4548--4548
+Underfull \hbox (badness 10000) in paragraph at lines 4657--4657
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4550--4550
+Underfull \hbox (badness 10000) in paragraph at lines 4659--4659
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4552--4552
+Underfull \hbox (badness 10000) in paragraph at lines 4661--4661
 []\OT1/cmr/m/n/12 Feinjustierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4552--4552
+Underfull \hbox (badness 10000) in paragraph at lines 4661--4661
 \OT1/cmr/m/n/12 Me-cha-nik und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4552--4552
+Underfull \hbox (badness 10000) in paragraph at lines 4661--4661
 \OT1/cmr/m/n/12 wei-ter-ar-bei-ten an der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4554--4554
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
 []\OT1/cmr/m/n/12 Feinjustierung der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4554--4554
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
 \OT1/cmr/m/n/12 Me-cha-nik und
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4554--4554
+Underfull \hbox (badness 10000) in paragraph at lines 4663--4663
 \OT1/cmr/m/n/12 wei-ter-ar-bei-ten an der
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4520--4558
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4629--4667
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4566--4566
+Underfull \hbox (badness 10000) in paragraph at lines 4675--4675
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4568--4568
+Underfull \hbox (badness 10000) in paragraph at lines 4677--4677
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4570--4570
+Underfull \hbox (badness 10000) in paragraph at lines 4679--4679
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4572--4572
+Underfull \hbox (badness 10000) in paragraph at lines 4681--4681
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4574--4574
+Underfull \hbox (badness 10000) in paragraph at lines 4683--4683
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4576--4576
+Underfull \hbox (badness 10000) in paragraph at lines 4685--4685
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4578--4578
+Underfull \hbox (badness 10000) in paragraph at lines 4687--4687
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4580--4580
+Underfull \hbox (badness 10000) in paragraph at lines 4689--4689
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4582--4582
+Underfull \hbox (badness 10000) in paragraph at lines 4691--4691
 []\OT1/cmr/m/n/12 an der Do-ku-men-ta-ti-on
  []
 
 
-Overfull \hbox (23.17105pt too wide) in paragraph at lines 4562--4586
+Overfull \hbox (23.17105pt too wide) in paragraph at lines 4671--4695
  [][] 
  []
 
-[159] [160]
-Underfull \hbox (badness 10000) in paragraph at lines 4594--4596
+[161] [162]
+Underfull \hbox (badness 10000) in paragraph at lines 4703--4705
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4594--4596
+Underfull \hbox (badness 10000) in paragraph at lines 4703--4705
 
  []
 
 
-Overfull \hbox (18.4619pt too wide) in paragraph at lines 4598--4601
+Overfull \hbox (18.4619pt too wide) in paragraph at lines 4707--4710
 \OT1/cmr/m/n/12 und Pro-blem-stel-len aus-zu-bes-sern. Die Soft-wa-re bie-tet ei-ni-ge Ein-stellm[]oglichkeiten, wie bei-spiels-wei-se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4598--4601
+Underfull \hbox (badness 10000) in paragraph at lines 4707--4710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4598--4601
+Underfull \hbox (badness 10000) in paragraph at lines 4707--4710
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4603--4605
+Underfull \hbox (badness 10000) in paragraph at lines 4712--4714
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4603--4605
+Underfull \hbox (badness 10000) in paragraph at lines 4712--4714
 
  []
 
 
-Overfull \hbox (25.54588pt too wide) in paragraph at lines 4607--4609
+Overfull \hbox (25.54588pt too wide) in paragraph at lines 4716--4718
 \OT1/cmr/m/n/12 Die Ar-dui-no IDE ist ei-ne Ent-wick-lungs-um-ge-bung zur Pro-gram-mie-rung von Arduino-Mikrokontrollern.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4607--4609
+Underfull \hbox (badness 10000) in paragraph at lines 4716--4718
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4607--4609
+Underfull \hbox (badness 10000) in paragraph at lines 4716--4718
 
  []
 
 
-Overfull \hbox (39.01508pt too wide) in paragraph at lines 4611--4614
+Overfull \hbox (39.01508pt too wide) in paragraph at lines 4720--4723
 \OT1/cmr/m/n/12 QT ist ein Soft-wa-re-ent-wick-lungs-tool, das ei-ne platt-for-mu-n-abh[]angige Pro-gram-mie-rung von An-wen-dun-gen
  []
 
 
-Overfull \hbox (8.7231pt too wide) in paragraph at lines 4611--4614
+Overfull \hbox (8.7231pt too wide) in paragraph at lines 4720--4723
 \OT1/cmr/m/n/12 erm[]oglicht. Ap-ps k[]onnen oh-ne []Anderungen des Quell-co-des f[]ur Li-nux, Win-dows und Mac kom-pi-liert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4611--4614
+Underfull \hbox (badness 10000) in paragraph at lines 4720--4723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4611--4614
+Underfull \hbox (badness 10000) in paragraph at lines 4720--4723
 
  []
 
-[161] [162] [163]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2196, 1194.98447pt x 845.0531pt>
+[163] [164] [165]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2205, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4745.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4745.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2199, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2208, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4745.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4745.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [164]
+ [166]
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4636.
-(pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
-File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
-<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4745.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4636.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4745.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [165 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2214, 1194.98447pt x 845.0531pt>
+File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
+<use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4745.
+(pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
+ [167 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2222, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4746.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4746.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2217, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2225, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4746.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4746.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4746.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4746.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4637.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4746.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [166 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2227, 1194.98447pt x 845.0531pt>
+ [168 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2235, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4747.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4747.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2230, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2238, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4747.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4747.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4747.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4747.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4638.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4747.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [167 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2240, 1194.98447pt x 845.0531pt>
+ [169 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2248, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4749.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4749.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2243, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2251, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4640.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [168 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2253, 1194.98447pt x 845.0531pt>
+ [170 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2261, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4750.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4750.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2256, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2264, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4641.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [169 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2266, 1194.98447pt x 845.0531pt>
+ [171 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2275, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4751.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4751.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2269, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2278, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4751.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4751.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4751.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4751.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4642.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4751.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
- [170 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=2280, 885.3075pt x 860.21375pt>
+ [172 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=2289, 885.3075pt x 860.21375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png  used on input line 4648.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png  used on input line 4757.
 (pdftex.def)             Requested size: 391.28395pt x 380.20157pt.
- [171 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=2288, 793.96625pt x 811.03pt>
+ [173 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=2296, 793.96625pt x 811.03pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png  used on input line 4657.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png  used on input line 4766.
 (pdftex.def)             Requested size: 391.28395pt x 399.6976pt.
- [172 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=2295, 775.89874pt x 871.255pt>
+ [174 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=2303, 775.89874pt x 871.255pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png  used on input line 4666.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png  used on input line 4775.
 (pdftex.def)             Requested size: 391.28395pt x 439.37541pt.
- [173 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=2302, 974.64125pt x 673.51625pt>
+ [175 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=2310, 974.64125pt x 673.51625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png  used on input line 4675.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png  used on input line 4784.
 (pdftex.def)             Requested size: 391.28395pt x 270.38832pt.
- [174 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=2309, 645.41125pt x 593.21625pt>
+ [176 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=2317, 645.41125pt x 593.21625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png  used on input line 4684.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png  used on input line 4793.
 (pdftex.def)             Requested size: 391.28395pt x 359.63466pt.
- [175 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=2316, 680.5425pt x 770.88pt>
+ [177 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=2325, 680.5425pt x 770.88pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png  used on input line 4693.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png  used on input line 4802.
 (pdftex.def)             Requested size: 391.28395pt x 443.22903pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4706--4706
+Underfull \hbox (badness 10000) in paragraph at lines 4815--4815
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4708--4708
+Underfull \hbox (badness 10000) in paragraph at lines 4817--4817
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4710--4710
+Underfull \hbox (badness 10000) in paragraph at lines 4819--4819
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4712--4712
+Underfull \hbox (badness 10000) in paragraph at lines 4821--4821
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4714--4714
+Underfull \hbox (badness 10000) in paragraph at lines 4823--4823
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4716--4716
+Underfull \hbox (badness 10000) in paragraph at lines 4825--4825
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4718--4718
+Underfull \hbox (badness 10000) in paragraph at lines 4827--4827
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4720--4720
+Underfull \hbox (badness 10000) in paragraph at lines 4829--4829
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4722--4722
+Underfull \hbox (badness 10000) in paragraph at lines 4831--4831
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4724--4724
+Underfull \hbox (badness 10000) in paragraph at lines 4833--4833
 []\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4730--4730
+Underfull \hbox (badness 10000) in paragraph at lines 4839--4839
 []\OT1/cmr/m/n/12 SOIC-16[]-3.9x9.9mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4738--4738
+Underfull \hbox (badness 10000) in paragraph at lines 4847--4847
 []\OT1/cmr/m/n/12 SolderJumper-2[]-P1.3mm
  []
 
 
-Overfull \hbox (6.32028pt too wide) in paragraph at lines 4738--4738
+Overfull \hbox (6.32028pt too wide) in paragraph at lines 4847--4847
 []\OT1/cmr/m/n/12 -Bridged2Bar[]-Pad1.0x1.5mm 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4744--4744
+Underfull \hbox (badness 10000) in paragraph at lines 4853--4853
 []\OT1/cmr/m/n/12 PinSocket[]-1x02[]-P2.54mm
  []
 
-[176 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4757--4757
+[178 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 4866--4866
 []\OT1/cmr/m/n/12 TerminalBlock[]-Phoe-nix
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4757--4757
+Underfull \hbox (badness 10000) in paragraph at lines 4866--4866
 []\OT1/cmr/m/n/12 -MKDS-1,5-2-5.08[]-1x02
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4759--4759
+Underfull \hbox (badness 10000) in paragraph at lines 4868--4868
 []\OT1/cmr/m/n/12 USB[]-Micro-B[]-Am-phenol
  []
 
 
-Overfull \hbox (8.4397pt too wide) in paragraph at lines 4759--4759
+Overfull \hbox (8.4397pt too wide) in paragraph at lines 4868--4868
 []\OT1/cmr/m/n/12 -10103594-0001LF[]-Ho-ri-zon-tal 
  []
 
-[177] [178]
-Underfull \hbox (badness 10000) in paragraph at lines 4773--4773
-[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4775--4775
-[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4777--4777
-[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4779--4779
-[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4781--4781
-[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4783--4783
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4785--4785
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4787--4787
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4789--4789
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4791--4791
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4793--4793
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4795--4795
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4797--4797
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4799--4799
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4801--4801
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4803--4803
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4805--4805
-[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4807--4807
-[]\OT1/cmr/m/n/12 D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4820--4820
-[]\OT1/cmr/m/n/12 D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4824--4824
-[]\OT1/cmr/m/n/12 SOIC-16[]-3.9x9.9mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4840--4840
-[]\OT1/cmr/m/n/12 SolderJumper-2[]-P1.3mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4842--4842
-[]\OT1/cmr/m/n/12 PinSocket[]-1x05[]-P2.54mm
- []
-
 [179] [180]
-Underfull \hbox (badness 10000) in paragraph at lines 4858--4858
-[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4860--4860
-[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4862--4862
-[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4864--4864
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4866--4866
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4868--4868
-[]\OT1/cmr/m/n/12 R[]-2512[]-6332Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4870--4870
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4872--4872
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4874--4874
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4876--4876
-[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4878--4878
-[]\OT1/cmr/m/n/12 TSSOP-28[]-4.4x9.7mm
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 4882--4882
-[]\OT1/cmr/m/n/12 SOIC-16[]-3.9x9.9mm
+[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4884--4884
+[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4886--4886
+[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4888--4888
+[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4890--4890
+[]\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4892--4892
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4894--4894
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4896--4896
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4898--4898
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4900--4900
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4902--4902
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4904--4904
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4906--4906
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4908--4908
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4910--4910
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4912--4912
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4914--4914
+[]\OT1/cmr/m/n/12 R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4916--4916
+[]\OT1/cmr/m/n/12 D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4929--4929
+[]\OT1/cmr/m/n/12 D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4933--4933
+[]\OT1/cmr/m/n/12 SOIC-16[]-3.9x9.9mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4949--4949
 []\OT1/cmr/m/n/12 SolderJumper-2[]-P1.3mm
  []
 
 
-Overfull \hbox (6.32028pt too wide) in paragraph at lines 4888--4888
+Underfull \hbox (badness 10000) in paragraph at lines 4951--4951
+[]\OT1/cmr/m/n/12 PinSocket[]-1x05[]-P2.54mm
+ []
+
+[181] [182]
+Underfull \hbox (badness 10000) in paragraph at lines 4967--4967
+[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4969--4969
+[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4971--4971
+[]\OT1/cmr/m/n/12 C[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4973--4973
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4975--4975
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4977--4977
+[]\OT1/cmr/m/n/12 R[]-2512[]-6332Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4979--4979
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4981--4981
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4983--4983
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4985--4985
+[]\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4987--4987
+[]\OT1/cmr/m/n/12 TSSOP-28[]-4.4x9.7mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4991--4991
+[]\OT1/cmr/m/n/12 SOIC-16[]-3.9x9.9mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4997--4997
+[]\OT1/cmr/m/n/12 SolderJumper-2[]-P1.3mm
+ []
+
+
+Overfull \hbox (6.32028pt too wide) in paragraph at lines 4997--4997
 []\OT1/cmr/m/n/12 -Bridged2Bar[]-Pad1.0x1.5mm 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4909--4909
+Underfull \hbox (badness 10000) in paragraph at lines 5018--5018
 []\OT1/cmr/m/n/12 C[]-0603[]-1608Me-tric[]-Pad1.
  []
 
-[181] [182]
-Underfull \hbox (badness 10000) in paragraph at lines 4923--4923
+[183] [184]
+Underfull \hbox (badness 10000) in paragraph at lines 5032--5032
 []\OT1/cmr/m/n/12 R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
-[183]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2360, 350.30875pt x 630.355pt>
+[185]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2368, 350.30875pt x 630.355pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 4943.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 5052.
 (pdftex.def)             Requested size: 391.28395pt x 704.13643pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2361, 310.15875pt x 680.5425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2369, 310.15875pt x 680.5425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 4952.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 5061.
 (pdftex.def)             Requested size: 391.28395pt x 858.54727pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4948--4956
+Underfull \hbox (badness 10000) in paragraph at lines 5057--5065
 
  []
 
-[184 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2368, 302.12875pt x 735.74875pt>
+[186 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2376, 302.12875pt x 735.74875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 4961.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 5070.
 (pdftex.def)             Requested size: 391.28395pt x 952.86952pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 4957--4965
+Underfull \hbox (badness 10000) in paragraph at lines 5066--5074
 
  []
 
-[185 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 4966--4967
+[187 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5075--5076
 
  []
 
-[186 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>] [187] [188] [189] [190] (./Diplomarbeit.aux)
+[188 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>] [189] [190] [191] [192] (./Diplomarbeit.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -7690,18 +7850,18 @@ Package rerunfilecheck Info: File `Diplomarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: FD5062DB4A732F45672BC85D95E7F14A;33375.
  ) 
 Here is how much of TeX's memory you used:
- 51333 strings out of 476025
- 1242522 string characters out of 5790016
+ 51335 strings out of 476025
+ 1242538 string characters out of 5790016
  1898388 words of memory out of 5000000
  70527 multiletter control sequences out of 15000+600000
  522498 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,94p,560b,1377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (206 pages, 31418541 bytes).
+Output written on Diplomarbeit.pdf (208 pages, 31425559 bytes).
 PDF statistics:
- 2601 PDF objects out of 2984 (max. 8388607)
- 2103 compressed objects within 22 object streams
- 568 named destinations out of 1000 (max. 500000)
+ 2609 PDF objects out of 2984 (max. 8388607)
+ 2109 compressed objects within 22 object streams
+ 570 named destinations out of 1000 (max. 500000)
  2290 words of extra memory for PDF output out of 10000 (max. 10000000)
 

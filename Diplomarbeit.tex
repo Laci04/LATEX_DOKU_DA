@@ -4055,12 +4055,121 @@ des Ausgabesubsystems zu verringern, indem die Werte, die aus dem ADC
 ausgelesen werden, nur dann gesendet werden, wenn diese um +-10 vom zuletzt 
 gesendeten Wert abweichen. Durch diese Maßnahme konnte eine deutliche 
 Verbesserung der natürlich aussehenden Bewegung der Roboterhand vom 
-Ausgabesubsystem sichergestellt werden. \\
+Ausgabesubsystem sichergestellt werden. Schäden an der Mechanik konnten hiermit vermieden werden. \\
+\\
+Die Arduino IDE hat sich durchwegs als passende Entwicklungsumgebung bewährt. 
+Sie ermöglicht es, den Code problemlos zu interpretieren, zu formatieren, zu 
+kompilieren und auf den ESP32 hochzuladen. Allerdings kann es zu einem Problem 
+mit der Arduino IDE 2 kommen, da sie einen bestimmten Codeabschnitt nicht 
+korrekt interpretieren kann. Dies liegt an den Unterschieden in den Bibliotheken 
+im Vergleich zur Arduino IDE 1. Durch Anpassungen am Code kann dieses Problem 
+jedoch gelöst werden, sodass beide Versionen der Arduino IDE genutzt werden 
+können. \\
+\\
+Im Verlauf des Entwicklungsprozesses können immer wieder Rückschläge auftreten, 
+unabhängig von deren Ursache. Oft wird die Komplexität bei der Umsetzung 
+bestimmter Funktionen unterschätzt und im Laufe der Zeit muss erkannt werden, 
+dass entweder ein neues Konzept entwickelt oder mehr Zeit in die Realisierung 
+investiert werden muss. \\
+\\
+In der Regel erfordert die Umsetzung verschiedener Softwareblöcke mehr Zeit, 
+als ursprünglich angenommen. Der Code funktioniert meist erst nach mehreren 
+Überarbeitungen so, wie es sich von Anfang an gewünscht wurde. Dennoch können 
+zahlreiche neue Bereiche im Softwarebereich erschlossen werden, einschließlich 
+der Ansteuerung und Datenverarbeitung. \\
+\\
+Letztendlich erweisen sich die Überlegungen, die bereits am Anfang angestellt 
+wurden, als sinnvoll. Dies führt dazu, dass nicht alle Überlegungen 
+zwischendurch verworfen werden müssen. \\
 \\
 
 \subsubsection{Ausgabesubsystem \textcolor{red}{Amir}}
 
 \subsection{Gesamtintegration \textcolor{red}{Fabian}}
+In diesem Abschnitt reflektieren wir die Vielfalt an Erkenntnissen, die wir 
+während der Projektentwicklung gesammelt haben. Dabei nehmen wir sowohl die 
+positiven Errungenschaften als auch die Herausforderungen und Rückschläge in 
+den Blick, die wir erlebt haben. \\
+\\
+Zunächst möchten wir die Bedeutung eines detaillierten Konzepts hervorheben. 
+Dieses dient als solide Grundlage, auf die wir im weiteren Verlauf zurückgreifen 
+können. Es ermöglicht uns, eine erneute Gesamtüberlegung des Projekts nach 
+einigen Wochen zu vermeiden, obwohl es natürlich unmöglich ist, alle zukünftigen 
+Probleme im Voraus zu antizipieren. \\
+\\
+Unser Hauptziel bestand darin, ein umfassendes Konzept für die Integration 
+aller Komponenten zu entwickeln. Im Klartext bedeutet dies, dass Hardware, 
+Software und Mechanik am Ende harmonisch zusammenarbeiten und ein funktionierendes 
+Gesamtsystem bilden sollten. In unserem Konzept haben wir von Anfang an 
+festgelegt, was wir grundsätzlich entwickeln wollen. \\
+\\
+Nachdem wir uns darauf geeinigt hatten, einen Roboterarm mittels eines 
+Handschuhs zu steuern, konnten wir uns den Details zuwenden. Es stand schnell 
+fest, dass wir die Position der Fingergelenke mithilfe von Flexsensoren 
+erfassen würden, die auf der Außenseite der Finger angebracht sind. \\
+\\
+Ebenso war schnell klar, dass wir den Roboterarm mit einem 3D-Drucker 
+herstellen würden. Es gibt schlichtweg keine einfachere Methode, um in 
+kürzester Zeit manuell mit einer Modellierungssoftware (Fusion360) erstellte 
+Teile zu produzieren. \\
+\\
+Die Entwicklung der Hardware konnte beginnen, sobald wir festgelegt hatten, 
+welche elektronischen Bauteile zum Einsatz kommen sollten. Jede einzelne 
+Verbindung, die wir in der Elektronik-Design-Automatisierung Software (KiCad) 
+erstellt haben, wurde sorgfältig durchdacht. Gleiches gilt für die Anordnung 
+der Bauteile, um mögliche Störungen verschiedener Signale zu vermeiden. \\
+\\
+Die Softwareentwicklung wurde von Anfang an mithilfe einer Entwicklungsumgebung 
+(Arduino IDE) durchgeführt. Der Mikrocontroller ESP32, der eine zentrale Rolle 
+in unserem Projekt spielt, wurde von Anfang an für das Auslesen, Verarbeiten 
+und Senden der Daten ausgewählt. \\
+\\
+Nachdem wir unseren ersten 3D-Druck eines Open-Source Projekts der Roboterhand 
+gedruckt hatten, konnten wir uns überlegen, inwiefern wir die Finger bewegen 
+können und wie dies realisiert werden kann. Angelschnüre wurden als Zugmechanismus 
+verwendet, welche durch jeden der einzelnen 3D-gedruckten Fingern verliefen 
+und dann jeweils an einem Servomotor befestigt wurden. Mit der Zeit zeigte 
+sich, dass die Angelschnur allerdings immer mehr an Stabilität verliert und 
+abreißt oder aber auch, dass sie die 3D-gedruckten Teile einschneidet, was 
+wiederum die Mechanik großflächig beschädigt. \\
+\\
+Die Platinen waren nicht immer fehlerfrei, durch kreative Ansätze konnte 
+allerdings jedes Mal eine Lösung gefunden werden, wie diese doch verwendet 
+werden können, wie beispielsweise das Setzen von Drahtbrücken, falls 
+Leiterbahnen beschädigt waren. \\
+\\
+Die Software war anfangs sehr fehlerbehaftet und hat zu ungewünschten 
+Situationen geführt. Es musste überlegt werden, wie weit sich beispielsweise 
+die Servos drehen dürfen, sodass die Mechanik keinen Schaden davonträgt. Dies 
+war nicht immer leicht, allerdings konnten diese Probleme schlussendlich 
+behoben werden, sodass nun alle Funktionen der Software gezielt an die Hardware 
+und die Mechanik angepasst worden sind. \\
+\\
+Schlussendlich konnten wir eine harmonische Interaktion zwischen Hardware, 
+Software und Mechanik erreichen. Die Software liest die Werte der Flexsensoren 
+aus, der Code auf dem ESP32 interpretiert und überprüft diese Daten und leitet 
+sie vom Eingabesystem zum Ausgabesystem weiter. Das Ausgabesystem interpretiert 
+die empfangenen Daten und verarbeitet sie entsprechend. Letztendlich werden 
+die Servomotoren mit diesen Daten angesteuert. Im Code sind Schutzgrenzen eingebaut, 
+um ein Überdrehen der Servos zu verhindern. \\
+\\
+Die Hardware, einschließlich der Messschaltungen, funktioniert einwandfrei und 
+erfüllt alle Anforderungen. In der Endversion gibt es keine Störungen bei den 
+einzelnen Signalen mehr. Die Mechanik wurde mehrfach überarbeitet, insbesondere 
+die Integration der Servos. Durch die Verwendung von Metallhülsen an den erforderlichen 
+Stellen schneiden die Angelschnüre nicht mehr in den 3D-Druck ein. \\
+\\
+Insgesamt funktioniert die Steuerung sowohl auf der Seite des Eingabesystems 
+als auch die Ausführung am Ausgabesystem sehr gut. Es ist uns gelungen, eine 
+sehr natürliche Bewegung der menschlichen Hand nachzuahmen. \\
+\\
+Während der gesamten Entwicklungsphase konnten wir zahlreiche Erfahrungen 
+sammeln. Es gab viele Herausforderungen, aber auch daraus resultierende 
+Erfolge waren keine Seltenheit. Oft waren wir etwas zu optimistisch, aber 
+letztendlich konnten wir alle Meilensteine rechtzeitig erreichen. Mit dem 
+Wissen, das wir während der gesamten Entwicklungsphase gesammelt haben, können
+ wir nun effizienter an ähnlichen Projekten arbeiten. \\
+ \\
 
 \newpage
 %--------------------------------------------------------------------------
