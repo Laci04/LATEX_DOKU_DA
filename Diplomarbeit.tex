@@ -37,6 +37,9 @@
 \usepackage{siunitx}
 \lstset{language=C++}
 \setlength{\fboxsep}{5pt} % Ändere die Rahmenbreite nach Bedarf
+\usepackage{ragged2e}
+\justifying
+\usepackage{microtype}
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \usepackage{fancyhdr}
@@ -549,7 +552,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
         \hline
 		13 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload und Reset Button für ESP32}} & Y &  \\
 		\hline
-		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & Y &  \\
+		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & N &  \\
         \hline
 		15 & \fcolorbox{white}{white}{\parbox{5cm}{Mit einem ADC, sollen mindestens 30 verschiedene Positionen der Flexsensoren detektiert werden können.}} & Y &  \\
 		\hline
@@ -563,7 +566,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 		\hline
 		20 & \fcolorbox{white}{white}{\parbox{5cm}{ - Abmessungen der Hand und Finger wie eine echte !!}} & Y &  \\
         \hline
-		21 & \fcolorbox{white}{white}{\parbox{5cm}{Drucksensoren an den Fingerspitzen}} & Y &  \\
+		21 & \fcolorbox{white}{white}{\parbox{5cm}{Drucksensoren an den Fingerspitzen}} & N &  \\
 		\hline
 		22 & \fcolorbox{white}{white}{\parbox{5cm}{Nachstellung der Bewegungen mit Motoren}} & Y &  \\
         \hline
@@ -583,7 +586,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
         \hline
         Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
         \hline
-		25 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich seitlich bewegen können.}} & Y &  \\
+		25 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich seitlich bewegen können.}} & N &  \\
 		\hline
 		26 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich zitterfrei bewegen können.}} & Y &  \\
         \hline
@@ -623,7 +626,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 		\hline
 		38 & \fcolorbox{white}{white}{\parbox{5cm}{Das User Interface soll folgende Elemente aufweisen:}} & Y &  \\
         \hline
-		39 & \fcolorbox{white}{white}{\parbox{5cm}{ - 3D Modell der Hand}} & Y &  \\
+		39 & \fcolorbox{white}{white}{\parbox{5cm}{ - 3D Modell der Hand}} & N &  \\
 		\hline
 		40 & \fcolorbox{white}{white}{\parbox{5cm}{ - Griffkraftanzeige (in kg)}} & Y &  \\
         \hline

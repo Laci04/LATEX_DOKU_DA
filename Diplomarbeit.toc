@@ -92,7 +92,7 @@
 \contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{81}{paragraph.7.1.4.6}%
 \contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{82}{paragraph.7.1.4.7}%
 \contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{83}{paragraph.7.1.4.8}%
-\contentsline {paragraph}{\numberline {7.1.4.9}\textcolor {red}{Akku Versorgung}}{83}{paragraph.7.1.4.9}%
+\contentsline {paragraph}{\numberline {7.1.4.9}\textcolor {red}{Akku Versorgung}}{84}{paragraph.7.1.4.9}%
 \contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{84}{subsubsection.7.1.5}%
 \contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{84}{paragraph.7.1.5.1}%
 \contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{86}{paragraph.7.1.5.2}%
