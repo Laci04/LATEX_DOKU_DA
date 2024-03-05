@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  4 MAR 2024 07:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  5 MAR 2024 07:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6418,7 +6418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4723--4726
  []
 
 [163] [164] [165]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2206, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2209, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4748.
@@ -6427,7 +6427,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 4748.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2209, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=2212, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4748.
@@ -6450,7 +6450,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 4748.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [167 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2223, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2226, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4749.
@@ -6459,7 +6459,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 4749.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2226, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=2229, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4749.
@@ -6481,7 +6481,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 4749.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [168 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2236, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2239, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4750.
@@ -6490,7 +6490,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 4750.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2239, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=2242, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4750.
@@ -6512,7 +6512,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 4750.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [169 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2249, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2252, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4752.
@@ -6521,7 +6521,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 4752.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2252, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=2255, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4752.
@@ -6543,7 +6543,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 4752.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [170 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2262, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2265, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4753.
@@ -6552,7 +6552,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 4753.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2265, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=2268, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4753.
@@ -6574,7 +6574,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 4753.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [171 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2276, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2280, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4754.
@@ -6583,7 +6583,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 4754.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2279, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=2283, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4754.
@@ -6605,37 +6605,37 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 4754.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [172 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=2290, 885.3075pt x 860.21375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=2293, 885.3075pt x 860.21375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png  used on input line 4760.
 (pdftex.def)             Requested size: 391.28395pt x 380.20157pt.
  [173 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=2297, 793.96625pt x 811.03pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=2300, 793.96625pt x 811.03pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png  used on input line 4769.
 (pdftex.def)             Requested size: 391.28395pt x 399.6976pt.
  [174 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=2304, 775.89874pt x 871.255pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=2307, 775.89874pt x 871.255pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png  used on input line 4778.
 (pdftex.def)             Requested size: 391.28395pt x 439.37541pt.
  [175 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=2311, 974.64125pt x 673.51625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=2314, 974.64125pt x 673.51625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png  used on input line 4787.
 (pdftex.def)             Requested size: 391.28395pt x 270.38832pt.
  [176 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=2318, 645.41125pt x 593.21625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=2321, 645.41125pt x 593.21625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png  used on input line 4796.
 (pdftex.def)             Requested size: 391.28395pt x 359.63466pt.
  [177 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=2326, 680.5425pt x 770.88pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=2329, 680.5425pt x 770.88pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png  used on input line 4805.
@@ -6921,12 +6921,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5035--5035
  []
 
 [185]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2369, 350.30875pt x 630.355pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2372, 350.30875pt x 630.355pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 5055.
 (pdftex.def)             Requested size: 391.28395pt x 704.13643pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2370, 310.15875pt x 680.5425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2373, 310.15875pt x 680.5425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 5064.
@@ -6937,7 +6937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5060--5068
  []
 
 [186 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2377, 302.12875pt x 735.74875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2380, 302.12875pt x 735.74875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 5073.
@@ -6968,10 +6968,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,17n,94p,1062b,1377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (208 pages, 31455040 bytes).
+Output written on Diplomarbeit.pdf (208 pages, 31455301 bytes).
 PDF statistics:
- 2610 PDF objects out of 2984 (max. 8388607)
- 2110 compressed objects within 22 object streams
+ 2613 PDF objects out of 2984 (max. 8388607)
+ 2113 compressed objects within 22 object streams
  570 named destinations out of 1000 (max. 500000)
  44274 words of extra memory for PDF output out of 51595 (max. 10000000)
 
