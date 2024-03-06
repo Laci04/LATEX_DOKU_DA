@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  5 MAR 2024 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  6 MAR 2024 13:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,6 +1126,12 @@ LaTeX Warning: Label `tab:zeilenumbruch_parbox' multiply defined.
 
 
 LaTeX Warning: Label `fig:Motorblock_v2' multiply defined.
+
+
+LaTeX Warning: Label `tab:Bestückungsliste4' multiply defined.
+
+
+LaTeX Warning: Label `tab:Bestückungsliste4' multiply defined.
 
 
 LaTeX Warning: Label `chap:Fertigungsunterlagen_Software' multiply defined.
@@ -6833,304 +6839,334 @@ Underfull \hbox (badness 10000) in paragraph at lines 4956--4956
  []
 
 [170] [171]
-Underfull \hbox (badness 10000) in paragraph at lines 4973--4973
-[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5023--5023
+[]\OT1/cmr/m/n/12 (+20) L[]-1210[]-3225Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4975--4975
-[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5025--5025
+[]\OT1/cmr/m/n/12 (+20) L[]-1210[]-3225Me-tric[]-Pad1.
+ []
+
+[172]
+Overfull \hbox (5.80798pt too wide) in paragraph at lines 5050--5050
+[]\OT1/cmr/m/n/12 (-20) SOIC-8[]-3.9x4.9mm[]-P1.27mm 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4977--4977
-[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4979--4979
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4981--4981
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4983--4983
-[]\OT1/cmr/m/n/12 (+20) R[]-2512[]-6332Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4985--4985
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4987--4987
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4989--4989
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4991--4991
-[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4993--4993
-[]\OT1/cmr/m/n/12 (+20) TSSOP-28[]-4.4x9.7mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4997--4997
+Underfull \hbox (badness 10000) in paragraph at lines 5054--5054
 []\OT1/cmr/m/n/12 (+20) SOIC-16[]-3.9x9.9mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5003--5003
-[]\OT1/cmr/m/n/12 (+20) SolderJumper-2[]-P1.3mm
+Underfull \hbox (badness 10000) in paragraph at lines 5056--5056
+[]\OT1/cmr/m/n/12 (+20) QFN-20-1EP[]-4x4mm
  []
 
 
-Overfull \hbox (3.49724pt too wide) in paragraph at lines 5003--5003
-[]\OT1/cmr/m/n/12 (-20) -Bridged2Bar[]-Pad1.0x1.5mm 
+Underfull \hbox (badness 10000) in paragraph at lines 5058--5058
+[]\OT1/cmr/m/n/12 (+20) SW4[]-PTS815 SJM 250
+ []
+
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 5093--5093
+[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5024--5024
-[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x03[]-P2.54mm
+Underfull \hbox (badness 10000) in paragraph at lines 5095--5095
+[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5026--5026
-[]\OT1/cmr/m/n/12 (+20) USB[]-Micro-B[]-Am-phenol
+Underfull \hbox (badness 10000) in paragraph at lines 5097--5097
+[]\OT1/cmr/m/n/12 (+20) C[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Overfull \hbox (5.57428pt too wide) in paragraph at lines 5026--5026
-[]\OT1/cmr/m/n/12 (-20) -10103594-0001LF[]-Ho-ri-zon-tal 
- []
-
-[172] [173]
-Underfull \hbox (badness 10000) in paragraph at lines 5043--5043
-[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5099--5099
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5045--5045
-[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5101--5101
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5047--5047
-[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5049--5049
-[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5051--5051
+Underfull \hbox (badness 10000) in paragraph at lines 5103--5103
 []\OT1/cmr/m/n/12 (+20) R[]-2512[]-6332Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5053--5053
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5105--5105
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5055--5055
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5107--5107
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5057--5057
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5109--5109
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5059--5059
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+Underfull \hbox (badness 10000) in paragraph at lines 5111--5111
+[]\OT1/cmr/m/n/12 (+20) R[]-1206[]-3216Me-tric[]-Pad1.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5061--5061
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5063--5063
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5065--5065
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5067--5067
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5069--5069
-[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5071--5071
-[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5073--5073
-[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5075--5075
+Underfull \hbox (badness 10000) in paragraph at lines 5113--5113
 []\OT1/cmr/m/n/12 (+20) TSSOP-28[]-4.4x9.7mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5077--5077
+Underfull \hbox (badness 10000) in paragraph at lines 5117--5117
+[]\OT1/cmr/m/n/12 (+20) SOIC-16[]-3.9x9.9mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5123--5123
+[]\OT1/cmr/m/n/12 (+20) SolderJumper-2[]-P1.3mm
+ []
+
+
+Overfull \hbox (3.49724pt too wide) in paragraph at lines 5123--5123
+[]\OT1/cmr/m/n/12 (-20) -Bridged2Bar[]-Pad1.0x1.5mm 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5144--5144
+[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x03[]-P2.54mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5146--5146
+[]\OT1/cmr/m/n/12 (+20) USB[]-Micro-B[]-Am-phenol
+ []
+
+
+Overfull \hbox (5.57428pt too wide) in paragraph at lines 5146--5146
+[]\OT1/cmr/m/n/12 (-20) -10103594-0001LF[]-Ho-ri-zon-tal 
+ []
+
+[174] [175]
+Underfull \hbox (badness 10000) in paragraph at lines 5163--5163
+[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5165--5165
+[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5167--5167
+[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5169--5169
+[]\OT1/cmr/m/n/12 (+20) C[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5171--5171
+[]\OT1/cmr/m/n/12 (+20) R[]-2512[]-6332Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5173--5173
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5175--5175
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5177--5177
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5179--5179
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5181--5181
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5183--5183
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5185--5185
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5187--5187
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5189--5189
+[]\OT1/cmr/m/n/12 (+20) R[]-0603[]-1608Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5191--5191
+[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5193--5193
+[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5195--5195
+[]\OT1/cmr/m/n/12 (+20) TSSOP-28[]-4.4x9.7mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5197--5197
 []\OT1/cmr/m/n/12 (+20) SOIC-16[]-3.9x9.9mm
  []
 
 
 Overfull \vbox (1.12125pt too high) has occurred while \output is active []
 
- [174]
-Underfull \hbox (badness 10000) in paragraph at lines 5092--5092
+ [176]
+Underfull \hbox (badness 10000) in paragraph at lines 5212--5212
 []\OT1/cmr/m/n/12 (+20) SolderJumper-2[]-P1.3mm
  []
 
 
-Overfull \hbox (3.49724pt too wide) in paragraph at lines 5092--5092
+Overfull \hbox (3.49724pt too wide) in paragraph at lines 5212--5212
 []\OT1/cmr/m/n/12 (-20) -Bridged2Bar[]-Pad1.0x1.5mm 
  []
 
 
-Overfull \hbox (33.20193pt too wide) in paragraph at lines 5108--5108
-[]\OT1/cmr/m/n/12 (-20) PinHeader[]-1x03[]-P2.54mm[]-Ver-ti-cal 
- []
-
-
-Overfull \hbox (33.20193pt too wide) in paragraph at lines 5110--5110
-[]\OT1/cmr/m/n/12 (-20) PinHeader[]-1x02[]-P2.54mm[]-Ver-ti-cal 
- []
-
-
-Overfull \hbox (29.5825pt too wide) in paragraph at lines 5086--5115
- [][] 
- []
-
-[175]
-Underfull \hbox (badness 3849) in paragraph at lines 5127--5127
-\OT1/cmr/m/n/12 (+20) C9, C10, C11,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5135--5135
-[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5137--5137
-[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5141--5141
-[]\OT1/cmr/m/n/12 (+20) MountingHole[]-3.2mm[]-M3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5151--5151
-[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x04[]-P2.54mm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5155--5155
+Underfull \hbox (badness 10000) in paragraph at lines 5228--5228
 []\OT1/cmr/m/n/12 (+20) PinHeader[]-1x03[]-P2.54mm
  []
 
 
-Overfull \hbox (4.37148pt too wide) in paragraph at lines 5157--5157
+Underfull \hbox (badness 10000) in paragraph at lines 5230--5230
+[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x02[]-P2.54mm
+ []
+
+
+Overfull \hbox (29.5825pt too wide) in paragraph at lines 5206--5235
+ [][] 
+ []
+
+[177]
+Underfull \hbox (badness 3849) in paragraph at lines 5247--5247
+\OT1/cmr/m/n/12 (+20) C9, C10, C11,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5255--5255
+[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5257--5257
+[]\OT1/cmr/m/n/12 (+20) D[]-0805[]-2012Me-tric[]-Pad1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5261--5261
+[]\OT1/cmr/m/n/12 (+20) MountingHole[]-3.2mm[]-M3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5271--5271
+[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x04[]-P2.54mm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5275--5275
+[]\OT1/cmr/m/n/12 (+20) PinHeader[]-1x03[]-P2.54mm
+ []
+
+
+Overfull \hbox (4.37148pt too wide) in paragraph at lines 5277--5277
 []\OT1/cmr/m/n/12 (-20) BarrelJack[]-CLIFF[]-FC681465
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5159--5159
+Underfull \hbox (badness 10000) in paragraph at lines 5279--5279
 []\OT1/cmr/m/n/12 (+20) PinSocket[]-1x03[]-P2.54mm
  []
 
 
-Overfull \hbox (1.12975pt too wide) in paragraph at lines 5123--5176
+Overfull \hbox (1.12975pt too wide) in paragraph at lines 5243--5296
  [][] 
  []
 
 
 Overfull \vbox (5.38785pt too high) has occurred while \output is active []
 
- [176]
-Underfull \hbox (badness 10000) in paragraph at lines 5200--5200
+ [178]
+Underfull \hbox (badness 10000) in paragraph at lines 5320--5320
 []\OT1/cmr/m/n/12 (+20) SW4[]-PTS815 SJM 250
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5202--5202
+Underfull \hbox (badness 10000) in paragraph at lines 5322--5322
 []\OT1/cmr/m/n/12 (+20) TSSOP-28[]-4.4x9.7mm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5206--5206
+Underfull \hbox (badness 10000) in paragraph at lines 5326--5326
 []\OT1/cmr/m/n/12 (+20) SOIC-16[]-3.9x9.9mm
  []
 
-[177]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2343, 350.30875pt x 630.355pt>
+[179]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=2353, 350.30875pt x 630.355pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 5226.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 5346.
 (pdftex.def)             Requested size: 391.28395pt x 704.13643pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2344, 310.15875pt x 680.5425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=2354, 310.15875pt x 680.5425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 5235.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 5355.
 (pdftex.def)             Requested size: 391.28395pt x 858.54727pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5231--5239
+Underfull \hbox (badness 10000) in paragraph at lines 5351--5359
 
  []
 
-[178 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2351, 302.12875pt x 735.74875pt>
+[180 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=2361, 302.12875pt x 735.74875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>
-Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 5244.
+Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 5364.
 (pdftex.def)             Requested size: 391.28395pt x 952.86952pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5240--5248
+Underfull \hbox (badness 10000) in paragraph at lines 5360--5368
 
  []
 
-[179 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 5249--5250
+[181 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 5369--5370
 
  []
 
-[180 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>] [181] [182] [183] [184] (./Diplomarbeit.aux)
+[182 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>] [183] [184] [185] [186] (./Diplomarbeit.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -7138,18 +7174,18 @@ Package rerunfilecheck Info: File `Diplomarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: FD5062DB4A732F45672BC85D95E7F14A;33375.
  ) 
 Here is how much of TeX's memory you used:
- 53487 strings out of 476025
- 1278783 string characters out of 5790016
+ 53491 strings out of 476025
+ 1278833 string characters out of 5790016
  1898388 words of memory out of 5000000
  72469 multiletter control sequences out of 15000+600000
  527559 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,94p,1062b,1377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (200 pages, 31462879 bytes).
+Output written on Diplomarbeit.pdf (202 pages, 31470639 bytes).
 PDF statistics:
- 2583 PDF objects out of 2984 (max. 8388607)
- 2091 compressed objects within 21 object streams
- 565 named destinations out of 1000 (max. 500000)
+ 2593 PDF objects out of 2984 (max. 8388607)
+ 2099 compressed objects within 21 object streams
+ 569 named destinations out of 1000 (max. 500000)
  44274 words of extra memory for PDF output out of 51595 (max. 10000000)
 
