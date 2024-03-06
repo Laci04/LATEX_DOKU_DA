@@ -1090,14 +1090,10 @@ da der Datensatz nicht stimmt. \\
 \end{figure}
 \hfill \break
 \textcolor{red}{\url{https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg\#/media/Datei:WiFi_Logo.svg}}
-WIFI (Wireless Fidelity) ist eine Technologie zur Verbindung von drahtlosen Netzwerken. Es wird 
-hauptsächlich dazu verwendet, um einen Zugang zum Internet herzustellen. Mobile Geräte werden meistens 
-über WIFI mit dem Internet oder untereinander verbunden. WLAN (Wireless Local Area Network) ist dabei 
-der Name für die lokale drahtlose Verbindung der Geräte innerhalb des lokalen Netzwerkes. Es können 
-Datenpakete gesendet und empfangen werden. Der Vorteil dieser drahtlosen Verbindung liegt darin, dass 
-die Geräte keine Verbindung per Datenkabel benötigen, sondern auch innerhalb einer bestimmten Reichweite 
-überall miteinander kommunizieren können. Die Reichweite von WIFI kann dabei von verschiedenen Faktoren 
-vermindert werden, wie beispielsweise durch Wände. \\
+WLAN (Wireless Local Area Network) ist eine Technologie, die Geräte drahtlos in einem lokalen Netzwerk verbindet. Es wird häufig verwendet, um einen Zugang zum Internet herzustellen. Mobile Geräte wie Smartphones, Tablets und Laptops werden meistens über WLAN mit dem Internet oder untereinander verbunden.
+WIFI (Wireless Fidelity) ist eigentlich ein Markenname, der oft fälschlicherweise als Synonym für WLAN verwendet wird. 
+Innerhalb eines WLANs können Datenpakete gesendet und empfangen werden. Der Vorteil dieser drahtlosen Verbindung liegt darin, dass die Geräte keine physische Verbindung per Datenkabel benötigen. Sie können innerhalb einer bestimmten Reichweite miteinander kommunizieren.
+Die Reichweite eines WLANs kann durch verschiedene Faktoren beeinflusst werden. Beispielsweise können physische Hindernisse wie Wände oder Möbel das Signal abschwächen. Auch andere drahtlose Geräte oder Netzwerke können Interferenzen verursachen und die Signalqualität beeinträchtigen. \\
 \\
 
 \newpage
@@ -4180,6 +4176,70 @@ Wissen, das wir während der gesamten Entwicklungsphase gesammelt haben, können
 
 Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. Einige Änderungs -oder Verbesserungsvorschläge des Gesamtdesigns sind in Folge beschrieben. \\
 \\
+\textbf{Handgelenksrotation} \\
+Auf der Platine des Eingabesystems könnte eine Steuerung für einen Gyroskopsensor integriert werden. 
+Dieser Sensor, am Handschuh befestigt, wäre in der Lage, die Drehbewegungen des Handgelenks zu 
+erfassen. Die erfassten Daten könnten dann durch eine speziell dafür entwickelte Software auf der 
+Platine ausgelesen und verarbeitet werden. Dies würde es ermöglichen, nicht nur die Finger des 
+Roboterarms zu bewegen, sondern auch eine Rotation des Handgelenks zu realisieren. Ein solches 
+Feature würde den zusätzlichen Vorteil bieten, dass Objekte aus verschiedenen Winkeln gegriffen 
+werden könnten. \\
+\\
+\textbf{Taktile Sensoren an den Fingerspitzen} \\
+Taktile Sensoren an den Fingerspitzen der Roboterhand könnten den auf jeden einzelnen Finger 
+ausgeübten Druck messen. Durch eine spezielle Messschaltung könnten die Daten dieser Sensoren 
+ausgelesen und verarbeitet werden. Dies würde es ermöglichen, zu bestimmen, ob ein bestimmter 
+Druckpunkt erreicht ist, bei dem ein gehaltenes Objekt beschädigt oder sogar zerstört werden könnte. 
+Bei einem zu hohen gemessenen Druck (der je nach Objekt variieren und möglicherweise manuell 
+eingestellt werden könnte) könnte eine Sicherheitsfunktion in der Software aktiviert werden. Diese 
+würde die Roboterhand in ihrer aktuellen Position verharren lassen und keine zusätzliche Kraft auf 
+das Objekt ausüben. \\
+\\
+\textbf{Akku auf Platine des Eingabesubsystems} \\
+Es wurde bereits ein Akku für die Platine des Eingabesubsystems eingeplant. Dieser ist auch bereits 
+in der neuesten Version der Platine vorhanden und sollte auch funktionieren. Damit wäre auch ein 
+Betrieb dieser ohne ein Netzteil möglich. Das hat den Vorteil, dass man mit dem Handschuh nicht 
+mehr von der Anbindung des Netzteils an die Platine abhängig und kann sich schlussfolgernd leichter 
+durch den Raum bewegen. Die Daten werden genauso wie zuvor übertragen, da alles für beide 
+Betriebsmöglichkeiten (Akku und Netzteil) konzipiert wurde. \\
+\\
+\textbf{Mehrere Modi im User-Interface} \\
+Es soll möglich sein, dass mehrere voreingestellte Modi im User-Interface ausgewählt werden können. 
+Über diese soll es möglich gemacht werden, dass man beispielsweise einen bestimmten Gegenstand 
+einer definierten Liste auswählen kann. Darüber soll es dann möglich sein, dass das Ausgabesubsystem 
+ja nach eingestelltem Modi die Gegenstände mit der richtigen Intensität greift, ohne, dass diese 
+beschädigt oder zerstört beziehungsweise aber auch nicht fallengelassen werden. Ein anderer Modus 
+wiederum könnte beispielsweise den Befehl an die Platine senden, dass die Roboterhand in der 
+derzeitigen Position halten soll. \\
+\\
+\textbf{Sicherheit beim Senden von Daten} \\
+Es könnte auf eine Verschlüsselung beim Senden von Daten gesetzt werden, damit diese kein 
+Unbefugter abfangen und auswerten kann. In unserem Fall stellt es kein Problem dar, dass die 
+Daten keine Verschlüsselung besitzen, aber in anderen Bereichen, beispielsweise in der Industrie, 
+wird eine zuverlässige und verschlüsselte Übertragung der Daten essenziell sein. Keiner soll 
+dadurch das System manipulieren können. \\
+\\
+\textbf{Größere Analyse von Daten} \\
+Durch einen zusätzlichen Datenträger, wie zum Beispiel einer SD-Karte, können Daten dauerhaft 
+gespeichert werden. Dadurch wäre es möglich eine Analyse dieser über einen festgelegten Zeitraum 
+durchzuführen. Es könnte dadurch herausgefunden werden, wie viel Strom bei einem festgelegten 
+Gegenstand beispielsweise bei einer bestimmten Drehung des Servos von der Schaltung verbraucht 
+wird. Wenn dies über einige erneut folgende Messungen beinahe gleich ist, dann kein der 
+arithmetische Mittelwert herausgefunden werden. Dieser kann dann für bestimmte 
+Sicherheitsvorkehrungen verwendet werden. Umso öfter Daten gesammelt und analysiert wurden, umso 
+leichter ist es, festzulegen, wann die Schaltung nicht mehr richtig funktioniert. Außerdem kann 
+über eine ausführliche Analyse verschiedenster gemessener Werte besser analysiert werden, wie oft 
+gewisse Stromspitzen auftreten. \\
+\\
+\textbf{Mechanische Komponenten kompakter verbauen} \\
+Das mechanische Gehäuse für den Motorblock kann kompakter modelliert werden. Des Weiteren ist der 
+3D-gedruckte Unterarm etwas zu groß geraten. In Zukunft müsste hier auf Maße geachtet werden, die 
+dem menschlichen Unterarm entsprechen, um eine realistischere Darstellung zu gewährleisten. 
+In vielen Bereichen des modellierten Roboterarms sind momentan zu viele Lufträume, die bei 
+zukünftigen Modellierungen deutlich reduziert werden können. \\
+\\
+\textbf{Professionell gefertigte mechanische Teile} \\
+
 
 
 \newpage
