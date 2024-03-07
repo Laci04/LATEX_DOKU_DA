@@ -3575,115 +3575,414 @@ Empfängerplatine gesendet. \\
 \\
 
 \newpage
-\subsection{Roboterhand}
+\subsection{Roboterhand \textcolor{red}{Amir}}
 
 \subsubsection{Grundlegende Vorraussetzungen}
-Die Software des Roboterarmes ist dafür verantwortlich, dass die von der Handschuhplatine, via ESP32, gesendeten Daten 
-erfolgreich empfangen und gespeichert werden. Die Software wird hierzu per UART-Schnittstelle auf den ESP32 hochgeladen. 
-Die Daten der Flexsensoren, die man bereits erhalten hat, sollen dann verarbeitet werden. Anhand des Widerstandwertes und 
-der jeweiligen Veränderung, wird dann der Winkel des Servos eingestellt. Eine Fehlerkorrektur soll sicherstellen, dass die 
-Griffkraft passend eingestellt wird. Jeder Flexsensor hat unterschiedliche Widerstandswerte, es muss also über jeden Finger 
-eine gezielte Software geschrieben werden, damit man schlussendlich durch das Zusammenspiel aller Finger die Griffkraft 
-richtig einstellen kann. Falsche Messungen sollen bestmöglich korrigiert werden, sodass die Servos jeweils die richtigen 
-Winkeleinstellungen erhalten. Der ESP32 stellt hierbei die Zentrale der Steuerung dar.
-
-\subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
-Datenübertragung, Programmiersprache/Entwicklungsumgebung und Benutzerfreundlichkeit siehe \autoref{par:Datenübertragung} \\
-\\
-\paragraph{Testen}
-\hfill \break
-\hfill \break
-Die von der Senderplatine (Handschuh) gesendeten Daten sollen ausgelesen werden. Sie wurden nach einem bestimmten Format 
-(Schema) gesendet. Diese Daten sollen nun ausgewertet werden. Diese Daten werden nun dazu verwendet, um die einzelnen Servos 
-anzusteuern. Dabei wird zuerst die Servo Nummer der empfangenen Daten ausgelesen und dann der Wert. Je nachdem wie groß der
-Wert ist, dreht sich der Servo. Es kann dann getestet werden, ob sich der Servo tatsächlich dreht und somit, ob die 
-Kommunikation mit dem Servo funktioniert. Wenn man die 3D-gedruckten Finger dann per Angelschnur mit den Servos verbindet, 
-dann kann man am besten feststellen, ob die Software richtig läuft oder nicht. \\
-\\
-\paragraph{Allgemeines Konzept}
-\hfill \break
-\hfill \break
-Die über ESP-NOW empfangenen Daten (Widerstandswerte samt Nummer des Flexsensors) sollen ausgelesen werden. Dadurch kann dann 
-bestimmt werden, welcher Servo sich um wie viel drehen soll. Es muss festgestellt werden, dass die Daten über eine 
-Datenkorrektur (Median der letzten 5 Werte) korrigiert wird. Das soll dazu beitragen, dass Fehlmessungen nicht in die Werte, 
-die an die Servos übergeben werden, einfließen. Dadurch wird sichergestellt, dass die korrigierten Werte weniger anfällig für 
-große Schwankungen gegenüber der möglicherweise fehlgemessenen Werten (Wackelkontakt zwischen Flexsensor und Sendeplatine) sind. 
-Durch die Strommessung kann dann noch festgestellt werden, ob ein Finger blockiert. Dies ist dann der Fall, wenn der Strom zu 
-lange einen gewissen festgelegten Schwellwert übersteigt. Die Servos sollen am Ende dann mit den korrigierten Werten angesteuert 
-werden und sich ja nach Wert dann um eine einen bestimmten Winkel drehen, sodass der 3D-gedruckte Finger herangezogen oder
-entlastet wird.
+Die Software des Roboterarmes fungiert als Herzstück der mechanischen Roboterhand und legt damit eine Brücke zwischen den auf dem Handschuh erfassten 
+humanoiden Bewegungen und der Hand des Roboters. Empfangene Daten, sei es auf drahtlosen oder direktem Wege, müssen interpretiert, analysiert und bei 
+Gegebenheit auch korrigiert werden. Die Software soll in der Lage sein, Fehler frühzeitig zu erkennen und entsprechend auf diese zu reagieren. Ein Zittern 
+oder ungewünschte Bewegungen der Fingern sollen durch diese Algorithmen verhindert werden. Dar es zwei Steuerungsmöglichkeiten gibt, per Handschuh oder 
+Userinterface, muss automatisch zwischen den gewollten Modis unterschieden werden. Eine intelligente Strommessung der Servoaktoren erweitert dieses 
+System und liefert dem Userinterface relevante Daten. \\
 \\
 
-\subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
-\label{chap:Realisierung und Gleiderung Roboterhandsoftware}
-\paragraph{Realisierung}
+\subsubsection{Realisierung: Überblick}
+Die Vielfalt der Software fordert Struktur und eine systematische Gliederung. Empfangene Daten durchlaufen mehrere Strecken, an denen diese dann 
+verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umsetzt. \\
+\\
+
+\paragraph{Programmfluss}
 \hfill \break
 \hfill \break
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
-		{\includegraphics[width=0.8 \linewidth]{Flussdiagramm_Software_Roboterhand}}
-		\caption{Flussdiagram Software Ausgabesubsystem}
-		\label{fig:Flussdiagramm_Software_Roboterhand}		
+		{\includegraphics[width=0.8 \linewidth]{Programmfluss1_Roboterhand}}
+		\caption{Programmfluss1}
+		\label{fig:Programmfluss1_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
-Der Code der Programmierung des ESP32 wurde in C/C++ geschrieben. \\
-Am Anfang wird der Buffer des ESP32 ausgelesen. Die von der Senderplatine (Handschuh) empfangenen Daten werden verarbeitet. 
-Der Strom, der eine mögliche Blockierung eines Fingers erkennen kann, muss alle 3ms gemessen werden. Wenn dieser je Finger zu 
-hoch ist, dann muss dieser Finger vorerst auf dem momentanen Wert belassen werden oder auf den maximalen Wert gesetzt werden. 
-Dieser beschreibt die Stellung, wenn ein Finger nicht gebeugt wurde. Da die empfangenen Daten möglicherweise eine Fehlmessung 
-beinhalten, muss eine Datenkorrektur diese entfernen. Der Median der letzten 5 Werte wird zu diesem Zweck verwendet. Dies soll 
-dazu führen, dass ein Wert, der sehr anders als die weiteren 4 Werte ist, nicht an die Servos gesendet wird, sondern aussortiert 
-wird. Nachdem dann alle Werte gesendet werden, wird überprüft, ob die Endposition des jeweiligen Servos erreicht wurde. Falls 
-nein, dann darf sich der Servo weiter zu dem gesendeten Wert hinbewegen. Falls dann die gewünschte Endposition erreicht ist 
-oder der Servo sich in eine beliebige Richtung dreht, dann wird noch der Timer von 10ms abgewartet und das Prozedere beginnt 
-wieder von vorne.
+Das Diagramm in \autoref{label:Flussdiagramm_Software_Roboterhand} veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
+werden auf diesen verarbeitet und interpretiert.
+\\
+Zu Beginn der Software muss geklärt werden ob ein seriell verbundenes Userinterface erkannt wurde oder nicht. Ermöglicht wird dies durch eine Anfrage, 
+welche die Roboterhand auf den Seriellen Monitor schreibt. Dies erfolgt durch den String „\$req.UI“, welcher vom Userinterface als Anweisung zum Antworten 
+interpretiert wird. Antwortet das Userinterface wie erwartet versetzt sich die Roboterhand in den Userinterface-Modus, in der Grafik als „UI-MODE“ 
+gekennzeichnet. Erfolgt keine Antwort, konfiguriert sich die Hand ausschließlich darauf, auf Daten welche über das drahtlose ESP-NOW Protokoll empfangen 
+werden zu reagieren. Der Modus in dem die Hand ist wird als „ONLY – GLOVE“ in dieser Grafik bezeichnet. \\
+Ist die Hand im Userinterface-Modus ist dennoch eine Kommunikation und Steuerung über die drahtlos verbundene Roboterhand möglich. Die Software 
+unterscheidet somit ob ausschließlich die Hand oder beides, das Unterinterface und die Hand, genutzt wird. Wird beides genutzt gibt es jedoch auch ein 
+Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \\
 \begin{figure}[H]
-	\centering
-	\scalebox{1.5}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_1}}
-	%\caption{}
-	%\label{fig:Softwaremap_1}	
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\scalebox{1.8}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_2}}
-	%\caption{}
-	%\label{fig:Softwaremap_2}	
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\scalebox{1.1}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_3}}
-	\caption{Softwaremap Ausgabesubsystem}
-	\label{fig:Softwaremap_3}	
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Programmfluss2_Roboterhand}}
+		\caption{Programmfluss2}
+		\label{fig:Programmfluss2_Roboterhand}		
+	\end{center}
 \end{figure}
 \hfill \break
-Als Erstes werden die von der Senderplatine gesendeten Daten ausgelesen. Diese 
-werden mit ESP-NOW übertragen. Gesendet wird in folgendem Format: 
-\$fingerNummer:Wert. Somit kann herausgefunden werden, welcher Wert eines 
-bestimmten Fingers gerade gesendet wird. Der Fingerindex (Nummer) gibt dabei den 
-Finger des Handschuhs an. Die Fingerposition kann einen Wert von 0-100 
-(Minimum-Maximum) annehmen. Die ausgelesenen Werte werden dann jeweils bei jedem 
-neuen Auslesen um eine Stelle nach rechts geshiftet. Somit ergibt sich ein Array, 
-das eine maximale Anzahl von 5 Werten pro Zeile erlaubt. Um zu vermeiden, dass 
-sehr von den anderen Werten abweichende Zahlen in die Steuerung der Servos miteinfließen, 
-wird der Median aus den 5 Werten des Arrays gebildet. Dabei würde dann beispielsweise 
-ein Wert von 20, wenn sich die anderen 4 im Bereich zwischen 2 und 5 liegen, 
-herausgefiltert werden, da dieser nicht in der (festlegbaren) Toleranz liegt. 
-Der Median wird also im schlimmsten Fall zur Vermeidung von Fehlern verwendet. 
-Die Griffkraftkontrolle achtet ständig auf den aktuellen Stromwert. Falls dieser 
-zu hoch sein sollte, wird die Position des Servos gehalten. Die aktuellen Werte, 
-beziehungsweise der Median im Falle einer Abweichung, werden übergeben. Der 
-Servo wird dann jedes Mal um 5° weitergedreht. Die Schutzvariable hat dann anfangs 
-den Wert 1, wenn allerdings der Strom laut Charakteristik einen bestimmten Schwellenwert 
-überschreitet, dann wird die Schutzvariable auf den Wert 2 gesetzt und der Servo 
-dreht sich nur noch um 3° weiter. Wenn schlussendlich dann der Strom zu hoch sein 
-sollte, dann bleibt der Servo auf der momentanen Position stehen und die Schutzvariable 
-wird auf den Wert 3 gesetzt. Damit soll eine mögliche Blockierung der Finger 
-erkannt und die weitere Drehung des Servos erfolgreich gestoppt werden, um 
-Schäden an der Mechanik zu vermeiden. \\
+\textbf{ONLY-GLOVE Modus:} \\
+Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
+die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. Im folgendem Kapitel (8.2.5.3 ESP-NOW und Wifi.h) wird 
+die Anwendung dieser Komponente in dem System detailliert erläutert. \\
+Wurden Daten empfangen wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
+Dieser String wird daraufhin an die Komponente „interpretiere Daten“ vom Kapitel (8.2.4.1 Parser und Interpretation: drahtloser Datenströme) weitergegeben, 
+dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
+eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in dem Kapitel (8.2.4.3 proaktiver Datenkorrekturalgorithmus) 
+zu finden. \\
+Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block „Servomapping“ übergeben, beschrieben unter 
+(8.2.4.4 Datenaufbereitung und Anweisung für Servoaktoren), dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
+gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Programmfluss3_Roboterhand}}
+		\caption{Programmfluss3}
+		\label{fig:Programmfluss3_Roboterhand}		
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{UserInterface Modus:} \\
+Dieser Modus ermöglicht es die Hand über jeweils das Userinterface und auch den Handschuh zu steuern, jedoch getrennt voneinander. Oft wird dieser Modus 
+missverstanden, da interpretiert wird, dass er ausschließlich eine Steuermöglichkeit über das Userinterface bietet. \\
+Welche Steuerungsmöglichkeit gewählt wird kann über das Interface per „Switch-Button“ eingestellt werden. Das Userinterface sendet bei der nächsten 
+Anfrage von der Roboterhand-Software die Information mit auf welchen Modus der Schalter gestellt wurde. \\
+\\
+Erhält das Userinterface eine Anfrage antwortet dieses entsprechend mit - §answ.here und fügt daraufhin je nachdem welcher Modus im Userinterface gewählt 
+wurde ein .han, für die Steuerung per Handschuh, oder ein .ser, für eine Steuerung per Interface, an diesen String an. \\
+Die Antwort vom Userinterface somit ausschließlich „\$answ.here.ser“ oder „\$answ.here.han“ sein. \\
+Im Kapitel (8.3.4 Realisierung des Frontends) sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
+\\
+Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle Empfangenen Befehle vom 
+diesem ignoriert, außer die Anweisung die Steuerungsoption zu wechseln. Der Ablauf in dieser Option gleicht dem des im Only-Glove Modus, die drahtlos 
+empfangenen Daten werden interpretiert, daraufhin geprüft und eventuell korrigiert und letztlich gemappt bis sie dann an den Motor übergeben werden. 
+Zusätzlich wird direkt nachdem die Anweisungen an den Motor übergeben wurden, eine Strommessung gestartet – wessen Messergebnisse in der Form einer 
+Rückmeldung an das Userinterface über die Serielle Schnittstelle gesendet werden. \\
+\\
+Entscheidet sich der Nutzer nun doch die Roboterhand mit den vom Userinterface geboten Bedienungsmöglichkeiten zu steuern, wird ebenso bei der nächsten 
+erhaltenen Anfrage diese Änderung übergeben. Wird diese Änderung erkannt, reagiert die Software auf alle vom Interface übergeben Positionsanweisungen. 
+Die Anweisungen landen in erster Hand in der Komponente „UI-Interpreter“ dort werden diese Anweisungen in ihre Parameter geteilt und das Programm übergibt 
+diese an die folgende Komponente des „Servomappings“. Unmittelbar nachdem die angepassten Werte dem Motor übergeben wurden, wird eine Strommessung von 
+der Software aus gestartet. Diese sendet die erfassten Werte des Messfensters an das Userinterface. \\
+\\
+
+
+\paragraph{Effiziente Gliederung essentieller Systemkomponenten}
+\hfill \break
+\hfill \break
+Der Programmcode wurde modular in Form einzelner Komponenten realisiert, anhand dessen wird die Möglichkeit geschaffen diese mehrfach zu verwenden und 
+die Komplexität der Software zu minimieren. Die bereits beschriebenen Routen welche von einem Datenpacket durchlaufen werden, setzen sich aus diesen 
+repetitiven Komponenten zusammen. \\
+Die einzelnen Komponenten sind getrennt von dem Hauptprogramm und sind somit nicht in diesem vorhanden, jedoch werden sie mit einer .h Datei verknüpft. 
+In Form einer Funktion können diese implementiert werden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{effiziente_Gliederung}}
+		\caption{effiziente Gliederung}
+		\label{fig:effiziente_Gliederung}		
+	\end{center}
+\end{figure}
+\hfill \break
+Diese Struktur des Programms bringt zahlreiche Vorteile mit sich, unter anderem, dass sich wiederholende Code-Abschnitte nun anhand der Gliederung mit 
+einer Komponente effektiv implementieren lassen. Aber auch der Die Übersicht spielt eine große Rolle, das Hauptprogramm ist bereits äußerst überfüllt 
+mit Konfigurationsmöglichkeiten für beispielsweise die drahtlose Kommunikation beider Subsysteme. \\
+\\
+
+\subsubsection{Kommunikation - Protokolle}
+\label{chap:Kommunikation-Protokolle}
+Für den Datenaustausch zwischen dem Eingabe- und dem Ausgabesubsystem wird ein einheitliches Protokoll benötigt, welches auch während der Entwicklung 
+ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten welche für das 
+Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird im Kapitel 	(8.2.4.1 Parser und Interpretation: drahtloser Datenströme) 
+und (8.2.4.2 Parser und Interpretation: serieller Datenströme). \\
+\\
+%\begin{figure}[H]
+%	\centering
+%	\scalebox{1.5}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_1}}
+	%\caption{}
+	%\label{fig:Softwaremap_1}	
+%\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\scalebox{1.8}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_2}}
+	%\caption{}
+	%\label{fig:Softwaremap_2}	
+%\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\scalebox{1.1}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_3}}
+%	\caption{Softwaremap Ausgabesubsystem}
+%	\label{fig:Softwaremap_3}	
+%\end{figure}
+%\hfill \break
+\paragraph{Drahtlose Kommunikation}
+\label{par:Drahtlose Kommunikation}
+\hfill \break
+\hfill \break
+Unter der drahtlosen Kommunikation kann die zwischen dem Eingabesubsystem und dem Ausgabesubsystem, welches über ESP-NOW erfolgt, verstanden werden. 
+Übergeben werden die Datenpakete auf dieser Strecke unidirektional, von dem Eingabesubsystem zu dem Ausgabesubsystem. Ein Datenpaket enthält immer jeweils 
+die Position eines Fingers und dessen Index.Unter der drahtlosen Kommunikation kann die zwischen dem Eingabesubsystem und dem Ausgabesubsystem, welches 
+über ESP-NOW erfolgt, verstanden werden. Übergeben werden die Datenpakete auf dieser Strecke unidirektional, von dem Eingabesubsystem zu dem 
+Ausgabesubsystem. Ein Datenpaket enthält immer jeweils die Position eines Fingers und dessen Index. \\
+\\
+Beispiel für ein Paket: \\
+$\$S:1:50$ \\
+\\
+\$ Ist der primäre Präfix von jedem gesendet Datenpaket und die Grundvoraussetzung, dass der jeweilige Parser es überhaupt interpretiert. \\
+\\
+Das folgende „S“ steht in diesem Fall für Servo und deutet daraufhin, dass nun ein variabler Wert folgt welcher den Index des jeweiligen Motors angibt. 
+Dieser kann in diesem Fall von 0-4 variieren und wird mit einem „:“ getrennt. \\
+Es ist ein verpflichtender Teil des Protokolls, dass alle variablen Werte auf diese Weise getrennt werden. \\
+Nach dem nächsten „:“ muss nun ein Wert zwischen 0 und 100 folgen. Dies ist ein gemappter Wert, welcher von der Software dann auf die Zugcharakteristik 
+der Motoren rückgemappt wird, und gibt die Fingerstellung an. \\
+\\
+Das Paket aus dem Beispiel bedeutet somit: „Der Servomotor-1 soll seinen Finger auf eine Faltung von 50\% stellen“. \\
+\\
+
+\paragraph{Serielle Kommunikation}
+\label{par:Serielle Kommunikation}
+\hfill \break
+\hfill \break
+Die Serielle Kommunikation beschreibt den Datenverkehr zwischen dem Ausgabesubsystem und dem Userinterface. Aufgrund der vielfältigen Funktionen und auch 
+der bidirektionalen Kommunikationslinie muss das Protokoll in mehrere Abschnitte unterteilt werden. Darunter Fingersteuerungen, Gesten und das Feedback. \\
+\\
+Fingersteuerungen: \\
+\\
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Finger} & \textbf{Index} & \textbf{Wert (in \%)} & \textbf{Format} \\
+        \hline
+		Daumen & Th\_S & 0 bis 100 & \$Th\_S:Wert \\
+		\hline
+		Zeigefinger & In\_S & 0 bis 100 & \$In\_S:Wert \\
+		\hline
+		Mittelfinger & Mi\_S & 0 bis 100 & \$Mi\_S:Wert \\
+		\hline
+		Ringfinger & Ri\_S & 0 bis 100 & \$Ri\_S:Wert \\
+		\hline
+		Kleinerfinger & Pi\_S & 0 bis 100 & \$Pi\_S:Wert \\
+		\hline
+		Alle Finger & Al\_S & 0 bis 100 & \$Al\_S:Wert \\
+		\hline
+    \end{tabular}
+    \label{tab:Fingersteuerung}
+\end{table}
+\hfill \break
+Dies ist ein Überblick des Protokolls welches beschreibt wie das Userinterface Anweisungen an das Ausgabesubsystem sendet. Das Format ist wie folgt: 
+\$FINGERINDEX:WERT, der Index des Fingers übergibt welcher Finger gemeint ist, der Wert besagt auf welche Position sich der Finger stellen soll.
+Es gibt auch eine Anweisung, welche alle Finger ansteuert, diese könnte beispielsweise wie folgt aussehen: \$Al\_S:50 und würde die Finger auf 50\% Faltung 
+stellen. \\
+Neben dem einzelnen Steuern der Finger soll auch die Möglichkeit gegeben werden Gesten an die Hand zu übergeben. \\
+\\
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Geste} & \textbf{Index} & \textbf{Format} & \textbf{Beschreibung} \\
+        \hline
+		Standby & St\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Eine Stellung aller Finger auf 50\% \\
+		\hline
+		Thumb Up & Th\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Die Geste Daumen hoch \\
+		\hline
+		Peace & Pe\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Friedensgeste - Peace \\
+		\hline
+		Open Hand & Op\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Hand öffnen \\
+		\hline
+		Yeah & Ye\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Rockergeste \\
+		\hline
+		Fist & Fi\_B & $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ & Eine faust formen \\
+		\hline
+    \end{tabular}
+    \label{tab:Gestensteuerung}
+\end{table}
+\hfill \break
+Das Format der Geste beschreibt sich wie folgt: $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ – Das G sagt dem Interpreter das dies eine Anweisung ist welche eine 
+Geste beschreibt, darauf folgend fünf Werte von 0 bis 100 welche als V1 bis V5 benannt wurden, diese geben die Position in Prozent jedes einzelnen Fingers 
+an. \\
+\\
+Aufgrund des bidirektionalen Datenverkehrs zwischen dem Ausgangssubsystem und dem Userinterface muss nun auch ein Protokoll für das Feedback geschaffen 
+werden. \\
+An das Userinterface werden bei aktuellstem Entwicklungsstand ausschließlich Daten der Strommessung gesendet. \\
+\\
+Dies erfolgt in folgendem Format: \\
+\$A:INDEX:WERT \\
+\\
+\textbf{„A“} bedeutet für das Userinterface, dass nun mit einem Messerwert der jeweiligen Ströme gerechnet werden muss. An der Stelle von \textbf{„INDEX“} ist ein Wert 
+von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. Darauf folgt, dann der Messwert \textbf{„WERT“}. \\
+\\
+
+\subsubsection{Individuelle Komponenten}
+Wie in dem Kapitel (8.2.2.2 Effiziente Gliederung essenzieller Systemkomponenten) bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
+Unterprogrammen zusammen, diese werden als „Komponente“ bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
+sich die jeweiligen Routen, die ein Datenpacket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
+Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
+werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter sind. \\
+\\
+
+\paragraph{Parser und Interpretation: drahtloser Datenströme}
+\hfill \break
+\hfill \break
+Die Interpretation drahtloser Datenströme findet auf zwei Datenrouten im Programm ihre Anwendung. Einmal im „ONLY-GLOVE“ Modus und auch im Userinterface 
+Modus, sofern dieses auch auf den „GLOVE“ Modus gestellt wurde. \\
+\\
+\footnotesize
+\begin{lstlisting}
+void interpretiereDaten(rueckgabe_st * rueckgabe, const uint8_t * data, int data_len)
+\end{lstlisting}
+\hfill \break
+\normalsize
+Die Systemkomponente erhält drei Parameter, der erste beinhaltet einen Zeiger auf die Struktur $rueckgabe\_st$. Dieser ermöglicht es die später extrahierten 
+Daten in einer Struktur zu speichern und diese im Hauptprogramm zu nutzen. Der nächste Parameter beinhaltet einen Zeiger auf den Speicherort des 
+empfangenen Datenpakets. Der dritte Parameter gibt die Länge des Datenpakets an. \\
+\\
+\footnotesize
+\begin{lstlisting}
+	if (data_len >= 5 && data[0] != '$' && data[1] != 's' && data[2] != ':') {
+		rueckgabe->servoIndex = data[3] - '0';
+		rueckgabe->grad = atoi((char*)&data[5]);
+	}
+	else {
+		Serial.println("Ungueltige Daten erhalten");
+	  return;
+	}
+\end{lstlisting}
+\hfill \break
+\normalsize
+Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in Kapitel (8.2.3.1 Drahtlose Kommunikation) beschrieben, erfüllt wird. \\
+Ist dies der Fall wird in die Struktur „Rückgabe“ der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
+\\
+
+\paragraph{Parser und Interpreatation: serieller Datenströme}
+\hfill \break
+\hfill \break
+Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
+die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in dem Kapitel (8.2.3.2 Serielle Kommunikation) beschrieben, hat dieser Parser mit 
+Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zu einem Anweisungen für einzelne Finger, sowie auch Gesten. \\
+\\
+\textcolor{red}{Platzhalter für Amir} \\
+\\
+
+\paragraph{proaktiver Datenkorrekturalgorithmus}
+\hfill \break
+\hfill \break
+Aufgrund der Volatilität der Flex-Sensoren, sowie auch der Verdrahtung, welche bei Bewegung eines Fingers mitbelastet wird, besteht eine Chance dass es 
+zu fehlerhaften Messwerten kommt. Um das Eingabesubsystem möglichst performant und einfach zu halten wird ein Filter und Prüfsystem auf das 
+Ausgabesubsystem ausgelagert. Benötigt wird ein Algorithmus welcher Fehler erkennt und diese unmittelbar sinnhaft korrigiert. \\
+\\
+Der proaktive Datenkorrekturalgorithmus basiert auf dem Prinzip der Verzögerung und lässt empfangene Daten einen Prozess durchlaufen, bis diese korrigiert 
+und an den Motor übergeben werden. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Median}}
+		\caption{Median}
+		\label{fig:Median}		
+	\end{center}
+\end{figure}
+\hfill \break
+Im Fokus des Algorithmus liegt ein Array, ein zusammenhängender Speicherblock, in diesem werden alle Empfangenen Daten chronologisch gespeichert. Jedem 
+der Fünf Finger ist solch ein Array zugeordnet, welches beispielsweise die letzten zehn Fingerpositionswerte beinhaltet. \\
+\\
+Parst das Ausgangssubsystem einen neuen Wert, landet dieser im Array des Fingers und alle bereits vorhandenen Wert werden um eine Position nach rechts 
+geshiftet. \\
+Die Elemente des Arrays haben jeweils einen eigenen nutzen. Aus dem ersten bis zum siebten Element wird bei jeder Iteration ein Median berechnet und in 
+einer externen Variable gespeichert. \\
+Das achte Element ist der sogenannte „SCOPE“, dieser Wert ist die zweite Komponente einer Vergleichsoperation. Das neunte Element ist das letzte des 
+Speichers, in diesem befindet sich der am aktuellsten geprüfte und je nach Umständen auch korrigierte Wert. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Median2}}
+		\caption{Median}
+		\label{fig:Median2}		
+	\end{center}
+\end{figure}
+\hfill \break
+In der \autoref{fig:Median2} werden mehre Iterationen gezeigt, welche die Fehlererkennung und Eliminierung dieses veranschaulichen. Gezeigt wird hier derselbe 
+Speicher, chronologisch wird gezeigt, wie von oben nach unten sich der Speicher pro Iteration ändert. Bei 1. ist zu sehen, dass sich im Scope der Wert 
+„25“ befindet. Der berechnete Median beträgt 15. \\
+Nun erfolgt eine Vergleichsoperation zwischen dem Wert im Scope und dem Median, überschreitet deren Differenz einen maximalen Grenzwert muss dieser 
+korrigiert werden. Da dies nicht der Fall ist wird der Wert 25 in der nächsten Iteration auf das Element für den OUTPUT geschoben. \\
+\\
+Bei der nächsten Iteration, in \autoref{fig:Median2} an Stelle 2. zu finden, wurden alle Werte nach rechts verschoben. Nun steht der Wert 987 im Scope, bei der 
+Vergleichsoperation mit dem Median von 14 ist ersichtlich, dass deren Differenz die maximal konfigurierte Grenze überschreitet. Das Ergebnis: Eine 
+Korrektur ist erforderlich. Die nächste Iteration zeigt, dass dieser Wert korrigiert wurde. Der als fehlerhaft identifizierte Wert wurde mit dem 
+berechneten Median von 14 ersetzt. \\ 
+\\
+Anhand der Verzögerung der Elemente, beträgt im Falle des Beispiels neun, ist der Algorithmus in der Lage einen Wert anhand der zukünftigen zu Beurteilen. 
+Dies verhindert, dass eine rapide Änderung als Fehler identifiziert wird. Aufgrund des hohen Datenflusses sind Verzögerungen von rund zehn Elementen für 
+den Gebraucher nicht wahrnehmbar. \\
+\\
+\textcolor{red}{REMINDER AN AMIR CODE EINFÜGEN UND DIE BERECHNUNG DES MEDIANS IM CODE DARSTELLEN} \\
+\\
+
+\paragraph{Datenaufbereitung und Anweisung für Servoaktoren}
+\hfill \break
+\hfill \break
+Jeder der im Projekt verwendeten Servomotoren, der MG995R, hat im Originalzustand einen maximalen Drehwinkel von 180\textdegree - entsprechend auf diesen 
+Winkel wurde der Mechanismus, wie im Kapitel (6.2.5 Vierte Hand (Hybrid-Konzept)) näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
+fehlende Glied, welches dafür sorgt, dass die Finger sich optimal bewegen. \\
+Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung sobald sich der Motor um beispielsweise 30° dreht. Um ein einheitliches 
+System zu schaffen, muss somit ermittelt bei welchem Drehungswinkel der Finger bereits gestreckt oder in der maximalen Falteposition, sprich vollkommen 
+eingefaltet ist. \\
+\\
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Finger} & \textbf{min. Drehwinkel$_{ausgestreckt}$} & \textbf{max. Drehwinkel$_{max. gefaltet}$} \\
+        \hline
+		Zeigefinger & 104\textdegree & 0\textdegree \\
+		\hline
+		Mittelfinger & 140\textdegree & 20\textdegree \\
+		\hline
+		Ringfinger & 4\textdegree & 108\textdegree \\
+		\hline
+		Kleinerfinger & 0\textdegree & 108\textdegree \\
+		\hline
+		Daumen & 52\textdegree & 0\textdegree \\
+		\hline
+    \end{tabular}
+    \label{tab:Servo Drehwinkel}
+\end{table}
+\hfill \break
+Das Eingangssubsystem misst die Stellung der Flex-Sensoren und übersetzt diese dann auf einen Bereich von 0 bis 100\%, das Ausgangssubsystem empfängt 
+die prozentuale Faltstellung des Fingers. \\
+\\
+Die Funktion „HPCA9685.Servo“ erfordert einen anderen Wertebereich als der empfangene von 0 bis 100 und somit müssen diese Werte gemappt werden. \\
+\\
+\footnotesize
+\begin{lstlisting}
+int value_out = map(rueckgabe.grad, 0, 100, fingerLimits[rueckgabe.servoIndex][0], 
+fingerLimits[rueckgabe.servoIndex][1]);
+HCPCA9685.Servo(rueckgabe.servoIndex.XXXXX);
+\end{lstlisting}
+\hfill \break
+\normalsize
+\textcolor{red}{REMINDER AN AMIR DEN CODE UNBEDINGT NOCH ANPASSEN} \\
+\\
+\subsubsection{Fremdkomponenten}
+
+\paragraph{MCP3X21}
+\hfill \break
+\hfill \break
+
+\paragraph{HCPCA9685}
+\hfill \break
+\hfill \break
+
+\paragraph{ESP-NOW und Wifi.h}
+\hfill \break
+\hfill \break
 
 \newpage
 \subsection{User Interface}
