@@ -132,10 +132,10 @@
 \contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{110}{paragraph.8.1.2.1}%
 \contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{111}{paragraph.8.1.2.2}%
 \contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{112}{paragraph.8.1.2.3}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand \textcolor {red}{Amir}}{116}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{116}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Realisierung: Überblick}{116}{subsubsection.8.2.2}%
-\contentsline {paragraph}{\numberline {8.2.2.1}Programmfluss}{116}{paragraph.8.2.2.1}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand \textcolor {red}{Amir}}{115}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{115}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Realisierung: Überblick}{115}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}Programmfluss}{115}{paragraph.8.2.2.1}%
 \contentsline {paragraph}{\numberline {8.2.2.2}Effiziente Gliederung essentieller Systemkomponenten}{119}{paragraph.8.2.2.2}%
 \contentsline {subsubsection}{\numberline {8.2.3}Kommunikation - Protokolle}{120}{subsubsection.8.2.3}%
 \contentsline {paragraph}{\numberline {8.2.3.1}Drahtlose Kommunikation}{120}{paragraph.8.2.3.1}%
@@ -153,10 +153,9 @@
 \contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{127}{subsubsection.8.3.1}%
 \contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{127}{subsubsection.8.3.2}%
 \contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{127}{subsubsection.8.3.3}%
-\contentsline {paragraph}{\numberline {8.3.3.1}Allgemeines Konzept}{127}{paragraph.8.3.3.1}%
 \contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{129}{subsubsection.8.3.4}%
-\contentsline {paragraph}{\numberline {8.3.4.1}Erläuterung der Grafikoberfläche}{129}{paragraph.8.3.4.1}%
-\contentsline {subsubsection}{\numberline {8.3.5}Realisierung des Backends \textcolor {red}{Laci}}{131}{subsubsection.8.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.5}Erläuterung der Grafikoberfläche}{129}{subsubsection.8.3.5}%
+\contentsline {subsubsection}{\numberline {8.3.6}Realisierung des Backends \textcolor {red}{Laci}}{131}{subsubsection.8.3.6}%
 \contentsline {section}{\numberline {9}Tests und Messungen}{132}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{132}{subsection.9.1}%
 \contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{136}{section.10}%

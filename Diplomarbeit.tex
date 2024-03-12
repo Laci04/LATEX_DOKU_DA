@@ -985,6 +985,11 @@ funktioniert dies durch Halbleiterelemente. Das Steuersignal schaltet noch zusä
 
 \subsection{PWM-Signale}
 \label{chap:PWM-Signale}
+Ein PWM-Signal ist ein Rechtecksignal mit konstanter Frequenz. Die Pulsweite ist allerdings variabel. Mit der Pulsweite wird angegeben, wie lange ein Signal auf 
+"High", also 1, gesetzt ist (danach wird das Signal auf "LOW", also 0, gesetzt). Analoge Systeme können mit digitalen Signalen gesteuert werden. Die Spannung kann 
+durch die Veränderung der Pulsweite verändert werden. Durch ein PWM-Signal kann die Geschwindigkeit eines Gleichstommotors gesteuert werden. Das Tastverhältnis, 
+also das Verhältnis von der Pulslänge zu der Periodenlänge, wird in Prozent angegeben. \\
+\\
 
 \subsection{I2C Funktionsweise}
 \label{chap:I2C Funktionsweise}
@@ -1107,7 +1112,7 @@ Die Reichweite eines WLANs kann durch verschiedene Faktoren beeinflusst werden. 
 		\end{center}
 	\end{figure}
 
-Das Gesamtsystem ist in \autoref{fig:Blockschaltbild_Gesamtsystem} grafisch veranschaulicht. Die linke Hälfte zeigt das Konzept des 
+Das Gesamtsystem ist in [\textcolor{blue}{\autoref{fig:Blockschaltbild_Gesamtsystem}}] grafisch veranschaulicht. Die linke Hälfte zeigt das Konzept des 
 Handschuhs (Eingabe) und die rechte Hälfte die Roboterhand (Ausgabe). Die grundlegende Konzeptionierung der Bewegungserfassung 
 besteht darin, dass mithilfe von Sensoren die Fingerbeugung aller fünf Finger gemessen wird. Anschließend werden die Sensordaten
 ausgewertet und verarbeitet. Die resultierenden Informationen werden anschließend über eine drahtlose Verbindung an das zweite 
@@ -1162,7 +1167,7 @@ richtig verarbeitet. \\
 
 Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes Format für die Steuerung der Aktorik, also den Servomotoren,
 umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem, ist ein Graphical-User-Interface, 
-welches in \autoref{chap:User Interface} näher erklrärt wird. \\
+welches in [\textcolor{blue}{\autoref{chap:User Interface}}] näher erklrärt wird. \\
 
 \newpage
 %--------------------------------------------------------------------------
@@ -1236,7 +1241,7 @@ sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
 \subsubsection{Versuchsaufbauten}
 In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
-Dafür wurde in der CAD Software Fusion360 ein erstes Testmodell entworfen. \\
+Dafür wurde in der CAD Software Fusion360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] ein erstes Testmodell entworfen. \\
 
 \paragraph{Aufbau}
 \hfill \break
@@ -1278,7 +1283,7 @@ Gummikordel. \\
 \hfill \break
 Die erste Testhand zielt darauf ab ein Modell welches durchgängig erweitert 
 werden kann zu schaffen. Mit Rücksicht auf etwaige Testergebnisse des 
-Versuchsresultats (siehe \autoref{par:Versuchsresultat}) soll ein Modell geschaffen werden, 
+Versuchsresultats [siehe \textcolor{blue}{\autoref{par:Versuchsresultat}}] soll ein Modell geschaffen werden, 
 welches den im Versuch aufgetretenen Problematiken entgegenwirkt. Unter anderem 
 der nicht vorhandene Rückzug, eine Schnur für den Zug mit ausreichender 
 Reißfestigkeit sowie eine anwendungsgemäße Konstruktion des Fingers. \\
@@ -1297,6 +1302,7 @@ In diesem Modell wird daher ein Elastomer, ein elastisches Material in Form
 eines Bandes mit ausreichender Kraft gewählt. \\
 
 \paragraph{Realisierung und Zusammenbau}
+\label{par:Realisierung und Zusammenbau}
 \hfill \break
 \hfill \break
 Das Konzept wird anhand einer Testhand realisiert, diese setzt sich im Wesentlichen 
@@ -1434,10 +1440,11 @@ Der erste Versuch, indem ausschließlich der Faltmechanismus und sein
 Verhalten bei Zug am Finger in Erfahrung gebracht werden hat weitlaufende 
 Erkenntnisse geliefert. Diese haben zu einem frühzeitigen Abbruch weiterer 
 Tests geführt. Die sich dabei erschlossenen Problematiken und Erkenntnisse 
-werden im folgenden Kapitel (6.2.2.2 Fazit und Ergebnisse) erläutert. \\
+werden in [\textcolor{blue}{\autoref{par:Fazit und Ergebnisse}}] erläutert. \\
 \\
 
 \paragraph{Fazit und Ergebnisse}
+\label{par:Fazit und Ergebnisse}
 \hfill \break
 \hfill \break
 Der Grundstein für eine bewegliche Hand, welche Finger mit einem 
@@ -1488,10 +1495,11 @@ Die entstandenen Problematiken:
 	Rändern und dies führt zu mehr Reibung, sowie einem Schaden am Finger.
 	Somit muss zusätzlich mehr Kraft angewendet werden.
 \end{itemize}
+\hfill \break
 
 \textbf{Fazit} \\
 \\
-Wie im Kapitel (6.2.2.2 Realisierung und Zusammenbau) erwähnt wurde aufgrund 
+Wie in [\textcolor{blue}{\autoref{par:Realisierung und Zusammenbau}}] erwähnt, wurde aufgrund 
 dieser Erkenntnisse der weitere Zusammenbau der Hand vorzeitig beendet und das 
 Modell der Hand erstmalig verworfen. \\
 Dennoch ist dieser Versuch äußerst lehrreich für die Entwicklung eines weiteren 
@@ -1527,7 +1535,7 @@ eine weitere Versuchshand zu schaffen. \\
 \label{par:Mechanismus_zweite_Hand}
 \hfill \break
 \hfill \break
-Der Mechanismus der zweiten Versuchshand \"InMoov\" ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus \autoref{chap:Erste Testhand} auf. \\
+Der Mechanismus der zweiten Versuchshand \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Erste Testhand}}] auf. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -1564,8 +1572,8 @@ Als Hilfselement werden hier die Stifte (5) und (6) welche zur Verbindung zwisch
 \\
 Ein ebenso neuer und optionaler Mechanismus ist die des Handgelenks, dieser ermöglicht es der Hand um ihre eigene Achse zu rotieren. Umgesetzt wird dies mit einem Servomotor, welcher mit einer Übersetzung anhand zweier Zahnräder die Hand rotiert. \\
 \\
-Montiert wird dieser Handgelenksmechanismus auf ein Unterarmkonstrukt, dieses besteht aus mehreren einzelnen Teilen um den Druck auf mit einem kleinen Drucker zu ermöglichen. Grundsätzlich sind alle Modelle des Projekts \"InMoov\" auf einem Drucker 
-mit einer Druckfläche von $12x12x12cm$ ausgelegt. \\
+Montiert wird dieser Handgelenksmechanismus auf ein Unterarmkonstrukt, dieses besteht aus mehreren einzelnen Teilen um den Druck auf mit einem kleinen Drucker zu ermöglichen. Grundsätzlich sind alle Modelle des Projekts \textquote{InMoov} auf einem Drucker 
+mit einer Druckfläche von 12x12x12cm ausgelegt. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -1582,10 +1590,10 @@ idealen Strecke zwischen Schnur und Zielmotor steht. \\
 Weiters werden daraufhin die Schnüre zum Motorblock der Antriebsmechanik für den Faltmechanismus der Finger geführt. In diesem Block befinden sich fünf Motoren, für die Finger.
 Dort wird der bereits beschriebene Mechanismus der beiden Schnüre umgesetzt. \\
 \\
-Wurde ein Modell in einer CAD-Software wie beispielsweise Fusion 360 entworfen und soll nun in ein reales greifbares Objekt umgewandelt werden, so benötigt man eine sogenannte Slicer-Software. Die Bezeichnung \"Slicer\" stammt dabei vom englischen 
-Wort Slice (engl.) und bedeutet so viel wie Scheibe. Dies stammt der Tatsache ab, dass diese Software das 3D-Modell in einzelne Scheiben mit einer Sichthöhe geringer als 1mm teilt, denn wie bereits in \autoref{par:Fertigung und CAD} erklärt, geht das 3D-Druck Verfahren 
+Wurde ein Modell in einer CAD-Software wie beispielsweise Fusion 360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] entworfen und soll nun in ein reales greifbares Objekt umgewandelt werden, so benötigt man eine sogenannte Slicer-Software. Die Bezeichnung \textquote{Slicer} stammt dabei vom englischen 
+Wort Slice (engl.) und bedeutet so viel wie Scheibe. Dies stammt der Tatsache ab, dass diese Software das 3D-Modell in einzelne Scheiben mit einer Sichthöhe geringer als 1mm teilt, denn wie bereits in [\textcolor{blue}{\autoref{par:Fertigung und CAD}}] erklärt, geht das 3D-Druck Verfahren 
 FDM so beim Schaffen eines realen Objekts vor. \\
-Gewählt wird die Open-Source Software Ultimaker Cura, in der Version 5.6.0, in diesem kann man zahlreiche Optionen treffen: Die Sichthöhe der einzelnen Scheiben, in Fachsprache "Layers", die Druckgeschwindigkeit, die Füllungsdichte, ob Stützstrukturen für den 
+Gewählt wird die Open-Source Software Ultimaker Cura, in der Version 5.6.0, in diesem kann man zahlreiche Optionen treffen: Die Sichthöhe der einzelnen Scheiben, in Fachsprache \textquote{Layers}, die Druckgeschwindigkeit, die Füllungsdichte, ob Stützstrukturen für den 
 Druck vorhanden sein sollen oder nicht. Durch das Regeln dieser Optionen wird die Druckqualität beeinflusst, druckt der Drucker zu schnell so leidet die Qualität und es können Fehler im Druck auftauchen, ist die Schichthöhe zu hoch ist der Druck 
 äußerst ungenau und weist eine unschöne Textur an seiner Oberfläche auf. \\
 Auch können Faktoren, wie die Drucktemperatur oder das Filament gewählt werden. Je nach Filament gibt es bereits im Vorhinein konfigurierte Optionen. \\
@@ -1611,12 +1619,12 @@ Der Versuchsaufbau hat nur kurzfristig und teilweise funktioniert. Für einen ku
 Während dem Testen sind zwei Punkte besonders auffällig gewesen: Zu einem die Stabilität mit und ohne Belastung, sowie die Spannung der jeweils beiden Schnüre. Unter die Stabilität fallen in diesem Fall, das gesamte Gerüst vom einzelnen Finger 
 bis zum Motorblock, die Antriebsmechanik und ihre Halterung für die Umwicklung. Sowie die Schnüre, welche einige Probleme und demnach auch Schäden verursacht haben. \\
 \\
-\textbf{Problematik-1: "Unstimmigkeiten bei dem Umwickeln der jeweils beiden Schnüre"} \\
-Wie in \autoref{par:Mechanismus_zweite_Hand} erläutert, sollen sich beide Schnüre um eine runde Halterung wickeln und dabei je nach Drehung den verbundenen Finger ein -oder auffalten. Damit dieser Mechanismus funktioniert müssen beide Schnüre 
+\textbf{Problematik-1: \textquote{Unstimmigkeiten bei dem Umwickeln der jeweils beiden Schnüre}} \\
+Wie in [\textcolor{blue}{\autoref{par:Mechanismus_zweite_Hand}}] erläutert, sollen sich beide Schnüre um eine runde Halterung wickeln und dabei je nach Drehung den verbundenen Finger ein -oder auffalten. Damit dieser Mechanismus funktioniert müssen beide Schnüre 
 ständig unter Spannung stehen, da sonst die Gegenwirkung des Systems nicht vorhanden ist und der Finger Überklappen kann. \\
 Es gab mehrere Lösungsversuche, zu einem den Servomotor in 5° Schritten von 0 bis 180\textdegree Grad approximieren und dabei während jedem Schritt die Schnüre nach zu spannen, jedoch blieb auch dies erfolglos. \\
 \\
-\textbf{Problematik-2: "Instabilität der Halterungen auf dem Motor"} \\
+\textbf{Problematik-2: \textquote{Instabilität der Halterungen auf dem Motor}} \\
 Die Angelschnur hat neben ihren Vorteilen auch einen trivialen Nachteil, denn sie ist sehr dünn und daraus folglich unter Spannung äußerst schneidend. Stand die Schnur unter zu hoher Spannung hat dies dazu geführt, dass diese sich 
 selbst aufgrund der zu hohen Reibung durch die Halterung am Motor geschnitten hat und ihn dabei meist auch horizontal zerteilt. Nach Erkenntnis dieses Problems gab es drei grundlegende Lösungsversuch:
 
@@ -1633,7 +1641,7 @@ selbst aufgrund der zu hohen Reibung durch die Halterung am Motor geschnitten ha
 \hfill \break
 Der zweite Lösungsversuch ist somit erfolgreich und die Schnur schneidet oder halbiert nicht mehr die Halterung. Jedoch nicht perfekt, denn die Schnur reibt an der gerippelten Oberfläche der Halterung. In diesem Fall muss ein anderes Material als 
 PLA und damit auch ein anderes 3D-Druck Verfahren verwendet werden. Ergeben hat sich der SLS (engl. Selective Laser Sintering). Dies ist ebenso eine additive Fertigungstechnologie, dabei verschmilzt ein Laser selektiv Pulverpartikel und das 
-schichtweise um daraus dann das gewünschte 3D-Objekt zu fertigen. Finalerweise entstanden dann für das Projekt Halterungen aus dem Material Nylon mit Glasfaserverstärkung. %\footnote{\url{https://sls3d.de/wissen/was-ist-selektives-lasersintern/\#:\~:text=SLS\%20\%E2%80%93%20engl.,(3D\%2DDruck)\%20aufzubauen}, (Stand: 24.02.2024)} \\
+schichtweise um daraus dann das gewünschte 3D-Objekt zu fertigen. Finalerweise entstanden dann für das Projekt Halterungen aus dem Material Nylon mit Glasfaserverstärkung. \\ %\footnote{\url{https://sls3d.de/wissen/was-ist-selektives-lasersintern/\#:\~:text=SLS\%20\%E2%80%93%20engl.,(3D\%2DDruck)\%20aufzubauen}, (Stand: 24.02.2024)} \\
 \\
 \textbf{Problematik-3:} \\
 Zwar sind Angelschnüre sehr stabil und stark, tendieren jedoch unter ständiger Reibung trotz ihrer acht fachen Flechtung mit der Zeit zu reißen. Die Strecke von Fingerkuppe, bis zum Motor beträgt dabei je nach Finger zwischen 20-30cm, 
@@ -1656,10 +1664,10 @@ Ziel ist es im dritten Versuchsmodell die Problematik mit der Reibung zu verring
 \hfill \break
 \hfill \break
 Nachdem die vorherigen Versuche erwiesen, haben welche Problematiken sich aus einem festen Modell aus PLA ergeben, stand ein großes Umdenken im Raum. Auf Vorschlag einer Betreuungskraft stellte sich heraus, dass das Modell elastischer sein muss und 
-ein hartes Material nicht immer die Beste Lösung ist. Der Vorschlag war Silikon in das Modell der Hand zu integrieren, ein ähnliches Projekt habe so bereits eine Hand realisiert. Ähnlich wie bei dem Modell aus \autoref{chap:Erste Testhand} bestanden 
+ein hartes Material nicht immer die Beste Lösung ist. Der Vorschlag war Silikon in das Modell der Hand zu integrieren, ein ähnliches Projekt habe so bereits eine Hand realisiert. Ähnlich wie bei dem Modell aus [\textcolor{blue}{\autoref{chap:Erste Testhand}}] bestanden 
 dort die einzelnen Glieder aus einzelnen Teilen, zwar aus Silikon, waren jedoch auch per Elastomer verbunden. Die Handfläche bestand bei dem Modell aus dem Vorschlag dennoch aus harten Kunststoff. \\
 \\
-Für das Projekt "Bionic-Hand" ergab sich eine neue Ebene und Vielfalt der Möglichkeiten. Die neue Idee ist es die gesamte Hand vollständig aus Silikon zu entwickeln und somit Problemen wie der Reibung und Brüchen unter starker Last aus dem 
+Für das Projekt \textquote{Bionic-Hand} ergab sich eine neue Ebene und Vielfalt der Möglichkeiten. Die neue Idee ist es die gesamte Hand vollständig aus Silikon zu entwickeln und somit Problemen wie der Reibung und Brüchen unter starker Last aus dem 
 Weg zu gehen. \\
 \\
 Genauer lässt sich das neue Konzept wie folgt beschreiben: Die gesamte Hand besteht aus dem Material Silikon, seien es die einzelnen Finger, der Daumen und die Handfläche. Daraus ergeben sich mehrere Vorteile. Zu einem ein Grip (engl.), aufgrund des 
@@ -1714,8 +1722,6 @@ dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textcolor{red}{Quelle: https://silikon-profis.de/2-Komponenten-Massen\#:\~:text=2\%2D\%20Komponenten\%20Silikonkautschuke\%20vulkanisieren\%20bei,anspruchsvolle\%20Profi\%2DAbformungen\%20und\%20Gie\%C3\%9Fverfahren} \\
-\\
 Das hier verwendete flüssig Silikon besteht aus zwei Komponenten welche als Teil A und Teil B bezeichnet werden. Teil A ist die Hauptkomponente des Silikons und Teil B ist die Härtekomponente, zusammen vermischt führt dies zu einem festen elastischen 
 Material. \\
 \\
@@ -1787,7 +1793,7 @@ Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, d
 Nachdem sich gezeigt hat, dass ein einzelner Finger umsetzbar ist der nächste Schritt eine gesamte Hand zu entwerfen. Für diese wird somit ein vollständiges Gelenksgerüst für die gesamte Hand benötigt, ein Modell einer Hand sowie eine dafür entworfene 
 Gussform. \\
 \\
-Das Modell der Hand – Grundsätzlich ist Ziel die gesamte Hand aus Silikon zu verwirklich und diese aus Silikon zu gießen. Der Faltmechanismus funktioniert dabei wie in Kapitel (6.2.4.2 Finger), mit der zusätzlichen Eigenschaft, dass die Finger früher 
+Das Modell der Hand – Grundsätzlich ist Ziel die gesamte Hand aus Silikon zu verwirklich und diese aus Silikon zu gießen. Der Faltmechanismus funktioniert dabei wie in [\textcolor{blue}{\autoref{par:Mechanismus_zweite_Hand}}], mit der zusätzlichen Eigenschaft, dass die Finger früher 
 in der Handfläche beginnen, damit sich diese besser um das gewünschte Objekt "Falten" kann. \\
 \\
 \begin{figure}[H]
@@ -1848,7 +1854,7 @@ Krümmungsstellen so verstärkt, dass er sich hauptsächlich in die Faltrichtung
 \paragraph{Gussform und Gussversuch}
 \hfill \break
 \hfill \break
-Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus Versuch von Kapitel (x.x.x), eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das "Skelet" auch 
+Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus Versuch von Kapitel (x.x.x), eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das \textquote{Skelet} auch 
 bekannt als das Gelenksgerüst präzise in der Mitte eines Fingers platziert werden muss. \\
 \\
 \begin{figure}[H]
@@ -1881,7 +1887,7 @@ Steckvorrichtung. Sichtbar ist ebenso zwischen dem unteren und dem oberen Elemen
 	\end{center}
 \end{figure}
 \hfill \break
-Wie in dieser Veranschaulichung ersichtlich wird in aufrechtem Zustand der Gussform das Silikon in das obere Loch eingegossen. Wie in \autoref{par:Gussform} an einem Versuch zu sehen ist, ist es von großer Bedeutung, dass das Eingussloch an der höchsten 
+Wie in dieser Veranschaulichung ersichtlich wird in aufrechtem Zustand der Gussform das Silikon in das obere Loch eingegossen. Wie in [\textcolor{blue}{\autoref{par:Gussform}}] an einem Versuch zu sehen ist, ist es von großer Bedeutung, dass das Eingussloch an der höchsten 
 Stelle des Innenraums liegt. Um sicherzustellen, dass die Hand stets aufrecht bleibt und während dem Härteprozess des Silikons nicht gesichert in ihrer Position bleibt wurde eine Halterung entworfen, auf diese Kann die Form gesteckt werden. Das Loch 
 wurde möglichst groß modelliert, damit die im Innenraum verbleibende Luft der Gussform ausreichend entweichen kann. \\
 \\
@@ -1937,15 +1943,16 @@ Ergebnisse wird das Konzept vorerst verworfen, dennoch soll Silikon weiterhin ei
 \\
 
 \subsubsection{Vierte Hand (Hybrid-Konzept)}
+\label{chap:Vierte Hand (Hybrid-Konzept)}
 \paragraph{Erfahrung und Konzepterläuterung}
 \hfill \break
 \hfill \break
 Aus den Versuchen der letzten Kapitel konnte einiges an Erfahrung gesammelt werden. Nun ist klar worauf bei dem Modell einer Hand geachtet werden muss. \\
-Wie in Kapitel \autoref{chap:Erste Testhand} hat sich gezeigt, dass die einzelnen Fingerglieder sich kontinuierlich um die anderen Falten müssen. Auch hat sich im Kapitel „zweite Testhand“ gezeigt, wie wichtig es ist für ein Modell zu sorgen, dass einer hohen 
+Wie in [\textcolor{blue}{\autoref{chap:Erste Testhand}}] hat sich gezeigt, dass die einzelnen Fingerglieder sich kontinuierlich um die anderen Falten müssen. Auch hat sich im Kapitel „zweite Testhand“ gezeigt, wie wichtig es ist für ein Modell zu sorgen, dass einer hohen 
 Last standhält und nicht brüchig ist. In den letzten Versuchen hat sich gezeigt, dass die Zugschnur an sämtlichen Stellen auf Reibung trifft. \\
 \\
-Entdeckt wurde eine erweiterte Version der Hand aus \autoref{chap:Zweite Testhand} von Gael Levin. Diese hat sämtliche Optimierungen, sei es die zu bemängelnde Stabilität der vorherigen Version oder auch der problematische Mechanismus der 
-Zugschnüren. Im neuen Modell der "i2Hand", sind die Fingerglieder besonders an ihren Schwachstellen verstärkt worden, somit kann verhindert werden, dass die Verbindungen der einzelnen Glieder bei hoher Last oder gar der Montage brechen. Die 
+Entdeckt wurde eine erweiterte Version der Hand aus [\textcolor{blue}{\autoref{chap:Zweite Testhand}}] von Gael Levin. Diese hat sämtliche Optimierungen, sei es die zu bemängelnde Stabilität der vorherigen Version oder auch der problematische Mechanismus der 
+Zugschnüren. Im neuen Modell der \textquote{i2Hand}, sind die Fingerglieder besonders an ihren Schwachstellen verstärkt worden, somit kann verhindert werden, dass die Verbindungen der einzelnen Glieder bei hoher Last oder gar der Montage brechen. Die 
 Verbindungen haben vorgesehene Einkerbungen für den Kopf der Schraube oder eine Mutter, somit steht an den Seiten der Finger nichts ab. \\
 Der Faltmechanismus besteht nicht mehr aus zwei Schnüre, sondern reduziert sich ausschließlich auf die Zugschnur, diese hat eine eigene Führung mit abgerundeten Kanten um die Reibung zu reduzieren. Der Rückzug wird durch eine Zugfeder verursacht, 
 diese erstreckt sich durch den gesamten Finger und ist am Anfang und seinem Ende montiert. \\
@@ -1974,8 +1981,8 @@ entworfen werden in diesem soll die Drehbewegung des Servomotors in eine lineare
 	\end{center}
 \end{figure}
 \hfill \break
-In der \autoref{fig:Motorblock_v2} ist ein Gerüst zu sehen, dieses in Kombination mit den fünf Motoren, den zugehörigen Zahnstangen und Zahnrädern als Motorblock bezeichnet. Auf jeden Motor wird ein Zahnrad befestigt, dreht sich dieses Zahnrad bewegt es die 
-in der Fassung platzierte Zahnstange. Der Mechanismus nennt sich "Rack and Pinion" (engl.) und wurde so dimensioniert um mit einer Drehung von 180 Grad die Zahnstange um 60mm zu bewegen. \\
+In der [\textcolor{blue}{\autoref{fig:Motorblock_v2}}] ist ein Gerüst zu sehen, dieses in Kombination mit den fünf Motoren, den zugehörigen Zahnstangen und Zahnrädern als Motorblock bezeichnet. Auf jeden Motor wird ein Zahnrad befestigt, dreht sich dieses Zahnrad bewegt es die 
+in der Fassung platzierte Zahnstange. Der Mechanismus nennt sich \textquote{Rack and Pinion} (engl.) und wurde so dimensioniert um mit einer Drehung von 180\textdegree die Zahnstange um 60mm zu bewegen. \\
 \\
 Nach dem Druck und einer ersten Inbetriebnahme hat sich die Funktionalität des Mechanismus erwiesen. Der Motor dreht sich und wandelt dies in eine lineare Zugbewegung um, auf der Zahnstange wird dann die Angelschnur montiert und somit kann an 
 dieser kontrolliert gezogen werden. \\
@@ -2198,7 +2205,7 @@ Folgende Kriterien müssen vonn dem verwendeten Mikrokontroller folglich erfüll
 		  \\
 		  Da die wir bei der Schaltung eunheitlich auf das I2C Bussystem setzen, muss zumindest dieses von dem gewählten Mikrokontroller
 		  unterstützzt werden. Als zweite Pflichtunterstützung gilt die UART-Kommunikation. Die Funktion und Notwendigkeit dieser,
-		  wird in \autoref{par:Externe Anschlüsse} erläutert.
+		  wird in [\textcolor{blue}{\autoref{par:Externe Anschlüsse}}] erläutert.
 	\item Möglichkeiten der drahtlosen Übertragung: \\
 		  \\
 		  Da die Flexsensorwerte drahtlos Übertragen werden müssen, muss der Mikrokontroller eine Form dieser Übertragung unterstützen.
@@ -2240,19 +2247,19 @@ Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. En
 \\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
-In den folgenden Punkten, werden die praktischen Tests der, in \autoref{chap:Überlegungen, Simulationen und Berechnungen} beschriebenen Konzepte und Überlegungen, erläutert.\\
+In den folgenden Punkten, werden die praktischen Tests der, in [\textcolor{blue}{\autoref{chap:Überlegungen, Simulationen und Berechnungen}}] beschriebenen Konzepte und Überlegungen, erläutert.\\
 \paragraph{Messchaltung der Flexsensoren}
 \hfill \break
 \hfill \break
-Zunächst wurde die Schaltung aus \autoref{par:Auslesen der Sensoren} auf einem Steckbrett aufgebaut. Das Ziel der Messung ist es, den Widerstand 
+Zunächst wurde die Schaltung aus [\textcolor{blue}{\autoref{par:Auslesen der Sensoren}}] auf einem Steckbrett aufgebaut. Das Ziel der Messung ist es, den Widerstand 
 bei jeder Stellung eines Flexsensoren zu wissen. Dies ist wichtig, um die Daten der Sensoren korrekt auszulesen und an die 
 Roboterhand zu senden. Werden die Widerstandswerte nicht korrekt gemessen, so bewegt sich die Roboterhand nicht entsprechend 
 nach den Bewegungen des Benutzers. \\
 \\
 Die zu messende Größe ist die Ausgangsspannung des OPVs, die sich je nach Widerstand der Last verändert. Die Last wird in 
 unserem Versuchsaufbau von drei Widerständen simuliert, da wir die Flexsensoren zu dem Zeitpunkt der Messung noch nicht zu 
-Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt, da der Widerstandsbereich der Sensoren bei 
-25k – 125k liegt. In \autoref{par:Messergebnisse} werden die Messergebnisse dargestellt. \\
+Verfügung hatten. Wir haben die Lastwiderstände mit $27k\Omega$, $68k\Omega$ und $118k\Omega$ gewählt, da der Widerstandsbereich der Sensoren bei 
+$25k\Omega$ – $125k\Omega$ liegt. In [\textcolor{blue}{\autoref{par:Messergebnisse}}] werden die Messergebnisse dargestellt. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -2275,7 +2282,7 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 \hfill \break
 +3.3V für die Versorgung des Flexsensors (Last), simuliert mit drei normalen Widerständen.\\
 +1V als Referenzspannung für den INA-129.\\
-+5V zur Versorgung des INA129.\\
++5V zur Versorgung des INA-129.\\
 \\
 
 \paragraph{Messergebnisse}
@@ -2290,9 +2297,10 @@ Verfügung hatten. Wir haben die Lastwiderstände mit 27k, 68k und 118k gewählt
 		\label{fig:Oszibild_RL_27k}		
 	\end{center}
 \end{figure}
+\hfill \break
 Das obige Oszilloskopbild zeigt die, mit einem Tastkopf, gemessene Ausgangsspannung des Operationsverstärkers, bei einem Flexsensorwiderstand
-von 27k$\Omega$. Die gemessene Spannung ist rot eingekreist und beträgt 2.28V. Da bei der Simulation in LTspice mit einem Widerstand 
-von 25k$\Omega$ eine Ausgangsspannung von 2.416V resultierte, ist anzunehmen, dass 2.28V 
+von $27k\Omega$. Die gemessene Spannung ist rot eingekreist und beträgt 2.28V. Da bei der Simulation in LTspice mit einem Widerstand 
+von $25k\Omega$ eine Ausgangsspannung von 2.416V resultierte, ist anzunehmen, dass 2.28V 
 für den gewählten Widerstand angemessen sind. Daraus kann man schließen, dass die Schaltung
 für diesen Widerstandswert des Flexsensors korrekt funktioniert.
 \\
@@ -2306,7 +2314,7 @@ für diesen Widerstandswert des Flexsensors korrekt funktioniert.
 \end{figure}
 \hfill \break
 Nun wurde die gleiche Messung erneut durchgeführt, allerdings mit einem Flexsensorwiderstand
-von 67k$\Omega$. Wir zu erwarten, ist die Ausgangsspannung des OPVs gesunken, da der 
+von $67k\Omega$. Wir zu erwarten, ist die Ausgangsspannung des OPVs gesunken, da der 
 Spannungsabfall am Shuntwiderstand nun geringer ausfällt. Zu erwarten war ein Spannungswert
 von rund 1.5V. Dieser Pegel wurde mit 1.52V fast genau getroffen, wodurch die funktionsfähigkeit
 der Schaltung weiter sichergestellt wurde.
@@ -2319,7 +2327,7 @@ der Schaltung weiter sichergestellt wurde.
 	\end{center}
 \end{figure}
 \hfill \break
-Schlussendlich wurde noch ein Flexsensorwiderstand von 118k$\Omega$ simuliert, um den
+Schlussendlich wurde noch ein Flexsensorwiderstand von $118k\Omega$ simuliert, um den
 nahezu Maximalwert des Sensors zu simulieren. Zu erwarten waren rund 1.3V. Die Messung
 bestätigt die Überlegungen, wodurch die Funktionalität dieser Schaltungskomponente bewiesen
 wurde. \\
@@ -2349,7 +2357,7 @@ das genaue Schaltungsdesign erläutert. \\
 		  diese auch unterstützen. Mit einer Serial-UART-Bridge, wird das Signal umgewandelt. Der Chip wird von +3.3V versorgt.
 		  Von der USB-Buchse werden die beiden Datenleitungen D+ und D- mit verbunden. Anschließend wird das umgewandelte Signal 
 		  über die UART-Leitungen an den ESP32 Mikrokontroller übertragen. Wichtig zu beachten ist hierbei, dass die UART-Leitungen
-		  ausgekreuzt sein müssen. Die Funktion der Anschlüsse RTS und DTR wird in \autoref{par:Mikrokontroller} erläutert. \\
+		  ausgekreuzt sein müssen. Die Funktion der Anschlüsse RTS und DTR wird in [\textcolor{blue}{\autoref{par:Mikrokontroller}}] erläutert. \\
 		  \begin{figure}[H]
 			\begin{center}
 				\scalebox{0.5}
@@ -2379,7 +2387,7 @@ das genaue Schaltungsdesign erläutert. \\
 Der ESP32-Chip wird mit +3.3V versorgt. Wichtig zu beachten ist dadurch, das ein Logic-HIGH somit auch 3.3V und nicht 5V ist!
 Die Versorgung wird mit einem Kondensator stabilisiert. Für alle Busleitungen, also I2C und UART, wurden Widerstände in Serie
 hinzugefügt, um die Kommunikationsleitungen vor Spannungsspitzen oder Überspannung zu schützen. Die Funktion wäre auch ohne diese
-gegeben. Für die Datenleitungen SDA und SCL des I2c Busses sind zwei $10k\Omega$ PullUp-Widerstände vorgesehen. Zusätzlich 
+gegeben. Für die Datenleitungen SDA und SCL des $I^{2}C$ Busses sind zwei $10k\Omega$ PullUp-Widerstände vorgesehen. Zusätzlich 
 wird ebenfalls der Anschluss IO16 mit einem PullUp-Widerstand auf 3.3V gezogen, da dies so vom Datenblatt vorgegeben wird. 
 Die Funktionen der einzelnen Anschlüsse werden in den folgenden Punkten gemeinsam mit den damit verbundenen Bauteilen näher erläutert. \\
 \begin{figure}[H]
@@ -2446,7 +2454,7 @@ wird, ändert sich die interne Schalterposition und somit der gerade aktive Kana
 \paragraph{Operationsverstärker}
 \hfill \break
 \hfill \break
-Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in \autoref{par:Auslesen der Sensoren} beschrieben, benötigt. Da am
+Für das Auslesen der Flexsensoren, wird eine Schaltung, wie in [\textcolor{blue}{\autoref{par:Auslesen der Sensoren}}] beschrieben, benötigt. Da am
 Shuntwiderstand nur sehr wenig Spannungsabfall auftritt und daher die Spannungsdifferenz zwischen positivem und negativem 
 Verstärkereingang sehr klein ist, muss das Signal verstärkt werden. Hierfür wird der INA129 Instrumentenverstärker verwendet.
 Dieser wird mit 5V versorgt, was für einen OPV eine relativ geringe Versorgungsspannung ist. Da die maximale Eingangsspannung
@@ -2471,11 +2479,11 @@ von 1V verwendet. \\
 \hfill \break
 Der Analog-Digital-Wandler ist dafür zuständig, die analogen Werte, vom Ausgang des Operationsverstärkers kommend, in digitale 
 Signale umzuwandeln. Der OPV und der ADC sind über das Label toADC verbunden. Da der Chip über 3.3V versorgt wird, befindet
-sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im \autoref{par:Umwandlung der Differenzwerte in ein geeignetes Format} berechnet, 
+sich der mögliche Aussteuerbereich zwischen 0V und 3.3V. Wie im [\textcolor{blue}{\autoref{par:Umwandlung der Differenzwerte in ein geeignetes Format}}] berechnet, 
 hat der ADC in unserer Schaltung ein LSB von 3.22mV. Da wir wissen, dass die kleinste Spannungsdifferenz am Shuntwiderstand 6.3mV
 ist und diese auch noch mit dem Faktor 46 verstärkt wird, kann festgestellt werden, dass der ADC mehr als genau genug für unsere
 Anwendung ist. Dies ist ein Vorteil, da bei der Programmierung anschließend nicht zwischen einzelnen ADC-Stufen unterschieden werden
-muss, sondern immer mehrere LSBs Unterschied auftritt. Die aktualisierten Werte, werden über die beiden I2C Leitungen an den 
+muss, sondern immer mehrere LSBs Unterschied auftritt. Die aktualisierten Werte, werden über die beiden $I^{2}C$ Leitungen an den 
 Mikrokontroller übertragen. \\
 \\
 \begin{figure}[H]
@@ -2507,7 +2515,7 @@ um die Adresse des Mikrochips festzulegen. Diese wird später benötigt um mit d
 Am Pin CLKIN hätte man die Möglichkeit einen externen Referenztaktgeber anzuschließen. Bei unserer Anwendung ist der integrierte 
 Taktgeber allerdings völlig ausreichend, weswegen der Anschluss mit GND verbunden und damit deaktiviert wurde. Der CS Pin wird nur
 für die SPI Kommunikation benötigt, weshalb dieser ebenfalls deaktiviert wurde. Das gleiche gilt für den Anschluss FSYNC. Die beiden
-AUX-Anschlüsse könnte man verwenden, um mit anderen I2C fähigen Sensoren direkt zu kommunizieren. Da dies allerdings unser einziger
+AUX-Anschlüsse könnte man verwenden, um mit anderen $I^{2}C$ fähigen Sensoren direkt zu kommunizieren. Da dies allerdings unser einziger
 Sensorchip mit dieser Fähigkeit ist, bleiben die beiden Pins auch nicht verbunden. Die Kondensatoren sind vom Hersteller im Datenblatt
 vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \\
@@ -2569,12 +2577,12 @@ von Parametern für den Benutzer.
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenlayout_Handschuh_oben_v2}, ist der Toplayer des zweiten Platinenlayouts in KiCad (siehe \autoref{chap:KiCad}) zu sehen.
+In [\textcolor{blue}{\autoref{fig:Platinenlayout_Handschuh_oben_v2}}], ist der Toplayer des zweiten Platinenlayouts in KiCad [siehe \textcolor{blue}{\autoref{chap:KiCad}}] zu sehen.
 Der Großteil des Platzes wird vom Mikrokontroller, dem ESP32, eingenommen. An diesen sind alle anderen Komponenten angeschlossen. Wie in 
-\autoref{par:Mikrokontroller Buttons} erläutert, sind zwei Buttons zur Steuerung des ESPs vorgesehen. Mit einem $R$ ist der Reset-Button markiert
+[\textcolor{blue}{\autoref{par:Mikrokontroller Buttons}}] erläutert, sind zwei Buttons zur Steuerung des ESPs vorgesehen. Mit einem $R$ ist der Reset-Button markiert
 mit einem $B$ der Upload-Button. \\
 \\
-In der linken oberen Ecke der \autoref{fig:Platinenlayout_Handschuh_oben_v2}, sind die Anschlüsse für die Flexsensorem zu sehen. Recths daneben
+In der linken oberen Ecke der [\textcolor{blue}{\autoref{fig:Platinenlayout_Handschuh_oben_v2}}], sind die Anschlüsse für die Flexsensorem zu sehen. Recths daneben
 ist die USB-C-Buchse platziert. Außer den genannten Bauteilen, sind nur mehr die beiden Leuchtdioden, zur Visualisierung für den Benutzer, auf dem 
 Toplayer angebracht. \\
 \\
@@ -2587,8 +2595,8 @@ Toplayer angebracht. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenlayout_Handschuh_unten_v2}, ist der Bottomlayer der zweiten Platinenversion zu sehen. Hier sind alle Elemente der Messchaltung
-(siehe \autoref{par:Auslesen der Sensoren}) verbaut. Dies beinhaltet den Multiplexer, Operationsverstärker, ADC, Gyroskopsensor, Spannungswandler
+In [\textcolor{blue}{\autoref{fig:Platinenlayout_Handschuh_unten_v2}}], ist der Bottomlayer der zweiten Platinenversion zu sehen. Hier sind alle Elemente der Messchaltung
+[siehe \textcolor{blue}{\autoref{par:Auslesen der Sensoren}}] verbaut. Dies beinhaltet den Multiplexer, Operationsverstärker, ADC, Gyroskopsensor, Spannungswandler
 und die Serial-UART Bridge. Alle Bauteile wurden möglichst Platzsparend platziert, damit die Dimensionen der Platine gering gehalten werden können.
 Die Abmessungen betragen ca. 3.5cm x 3.5cm. \\
 \\
@@ -2608,7 +2616,7 @@ kein Problem und wird beim nächsten Platinenlayout behoben. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenmodell_Handschuh_oben_v2}, ist ein 3D-Modell des Toplayers abgebildet. Dies ist eine exakte Representation der gefertigten
+In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_oben_v2}}], ist ein 3D-Modell des Toplayers abgebildet. Dies ist eine exakte Representation der gefertigten
 Platine, die anschließend bestückt worden ist. \\
 \\
 \begin{figure}[H]
@@ -2620,7 +2628,7 @@ Platine, die anschließend bestückt worden ist. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenmodell_Handschuh_unten_v2}, ist das 3D-Modell des Bottomlayersabgebildet. Dies ist ebenfalls eine exakte Representation der
+In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_unten_v2}}], ist das 3D-Modell des Bottomlayersabgebildet. Dies ist ebenfalls eine exakte Representation der
 gefertigten Platine und muss noch bestückt werden. \\
 \\
 
@@ -2654,15 +2662,15 @@ ausfallen wird. \\
 \hfill \break
 Um den Datentransfer möglichst einfach zu gestallten und keine Kompatibilitätsprobleme zu haben, entschieden wir uns den gleichen Mikrokontroller
 wie beim Eingabesubsystem zu verwenden. Dies ermöglicht eine relativ einfache Datenübertragung ohne zusätzliche Antennen. Werden Daten empfangen,
-so wird die Software am Chip aktiv, die in \autoref{chap:Realisierung und Gleiderung Roboterhandsoftware} näher beschrieben wird. Der
-Entschluss zur Verwendung dieser \"identischen\" Systeme, wurde relativ rasch getroffen, da wir genug andere Schwierigkeiten haben werden und 
-die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in \autoref{chap:Platinendesign Roboterhand} erklärt.
+so wird die Software am Chip aktiv, die in [\textcolor{blue}{\autoref{chap:Realisierung und Gleiderung Roboterhandsoftware}}] näher beschrieben wird. Der
+Entschluss zur Verwendung dieser \textquote{identischen} Systeme, wurde relativ rasch getroffen, da wir genug andere Schwierigkeiten haben werden und 
+die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in [\textcolor{blue}{\autoref{chap:Platinendesign Roboterhand}}] erklärt.
 
 \paragraph{Ansteuerung der Motoren}
 \label{par:Ansteuerung der Motoren}
 \hfill \break
 \hfill \break
-Nachdem die Daten in Software verarbeitet wurden, müssen nun die Servomotoren angesteuert werden. Da diese über ein PWM-Signal (siehe \autoref{chap:PWM-Signale})
+Nachdem die Daten in Software verarbeitet wurden, müssen nun die Servomotoren angesteuert werden. Da diese über ein PWM-Signal [siehe \textcolor{blue}{\autoref{chap:PWM-Signale}}]
 angesteuert werden, stellt sich die Frage ob man dies direkt über den Mikrokontroller realisiert, oder mithilfe einer PWM-Controller-Schaltung.
 Da wir eine Mindestanzahl von fünf Servomotoren haben und auch für zukünftige Erweiterungen bereit sein möchten, haben wir uns für die Ansteuerung
 via Servo-Controller entschieden. \\
@@ -2704,7 +2712,7 @@ benötigt. Dies ermöglicht uns jeden Motor einzeln zu regulieren und gegebenenf
 	\end{center}
 \end{figure}
 \hfill \break
-Diese Messung basiert auf dem gleichen Prinzip wie die der Flexsensorstellung in \autoref{par:Auslesen der Sensoren}. Mithilfe eines 
+Diese Messung basiert auf dem gleichen Prinzip wie die der Flexsensorstellung in [\textcolor{blue}{\autoref{par:Auslesen der Sensoren}}]. Mithilfe eines 
 Shunt-Widerstands wird ein Spannungsabfall gemessen, der anschließend über eine Messchaltung verstärkt und in ein Digitalsignal
 umgewandelt wird. \\
 \\
@@ -2725,7 +2733,7 @@ Folgendes Kriterium wurde bei der Wahl des Operationsverstärkers beachtet:
 		  dieser geringen Spannung immer noch verstärken. Da am positiven Verstärkereingang
 		  eine maximale Spannung von 5V anliegt, muss dies bei Verstärkern mit einer geeigneten
 		  Supply Range auch mit nur 5V Versorgungsspannung gewährleistet sein. Folglich wird
-		  die Rail-to-Rail Technolgie (siehe \autoref{chap:OPV Technologien}) tragend, um keine Referenzspannung
+		  die Rail-to-Rail Technolgie [siehe \textcolor{blue}{\autoref{chap:OPV Technologien}}] tragend, um keine Referenzspannung
 		  zu benötigen.
 \end{itemize}
 Da wir nicht bis ganz an die Grenzen des Aussteuerbereichs kommen werden (wird anhand der Berechnungen verständlich), ist der TLV232 wie für diese Anwendung gemacht. \\
@@ -2792,7 +2800,7 @@ werden. \\
 \end{figure}
 \hfill \break
 \textbf{Erklärung des Testablaufs}\\
-Die Schaltung wird mit +5V versorgt. Der OPV „TLV232“ kann, dank RailToRail Technologie, den Ausgang bis fast auf die 
+Die Schaltung wird mit +5V versorgt. Der OPV \textquote{TLV232} kann, dank RailToRail Technologie, den Ausgang bis fast auf die 
 Versorgungsspannung anheben. Durch die Simulation von verschiedenen Lasten am Servo mit einer Zugkraftwaage, fällt am Shunt 
 Widerstand eine andere Spannung ab. Dadurch variiert die Ausgangsspannung des OPVs und im Programm kann ausgewertet werden, 
 wie stark ein Finger der Roboterhand belastet wird. Je nachdem, kann dann geregelt werden. 
@@ -2881,7 +2889,8 @@ tun hatten.
 Wie auch schon bei der Schaltung des Eingabesubsystems, setzen wir auch beim Ausgabesubsystems auf einen USB-C Anschluss.
 Dieser dient zur Programmierung des Mikrokontrollers. Versorgt werden kann die Schaltung aufgrund des hohen Strombedarfs der Servomotoren
 allerdings nicht. Vorteilhaft ist dies allerdings auch, da die Platine gleichzeitig mit einem Netzteil verbunden sein kann und keine 
-Gefahr besteht zwei Versorgungen gleichzeitig anzuschließen. 
+Gefahr besteht zwei Versorgungen gleichzeitig anzuschließen. \\
+\\
 \textbf{Anschluss zur Programmierung des Mikrokontrollers} \\
 \\
 Für de Programmierung des Mikrokontroller ist ein USB-Anschluss notwendig. Da das Projekt mit den neuesten Computern
@@ -2921,7 +2930,7 @@ erfolgen. \\
 \hfill \break
 \hfill \break
 Der Serial-UART-Chip, hat die Aufgabe das über die USB-Buchse kommende Serial-Signal in ein UART-Signal umzuwandeln.
-Dies ist notwendig, da der verwendete Mikrokontroller keine Serial-Signale verarbeiten kann. Über die \textbf{ausgekreuzten}
+Dies ist notwendig, da der verwendete Mikrokontroller keine Serial-Signale verarbeiten kann. Über die ausgekreuzten
 Leitungen $RXD$ und $TXD$, werden die Daten zur Weiterverabeitung übertragen. Die Versorgung basiert auf $3.3V$. Die Pins
 $DTR$ und $RTS$ sind über eine Transistorschaltung ebenfalls mit dem Mikrokontroller verbunden. Die $EN$ Leitung ist für 
 die $RESET-Funktion$ gedacht und die $IO0$ Leitung für den Uploadvorgang von programmiertem Code. \\
@@ -2991,7 +3000,7 @@ sind Stützkondensatoren zu $GND$ geschalten, um die Spannungspegel von $5V$ und
 \paragraph{PWM-Controller}
 \hfill \break
 \hfill \break
-Der PWM-Controller ist das Bauteil, das für die korrekte Datenübertragung der Steuerungsdaten an die Servomotoren zuständig ist. Da wir keine Funktionen und Anschlüsse des Mikrokontrollers blockieren wollen (siehe \autoref{par:Ansteuerung der Motoren}), 
+Der PWM-Controller ist das Bauteil, das für die korrekte Datenübertragung der Steuerungsdaten an die Servomotoren zuständig ist. Da wir keine Funktionen und Anschlüsse des Mikrokontrollers blockieren wollen [siehe \textcolor{blue}{\autoref{par:Ansteuerung der Motoren}}], 
 haben wir den $PCA9685$ gewählt. Dieser ist per I2C-Protokoll ansteuerbar und hilft uns daher die Anzahl der elektrischen Leitungen auf ein Minimum zu reduzieren. Um die korrekte Ansteuerung des Mikrochips zu gewährleisten, existieren
 natürlich auch Adresspins (A0 - A5). Diese können auf $HIGH$ oder $LOW$ gesetzt werden, um die I2C-Adresse benutzerdefiniert einzustellen. Wir haben uns dazu entschieden diese Adressierung mit Lötjumpern einstellbar zu machen. Standardmäßig
 ist die Adresse auf $0 0 0 0 0 0$, kann jedoch geziehlt durch das zulöten einzelner Jumper modifiziert werden. Der Pin $OE$, ist mit dem ESP32 verbunden. Dieser Anschluss erlaubt uns den PWM-Output des Mikrochips, durch ein $HIGH$ oder $LOW$ 
@@ -3013,7 +3022,7 @@ der Controller mit 5V. \\
 \hfill \break
 Jeder Servomotor ist mit einem PWM-Pin des PWM-Controllers verbunden. Durch diese elektrischen Leitungen erhalten die Motoren ihre Drehbefehle. Um kompatibel mit dem Rest der Schaltung zu sein, haben wir die Versorgungsspannung für die Motoren mit
 5V gewählt. Ein höherer Spannungspegel mit 6V wäre auch möglich gewesen, allerdings ist der Aufwand die Spannung zu erhöhen mit dem daraus resultierenden Gewinn an Zugkraft nicht zu vergleichen. Aufgrund dieses Umstands, wurde der Versorgungspegel
-wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung (siehe \autoref{par:Positions -und Kraftmessung der Roboterfinger}) realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
+wie beschrieben gewählt. Über den $GND-Anschluss$ jedes Servomotors, wird die Strommessung [siehe \textcolor{blue}{\autoref{par:Positions -und Kraftmessung der Roboterfinger}}] realisiert. Der Shuntwiderstandswert von $165m\Omega$ wird, aufgrund thermischer Verluste, durch zwei parallel geschaltete $330m\Omega$ 
 Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteilt. Die weitere Logik hinter dem $GND_servo-Anschluss$ wird im folgenden Punkt erklärt. \\
 \\
 \begin{figure}[H]
@@ -3057,7 +3066,7 @@ Widerstände erzeugt, wodurch sich die Verlustleistung auf zwei Bauteile aufteil
 	\item \textbf{Operationsversätker} \\
 	\\
 	Mit dem Operationsverstärker wird der Spannungsabfall am Shunt-Widerstand jedes Servos verstärkt. Der Ausgang des Multiplexers ist nun der positive Eingang des OPVs. Nach der Verstärkung des Spannungspegels, wird
-	das Signal noch gefiltert, bevor es über das Label $to\_ADC$ zum Analog-Digital-Wandler übertragen wird. Für weitere Informationen zum Schaltungsdesign, siehe \autoref{par:Positions -und Kraftmessung der Roboterfinger} \\
+	das Signal noch gefiltert, bevor es über das Label $to\_ADC$ zum Analog-Digital-Wandler übertragen wird. Für weitere Informationen zum Schaltungsdesign, siehe [\textcolor{blue}{\autoref{par:Positions -und Kraftmessung der Roboterfinger}}] \\
 	\\
 	\begin{figure}[H]
 		\begin{center}
@@ -3154,7 +3163,7 @@ Nach dem genauen Messen der Schaltung, wurde die korrekte Funktion bestätigt un
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenlayout_Roboterhand_oben_v2}, ist der Toplayer des zweiten Platinenldesigns zu sehen. Auf der Oberseite des
+In [\textcolor{blue}{\autoref{fig:Platinenlayout_Roboterhand_oben_v2}}], ist der Toplayer des zweiten Platinenldesigns zu sehen. Auf der Oberseite des
 PCBs, sind alle Komponenten angebracht, die für Wartungszwecke zugänglich sein müssen. Dies umfasst alle Anschlüsse für die Servomotoren,
 die Adressjumper des PWM-Controllers, den Reset -und Upload-Button und die beiden Status-LEDs zur visuellen Überwachung der Schaltung. 
 Bei diesem Layout wurde, im Gegensatz zur ersten Testplatine, auf die größe geachtet. Diese sollte so klein wie möglich sein, muss
@@ -3169,7 +3178,7 @@ aber trotzdem genügend Raum für die großen Shunt-Widerstände und dicken Leit
 	\end{center}
 \end{figure}
 \hfill \break
-Auf dem Bottom-Layer in \autoref{fig:Platinenlayout_Roboterhand_unten_v2}, wurden alle Komponenten platziert, die zur Messung und Verarbeitung
+Auf dem Bottom-Layer in [\textcolor{blue}{\autoref{fig:Platinenlayout_Roboterhand_unten_v2}}], wurden alle Komponenten platziert, die zur Messung und Verarbeitung
 der Daten notwendig sind. Am unteren und rechten Rand der Platine, sind die Shunt-Widerstände zu sehen, die aufgrund der zu vertragenden
 Leistung einen größeren Footprint haben. Zusätzlich dazu, sind diese nochmals parallel geschaltet, wodurch die Verlustleistung auf 
 zwei Widerstände aufgeteilt wird. Um lange Leiterbahnen, auf denen ein hoher Strom fließt, zu vermeiden, wurden die Shunts sehr nah 
@@ -3184,10 +3193,10 @@ an den $5V$ Anschlüssen der Servos positioniert. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In \autoref{fig:Platinenmodell_Roboterhand_oben_v2}, ist das 3D-Modell der Platine für das Ausgabesbusystem zu sehen. In der rechten, oberen
+In [\textcolor{blue}{\autoref{fig:Platinenmodell_Roboterhand_oben_v2}}], ist das 3D-Modell der Platine für das Ausgabesbusystem zu sehen. In der rechten, oberen
 Ecke der Abbildung, sind die beiden Versorgungspins der Schaltung zu sehen. Diese sind bei der zweiten Platinenversion noch Pinheader, sollen
 später allerdinsg in Form eines Barrel-Jack realisiert werden. Links neben der Versorgungsanschlüssen, ist der Footprint für einen Ein -Ausschalter
-zu sehen, wie in \autoref{par:Externe Anschlüsse} zu sehen. Alle weiteren Schaltungsteile sind in \autoref{chap:Schaltungsdesign_Roboterhand} näher
+zu sehen, wie in [\textcolor{blue}{\autoref{par:Externe Anschlüsse}}] zu sehen. Alle weiteren Schaltungsteile sind in [\textcolor{blue}{\autoref{chap:Schaltungsdesign_Roboterhand}}] näher
 erklärt. \\
 \\
 \begin{figure}[H]
@@ -3199,7 +3208,7 @@ erklärt. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Zu sehen in \autoref{fig:Platinenmodell_Roboterhand_unten_v2}, ist der Bottom-Layer als 3D-Modell. Es wurde auf eine möglichst effiziente
+Zu sehen in [\textcolor{blue}{\autoref{fig:Platinenmodell_Roboterhand_unten_v2}}], ist der Bottom-Layer als 3D-Modell. Es wurde auf eine möglichst effiziente
 Anordnung der Bauteile geachtet, damit die Platine so wenig Platz wie möglich in Anspruch nimmt. \\
 \\
 \newpage
@@ -3213,19 +3222,19 @@ Anordnung der Bauteile geachtet, damit die Platine so wenig Platz wie möglich i
 \label{par:Datenübertragung}
 \hfill \break
 \hfill \break
-Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor (siehe \autoref{chap:Flexsensor}) ausliest, zu übertragen. Wichtig ist es, dass 
+Es gibt viele Möglichkeiten die Werte, die man von jedem einzelnen Flexsensor [siehe \textcolor{blue}{\autoref{chap:Flexsensor}}] ausliest, zu übertragen. Wichtig ist es, dass 
 dies einfach und auf eine sehr stabile Weise funktioniert. Werden nämlich Daten fehlerhaft oder nur teilweise übertragen, dann 
 wirkt sich das auf der Empfängerseite drastisch aus. Es könnten dadurch unerwartete Fehler passieren beziehungsweise könnte die 
 Roboterhand von einem unstabilen System sehr hohe Schwankungen der Werte andauern wahrnehmen, was zu einer durchgängigen 
-Belastung der Servos (siehe \autoref{chap:Servomotor}) führen würde. Das ist zwar nicht allzu schlimm, aber verbraucht unnötig Ressourcen. Anfangs war Bluetooth 
+Belastung der Servos [siehe \textcolor{blue}{\autoref{chap:Servomotor}}] führen würde. Das ist zwar nicht allzu schlimm, aber verbraucht unnötig Ressourcen. Anfangs war Bluetooth 
 die favorisierte Option, da man im Alltag immer wieder mit Geräten zu tun hat, die Bluetooth als Standard der Funkübertragung 
-verwenden. Allerdings haben wir uns später dann aber für Wifi (siehe \autoref{chap:WiFi}) entschieden, da angenommen wurde, dass wir große Mengen an Daten 
-versenden. Dies ist nun aber nicht nötig, da nur die Widerstandswerte, die über einen ADC (siehe \autoref{chap:Analog-Digital-Wandler}) umgerechnet werden, nun versendet 
+verwenden. Allerdings haben wir uns später dann aber für Wifi [siehe \textcolor{blue}{\autoref{chap:WiFi}}] entschieden, da angenommen wurde, dass wir große Mengen an Daten 
+versenden. Dies ist nun aber nicht nötig, da nur die Widerstandswerte, die über einen ADC [siehe \textcolor{blue}{\autoref{chap:Analog-Digital-Wandler}}] umgerechnet werden, nun versendet 
 werden Deshalb haben wir nach einer neuen Möglichkeit gesucht, die einfacher zu realisieren ist. Schlussendlich wurde es dann 
-ESP-NOW (siehe \autoref{chap:ESP-NOW}), das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro Sendung 250 Byte gesendet werden. 
+ESP-NOW [siehe \textcolor{blue}{\autoref{chap:ESP-NOW}}], das auf 2,4GHz funkt und am ehesten mit Wifi verglichen werden kann. Es können pro Sendung 250 Byte gesendet werden. 
 Ebenso ist eine Kommunikation zwischen mehreren ESP32 in beide Richtungen möglich. Der Standard gilt allerdings wirklich nur 
 für den ESP32, was allerdings aufgrund der Wahl von nur diesem letztgenannten, keine Probleme darstellt. ESP-NOW sendet auf dem 
-802.11 Protokoll (siehe \autoref{par:802.11b/g/n Standard}), wie auch Wifi es macht. Der Vorteil liegt aber klar in der Energieeffizienz. ESP-NOW benötigt nämlich weniger 
+802.11 Protokoll [siehe \textcolor{blue}{\autoref{par:802.11b/g/n Standard}}], wie auch Wifi es macht. Der Vorteil liegt aber klar in der Energieeffizienz. ESP-NOW benötigt nämlich weniger 
 Energie (vor allem, weil weniger Daten maximal gesendet werden können) als Wifi und ist deshalb gerade für unseren Zweck, die 
 energiebetriebene Versorgung der Senderplatine, optimal. Nicht zu vergessen ist der schnellere Verbindungsaufbau. Beim Testen 
 hatten sich beide Platinen sofort miteinander verbunden. Ein großer Vorteil ist die Peer-to-Peer Kommunikation, die zwischen 
@@ -3236,7 +3245,7 @@ spezifischen Anwendungsfall realisieren. \\
 \paragraph{Programmiersprache/Entwicklungsumgebung}
 \hfill \break
 \hfill \break
-Die Arduino IDE (1. \& 2. Version) (siehe \autoref{chap:Arduino IDE}) wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
+Die Arduino IDE (1. \& 2. Version) [siehe \textcolor{blue}{\autoref{chap:Arduino IDE}}] wird als Entwicklungsumgebung verwendet, da diese für Mikrocontroller der Firma Arduino 
 konzipiert wurde. Der ESP32 gehört auch zu den Mikrocontrollern, weshalb er ebenfalls über eigene Bibliotheken bestenfalls 
 über die Arduino IDE angesteuert werden kann. Der Code wird in der Programmiersprache C oder C++ geschrieben, da diese für 
 die Programmierung von Mikrocontrollern bestens geeignet ist. Mit Hilfe von verschiedenen Bibliotheken aus dem Internet wird 
@@ -3255,7 +3264,7 @@ Es soll darauf geachtet werden, dass so viele Codezeilen wie möglich und nötig
 einfachere Bearbeitung der Software realisiert werden kann. Die Fehlerbehebung soll damit um ein Vielfaches vereinfacht werden, 
 da man leicht abschätzen kann, wo ein Fehler liegen könnte. Zur effizienteren Erweiterung des Programmes soll es in 
 verschiedene Blöcke aufgeteilt werden. Damit ist gemeint, dass jeder Block einzeln einmal getestet wurde, bevor dieser im 
-endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass nur der ESP32 per UART-Verbindung (siehe \autoref{chap:UART Funktionsweise}), über eine 
+endgültigen Programm in Betrieb gehen wird. Am Ende soll es möglich sein, dass nur der ESP32 per UART-Verbindung [siehe \textcolor{blue}{\autoref{chap:UART Funktionsweise}}], über eine 
 USB-C Kabel, angeschlossen wird und man das Programm nur auf diesen hochladen muss. Die optimalen Anpassungen sollen in der 
 Standardversion des Programmes dann bereits vorhanden sein. \\
 \\
@@ -3266,7 +3275,7 @@ Jedes Programm muss ausführlich getestet werden. Die Tests bei der Senderplatin
 dem Auslesen der Widerstandswerte der Flexsensoren. Es soll überprüft werden, ob sich die Werte in dem von dem Benutzer 
 freiwillig ausgesuchten Bereich der map Funktion liegen. Bei dem Test soll bei dem gestreckten Flexsensor der maximale Wert 
 angezeigt werden und bei ganz gebeugtem Zustand (maximale Biegung am Handschuh durch Fingerbiegung) der niedrigste. Es ist 
-wichtig auch zu testen, ob der Multiplexer (siehe \autoref{chap:Multiplexer}) überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
+wichtig auch zu testen, ob der Multiplexer [siehe \textcolor{blue}{\autoref{chap:Multiplexer}}] überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
 implementiert wurde, sollen die Werte des ADCs überprüft werden, der hinter den Multiplexer geschaltet wurde. Wenn diese Werte 
 ebenfalls realistisch sind, dann können diese Werte wie vorher bereits erwähnt gemapt werden und dann in einem bestimmten Format 
 über ESP-NOW an die Empfängerplatine (Roboterhand) gesendet werden. Dabei soll überprüft werden, ob auch wirklich Daten 
@@ -3346,7 +3355,7 @@ nötigsten Messungen und Berechnungen verwendet werden. Der Rest kann und soll d
 Roboterhandplatine durchgeführt werden, da in diesem Fall keine begrenzte Spannungsversorgung besteht, da kein Akku verwendet 
 wird. \\
 \\
-\textbf{Verzögerung beim Senden} 
+\textbf{Verzögerung beim Senden} \\
 \\
 Eine Verzögerung vor dem Senden des ESP32 auf der Senderseite einzubauen war eine 
 Idee, an der sehr lange festgehalten wurde. Es schien äußerst sinnvoll, eine 
@@ -3361,7 +3370,7 @@ so wenige Rohdaten, wie möglich, von der Senderseite aus übermittelt werden, s
 alles auf der Empfängerseite dann verarbeitet wird. Durch sehr schnelles Senden und 
 Empfangen der Daten, kann die schnellstmögliche Bewegung der Roboterhand realisiert werden. \\
 \\
-\textbf{Modus zum Einstellen des minimalen und maximalen Wertes jedes Flexsensors}
+\textbf{Modus zum Einstellen des minimalen und maximalen Wertes jedes Flexsensors} \\
 \\
 Es war ursprünglich geplant, dass beim Starten des Programmes am ESP32, der mit der 
 Arduino IDE verbunden ist, jeder einzelne Wert der Flexsensoren jeweils eingelesen 
@@ -3413,7 +3422,7 @@ Falls diese Schritte alle abgearbeitet wurden, dann geht das ganze Prozedere wie
 \paragraph{Gliederung}
 \hfill \break
 \hfill \break
-Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation (siehe \autoref{chap:I2C Funktionsweise}) für 
+Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation [siehe \textcolor{blue}{\autoref{chap:I2C Funktionsweise}}] für 
 den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi Bibliothek inkludiert wird. \\
 \\
 Danach werden die ADC-Parameter festgelegt, sowie die Ports zur Ansteuerung des Multiplexers. Minimale und maximale 
@@ -3431,7 +3440,7 @@ Daten senden kann. \\
 In der Loop wird dann der Multiplexer angesteuert und immer wieder aufsteigend durchgeschalten. Der Wert, der vom ADC, der
 hinter den Multiplexer geschalten wurde, ausgegeben wird, wird dann durch eine Funktion in einen Wert umgerechnet. \\
 \\
-Dieser Wert wird dann in Form einer Zeichenkette, die im Format $"\$s:n:angepassterWert"$ geschrieben wird, an den ESP32 der 
+Dieser Wert wird dann in Form einer Zeichenkette, die im Format \textquote{\$s:n:angepassterWert} geschrieben wird, an den ESP32 der 
 Empfängerplatine gesendet (n…Eingang des Multiplexers 0 – 4; angepassterWert…ausgelesener Wert (liegt zwischen Minimum und 
 Maximum, das oben festgelegt wurde)). Es wird dann noch im Serial Monitor ausgegeben, ob die Senderplatine (Handschuh) die 
 Daten erfolgreich senden konnte oder nicht. \\
@@ -3449,12 +3458,14 @@ Daten erfolgreich senden konnte oder nicht. \\
 \paragraph{Wichtige Codezeilen}
 \hfill \break
 \hfill \break
+\footnotesize
 \begin{lstlisting}
 int minWiderstand[5] = {1350, 1520, 1845, 1330, 1750};  
 //Daumen, Zeigefinger, Mittelfinger,Ringfinger, kleiner Finger
 int maxWiderstand[5] = {1900, 2000, 2135, 1900, 2050};
 \end{lstlisting}
 \hfill \break
+\normalsize
 In dem obenstehenden Code kann man zwei erstellte integer Arrays sehen. Eines ist 
 für das Speichern des minimalen Widerstandwertes zuständig. Dort werden dann die 
 manuell gemessenen Werte eingetragen. Das Array besitzt fünf Variablen. Die Variable 
@@ -3465,6 +3476,7 @@ kleinen Finger an. Somit kann jeder Finger im Array leicht einen neuen Wert
 zugewiesen bekommen und das Programm arbeitet automatisch mit den neu zugewiesenen 
 Werten bei erneutem Hochladen auf den ESP32. \\
 \\
+\footnotesize
 \begin{lstlisting}
 uint16_t result_mcp = mcp3021.read();
 value[i - 1] = mcp3021.toVoltage(result_mcp, ref_voltage);
@@ -3478,9 +3490,9 @@ value[i - 1] = mcp3021.toVoltage(result_mcp, ref_voltage);
     // Anpassen des Wertes
     int angepassterWert = map(value[i - 1], minWiderstand[i - 1],
 	maxWiderstand[i - 1], 0, 100);
-
 \end{lstlisting}
 \hfill \break
+\normalsize
 Obenstehend ist nun der Codeabschnitt zu sehen, in welchem der vom ADC verarbeitete 
 Wert des Flexsensors von dem ESP32 ausgelesen wird. Dieser wird dann mit dem Wert 
 des minimalen und maximalen Widerstands verglichen. Wenn der ausgelesene Widerstandswert 
@@ -3495,6 +3507,7 @@ dem dadurch folglich falschen Ansteuern der Servos zu verhindern, ist diese Maß
 notwendig. Die Servos könnten sich ansonsten zu weit drehen und eine Beschädigung an 
 der Mechanik hinterlassen. \\
 \\
+\footnotesize
 \begin{lstlisting}
     if(value[i - 1] <= vergleich[i - 1]-10 || value[i-1]
 	>= vergleich[i - 1]+10){
@@ -3504,6 +3517,7 @@ der Mechanik hinterlassen. \\
     }
 \end{lstlisting}
 \hfill \break
+\normalsize
 In obenstehendem Code wird der Wert des Flexsensors ausgelesen und dann mit dem 
 vorherigen Wert verglichen. Man nimmt also eine Toleranz zur Hilfe, um ein starkes 
 Zittern der Finger zu verhindern. Es ist wichtig dies zu begrenzen, da man bei jeder 
@@ -3516,6 +3530,7 @@ den zuletzt gespeicherten um 10 über- oder unterschreitet, wird der aktuell gem
 Wert dann an die Empfängerseite übermittelt, ansonsten der alte Wert, der in der 
 Variable ,,vergleich“ gespeichert steht. \\
 \\
+\footnotesize
 \begin{lstlisting}
 void selectMuxChannel(int channel){
 
@@ -3530,11 +3545,13 @@ void selectMuxChannel(int channel){
 	}
 \end{lstlisting}
 \hfill \break
+\normalsize
 In obenstehendem Codeabschnitt wird der Multiplexer richtig eingestellt. Je nach 
 Channelnummer wird dann festgelegt, welcher Eingang zum ADC weitergeschalten werden 
 soll. Durch einige if-Bedingungen kann somit immer sichergestellt werden, dass man 
 zu jeder Zeit den richtigen, gewünschten Wert auslesen kann. \\
 \\
+\footnotesize
 \begin{lstlisting}
 String package = "$s:" + String(i-1) + ":" + String(angepassterWert);
 
@@ -3544,23 +3561,24 @@ esp_err_t result = esp_now_send(broadcastAddress,
         	   (uint8_t *)package.c_str(), package.length() + 1);
 \end{lstlisting}
 \hfill \break
+\normalsize
 Obenstehend sieht man nun das Format, in welchem die Daten an die Empfängerseite 
 gesendet werden. Es wird ein String geformt. Dieser beginnt mit einem \$. Dies zeigt 
-an, dass nun ein \"Befehl\" gesendet wird und man diesen verwerten soll. Danach noch 
-ein \"s\" als Abkürzung für Servo. Der String von der Laufvariable \"i\" gibt dann an, 
-welcher Wert nun gesendet wird, also beispielsweise \"\$s:1\" würde bedeuten, dass nun 
+an, dass nun ein \textquote{Befehl} gesendet wird und man diesen verwerten soll. Danach noch 
+ein \textquote{s} als Abkürzung für Servo. Der String von der Laufvariable \textquote{i} gibt dann an, 
+welcher Wert nun gesendet wird, also beispielsweise \textquote{\$s:1} würde bedeuten, dass nun 
 der Wert des Daumens gesendet wird. Der gibt dann eine Trennung an. Auf der 
 Empfängerseite muss erkannt werden, wo die Trennung zwischen der Nummer des Fingers 
 und des Wertes, zu dem sich der Servo dann hinbewegen soll, liegt. Der String von 
-\"angepassterWert\" gibt dann den Wert an, den die Servoposition dann endgültig 
+\textquote{angepassterWert} gibt dann den Wert an, den die Servoposition dann endgültig 
 erreichen soll. Dabei ist es wichtig, dass dies allerdings auf der Empfängerseite 
 dann umgesetzt wird. Auf der Senderseite wird der angepasste Wert zuvor 
 möglicherweise durch die Grenzen von minimalem oder maximalem Widerstandswert 
 begrenzt und dann noch mit der map-Funktion auf Werte von 0-100 gebracht, da damit 
 dann auf der Empfängerseite gearbeitet wird. Gesamt schaut der String für den 
 Zeigefinger mit dem angepassten Wert und einem halben Abknicken dieses also wie 
-folgt aus: \"\$s:2:50\". Schlussendlich wird dann der gesamte String namens 
-\"package\" per drahtloser Übertragung über ESP-NOW von der Sender- zu der 
+folgt aus: \textquote{\$s:2:50}. Schlussendlich wird dann der gesamte String namens 
+\textquote{package} per drahtloser Übertragung über ESP-NOW von der Sender- zu der 
 Empfängerplatine gesendet. \\
 \\
 
@@ -3586,28 +3604,28 @@ verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umset
 \hfill \break
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{1.1}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss1_Roboterhand}}
 		\caption{Programmfluss1}
 		\label{fig:Programmfluss1_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
-Das Diagramm in \autoref{label:Flussdiagramm_Software_Roboterhand} veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
+Das Diagramm in [\textcolor{blue}{\autoref{label:Programmfluss1_Roboterhand}}] veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
 werden auf diesen verarbeitet und interpretiert.
 \\
 Zu Beginn der Software muss geklärt werden ob ein seriell verbundenes Userinterface erkannt wurde oder nicht. Ermöglicht wird dies durch eine Anfrage, 
-welche die Roboterhand auf den Seriellen Monitor schreibt. Dies erfolgt durch den String „\$req.UI“, welcher vom Userinterface als Anweisung zum Antworten 
-interpretiert wird. Antwortet das Userinterface wie erwartet versetzt sich die Roboterhand in den Userinterface-Modus, in der Grafik als „UI-MODE“ 
+welche die Roboterhand auf den Seriellen Monitor schreibt. Dies erfolgt durch den String \textquote{\$req.UI}, welcher vom Userinterface als Anweisung zum Antworten 
+interpretiert wird. Antwortet das Userinterface wie erwartet versetzt sich die Roboterhand in den Userinterface-Modus, in der Grafik als \textquote{UI-MODE} 
 gekennzeichnet. Erfolgt keine Antwort, konfiguriert sich die Hand ausschließlich darauf, auf Daten welche über das drahtlose ESP-NOW Protokoll empfangen 
-werden zu reagieren. Der Modus in dem die Hand ist wird als „ONLY – GLOVE“ in dieser Grafik bezeichnet. \\
+werden zu reagieren. Der Modus in dem die Hand ist wird als \textquote{ONLY – GLOVE} in dieser Grafik bezeichnet. \\
 Ist die Hand im Userinterface-Modus ist dennoch eine Kommunikation und Steuerung über die drahtlos verbundene Roboterhand möglich. Die Software 
 unterscheidet somit ob ausschließlich die Hand oder beides, das Unterinterface und die Hand, genutzt wird. Wird beides genutzt gibt es jedoch auch ein 
 Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss2_Roboterhand}}
 		\caption{Programmfluss2}
 		\label{fig:Programmfluss2_Roboterhand}		
@@ -3616,15 +3634,15 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \hfill \break
 \textbf{ONLY-GLOVE Modus:} \\
 Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
-die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. Im folgendem Kapitel (8.2.5.3 ESP-NOW und Wifi.h) wird 
+die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{red}{8.2.5.3 ESP-NOW und Wifi.h}] wird 
 die Anwendung dieser Komponente in dem System detailliert erläutert. \\
 Wurden Daten empfangen wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
-Dieser String wird daraufhin an die Komponente „interpretiere Daten“ vom Kapitel (8.2.4.1 Parser und Interpretation: drahtloser Datenströme) weitergegeben, 
+Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{red}{8.2.4.1 Parser und Interpretation: drahtloser Datenströme}] weitergegeben, 
 dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
-eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in dem Kapitel (8.2.4.3 proaktiver Datenkorrekturalgorithmus) 
+eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{red}{8.2.4.3 proaktiver Datenkorrekturalgorithmus}]
 zu finden. \\
-Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block „Servomapping“ übergeben, beschrieben unter 
-(8.2.4.4 Datenaufbereitung und Anweisung für Servoaktoren), dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
+Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
+[\textcolor{red}{8.2.4.4 Datenaufbereitung und Anweisung für Servoaktoren}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
 gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
 \\
 \begin{figure}[H]
@@ -3642,9 +3660,9 @@ missverstanden, da interpretiert wird, dass er ausschließlich eine Steuermögli
 Welche Steuerungsmöglichkeit gewählt wird kann über das Interface per „Switch-Button“ eingestellt werden. Das Userinterface sendet bei der nächsten 
 Anfrage von der Roboterhand-Software die Information mit auf welchen Modus der Schalter gestellt wurde. \\
 \\
-Erhält das Userinterface eine Anfrage antwortet dieses entsprechend mit - §answ.here und fügt daraufhin je nachdem welcher Modus im Userinterface gewählt 
+Erhält das Userinterface eine Anfrage antwortet dieses entsprechend mit - \$answ.here und fügt daraufhin je nachdem welcher Modus im Userinterface gewählt 
 wurde ein .han, für die Steuerung per Handschuh, oder ein .ser, für eine Steuerung per Interface, an diesen String an. \\
-Die Antwort vom Userinterface darf ausschließlich „\$answ.here.ser“ oder „\$answ.here.han“ sein. \\
+Die Antwort vom Userinterface darf ausschließlich \textquote{\$answ.here.ser} oder \textquote{\$answ.here.han} sein. \\
 Im Kapitel (8.3.4 Realisierung des Frontends) sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
 \\
 Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle Empfangenen Befehle vom 
@@ -3655,8 +3673,8 @@ Rückmeldung an das Userinterface über die Serielle Schnittstelle gesendet werd
 \\
 Entscheidet sich der Nutzer nun doch die Roboterhand mit den vom Userinterface geboten Bedienungsmöglichkeiten zu steuern, wird ebenso bei der nächsten 
 erhaltenen Anfrage diese Änderung übergeben. Wird diese Änderung erkannt, reagiert die Software auf alle vom Interface übergeben Positionsanweisungen. 
-Die Anweisungen landen in erster Hand in der Komponente „UI-Interpreter“ dort werden diese Anweisungen in ihre Parameter geteilt und das Programm übergibt 
-diese an die folgende Komponente des „Servomappings“. Unmittelbar nachdem die angepassten Werte dem Motor übergeben wurden, wird eine Strommessung von 
+Die Anweisungen landen in erster Hand in der Komponente \textquote{UI-Interpreter} dort werden diese Anweisungen in ihre Parameter geteilt und das Programm übergibt 
+diese an die folgende Komponente des \textquote{Servomappings}. Unmittelbar nachdem die angepassten Werte dem Motor übergeben wurden, wird eine Strommessung von 
 der Software aus gestartet. Diese sendet die erfassten Werte des Messfensters an das Userinterface. \\
 \\
 
@@ -3688,8 +3706,8 @@ mit Konfigurationsmöglichkeiten für beispielsweise die drahtlose Kommunikation
 \label{chap:Kommunikation-Protokolle}
 Für den Datenaustausch zwischen dem Eingabe- und dem Ausgabesubsystem wird ein einheitliches Protokoll benötigt, welches auch während der Entwicklung 
 ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten welche für das 
-Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird im Kapitel 	(8.2.4.1 Parser und Interpretation: drahtloser Datenströme) 
-und (8.2.4.2 Parser und Interpretation: serieller Datenströme). \\
+Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{red}{8.2.4.1 Parser und Interpretation: drahtloser Datenströme}]
+und [\textcolor{red}{8.2.4.2 Parser und Interpretation: serieller Datenströme}]. \\
 \\
 %\begin{figure}[H]
 %	\centering
@@ -3725,13 +3743,13 @@ $\$S:1:50$ \\
 \\
 \$ Ist der primäre Präfix von jedem gesendet Datenpaket und die Grundvoraussetzung, dass der jeweilige Parser es überhaupt interpretiert. \\
 \\
-Das folgende „S“ steht in diesem Fall für Servo und deutet daraufhin, dass nun ein variabler Wert folgt welcher den Index des jeweiligen Motors angibt. 
-Dieser kann in diesem Fall von 0-4 variieren und wird mit einem „:“ getrennt. \\
+Das folgende \textquote{S} steht in diesem Fall für Servo und deutet daraufhin, dass nun ein variabler Wert folgt welcher den Index des jeweiligen Motors angibt. 
+Dieser kann in diesem Fall von 0-4 variieren und wird mit einem \textquote{:} getrennt. \\
 Es ist ein verpflichtender Teil des Protokolls, dass alle variablen Werte auf diese Weise getrennt werden. \\
-Nach dem nächsten „:“ muss nun ein Wert zwischen 0 und 100 folgen. Dies ist ein gemappter Wert, welcher von der Software dann auf die Zugcharakteristik 
+Nach dem nächsten \textquote{:} muss nun ein Wert zwischen 0 und 100 folgen. Dies ist ein gemappter Wert, welcher von der Software dann auf die Zugcharakteristik 
 der Motoren rückgemappt wird, und gibt die Fingerstellung an. \\
 \\
-Das Paket aus dem Beispiel bedeutet somit: „Der Servomotor-1 soll seinen Finger auf eine Faltung von 50\% stellen“. \\
+Das Paket aus dem Beispiel bedeutet somit: \textquote{Der Servomotor-1 soll seinen Finger auf eine Faltung von 50\% stellen}. \\
 \\
 
 \paragraph{Serielle Kommunikation}
@@ -3804,12 +3822,12 @@ An das Userinterface werden bei aktuellstem Entwicklungsstand ausschließlich Da
 Dies erfolgt in folgendem Format: \\
 \$A:INDEX:WERT \\
 \\
-\textbf{„A“} bedeutet für das Userinterface, dass nun mit einem Messerwert der jeweiligen Ströme gerechnet werden muss. An der Stelle von \textbf{„INDEX“} ist ein Wert 
-von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. Darauf folgt, dann der Messwert \textbf{„WERT“}. \\
+\textbf{\textquote{A}} bedeutet für das Userinterface, dass nun mit einem Messerwert der jeweiligen Ströme gerechnet werden muss. An der Stelle von \textbf{\textquote{INDEX}} ist ein Wert 
+von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. Darauf folgt, dann der Messwert \textbf{\textquote{WERT}}. \\
 \\
 
 \subsubsection{Individuelle Komponenten}
-Wie in dem Kapitel (8.2.2.2 Effiziente Gliederung essenzieller Systemkomponenten) bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
+Wie in [\textcolor{red}{8.2.2.2 Effiziente Gliederung essenzieller Systemkomponenten}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
 Unterprogrammen zusammen, diese werden als „Komponente“ bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
 sich die jeweiligen Routen, die ein Datenpacket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
 Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
@@ -3819,8 +3837,8 @@ werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter 
 \paragraph{Parser und Interpretation: drahtloser Datenströme}
 \hfill \break
 \hfill \break
-Die Interpretation drahtloser Datenströme findet auf zwei Datenrouten im Programm ihre Anwendung. Einmal im „ONLY-GLOVE“ Modus und auch im Userinterface 
-Modus, sofern dieses auch auf den „GLOVE“ Modus gestellt wurde. \\
+Die Interpretation drahtloser Datenströme findet auf zwei Datenrouten im Programm ihre Anwendung. Einmal im \textquote{ONLY-GLOVE} Modus und auch im Userinterface 
+Modus, sofern dieses auch auf den \textquote{GLOVE} Modus gestellt wurde. \\
 \\
 \footnotesize
 \begin{lstlisting}
@@ -3845,15 +3863,15 @@ empfangenen Datenpakets. Der dritte Parameter gibt die Länge des Datenpakets an
 \end{lstlisting}
 \hfill \break
 \normalsize
-Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in Kapitel (8.2.3.1 Drahtlose Kommunikation) beschrieben, erfüllt wird. \\
-Ist dies der Fall wird in die Struktur „Rückgabe“ der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
+Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in [\textcolor{red}{8.2.3.1 Drahtlose Kommunikation}] beschrieben, erfüllt wird. \\
+Ist dies der Fall wird in die Struktur \textquote{Rückgabe} der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
 \\
 
 \paragraph{Parser und Interpreatation: serieller Datenströme}
 \hfill \break
 \hfill \break
 Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
-die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in dem Kapitel (8.2.3.2 Serielle Kommunikation) beschrieben, hat dieser Parser mit 
+die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{red}{8.2.3.2 Serielle Kommunikation}] beschrieben, hat dieser Parser mit 
 Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zu einem Anweisungen für einzelne Finger, sowie auch Gesten. \\
 \\
 \textcolor{red}{Platzhalter für Amir} \\
@@ -3885,7 +3903,7 @@ Parst das Ausgangssubsystem einen neuen Wert, landet dieser im Array des Fingers
 geshiftet. \\
 Die Elemente des Arrays haben jeweils einen eigenen nutzen. Aus dem ersten bis zum siebten Element wird bei jeder Iteration ein Median berechnet und in 
 einer externen Variable gespeichert. \\
-Das achte Element ist der sogenannte „SCOPE“, dieser Wert ist die zweite Komponente einer Vergleichsoperation. Das neunte Element ist das letzte des 
+Das achte Element ist der sogenannte \textquote{SCOPE}, dieser Wert ist die zweite Komponente einer Vergleichsoperation. Das neunte Element ist das letzte des 
 Speichers, in diesem befindet sich der am aktuellsten geprüfte und je nach Umständen auch korrigierte Wert. \\
 \\
 \begin{figure}[H]
@@ -3897,13 +3915,13 @@ Speichers, in diesem befindet sich der am aktuellsten geprüfte und je nach Umst
 	\end{center}
 \end{figure}
 \hfill \break
-In der \autoref{fig:Median2} werden mehre Iterationen gezeigt, welche die Fehlererkennung und Eliminierung dieses veranschaulichen. Gezeigt wird hier derselbe 
+In der [\textcolor{blue}{\autoref{fig:Median2}}] werden mehre Iterationen gezeigt, welche die Fehlererkennung und Eliminierung dieses veranschaulichen. Gezeigt wird hier derselbe 
 Speicher, chronologisch wird gezeigt, wie von oben nach unten sich der Speicher pro Iteration ändert. Bei 1. ist zu sehen, dass sich im Scope der Wert 
 „25“ befindet. Der berechnete Median beträgt 15. \\
 Nun erfolgt eine Vergleichsoperation zwischen dem Wert im Scope und dem Median, überschreitet deren Differenz einen maximalen Grenzwert muss dieser 
 korrigiert werden. Da dies nicht der Fall ist wird der Wert 25 in der nächsten Iteration auf das Element für den OUTPUT geschoben. \\
 \\
-Bei der nächsten Iteration, in \autoref{fig:Median2} an Stelle 2. zu finden, wurden alle Werte nach rechts verschoben. Nun steht der Wert 987 im Scope, bei der 
+Bei der nächsten Iteration, in [\textcolor{blue}{\autoref{fig:Median2}}] an Stelle 2. zu finden, wurden alle Werte nach rechts verschoben. Nun steht der Wert 987 im Scope, bei der 
 Vergleichsoperation mit dem Median von 14 ist ersichtlich, dass deren Differenz die maximal konfigurierte Grenze überschreitet. Das Ergebnis: Eine 
 Korrektur ist erforderlich. Die nächste Iteration zeigt, dass dieser Wert korrigiert wurde. Der als fehlerhaft identifizierte Wert wurde mit dem 
 berechneten Median von 14 ersetzt. \\ 
@@ -3919,9 +3937,9 @@ den Gebraucher nicht wahrnehmbar. \\
 \hfill \break
 \hfill \break
 Jeder der im Projekt verwendeten Servomotoren, der MG995R, hat im Originalzustand einen maximalen Drehwinkel von 180\textdegree - entsprechend auf diesen 
-Winkel wurde der Mechanismus, wie im Kapitel (6.2.5 Vierte Hand (Hybrid-Konzept)) näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
+Winkel wurde der Mechanismus, wie in [\textcolor{blue}{\autoref{chap:Vierte Hand (Hybird-Konzept)}}] näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
 fehlende Glied, welches dafür sorgt, dass die Finger sich optimal bewegen. \\
-Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung sobald sich der Motor um beispielsweise 30° dreht. Um ein einheitliches 
+Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung sobald sich der Motor um beispielsweise 30\textdegree dreht. Um ein einheitliches 
 System zu schaffen, muss somit ermittelt bei welchem Drehungswinkel der Finger bereits gestreckt oder in der maximalen Falteposition, sprich vollkommen 
 eingefaltet ist. \\
 \\
@@ -3948,7 +3966,7 @@ eingefaltet ist. \\
 Das Eingangssubsystem misst die Stellung der Flex-Sensoren und übersetzt diese dann auf einen Bereich von 0 bis 100\%, das Ausgangssubsystem empfängt 
 die prozentuale Faltstellung des Fingers. \\
 \\
-Die Funktion „HPCA9685.Servo“ erfordert einen anderen Wertebereich als der empfangene von 0 bis 100 und somit müssen diese Werte gemappt werden. \\
+Die Funktion \textquote{HPCA9685.Servo} erfordert einen anderen Wertebereich als der empfangene von 0 bis 100 und somit müssen diese Werte gemappt werden. \\
 \\
 \footnotesize
 \begin{lstlisting}
@@ -3998,10 +4016,6 @@ Weitere Eigenschaften von Qt sind:
 \end{itemize}
 
 \subsubsection{Konzepte und Überlegungen \textcolor{red}{Laci}}
-
-\paragraph{Allgemeines Konzept}
-\hfill \break
-\hfill \break
 Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
 erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das Erstkonzept sieht folgendermaßen aus:
 \begin{figure}[H]
@@ -4032,11 +4046,9 @@ die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind a
 Die Benutzeroberfläche wurde mit der Beschreibungssprache $QML$ programmiert. Mit dieser können sehr einfach Tabellen und benutzerdefinierte
 Anordnungen erstellt werden, mit denen folglich ein visuell ansprechendes GUI kreiert werden kann. \\
 \\
-\paragraph{Erläuterung der Grafikoberfläche}
-\hfill \break
-\hfill \break
+\subsubsection{Erläuterung der Grafikoberfläche}
 \textbf{Einstellung des Steuermodus} \\
-Links oben in \autoref{fig:UI_Oberfläche}, sind zwei Elemente zu sehen. Der obere Schalter, ein sogenannter $Toggle-Switch$, ist dafür zuständig
+Links oben in [\textcolor{blue}{\autoref{fig:UI_Oberfläche}}], sind zwei Elemente zu sehen. Der obere Schalter, ein sogenannter $Toggle-Switch$, ist dafür zuständig
 zwischen zwei Kontrolmodi für die Roboterhand zu wechseln. In der gezeigten Stellung, kann das Ausgabesubsystem ausschließlich vom Eingabesubsystem,
 mithilfe der angebrachten Flexsensoren gesteuert werden. Wird dieser Schalter betätigt, so kann die Roboterhand nur mehr mit dem User-Interface
 bewegt werden. \\
@@ -4075,14 +4087,14 @@ Im untere, linken Bereich des Grafikoberfläche, befindet sich ein $Stack-Layout
 funktioniert allerdings wieder nur, wenn der $Steuermodusschalter$ auf $UI-Controlled$ gestellt ist. Mit dem untersten Slider, können auch alle Finger auf einmal bewegt werden. Steuermöglichkeiten wie diese sind vorgesehen, 
 damit der Benutzer bei einer möglichen Fehlfunktion des Eingabesubsystems nicht handlungsunfähig wird. Mit dem User-Interface kann somit noch weitergearbeitet werden, wennauch nicht so praktikabel wie per Eingabesubsystem, nämlich dem Handschuh. \\
 \\
-Die Übergabe der Steuerwerte erfolgt mit einem Protokoll \textcolor{red}{(Verweis auf Amir Protokollbeschreibung)} \\
+Die Übergabe der Steuerwerte erfolgt mit einem Protokoll [siehe \textcolor{blue}{\autoref{chap:Kommunikation-Protokolle}}] \\
 \\
 \textbf{Kontrollanzeigen} \\ 
-Im unteren, rechten Bereich von \autoref{fig:UI_Oberfläche}, befinden sich die $Kontrollanzeigen$ für die Servostellungen und die Griffkraft der Roboterhand. Mittels dem Protokoll (\textcolor{red}{Verweis auf Protokollbeschreibung von Amir}), werden
+Im unteren, rechten Bereich von [\textcolor{blue}{\autoref{fig:UI_Oberfläche}}], befinden sich die $Kontrollanzeigen$ für die Servostellungen und die Griffkraft der Roboterhand. Mittels dem Protokoll [siehe \textcolor{blue}{\autoref{chap:Kommunikation-Protokolle}}], werden
 die Servowinkelwerte jedes einzelnen Servos an das User-Interface gesendet. Diese werden interpretiert und auf Plausibilität geprüft. Folglich werden die vorherigen Werte, die im Anzeigefenster standen, überschrieben und der neue aktualisierte Wert angezeigt. \\
 \\
 \textbf{3D-Modell} \\
-In der Mitte der Grafikoberfläche, ist die, nicht übersehbare, Darstellung eines echten Handskelets zu sehen. Dieses 3D-Modell wurde in Fusion 360 erstellt. Jedes einzelne Teil wurde anschließend exportiert und im QT-DesignStudio korrekt positioniert. Wichtig
+In der Mitte der Grafikoberfläche, ist die, nicht übersehbare, Darstellung eines echten Handskelets zu sehen. Dieses 3D-Modell wurde in Fusion 360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] erstellt. Jedes einzelne Teil wurde anschließend exportiert und im QT-DesignStudio korrekt positioniert. Wichtig
 hierbei ist es zu beachten, dass jedes Hand -und Fingerglied vor dem Export aus Fusion 360 genau an seinem Ursprung liegen muss, da die Beugung der Finger ansonsten nicht korrekt nachgestellt werden kann. Die Drehachse jedes Gelenks, wäre durch einen inkorrekten Export
 verschoben.  
 
@@ -4093,7 +4105,7 @@ Das Backend ist in ein $Main-Programm$, ein $Header-File$ und ein $Source-File$ 
 ausprogrammiert und miteinander verknüpft. Das Wort $Verknuepfen$, bezieht sich dabei auf das $Signal-Slot-System$ von QT, durch das Funktionen anhand von bestimmten Ereignissen aufgerufen werden können. Im Main-Programm $main.cpp$, werden die $Signals$
 und $Slots$ in Abhängigkeit gesetzt und somit die Funktionen des Backends miteinander verknüpft. \\
 \\
-Der gesamte Code des User-Interface, ist in Punkt \autoref{chap:Fertigungsunterlagen_Software_Code} zu sehen. \\
+Der gesamte Code des User-Interface, ist in [\textcolor{blue}{\autoref{chap:Fertigungsunterlagen_Software_Code}}] zu sehen. \\
 \\
 Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden. \\
 \\
@@ -4108,11 +4120,11 @@ Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem 
 Jeder Flexsensor besitzt einen bestimmten Widerstandsbereich ($25k\Omega$ bis maximal $125k\Omega$). Laut Datenblatt muss allerdings von einer Toleranz von $+-30\%$ ausgegangen 
 werden. Deshalb muss der Widerstandswert jedes einzelnen Flexsensors ausgelesen werden, um festzustellen, wie sehr dieser je Flexsensor variiert. \\
 \\
-Als Erstes wurde eine Messung jedes einzelnen Flexsensors durchgeführt. Dabei wurden zuerst Punkte auf einem Blatt Papier aufgezeichnet \autoref{fig:Punkte_zur_Messung_Flexsensoren}. 
+Als Erstes wurde eine Messung jedes einzelnen Flexsensors durchgeführt. Dabei wurden zuerst Punkte auf einem Blatt Papier aufgezeichnet [\textcolor{blue}{\autoref{fig:Punkte_zur_Messung_Flexsensoren}}]. 
 Der Flexsensor, der am Anfang, bevor dieser gebogen wird, nur auf der y-Achse liegt, wird dann immer mehr Richtung der jeweilig gekennzeichneten Punkte gebogen. 
 Der untere Teil des Flexsensors bleibt stets auf den Koordinaten $(0|0)$, damit der Winkel von der y-Achse zur x-Achse gemessen werden kann. Punkt Nummer 1 liegt 
 beispielsweise bei dem Winkel von 17\textdegree. Es wurde von zwei Flexsensoren der sich ändernde Widerstandswert mit dieser Methode ausgemessen. Man hat am Ende also sieben 
-Widerstandswerte (Winkel von 0\textdegree, 17\textdegree, 27\textdegree, 40\textdegree, 53\textdegree, 65\textdegree, 76\textdegree, 90\textdegree) bei jedem der beiden Flexsensoren gemessen (siehe \autoref{tab:Messergebnisse_Papier}). \\
+Widerstandswerte (Winkel von 0\textdegree, 17\textdegree, 27\textdegree, 40\textdegree, 53\textdegree, 65\textdegree, 76\textdegree, 90\textdegree) bei jedem der beiden Flexsensoren gemessen [siehe \textcolor{blue}{\autoref{tab:Messergebnisse_Papier}}]. \\
 Man kann klar erkennen, dass die Widerstandswerte von Flexsensor 1 klar von jenen von Flexsensor 2 abweichen, gerade immer höheren Bereich des Biegungsgrades. 
 Flexsensor 1 erreicht bei einer Biegung von 90\textdegree einen maximalen Widerstandswert von $110k\Omega$, bei Flexsensor 2 sind es nur $45k\Omega$. Des Weiteren konnte festgestellt 
 werden, dass sich der Wert, aufgrund der Befestigung am Handschuh, welche keine stabile Position garantiert, teils bei jeder getätigten Messung wieder etwas verändert hat. \\
@@ -4149,8 +4161,8 @@ werden, dass sich der Wert, aufgrund der Befestigung am Handschuh, welche keine 
     \label{tab:Messergebnisse_Papier}
 \end{table}
 \hfill \break
-Als Zweites wurden die ausgemessenen Werte von Flexsensor 2 \autoref{tab:Messergebnisse_Papier} übernommen. Zusätzlich wurde nun der Flexsensor 2 auf den 
-Handschuh am Bereich des Zeigefingers der rechten Hand montiert. Die in \autoref{tab:Messergebnisse_Handschuh} zu sehende Einstellung (x/8), gibt den in der linken 
+Als Zweites wurden die ausgemessenen Werte von Flexsensor 2 [\textcolor{blue}{\autoref{tab:Messergebnisse_Papier}}] übernommen. Zusätzlich wurde nun der Flexsensor 2 auf den 
+Handschuh am Bereich des Zeigefingers der rechten Hand montiert. Die in [\textcolor{blue}{\autoref{tab:Messergebnisse_Handschuh}}] zu sehende Einstellung (x/8), gibt den in der linken 
 Tabelle nebenstehenden Winkel jeweils dazu an. Das bedeutet, dass man den Finger ungefähr bei der Einstellung von 2 um 17° abgebogen hat. Die nachfolgenden 
 Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einstellung (1-8). \\
 \\
@@ -4356,17 +4368,17 @@ erfassen würden, die auf der Außenseite der Finger angebracht sind. \\
 \\
 Ebenso war schnell klar, dass wir den Roboterarm mit einem 3D-Drucker 
 herstellen würden. Es gibt schlichtweg keine einfachere Methode, um in 
-kürzester Zeit manuell mit einer Modellierungssoftware Fusion 360 (siehe \autoref{chap:Fusion 360}) erstellte 
+kürzester Zeit manuell mit einer Modellierungssoftware Fusion 360 [siehe \textcolor{blue}{\autoref{chap:Fusion 360}}] erstellte 
 Teile zu produzieren. \\
 \\
 Die Entwicklung der Hardware konnte beginnen, sobald wir festgelegt hatten, 
 welche elektronischen Bauteile zum Einsatz kommen sollten. Jede einzelne 
-Verbindung, die wir in der Elektronik-Design-Automatisierung Software KiCad (siehe \autoref{chap:KiCad}) 
+Verbindung, die wir in der Elektronik-Design-Automatisierung Software KiCad [siehe \textcolor{blue}{\autoref{chap:KiCad}}]
 erstellt haben, wurde sorgfältig durchdacht. Gleiches gilt für die Anordnung 
 der Bauteile, um mögliche Störungen verschiedener Signale zu vermeiden. \\
 \\
 Die Softwareentwicklung wurde von Anfang an mithilfe der Entwicklungsumgebung Arduio IDE
-(siehe \autoref{chap:Arduino IDE}) durchgeführt. Der Mikrocontroller ESP32, der eine zentrale Rolle 
+[siehe \textcolor{blue}{\autoref{chap:Arduino IDE}}] durchgeführt. Der Mikrocontroller ESP32, der eine zentrale Rolle 
 in unserem Projekt spielt, wurde von Anfang an für das Auslesen, Verarbeiten 
 und Senden der Daten ausgewählt. \\
 \\
