@@ -276,7 +276,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\begin{tabular} {|p {6cm}|p{10cm}|}
 	 \hline 
 		\bfseries{\small{Illustrative graph, photo\par (with explanation)}} & \vspace{0.0mm} \small{
-		\includegraphics[width=0.666\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Final construction of the System
+		\includegraphics[width=0.58\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/schematic_drawing.jpeg} \par Final construction of the System
 		}\\
 	 \hline
 	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
@@ -378,7 +378,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\begin{tabular} {|p {6cm}|p{10cm}|}
 	 \hline 
 		\bfseries{\small{Typische Grafik, Foto etc.\par (mit Erläuterung)}} & \vspace{0.0mm} \small{
-		\includegraphics[width=0.666\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/TGM_logo.pdf} \par Vollständiger Aufbau des Systems
+		\includegraphics[width=0.58\textwidth]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/schematische_Darstellung.jpeg} \par Vollständiger Aufbau des Systems
 		}\\
 	 \hline
 	  \multicolumn{2}{l}{\large{ \textbf{}}}\\
@@ -413,13 +413,13 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 \newpage
 
 %==INHALT==================================================================
-
+\pagenumbering{roman}
 \tableofcontents
 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\newpage
+\clearpage
 
 \pagenumbering{arabic}
 
@@ -469,7 +469,7 @@ Parameter verändert werden können. \\
 
 \subsection{Grundgliederung der Arbeit}
 \label{chap:Grundgliederung der Arbeit}
-Folgende Schüler des TGMs haben, das in \autoref{chap:Themenerläuterung} erläuterte Projekt, entwickelt und gefertigt: \hfill \break
+Folgende Schüler des TGMs haben, das in [\textcolor{blue}{\autoref{chap:Themenerläuterung}}] erläuterte Projekt, entwickelt und gefertigt: \hfill \break
 \\
 Projektleiter:    Ladislaus Szabo (Hardwareentwicklung, PCB-Design, Projektleitung)\\
 Mitarbeiter: Fabian Schweitzer (Mikrokontroller-Programmierung, Testmanagement, Gesamtintegration)\\
@@ -667,7 +667,6 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 	\end{center}
 \end{figure}
 \hfill \break
-\textcolor{red}{\url{https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg\#/media/File:Flex_Sensor.jpg}} \\
 Ein Flexsensor (Biegesensor) misst die Biegung des aus Kunststoff bestehenden 
 Streifens. Die Kohlenstoffbeschichtung macht diesen dann zu einem variablen 
 Widerstand. Je mehr der Flexsensor gebogen wird, desto größer wird der Widerstand. 
@@ -683,7 +682,7 @@ werden, um zu messen, wie sehr ein Finger abgebogen wurde. \\
 	\begin{center}
 		\scalebox{0.6}
 		{\includegraphics[width=0.8 \linewidth]{Servomotor}}
-		\caption{Servomotor \\ (Quelle: \url{https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg})}
+		\caption{Servomotor}
 		\label{fig:Servomotor}
 	\end{center}
 \end{figure}
@@ -871,7 +870,7 @@ Diese Protokolle sind für die Kommunikation notwendig und standardisiert. \\
 \hfill \break
 \hfill \break
 Es gibt bei ESP-NOW zwei Schichten, den Data Link Layer und den Physical Layer 
-(siehe \autoref{chap:OSI-Modell}). Dabei beruht der Physical Layer auf dem IEEE 802.11b/g/n Standard. 
+[siehe \textcolor{blue}{\autoref{chap:OSI-Modell}}]. Dabei beruht der Physical Layer auf dem IEEE 802.11b/g/n Standard. 
 Da jedoch nicht so viele Schichten, wie bei dem OSI-Modell vorhanden sind, gibt es 
 mehrere Möglichkeiten, wo Fehler liegen können und es ist nicht so leicht den Fehler 
 an der richtigen Stelle zu suchen. \\
@@ -922,7 +921,7 @@ ist der Operationsverstärker dazu fähig fast bis auf das positive und negative
 von Vorteil, da dadurch die Versorgungsspannungen nicht übermäßig hoch sind und somit die Schaltungen mit niedrigeren Spannungen arbeiten
 kann. Dies ist auch für die Benutzer der entsprechenden Endgeräte sicherer.\\
 \\
-In \autoref{fig:RAILtoRAIL_OPV} sind die Ausgangsspannungsbereiche eines normalen OPVs, in blau, und eines OPVs mit Rail-to-Rail Technologie,
+In [\textcolor{blue}{\autoref{fig:RAILtoRAIL_OPV}}] sind die Ausgangsspannungsbereiche eines normalen OPVs, in blau, und eines OPVs mit Rail-to-Rail Technologie,
 in Orange, dargestellt. \\
 \begin{figure}[H]
 	\begin{center}
@@ -949,19 +948,20 @@ Ein ADC (Analog-Digital-Converter) wandelt kontinuierliche analoge Signale
 Prozessor die Werte verarbeiten kann. Deshalb kommen ADCs in elektronischen 
 Schaltungen häufig vor. \\
 \\
-Abtastung: Es werden kontinuierliche analoge Signale mit einer bestimmten 
+\textbf{Abtastung:} \\
+Es werden kontinuierliche analoge Signale mit einer bestimmten 
 Abtastrate abgetastet. Das kontinuierliche Signal wird hierbei zu einem 
 zeitdiskreten, wobei die Amplitude stets kontinuierlich bleibt. \\
 \\
-Halteschaltung: \\
+\textbf{Halteschaltung:} \\
 Die nach der Abtastung vorhandenen Messwerte werden in der Halteschaltung so 
 lange zurückgehalten, bis ein neuer die Halteschaltung erreicht. \\
 \\
-Quantisierer: \\
+\textbf{Quantisierer:} \\
 Die Messwerte werden hier in diskrete Amplitudenwerte aufgeteilt. Das Signal 
 ist ab dem Quantisierer zeitdiskret und besitzt nun eine diskrete Amplitude. \\
 \\
-Codierer: \\
+\textbf{Codierer:} \\
 Der Codierer wandelt dann das quantisierte Signal in ein binäres um. Am Ende ist 
 dann ein digitales Signal in Binärform vorhanden. \\
 \\
@@ -971,7 +971,7 @@ dann ein digitales Signal in Binärform vorhanden. \\
 Untenstehend kann man noch anhand einer einfachen Logikschaltung eines 2-zu-1 
 Multiplexers die Funktionsweise eines Multiplexers. Grundsätzlich wird über elektrische 
 Signale einer von mehreren Eingangssignalen an den Ausgang durchgeschaltet. Meist 
-funktioniert dies durch Halbleiterelemente. Das Steuersignal s schaltet noch zusätzlich. \\
+funktioniert dies durch Halbleiterelemente. Das Steuersignal schaltet noch zusätzlich. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -988,8 +988,7 @@ funktioniert dies durch Halbleiterelemente. Das Steuersignal s schaltet noch zus
 
 \subsection{I2C Funktionsweise}
 \label{chap:I2C Funktionsweise}
-\textbf{I2C Funktionsweise}
-\\
+\textbf{Funktionsweise:} \\
 I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
 kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
 Datenleitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
@@ -1005,7 +1004,7 @@ oder welche von einem Slave anfordern. Die zweite Leitung heißt SCL (serial clo
 und ist für den Takt zuständig, der für alle per I2C verbundenen Geräte gilt. Es 
 wird also ein synchroner Bus verwendet. \\
 \\
-\textbf{Beispiel Protokoll I2C}
+\textbf{Beispiel Protokoll:} \\
 Die Daten sind grundsätzlich in Datenpaketen verpackt, jedes besteht aus 1 Byte. 
 Wenn nichts kommuniziert wird, dann hat SDA und SCL den Wert 1. Nachdem eine 
 Start-Condition gesendet wurde, durch die alle Slaves wissen, dass sie nun auf den 
@@ -1018,8 +1017,6 @@ sendet dann oder empfängt Daten vom Slave. Sobald alle Daten versendet wurden,
 kommt die Bestätigung. Der ganze Vorgang des Senden und Empfangens wird am Ende 
 dann durch die Stop-Condition beendet. SDA wird hier auf 1 gesetzt, währenddessen 
 SCL auch den Wert 1 besitzt. \\
-\\
-\textcolor{red}{http://fmh-studios.de/theorie/informationstechnik/i2c-bus/}
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -1049,7 +1046,7 @@ gibt also an in welchem Abstand jeweils ein Symbol gesendet wird (1s/Baudrate)
 oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden 
 (Baudrate/1s). \\
 \\
-\textbf{Beispiel Protokoll für 8-Bit Packet}
+\textbf{Beispiel Protokoll für 8-Bit Packet} \\
 Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
 Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
 Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
@@ -1065,9 +1062,6 @@ Signalstörungen. Bei UART wird das LSB (least significant bit) immer ganz recht
 in den Daten gefunden. Sollte das Paritybit nicht stimmen, dann wird vom 
 Empfänger an den Sender eine Anfrage mit der Bitte um erneutes Senden gesendet, 
 da der Datensatz nicht stimmt. \\
-
-\textcolor{red}{https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a}
-
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.5}
@@ -1076,7 +1070,6 @@ da der Datensatz nicht stimmt. \\
 		\label{fig:UART}		
 	\end{center}
 \end{figure}
-\hfill \break
 
 \subsection{WiFi}
 \label{chap:WiFi}
@@ -1089,14 +1082,11 @@ da der Datensatz nicht stimmt. \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textcolor{red}{\url{https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg\#/media/Datei:WiFi_Logo.svg}}
 WLAN (Wireless Local Area Network) ist eine Technologie, die Geräte drahtlos in einem lokalen Netzwerk verbindet. Es wird häufig verwendet, um einen Zugang zum Internet herzustellen. Mobile Geräte wie Smartphones, Tablets und Laptops werden meistens über WLAN mit dem Internet oder untereinander verbunden.
 WIFI (Wireless Fidelity) ist eigentlich ein Markenname, der oft fälschlicherweise als Synonym für WLAN verwendet wird. 
 Innerhalb eines WLANs können Datenpakete gesendet und empfangen werden. Der Vorteil dieser drahtlosen Verbindung liegt darin, dass die Geräte keine physische Verbindung per Datenkabel benötigen. Sie können innerhalb einer bestimmten Reichweite miteinander kommunizieren.
 Die Reichweite eines WLANs kann durch verschiedene Faktoren beeinflusst werden. Beispielsweise können physische Hindernisse wie Wände oder Möbel das Signal abschwächen. Auch andere drahtlose Geräte oder Netzwerke können Interferenzen verursachen und die Signalqualität beeinträchtigen. \\
-\\
 
-\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
@@ -5048,9 +5038,29 @@ zukünftigen Modellierungen deutlich reduziert werden können. \\
 		\hline
 		06.03.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
 		\hline
+		07.03.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		07.03.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		07.03.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		12.03.2024 & 3,5 & 13:20 - 16:50 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{Finetuning an der Roboterhand und Adaptierung der Software}} \\
+		\hline
+		12.03.2024 & 3,5 & 13:20 - 16:50 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{Finetuning an der Roboterhand und Adaptierung der Software}} \\
+		\hline
+		12.03.2024 & 3,5 & 13:20 - 16:50 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
 	\end{tabular}
     \label{tab:Arbeitsstunden11}
 \end{table}
+\hfill \break
+\hfill \break
+\hfill \break
+\textbf{Gesamtstundenanzahl:} \\	
+\\
+Fabian Schweitzer: 197,5 \\
+Amir Al-Maytah: 202 \\
+Ladislaus Szabo: 191,5 \\
 
 \newpage
 %--------------------------------------------------------------------------

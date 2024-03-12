@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1710227276 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1710227286 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1710227276 326546 157480705e3384600ceb2964f01a1e5a ""
+["pdflatex"] 1710252904 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1710252915 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1710252893 327232 68ce0ef0f04eb8d3f9b4c4e13f3c0413 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -25,7 +25,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
@@ -42,7 +41,6 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
-  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1248133631 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -237,10 +235,10 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1710227286 71552 3a974edb7a2d9744c3cde5d9c5fca73f "pdflatex"
-  "Diplomarbeit.out" 1710227286 35587 75df0d32f56e4e7209fe34cc6794204f "pdflatex"
-  "Diplomarbeit.tex" 1710227276 326546 157480705e3384600ceb2964f01a1e5a ""
-  "Diplomarbeit.toc" 1710227286 19490 d21a61d67beae5e9f42ba39c49461597 "pdflatex"
+  "Diplomarbeit.aux" 1710252914 71301 26fe447d65b160b14b0f1acea6168612 "pdflatex"
+  "Diplomarbeit.out" 1710252914 35587 75df0d32f56e4e7209fe34cc6794204f "pdflatex"
+  "Diplomarbeit.tex" 1710252893 327232 68ce0ef0f04eb8d3f9b4c4e13f3c0413 ""
+  "Diplomarbeit.toc" 1710252914 19488 d06204fad74a50da90556090bbbd56e4 "pdflatex"
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
@@ -365,6 +363,8 @@
   "src/Zahnstangenmechanismus_Unterarm.png" 1709131536 70953 aff0ce3073b44fbf1f600b621c68d047 ""
   "src/Zugkraft_Strom_Diagramm_Servomessung.png" 1708424500 58496 ab0f2b33fd6c668205365f4714614469 ""
   "src/effiziente_Gliederung.png" 1709826670 59910 0ee7857bf33953a9734f6d440a5d858e ""
+  "src/schematic_drawing.jpeg" 1710248055 306847 f48c9ba7b0c385f31d0b1a2bedef9383 ""
+  "src/schematische_Darstellung.jpeg" 1710247492 274309 a7c1025bc0474422f0ec7e859f2f4e6d ""
   (generated)
   "Diplomarbeit.aux"
   "Diplomarbeit.log"
