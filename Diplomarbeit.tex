@@ -648,7 +648,324 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \subsection{\textcolor{purple}{Platzhalter Thema Amir}}
 \subsection{\textcolor{purple}{Platzhalter Thema Fabian}}
 \subsection{Sicherheitsaspekte der Mensch-Roboter-Kollaboration}
+\subsubsection{Einleitung}
+\paragraph{Hintergrund und Motivation}
+\hfill \break
+\hfill \break
+Der Hintergrund dieser vorwissenschaftlichen Arbeit besteht darin, mögliche 
+Sicherheitsanforderung, die für unser Diplomprojekt relevant sind, kennenzulernen 
+und gegebenenfalls umzusetzen. Aufgrund von unvorhersehbaren Ereignissen in 
+elektronischen Bauteilen, Programmabläufen und Berechnungen, sind die Vorschriften 
+zur Absicherung von Menschen bei der Verwendung von Robotern unerlässlich, wenn 
+ein solches Produkt vermarktet werden soll. \\
+\\
+Da die bionische Hand, gebaut von dem in der Dokumentation beschriebenen 
+Entwicklerteam, erhebliche Kraft hat und dadurch Verletzungen an Körperteilen 
+entstehen könnten, ist der Sicherheitsaspekt ein grundlegender Projektteil, um 
+den Entwicklungsprozess zu vollenden. \\
+\\
+\paragraph{Ziel der Arbeit}
+\hfill \break
+\hfill \break
+Das Ziel dieser Ausarbeitung ist es, Wissen über diverse Sicherheitsstandards und 
+Normen zu sammeln und diese in Zukunft in Bezug auf das Diplomprojekt umzusetzen. \\
+\\ 
+Diesbezüglich werden im folgenden Verlauf der Arbeit diverse Punkte beschrieben, 
+die es bei der Konzeptionierung und Umsetzung von Sicherheitsstandards -und Normen 
+zu beachten gilt. Es wird erklärt, was als Zusammenarbeit von Menschen und Roboter 
+gesehen wird und welche Arten dieser gemeinsamen Arbeit, beziehungsweise 
+Kollaboration, existieren. Anschließend werden die dazugehörigen 
+Sicherheitsaspekte näher erläutert und die damit verbundenen Standards und Normen 
+beschrieben. Gegen Ende werden noch Technologien und Praktiken genannt, die 
+derzeit in der Industrie angewendet werden, um Vorfälle jeglicher Art zu vermeiden. \\
 
+\subsubsection{Grundlagen der Mensch-Roboter-Kollaboration}
+\paragraph{Definition}
+\hfill \break
+\hfill \break
+Die Grundidee der Mensch-Roboter-Kollaboration ist die Zusammenarbeit zwischen 
+Menschen und industriell verwendeten Robotern. Dadurch sollen die Stärken beider 
+Parteien vereint und die Schwächen minimiert werden. Heute wird jede Art der 
+Zusammenarbeit, die keine robuste Abgrenzung, wie zum Beispiel einen Zaun oder 
+eine Glasscheibe, hat, als Kollaboration zwischen Mensch und Roboter bezeichnet. 
+Da Zusammenarbeit allerdings bedeutet an einer Aufgabe gemeinsam und zur gleichen 
+Zeit zu arbeiten, müssen die verschiedenen Arbeitsschritte koordiniert und 
+aufgeteilt werden. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.10)} \\
+\\
+Um die Arten der Arbeitsteilung zu unterteilen, existieren vier verschiedene 
+Bereiche, die das Frauenhofer-Institut für Arbeitsorganisation definiert hat. Im 
+folgenden Punkt werden diese Bereiche genannt und näher beschrieben. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 10.03.2024, p.10)}\\
+\\
+
+\paragraph{Arten der Zusammenarbeit}
+\hfill \break
+\hfill \break
+\textbf{Koexistenz} \\
+\\
+Bei der Koexistenz ist ein Kontakt zwischen Mensch und Maschine nicht vorgesehen. 
+Beide Parteien arbeiten allerdings im selben Raum und sind physisch nicht 
+voneinander isoliert. Dies könnte bei Fehlfunktionen des Roboters zu unerwünschten 
+Kontakten führen, weshalb auch bei der Koexistenz ein Sicherheitskonzept und 
+Schutzmaßnahmen vorhanden sein müssen. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.4}
+		{\includegraphics[width=0.8 \linewidth]{Koexistenz}}
+		\caption{Koexistenz}
+		\label{fig:Koexistenz}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Synchonisation} \\
+\\
+Wie das Wort synchron impliziert, ist bei dieser Art der Zusammenarbeit eine 
+zeitliche Abhängigkeit der Arbeitsschritte vorhanden. Mensch und Roboter arbeiten 
+immer noch getrennt voneinander, jedoch wird nun ein Arbeitstakt vorgegeben. Dies 
+dient zur zeitlichen Festlegung der verschiedenen Produktionsschritte, wodurch 
+Kontakte zwischen Mensch und Roboter vermieden werden sollen. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.4}
+		{\includegraphics[width=0.8 \linewidth]{Synchronisation}}
+		\caption{Synchronisation}
+		\label{fig:Synchronisation}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Kooperation} \\
+\\
+Bei der Kooperation arbeiten beide Parteien gemeinsam in einem definierten 
+Arbeitsraum. Ein Kontakt von Mensch und Maschine ist hier ebenfalls nicht 
+vorgesehen, jedoch kann an mehreren Werkstücken gleichzeitig gearbeitet werden. 
+Dies erfordert schon wesentlich komplexere Sicherungsmaßnahmen als bei der 
+Synchronisation und Koexistenz. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.4}
+		{\includegraphics[width=0.8 \linewidth]{Kooperation}}
+		\caption{Kooperation}
+		\label{fig:Kooperation}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Kollaboration} \\
+\\
+Die Kollaboration ist die fortgeschrittenste Arbeitsweise, bei der Mensch und 
+Roboter gleichzeitig im selben Arbeitsraum und möglicherweise am selben Werkstück 
+arbeiten. Ein kontrollierter Kontakt kann bei der Kollaboration durchaus Teil des 
+Arbeitsablaufs sein. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.4}
+		{\includegraphics[width=0.8 \linewidth]{Kollaboration}}
+		\caption{Kollaboration}
+		\label{fig:Kollaboration}
+	\end{center}
+\end{figure}
+\hfill \break
+
+\subsubsection{Sicherheitsaspekte}
+\paragraph{Gefahren und Risiken}
+\hfill \break
+\hfill \break
+Wie bei Computern und anderen Geräten mir elektronischen Bauteilen und Mikrochips, 
+bieten Roboter eine vielfältige Angriffsfläche für Hacker. Die folgende Liste des 
+TÜV Austria (2016), zeigt die zehn häufigsten Bedrohungen, die von IT-Angreifern 
+genutzt werden. \\
+\begin{itemize}
+	\item Social Engineering and Pishing
+	\item Einschleusen von Schadsoftware über Hardware (z.B. USB-Sticks)
+	\item Infektion mit Schadsoftware über Inter- und Intranet
+	\item Einbruch über Wartungsfernzugänge
+	\item Menschliches Fehlverhalten/Sabotage
+	\item Internet verbundene Steuerungskomponenten
+	\item Technisches Fehlverhalten, höhere Gewalt
+	\item Kompromittierung von Extranet und Cloud-Komponenten
+	\item (D) DoS Angriffe
+	\item Kompromittierung von Smartphones im Produktionsbetrieb
+\end{itemize}
+\hfill \break
+Bei diesen Arten der Bedrohung, handelt es sich um sogenannte Primärangriffe. 
+Diese werden verwenden, um Sabotage auszuüben und Geräte zu manipulieren. Durch 
+diese gezielten Angriffe, können sowohl Maschinen beschädigt als auch Menschen 
+verletzt werden, da durch die Übernahme fremder Personen alle Sicherheitsmaßnahmen 
+außer Kraft gesetzt werden. \footnote{\url{https://tr.tuv.at/fileadmin/user_upload/docs/group/innovation/tuv-austria-white-paper-deutsch/003_tuv_austria_white_paper_III_einfluss_it_security_sicherheit_in_der_mensch_roboter_kollaboration_fraunhofer_DE_WEB.pdf} (Stand: 06.03.2024, p.12)}\\
+\\
+Die Schutzziele werden in der CIA-Triade zusammengefasst. (Link zu CIA-Triade) \\
+\\
+In den folgenden Punkten werden Gefahren und Risiken erläutert, die nicht nur 
+durch etwaige Hacker-Angriffe oder anderweitige illegale Tätigkeiten entstehen 
+könnten. \\
+\\
+\textbf{Kollisionen} \\
+\\
+Unerwartete Störungen und Fehlfunktionen können jederzeit auftreten. Dies gilt für 
+den Betrieb, als auch für den Zeitraum, indem die Maschine von der elektrischen 
+Versorgung getrennt ist. Die möglichen Gefahren beim Stillstand des Roboters 
+werden allerdings nicht erläutert, es handelt sich hierbei ausschließlich um 
+Ereignisse, die beim Betrieb eines Roboters auftreten können. \\
+\\
+Kollisionen kommen bei geprüften Robotersystem eher selten vor, allerdings heißt 
+dies nicht, dass diese nicht auch bei technisch abgenommenen Maschinen vorkommen 
+können. Durch mechanische Abnutzung und Verschleiß können jederzeit 
+unvorhergesehene Schwächen in der physischen Integrität auftreten, wodurch 
+Bewegungen plötzlich anders als gewünscht geschehen können. Nicht nur das, Teile 
+könnten genauso nachgeben und abbrechen, wodurch der Kollaborateur erheblichen 
+Schaden nehmen könnte. Dies gilt es mit allen Mitteln zu verhindern, weshalb 
+Richtlinien und Normen (wie in Punkt Sicherheitsstandards und Normen beschrieben) 
+unbedingt eingehalten und dauerhaft verbessert werden müssen. Die schon vorhandenen 
+Sicherheitsmaßnahmen, die zusätzlich zu diversen Richtlinien umgesetzt werden, 
+sind in Punkt (Lösungen zur Verbesserung der Sicherheit) beschrieben. \\
+\\
+\textbf{Ergonomische Belastungen} \\
+\\
+MRKs (Mensch-Roboter-Kollaborationen) werden häufig verwendet, um Menschen bei 
+körperlich schweren Arbeiten zu unterstützen und entlasten. Bei einer schlechten 
+Auslegung des Arbeitsplatzes und der Interaktionsmöglichkeiten für den Menschen, 
+kann dies allerdings zum Nachteil werden, da infolgedessen ergonomische 
+Beschwerden entstehen können. Ziel ist es die Feinmotorik, Ausdauer und 
+Schnelligkeit mit den gedanklichen Fähigkeiten des Arbeiters zu verbinden und 
+nicht diesen weiter zu belasten. \\
+\\
+\textbf{Unvorhersehbare Bewegungen} \\
+\\
+Es existieren viele verschiedene Antriebsarten für Roboter: \\
+\begin{itemize}
+	\item Servomotoren
+	\item Schrittmotoren
+	\item Hydraulische Systeme
+	\item Pneumatische Systeme
+\end{itemize}
+\hfill \break
+Alle diese Konzepte sind dafür konzipiert eine Sache so genau wie möglich zu 
+bewegen. Dies reicht von einfachen Zahnrädern bis hin zu komplexen Bestandteilen 
+von Robotern wie Arme oder Greifer. Jedes Ansteuerungsprinzip benötigt eine Art 
+von elektronischer Schaltung, um die Bewegungen eines Roboters zu kontrollieren. \\
+\\
+Auch die sicherste Schaltung mit den besten Bauteilen und der besten Programmierung 
+wird an einem Punkt ihrer Betriebszeit einen Fehler erzeugen. Dies könnte in 
+unvorhersehbaren Bewegungen des Roboters resultieren, welche den gerade Arbeitenden 
+verletzen könnte. Doch nicht nur durch elektronische Fehler, sondern auch durch 
+Unstimmigkeiten in der Mechanik können zufällige Bewegungen entstehen. Servomotoren 
+könnten über ihre vorgegebene Drehgrenze drehen, was bei dem Projekt RoboGlove – 
+bionische Hand zu erheblichen Schwierigkeiten führen würde. Es könnten Roboterfinger 
+abbrechen und Schnüre reißen. Wenn durch solch eine unvorhersehbaren Fehlfunktion 
+Roboterteile beschädigt, werden ist eine sichere Zusammenarbeit für den Mensch 
+nicht mehr möglich. Präventive Maßnahmen und Lösungsansätze für destruktive 
+Fehlfunktionen werden in Punkt (Lösungen zur Verbesserung der Sicherheit) 
+beschrieben. \\
+\\
+
+\paragraph{Sicherheitsstandards und Normen}
+\hfill \break
+\hfill \break
+Normen und Sicherheitsstandards sind Anforderungen, die von jeglichen Institutionen 
+in Bezug auf Produkte, Dienstleistungen und Verfahren umgesetzt werden müssen. 
+Diese Richtlinien tragen maßgeblich zur bedenk losen Verwendung von 
+Alltagsgegenständen bei und schaffen Klarheit im öffentlichen Warenverkehr. \\
+\\
+Prüfungen von technischen, und auch anderen, Dingen, können durch Normen wesentlich 
+erleichtert werden, da diese eine Grundlage für das Vergleichen von spezifischen 
+Eigenschaften generiert. \\
+\\
+Es existieren drei Kategorien in die Normen aufgeteilt werden: \\
+\begin{itemize}
+	\item Typ-A 
+	\item Typ-B 
+	\item Typ-C 
+\end{itemize}
+\hfill \break
+Je weiter hinten der Buchstabe der Typenbezeichnung im Alphabet steht, desto 
+genauer sind die zu erfüllenden Anforderungen, um sich für die gewählte Norm zu 
+qualifizieren. \footnote{\url{https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf} (Stand:11.03.2024, p.31-32)} \\
+\\
+Folgende Normen und Sicherheitsstandards sind bei der MRK 
+(Mensch-Roboter-Kollaboration) zu beachten: \\
+\\
+\textbf{ISA / IEC 62443} \\
+\\
+Diese internationale Norm beschreibt die Sicherheitsanforderung in Bezug auf 
+Cybersecurity. Es werden die besten Praktiken beschrieben, um Sicherheitsrelevante 
+Systeme gegen externe Angriffe zu schützen und dies mit der Prozesssicherheit bei 
+der Mensch Roboter Kollaboration zu kombinieren. \\
+\\
+Dieser Standard ist der Überbegriff für viele weitere Normen. Diese beschreiben 
+Unterpunkte der Sicherheit bei der Programmierung, Internetverbindung und 
+generelle Vorschläge wie externe Eingriffe in das lokale Steuerungsnetzwerk 
+verhindert werden können. \footnote{\url{https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards} (Stand: 13.03.2024)} \\ 
+\\
+\paragraph{EU Vorschriften}
+\hfill \break
+\hfill \break
+Zu den Aufgaben der europäischen Union gehört es, Richtlinien und Gesetze zu 
+erlassen, die Arbeitende schützen. Dies gilt für jegliche Art eines Betriebs, 
+wozu auch die Mensch-Roboter-Kollaboration gehört. \\
+\\
+Jeder Mitgliedstaat der EU muss diese Vorschriften umsetzen. Dies ist der Fall, 
+da entschieden wurde das CE-Kennzeichen an jedem verkauften Produkt anbringen zu 
+müssen. Diese Kennzeichnung dient der Sicherheit der Benutzer und muss von jedem 
+Hersteller, der im europäischen Raum verkauft, eingehalten werden. \\
+\\
+\textbf{EN61508} \\
+\\
+Die europäische Norm EN61508 befasst sich mit der funktionalen Sicherheit 
+elektrischer und programmierbarer Systeme. Diese Sicherheitsgrundnorm ist 
+unabhängig von der Anwendung, also nicht spezifisch für Robotersysteme, und ist 
+für die allgemeine Sicherheit von Steuerungssystemen zuständig. \\
+\\
+Der Fokus der Norm liegt auf dem Lebenszyklus eines Sicherheitsrelevanten 
+Steuerungssystems. Zusätzlich wird auch beschrieben, wie der Entwurf elektrischer 
+Systeme und der zugehörigen Software abzulaufen hat. Dies dient hauptsächlich den 
+Herstellern der gerade beschriebenen Systeme. \\
+\\
+Für den Endanwender ist die Norm EN 62061 oder EN ISO 13849-1/-2 interessanter. 
+Dies sind die Standards für funktionale Sicherheit, in denen die Sicherheitsstufen 
+der einzelnen Steuerungssysteme beschrieben werden. Es sind Geräte, Sensoren und 
+komplette Steuerungen in Safety Integrity Levels von 1 bis 4 eingestuft. \footnote{\url{https://www.pilz.com/de-DE/support/law-standards-norms/functional-safety/en-iec-61508} (Stand: 13.03.2024)}\\
+\\
+\textbf{Maschinenrichtlinie 2006/47/EG} \\
+\\
+In dieser Maschinenrichtlinie wird die einheitliche Inverkehrbringung 
+Sicherheitsrelevanter Maschinen und Systeme geregelt. Das Ziel ist es in Europa 
+den gleichen grundlegenden Sicherheitsstandard zu erreichen. Anforderungen dieser 
+Norm sind zum Beispiel: \\
+\begin{itemize}
+	\item Die mechanisch und elektrisch sichere Gestaltung von Maschinen (sichere Steuerkreise, etc…)
+	\item Die Gewährleistung einer sicheren Bedienung und Inbetriebnahme
+	\item Die möglichst schwere Umgehbarkeit von Sicherheitseinrichtungen an Maschinen zu sichern
+\end{itemize}
+\hfill \break
+Diese Maschinenrichtlinie ist ein Teil des Verfahrens, um das CE-Kennzeichen zu 
+bekommen. \footnote{\url{https://www.tuvsud.com/de-de/indust-re/maschinensicherheit-info/maschinenrichtlinie} (Stand: 13.03.2024)}\\
+\\
+\paragraph{Nationale Vorschriften (Österreich)}
+\hfill \break
+\hfill \break
+Als Mitgliedsstaat der europäischen Union, muss Österreich alle in Brüssel 
+erlassenen Normen und Standards umsetzen. Nationale Abweichungen dieser Richtlinien 
+können, nach Absprache mit der EU vorgenommen werden. In Bezug auf die maschinelle 
+und interne Sicherheit von elektrischen und Sicherheitsrelevanten Systemen existieren 
+solche Abänderungen nicht. \\
+Europäische Richtlinien müssen als nationales Gesetz angesehen werden und dürfen 
+nicht umgangen werden! \footnote{Fachlehrer Baumgartner} \\
+\\
+
+\subsubsection{Lösungen zur Verbesserung der Sicherheit bei der MRK}
+\paragraph{Sensortechnologien}
+\hfill \break
+\hfill \break
+
+\paragraph{Kollaborative Roboter (Cobots)}
+\hfill \break
+\hfill \break
+
+\paragraph{Softwarebasierte Sicherheitsmaßnahmen}
+\hfill \break
+\hfill \break
+
+\paragraph{Menschenbezogene Sicherheitsmaßnahmen}
+\hfill \break
+\hfill \break
 
 \newpage
 %--------------------------------------------------------------------------
