@@ -295,37 +295,6 @@
       \endverb
       \warn{\item online entry 'TÜVsüd' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{UARTabbildung}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0ddae28735d422a91fddcb996dd2c392}{%
-           family={Techlab},
-           familyi={T\bibinitperiod},
-           given={Edis},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{0ddae28735d422a91fddcb996dd2c392}
-      \strng{fullhash}{0ddae28735d422a91fddcb996dd2c392}
-      \strng{bibnamehash}{0ddae28735d422a91fddcb996dd2c392}
-      \strng{authorbibnamehash}{0ddae28735d422a91fddcb996dd2c392}
-      \strng{authornamehash}{0ddae28735d422a91fddcb996dd2c392}
-      \strng{authorfullhash}{0ddae28735d422a91fddcb996dd2c392}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{I2C Zeitdiagramm}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a
-      \endverb
-      \verb{url}
-      \verb https://edistechlab.com/wie-funktioniert-uart/?v=fa868488740a
-      \endverb
-      \warn{\item online entry 'UARTabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
-    \endentry
     \entry{rubigm1}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec1231996de72ba6d8de12b8e11f3caa}{%

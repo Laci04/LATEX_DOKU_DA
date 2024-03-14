@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  14 MAR 2024 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.23)  14 MAR 2024 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1520,11 +1520,6 @@ Package biblatex Warning: Biber reported the following issues
 
 
 Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'UARTabbildung':
-(biblatex)                - online entry 'UARTabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring.
-
-
-Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'rubigm1':
 (biblatex)                - online entry 'rubigm1' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring.
 
@@ -2475,7 +2470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 988--997
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg, id=213, 495.8525pt x 604.2575pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg, id=211, 495.8525pt x 604.2575pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servomotor.jpg  used on input line 1003.
@@ -2494,7 +2489,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg, id=229, 1325.95375pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg, id=224, 1325.95375pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESPNOW_Model.jpeg  used on input line 1097.
@@ -2662,7 +2657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1189--1196
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP_NOW_Theorie.jpg, id=260, 1204.5pt x 1407.2575pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP_NOW_Theorie.jpg, id=254, 1204.5pt x 1407.2575pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP_NOW_Theorie.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP_NOW_Theorie.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP_NOW_Theorie.jpg  used on input line 1212.
@@ -2711,7 +2706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1229--1232
 
 LaTeX Warning: Reference `fig:RAILtoRAIL_OPV' on page 23 undefined on input line 1243.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg, id=277, 1275.76625pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg, id=271, 1275.76625pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/RAILtoRAIL_OPV.jpeg  used on input line 1248.
@@ -2726,7 +2721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1238--1252
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg, id=278, 1395.2125pt x 404.51125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg, id=272, 1395.2125pt x 404.51125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Blockschaltbild.jpg  used on input line 1259.
@@ -2766,7 +2761,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1264--1287
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Beispiel.jpg, id=286, 1392.20125pt x 686.565pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Beispiel.jpg, id=280, 1392.20125pt x 686.565pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Beispiel.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Beispiel.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Beispiel.jpg  used on input line 1298.
@@ -2796,7 +2791,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1307--1312
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg, id=294, 1395.2125pt x 272.01625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg, id=288, 1395.2125pt x 272.01625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg  used on input line 1348.
@@ -2821,7 +2816,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg, id=305, 950.55125pt x 563.10374pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg, id=297, 950.55125pt x 563.10374pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg  used on input line 1392.
@@ -2837,7 +2832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1357--1396
  []
 
 [26 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/I2C.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg, id=315, 457.06544pt x 270.46866pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg, id=304, 457.06544pt x 270.46866pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg  used on input line 1403.
@@ -2848,7 +2843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1408--1413
  []
 
 [27 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART.jpg> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/WiFi_Logo.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg, id=327, 2295.57625pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg, id=312, 2295.57625pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Gesamtsystem.jpeg  used on input line 1428.
@@ -2862,7 +2857,7 @@ Overfull \hbox (21.38707pt too wide) in paragraph at lines 1434--1441
 \OT1/cmr/m/n/12 (-20) Kon-zep-tio-nie-rung der Be-we-gungs-er-fas-sung be-steht dar-in, dass mit-hil-fe von Sen-so-ren die Fin-ger-beu-gung
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg, id=328, 1003.75pt x 1113.15875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg, id=313, 1003.75pt x 1113.15875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg  used on input line 1448.
@@ -2873,7 +2868,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1454--1474
  []
 
 [29 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Handschuhsystem.jpeg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg, id=343, 1065.9825pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg, id=328, 1065.9825pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Blockschaltbild_Roboterhandsystem.jpeg  used on input line 1481.
@@ -2988,7 +2983,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1600--1621
  []
 
 [33]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg, id=376, 399.4925pt x 396.48125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg, id=361, 399.4925pt x 396.48125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg  used on input line 1634.
@@ -3009,7 +3004,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1624--1638
  []
 
 [34]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png, id=383, 252.945pt x 198.7425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png, id=368, 252.945pt x 198.7425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png  used on input line 1654.
@@ -3025,7 +3020,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1639--1658
  []
 
 [35 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Hand_1.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg, id=389, 849.1725pt x 514.92375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg, id=374, 849.1725pt x 514.92375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg  used on input line 1670.
@@ -3041,7 +3036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1659--1674
  []
 
 [36 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Finger_1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png, id=396, 412.54124pt x 334.24875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png, id=381, 412.54124pt x 334.24875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png  used on input line 1698.
@@ -3057,7 +3052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1675--1702
  []
 
 [37 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze1.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Halterung_1.png, id=403, 246.9225pt x 201.75375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Halterung_1.png, id=388, 246.9225pt x 201.75375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Halterung_1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Halterung_1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Halterung_1.png  used on input line 1716.
@@ -3073,7 +3068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1703--1720
  []
 
 [38 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Handfläche_1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png, id=410, 243.747pt x 180.675pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png, id=395, 243.747pt x 180.675pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png  used on input line 1735.
@@ -3123,7 +3118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1766--1776
  []
 
 [40 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze2.jpg, id=424, 1085.05376pt x 441.65pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze2.jpg, id=409, 1085.05376pt x 441.65pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze2.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze2.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze2.jpg  used on input line 1798.
@@ -3174,7 +3169,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1835--1851
 
 LaTeX Warning: Reference `chap:Entwicklungsstufe: intitial' on page 42 undefined on input line 1856.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze3.jpg, id=430, 812.03375pt x 282.05376pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze3.jpg, id=415, 812.03375pt x 282.05376pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze3.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze3.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze3.jpg  used on input line 1861.
@@ -3195,7 +3190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1854--1865
  []
 
 [42]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze4.jpg, id=439, 1119.18124pt x 480.79625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze4.jpg, id=423, 1119.18124pt x 480.79625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze4.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze4.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerskizze4.jpg  used on input line 1874.
@@ -3210,7 +3205,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1866--1878
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Roboterhand_Version2.png, id=440, 451.6875pt x 153.57375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Roboterhand_Version2.png, id=424, 451.6875pt x 153.57375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Roboterhand_Version2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Roboterhand_Version2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Roboterhand_Version2.png  used on input line 1899.
@@ -3366,7 +3361,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1983--1999
  []
 
 [47]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger1.png, id=469, 301.125pt x 115.93312pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger1.png, id=454, 301.125pt x 115.93312pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger1.png  used on input line 2011.
@@ -3391,7 +3386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2002--2015
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png, id=470, 301.125pt x 134.00063pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png, id=455, 301.125pt x 134.00063pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png  used on input line 2022.
@@ -3410,7 +3405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2016--2026
 
 LaTeX Warning: Reference `fig:Silikon_Testfinger_Gussform' on page 49 undefined on input line 2032.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Gussform.png, id=478, 195.73125pt x 180.675pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Gussform.png, id=463, 195.73125pt x 180.675pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Gussform.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Gussform.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Gussform.png  used on input line 2038.
@@ -3431,7 +3426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2027--2042
  []
 
 [49 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png, id=486, 219.82124pt x 213.79875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png, id=471, 219.82124pt x 213.79875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png  used on input line 2055.
@@ -3466,7 +3461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2060--2066
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke1.png, id=493, 322.20375pt x 144.54pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke1.png, id=478, 322.20375pt x 144.54pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke1.png  used on input line 2076.
@@ -3486,13 +3481,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2068--2080
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke2.png, id=494, 334.24875pt x 96.36pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke2.png, id=479, 334.24875pt x 96.36pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke2.png  used on input line 2084.
 (pdftex.def)             Requested size: 391.28395pt x 112.8113pt.
 [51 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikon_Testfinger_Verbesserung.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg, id=502, 468.75125pt x 364.36125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg, id=487, 468.75125pt x 364.36125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg  used on input line 2102.
@@ -3525,7 +3520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2107--2108
 
 LaTeX Warning: Reference `par:Mechanismus_zweite_Hand' on page 53 undefined on input line 2115.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg, id=511, 491.8375pt x 359.3425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg, id=496, 491.8375pt x 359.3425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg  used on input line 2121.
@@ -3551,7 +3546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2110--2125
  []
 
 [53 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gelenke_real.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett1.png, id=518, 231.86626pt x 192.72pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett1.png, id=503, 231.86626pt x 192.72pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett1.png  used on input line 2134.
@@ -3566,13 +3561,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2126--2138
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett2.png, id=519, 216.81pt x 165.564pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett2.png, id=504, 216.81pt x 165.564pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Skelett2.png  used on input line 2142.
 (pdftex.def)             Requested size: 391.28395pt x 298.83597pt.
 [54 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_3Dmodell2.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png, id=525, 139.284pt x 188.559pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png, id=510, 139.284pt x 188.559pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png  used on input line 2154.
@@ -3600,7 +3595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2159--2164
 
 LaTeX Warning: Reference `par:Gussform' on page 56 undefined on input line 2168.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform1.png, id=535, 153.57375pt x 146.04562pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform1.png, id=520, 153.57375pt x 146.04562pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform1.png  used on input line 2174.
@@ -3620,13 +3615,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2166--2178
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform2.png, id=536, 178.3755pt x 141.255pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform2.png, id=521, 178.3755pt x 141.255pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform2.png  used on input line 2182.
 (pdftex.def)             Requested size: 391.28395pt x 309.85454pt.
 [56 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Fingerglieder.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform3.png, id=544, 192.72pt x 215.30438pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform3.png, id=529, 192.72pt x 215.30438pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform3.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gussform3.png  used on input line 2195.
@@ -3660,7 +3655,7 @@ Overfull \hbox (0.43414pt too wide) in paragraph at lines 2211--2213
 []\OT1/cmr/m/n/12 (-20) Ein Ver-such war es mit ei-nem Dich-ten-den Kle-be-band, die-se Freir[]aume von au-^^Yen ab-zu-dich-ten.
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg, id=559, 608.2725pt x 405.515pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg, id=544, 608.2725pt x 405.515pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg  used on input line 2222.
@@ -3675,7 +3670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2215--2226
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch2.png, id=560, 268.00125pt x 210.7875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch2.png, id=545, 268.00125pt x 210.7875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch2.png  used on input line 2235.
@@ -3691,7 +3686,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2227--2239
  []
 
 [59 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg, id=566, 573.14125pt x 634.37pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg, id=551, 573.14125pt x 634.37pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg  used on input line 2243.
@@ -3748,7 +3743,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2259--2274
  []
 
 [61 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Silikonhand_Fehlversuch3.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2.png, id=581, 180.675pt x 213.79875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2.png, id=566, 180.675pt x 213.79875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2.png  used on input line 2281.
@@ -3763,7 +3758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2276--2285
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2_Mechanismus.png, id=582, 264.99pt x 197.23688pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2_Mechanismus.png, id=567, 264.99pt x 197.23688pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2_Mechanismus.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2_Mechanismus.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Motorblock_v2_Mechanismus.png  used on input line 2289.
@@ -3787,7 +3782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2294--2301
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zahnstangenmechanismus_Unterarm.png, id=594, 332.74312pt x 156.585pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zahnstangenmechanismus_Unterarm.png, id=579, 332.74312pt x 156.585pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zahnstangenmechanismus_Unterarm.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zahnstangenmechanismus_Unterarm.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zahnstangenmechanismus_Unterarm.png  used on input line 2311.
@@ -3860,7 +3855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2350--2364
 
 
 pdfTeX warning: pdflatex (file /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf, id=611, 587.61862pt x 213.39323pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf, id=596, 587.61862pt x 213.39323pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Simulation_Spannungsmessung_Flexsensoren.pdf  used on input line 2376.
@@ -4194,7 +4189,7 @@ LaTeX Warning: Reference `par:Auslesen der Sensoren' on page 72 undefined on inp
 
 LaTeX Warning: Reference `par:Messergebnisse' on page 72 undefined on input line 2573.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Steckbrettaufbau_Spannungsmessung_INA129.jpg, id=664, 4047.12pt x 3035.34pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Steckbrettaufbau_Spannungsmessung_INA129.jpg, id=649, 4047.12pt x 3035.34pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Steckbrettaufbau_Spannungsmessung_INA129.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Steckbrettaufbau_Spannungsmessung_INA129.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Steckbrettaufbau_Spannungsmessung_INA129.jpg  used on input line 2578.
@@ -4219,7 +4214,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2563--2582
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg, id=665, 4047.12pt x 3035.34pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg, id=650, 4047.12pt x 3035.34pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg  used on input line 2588.
@@ -4244,7 +4239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2593--2598
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg, id=673, 1414.28375pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg, id=658, 1414.28375pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg  used on input line 2606.
@@ -4260,7 +4255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2601--2610
  []
 
 [73 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Bild_Einstellungen_Netzteil.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_67k.jpeg, id=681, 1177.39874pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_67k.jpeg, id=666, 1177.39874pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_67k.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_67k.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_67k.jpeg  used on input line 2621.
@@ -4271,7 +4266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2611--2625
  []
 
 [74 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_27k.jpeg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_118k.jpeg, id=687, 1278.7775pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_118k.jpeg, id=672, 1278.7775pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_118k.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_118k.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_RL_118k.jpeg  used on input line 2635.
@@ -4309,7 +4304,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2660--2663
 
 LaTeX Warning: Reference `par:Mikrokontroller' on page 77 undefined on input line 2671.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png, id=698, 539.01375pt x 601.24625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png, id=683, 539.01375pt x 601.24625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png  used on input line 2675.
@@ -4329,7 +4324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2663--2679
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png, id=699, 419.5675pt x 340.27126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png, id=684, 419.5675pt x 340.27126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/JST_Flexsensoren_Schaltplan_Handschuh.png  used on input line 2688.
@@ -4345,7 +4340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2680--2692
  []
 
 [77 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png, id=708, 606.265pt x 560.0925pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png, id=693, 606.265pt x 560.0925pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png  used on input line 2707.
@@ -4380,7 +4375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2729--2732
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png, id=716, 340.27126pt x 313.17pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png, id=701, 340.27126pt x 313.17pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Handschuh.png  used on input line 2743.
@@ -4396,7 +4391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2735--2747
  []
 
 [79 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ESP32_Schaltplan_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Handschuh.png, id=726, 419.5675pt x 257.96375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Handschuh.png, id=711, 419.5675pt x 257.96375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Handschuh.png  used on input line 2759.
@@ -4419,7 +4414,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2750--2763
 
 LaTeX Warning: Reference `par:Auslesen der Sensoren' on page 80 undefined on input line 2768.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png, id=727, 728.7225pt x 390.45876pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png, id=712, 728.7225pt x 390.45876pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Operationsverstärker_Schaltplan_Handschuh.png  used on input line 2782.
@@ -4448,7 +4443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2766--2786
 
 LaTeX Warning: Reference `par:Umwandlung der Differenzwerte in ein geeignetes Format' on page 81 undefined on input line 2793.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png, id=738, 525.965pt x 262.9825pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png, id=723, 525.965pt x 262.9825pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Handschuh.png  used on input line 2803.
@@ -4473,7 +4468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2789--2807
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png, id=739, 546.04pt x 465.74pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png, id=724, 546.04pt x 465.74pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Gyro_Schaltplan_Handschuh.png  used on input line 2820.
@@ -4498,7 +4493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2825--2833
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_oben_v1.png, id=751, 374.39874pt x 465.74pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_oben_v1.png, id=735, 374.39874pt x 465.74pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_oben_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_oben_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_oben_v1.png  used on input line 2852.
@@ -4528,7 +4523,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2857--2862
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_unten_v1.png, id=760, 372.39125pt x 465.74pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_unten_v1.png, id=745, 372.39125pt x 465.74pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_unten_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_unten_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Handschuh_unten_v1.png  used on input line 2866.
@@ -4548,7 +4543,7 @@ Overfull \hbox (9.57242pt too wide) in paragraph at lines 2876--2881
 \OT1/cmr/m/n/12 (-20) In-te-gra-ti-on in das Ge-samt-sys-tem ber[]ucksichtigt. Zu nen-nen sind hier bei-spiels-wei-se die Ab-mes-sun-gen,
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_oben_v2.png, id=767, 688.5725pt x 646.415pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_oben_v2.png, id=752, 688.5725pt x 646.415pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_oben_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_oben_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_oben_v2.png  used on input line 2885.
@@ -4566,7 +4561,7 @@ LaTeX Warning: Reference `par:Mikrokontroller Buttons' on page 85 undefined on i
 
 LaTeX Warning: Reference `fig:Platinenlayout_Handschuh_oben_v2' on page 85 undefined on input line 2896.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_unten_v2.png, id=775, 756.8275pt x 704.6325pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_unten_v2.png, id=760, 756.8275pt x 704.6325pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_unten_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_unten_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Handschuh_unten_v2.png  used on input line 2903.
@@ -4593,7 +4588,7 @@ LaTeX Warning: Reference `fig:Platinenlayout_Handschuh_unten_v2' on page 86 unde
 
 LaTeX Warning: Reference `par:Auslesen der Sensoren' on page 86 undefined on input line 2910.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_oben_v2.png, id=783, 584.1825pt x 546.04pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_oben_v2.png, id=768, 584.1825pt x 546.04pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_oben_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_oben_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_oben_v2.png  used on input line 2924.
@@ -4627,7 +4622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2908--2928
 
 LaTeX Warning: Reference `fig:Platinenmodell_Handschuh_oben_v2' on page 87 undefined on input line 2930.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_unten_v2.png, id=790, 608.2725pt x 567.11874pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_unten_v2.png, id=775, 608.2725pt x 567.11874pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_unten_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_unten_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Handschuh_unten_v2.png  used on input line 2936.
@@ -4720,7 +4715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2982--3004
  []
 
 [89]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltbild_Strommessung.jpeg, id=813, 1469.49pt x 1002.74625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltbild_Strommessung.jpeg, id=798, 1469.49pt x 1002.74625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltbild_Strommessung.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltbild_Strommessung.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltbild_Strommessung.jpeg  used on input line 3020.
@@ -4858,7 +4853,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3050--3092
  []
 
 [92]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg, id=829, 1262.7175pt x 947.54pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg, id=814, 1262.7175pt x 947.54pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg  used on input line 3107.
@@ -4878,7 +4873,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3095--3111
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg, id=830, 1259.70625pt x 944.52875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg, id=815, 1259.70625pt x 944.52875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg  used on input line 3125.
@@ -4894,7 +4889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3112--3129
  []
 
 [93 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messschaltung_Servomessung.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png, id=838, 456.615pt x 198.7425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png, id=823, 456.615pt x 198.7425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png  used on input line 3137.
@@ -4920,7 +4915,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3130--3141
  []
 
 [94 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Testaufbau_Servomessung.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png, id=844, 455.7025pt x 239.89626pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png, id=829, 455.7025pt x 239.89626pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png  used on input line 3164.
@@ -4956,7 +4951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3142--3168
  []
 
 [95 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Messtabelle_Servomessung.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg, id=851, 1373.13pt x 772.8875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg, id=836, 1373.13pt x 772.8875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg  used on input line 3178.
@@ -4972,7 +4967,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3169--3182
  []
 
 [96 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Zugkraft_Strom_Diagramm_Servomessung.png> </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Oszibild_Servomessung.jpg>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Roboterhand.png, id=859, 451.6875pt x 484.81125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Roboterhand.png, id=844, 451.6875pt x 484.81125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/USB_C_Schaltplan_Roboterhand.png  used on input line 3216.
@@ -5008,7 +5003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3198--3220
  []
 
 [97]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Netzteil_Anschluss_Schaltplan_Roboterhand.png, id=867, 393.47pt x 346.29375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Netzteil_Anschluss_Schaltplan_Roboterhand.png, id=852, 393.47pt x 346.29375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Netzteil_Anschluss_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Netzteil_Anschluss_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Netzteil_Anschluss_Schaltplan_Roboterhand.png  used on input line 3233.
@@ -5033,7 +5028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3238--3239
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART_Bridge_Schaltplan_Roboterhand.png, id=874, 448.67625pt x 429.605pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART_Bridge_Schaltplan_Roboterhand.png, id=859, 448.67625pt x 429.605pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART_Bridge_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART_Bridge_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UART_Bridge_Schaltplan_Roboterhand.png  used on input line 3252.
@@ -5058,7 +5053,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3257--3258
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Mikrokontroller_Schaltplan_Roboterhand.png, id=882, 623.32875pt x 630.355pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Mikrokontroller_Schaltplan_Roboterhand.png, id=867, 623.32875pt x 630.355pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Mikrokontroller_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Mikrokontroller_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Mikrokontroller_Schaltplan_Roboterhand.png  used on input line 3272.
@@ -5083,7 +5078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3277--3278
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Buttons_Schaltplan_Roboterhand.png, id=890, 649.42625pt x 300.12125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Buttons_Schaltplan_Roboterhand.png, id=875, 649.42625pt x 300.12125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Buttons_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Buttons_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Buttons_Schaltplan_Roboterhand.png  used on input line 3288.
@@ -5108,7 +5103,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3293--3294
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Spannungswandler_Schaltplan_Roboterhand.png, id=891, 287.0725pt x 216.81pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Spannungswandler_Schaltplan_Roboterhand.png, id=876, 287.0725pt x 216.81pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Spannungswandler_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Spannungswandler_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Spannungswandler_Schaltplan_Roboterhand.png  used on input line 3304.
@@ -5136,7 +5131,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3309--3310
 
 LaTeX Warning: Reference `par:Ansteuerung der Motoren' on page 102 undefined on input line 3314.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PWM_Controller_Schaltplan_Roboterhand.png, id=902, 782.925pt x 662.475pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PWM_Controller_Schaltplan_Roboterhand.png, id=887, 782.925pt x 662.475pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PWM_Controller_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PWM_Controller_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PWM_Controller_Schaltplan_Roboterhand.png  used on input line 3324.
@@ -5164,7 +5159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3329--3330
 
 LaTeX Warning: Reference `par:Positions -und Kraftmessung der Roboterfinger' on page 103 undefined on input line 3336.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servoanschluss_Schaltplan_Roboterhand.png, id=911, 526.96875pt x 311.1625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servoanschluss_Schaltplan_Roboterhand.png, id=895, 526.96875pt x 311.1625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servoanschluss_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servoanschluss_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Servoanschluss_Schaltplan_Roboterhand.png  used on input line 3342.
@@ -5211,7 +5206,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3350--3352
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Roboterhand.png, id=920, 502.87875pt x 273.02pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Roboterhand.png, id=905, 502.87875pt x 273.02pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Multiplexer_Schaltplan_Roboterhand.png  used on input line 3370.
@@ -5249,7 +5244,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3375--3376
 
 LaTeX Warning: Reference `par:Positions -und Kraftmessung der Roboterfinger' on page 105 undefined on input line 3380.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/OPV_Schaltplan_Roboterhand.png, id=928, 393.47pt x 349.305pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/OPV_Schaltplan_Roboterhand.png, id=913, 393.47pt x 349.305pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/OPV_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/OPV_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/OPV_Schaltplan_Roboterhand.png  used on input line 3385.
@@ -5274,7 +5269,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3390--3391
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Roboterhand.png, id=929, 664.4825pt x 342.27875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Roboterhand.png, id=914, 664.4825pt x 342.27875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/ADC_Schaltplan_Roboterhand.png  used on input line 3400.
@@ -5304,7 +5299,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3405--3406
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png, id=938, 242.9075pt x 284.06125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png, id=923, 242.9075pt x 284.06125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png  used on input line 3417.
@@ -5329,7 +5324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3422--3423
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_oben_v1.png, id=946, 435.6275pt x 505.89pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_oben_v1.png, id=931, 435.6275pt x 505.89pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_oben_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_oben_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_oben_v1.png  used on input line 3437.
@@ -5350,7 +5345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3427--3441
  []
 
 [107 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/LEDs_Schaltplan_Roboterhand.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png, id=955, 435.6275pt x 505.89pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png, id=940, 435.6275pt x 505.89pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png  used on input line 3449.
@@ -5396,7 +5391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3465--3467
  []
 
 [109 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platine_Roboterhand_unten_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_oben_v2.png, id=970, 717.68124pt x 692.5875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_oben_v2.png, id=955, 717.68124pt x 692.5875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_oben_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_oben_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_oben_v2.png  used on input line 3471.
@@ -5405,7 +5400,7 @@ Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/sr
 
 LaTeX Warning: Reference `fig:Platinenlayout_Roboterhand_oben_v2' on page 110 undefined on input line 3477.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_unten_v2.png, id=971, 717.68124pt x 665.48625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_unten_v2.png, id=956, 717.68124pt x 665.48625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_unten_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_unten_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenlayout_Roboterhand_unten_v2.png  used on input line 3486.
@@ -5424,7 +5419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3476--3490
 
 LaTeX Warning: Reference `fig:Platinenlayout_Roboterhand_unten_v2' on page 111 undefined on input line 3492.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_oben_v2.png, id=978, 692.5875pt x 645.41125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_oben_v2.png, id=963, 692.5875pt x 645.41125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_oben_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_oben_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_oben_v2.png  used on input line 3501.
@@ -5449,7 +5444,7 @@ LaTeX Warning: Reference `par:Externe Anschlüsse' on page 112 undefined on inpu
 
 LaTeX Warning: Reference `chap:Schaltungsdesign_Roboterhand' on page 112 undefined on input line 3510.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_unten_v2.png, id=985, 556.0775pt x 515.9275pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_unten_v2.png, id=970, 556.0775pt x 515.9275pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_unten_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_unten_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Platinenmodell_Roboterhand_unten_v2.png  used on input line 3516.
@@ -5663,7 +5658,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3648--3711
  []
 
 [117]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=1026, 215.80624pt x 399.4925pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png, id=1011, 215.80624pt x 399.4925pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Flussdiagramm_Software_Handschuh.png  used on input line 3720.
@@ -5694,7 +5689,7 @@ LaTeX Warning: Reference `chap:I2C Funktionsweise' on page 119 undefined on inpu
 
 
 pdfTeX warning: pdflatex (file /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf, id=1033, 1096.095pt x 264.99pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf, id=1018, 1096.095pt x 264.99pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwaremap_Handschuh.pdf  used on input line 3762.
@@ -5837,7 +5832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3909--3912
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png, id=1126, 456.20438pt x 554.07pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png, id=1111, 456.20438pt x 554.07pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png  used on input line 3919.
@@ -5856,7 +5851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3914--3923
 
 LaTeX Warning: Reference `label:Programmfluss1_Roboterhand' on page 124 undefined on input line 3925.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss2_Roboterhand.png, id=1135, 129.48375pt x 210.7875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss2_Roboterhand.png, id=1120, 129.48375pt x 210.7875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss2_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss2_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss2_Roboterhand.png  used on input line 3940.
@@ -5877,7 +5872,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3924--3944
  []
 
 [124 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss1_Roboterhand.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png, id=1142, 394.47375pt x 460.72125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png, id=1127, 394.47375pt x 460.72125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png  used on input line 3962.
@@ -5933,7 +5928,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3967--3991
  []
 
 [126 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Programmfluss3_Roboterhand.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/effiziente_Gliederung.png, id=1155, 400.49625pt x 159.59625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/effiziente_Gliederung.png, id=1140, 400.49625pt x 159.59625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/effiziente_Gliederung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/effiziente_Gliederung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/effiziente_Gliederung.png  used on input line 4005.
@@ -6153,7 +6148,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4164--4172
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median.png, id=1183, 343.2825pt x 87.32625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median.png, id=1168, 343.2825pt x 87.32625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median.png  used on input line 4186.
@@ -6179,7 +6174,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4174--4190
  []
 
 [131]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median2.png, id=1202, 456.20438pt x 261.97874pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median2.png, id=1187, 456.20438pt x 261.97874pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Median2.png  used on input line 4205.
@@ -6319,7 +6314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4300--4306
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=1230, 1385.175pt x 1003.75pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg, id=1215, 1385.175pt x 1003.75pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Konzept_UserInterface.jpeg  used on input line 4317.
@@ -6339,7 +6334,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4322--4328
 
  []
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UI_Oberfläche.png, id=1239, 1733.47626pt x 1033.8625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UI_Oberfläche.png, id=1224, 1733.47626pt x 1033.8625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UI_Oberfläche.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UI_Oberfläche.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/UI_Oberfläche.png  used on input line 4333.
@@ -6480,7 +6475,7 @@ LaTeX Warning: Reference `fig:Punkte_zur_Messung_Flexsensoren' on page 140 undef
 
 LaTeX Warning: Reference `tab:Messergebnisse_Papier' on page 140 undefined on input line 4420.
 
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png, id=1263, 456.20438pt x 292.09125pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png, id=1248, 456.20438pt x 292.09125pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png  used on input line 4428.
@@ -6522,42 +6517,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 4456--4482
  []
 
 [141 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Punkte_zur_Messung_Flexsensoren.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_1.jpg, id=1277, 514.92375pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_1.jpg, id=1262, 514.92375pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_1.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_1.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_1.jpg  used on input line 4489.
 (pdftex.def)             Requested size: 195.63823pt x 89.6178pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_2.jpg, id=1278, 514.92375pt x 241.90375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_2.jpg, id=1263, 514.92375pt x 241.90375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_2.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_2.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_2.jpg  used on input line 4494.
 (pdftex.def)             Requested size: 195.63823pt x 91.90591pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_3.jpg, id=1279, 514.92375pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_3.jpg, id=1264, 514.92375pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_3.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_3.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_3.jpg  used on input line 4498.
 (pdftex.def)             Requested size: 195.63823pt x 89.6178pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_4.jpg, id=1280, 514.92375pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_4.jpg, id=1265, 514.92375pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_4.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_4.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_4.jpg  used on input line 4503.
 (pdftex.def)             Requested size: 195.63823pt x 89.6178pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_5.jpg, id=1281, 511.9125pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_5.jpg, id=1266, 511.9125pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_5.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_5.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_5.jpg  used on input line 4507.
 (pdftex.def)             Requested size: 195.63823pt x 90.1469pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_6.jpg, id=1282, 511.9125pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_6.jpg, id=1267, 511.9125pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_6.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_6.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_6.jpg  used on input line 4512.
 (pdftex.def)             Requested size: 195.63823pt x 90.1469pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_7.png, id=1283, 168.5205pt x 76.212pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_7.png, id=1268, 168.5205pt x 76.212pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_7.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_7.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_7.png  used on input line 4516.
 (pdftex.def)             Requested size: 195.63823pt x 88.47807pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_8.jpg, id=1284, 514.92375pt x 235.88126pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_8.jpg, id=1269, 514.92375pt x 235.88126pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_8.jpg Graphic file (type jpg)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_8.jpg>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Einstellung_8.jpg  used on input line 4521.
@@ -7814,7 +7809,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5393--5396
  []
 
 [164] [165] [166]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=1433, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=1418, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 5418.
@@ -7823,7 +7818,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf  used on input line 5418.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=1436, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, id=1421, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 5418.
@@ -7846,7 +7841,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf , page1 used on input line 5418.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [168 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=1451, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=1436, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 5419.
@@ -7855,7 +7850,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf  used on input line 5419.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=1454, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, id=1439, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 5419.
@@ -7877,7 +7872,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf , page1 used on input line 5419.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [169 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=1466, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=1451, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 5420.
@@ -7886,7 +7881,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf  used on input line 5420.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=1469, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, id=1454, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 5420.
@@ -7908,7 +7903,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handsc
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf , page1 used on input line 5420.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [170 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=1479, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=1464, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 5422.
@@ -7917,7 +7912,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf  used on input line 5422.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=1482, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, id=1467, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 5422.
@@ -7939,7 +7934,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf , page1 used on input line 5422.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [171 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v1.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=1492, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=1477, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 5423.
@@ -7948,7 +7943,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf  used on input line 5423.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=1495, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, id=1480, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 5423.
@@ -7970,7 +7965,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf , page1 used on input line 5423.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [172 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v2.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=1505, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=1490, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 5424.
@@ -7979,7 +7974,7 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf  used on input line 5424.
 (pdftex.def)             Requested size: 1194.98155pt x 845.05103pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=1508, page=1, 1194.98447pt x 845.0531pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, id=1493, page=1, 1194.98447pt x 845.0531pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf Graphic file (type pdf)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf, page 1>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 5424.
@@ -8001,37 +7996,37 @@ File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Robote
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf , page1 used on input line 5424.
 (pdftex.def)             Requested size: 1195.03624pt x 845.0897pt.
  [173 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Roboterhand_v3.pdf>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=1518, 885.3075pt x 860.21375pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png, id=1503, 885.3075pt x 860.21375pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png  used on input line 5430.
 (pdftex.def)             Requested size: 391.28395pt x 380.20157pt.
  [174 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=1526, 793.96625pt x 811.03pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png, id=1511, 793.96625pt x 811.03pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png  used on input line 5439.
 (pdftex.def)             Requested size: 391.28395pt x 399.6976pt.
  [175 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=1534, 775.89874pt x 871.255pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png, id=1519, 775.89874pt x 871.255pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png  used on input line 5448.
 (pdftex.def)             Requested size: 391.28395pt x 439.37541pt.
  [176 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Handschuh_v3.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=1541, 974.64125pt x 673.51625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png, id=1526, 974.64125pt x 673.51625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png  used on input line 5457.
 (pdftex.def)             Requested size: 391.28395pt x 270.38832pt.
  [177 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v1.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=1548, 645.41125pt x 593.21625pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png, id=1533, 645.41125pt x 593.21625pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png  used on input line 5466.
 (pdftex.def)             Requested size: 391.28395pt x 359.63466pt.
  [178 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v2.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=1555, 680.5425pt x 770.88pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png, id=1540, 680.5425pt x 770.88pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/PCBlayout_Roboterhand_v3.png  used on input line 5475.
@@ -8533,12 +8528,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5994--5994
  []
 
 [191]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=1626, 350.30875pt x 630.355pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png, id=1611, 350.30875pt x 630.355pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png  used on input line 6014.
 (pdftex.def)             Requested size: 391.28395pt x 704.13643pt.
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=1627, 310.15875pt x 680.5425pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png, id=1612, 310.15875pt x 680.5425pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Roboterhand.png  used on input line 6023.
@@ -8549,7 +8544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6019--6027
  []
 
 [192 </Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Handschuh.png>]
-</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=1639, 302.12875pt x 735.74875pt>
+</Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png, id=1624, 302.12875pt x 735.74875pt>
 File: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png Graphic file (type png)
 <use /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png>
 Package pdftex.def Info: /Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Softwarekonzept_Teilbereich_Servostellung.png  used on input line 6032.
@@ -8644,18 +8639,18 @@ Package logreq Info: Writing requests to 'Diplomarbeit.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60305 strings out of 476025
- 1419713 string characters out of 5790016
+ 60297 strings out of 476025
+ 1419519 string characters out of 5790016
  2350998 words of memory out of 5000000
- 79120 multiletter control sequences out of 15000+600000
- 530130 words of font info for 186 fonts, out of 8000000 for 9000
+ 79117 multiletter control sequences out of 15000+600000
+ 529955 words of font info for 184 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  99i,17n,94p,1210b,2367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Diplomarbeit.pdf (210 pages, 32749577 bytes).
+Output written on Diplomarbeit.pdf (210 pages, 32748223 bytes).
 PDF statistics:
- 1932 PDF objects out of 2073 (max. 8388607)
- 1427 compressed objects within 15 object streams
- 646 named destinations out of 1000 (max. 500000)
+ 1919 PDF objects out of 2073 (max. 8388607)
+ 1419 compressed objects within 15 object streams
+ 645 named destinations out of 1000 (max. 500000)
  50924 words of extra memory for PDF output out of 51595 (max. 10000000)
 
