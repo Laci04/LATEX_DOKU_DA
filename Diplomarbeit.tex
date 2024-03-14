@@ -40,6 +40,8 @@
 \usepackage{ragged2e}
 \justifying
 \usepackage{microtype}
+\usepackage[style=authoryear,backend=biber]{biblatex}
+\addbibresource{Literatur.bib}
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 \usepackage{fancyhdr}
@@ -52,7 +54,7 @@
 \fancyfoot[C]{}
 \fancyfoot[R]{\arabic{page}}
 
-\usepackage[round, sort, authoryear]{natbib}
+%\usepackage[round, sort, authoryear]{natbib}
 %\usepackage[nottoc]{tocbibind}
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
@@ -690,11 +692,11 @@ Zusammenarbeit, die keine robuste Abgrenzung, wie zum Beispiel einen Zaun oder
 eine Glasscheibe, hat, als Kollaboration zwischen Mensch und Roboter bezeichnet. 
 Da Zusammenarbeit allerdings bedeutet an einer Aufgabe gemeinsam und zur gleichen 
 Zeit zu arbeiten, müssen die verschiedenen Arbeitsschritte koordiniert und 
-aufgeteilt werden. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.10)} \\
+aufgeteilt werden. \footnote{\cite{rubigm1}} \\
 \\
 Um die Arten der Arbeitsteilung zu unterteilen, existieren vier verschiedene 
 Bereiche, die das Frauenhofer-Institut für Arbeitsorganisation definiert hat. Im 
-folgenden Punkt werden diese Bereiche genannt und näher beschrieben. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 10.03.2024, p.10)}\\
+folgenden Punkt werden diese Bereiche genannt und näher beschrieben. \footnote{\cite{rubigm1}}\\
 \\
 
 \paragraph{Arten der Zusammenarbeit}
@@ -706,7 +708,7 @@ Bei der Koexistenz ist ein Kontakt zwischen Mensch und Maschine nicht vorgesehen
 Beide Parteien arbeiten allerdings im selben Raum und sind physisch nicht 
 voneinander isoliert. Dies könnte bei Fehlfunktionen des Roboters zu unerwünschten 
 Kontakten führen, weshalb auch bei der Koexistenz ein Sicherheitskonzept und 
-Schutzmaßnahmen vorhanden sein müssen. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)} \\
+Schutzmaßnahmen vorhanden sein müssen. \footnote{\cite{rubigm2}} \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.4}
@@ -722,7 +724,7 @@ Wie das Wort synchron impliziert, ist bei dieser Art der Zusammenarbeit eine
 zeitliche Abhängigkeit der Arbeitsschritte vorhanden. Mensch und Roboter arbeiten 
 immer noch getrennt voneinander, jedoch wird nun ein Arbeitstakt vorgegeben. Dies 
 dient zur zeitlichen Festlegung der verschiedenen Produktionsschritte, wodurch 
-Kontakte zwischen Mensch und Roboter vermieden werden sollen. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+Kontakte zwischen Mensch und Roboter vermieden werden sollen. \footnote{\cite{rubigm2}}\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.4}
@@ -738,7 +740,7 @@ Bei der Kooperation arbeiten beide Parteien gemeinsam in einem definierten
 Arbeitsraum. Ein Kontakt von Mensch und Maschine ist hier ebenfalls nicht 
 vorgesehen, jedoch kann an mehreren Werkstücken gleichzeitig gearbeitet werden. 
 Dies erfordert schon wesentlich komplexere Sicherungsmaßnahmen als bei der 
-Synchronisation und Koexistenz. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+Synchronisation und Koexistenz. \footnote{\cite{rubigm2}}\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.4}
@@ -753,7 +755,7 @@ Synchronisation und Koexistenz. \footnote{\url{https://www.rubigm.ruhr-uni-bochu
 Die Kollaboration ist die fortgeschrittenste Arbeitsweise, bei der Mensch und 
 Roboter gleichzeitig im selben Arbeitsraum und möglicherweise am selben Werkstück 
 arbeiten. Ein kontrollierter Kontakt kann bei der Kollaboration durchaus Teil des 
-Arbeitsablaufs sein. \footnote{\url{https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf} (Stand: 05.03.2024, p.11)}\\
+Arbeitsablaufs sein. \footnote{\cite{rubigm2}}\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.4}
@@ -789,7 +791,7 @@ Bei diesen Arten der Bedrohung, handelt es sich um sogenannte Primärangriffe.
 Diese werden verwenden, um Sabotage auszuüben und Geräte zu manipulieren. Durch 
 diese gezielten Angriffe, können sowohl Maschinen beschädigt als auch Menschen 
 verletzt werden, da durch die Übernahme fremder Personen alle Sicherheitsmaßnahmen 
-außer Kraft gesetzt werden. \footnote{\url{https://tr.tuv.at/fileadmin/user_upload/docs/group/innovation/tuv-austria-white-paper-deutsch/003_tuv_austria_white_paper_III_einfluss_it_security_sicherheit_in_der_mensch_roboter_kollaboration_fraunhofer_DE_WEB.pdf} (Stand: 06.03.2024, p.12)}\\
+außer Kraft gesetzt werden. \footnote{\cite{TÜVaustria}}\\
 \\
 Die Schutzziele werden in der CIA-Triade zusammengefasst. (Link zu CIA-Triade) \\
 \\
@@ -877,7 +879,7 @@ Es existieren drei Kategorien in die Normen aufgeteilt werden: \\
 \hfill \break
 Je weiter hinten der Buchstabe der Typenbezeichnung im Alphabet steht, desto 
 genauer sind die zu erfüllenden Anforderungen, um sich für die gewählte Norm zu 
-qualifizieren. \footnote{\url{https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf} (Stand:11.03.2024, p.31-32)} \\
+qualifizieren. \footnote{\cite{FHvorarlberg}} \\
 \\
 Folgende Normen und Sicherheitsstandards sind bei der MRK 
 (Mensch-Roboter-Kollaboration) zu beachten: \\
@@ -892,7 +894,7 @@ der Mensch Roboter Kollaboration zu kombinieren. \\
 Dieser Standard ist der Überbegriff für viele weitere Normen. Diese beschreiben 
 Unterpunkte der Sicherheit bei der Programmierung, Internetverbindung und 
 generelle Vorschläge wie externe Eingriffe in das lokale Steuerungsnetzwerk 
-verhindert werden können. \footnote{\url{https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards} (Stand: 13.03.2024)} \\ 
+verhindert werden können. \footnote{\cite{ISA}} \\ 
 \\
 \paragraph{EU Vorschriften}
 \hfill \break
@@ -921,7 +923,7 @@ Herstellern der gerade beschriebenen Systeme. \\
 Für den Endanwender ist die Norm EN 62061 oder EN ISO 13849-1/-2 interessanter. 
 Dies sind die Standards für funktionale Sicherheit, in denen die Sicherheitsstufen 
 der einzelnen Steuerungssysteme beschrieben werden. Es sind Geräte, Sensoren und 
-komplette Steuerungen in Safety Integrity Levels von 1 bis 4 eingestuft. \footnote{\url{https://www.pilz.com/de-DE/support/law-standards-norms/functional-safety/en-iec-61508} (Stand: 13.03.2024)}\\
+komplette Steuerungen in Safety Integrity Levels von 1 bis 4 eingestuft. \footnote{\cite{Pilz}}\\
 \\
 \textbf{Maschinenrichtlinie 2006/47/EG} \\
 \\
@@ -936,7 +938,7 @@ Norm sind zum Beispiel: \\
 \end{itemize}
 \hfill \break
 Diese Maschinenrichtlinie ist ein Teil des Verfahrens, um das CE-Kennzeichen zu 
-bekommen. \footnote{\url{https://www.tuvsud.com/de-de/indust-re/maschinensicherheit-info/maschinenrichtlinie} (Stand: 13.03.2024)}\\
+bekommen. \footnote{\cite{TÜVsüd}}\\
 \\
 \paragraph{Nationale Vorschriften (Österreich)}
 \hfill \break
@@ -979,7 +981,7 @@ nicht umgangen werden! \footnote{Fachlehrer Baumgartner} \\
 	\begin{center}
 		\scalebox{0.6}
 		{\includegraphics[width=0.8 \linewidth]{Flexsensor}}
-		\caption{Flexsensor}
+		\caption{Flexsensor (Quelle: \textcolor{blue}{\cite{Flexsensorabbildung}})}
 		\label{fig:Flexsensor}
 	\end{center}
 \end{figure}
@@ -999,7 +1001,7 @@ werden, um zu messen, wie sehr ein Finger abgebogen wurde. \\
 	\begin{center}
 		\scalebox{0.6}
 		{\includegraphics[width=0.8 \linewidth]{Servomotor}}
-		\caption{Servomotor}
+		\caption{Servomotor (Quelle: \textcolor{blue}{\cite{Servoabbildung}})}
 		\label{fig:Servomotor}
 	\end{center}
 \end{figure}
@@ -1233,7 +1235,7 @@ Beim Dual-Supply Betrieb, wird der OPV von einer positiven und negativen Spannun
 besitzt auch negative Spannungen auszugeben und der Ausgangsspannungsbereich somit größer als beim Single-Supply ist.
 
 \subsubsection{Rail-to-Rail Technologie}
-Hat ein OPV die sogenannte $"$Rail-to-Rail Technologie$"$, so ist die Rede von Spannweite des Ausgangsspannungsbereichs. Bei diesem Feature
+Hat ein OPV die sogenannte \textquote{Rail-to-Rail Technologie}, so ist die Rede von Spannweite des Ausgangsspannungsbereichs. Bei diesem Feature
 ist der Operationsverstärker dazu fähig fast bis auf das positive und negative Versorgungspotential Spannung auszugeben. Dies ist oft 
 von Vorteil, da dadurch die Versorgungsspannungen nicht übermäßig hoch sind und somit die Schaltungen mit niedrigeren Spannungen arbeiten
 kann. Dies ist auch für die Benutzer der entsprechenden Endgeräte sicherer.\\
@@ -1344,7 +1346,7 @@ SCL auch den Wert 1 besitzt. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{I2C}}
-		\caption{I2C Adressierung}
+		\caption{I2C Adressierung (Quelle: \textcolor{blue}{\cite{I2Cabbildung}})}
 		\label{fig:I2C}		
 	\end{center}
 \end{figure}
@@ -1388,7 +1390,7 @@ da der Datensatz nicht stimmt. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{UART}}
-		\caption{UART erklärendes Diagramm}
+		\caption{UART erklärendes Diagramm (Quelle: \textcolor{blue}{\cite{UARTabbildung}})}
 		\label{fig:UART}		
 	\end{center}
 \end{figure}
@@ -1399,7 +1401,7 @@ da der Datensatz nicht stimmt. \\
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{WiFi_Logo}}
-		\caption{WiFi Logo}
+		\caption{WiFi Logo (Quelle: \textcolor{blue}{\cite{WIFIabbildung}})}
 		\label{fig:WiFi_Logo}
 	\end{center}
 \end{figure}
@@ -1542,7 +1544,7 @@ ein Modell auf eine Druckplatte und formt damit ein reales Objekt. Kunststoffe,
 die für dieses Fertigungsverfahren verwendet werden ist PLA, ABS, PETG und weitere. \\
 Die Vorteile des FDM-Drucks sind, dass die Druckgeräte sowie das Filament billig 
 zu erhalten sind. Aber auch die das Verfahren einfach und nicht besonders komplex 
-ist, sowie auch schnell. \\
+ist, sowie auch schnell. \footnote{\url{https://filamentworld.de/3d-druckverfahren/}}\\
 \\
 In der initialen Entwicklungsphase des Projekts „Bionic-Hand“ kommen zwei private 3D, 
 Drucker zum Einsatz, welche das FDM-Verfahren nutzen. Der sich daraus erschließende 
@@ -1552,10 +1554,9 @@ innerhalb weniger Stunden neues Versuchsobjekt zu erhalten. \\
 Im Laufe der ersten Versuchsaufbauten war die Druckqualität nicht sehr relevant, denn 
 der Fokus lag auf der Zeitersparnis und hauptsächlich auf dem Gewinn von Erkenntnissen, 
 sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
-\\
-\textcolor{red}{(Quelle: Zum zitieren und Quellenverzeichnis: https://filamentworld.de/3d-druckverfahren/)}
 
 \subsubsection{Versuchsaufbauten}
+\label{chap:Versuchsaufbauten}
 In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
 Dafür wurde in der CAD Software Fusion360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] ein erstes Testmodell entworfen. \\
@@ -1593,8 +1594,8 @@ Gummikordeln, elastische Schnüre, welche am „Fingerrücken“ platziert werde
 bei Biegen des Fingers spannen. Desto kürzer die Zugschnur im Finger, desto länger die 
 Gummikordel. \\
 
-\subsubsection{Erste Testhand}
-\label{chap:Erste Testhand}
+\subsubsection{Entwicklungsstufe: intitial}
+\label{chap:Entwicklungsstufe: intitial}
 \paragraph{Konzept Einführung}
 \hfill \break
 \hfill \break
@@ -1610,7 +1611,7 @@ zu sorgen wurde für diesen Aufbau eine Angelschnur mit einem Durchmesser von
 XXmm gewählt, diese hat eine Kraft von XX/m. Aufgrund der XXX ist die Schnur 
 ebenso schnittfest. \\
 \\
-Im Versuch (Verweis) hat sich erwiesen, dass eine Fläche aus PLA welche die 
+Im Versuch [siehe \textcolor{blue}{\autoref{chap:Versuchsaufbauten}}] hat sich erwiesen, dass eine Fläche aus PLA welche die 
 Fingerglieder verbindet nicht genügend Kraft aufbringt, um den Finger wieder in 
 seine Ursprungsposition zu bewegen. Demnach wird eine Kraft benötigt, welche 
 ständig dem Zug der Angelschnur entgegenwirkt und den Finger entsprechend 
@@ -1631,7 +1632,7 @@ in der Bionic Hand umsetzen. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Hand_1}}
-		\caption{ergonerg}
+		\caption{initiales Grundkonzept}
 		\label{fig:Hand_1}		
 	\end{center}
 \end{figure}
@@ -1651,7 +1652,7 @@ Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Finger_1}}
-		\caption{ergonerg}
+		\caption{Querschnitt der Finger}
 		\label{fig:Finger_1}		
 	\end{center}
 \end{figure}
@@ -1667,7 +1668,7 @@ und bewirkt das Falten des Fingers. \\
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Fingerskizze1}}
-		\caption{Fingerskizze}
+		\caption{Faltmechanismus der Entwicklungsstufe: initial}
 		\label{fig:Fingerskizze1}		
 	\end{center}
 \end{figure}
@@ -1695,7 +1696,7 @@ gemessen werden. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Handfläche_1}}
-		\caption{ergonerg}
+		\caption{Querschnitt der Handfläche}
 		\label{fig:Handfläche_1}		
 	\end{center}
 \end{figure}
@@ -1713,7 +1714,7 @@ optionalen Kraftsensoren. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Halterung_1}}
-		\caption{ergonerg}
+		\caption{Ständer für die Handkomponente}
 		\label{fig:Halterung_1}		
 	\end{center}
 \end{figure}
@@ -1732,7 +1733,7 @@ werden. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Motorblock_1}}
-		\caption{ergonerg}
+		\caption{Servomotoren-Halterung und Umlenkungen}
 		\label{fig:Motorblock_1}			
 	\end{center}
 \end{figure}
@@ -1795,7 +1796,7 @@ Die entstandenen Problematiken:
 		\begin{center}
 			\scalebox{1.2}
 			{\includegraphics[width=0.8 \linewidth]{Fingerskizze2}}
-			\caption{Fingerskizze}
+			\caption{Skizzierung der unregelmäßigen Faltmechanik}
 			\label{fig:Fingerskizze2}			
 		\end{center}
 	\end{figure}
@@ -1828,8 +1829,8 @@ erfordert, welches dem Finger ermöglicht sich in einem gleichmäßigen Verhält
 zur Zugkraft zu Falten. \\
 \\
 
-\subsubsection{Zweite Testhand (Inmoov)}
-\label{chap:Zweite Testhand}
+\subsubsection{Entwicklungsstufe: InMoov}
+\label{chap:Entwicklungsstufe: InMoov}
 \paragraph{Einführung}
 \hfill \break
 \hfill \break
@@ -1852,13 +1853,13 @@ eine weitere Versuchshand zu schaffen. \\
 \label{par:Mechanismus_zweite_Hand}
 \hfill \break
 \hfill \break
-Der Mechanismus der zweiten Versuchshand \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Erste Testhand}}] auf. \\
+Der Mechanismus der zweiten Versuchshand \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] auf. \\
 \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Fingerskizze3}}
-		\caption{Fingerskizze}
+		\caption{mechanische Verbindung der einzelnen Fingerglieder}
 		\label{fig:Fingerskizze3}			
 	\end{center}
 \end{figure}
@@ -1871,7 +1872,7 @@ rechts kippen und sich ausschließlich vom ausgestreckten Zustand nach innen Fal
 	\begin{center}
 		\scalebox{1.1}
 		{\includegraphics[width=0.8 \linewidth]{Fingerskizze4}}
-		\caption{Fingerskizze}
+		\caption{Der InMoov-Faltmechanismus}
 		\label{fig:Fingerskizze4}			
 	\end{center}
 \end{figure}
@@ -1896,7 +1897,7 @@ mit einer Druckfläche von 12x12x12cm ausgelegt. \\
 	\begin{center}
 		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Roboterhand_Version2}}
-		\caption{Roboterhand zweite Version}
+		\caption{Realisierung der Entwicklungsstufe: InMoov}
 		\label{fig:Roboterhand_Version2}			
 	\end{center}
 \end{figure}
@@ -1976,12 +1977,13 @@ wird durch die zweite Schnur im Faltmechanismus noch trivialer. \\
 Ziel ist es im dritten Versuchsmodell die Problematik mit der Reibung zu verringern und daraus folglich auch ein stabileres Modell zu ermöglichen.\\
 \\
 
-\subsubsection{Dritte Testhand (Projekt-Silikonhand)}
+\subsubsection{Entwicklungsstufe: Silikon}
+\label{chap:Entwicklungsstufe: Silikon}
 \paragraph{Das Konzept}
 \hfill \break
 \hfill \break
 Nachdem die vorherigen Versuche erwiesen, haben welche Problematiken sich aus einem festen Modell aus PLA ergeben, stand ein großes Umdenken im Raum. Auf Vorschlag einer Betreuungskraft stellte sich heraus, dass das Modell elastischer sein muss und 
-ein hartes Material nicht immer die Beste Lösung ist. Der Vorschlag war Silikon in das Modell der Hand zu integrieren, ein ähnliches Projekt habe so bereits eine Hand realisiert. Ähnlich wie bei dem Modell aus [\textcolor{blue}{\autoref{chap:Erste Testhand}}] bestanden 
+ein hartes Material nicht immer die Beste Lösung ist. Der Vorschlag war Silikon in das Modell der Hand zu integrieren, ein ähnliches Projekt habe so bereits eine Hand realisiert. Ähnlich wie bei dem Modell aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] bestanden 
 dort die einzelnen Glieder aus einzelnen Teilen, zwar aus Silikon, waren jedoch auch per Elastomer verbunden. Die Handfläche bestand bei dem Modell aus dem Vorschlag dennoch aus harten Kunststoff. \\
 \\
 Für das Projekt \textquote{Bionic-Hand} ergab sich eine neue Ebene und Vielfalt der Möglichkeiten. Die neue Idee ist es die gesamte Hand vollständig aus Silikon zu entwickeln und somit Problemen wie der Reibung und Brüchen unter starker Last aus dem 
@@ -2007,7 +2009,7 @@ Als Testobjekt wurde ein einfacher Finger, welcher einen Faltmechanismus ermögl
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger1}}
-		\caption{Silikon-Testfinger}
+		\caption{Innenseite des Silikonfingers}
 		\label{fig:Silikon_Testfinger1}			
 	\end{center}
 \end{figure}
@@ -2018,7 +2020,7 @@ Im oberen Teil des Fingers verläuft durch jedes einzelne Glied ein Kanal, für 
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger2}}
-		\caption{Silikon-Testfinger}
+		\caption{Außenseite des Silikonfingers}
 		\label{fig:Silikon_Testfinger2}			
 	\end{center}
 \end{figure}
@@ -2027,14 +2029,14 @@ Um diese Fläche optional nochmals im Nachhinein zu verdicken und dadurch zu bee
 an den Biegungspunkten, kann dies bewirkt werden. \\
 \\
 Der ganze Finger wird in eine Gussform gegossen, diese besteht aus zwei Teilen um den Finger leicht aus der Form lösen zu können, ohne dabei die beiden Objekte zu beschädigen. \\
-Verbunden sind beide Teile der Form mit einem Steckmechanismus, wie in der Grafik (x.x.x) ersichtlich. Am oberen Teil der Gussform befindet sich ein Loch in dieses wird das flüssige Silikon später gegossen, das Loch wurde extra groß 
+Verbunden sind beide Teile der Form mit einem Steckmechanismus, wie in der [\textcolor{blue}{\autoref{fig:Silikon_Testfinger_Gussform}}] ersichtlich. Am oberen Teil der Gussform befindet sich ein Loch in dieses wird das flüssige Silikon später gegossen, das Loch wurde extra groß 
 dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
 \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger_Gussform}}
-		\caption{Silikon-Testfinger-Gussform}
+		\caption{Gussform des ersten Gussversuchs}
 		\label{fig:Silikon_Testfinger_Gussform}			
 	\end{center}
 \end{figure}
@@ -2051,7 +2053,7 @@ ein Luftraum gebildet, welcher nicht mit Silikon gefüllt wurde. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikon_Testfinger_Verbesserung}}
-		\caption{Silikon-Testfinger-Verbesserung}
+		\caption{Gussform des zweiten Gussversuchs}
 		\label{fig:Silikon_Testfinger_Verbesserung}			
 	\end{center}
 \end{figure}
@@ -2072,7 +2074,7 @@ mechanisches Gelenk welches durch den gesamten Finger geht. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gelenke1}}
-		\caption{Fingergelenke}
+		\caption{innere Ansicht des Fingergelenks}
 		\label{fig:Gelenke1}			
 	\end{center}
 \end{figure}
@@ -2080,7 +2082,7 @@ mechanisches Gelenk welches durch den gesamten Finger geht. \\
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gelenke2}}
-		\caption{Fingergelenke}
+		\caption{äußere Ansicht des Fingergelenks}
 		\label{fig:Gelenke2}			
 	\end{center}
 \end{figure}
@@ -2098,7 +2100,7 @@ Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, d
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gelenke_real}}
-		\caption{Gelenke in echt}
+		\caption{Silikonfinger mit eingegossenem Gelenk}
 		\label{fig:Gelenke_real}			
 	\end{center}
 \end{figure}
@@ -2116,16 +2118,8 @@ in der Handfläche beginnen, damit sich diese besser um das gewünschte Objekt "
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
-		{\includegraphics[width=0.8 \linewidth]{Silikonhand_3Dmodell}}
-		\caption{3D-Modell Silikonhand}
-		\label{fig:Silikonhand_3Dmodell}			
-	\end{center}
-\end{figure}
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikonhand_3Dmodell2}}
-		\caption{3D-Modell Silikonhand}
+		\caption{Modell der Silikonhand mit integrierten \textquote{Knochen Gelenken}}
 		\label{fig:Silikonhand_3Dmodell2}			
 	\end{center}
 \end{figure}
@@ -2138,7 +2132,7 @@ Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsäch
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Skelett1}}
-		\caption{Skelett}
+		\caption{aktuelle Version des Gelenks}
 		\label{fig:Skelett1}			
 	\end{center}
 \end{figure}
@@ -2146,7 +2140,7 @@ Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsäch
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Skelett2}}
-		\caption{Skelett}
+		\caption{vorherige Version des Gerüsts}
 		\label{fig:Skelett2}			
 	\end{center}
 \end{figure}
@@ -2158,7 +2152,7 @@ Ein weiter Unterschied ist die Verbindung der einzelnen Knochen in jedem Finger.
 	\begin{center}
 		\scalebox{0.5}
 		{\includegraphics[width=0.8 \linewidth]{Fingerglieder}}
-		\caption{Fingerglieder}
+		\caption{Verbindung der einzelnen Glieder mit Gummikordeln}
 		\label{fig:Fingerglieder}			
 	\end{center}
 \end{figure}
@@ -2168,17 +2162,17 @@ und dem Raum im Finger nicht umsetzbar wäre. Zwar blockiert dieser Mechanismus 
 Krümmungsstellen so verstärkt, dass er sich hauptsächlich in die Faltrichtung biegt. \\
 \\
 
-\paragraph{Gussform und Gussversuch}
+\paragraph{Gussform und Gussversuch der gesamten Hand}
 \hfill \break
 \hfill \break
-Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus Versuch von Kapitel (x.x.x), eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das \textquote{Skelet} auch 
+Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus [\textcolor{blue}{\autoref{par:Gussform}}], eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das \textquote{Skelet} auch 
 bekannt als das Gelenksgerüst präzise in der Mitte eines Fingers platziert werden muss. \\
 \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gussform1}}
-		\caption{Gussform}
+		\caption{unteres Element der Gussfom}
 		\label{fig:Gussform1}			
 	\end{center}
 \end{figure}
@@ -2186,7 +2180,7 @@ bekannt als das Gelenksgerüst präzise in der Mitte eines Fingers platziert wer
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gussform2}}
-		\caption{Gussform}
+		\caption{oberes Element der Gussform}
 		\label{fig:Gussform2}			
 	\end{center}
 \end{figure}
@@ -2199,7 +2193,7 @@ Steckvorrichtung. Sichtbar ist ebenso zwischen dem unteren und dem oberen Elemen
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Gussform3}}
-		\caption{Gussform}
+		\caption{Gussform mit Halterung}
 		\label{fig:Gussform3}			
 	\end{center}
 \end{figure}
@@ -2239,7 +2233,7 @@ für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind 
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch2}}
-		\caption{Silikonhand Fehlversuch 2}
+		\caption{Notkonzept: Handfäche aus hartem Kunststoff (PLA)}
 		\label{fig:Silikonhand_Fehlversuch2}			
 	\end{center}
 \end{figure}
@@ -2247,7 +2241,7 @@ für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind 
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch3}}
-		\caption{Silikonhand Fehlversuch 3}
+		\caption{Realisierung des Notkonzepts}
 		\label{fig:Silikonhand_Fehlversuch3}			
 	\end{center}
 \end{figure}
@@ -2259,16 +2253,16 @@ Die Problematik mit dem Guss, dass das Modell sich nicht in einem gießen lässt
 Ergebnisse wird das Konzept vorerst verworfen, dennoch soll Silikon weiterhin ein Bestandteil der zukünftigen Modelle bleiben besonders aufgrund des Griffs, der damit gesichert werden kann. \\
 \\
 
-\subsubsection{Vierte Hand (Hybrid-Konzept)}
-\label{chap:Vierte Hand (Hybrid-Konzept)}
+\subsubsection{Entwicklungsstufe: Hybrid}
+\label{chap:Entwicklungsstufe: Hybrid}
 \paragraph{Erfahrung und Konzepterläuterung}
 \hfill \break
 \hfill \break
 Aus den Versuchen der letzten Kapitel konnte einiges an Erfahrung gesammelt werden. Nun ist klar worauf bei dem Modell einer Hand geachtet werden muss. \\
-Wie in [\textcolor{blue}{\autoref{chap:Erste Testhand}}] hat sich gezeigt, dass die einzelnen Fingerglieder sich kontinuierlich um die anderen Falten müssen. Auch hat sich im Kapitel „zweite Testhand“ gezeigt, wie wichtig es ist für ein Modell zu sorgen, dass einer hohen 
+Wie in [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] hat sich gezeigt, dass die einzelnen Fingerglieder sich kontinuierlich um die anderen Falten müssen. Auch hat sich im Kapitel „zweite Testhand“ gezeigt, wie wichtig es ist für ein Modell zu sorgen, dass einer hohen 
 Last standhält und nicht brüchig ist. In den letzten Versuchen hat sich gezeigt, dass die Zugschnur an sämtlichen Stellen auf Reibung trifft. \\
 \\
-Entdeckt wurde eine erweiterte Version der Hand aus [\textcolor{blue}{\autoref{chap:Zweite Testhand}}] von Gael Levin. Diese hat sämtliche Optimierungen, sei es die zu bemängelnde Stabilität der vorherigen Version oder auch der problematische Mechanismus der 
+Entdeckt wurde eine erweiterte Version der Hand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: InMoov}}] von Gael Levin. Diese hat sämtliche Optimierungen, sei es die zu bemängelnde Stabilität der vorherigen Version oder auch der problematische Mechanismus der 
 Zugschnüren. Im neuen Modell der \textquote{i2Hand}, sind die Fingerglieder besonders an ihren Schwachstellen verstärkt worden, somit kann verhindert werden, dass die Verbindungen der einzelnen Glieder bei hoher Last oder gar der Montage brechen. Die 
 Verbindungen haben vorgesehene Einkerbungen für den Kopf der Schraube oder eine Mutter, somit steht an den Seiten der Finger nichts ab. \\
 Der Faltmechanismus besteht nicht mehr aus zwei Schnüre, sondern reduziert sich ausschließlich auf die Zugschnur, diese hat eine eigene Führung mit abgerundeten Kanten um die Reibung zu reduzieren. Der Rückzug wird durch eine Zugfeder verursacht, 
@@ -2285,7 +2279,7 @@ entworfen werden in diesem soll die Drehbewegung des Servomotors in eine lineare
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Motorblock_v2}}
-		\caption{Motorblock v2}
+		\caption{Rekonstruktion des Motorblocks}
 		\label{fig:Motorblock_v2}			
 	\end{center}
 \end{figure}
@@ -2293,8 +2287,8 @@ entworfen werden in diesem soll die Drehbewegung des Servomotors in eine lineare
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Motorblock_v2_Mechanismus}}
-		\caption{Motorblock v2 Mechanismus}
-		\label{fig:Motorblock_v2}			
+		\caption{Mechanismus mit Zahnrad und Zahnstange}
+		\label{fig:Motorblock_v22}			
 	\end{center}
 \end{figure}
 \hfill \break
@@ -2315,7 +2309,7 @@ Dadurch konnte der Durchmesser des Zahnrades um ein Vielfaches verkleinert werde
 	\begin{center}
 		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Zahnstangenmechanismus_Unterarm}}
-		\caption{Zahnstangenmechanismus Unterarm}
+		\caption{Verbesserung der ersten Rekonstruktion}
 		\label{fig:Zahnstangenmechanismus_Unterarm}			
 	\end{center}
 \end{figure}
@@ -4026,25 +4020,7 @@ ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ei
 Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{red}{8.2.4.1 Parser und Interpretation: drahtloser Datenströme}]
 und [\textcolor{red}{8.2.4.2 Parser und Interpretation: serieller Datenströme}]. \\
 \\
-%\begin{figure}[H]
-%	\centering
-%	\scalebox{1.5}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_1}}
-	%\caption{}
-	%\label{fig:Softwaremap_1}	
-%\end{figure}
-%\begin{figure}[H]
-%	\centering
-%	\scalebox{1.8}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_2}}
-	%\caption{}
-	%\label{fig:Softwaremap_2}	
-%\end{figure}
-%\begin{figure}[H]
-%	\centering
-%	\scalebox{1.1}{\includegraphics[width=0.8\linewidth, angle=-90]{Softwaremap_3}}
-%	\caption{Softwaremap Ausgabesubsystem}
-%	\label{fig:Softwaremap_3}	
-%\end{figure}
-%\hfill \break
+
 \paragraph{Drahtlose Kommunikation}
 \label{par:Drahtlose Kommunikation}
 \hfill \break
@@ -6072,48 +6048,15 @@ erstellt werden. \\
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==VERZEICHNISSE===========================================================
-\section{Abbildungsverzeichnis}
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
-        \hline
-        \autoref{fig:Flexsensor} & Flexsensor \\
-        2 & Kostenkalkulationen fertig \\
-        3 & Prototypen proof of concept \\
-        4 & Hardwaredesign fertig \\
-        5 & PCB-Design fertig \\
-        6 & Softwareimplementierung für Integrationstest fertig \\
-        7 & Integration aller Komponenten \\
-        8 & User Interface fertiggestellt \\
-        9 & Abnahme durch die Projektbetreuer \\
-        \hline
-    \end{tabular}
-    \label{tab:Abbildungsverzeichnis}
-\end{table}
+\listoffigures
 
 \newpage
-\section{Tabellenverzeichnis}
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{|c|l|c|}  % c für zentrierte Ausrichtung, l für linksbündig
-        \hline
-        2 & Kostenkalkulationen fertig \\
-        3 & Prototypen proof of concept \\
-        4 & Hardwaredesign fertig \\
-        5 & PCB-Design fertig \\
-        6 & Softwareimplementierung für Integrationstest fertig \\
-        7 & Integration aller Komponenten \\
-        8 & User Interface fertiggestellt \\
-        9 & Abnahme durch die Projektbetreuer \\
-        \hline
-    \end{tabular}
-    \label{tab:Tabellenverzeichnis}
-\end{table}
+\listoftables
 
 \newpage
-\section{Literaturverzeichnis}
+
+\printbibliography
 
 \newpage
 %--------------------------------------------------------------------------

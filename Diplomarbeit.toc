@@ -18,8 +18,8 @@
 \contentsline {subsubsection}{\numberline {3.3.3}Sicherheitsaspekte}{11}{subsubsection.3.3.3}%
 \contentsline {paragraph}{\numberline {3.3.3.1}Gefahren und Risiken}{11}{paragraph.3.3.3.1}%
 \contentsline {paragraph}{\numberline {3.3.3.2}Sicherheitsstandards und Normen}{13}{paragraph.3.3.3.2}%
-\contentsline {paragraph}{\numberline {3.3.3.3}EU Vorschriften}{14}{paragraph.3.3.3.3}%
-\contentsline {paragraph}{\numberline {3.3.3.4}Nationale Vorschriften (Österreich)}{15}{paragraph.3.3.3.4}%
+\contentsline {paragraph}{\numberline {3.3.3.3}EU Vorschriften}{13}{paragraph.3.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.4}Nationale Vorschriften (Österreich)}{14}{paragraph.3.3.3.4}%
 \contentsline {subsubsection}{\numberline {3.3.4}Lösungen zur Verbesserung der Sicherheit bei der MRK}{15}{subsubsection.3.3.4}%
 \contentsline {paragraph}{\numberline {3.3.4.1}Sensortechnologien}{15}{paragraph.3.3.4.1}%
 \contentsline {paragraph}{\numberline {3.3.4.2}Kollaborative Roboter (Cobots)}{15}{paragraph.3.3.4.2}%
@@ -63,21 +63,21 @@
 \contentsline {subsubsection}{\numberline {6.2.2}Versuchsaufbauten}{33}{subsubsection.6.2.2}%
 \contentsline {paragraph}{\numberline {6.2.2.1}Aufbau}{33}{paragraph.6.2.2.1}%
 \contentsline {paragraph}{\numberline {6.2.2.2}Versuchsresultat}{33}{paragraph.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Erste Testhand}{34}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3}Entwicklungsstufe: intitial}{34}{subsubsection.6.2.3}%
 \contentsline {paragraph}{\numberline {6.2.3.1}Konzept Einführung}{34}{paragraph.6.2.3.1}%
 \contentsline {paragraph}{\numberline {6.2.3.2}Realisierung und Zusammenbau}{34}{paragraph.6.2.3.2}%
 \contentsline {paragraph}{\numberline {6.2.3.3}Fazit und Ergebnisse}{40}{paragraph.6.2.3.3}%
-\contentsline {subsubsection}{\numberline {6.2.4}Zweite Testhand (Inmoov)}{42}{subsubsection.6.2.4}%
+\contentsline {subsubsection}{\numberline {6.2.4}Entwicklungsstufe: InMoov}{42}{subsubsection.6.2.4}%
 \contentsline {paragraph}{\numberline {6.2.4.1}Einführung}{42}{paragraph.6.2.4.1}%
 \contentsline {paragraph}{\numberline {6.2.4.2}Mechanismus}{42}{paragraph.6.2.4.2}%
 \contentsline {paragraph}{\numberline {6.2.4.3}Fazit und Ergebnisse}{45}{paragraph.6.2.4.3}%
-\contentsline {subsubsection}{\numberline {6.2.5}Dritte Testhand (Projekt-Silikonhand)}{47}{subsubsection.6.2.5}%
+\contentsline {subsubsection}{\numberline {6.2.5}Entwicklungsstufe: Silikon}{47}{subsubsection.6.2.5}%
 \contentsline {paragraph}{\numberline {6.2.5.1}Das Konzept}{47}{paragraph.6.2.5.1}%
 \contentsline {paragraph}{\numberline {6.2.5.2}Gussform}{48}{paragraph.6.2.5.2}%
 \contentsline {paragraph}{\numberline {6.2.5.3}Gelenke}{51}{paragraph.6.2.5.3}%
 \contentsline {paragraph}{\numberline {6.2.5.4}Entwurf einer neuen Gussform}{53}{paragraph.6.2.5.4}%
-\contentsline {paragraph}{\numberline {6.2.5.5}Gussform und Gussversuch}{56}{paragraph.6.2.5.5}%
-\contentsline {subsubsection}{\numberline {6.2.6}Vierte Hand (Hybrid-Konzept)}{61}{subsubsection.6.2.6}%
+\contentsline {paragraph}{\numberline {6.2.5.5}Gussform und Gussversuch der gesamten Hand}{56}{paragraph.6.2.5.5}%
+\contentsline {subsubsection}{\numberline {6.2.6}Entwicklungsstufe: Hybrid}{61}{subsubsection.6.2.6}%
 \contentsline {paragraph}{\numberline {6.2.6.1}Erfahrung und Konzepterläuterung}{61}{paragraph.6.2.6.1}%
 \contentsline {paragraph}{\numberline {6.2.6.2}Erster Entwurf}{62}{paragraph.6.2.6.2}%
 \contentsline {paragraph}{\numberline {6.2.6.3}Verbesserungen – zweiter Entwurf}{64}{paragraph.6.2.6.3}%
@@ -107,7 +107,7 @@
 \contentsline {paragraph}{\numberline {7.1.4.5}Multiplexer}{80}{paragraph.7.1.4.5}%
 \contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{80}{paragraph.7.1.4.6}%
 \contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{81}{paragraph.7.1.4.7}%
-\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{82}{paragraph.7.1.4.8}%
+\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{81}{paragraph.7.1.4.8}%
 \contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{82}{subsubsection.7.1.5}%
 \contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{82}{paragraph.7.1.5.1}%
 \contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{84}{paragraph.7.1.5.2}%
@@ -140,9 +140,9 @@
 \contentsline {paragraph}{\numberline {8.1.1.2}Programmiersprache/Entwicklungsumgebung}{114}{paragraph.8.1.1.2}%
 \contentsline {paragraph}{\numberline {8.1.1.3}Benutzerfreundlichkeit}{115}{paragraph.8.1.1.3}%
 \contentsline {paragraph}{\numberline {8.1.1.4}Testen}{115}{paragraph.8.1.1.4}%
-\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{116}{paragraph.8.1.1.5}%
+\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{115}{paragraph.8.1.1.5}%
 \contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{116}{paragraph.8.1.1.6}%
-\contentsline {paragraph}{\numberline {8.1.1.7}Toleranz bei Werten}{117}{paragraph.8.1.1.7}%
+\contentsline {paragraph}{\numberline {8.1.1.7}Toleranz bei Werten}{116}{paragraph.8.1.1.7}%
 \contentsline {paragraph}{\numberline {8.1.1.8}Verworfene Ideen}{117}{paragraph.8.1.1.8}%
 \contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{118}{subsubsection.8.1.2}%
 \contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{118}{paragraph.8.1.2.1}%
@@ -214,6 +214,3 @@
 \contentsline {paragraph}{\numberline {16.4.2.1}Eingabesubsystem}{195}{paragraph.16.4.2.1}%
 \contentsline {paragraph}{\numberline {16.4.2.2}Ausgabesubsystem}{195}{paragraph.16.4.2.2}%
 \contentsline {paragraph}{\numberline {16.4.2.3}User-Interface}{195}{paragraph.16.4.2.3}%
-\contentsline {section}{\numberline {17}Abbildungsverzeichnis}{196}{section.17}%
-\contentsline {section}{\numberline {18}Tabellenverzeichnis}{197}{section.18}%
-\contentsline {section}{\numberline {19}Literaturverzeichnis}{198}{section.19}%
