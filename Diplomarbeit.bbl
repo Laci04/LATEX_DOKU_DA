@@ -18,43 +18,611 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{WIFIabbildung}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdd547e470c18611c3bcfde2cc5a4fe7}{%
-           family={Afrank99},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \strng{fullhash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \strng{bibnamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \strng{authorbibnamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \strng{authornamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \strng{authorfullhash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
+  \datalist[entry]{none/global//global/global}
+    \entry{Saferinternet.p7}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{title}{WIFI Logo}
-      \field{year}{2016}
+      \field{title}{Saferinternet}
+      \field{pages}{7}
+      \range{pages}{1}
       \verb{urlraw}
-      \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
+      \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
       \verb{url}
-      \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
+      \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'WIFIabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+      \warn{\item online entry 'Saferinternet.p7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Saferinternet.p8}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Saferinternet}
+      \field{pages}{8}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \verb{url}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \warn{\item online entry 'Saferinternet.p8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Saferinternet.p10}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Saferinternet}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \verb{url}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \warn{\item online entry 'Saferinternet.p10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Saferinternet.p11}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Saferinternet}
+      \field{pages}{11}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \verb{url}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \warn{\item online entry 'Saferinternet.p11' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Saferinternet.p12}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{Saferinternet}
+      \field{pages}{12}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \verb{url}
+      \verb https://www.saferinternet.at/themen/urheberrechte
+      \endverb
+      \warn{\item online entry 'Saferinternet.p12' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Ionos7}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5137b0356ec27c5db455108c5a9192d}{%
+           family={Ionos},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{fullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{bibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorbibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authornamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorfullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Urheberrecht bei Software}
+      \verb{urlraw}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \verb{url}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \warn{\item online entry 'Ionos7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Ionos8}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5137b0356ec27c5db455108c5a9192d}{%
+           family={Ionos},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{fullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{bibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorbibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authornamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorfullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bedingungen für den Urheberrechtsschutz: Software als geistiges Eigentum}
+      \verb{urlraw}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \verb{url}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \warn{\item online entry 'Ionos8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Ionos9}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5137b0356ec27c5db455108c5a9192d}{%
+           family={Ionos},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{fullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{bibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorbibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authornamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorfullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \field{extraname}{3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Unter den urheberrechtlichen Schtuz fallen}
+      \verb{urlraw}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \verb{url}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \warn{\item online entry 'Ionos9' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Ionos10}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d5137b0356ec27c5db455108c5a9192d}{%
+           family={Ionos},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{fullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{bibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorbibnamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authornamehash}{d5137b0356ec27c5db455108c5a9192d}
+      \strng{authorfullhash}{d5137b0356ec27c5db455108c5a9192d}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nicht unter das Urheberrecht fallen hingegen}
+      \verb{urlraw}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \verb{url}
+      \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
+      \endverb
+      \warn{\item online entry 'Ionos10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaOpenSource}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \warn{\item online entry 'WikipediaOpenSource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaOpenSource12}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definition}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \warn{\item online entry 'WikipediaOpenSource12' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Opensource}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Opensource}
+      \verb{urlraw}
+      \verb https://opensource.org/osd
+      \endverb
+      \verb{url}
+      \verb https://opensource.org/osd
+      \endverb
+      \warn{\item online entry 'Opensource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Giga}{online}{}
+      \name{author}{1}{}{%
+        {{hash=face169d07fbc9456304189e764388c5}{%
+           family={Schanze},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{face169d07fbc9456304189e764388c5}
+      \strng{fullhash}{face169d07fbc9456304189e764388c5}
+      \strng{bibnamehash}{face169d07fbc9456304189e764388c5}
+      \strng{authorbibnamehash}{face169d07fbc9456304189e764388c5}
+      \strng{authornamehash}{face169d07fbc9456304189e764388c5}
+      \strng{authorfullhash}{face169d07fbc9456304189e764388c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Giga}
+      \verb{urlraw}
+      \verb https://www.giga.de/artikel/was-ist-open-source-einfach-erklaert/
+      \endverb
+      \verb{url}
+      \verb https://www.giga.de/artikel/was-ist-open-source-einfach-erklaert/
+      \endverb
+      \warn{\item online entry 'Giga' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaOpenSource16}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geschichte}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Open_Source
+      \endverb
+      \warn{\item online entry 'WikipediaOpenSource16' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaGPL2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=230a76f371736ec6f5b92a8020340c0b}{%
+           family={GPL},
+           familyi={G\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{fullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{bibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorbibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authornamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorfullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Entstehung}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \warn{\item online entry 'WikipediaGPL2' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaLinux}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Wikipedia Linux}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Linux_(Kernel)
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Linux_(Kernel)
+      \endverb
+      \warn{\item online entry 'WikipediaLinux' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Simpleclub23}{online}{}
+      \name{author}{1}{}{%
+        {{hash=616f8114d80c63243da4686706bb9795}{%
+           family={Simpleclub},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{616f8114d80c63243da4686706bb9795}
+      \strng{fullhash}{616f8114d80c63243da4686706bb9795}
+      \strng{bibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorbibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authornamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorfullhash}{616f8114d80c63243da4686706bb9795}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Softwarelizenzen einfach erklärt}
+      \verb{urlraw}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \verb{url}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \warn{\item online entry 'Simpleclub23' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Simpleclub24}{online}{}
+      \name{author}{1}{}{%
+        {{hash=616f8114d80c63243da4686706bb9795}{%
+           family={Simpleclub},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{616f8114d80c63243da4686706bb9795}
+      \strng{fullhash}{616f8114d80c63243da4686706bb9795}
+      \strng{bibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorbibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authornamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorfullhash}{616f8114d80c63243da4686706bb9795}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Freie Softwarelizenzen}
+      \verb{urlraw}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \verb{url}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \warn{\item online entry 'Simpleclub24' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Simpleclub25}{online}{}
+      \name{author}{1}{}{%
+        {{hash=616f8114d80c63243da4686706bb9795}{%
+           family={Simpleclub},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{616f8114d80c63243da4686706bb9795}
+      \strng{fullhash}{616f8114d80c63243da4686706bb9795}
+      \strng{bibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorbibnamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authornamehash}{616f8114d80c63243da4686706bb9795}
+      \strng{authorfullhash}{616f8114d80c63243da4686706bb9795}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kommerzielle Softwarelizenzen}
+      \verb{urlraw}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \verb{url}
+      \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
+      \endverb
+      \warn{\item online entry 'Simpleclub25' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{GNU}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{GNU}
+      \verb{urlraw}
+      \verb https://www.gnu.org/licenses/copyleft.de.html
+      \endverb
+      \verb{url}
+      \verb https://www.gnu.org/licenses/copyleft.de.html
+      \endverb
+      \warn{\item online entry 'GNU' (Literatur.bib): Invalid format '09.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaGPL}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Wikipedia GPL}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \warn{\item online entry 'WikipediaGPL' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaGPL3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=230a76f371736ec6f5b92a8020340c0b}{%
+           family={GPL},
+           familyi={G\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{fullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{bibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorbibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authornamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorfullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geschichte}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \warn{\item online entry 'WikipediaGPL3' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaGPL4}{online}{}
+      \name{author}{1}{}{%
+        {{hash=230a76f371736ec6f5b92a8020340c0b}{%
+           family={GPL},
+           familyi={G\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{fullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{bibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorbibnamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authornamehash}{230a76f371736ec6f5b92a8020340c0b}
+      \strng{authorfullhash}{230a76f371736ec6f5b92a8020340c0b}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GPL Version 3}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
+      \endverb
+      \warn{\item online entry 'WikipediaGPL4' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{Apache}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Apache}
+      \verb{urlraw}
+      \verb https://apache.org/licenses/LICENSE-1.0
+      \endverb
+      \verb{url}
+      \verb https://apache.org/licenses/LICENSE-1.0
+      \endverb
+      \warn{\item online entry 'Apache' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WikipediaApache}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eigenschaften}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
+      \endverb
+      \warn{\item online entry 'WikipediaApache' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{rubigm1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ec1231996de72ba6d8de12b8e11f3caa}{%
+           family={Wannöffel},
+           familyi={W\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Manfred},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{fullhash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{bibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authorbibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
+      \field{year}{2019}
+      \field{pages}{10}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \endverb
+      \warn{\item online entry 'rubigm1' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{rubigm2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ec1231996de72ba6d8de12b8e11f3caa}{%
+           family={Wannöffel},
+           familyi={W\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Manfred},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{fullhash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{bibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authorbibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
+      \field{year}{2019}
+      \field{pages}{11}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \endverb
+      \warn{\item online entry 'rubigm2' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{TÜVaustria}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c72d76b437a8ff5a2250584bbd6e03a1}{%
+        {{hash=c72d76b437a8ff5a2250584bbd6e03a1}{%
            family={Austria},
            familyi={A\bibinitperiod},
            given={TÜV},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
+           giveni={T\bibinitperiod}}}%
       }
       \strng{namehash}{c72d76b437a8ff5a2250584bbd6e03a1}
       \strng{fullhash}{c72d76b437a8ff5a2250584bbd6e03a1}
@@ -62,13 +630,11 @@
       \strng{authorbibnamehash}{c72d76b437a8ff5a2250584bbd6e03a1}
       \strng{authornamehash}{c72d76b437a8ff5a2250584bbd6e03a1}
       \strng{authorfullhash}{c72d76b437a8ff5a2250584bbd6e03a1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Mensch-Roboter- Kollaboration Einfluss der IT-Security}
+      \field{title}{Mensch Roboter Kollaboration Einfluss der ITsecurity}
       \field{year}{2018}
       \field{pages}{12}
       \range{pages}{1}
@@ -80,17 +646,45 @@
       \endverb
       \warn{\item online entry 'TÜVaustria' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
+    \entry{FHvorarlberg}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4033f068d274f6ff97c7aa292e95bad3}{%
+           family={Düngler\bibnamedelima Sebastian},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={FH\bibnamedelima Vorarlberg},
+           giveni={F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4033f068d274f6ff97c7aa292e95bad3}
+      \strng{fullhash}{4033f068d274f6ff97c7aa292e95bad3}
+      \strng{bibnamehash}{4033f068d274f6ff97c7aa292e95bad3}
+      \strng{authorbibnamehash}{4033f068d274f6ff97c7aa292e95bad3}
+      \strng{authornamehash}{4033f068d274f6ff97c7aa292e95bad3}
+      \strng{authorfullhash}{4033f068d274f6ff97c7aa292e95bad3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mensch Roboter Kollaboration (MRK) Gestaltungshilfe für MRK Anwendungen}
+      \field{year}{2022}
+      \field{pages}{31\bibrangedash 32}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf
+      \endverb
+      \verb{url}
+      \verb https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf
+      \endverb
+      \warn{\item online entry 'FHvorarlberg' (Literatur.bib): Invalid format '11.03.2024' of date field 'urldate' - ignoring}
+    \endentry
     \entry{ISA}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e09f2211be542d676ccc73eed55cfff1}{%
+        {{hash=e09f2211be542d676ccc73eed55cfff1}{%
            family={Automation},
            familyi={A\bibinitperiod},
            given={International\bibnamedelima Society},
            giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0,
            prefix={of},
-           prefixi={o\bibinitperiod},
-           prefixun=0}}%
+           prefixi={o\bibinitperiod}}}%
       }
       \strng{namehash}{e09f2211be542d676ccc73eed55cfff1}
       \strng{fullhash}{e09f2211be542d676ccc73eed55cfff1}
@@ -98,10 +692,8 @@
       \strng{authorbibnamehash}{e09f2211be542d676ccc73eed55cfff1}
       \strng{authornamehash}{e09f2211be542d676ccc73eed55cfff1}
       \strng{authorfullhash}{e09f2211be542d676ccc73eed55cfff1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ISA/IEC 62443 Series of Standards}
@@ -114,133 +706,15 @@
       \endverb
       \warn{\item online entry 'ISA' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{Servoabbildung}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=10d7031ae5ab86c12555e02a37bd93e6}{%
-           family={Blogspot},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \strng{fullhash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \strng{bibnamehash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \strng{authorbibnamehash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \strng{authornamehash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \strng{authorfullhash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Futaba_S3003_Servo.jpg}
-      \verb{urlraw}
-      \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
-      \endverb
-      \verb{url}
-      \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
-      \endverb
-      \warn{\item online entry 'Servoabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
-    \endentry
-    \entry{FHvorarlberg}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4033f068d274f6ff97c7aa292e95bad3}{%
-           family={Düngler\bibnamedelima Sebastian},
-           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-           given={FH\bibnamedelima Vorarlberg},
-           giveni={F\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{4033f068d274f6ff97c7aa292e95bad3}
-      \strng{fullhash}{4033f068d274f6ff97c7aa292e95bad3}
-      \strng{bibnamehash}{4033f068d274f6ff97c7aa292e95bad3}
-      \strng{authorbibnamehash}{4033f068d274f6ff97c7aa292e95bad3}
-      \strng{authornamehash}{4033f068d274f6ff97c7aa292e95bad3}
-      \strng{authorfullhash}{4033f068d274f6ff97c7aa292e95bad3}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mensch-Roboter-Kollaboration (MRK) Gestaltungshilfe für MRK-Anwendungen}
-      \field{year}{2022}
-      \field{pages}{31\bibrangedash 32}
-      \range{pages}{2}
-      \verb{urlraw}
-      \verb https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf
-      \endverb
-      \verb{url}
-      \verb https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf
-      \endverb
-      \warn{\item online entry 'FHvorarlberg' (Literatur.bib): Invalid format '11.03.2024' of date field 'urldate' - ignoring}
-    \endentry
-    \entry{Flexsensorabbildung}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2477a7f608e55ef703217df840d0d3df}{%
-           family={Electronics},
-           familyi={E\bibinitperiod},
-           given={SparkFun},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2477a7f608e55ef703217df840d0d3df}
-      \strng{fullhash}{2477a7f608e55ef703217df840d0d3df}
-      \strng{bibnamehash}{2477a7f608e55ef703217df840d0d3df}
-      \strng{authorbibnamehash}{2477a7f608e55ef703217df840d0d3df}
-      \strng{authornamehash}{2477a7f608e55ef703217df840d0d3df}
-      \strng{authorfullhash}{2477a7f608e55ef703217df840d0d3df}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Flexsensor}
-      \field{year}{2013}
-      \verb{urlraw}
-      \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
-      \endverb
-      \verb{url}
-      \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
-      \endverb
-      \warn{\item online entry 'Flexsensorabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
-    \endentry
-    \entry{I2Cabbildung}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7b672e35850c75b0a44dbbe3e1dbc4c9}{%
-           family={FMH-Studios},
-           familyi={F\bibinithyphendelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \strng{fullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \strng{bibnamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \strng{authorbibnamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \strng{authornamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \strng{authorfullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{I2C Zeitdiagramm}
-      \verb{urlraw}
-      \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
-      \endverb
-      \verb{url}
-      \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
-      \endverb
-      \warn{\item online entry 'I2Cabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
-    \endentry
     \entry{Pilz}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f2ddae5e6071392c595de448cb56304f}{%
+        {{hash=f2ddae5e6071392c595de448cb56304f}{%
            family={Safety},
            familyi={S\bibinitperiod},
            given={Pilz:\bibnamedelimb The\bibnamedelima Spirit},
            giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0,
            prefix={of},
-           prefixi={o\bibinitperiod},
-           prefixun=0}}%
+           prefixi={o\bibinitperiod}}}%
       }
       \strng{namehash}{f2ddae5e6071392c595de448cb56304f}
       \strng{fullhash}{f2ddae5e6071392c595de448cb56304f}
@@ -248,10 +722,8 @@
       \strng{authorbibnamehash}{f2ddae5e6071392c595de448cb56304f}
       \strng{authornamehash}{f2ddae5e6071392c595de448cb56304f}
       \strng{authorfullhash}{f2ddae5e6071392c595de448cb56304f}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{EN 61508: Funktionale Sicherheit von Steuerungssystemen}
@@ -266,12 +738,11 @@
     \endentry
     \entry{TÜVsüd}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=adbb58ab488f521c799c07d4e86ba634}{%
+        {{hash=adbb58ab488f521c799c07d4e86ba634}{%
            family={Süd},
            familyi={S\bibinitperiod},
            given={TÜV},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
+           giveni={T\bibinitperiod}}}%
       }
       \strng{namehash}{adbb58ab488f521c799c07d4e86ba634}
       \strng{fullhash}{adbb58ab488f521c799c07d4e86ba634}
@@ -279,10 +750,8 @@
       \strng{authorbibnamehash}{adbb58ab488f521c799c07d4e86ba634}
       \strng{authornamehash}{adbb58ab488f521c799c07d4e86ba634}
       \strng{authorfullhash}{adbb58ab488f521c799c07d4e86ba634}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{MASCHINENRICHTLINIE 2006/42/EG EINFACH ERKLÄRT}
@@ -295,75 +764,109 @@
       \endverb
       \warn{\item online entry 'TÜVsüd' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{rubigm1}{online}{}
+    \entry{Flexsensorabbildung}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec1231996de72ba6d8de12b8e11f3caa}{%
-           family={Wannöffel},
-           familyi={W\bibinitperiod},
-           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Manfred},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+        {{hash=2477a7f608e55ef703217df840d0d3df}{%
+           family={Electronics},
+           familyi={E\bibinitperiod},
+           given={SparkFun},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{fullhash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{bibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authorbibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \field{extraname}{1}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \strng{namehash}{2477a7f608e55ef703217df840d0d3df}
+      \strng{fullhash}{2477a7f608e55ef703217df840d0d3df}
+      \strng{bibnamehash}{2477a7f608e55ef703217df840d0d3df}
+      \strng{authorbibnamehash}{2477a7f608e55ef703217df840d0d3df}
+      \strng{authornamehash}{2477a7f608e55ef703217df840d0d3df}
+      \strng{authorfullhash}{2477a7f608e55ef703217df840d0d3df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH-ROBOTER- KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
-      \field{year}{2019}
-      \field{pages}{10}
-      \range{pages}{1}
+      \field{title}{Flexsensor}
+      \field{year}{2013}
       \verb{urlraw}
-      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
       \endverb
       \verb{url}
-      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
       \endverb
-      \warn{\item online entry 'rubigm1' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
+      \warn{\item online entry 'Flexsensorabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{rubigm2}{online}{}
+    \entry{Servoabbildung}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ec1231996de72ba6d8de12b8e11f3caa}{%
-           family={Wannöffel},
-           familyi={W\bibinitperiod},
-           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Manfred},
-           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+        {{hash=10d7031ae5ab86c12555e02a37bd93e6}{%
+           family={Blogspot},
+           familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{fullhash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{bibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authorbibnamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
+      \strng{namehash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \strng{fullhash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \strng{bibnamehash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \strng{authorbibnamehash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \strng{authornamehash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \strng{authorfullhash}{10d7031ae5ab86c12555e02a37bd93e6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH-ROBOTER- KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
-      \field{year}{2019}
-      \field{pages}{11}
-      \range{pages}{1}
+      \field{title}{Futaba S3003 Servo.jpg}
       \verb{urlraw}
-      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
       \endverb
       \verb{url}
-      \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
+      \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
       \endverb
-      \warn{\item online entry 'rubigm2' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
+      \warn{\item online entry 'Servoabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{I2Cabbildung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7b672e35850c75b0a44dbbe3e1dbc4c9}{%
+           family={FMH-Studios},
+           familyi={F\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \strng{fullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \strng{bibnamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \strng{authorbibnamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \strng{authornamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \strng{authorfullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{I2C Zeitdiagramm}
+      \verb{urlraw}
+      \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
+      \endverb
+      \verb{url}
+      \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
+      \endverb
+      \warn{\item online entry 'I2Cabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{WIFIabbildung}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bdd547e470c18611c3bcfde2cc5a4fe7}{%
+           family={Afrank99},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \strng{fullhash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \strng{bibnamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \strng{authorbibnamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \strng{authornamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \strng{authorfullhash}{bdd547e470c18611c3bcfde2cc5a4fe7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{WIFI Logo}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
+      \endverb
+      \verb{url}
+      \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
+      \endverb
+      \warn{\item online entry 'WIFIabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection
