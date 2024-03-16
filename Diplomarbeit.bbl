@@ -23,7 +23,7 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet}
+      \field{title}{Saferinternet p.7}
       \field{pages}{7}
       \range{pages}{1}
       \verb{urlraw}
@@ -38,7 +38,7 @@
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet}
+      \field{title}{Saferinternet p.8}
       \field{pages}{8}
       \range{pages}{1}
       \verb{urlraw}
@@ -53,7 +53,7 @@
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet}
+      \field{title}{Saferinternet p.10}
       \field{pages}{10}
       \range{pages}{1}
       \verb{urlraw}
@@ -68,7 +68,7 @@
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet}
+      \field{title}{Saferinternet p.11}
       \field{pages}{11}
       \range{pages}{1}
       \verb{urlraw}
@@ -83,7 +83,7 @@
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet}
+      \field{title}{Saferinternet p.12}
       \field{pages}{12}
       \range{pages}{1}
       \verb{urlraw}
@@ -554,6 +554,143 @@
       \endverb
       \warn{\item online entry 'WikipediaApache' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
+    \entry{CreativeCommons35}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b6a8d87dda413f26a638225f5f542943}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Creative},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{fullhash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{bibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorbibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authornamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorfullhash}{b6a8d87dda413f26a638225f5f542943}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist CC?}
+      \verb{urlraw}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \verb{url}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \warn{\item online entry 'CreativeCommons35' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{CreativeCommons36}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b6a8d87dda413f26a638225f5f542943}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Creative},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{fullhash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{bibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorbibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authornamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorfullhash}{b6a8d87dda413f26a638225f5f542943}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wozu solch vorgefertigte Erklärungen?}
+      \verb{urlraw}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \verb{url}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \warn{\item online entry 'CreativeCommons36' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{CreativeCommons37}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b6a8d87dda413f26a638225f5f542943}{%
+           family={Commons},
+           familyi={C\bibinitperiod},
+           given={Creative},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{fullhash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{bibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorbibnamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authornamehash}{b6a8d87dda413f26a638225f5f542943}
+      \strng{authorfullhash}{b6a8d87dda413f26a638225f5f542943}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Und was habe ich als Rechtinhaber davon?}
+      \verb{urlraw}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \verb{url}
+      \verb https://de.creativecommons.net/was-ist-cc/
+      \endverb
+      \warn{\item online entry 'CreativeCommons37' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{bpb}{online}{}
+      \name{author}{1}{}{%
+        {{hash=06e385dff2ace3fe5f971c42d5409a44}{%
+           family={Kreutzer},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{06e385dff2ace3fe5f971c42d5409a44}
+      \strng{fullhash}{06e385dff2ace3fe5f971c42d5409a44}
+      \strng{bibnamehash}{06e385dff2ace3fe5f971c42d5409a44}
+      \strng{authorbibnamehash}{06e385dff2ace3fe5f971c42d5409a44}
+      \strng{authornamehash}{06e385dff2ace3fe5f971c42d5409a44}
+      \strng{authorfullhash}{06e385dff2ace3fe5f971c42d5409a44}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{bpb}
+      \verb{urlraw}
+      \verb https://www.bpb.de/lernen/digitale-bildung/oer-material-fuer-alle/220550/die-sechs-creative-commons-lizenztypen-im-ueberblick/
+      \endverb
+      \verb{url}
+      \verb https://www.bpb.de/lernen/digitale-bildung/oer-material-fuer-alle/220550/die-sechs-creative-commons-lizenztypen-im-ueberblick/
+      \endverb
+      \warn{\item online entry 'bpb' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{CreativeCommonsBilder}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Creative Commons Bilder}
+      \verb{urlraw}
+      \verb https://creativecommons.org/mission/downloads/
+      \endverb
+      \verb{url}
+      \verb https://creativecommons.org/mission/downloads/
+      \endverb
+      \warn{\item online entry 'CreativeCommonsBilder' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{CreativeComonsLizenz}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Creative Commons Lizenz}
+      \verb{urlraw}
+      \verb https://creativecommons.org/share-your-work/cclicenses/
+      \endverb
+      \verb{url}
+      \verb https://creativecommons.org/share-your-work/cclicenses/
+      \endverb
+      \warn{\item online entry 'CreativeComonsLizenz' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
+    \endentry
     \entry{rubigm1}{online}{}
       \name{author}{1}{}{%
         {{hash=ec1231996de72ba6d8de12b8e11f3caa}{%
@@ -569,8 +706,8 @@
       \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
       \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
@@ -600,8 +737,8 @@
       \strng{authornamehash}{ec1231996de72ba6d8de12b8e11f3caa}
       \strng{authorfullhash}{ec1231996de72ba6d8de12b8e11f3caa}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
@@ -630,8 +767,8 @@
       \strng{authorbibnamehash}{c72d76b437a8ff5a2250584bbd6e03a1}
       \strng{authornamehash}{c72d76b437a8ff5a2250584bbd6e03a1}
       \strng{authorfullhash}{c72d76b437a8ff5a2250584bbd6e03a1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mensch Roboter Kollaboration Einfluss der ITsecurity}
@@ -660,8 +797,8 @@
       \strng{authorbibnamehash}{4033f068d274f6ff97c7aa292e95bad3}
       \strng{authornamehash}{4033f068d274f6ff97c7aa292e95bad3}
       \strng{authorfullhash}{4033f068d274f6ff97c7aa292e95bad3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mensch Roboter Kollaboration (MRK) Gestaltungshilfe für MRK Anwendungen}
@@ -692,8 +829,8 @@
       \strng{authorbibnamehash}{e09f2211be542d676ccc73eed55cfff1}
       \strng{authornamehash}{e09f2211be542d676ccc73eed55cfff1}
       \strng{authorfullhash}{e09f2211be542d676ccc73eed55cfff1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ISA/IEC 62443 Series of Standards}
@@ -722,8 +859,8 @@
       \strng{authorbibnamehash}{f2ddae5e6071392c595de448cb56304f}
       \strng{authornamehash}{f2ddae5e6071392c595de448cb56304f}
       \strng{authorfullhash}{f2ddae5e6071392c595de448cb56304f}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{EN 61508: Funktionale Sicherheit von Steuerungssystemen}
@@ -750,8 +887,8 @@
       \strng{authorbibnamehash}{adbb58ab488f521c799c07d4e86ba634}
       \strng{authornamehash}{adbb58ab488f521c799c07d4e86ba634}
       \strng{authorfullhash}{adbb58ab488f521c799c07d4e86ba634}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{MASCHINENRICHTLINIE 2006/42/EG EINFACH ERKLÄRT}
@@ -778,8 +915,8 @@
       \strng{authorbibnamehash}{2477a7f608e55ef703217df840d0d3df}
       \strng{authornamehash}{2477a7f608e55ef703217df840d0d3df}
       \strng{authorfullhash}{2477a7f608e55ef703217df840d0d3df}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Flexsensor}
@@ -804,8 +941,8 @@
       \strng{authorbibnamehash}{10d7031ae5ab86c12555e02a37bd93e6}
       \strng{authornamehash}{10d7031ae5ab86c12555e02a37bd93e6}
       \strng{authorfullhash}{10d7031ae5ab86c12555e02a37bd93e6}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Futaba S3003 Servo.jpg}
@@ -829,8 +966,8 @@
       \strng{authorbibnamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
       \strng{authornamehash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
       \strng{authorfullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{I2C Zeitdiagramm}
@@ -854,8 +991,8 @@
       \strng{authorbibnamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
       \strng{authornamehash}{bdd547e470c18611c3bcfde2cc5a4fe7}
       \strng{authorfullhash}{bdd547e470c18611c3bcfde2cc5a4fe7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{WIFI Logo}
