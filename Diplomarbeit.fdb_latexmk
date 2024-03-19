@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber Diplomarbeit"] 1710855455 "Diplomarbeit.bcf" "Diplomarbeit.bbl" "Diplomarbeit" 1710856971 0
+["biber Diplomarbeit"] 1710855455 "Diplomarbeit.bcf" "Diplomarbeit.bbl" "Diplomarbeit" 1710859198 0
   "./Literatur.bib" 1710855414 15601 5d9964e74d5c27b8272c83e7e35f7569 ""
-  "Diplomarbeit.bcf" 1710856971 116042 5d90113d8484c9db9133c5c2b91c449c "pdflatex"
+  "Diplomarbeit.bcf" 1710859197 116042 5d90113d8484c9db9133c5c2b91c449c "pdflatex"
   (generated)
   "Diplomarbeit.bbl"
   "Diplomarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1710856959 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1710856971 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1710856946 401859 6bf53a834b4f5407eefa5fc9d7b5a496 ""
+["pdflatex"] 1710859186 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1710859198 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1710859185 401813 a0f412aad79ffad534fa668e92a19662 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -263,14 +263,14 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1710856971 100817 07aa7b76578cd40daabd8a340d8658ce "pdflatex"
+  "Diplomarbeit.aux" 1710859197 100817 f13a6da48c111b4d85196458ef0b22c8 "pdflatex"
   "Diplomarbeit.bbl" 1710855457 65678 4fd7248ff4f14f11ccfa8df24c1c817d "biber Diplomarbeit"
-  "Diplomarbeit.lof" 1710856971 18232 4c21edea53ebdba338f29d048617c7bd "pdflatex"
-  "Diplomarbeit.lot" 1710856971 2537 afff72839b3d904d93c8c7eee76f382e "pdflatex"
-  "Diplomarbeit.out" 1710856971 41123 dd175a474dc19454303810b5b419d20d "pdflatex"
-  "Diplomarbeit.run.xml" 1710856971 2487 20d2bed8d7e39b840af9ea31abef8929 "pdflatex"
-  "Diplomarbeit.tex" 1710856946 401859 6bf53a834b4f5407eefa5fc9d7b5a496 ""
-  "Diplomarbeit.toc" 1710856971 23421 6e9e57bda0fed3ed69d21f31831a29be "pdflatex"
+  "Diplomarbeit.lof" 1710859197 18232 4c21edea53ebdba338f29d048617c7bd "pdflatex"
+  "Diplomarbeit.lot" 1710859197 2537 afff72839b3d904d93c8c7eee76f382e "pdflatex"
+  "Diplomarbeit.out" 1710859197 41123 dd175a474dc19454303810b5b419d20d "pdflatex"
+  "Diplomarbeit.run.xml" 1710859197 2487 20d2bed8d7e39b840af9ea31abef8929 "pdflatex"
+  "Diplomarbeit.tex" 1710859185 401813 a0f412aad79ffad534fa668e92a19662 ""
+  "Diplomarbeit.toc" 1710859197 23421 6e9e57bda0fed3ed69d21f31831a29be "pdflatex"
   "Literatur.bib" 1710855414 15601 5d9964e74d5c27b8272c83e7e35f7569 ""
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
