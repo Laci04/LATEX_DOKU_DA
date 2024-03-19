@@ -642,11 +642,8 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{Vorwissenschaftlicher Theorieteil}
-\label{chap:Vorwissenschaftlicher Theorieteil}
-
-\subsection{Aktuatoren mit Positionsregelung}
-\subsubsection{Überblick über Aktuatoren}
+\section{VWA - Aktuatoren mit Positionsregelung [\textcolor{blue}{Al-Maytah}]}
+\subsection{Überblick über Aktuatoren}
 Ein Aktuator bezeichnet ein Gerät welche erhaltene Energie und Signale 
 in eine Bewegung oder auch Kraft umwandelt. Diese Apparaturen sind 
 weitverbreitete Komponenten in Bereichen wie der Robotik bis zu 
@@ -666,16 +663,14 @@ einer Achse in beide Richtungen, vor und zurück. \footnote{\cite{Q4}} \\
 		\label{fig:Actuator}
 	\end{center}
 \end{figure}
-\paragraph{Diverse Arten von Aktuatoren und deren Anwendungsbereiche}
-\hfill \break
-\hfill \break
+\subsubsection{Diverse Arten von Aktuatoren und deren Anwendungsbereiche}
 Aufgrund der weitverbreiteten Anwendung von Aktuatoren, erschließen sich 
 verschiedene Arten von diesen. Demnach gibt es thermische, mechanische, 
 elektrische, pneumatische und hydraulische Aktuatoren, mit verschiedenen 
 Eigenschaften für das jeweilige Anwendungsgebiet. Diese Eigenschaften, 
 können zu einem die Kraft, Reaktionszeit und auch Haltbarkeit sein, 
 sowie auch die Dreh- beziehungsweise allgemeine Geschwindigkeit. \footnote{\cite{Q1}} \\
-\subparagraph{Pneumatische Antriebe}
+\paragraph{Pneumatische Antriebe}
 \hfill \break
 \hfill \break
 Unter einem Pneumatischen Antrieb versteht sich ein Gerät welches anhand 
@@ -684,14 +679,14 @@ vielseitig, beispielsweise für die Bewegung von Komponenten in Maschinen
 und unter anderem auch zum Steuern, der Stellung eines Ventils. Die 
 Eigenschaften solch eines Antriebs sind sehr geringe Reaktionszeiten 
 sowie starke Kräfte. \footnote{\cite{Q1}} \\
-\subparagraph{Hydraulische Antriebe}
+\paragraph{Hydraulische Antriebe}
 \hfill \break
 \hfill \break
 Anhand des Drucks von Flüssigkeit wird beim hydraulischen Antrieb eine 
 Bewegung erzeugt, diese findet ihren Platz bei Schwerlastenanwendungen, 
 besonders im Konstruktions- und Fertigungsbereich. Hydraulische 
 Aktuatoren stehen für eine hohe Kraft und Haltbarkeit. \footnote{\cite{Q1}} \\
-\subparagraph{Elektrische Antriebe}
+\paragraph{Elektrische Antriebe}
 \hfill \break
 \hfill \break
 Dies Form der Antriebe nutzen elektrische Energie um aus dieser eine 
@@ -700,7 +695,7 @@ Wechselstrommotoren, welche in elektronischen Anwendungen weitverbreitet
 sind. Aufgrund ihrer äußerst genauen Steuerungsmöglichkeiten, sowie des 
 geringen Geräusches findet er seine Anwendung in der Automatisierung 
 gewisser Systeme, medizinischer Geräte und weiterer Laboranwendungen. \footnote{\cite{Q1}} \\
-\subparagraph{Thermische und magnetische Antriebe}
+\paragraph{Thermische und magnetische Antriebe}
 \hfill \break
 \hfill \break
 Diese Form von Aktuatoren nutzt die Änderung von Temperatur oder 
@@ -709,22 +704,20 @@ Antrieb macht sich somit die Ausdehnung oder Kontraktion gewisser
 Materialien, welche durch Temperaturänderungen verursacht wurde, zu 
 nutze. Diese Verfahren finden ihre Applikation in sehr kleinen Systemen, 
 wie in mikromechanischen oder miniaturisierten Anwendungen. \footnote{\cite{Q1}} \\
-\subparagraph{Mechanische Antriebe}
+\paragraph{Mechanische Antriebe}
 \hfill \break
 \hfill \break
 Eine Bewegung kann bei diesem Antrieb anhand von mechanischen Komponenten 
 wie Zahnräder, Nocken oder Hebel erzeugt werden. Deren Einsatz erfolgt 
 häufig in Anwendungen, die geringe Kosten und eine hohe Haltbarkeit auf 
 längere Zeit erfordern. \footnote{\cite{Q1}} \\
-\paragraph{Einführung in in den Servomotor}
-\hfill \break
-\hfill \break
+\subsubsection{Einführung in in den Servomotor}
 Mit einem DC-Motor als Kernkomponente ordnet sich der Servomotor den 
 elektrischen Antrieben zu. Der Begriff \textquote{Servo} bedeutet so viel wie 
 \textquote{Diener} im Lateinischen und ist auf seine Funktion als 
 Aktuator zurückzuführen, denn er ist eine Kombination eines 
 Elektromotors und einer zugehöriger Steuerungs- und Regelelektronik. \footnote{\cite{Q6}} \\
-\subparagraph{Grundlagen eines Servos}
+\paragraph{Grundlagen eines Servos}
 \hfill \break
 \hfill \break
 Aus dem Zusammenspiel eines Servomotors und eines Servoreglers 
@@ -738,7 +731,7 @@ dass der Antrieb ohne große Verzögerung eine Position beziehungsweise
 auch Drehzahl erreicht. Eine Anwendung findet dieser daher, aufgrund 
 seiner Eigenschaften, in Systemen, welche darauf abzielen dynamische 
 Bewegungen zu erzielen, wie Roboter oder Maschinen. \footnote{\cite{Q7}} \\
-\subparagraph{Aufbau und Funktionsprinzip eines Servomotors}
+\paragraph{Aufbau und Funktionsprinzip eines Servomotors}
 \label{par:Aufbau und Funktionsprinzip eines Servomotors}
 \hfill \break
 \hfill \break
@@ -781,10 +774,8 @@ Potentiometer, zur Erfassung der Position, verbunden ist. \footnote{\cite{Q8}}\t
 Das Verbundgetriebe bewirkt, dass aus der hohen Drehzahl vom 
 Gleichstrommotor eine niedrigere geschaffen wird, und es erhöht sich 
 aufgrund der Übersetzung der Zahnräder das Drehmoment. \footnote{\cite{Q8}}\textcolor{blue}{@4 min 15 Sekunden} \\
-\paragraph{Positionsregelung}
-\hfill \break
-\hfill \break
-\subparagraph{Einführung in die Positionsregelung}
+\subsubsection{Positionsregelung}
+\paragraph{Einführung in die Positionsregelung}
 \hfill \break
 \hfill \break
 Bezugnehmend auf ein System, wie der Antrieb eines Motors, regelt der 
@@ -793,21 +784,39 @@ durchgängig zu halten, solange bis auf eine neue Position geregelt
 werden soll. Die Anwendung der Positionsregelung ist oft in der Robotik 
 zu sehen, sei es eine einzelne Achse eines Roboters oder ganze für 
 Systeme. \\
-\subparagraph{Theoretische Grundlagen}
-\hfill \break
-\hfill \break
-
-\textbf{Theorie und essenzielle Begriffe} \\
 \\
-Eine Regelung basiert immer auf dem Prinzip ein gewisses Ziel zu 
-erreichen und zu halten, ähnlich wie beim Erreichen eines Ziels gibt es 
-einen Ist-Zustand und einen Soll-Zustand. Zur Veranschaulichung kann 
-folgendes Beispiel genommen werden: Ist das Ziel Ein Kilometer zu laufen, 
-dann kann dies als die Soll-Größe betrachtet werden – ist man gerade bei 
-30\% der Strecke dann sind 300 Meter die Ist-Größe. Die Regelabweichung 
-beschreibt die Differenz zwischen der Soll-Größe und der Ist-Größe und 
-wäre in diesem Fall $700m$. Die daraus resultierende Stellgröße, wäre ein 
-Maß für die Anweisung \textdegree{Laufen}. \\
+Wie bereits erwähnt regelt der Servomotor auf eine per PWM angewiesene Position, die 
+Positionsregelung erfolgt unter gängigen Eigenschaften einer Regelung. Eine 
+Regelabweichung zwischen Soll- und Ist Wert wird berechnet, darauf folgt vom Regler 
+eine entsprechende Stellgröße. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Servo_Case}}
+		\caption{Servomotor von Innen (\textcolor{blue}{Quelle: \cite{Q13}})}
+		\label{fig:Servo_Case}
+	\end{center}
+\end{figure}
+\hfill \break
+Der Regelkreis eines Servomotors sieht wie folgt aus, ein Mikrocontroller sendet per 
+PWM eine Position an den Servo-Controller. Die gesendete Position entspricht nun der 
+Sollgröße, das über das Getriebe verbundene Potentiometer liefert eine Rückmeldung 
+der aktuellen Position, die Ist-Größe, an den Controller. Aus der Regelabweichung 
+berechnet der Controller eine Stellgröße, ein Antriebsstrom welcher zum Gleichstrommotor 
+fließt und diesen Antreibt, bis über das Feedback des Potentiometers festgestellt 
+wird, dass die Zielposition erreicht wurde. \\
+\paragraph{Theoretische Grundlagen}
+\hfill \break
+\hfill \break
+\textbf{essenzielle Begriffe} \\
+\\
+Ist-Größe: Beschreibt in diesem Zusammenhang den aktuellen Drehwinkel PHI des Motors, 
+wird über das Potentiometer ermittelt. \\
+Soll-Größe: Diese ist der Zielwinkel, bis zu dieser Position soll der Gleichstrommotor 
+sich drehen und wird per PWM übergeben. \\
+Regelabweichung: Die Differenz zwischen der Soll- und Ist-Größe \\
+Stellgröße: Die Größe welche bewirken soll, dass sich die Abweichung stetig 
+verringert. \\
 \\
 \textbf{Erläuterung integrierter Regler} \\
 \\
@@ -874,12 +883,12 @@ auf eine Änderung der Regelabweichung zu rechnen ist. \\
 	\end{center}
 \end{figure}
 \hfill \break
-\subparagraph{Funktionsprinzip des Regelkreises}
+\paragraph{Funktionsprinzip des Regelkreises}
 \hfill \break
 \hfill \break
-Der Regelkreis einer Positionsregelung setzt sich aus mehreren 
-Verschiedenen Komponenten zusammen, mitunter der PID-Regler als 
-Kernglied, sowie auch weitere P und I Regler. \\
+Der Regelkreis einer Positionsregelung setzt sich aus mehreren Verschiedenen 
+Komponenten zusammen, mitunter der PID-Regler als Kernglied, der Motorblock und 
+auch weitere P und I Regler. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -889,11 +898,11 @@ Kernglied, sowie auch weitere P und I Regler. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Grundsätzlich beginnt der Kreislauf der Regelung mit einer Sollgröße, in 
-diesem Fall ein Soll-Winkel von 100\textdegree. Vorhanden in der Simulation der 
-Positionsregelung ist auch ein optionaler Sollsprung. Als wird der 
-Sollwinkel von Grad in Radiant umgerechnet, folglich wird eine Differenz 
-zwischen dem Soll- und dem aktuellen Drehwinkel gebildet. \\
+Grundsätzlich beginnt der Kreislauf der Regelung mit einer Sollgröße, in diesem Fall 
+ein Soll-Winkel von 100\textdegree. Vorhanden in der Simulation der Positionsregelung ist auch 
+ein optionaler Sollsprung. Zu Beginn wird der Sollwinkel von Grad in Radiant 
+umgerechnet, danach wird eine Differenz zwischen dem Soll- und dem aktuellen 
+Drehwinkel (Ist-Größe) gebildet. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1}
@@ -903,9 +912,9 @@ zwischen dem Soll- und dem aktuellen Drehwinkel gebildet. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Die berechnete Differenz, welche die Regelabweichung darstellt, wird 
-darauf an den PID-Regler übergeben, welche eine entsprechende Stellgröße 
-an den Motor gibt. \\
+Die berechnete Differenz, welche die Regelabweichung darstellt, wird darauf an den 
+PID-Regler übergeben, welche eine entsprechende Stellgröße in Form einer Spannung an 
+den Motor gibt. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1}
@@ -915,20 +924,23 @@ an den Motor gibt. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Beschreiben lässt sich der Motor anhand folgenden Blocks, welcher sich 
-aus einem PT1-Glied und mechanischer Widerstände beziehungsweise 
-Belastungen zusammensetzt. Als Verzögerungsglied erster Ordnung 
-simuliert und beschreibt dieses das Anlaufverhalten des Motors. \footnote{\cite{Q12}} 
-Zusätzlich werden das Lastmoment, die Reibung und die Trägheit in das 
-System miteinkalkuliert. Wie in \textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}} 
-bereits beschrieben, wird die Drehzahl mit einem 
-Getriebe übersetzt, im Falle dieses Beispiels beträgt das 
-Übersetzungsverhältnis des Getriebes 0,1. \\
+Beschreiben lässt sich der Motor anhand folgendem Block, welcher sich aus einem 
+PT1-Glied und sämtlicher Störmomente zusammensetzt. Als Verzögerungsglied erster 
+Ordnung und beschreibt dieses das Anlaufverhalten des Motors. (Q12) Zusätzlich werden 
+das Lastmoment, die Reibung und die Trägheit in das System miteinkalkuliert. \\
+Aus der mathematischen Modellierung des Gleichstrommotors, wie im Blockschaltbild 
+dargestellt, ergibt sich eine Winkelgeschwindigkeit, die Drehzahl des Motors \textquote{OMEGA}.
+Wie in \textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}} 
+bereits beschrieben, wird die Drehzahl mit einem Getriebe übersetzt, im Falle dieses 
+Beispiels beträgt das Übersetzungsverhältnis des Getriebes 0,1. \\
+Mit einem I-Glied muss diese in den Drehwinkel Phi, welcher der Motorposition 
+entspricht umgerechnet werden. \\
 \\
-Finalerweise wird der Drehwinkel nochmals von Radiant in Grad 
-rückgerechnet und der Drehwinkel ergibt sich, dieser wird anschließend 
-als Feedback im Regelkreis rückgeführt und bietet eine Grundlage zur 
-Berechnung der neuen Regelabweichung. \\
+$\int_{0}^{t} \omega(t)dt = \phi$ \\
+\\
+Finalerweise wird der Drehwinkel nochmals von Radiant in Grad rückgerechnet und der 
+Drehwinkel ergibt sich, dieser wird anschließend als Feedback im Regelkreis 
+rückgeführt und bietet eine Grundlage zur Berechnung der neuen Regelabweichung. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -938,26 +950,24 @@ Berechnung der neuen Regelabweichung. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Zu sehen sind in dieser Abbildung, drei Größen: In grün der Soll-Winkel, 
-in blau der tatsächliche Drehwinkel (die Ist-Größe) und die Drehzahl ist 
-orange gekennzeichnet. \\
-Erkennen lässt sich, dass zum Zeitpunkt t=0 das System die Anweisung 
-bekommt auf einen Winkel von 100\textdegree zu regeln. Nach 0,4 Sekunden wurde 
-diese Position erreicht, jedoch zugleich überschritten, der Motor hat 
-sich auf \~105\textdegree gedreht. Während diesem Vorgang ist die Drehzahl auf ein 
-maximum von 10 Umdrehungen angestiegen, nach dem erreichen des Zielwerts 
-sinkt die Drehzahl und somit auch der Drehwinkel bis dieser 100\textdegree 
-erreicht. \\
+Zu sehen sind in dieser Abbildung, drei Größen: In grün der Soll-Winkel, in blau der 
+tatsächliche Drehwinkel PHI (die Ist-Größe) und die Drehzahl (Winkelgeschwindigkeit 
+OMEGA) ist orange gekennzeichnet. \\
+Erkennen lässt sich, dass zum Zeitpunkt t=0 das System die Anweisung bekommt auf 
+einen Winkel von 100\textdegree zu regeln. Nach 0,4 Sekunden wurde diese Position erreicht, 
+jedoch zugleich überschritten, der Motor hat sich auf \~105\textdegree gedreht. Während diesem 
+Vorgang ist die Drehzahl auf ein maximum von 10 Umdrehungen angestiegen, nach dem 
+Erreichen des Zielwerts sinkt die Drehzahl und somit auch der Drehwinkel PHI bis 
+dieser 100\textdegree erreicht. \\
+\\
 
 \newpage
 %=============================================================================
 %=============================================================================
 
-\subsection{Freie Lizenzen}
-\subsubsection{Urheberrecht}
-\paragraph{Definition und Bedeutung}
-\hfill \break
-\hfill \break
+\section{VWA - Freie Lizenzen [\textcolor{blue}{Schweitzer}]}
+\subsection{Urheberrecht}
+\subsubsection{Definition und Bedeutung}
 Autoren, Programmierer oder aber auch beispielsweise Maler sind Urheber ihres selbst geschaffenen Werkes. 
 Dabei beschreibt das Urheberrecht die Rechte, die eine Person an diesen hat. Wichtig ist auch, dass es nicht 
 immer nur einen Urheber geben muss, sondern auch Teil- oder Miturheber existieren können, falls ein Werk 
@@ -1033,7 +1043,7 @@ freien Werknutzung verwendet werden. Genau zwischen diesen beiden Arten muss unt
 \end{itemize}
 \hfill \break
 
-\paragraph{Auswirkung auf Software und Kreativwerke}
+\subsubsection{Auswirkung auf Software und Kreativwerke}
 \hfill \break
 \hfill \break
 Auch Softwares, beziehungsweise allgemein Kreativwerke, sind vom Urheberrecht geschützt. Dies ist der Fall, 
@@ -1058,10 +1068,8 @@ Urheberrechtlich sind folgende Teile geschützt: \\
 \end{itemize}
 \hfill \break
 
-\subsubsection{Open Source}
-\paragraph{Definition und Bedeutung}
-\hfill \break
-\hfill \break
+\subsection{Open Source}
+\subsubsection{Definition und Bedeutung}
 Open Source (offene Quelle) bezieht sich auf Software, von welcher der Quellcode eingesehen werden darf. 
 Ebenso ist die Änderung und Nutzung erlaubt, zumeist sogar kostenfrei, allerdings muss stets auf die 
 Lizenzbedingungen geachtet werden. Durch die Open Source Initiative (OSI) wird definiert, dass Lizenzverträge 
@@ -1092,11 +1100,10 @@ allerdings darf dieser, falls der Entwickler es so möchte, erst nach dem Kauf e
 zurückgreifen. \footnote{\cite{Giga}} \\
 \\
 
-\paragraph{Geschichte}
+\subsubsection{Geschichte}
+\paragraph{Motivation, Entstehung und Meilensteine}
 \hfill \break
 \hfill \break
-\textbf{Motivation, Entstehung und Meilensteine} \\
-\\
 Die Motivation hinter Open Source ist ganz klar das Ziel, bessere Software durch ein großes Netz an Nutzern 
 weltweit zu gewährleisten. Unter diesen befinden sich etliche Entwickler, die sich mit der Optimierung und 
 Verbesserung der Software beschäftigen. Somit kann die Innovation gesteigert werden, auch, wenn kein 
@@ -1116,8 +1123,9 @@ finanzieller Nutzen daraus resultiert. \footnote{\cite{WikipediaOpenSource}} \\
 	etliche Projekte angesehen. \footnote{\cite{WikipediaOpenSource16}}
 \end{itemize}
 \hfill \break
-\textbf{Momentaner Zustand und Erwartungen für zukünftige Trends} \\
-\\
+\paragraph{Momentaner Zustand und Erwartungen für zukünftige Trends}
+\hfill \break
+\hfill \break
 Laut Befragung nutzen bereits jetzt mehr als 75\% der Unternehmen Open Source Software, bei Behörden sind es 
 immerhin stolze 59\%. Rund 50\% der Unternehmen sind bestrebt die Entwicklung von Open Source zu unterstützen 
 und 32\% der Befragten haben im Unternehmen schon eine Open Source Policy verankert. \footnote{\cite{PWC}} \\
@@ -1132,17 +1140,17 @@ Schlussfolgernd ist es auch für Unternehmen vorteilhaft, wenn sie Open Source P
 dürfen. Gerade im Bereich der Künstlichen Intelligenz wird ein Fokus auf die Entwicklung als Open Source 
 Software gesetzt werden. Nebenbei ist das Thema Sicherheit nie zu vergessen, deshalb wird wohl in Zukunft 
 auch auf diesen Bereich, da es immer häufiger zu Cyberattacken kommt, mehr Wert gelegt werden. \footnote{\cite{bitkom}} \\
-\paragraph{Lizenzen}
+\subsubsection{Lizenzen}
+\paragraph{Definition und Bedeutung}
 \hfill \break
 \hfill \break
-\textbf{Definition und Bedeutung} \\
-\\
 Für das Nutzen jeder Software ist eine Lizenz notwendig. Damit geht der Entwickler mit dem Nutzer
 eine Vereinbarung ein, welche angibt, in welchem Ausmaß die Software mit welchen Voraussetzungen verwendet 
 werden darf. Bei dem Installieren von Programmen muss man meistens bereits den Nutzungsbedingungen zustimmen. \footnote{\cite{Simpleclub23}} \\
 \\
-\textbf{Freie Softwarelizenzen} \\
-\\
+\paragraph{Freie Softwarelizenzen}
+\hfill \break
+\hfill \break
 Als freie Softwarelizenzen können jene verstanden werden, die bei der Nutzung große Freiheiten bezüglich des 
 Veränderns, Nutzens und Verbreitens von Software bieten. Dabei ist es allerdings möglich bestimmte Regeln im 
 Lizenztext festzuhalten. Dort ist geregelt, ob die Software beispielsweise kommerziell weiterverkauft werden 
@@ -1151,8 +1159,9 @@ Domain. Beide bieten größtenteils deren Software an, ohne dafür etwas bezahle
 allerdings, dass bei einer Public Domain Software der ursprüngliche Urheber entweder auf sein Urheberrecht 
 verzichtet hat oder dieses bereits abgelaufen ist. \footnote{\cite{Simpleclub24}} \\
 \\
-\textbf{Kommerzielle Softwarelizenzen} \\
-\\
+\paragraph{Kommerzielle Softwarelizenzen}
+\hfill \break
+\hfill \break
 Als kommerzielle Softwarelizenzen werden jene bezeichnet, für die man Geld ausgeben muss, um die Software 
 verwenden zu dürfen. Die Veränderung oder Weiterverbreitung ist allerdings nicht erlaubt, man nennt sie auch 
 proprietäre Lizenzen. Es gibt wieder einige unterschiedliche Arten von kommerziellen Softwarelizenzen: \\
@@ -1165,8 +1174,9 @@ proprietäre Lizenzen. Es gibt wieder einige unterschiedliche Arten von kommerzi
 	gebunden ist. Oftmals ist diese Lizenz dann nur über einen Nutzeraccount aktivierbar. \footnote{\cite{Simpleclub25}}
 \end{itemize}
 \hfill \break
-\textbf{Copyleft Erklärung} \\
-\\
+\paragraph{Copyleft Erklärung}
+\hfill \break
+\hfill \break
 Durch den Einsatz von Copyleft stellt der Schöpfer einer Software oder anderer Werke sicher, dass frei 
 zugängliche Werke auch in der Form bestehen bleiben, auch, wenn andere diese nutzen, bearbeiten oder 
 weiterverbreiten. Jeder, der etwas an der Software ändert, muss diese dann mit denselben Bedingungen, mit 
@@ -1189,8 +1199,9 @@ Rahmenbedingungen der Copyleft Lizenzen verantwortlich ist, haben sie unterschie
 	weiterverbreitet werden dürfen, jedoch muss der Autor immer genannt werden. \footnote{\cite{GNU}}
 \end{itemize}
 \hfill \break
-\textbf{GNU GPL (General Public License)} \\
-\\
+\paragraph{GNU GPL (General Public License)}
+\hfill \break
+\hfill \break
 Die GNU General Public License fällt unter die Copyleft Lizenzen und wurde von GNU beziehungsweise der Free 
 Software Foundation entwickelt. Dabei gelten vier Bedingungen, nämlich, dass das Programm für jeden Zweck 
 ausgeführt werden darf, der Quellcode durchgelesen und angepasst werden darf, sowie die Erlaubnis Kopien, 
@@ -1233,8 +1244,9 @@ reagieren kann. Die wichtigsten Neuerungen: \\
 	\item Die Kompatibilität mit anderen Lizenzen wurde erleichtert, zum Beispiel mit der Apache V2.0 Lizenz. \footnote{\cite{WikipediaGPL4}}
 \end{itemize}
 \hfill \break
-\textbf{Apache} \\
-\\
+\paragraph{Apache}
+\hfill \break
+\hfill \break
 Die Apache Lizenz wurde 1999 von der Apache Software Foundation (ASF) veröffentlicht. \footnote{\cite{Apache}} 2004 kam dann die 
 zweite Version heraus. Sie stellt eine freie Softwarelizenz dar. Es ist also möglich diese zu nutzen, zu 
 verändern und schlussendlich auch zu verbreiten. Einige Softwareanwendungen basieren auf der Apache Lizenz, 
@@ -1253,10 +1265,8 @@ Werke mit Apache V2.0 Lizenz müssen: \\
 \end{itemize}
 \hfill \break
 
-\subsubsection{Creative Commons}
-\paragraph{Definition und Bedeutung}
-\hfill \break
-\hfill \break
+\subsection{Creative Commons}
+\subsubsection{Definition und Bedeutung}
 Creative Commons (CC) will Urhebern durch vorgefertigte Lizenzverträge helfen, dass diese ihre Werke mit 
 bestimmten Bedingungen veröffentlichen können. Dabei ist es wichtig zu wissen, dass Creative Commons eine 
 Not-Profit-Organisation ist. Die vorgefertigten CC-Lizenzen können bei dem eigens geschaffenen Werk angewandt 
@@ -1278,9 +1288,7 @@ Creative Commons Lizenzen werden häufig aufgrund bestimmter Interessen verwende
 \end{itemize}
 \hfill \break
 
-\paragraph{Überblick der Lizenzen}
-\hfill \break
-\hfill \break
+\subsubsection{Überblick der Lizenzen}
 Mittlerweile gibt es die Creative Commons Lizenzen in der Version 4. \\
 \\
 In der ersten Version wurden die grundlegenden Bedingungen festgehalten.  In der zweiten Version wurde es dann möglich gemacht, dass auf die 
@@ -1376,11 +1384,9 @@ verzichtet ebenso auf sämtliche Schutzrechte. Mit dem Werk, das mit CC0 lizenzi
 %=============================================================================
 %=============================================================================
 
-\subsection{Sicherheitsaspekte der Mensch-Roboter-Kollaboration}
-\subsubsection{Einleitung}
-\paragraph{Hintergrund und Motivation}
-\hfill \break
-\hfill \break
+\section{VWA - Sicherheitsaspekte der Mensch-Roboter-Kollaboration [\textcolor{blue}{Szabo}]}
+\subsection{Einleitung}
+\subsubsection{Hintergrund und Motivation}
 Der Hintergrund dieser vorwissenschaftlichen Arbeit besteht darin, mögliche 
 Sicherheitsanforderung, die für unser Diplomprojekt relevant sind, kennenzulernen 
 und gegebenenfalls umzusetzen. Aufgrund von unvorhersehbaren Ereignissen in 
@@ -1392,9 +1398,7 @@ Da die bionische Hand, gebaut von dem in der Dokumentation beschriebenen
 Entwicklerteam, erhebliche Kraft hat und dadurch Verletzungen an Körperteilen 
 entstehen könnten, ist der Sicherheitsaspekt ein grundlegender Projektteil, um 
 den Entwicklungsprozess zu vollenden. \\
-\paragraph{Ziel der Arbeit}
-\hfill \break
-\hfill \break
+\subsubsection{Ziel der Arbeit}
 Das Ziel dieser Ausarbeitung ist es, Wissen über diverse Sicherheitsstandards und 
 Normen zu sammeln und diese in Zukunft in Bezug auf das Diplomprojekt umzusetzen. \\
 \\ 
@@ -1407,10 +1411,8 @@ Sicherheitsaspekte näher erläutert und die damit verbundenen Standards und Nor
 beschrieben. Gegen Ende werden noch Technologien und Praktiken genannt, die 
 derzeit in der Industrie angewendet werden, um Vorfälle jeglicher Art zu vermeiden. \\
 
-\subsubsection{Grundlagen der Mensch-Roboter-Kollaboration}
-\paragraph{Definition}
-\hfill \break
-\hfill \break
+\subsection{Grundlagen der Mensch-Roboter-Kollaboration}
+\subsubsection{Definition}
 Die Grundidee der Mensch-Roboter-Kollaboration ist die Zusammenarbeit zwischen 
 Menschen und industriell verwendeten Robotern. Dadurch sollen die Stärken beider 
 Parteien vereint und die Schwächen minimiert werden. Heute wird jede Art der 
@@ -1423,11 +1425,10 @@ aufgeteilt werden. \footnote{\cite{rubigm.p10}} \\
 Um die Arten der Arbeitsteilung zu unterteilen, existieren vier verschiedene 
 Bereiche, die das Frauenhofer-Institut für Arbeitsorganisation definiert hat. Im 
 folgenden Punkt werden diese Bereiche genannt und näher beschrieben. \footnote{\cite{rubigm.p11}}\\
-\paragraph{Arten der Zusammenarbeit}
+\subsubsection{Arten der Zusammenarbeit}
+\paragraph{Koexistenz}
 \hfill \break
 \hfill \break
-\textbf{Koexistenz} \\
-\\
 Bei der Koexistenz ist ein Kontakt zwischen Mensch und Maschine nicht vorgesehen. 
 Beide Parteien arbeiten allerdings im selben Raum und sind physisch nicht 
 voneinander isoliert. Dies könnte bei Fehlfunktionen des Roboters zu unerwünschten 
@@ -1442,8 +1443,9 @@ Schutzmaßnahmen vorhanden sein müssen. \footnote{\cite{rubigm.p11}} \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{Synchonisation} \\
-\\
+\paragraph{Synchonisation}
+\hfill \break
+\hfill \break
 Wie das Wort synchron impliziert, ist bei dieser Art der Zusammenarbeit eine 
 zeitliche Abhängigkeit der Arbeitsschritte vorhanden. Mensch und Roboter arbeiten 
 immer noch getrennt voneinander, jedoch wird nun ein Arbeitstakt vorgegeben. Dies 
@@ -1458,8 +1460,9 @@ Kontakte zwischen Mensch und Roboter vermieden werden sollen. \footnote{\cite{ru
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{Kooperation} \\
-\\
+\paragraph{Kooperation}
+\hfill \break
+\hfill \break
 Bei der Kooperation arbeiten beide Parteien gemeinsam in einem definierten 
 Arbeitsraum. Ein Kontakt von Mensch und Maschine ist hier ebenfalls nicht 
 vorgesehen, jedoch kann an mehreren Werkstücken gleichzeitig gearbeitet werden. 
@@ -1474,8 +1477,9 @@ Synchronisation und Koexistenz. \footnote{\cite{rubigm.p11}}\\
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{Kollaboration} \\
-\\
+\paragraph{Kollaboration}
+\hfill \break
+\hfill \break
 Die Kollaboration ist die fortgeschrittenste Arbeitsweise, bei der Mensch und 
 Roboter gleichzeitig im selben Arbeitsraum und möglicherweise am selben Werkstück 
 arbeiten. Ein kontrollierter Kontakt kann bei der Kollaboration durchaus Teil des 
@@ -1489,10 +1493,8 @@ Arbeitsablaufs sein. \footnote{\cite{rubigm.p11}}\\
 	\end{center}
 \end{figure}
 
-\subsubsection{Sicherheitsaspekte}
-\paragraph{Gefahren und Risiken}
-\hfill \break
-\hfill \break
+\subsection{Sicherheitsaspekte}
+\subsubsection{Gefahren und Risiken}
 Wie bei Computern und anderen Geräten mir elektronischen Bauteilen und Mikrochips, 
 bieten Roboter eine vielfältige Angriffsfläche für Hacker. Die folgende Liste des 
 TÜV Austria (2016), zeigt die zehn häufigsten Bedrohungen, die von IT-Angreifern 
@@ -1522,8 +1524,9 @@ In den folgenden Punkten werden Gefahren und Risiken erläutert, die nicht nur
 durch etwaige Hacker-Angriffe oder anderweitige illegale Tätigkeiten entstehen 
 könnten. \\
 \\
-\textbf{Kollisionen} \\
-\\
+\paragraph{Kollisionen}
+\hfill \break
+\hfill \break
 Unerwartete Störungen und Fehlfunktionen können jederzeit auftreten. Dies gilt für 
 den Betrieb, als auch für den Zeitraum, indem die Maschine von der elektrischen 
 Versorgung getrennt ist. Die möglichen Gefahren beim Stillstand des Roboters 
@@ -1600,8 +1603,9 @@ auszuweichen oder Körperteile zurückzuziehen. \\
 Die Grenzwerte bei der transienten Kollision werden in der Norm ISO/TS 15066 auf 
 ungefähr das doppelte Maß als bei der quasi-statischen Kollision geschätzt. \footnote{\cite{Frauenhofer17}} \\
 \\
-\textbf{Unvorhersehbare Bewegungen} \\
-\\
+\paragraph{Unvorhersehbare Bewegungen}
+\hfill \break
+\hfill \break
 Es existieren viele verschiedene Antriebsarten für Roboter: \\
 \begin{itemize}
 	\item Servomotoren
@@ -1630,9 +1634,7 @@ beschrieben. \\
 \\
 Falls bei unvorhersehbaren Bewegungen Kollisionen entstehen, sind die gleichen 
 Vorschriften wie in Punkt (Kollisionen) zu erfüllen. \\
-\paragraph{Sicherheitsstandards und Normen}
-\hfill \break
-\hfill \break
+\subsubsection{Sicherheitsstandards und Normen}
 Normen und Sicherheitsstandards sind Anforderungen, die von jeglichen Institutionen 
 in Bezug auf Produkte, Dienstleistungen und Verfahren umgesetzt werden müssen. 
 Diese Richtlinien tragen maßgeblich zur bedenk losen Verwendung von 
@@ -1656,8 +1658,9 @@ qualifizieren. \footnote{\cite{FHvorarlberg}} \\
 Folgende Normen und Sicherheitsstandards sind bei der MRK 
 (Mensch-Roboter-Kollaboration) zu beachten: \\
 \\
-\textbf{ISA / IEC 62443} \\
-\\
+\paragraph{ISA / IEC 62443}
+\hfill \break
+\hfill \break
 Diese internationale Norm beschreibt die Sicherheitsanforderung in Bezug auf 
 Cybersecurity. Es werden die besten Praktiken beschrieben, um Sicherheitsrelevante 
 Systeme gegen externe Angriffe zu schützen und dies mit der Prozesssicherheit bei 
@@ -1668,9 +1671,7 @@ Unterpunkte der Sicherheit bei der Programmierung, Internetverbindung und
 generelle Vorschläge wie externe Eingriffe in das lokale Steuerungsnetzwerk 
 verhindert werden können. \footnote{\cite{ISA}} \\ 
 \\
-\paragraph{EU Vorschriften}
-\hfill \break
-\hfill \break
+\subsubsection{EU Vorschriften}
 Zu den Aufgaben der europäischen Union gehört es, Richtlinien und Gesetze zu 
 erlassen, die Arbeitende schützen. Dies gilt für jegliche Art eines Betriebs, 
 wozu auch die Mensch-Roboter-Kollaboration gehört. \\
@@ -1680,8 +1681,9 @@ da entschieden wurde das CE-Kennzeichen an jedem verkauften Produkt anbringen zu
 müssen. Diese Kennzeichnung dient der Sicherheit der Benutzer und muss von jedem 
 Hersteller, der im europäischen Raum verkauft, eingehalten werden. \\
 \\
-\textbf{EN61508} \\
-\\
+\paragraph{EN61508}
+\hfill \break
+\hfill \break
 Die europäische Norm EN61508 befasst sich mit der funktionalen Sicherheit 
 elektrischer und programmierbarer Systeme. Diese Sicherheitsgrundnorm ist 
 unabhängig von der Anwendung, also nicht spezifisch für Robotersysteme, und ist 
@@ -1697,8 +1699,9 @@ Dies sind die Standards für funktionale Sicherheit, in denen die Sicherheitsstu
 der einzelnen Steuerungssysteme beschrieben werden. Es sind Geräte, Sensoren und 
 komplette Steuerungen in Safety Integrity Levels von 1 bis 4 eingestuft. \footnote{\cite{Pilz}}\\
 \\
-\textbf{Maschinenrichtlinie 2006/47/EG} \\
-\\
+\paragraph{Maschinenrichtlinie 2006/47/EG}
+\hfill \break
+\hfill \break
 In dieser Maschinenrichtlinie wird die einheitliche Inverkehrbringung 
 Sicherheitsrelevanter Maschinen und Systeme geregelt. Das Ziel ist es in Europa 
 den gleichen grundlegenden Sicherheitsstandard zu erreichen. Anforderungen dieser 
@@ -1712,9 +1715,7 @@ Norm sind zum Beispiel: \\
 Diese Maschinenrichtlinie ist ein Teil des Verfahrens, um das CE-Kennzeichen zu 
 bekommen. \footnote{\cite{TÜVsüd}}\\
 \\
-\paragraph{Nationale Vorschriften (Österreich)}
-\hfill \break
-\hfill \break
+\subsubsection{Nationale Vorschriften (Österreich)}
 Als Mitgliedsstaat der europäischen Union, muss Österreich alle in Brüssel 
 erlassenen Normen und Standards umsetzen. Nationale Abweichungen dieser Richtlinien 
 können, nach Absprache mit der EU vorgenommen werden. In Bezug auf die maschinelle 
@@ -1723,11 +1724,8 @@ solche Abänderungen nicht. \\
 Europäische Richtlinien müssen als nationales Gesetz angesehen werden und dürfen 
 nicht umgangen werden! \footnote{Fachlehrer Baumgartner} \\
 \\
-
-\subsubsection{Lösungen zur Verbesserung der Sicherheit bei der MRK}
-\paragraph{Sensortechnologien}
-\hfill \break
-\hfill \break
+\subsection{Lösungen zur Verbesserung der Sicherheit bei der MRK}
+\subsubsection{Sensortechnologien}
 Abstandssensoren sind für die sichere Verwendung von Robotern essenziell. Ohne 
 diese Sicherheitsmaßnahmen zur Vermeidung von Kollisionen, wäre die 
 Mensch-Roboter-Kollaboration nicht zu realisieren. \\
@@ -1748,8 +1746,9 @@ Folgende Tabelle zeigt einen Überblick der genannten Technologien: \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{Ultraschallsensoren} \\
-\\
+\paragraph{Ultraschallsensoren}
+\hfill \break
+\hfill \break
 Diese Art der Sensoren funktionieren mithilfe der Schallausbreitung im Raum. Ein 
 Ultraschallsignal (etwa $40kHz$) wird ausgesendet und die Reflexionen wieder 
 empfangen. Da die Schallgeschwindigkeit mit $1236 km/h$ konstant ist, kann durch
@@ -1784,9 +1783,7 @@ zweideutige Situation eines Roboters aufgrund von Informationsmangel. Die nächs
 sichere Bewegung ist nicht eindeutig, daher wird ein Mensch benötigt, um den 
 Betrieb wieder zu starten. \footnote{\cite{Generationrobots}} \\
 \\
-\paragraph{Softwarebasierte Sicherheitsmaßnahmen}
-\hfill \break
-\hfill \break
+\subsubsection{Softwarebasierte Sicherheitsmaßnahmen}
 Bei der Programmierung von Sicherheitsrelevanten MRK-Systemen muss auf einige 
 Aspekte Acht gegeben werden. Dies beinhaltet vor allem die biomechanischen Limits, 
 die im Punkt Kollisionen erläutert werden. Die Schwierigkeit besteht darin, die 
@@ -1807,12 +1804,10 @@ Roboters bescheid wissen, desto geringer ist die Gefahr einer potenziellen
 Kollision. Somit sollte die Sicherheitseinrichtungen in der Software nur im 
 äußersten Notfall aktiviert werden. \footnote{\cite{Frauenhofer21}} \\
 \\
-
-\paragraph{Physische Sicherheitsmaßnahmen}
+\subsubsection{Physische Sicherheitsmaßnahmen}
+\paragraph{Roboterbezogen}
 \hfill \break
 \hfill \break
-\textbf{Roboterbezogen} \\
-\\
 Bei der Konstruktion eines Roboters muss unbedingt auf die Abschirmung 
 potenzieller Gefahrenquellen in Bezug auf die Mechanik geachtet werden. Dies gilt 
 für Elemente die Objekte Greifen, Gelenke, mit denen sich der Roboter bewegt und 
@@ -1828,8 +1823,9 @@ des Roboters verbaut sein. \\
 Je weniger Möglichkeiten der Mensch hat mit dem Roboter in Berührung zu kommen, 
 desto besser. Dies gilt auch wenn alle Sicherheitsmaßnahmen eingehalten werden. \footnote{\cite{Frauenhofer22}} \\
 \\
-\textbf{Umgebungsbezogen} \\
-\\
+\paragraph{Umgebungsbezogen}
+\hfill \break
+\hfill \break
 Der Bereich, indem ein kollaborativer Roboter tätig ist, muss unbedingt 
 gekennzeichnet sein. Dies sollte nicht nur mit einem Hinweisschild geschehen, 
 sondern auch mit, am Boden angebrachten, Markierungen. Eine Grafik der aktuellen 
@@ -1847,7 +1843,7 @@ den Menschen zu garantieren. Dies ist vor allem in Hinblick auf die
 sicherheitsrelevanten Einrichtungen wie Notschalter und Bewegungsregler des 
 Roboters relevant. \footnote{\cite{Frauenhofer23}} \\
 \\
-\subsubsection{Fazit}
+\subsection{Fazit}
 MRK (Mensch-Roboter-Kollaborationen) sind in Zukunft essenziell, um die effiziente 
 und effektive Herstellung von Produkten zu gewährleisten. Durch maschinelle 
 Helfer werden Arbeitsprozesse beschleunigt, Menschen entlastet und unterstützt. \\
@@ -1876,7 +1872,7 @@ steht der erfolgreichen MRK nichts mehr im Weg. \\
 \section{Theoretische Grundlagen des Diplomprojekts}
 \label{chap:Theoretische Grundlagen des Diplomprojekts}
 
-\subsection{Flexsensor}
+\subsection{Flexsensor [\textcolor{blue}{Schweitzer}]}
 \label{chap:Flexsensor}
 \begin{figure}[H]
 	\begin{center}
@@ -1896,7 +1892,7 @@ nötig ist. Diese Flexsensoren können beispielsweise auf einem Handschuh angen�
 werden, um zu messen, wie sehr ein Finger abgebogen wurde. \\
 \\
 
-\subsection{Servomotor}
+\subsection{Servomotor [\textcolor{blue}{Schweitzer}]}
 \label{chap:Servomotor}
 \begin{figure}[H]
 	\begin{center}
@@ -1917,7 +1913,7 @@ von einzelnen 3D-gedruckten Fingern ist ein Servo die optimale Wahl, da dieser
 die an ihm befestigten Schnüre spannen oder entlasten kann. \\
 \\
 
-\subsection{ESP-NOW \textcolor{red}{Fabian}}
+\subsection{ESP-NOW [\textcolor{blue}{Schweitzer}]}
 \label{chap:ESP-NOW}
 Das ESP-NOW Protokoll macht es möglich, dass man Daten problemlos per 
 Funkstrecke versenden kann. Dabei kann dieses auf dem ESP32 und ESP8266 
@@ -2116,7 +2112,7 @@ drei können jedoch das 2,4GHz-Band zum Datenaustausch verwenden.  \\
 	\end{center}
 \end{figure}
 
-\subsection{OPV Technologien \textcolor{red}{Laci}}
+\subsection{OPV Technologien [\textcolor{blue}{Szabo}]}
 \label{chap:OPV Technologien}
 Ein Operationsverstärker, kurz OPV, ist ein analoger Gleichspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
 Verstärkung auszeichnet. Der elektroische Grundbaustein ist ein Differenzverstärker, der durch äußere Beschaltungen angepasst werden kann.
@@ -2152,7 +2148,7 @@ in Orange, dargestellt. \\
 	\end{center}
 \end{figure}
 
-\subsection{Analog-Digital-Wandler}
+\subsection{Analog-Digital-Wandler [\textcolor{blue}{Schweitzer}]}
 \label{chap:Analog-Digital-Wandler}
 \begin{figure}[H]
 	\begin{center}
@@ -2186,7 +2182,7 @@ Der Codierer wandelt dann das quantisierte Signal in ein binäres um. Am Ende is
 dann ein digitales Signal in Binärform vorhanden. \\
 \\
 
-\subsection{Multiplexer}
+\subsection{Multiplexer [\textcolor{blue}{Schweitzer}]}
 \label{chap:Multiplexer}
 Untenstehend kann man noch anhand einer einfachen Logikschaltung eines 2-zu-1 
 Multiplexers die Funktionsweise eines Multiplexers. Grundsätzlich wird über elektrische 
@@ -2203,7 +2199,7 @@ funktioniert dies durch Halbleiterelemente. Das Steuersignal schaltet noch zusä
 \end{figure}
 \hfill \break
 
-\subsection{PWM-Signale}
+\subsection{PWM-Signale [\textcolor{blue}{Schweitzer}]}
 \label{chap:PWM-Signale}
 Ein PWM-Signal ist ein Rechtecksignal mit konstanter Frequenz. Die Pulsweite ist allerdings variabel. Mit der Pulsweite wird angegeben, wie lange ein Signal auf 
 "High", also 1, gesetzt ist (danach wird das Signal auf "LOW", also 0, gesetzt). Analoge Systeme können mit digitalen Signalen gesteuert werden. Die Spannung kann 
@@ -2211,7 +2207,7 @@ durch die Veränderung der Pulsweite verändert werden. Durch ein PWM-Signal kan
 also das Verhältnis von der Pulslänge zu der Periodenlänge, wird in Prozent angegeben. \\
 \\
 
-\subsection{I2C Funktionsweise}
+\subsection{I2C Funktionsweise [\textcolor{blue}{Schweitzer}]}
 \label{chap:I2C Funktionsweise}
 \textbf{Funktionsweise:} \\
 I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
@@ -2253,7 +2249,7 @@ SCL auch den Wert 1 besitzt. \\
 \end{figure}
 \hfill \break
 
-\subsection{UART Funktionsweise}
+\subsection{UART Funktionsweise [\textcolor{blue}{Schweitzer}]}
 \label{chap:UART Funktionsweise}
 Der Arduino, beziehungsweise der ESP, werden über die serielle Verbindung UART 
 (Universal Asynchronous Receiver and Transmitter) vom Computer angesprochen. 
@@ -2296,7 +2292,7 @@ da der Datensatz nicht stimmt. \\
 	\end{center}
 \end{figure}
 
-\subsection{WiFi}
+\subsection{WiFi [\textcolor{blue}{Schweitzer}]}
 \label{chap:WiFi}
 \begin{figure}[H]
 	\begin{center}
@@ -2315,7 +2311,7 @@ Die Reichweite eines WLANs kann durch verschiedene Faktoren beeinflusst werden. 
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Grundlegende Systemkonzepte}
+\section{Grundlegende Systemkonzepte [\textcolor{blue}{Szabo}]}
 \label{chap:Grundlegende Systemkonzepte}
 
 \subsection{Gesamtsystemkonzept}
@@ -2392,10 +2388,10 @@ welches in [\textcolor{blue}{\autoref{chap:User Interface}}] näher erklrärt wi
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{Mechanische Realisierung}
+\section{Mechanische Realisierung [\textcolor{blue}{Al-Maytah}]}
 \label{chap:Mechanische Realisierung}
 
-\subsection{Handschuh \textcolor{red}{Amir}}
+\subsection{Handschuh}
 \subsubsection{Anforderungen}
 Für eine korrekte Erfassung der Daten erfordert das Eingangssubsystem nicht nur ein 
 zuverlässiges Messsystem sondern, oder eine effiziente Datenkorrektur per Software, 
@@ -2430,7 +2426,7 @@ Basis. Dieses ermöglicht es die Hand fr
 
 
 \newpage
-\subsection{Roboterhand \textcolor{red}{Amir}}
+\subsection{Roboterhand}
 \subsubsection{Der Grundgedanke}
 Der Grundgedanke der Mechanik in der Roboterhand ist es alle drei Glieder eines Fingers,
 darunter das Fingergrundglied, das Fingermittelglied und das Fingerendglied mit 
@@ -3337,11 +3333,11 @@ vereint und daraus eine optimale Hand für unsere Anforderungen geschaffen hat. 
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{Hardware Realisierung}
+\section{Hardware Realisierung  [\textcolor{blue}{Szabo}]}
 
 \subsection{Eingabesubsystem}
 
-\subsubsection{Grundlegende Voraussetzungen \textcolor{red}{Laci}}
+\subsubsection{Grundlegende Voraussetzungen}
 Die Hardware des Eingabesubsystems muss einige Kriterien erfüllen, um schlussendlich voll funktionfähig in das Gesamtsystem eingebaut 
 werden zu können. Zunächst ist die Größe der Schaltung, als mit der wichtigste Punkt zu nennen. Da es bei diesem Projekt nicht nur
 um die Funktionalität, sondern auch um ein ergonomisches Benutzererlebnis geht, sollte die entgültige Platine auf dem Handschuhrücken
@@ -3352,7 +3348,7 @@ sollte möglichst über einen kleinen und portablen Akku geschehen, um dem Benut
 allerdings optional und ist daher nicht garantiert zur Verwendung bereit. Über einen USB Anschluss soll der Mirkokontroller programmierbar sein und die Schaltung
 auch für Test -und Wartungszwecke versorgt werden können. Das Maximalgewicht darf 500g nicht übersteigen. \\
 
-\subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
+\subsubsection{Überlegungen, Simulationen und Berechnungen}
 \label{chap:Überlegungen, Simulationen und Berechnungen}
 \paragraph{Bewegungserfassung der Fingerbeugung}
 \hfill \break
@@ -3547,7 +3543,7 @@ Dieses hat eine integrierte Antenne, reichlich Performance und viel Flash-Speich
 Funktionalitäten immer noch im Rahmen. \\
 \\
 
-\subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
+\subsubsection{Versuchsaufbauten und Messungen}
 In den folgenden Punkten, werden die praktischen Tests der, in [\textcolor{blue}{\autoref{chap:Überlegungen, Simulationen und Berechnungen}}] beschriebenen Konzepte und Überlegungen, erläutert.\\
 \paragraph{Messchaltung der Flexsensoren}
 \hfill \break
@@ -3641,7 +3637,7 @@ kann.
 \\
 
 \newpage
-\subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
+\subsubsection{Schaltungsdesign}
 Nach den generellen Überlegungen und Versuchsaufbauten, die zu der Entwicklung der Schaltung des Eingabesubsystems beigetragen haben, wird in diesem Punkt 
 das genaue Schaltungsdesign erläutert. \\
 \\
@@ -3821,7 +3817,7 @@ Sensorchip mit dieser Fähigkeit ist, bleiben die beiden Pins auch nicht verbund
 vorgesehen und gewährleisten einen stabilen Betrieb. \\
 \\
 
-\subsubsection{Platinendesign \textcolor{red}{Laci}}
+\subsubsection{Platinendesign}
 \paragraph{Erste Testplatine}
 \hfill \break
 \hfill \break
@@ -3944,7 +3940,7 @@ beachtet werden. Hier sind zum Beispiel die möglichst geringe Größe der Schal
 zu nennen. Dazu zählen visuelle Indikatoren für diverse Parameter, Schalter und Taster, Anschlüsse und Erweiterungsmöglichkeiten.
 Die detailierten Entwicklungs -und Designschritte, werden in den folgenden Punkten näher erläutert. \\
 
-\subsubsection{Überlegungen, Simulationen und Berechnungen \textcolor{red}{Laci}}
+\subsubsection{Überlegungen, Simulationen und Berechnungen}
 \paragraph{Aktorik zur Fingerbewegung}
 \hfill \break
 \hfill \break
@@ -4080,7 +4076,7 @@ Durch diese hohe Auflösung, kann die Griffkraft der einzelnen Finger sehr genau
 ermöglicht wird. \\
 \\
 
-\subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
+\subsubsection{Versuchsaufbauten und Messungen}
 \paragraph{Messschaltung der Griffkraftkontrolle}
 \hfill \break
 \hfill \break
@@ -4178,7 +4174,7 @@ wieder auf ein Minimum senkt. Würde der Roboterfinger und somit der Motor einem
 einem relativ konstanten Wert stehen bleiben. Dies ist der Fall, da ein Servo einen Gleichstrommotor eingebaut hat und dieser nicht 
 nur für die Bewegung, sondern auch für das Entgegnwirken einer mechanischen Last Strom benötigt. 
 
-\subsubsection{Schaltungsdesign \textcolor{red}{Laci}}
+\subsubsection{Schaltungsdesign}
 \label{chap:Schaltungsdesign_Roboterhand}
 Nach den diversen Überlegungen, Konzepten und Berechnungen, wird in diesem Punkt das genauere Schaltungsdesign erläutert. Es wird
 erklärt worauf bei dem Schaltungsentwurf geachtet werden musste und mit welchen Besonderheiten, beziehungsweise Problemen, wir zu
@@ -4411,7 +4407,7 @@ Funktion der anderen LED kann frei gewählt werden. \\
 \end{figure}
 \hfill \break
 
-\subsubsection{Platinendesign \textcolor{red}{Laci}}
+\subsubsection{Platinendesign}
 \label{chap:Platinendesign Roboterhand}
 \paragraph{Erste Testplatine}
 \hfill \break
@@ -4517,8 +4513,8 @@ Anordnung der Bauteile geachtet, damit die Platine so wenig Platz wie möglich i
 %--------------------------------------------------------------------------
 \section{Software Realisierung}
 
-\subsection{Handschuh}
-\subsubsection{Konzepte und Überlegungen \textcolor{red}{Fabian}}
+\subsection{Handschuh [\textcolor{blue}{Schweitzer}]}
+\subsubsection{Konzepte und Überlegungen}
 \paragraph{Datenübertragung}
 \label{par:Datenübertragung}
 \hfill \break
@@ -4700,7 +4696,7 @@ map-Funktion somit immer gute Werte übermitteln kann. \\
 \\
 
 
-\subsubsection{Realisierung und Gliederung \textcolor{red}{Fabian}}
+\subsubsection{Realisierung und Gliederung}
 \paragraph{Realisierung}
 \hfill \break
 \hfill \break
@@ -4884,7 +4880,7 @@ Empfängerplatine gesendet. \\
 \\
 
 \newpage
-\subsection{Roboterhand \textcolor{red}{Amir}}
+\subsection{Roboterhand [\textcolor{blue}{Al-Maytah}]}
 
 \subsubsection{Grundlegende Vorraussetzungen}
 Die Software des Roboterarmes fungiert als Herzstück der mechanischen Roboterhand und legt damit eine Brücke zwischen den auf dem Handschuh erfassten 
@@ -5281,7 +5277,7 @@ HCPCA9685.Servo(rueckgabe.servoIndex.XXXXX);
 \hfill \break
 
 \newpage
-\subsection{User Interface}
+\subsection{User Interface [\textcolor{blue}{Szabo}]}
 \label{chap:User Interface}
 
 \subsubsection{Grundlegende Vorraussetzungen}
@@ -5290,7 +5286,7 @@ den aktuellen Winkel den jeder Servomotor zur Zeit hat. Es ist zwingend notwendi
 Vorauskenntnisse benötigt werden. Der Verbindungsaufbau muss daher ebenfalls fast von selbst erfolgen. Multiplatform Kompatibilibtät
 und eine stabile Laufleistung sollten ebenfalls gegeben sein, um dem Endbenutzer keine Technologie aufzuzwingen, die nicht gewünscht ist.
 
-\subsubsection{Entwicklungsumgebung \textcolor{red}{Laci}}
+\subsubsection{Entwicklungsumgebung}
 
 Entschieden haben wir uns für QT. Dies ist eine C++ Entwicklungsumgebungen, die besonders Plattform unabhängig ist. Es sind keine Änderungen
 des Queellcodes notwendig, um die Anwedung für MAC, LINUX oder WINDOWS kompatibel zu machen. Dies bezeichnet man auch als source 
@@ -5303,7 +5299,7 @@ Weitere Eigenschaften von Qt sind:
 	\item eine 3D-Umgebung um Modelle zu animieren
 \end{itemize}
 
-\subsubsection{Konzepte und Überlegungen \textcolor{red}{Laci}}
+\subsubsection{Konzepte und Überlegungen}
 Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
 erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das Erstkonzept sieht folgendermaßen aus:
 \begin{figure}[H]
@@ -5320,8 +5316,7 @@ Anzeigen für die Parameter der Griffkraft und des Servodrehwinkels abgebildet w
 und Schieberegler zur weiteren Navigation und Kontrolle des UIs platziert werden. Optional kann noch ein 3D-Modell und Regler für 
 die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind allerdings nicht gefordert. \\
 \\
-
-\subsubsection{Realisierung des Frontends \textcolor{red}{Laci}}
+\subsubsection{Realisierung des Frontends}
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -5386,7 +5381,7 @@ In der Mitte der Grafikoberfläche, ist die, nicht übersehbare, Darstellung ein
 hierbei ist es zu beachten, dass jedes Hand -und Fingerglied vor dem Export aus Fusion 360 genau an seinem Ursprung liegen muss, da die Beugung der Finger ansonsten nicht korrekt nachgestellt werden kann. Die Drehachse jedes Gelenks, wäre durch einen inkorrekten Export
 verschoben.  
 
-\subsubsection{Realisierung des Backends \textcolor{red}{Laci}}
+\subsubsection{Realisierung des Backends}
 Mithilfe von C++, wurde im QT-Designer das Backend programmiert. Dies beinhaltet alle Funktionen die für die Serial-Kommunikation notwendig sind und alle weiteren Funktionalitäten die bei der Benutzerinteraktion gefordert sind. \\
 \\
 Das Backend ist in ein $Main-Programm$, ein $Header-File$ und ein $Source-File$ gegliedert. Im Header-File $functions.h$, werden alle benötigten Funktionen erstellt. Im Source-File $functions.cpp$, werden die Funktionen anschließend 
@@ -5403,7 +5398,7 @@ Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem 
 %--------------------------------------------------------------------------
 %==TESTS-UND-MESSUNGEN=====================================================
 \section{Tests und Messungen}
-\subsection{Widerstandsmessung der Flexsensoren \textcolor{red}{Fabian}}
+\subsection{Widerstandsmessung der Flexsensoren [\textcolor{blue}{Schweitzer}]}
 \textbf{Ziel und Sinn der Messung} \\
 Jeder Flexsensor besitzt einen bestimmten Widerstandsbereich ($25k\Omega$ bis maximal $125k\Omega$). Laut Datenblatt muss allerdings von einer Toleranz von $+-30\%$ ausgegangen 
 werden. Deshalb muss der Widerstandswert jedes einzelnen Flexsensors ausgelesen werden, um festzustellen, wie sehr dieser je Flexsensor variiert. \\
@@ -5528,10 +5523,10 @@ Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einst
 %==Zusammenfassung=========================================================
 \section{Ergebnisse und Erkenntisse}
 \label{chap:Ergebnisse und Erkenntisse}
-
-\subsection{Mechanik \textcolor{red}{Amir}}
-
-\subsection{Hardware \textcolor{red}{Laci}}
+\subsection{Mechanik [\textcolor{blue}{Al-Maytah}]}
+\textcolor{red}{Platzhalter für Amir}
+\\
+\subsection{Hardware [\textcolor{blue}{Szabo}]}
 In diesem Punkt werden alle, im Laufe der Projektentwicklung gewonnen, Erkenntnisse erläutert. Dazu zählen nicht nur die
 positiven Erfolge, sondern auch die negativen Aspekte und Rückschläge, die wir erfahren haben. \\
 \\
@@ -5563,7 +5558,7 @@ Erneut war zu erkennen, dass sich die Mühe am Anfang der Entwicklung ausgezahlt
 
 \subsection{Software}
 
-\subsubsection{Eingabesubsystem \textcolor{red}{Fabian}}
+\subsubsection{Eingabesubsystem [\textcolor{blue}{Schweitzer}]}
 Als Erstes wurde ein Konzept entwickelt, was das Eingabesubsystem alles machen 
 soll. Es wurden etliche Überlegungen getroffen, inwiefern welche Funktionen 
 implementiert werden sollen oder nicht, um eine zuverlässige Steuerung des 
@@ -5629,9 +5624,9 @@ wurden, als sinnvoll. Dies führt dazu, dass nicht alle Überlegungen
 zwischendurch verworfen werden müssen. \\
 \\
 
-\subsubsection{Ausgabesubsystem \textcolor{red}{Amir}}
+\subsubsection{Ausgabesubsystem [\textcolor{blue}{Al-Maytah}]}
 
-\subsection{Gesamtintegration \textcolor{red}{Fabian}}
+\subsection{Gesamtintegration [\textcolor{blue}{Schweitzer}]}
 In diesem Abschnitt reflektieren wir die Vielfalt an Erkenntnissen, die wir 
 während der Projektentwicklung gesammelt haben. Dabei nehmen wir sowohl die 
 positiven Errungenschaften als auch die Herausforderungen und Rückschläge in 
@@ -5793,7 +5788,6 @@ zukünftigen Modellierungen deutlich reduziert werden können. \\
 
 \newpage
 %--------------------------------------------------------------------------
-\section{Anhang}
 %--------------------------------------------------------------------------
 \section{Abkürzungsverzeichnis}
 

@@ -5,239 +5,257 @@
 \contentsline {subsection}{\numberline {1.3}Grundgliederung der Arbeit}{2}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Untersuchungsanliegen der individuellen Themenstellungen}{2}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Lastenheft}{3}{section.2}%
-\contentsline {section}{\numberline {3}Vorwissenschaftlicher Theorieteil}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Aktuatoren mit Positionsregelung}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Überblick über Aktuatoren}{7}{subsubsection.3.1.1}%
-\contentsline {paragraph}{\numberline {3.1.1.1}Diverse Arten von Aktuatoren und deren Anwendungsbereiche}{7}{paragraph.3.1.1.1}%
-\contentsline {subparagraph}{\numberline {3.1.1.1.1}Pneumatische Antriebe}{7}{subparagraph.3.1.1.1.1}%
-\contentsline {subparagraph}{\numberline {3.1.1.1.2}Hydraulische Antriebe}{8}{subparagraph.3.1.1.1.2}%
-\contentsline {subparagraph}{\numberline {3.1.1.1.3}Elektrische Antriebe}{8}{subparagraph.3.1.1.1.3}%
-\contentsline {subparagraph}{\numberline {3.1.1.1.4}Thermische und magnetische Antriebe}{8}{subparagraph.3.1.1.1.4}%
-\contentsline {subparagraph}{\numberline {3.1.1.1.5}Mechanische Antriebe}{8}{subparagraph.3.1.1.1.5}%
-\contentsline {paragraph}{\numberline {3.1.1.2}Einführung in in den Servomotor}{8}{paragraph.3.1.1.2}%
-\contentsline {subparagraph}{\numberline {3.1.1.2.1}Grundlagen eines Servos}{9}{subparagraph.3.1.1.2.1}%
-\contentsline {subparagraph}{\numberline {3.1.1.2.2}Aufbau und Funktionsprinzip eines Servomotors}{9}{subparagraph.3.1.1.2.2}%
-\contentsline {paragraph}{\numberline {3.1.1.3}Positionsregelung}{11}{paragraph.3.1.1.3}%
-\contentsline {subparagraph}{\numberline {3.1.1.3.1}Einführung in die Positionsregelung}{11}{subparagraph.3.1.1.3.1}%
-\contentsline {subparagraph}{\numberline {3.1.1.3.2}Theoretische Grundlagen}{11}{subparagraph.3.1.1.3.2}%
-\contentsline {subparagraph}{\numberline {3.1.1.3.3}Funktionsprinzip des Regelkreises}{14}{subparagraph.3.1.1.3.3}%
-\contentsline {subsection}{\numberline {3.2}Freie Lizenzen}{17}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Urheberrecht}{17}{subsubsection.3.2.1}%
-\contentsline {paragraph}{\numberline {3.2.1.1}Definition und Bedeutung}{17}{paragraph.3.2.1.1}%
-\contentsline {paragraph}{\numberline {3.2.1.2}Auswirkung auf Software und Kreativwerke}{19}{paragraph.3.2.1.2}%
-\contentsline {subsubsection}{\numberline {3.2.2}Open Source}{19}{subsubsection.3.2.2}%
-\contentsline {paragraph}{\numberline {3.2.2.1}Definition und Bedeutung}{19}{paragraph.3.2.2.1}%
-\contentsline {paragraph}{\numberline {3.2.2.2}Geschichte}{20}{paragraph.3.2.2.2}%
-\contentsline {paragraph}{\numberline {3.2.2.3}Lizenzen}{22}{paragraph.3.2.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.3}Creative Commons}{25}{subsubsection.3.2.3}%
-\contentsline {paragraph}{\numberline {3.2.3.1}Definition und Bedeutung}{25}{paragraph.3.2.3.1}%
-\contentsline {paragraph}{\numberline {3.2.3.2}Überblick der Lizenzen}{26}{paragraph.3.2.3.2}%
-\contentsline {subsection}{\numberline {3.3}Sicherheitsaspekte der Mensch-Roboter-Kollaboration}{29}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Einleitung}{29}{subsubsection.3.3.1}%
-\contentsline {paragraph}{\numberline {3.3.1.1}Hintergrund und Motivation}{29}{paragraph.3.3.1.1}%
-\contentsline {paragraph}{\numberline {3.3.1.2}Ziel der Arbeit}{29}{paragraph.3.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.3.2}Grundlagen der Mensch-Roboter-Kollaboration}{29}{subsubsection.3.3.2}%
-\contentsline {paragraph}{\numberline {3.3.2.1}Definition}{29}{paragraph.3.3.2.1}%
-\contentsline {paragraph}{\numberline {3.3.2.2}Arten der Zusammenarbeit}{30}{paragraph.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Sicherheitsaspekte}{32}{subsubsection.3.3.3}%
-\contentsline {paragraph}{\numberline {3.3.3.1}Gefahren und Risiken}{32}{paragraph.3.3.3.1}%
-\contentsline {paragraph}{\numberline {3.3.3.2}Sicherheitsstandards und Normen}{36}{paragraph.3.3.3.2}%
-\contentsline {paragraph}{\numberline {3.3.3.3}EU Vorschriften}{37}{paragraph.3.3.3.3}%
-\contentsline {paragraph}{\numberline {3.3.3.4}Nationale Vorschriften (Österreich)}{38}{paragraph.3.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.4}Lösungen zur Verbesserung der Sicherheit bei der MRK}{38}{subsubsection.3.3.4}%
-\contentsline {paragraph}{\numberline {3.3.4.1}Sensortechnologien}{38}{paragraph.3.3.4.1}%
-\contentsline {paragraph}{\numberline {3.3.4.2}Softwarebasierte Sicherheitsmaßnahmen}{40}{paragraph.3.3.4.2}%
-\contentsline {paragraph}{\numberline {3.3.4.3}Physische Sicherheitsmaßnahmen}{41}{paragraph.3.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.3.5}Fazit}{42}{subsubsection.3.3.5}%
-\contentsline {section}{\numberline {4}Theoretische Grundlagen des Diplomprojekts}{43}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Flexsensor}{43}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Servomotor}{44}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}ESP-NOW \textcolor {red}{Fabian}}{44}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}OSI-Modell}{46}{subsubsection.4.3.1}%
-\contentsline {paragraph}{\numberline {4.3.1.1}Physical Layer}{47}{paragraph.4.3.1.1}%
-\contentsline {paragraph}{\numberline {4.3.1.2}Data Link Layer}{47}{paragraph.4.3.1.2}%
-\contentsline {paragraph}{\numberline {4.3.1.3}Network Layer}{47}{paragraph.4.3.1.3}%
-\contentsline {paragraph}{\numberline {4.3.1.4}Transport Layer}{47}{paragraph.4.3.1.4}%
-\contentsline {paragraph}{\numberline {4.3.1.5}Session Layer}{47}{paragraph.4.3.1.5}%
-\contentsline {paragraph}{\numberline {4.3.1.6}Presentation Layer}{48}{paragraph.4.3.1.6}%
-\contentsline {paragraph}{\numberline {4.3.1.7}Application Layer}{48}{paragraph.4.3.1.7}%
-\contentsline {paragraph}{\numberline {4.3.1.8}ESP-NOW Schichten}{48}{paragraph.4.3.1.8}%
-\contentsline {paragraph}{\numberline {4.3.1.9}IEEE 802.11b/g/n Standard}{48}{paragraph.4.3.1.9}%
-\contentsline {subsection}{\numberline {4.4}OPV Technologien \textcolor {red}{Laci}}{49}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Single-Supply}{49}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Dual-Supply}{50}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}Rail-to-Rail Technologie}{50}{subsubsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.5}Analog-Digital-Wandler}{51}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Multiplexer}{51}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}PWM-Signale}{52}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}I2C Funktionsweise}{52}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}UART Funktionsweise}{53}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}WiFi}{54}{subsection.4.10}%
-\contentsline {section}{\numberline {5}Grundlegende Systemkonzepte}{55}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Gesamtsystemkonzept}{55}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Systembeschreibung}{55}{subsubsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.2}Eingabesubsystem}{56}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Ausgabesubsystem}{57}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Mechanische Realisierung}{58}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Handschuh \textcolor {red}{Amir}}{58}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Anforderungen}{58}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Überlegungen}{58}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}Versuche}{58}{subsubsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}Testergebnisse}{58}{subsubsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.2}Roboterhand \textcolor {red}{Amir}}{59}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Der Grundgedanke}{59}{subsubsection.6.2.1}%
-\contentsline {paragraph}{\numberline {6.2.1.1}Fertigung und CAD}{59}{paragraph.6.2.1.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Versuchsaufbauten}{60}{subsubsection.6.2.2}%
-\contentsline {paragraph}{\numberline {6.2.2.1}Aufbau}{60}{paragraph.6.2.2.1}%
-\contentsline {paragraph}{\numberline {6.2.2.2}Versuchsresultat}{60}{paragraph.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Entwicklungsstufe: intitial}{61}{subsubsection.6.2.3}%
-\contentsline {paragraph}{\numberline {6.2.3.1}Konzept Einführung}{61}{paragraph.6.2.3.1}%
-\contentsline {paragraph}{\numberline {6.2.3.2}Realisierung und Zusammenbau}{61}{paragraph.6.2.3.2}%
-\contentsline {paragraph}{\numberline {6.2.3.3}Fazit und Ergebnisse}{67}{paragraph.6.2.3.3}%
-\contentsline {subsubsection}{\numberline {6.2.4}Entwicklungsstufe: InMoov}{69}{subsubsection.6.2.4}%
-\contentsline {paragraph}{\numberline {6.2.4.1}Einführung}{69}{paragraph.6.2.4.1}%
-\contentsline {paragraph}{\numberline {6.2.4.2}Mechanismus}{69}{paragraph.6.2.4.2}%
-\contentsline {paragraph}{\numberline {6.2.4.3}Fazit und Ergebnisse}{72}{paragraph.6.2.4.3}%
-\contentsline {subsubsection}{\numberline {6.2.5}Entwicklungsstufe: Silikon}{74}{subsubsection.6.2.5}%
-\contentsline {paragraph}{\numberline {6.2.5.1}Das Konzept}{74}{paragraph.6.2.5.1}%
-\contentsline {paragraph}{\numberline {6.2.5.2}Gussform}{75}{paragraph.6.2.5.2}%
-\contentsline {paragraph}{\numberline {6.2.5.3}Gelenke}{78}{paragraph.6.2.5.3}%
-\contentsline {paragraph}{\numberline {6.2.5.4}Entwurf einer neuen Gussform}{80}{paragraph.6.2.5.4}%
-\contentsline {paragraph}{\numberline {6.2.5.5}Gussform und Gussversuch der gesamten Hand}{83}{paragraph.6.2.5.5}%
-\contentsline {subsubsection}{\numberline {6.2.6}Entwicklungsstufe: Hybrid}{88}{subsubsection.6.2.6}%
-\contentsline {paragraph}{\numberline {6.2.6.1}Erfahrung und Konzepterläuterung}{88}{paragraph.6.2.6.1}%
-\contentsline {paragraph}{\numberline {6.2.6.2}Erster Entwurf}{89}{paragraph.6.2.6.2}%
-\contentsline {paragraph}{\numberline {6.2.6.3}Verbesserungen – zweiter Entwurf}{91}{paragraph.6.2.6.3}%
-\contentsline {paragraph}{\numberline {6.2.6.4}Realisierung und Aufbau}{92}{paragraph.6.2.6.4}%
-\contentsline {paragraph}{\numberline {6.2.6.5}Versuche}{95}{paragraph.6.2.6.5}%
-\contentsline {subsubsection}{\numberline {6.2.7}Fazit und Reflexion}{96}{subsubsection.6.2.7}%
-\contentsline {section}{\numberline {7}Hardware Realisierung}{97}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Eingabesubsystem}{97}{subsection.7.1}%
-\contentsline {subsubsection}{\numberline {7.1.1}Grundlegende Voraussetzungen \textcolor {red}{Laci}}{97}{subsubsection.7.1.1}%
-\contentsline {subsubsection}{\numberline {7.1.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{97}{subsubsection.7.1.2}%
-\contentsline {paragraph}{\numberline {7.1.2.1}Bewegungserfassung der Fingerbeugung}{97}{paragraph.7.1.2.1}%
-\contentsline {paragraph}{\numberline {7.1.2.2}Auslesen der Sensoren}{97}{paragraph.7.1.2.2}%
-\contentsline {paragraph}{\numberline {7.1.2.3}Berechnung des Tiefpassfilters}{99}{paragraph.7.1.2.3}%
-\contentsline {paragraph}{\numberline {7.1.2.4}Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}{99}{paragraph.7.1.2.4}%
-\contentsline {paragraph}{\numberline {7.1.2.5}Umwandlung der Differenzwerte in ein geeignetes Format}{99}{paragraph.7.1.2.5}%
-\contentsline {paragraph}{\numberline {7.1.2.6}Vervielfachung der Schaltung für alle Flexsensoren}{100}{paragraph.7.1.2.6}%
-\contentsline {paragraph}{\numberline {7.1.2.7}Bewegungserfassung der Handgelenksdrehung}{101}{paragraph.7.1.2.7}%
-\contentsline {paragraph}{\numberline {7.1.2.8}Mikrokontroller}{101}{paragraph.7.1.2.8}%
-\contentsline {subsubsection}{\numberline {7.1.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{102}{subsubsection.7.1.3}%
-\contentsline {paragraph}{\numberline {7.1.3.1}Messchaltung der Flexsensoren}{102}{paragraph.7.1.3.1}%
-\contentsline {paragraph}{\numberline {7.1.3.2}Messergebnisse}{104}{paragraph.7.1.3.2}%
-\contentsline {subsubsection}{\numberline {7.1.4}Schaltungsdesign \textcolor {red}{Laci}}{107}{subsubsection.7.1.4}%
-\contentsline {paragraph}{\numberline {7.1.4.1}Externe Anschlüsse}{107}{paragraph.7.1.4.1}%
-\contentsline {paragraph}{\numberline {7.1.4.2}Mikrokontroller}{108}{paragraph.7.1.4.2}%
-\contentsline {paragraph}{\numberline {7.1.4.3}Mikrokontroller Buttons}{109}{paragraph.7.1.4.3}%
-\contentsline {paragraph}{\numberline {7.1.4.4}Status LEDs}{109}{paragraph.7.1.4.4}%
-\contentsline {paragraph}{\numberline {7.1.4.5}Multiplexer}{110}{paragraph.7.1.4.5}%
-\contentsline {paragraph}{\numberline {7.1.4.6}Operationsverstärker}{110}{paragraph.7.1.4.6}%
-\contentsline {paragraph}{\numberline {7.1.4.7}Analog-Digital-Wandler}{111}{paragraph.7.1.4.7}%
-\contentsline {paragraph}{\numberline {7.1.4.8}Gyroskop-Sensor}{112}{paragraph.7.1.4.8}%
-\contentsline {subsubsection}{\numberline {7.1.5}Platinendesign \textcolor {red}{Laci}}{112}{subsubsection.7.1.5}%
-\contentsline {paragraph}{\numberline {7.1.5.1}Erste Testplatine}{112}{paragraph.7.1.5.1}%
-\contentsline {paragraph}{\numberline {7.1.5.2}Zweite Version der Platine}{114}{paragraph.7.1.5.2}%
-\contentsline {subsection}{\numberline {7.2}Roboterhand}{119}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Grundlegende Voraussetzungen}{119}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Überlegungen, Simulationen und Berechnungen \textcolor {red}{Laci}}{119}{subsubsection.7.2.2}%
-\contentsline {paragraph}{\numberline {7.2.2.1}Aktorik zur Fingerbewegung}{119}{paragraph.7.2.2.1}%
-\contentsline {paragraph}{\numberline {7.2.2.2}Datenempfang}{119}{paragraph.7.2.2.2}%
-\contentsline {paragraph}{\numberline {7.2.2.3}Ansteuerung der Motoren}{119}{paragraph.7.2.2.3}%
-\contentsline {paragraph}{\numberline {7.2.2.4}Positions -und Kraftmessung der Roboterfinger}{120}{paragraph.7.2.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.3}Versuchsaufbauten und Messungen \textcolor {red}{Laci}}{123}{subsubsection.7.2.3}%
-\contentsline {paragraph}{\numberline {7.2.3.1}Messschaltung der Griffkraftkontrolle}{123}{paragraph.7.2.3.1}%
-\contentsline {subsubsection}{\numberline {7.2.4}Schaltungsdesign \textcolor {red}{Laci}}{127}{subsubsection.7.2.4}%
-\contentsline {paragraph}{\numberline {7.2.4.1}Externe Anschlüsse}{127}{paragraph.7.2.4.1}%
-\contentsline {paragraph}{\numberline {7.2.4.2}Serial-UART-Bridge}{129}{paragraph.7.2.4.2}%
-\contentsline {paragraph}{\numberline {7.2.4.3}Mikrokontroller}{130}{paragraph.7.2.4.3}%
-\contentsline {paragraph}{\numberline {7.2.4.4}Mikrokontroller Buttons}{131}{paragraph.7.2.4.4}%
-\contentsline {paragraph}{\numberline {7.2.4.5}Versorgung}{132}{paragraph.7.2.4.5}%
-\contentsline {paragraph}{\numberline {7.2.4.6}PWM-Controller}{132}{paragraph.7.2.4.6}%
-\contentsline {paragraph}{\numberline {7.2.4.7}Servoanschlüsse}{133}{paragraph.7.2.4.7}%
-\contentsline {paragraph}{\numberline {7.2.4.8}Strommessung zur Griffkraftkontrolle}{134}{paragraph.7.2.4.8}%
-\contentsline {paragraph}{\numberline {7.2.4.9}Status LEDs}{136}{paragraph.7.2.4.9}%
-\contentsline {subsubsection}{\numberline {7.2.5}Platinendesign \textcolor {red}{Laci}}{137}{subsubsection.7.2.5}%
-\contentsline {paragraph}{\numberline {7.2.5.1}Erste Testplatine}{137}{paragraph.7.2.5.1}%
-\contentsline {paragraph}{\numberline {7.2.5.2}Zweite Version der Platine}{140}{paragraph.7.2.5.2}%
-\contentsline {section}{\numberline {8}Software Realisierung}{144}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Handschuh}{144}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Konzepte und Überlegungen \textcolor {red}{Fabian}}{144}{subsubsection.8.1.1}%
-\contentsline {paragraph}{\numberline {8.1.1.1}Datenübertragung}{144}{paragraph.8.1.1.1}%
-\contentsline {paragraph}{\numberline {8.1.1.2}Programmiersprache/Entwicklungsumgebung}{144}{paragraph.8.1.1.2}%
-\contentsline {paragraph}{\numberline {8.1.1.3}Benutzerfreundlichkeit}{145}{paragraph.8.1.1.3}%
-\contentsline {paragraph}{\numberline {8.1.1.4}Testen}{145}{paragraph.8.1.1.4}%
-\contentsline {paragraph}{\numberline {8.1.1.5}Allgemeines Konzept}{146}{paragraph.8.1.1.5}%
-\contentsline {paragraph}{\numberline {8.1.1.6}Minimaler \& maximaler Widerstandswert}{146}{paragraph.8.1.1.6}%
-\contentsline {paragraph}{\numberline {8.1.1.7}Toleranz bei Werten}{147}{paragraph.8.1.1.7}%
-\contentsline {paragraph}{\numberline {8.1.1.8}Verworfene Ideen}{147}{paragraph.8.1.1.8}%
-\contentsline {subsubsection}{\numberline {8.1.2}Realisierung und Gliederung \textcolor {red}{Fabian}}{148}{subsubsection.8.1.2}%
-\contentsline {paragraph}{\numberline {8.1.2.1}Realisierung}{148}{paragraph.8.1.2.1}%
-\contentsline {paragraph}{\numberline {8.1.2.2}Gliederung}{149}{paragraph.8.1.2.2}%
-\contentsline {paragraph}{\numberline {8.1.2.3}Wichtige Codezeilen}{150}{paragraph.8.1.2.3}%
-\contentsline {subsection}{\numberline {8.2}Roboterhand \textcolor {red}{Amir}}{153}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Grundlegende Vorraussetzungen}{153}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Realisierung: Überblick}{153}{subsubsection.8.2.2}%
-\contentsline {paragraph}{\numberline {8.2.2.1}Programmfluss}{153}{paragraph.8.2.2.1}%
-\contentsline {paragraph}{\numberline {8.2.2.2}Effiziente Gliederung essentieller Systemkomponenten}{158}{paragraph.8.2.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Kommunikation - Protokolle}{159}{subsubsection.8.2.3}%
-\contentsline {paragraph}{\numberline {8.2.3.1}Drahtlose Kommunikation}{159}{paragraph.8.2.3.1}%
-\contentsline {paragraph}{\numberline {8.2.3.2}Serielle Kommunikation}{160}{paragraph.8.2.3.2}%
-\contentsline {subsubsection}{\numberline {8.2.4}Individuelle Komponenten}{161}{subsubsection.8.2.4}%
-\contentsline {paragraph}{\numberline {8.2.4.1}Parser und Interpretation: drahtloser Datenströme}{162}{paragraph.8.2.4.1}%
-\contentsline {paragraph}{\numberline {8.2.4.2}Parser und Interpretation: serieller Datenströme}{162}{paragraph.8.2.4.2}%
-\contentsline {paragraph}{\numberline {8.2.4.3}proaktiver Datenkorrekturalgorithmus}{162}{paragraph.8.2.4.3}%
-\contentsline {paragraph}{\numberline {8.2.4.4}Datenaufbereitung und Anweisung für Servoaktoren}{164}{paragraph.8.2.4.4}%
-\contentsline {subsubsection}{\numberline {8.2.5}Fremdkomponenten}{165}{subsubsection.8.2.5}%
-\contentsline {paragraph}{\numberline {8.2.5.1}MCP3X21}{165}{paragraph.8.2.5.1}%
-\contentsline {paragraph}{\numberline {8.2.5.2}HCPCA9685}{165}{paragraph.8.2.5.2}%
-\contentsline {paragraph}{\numberline {8.2.5.3}ESP-NOW und Wifi.h}{165}{paragraph.8.2.5.3}%
-\contentsline {subsection}{\numberline {8.3}User Interface}{166}{subsection.8.3}%
-\contentsline {subsubsection}{\numberline {8.3.1}Grundlegende Vorraussetzungen}{166}{subsubsection.8.3.1}%
-\contentsline {subsubsection}{\numberline {8.3.2}Entwicklungsumgebung \textcolor {red}{Laci}}{166}{subsubsection.8.3.2}%
-\contentsline {subsubsection}{\numberline {8.3.3}Konzepte und Überlegungen \textcolor {red}{Laci}}{166}{subsubsection.8.3.3}%
-\contentsline {subsubsection}{\numberline {8.3.4}Realisierung des Frontends \textcolor {red}{Laci}}{168}{subsubsection.8.3.4}%
-\contentsline {subsubsection}{\numberline {8.3.5}Erläuterung der Grafikoberfläche}{168}{subsubsection.8.3.5}%
-\contentsline {subsubsection}{\numberline {8.3.6}Realisierung des Backends \textcolor {red}{Laci}}{170}{subsubsection.8.3.6}%
-\contentsline {section}{\numberline {9}Tests und Messungen}{171}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Widerstandsmessung der Flexsensoren \textcolor {red}{Fabian}}{171}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Ergebnisse und Erkenntisse}{175}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Mechanik \textcolor {red}{Amir}}{175}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Hardware \textcolor {red}{Laci}}{175}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Software}{176}{subsection.10.3}%
-\contentsline {subsubsection}{\numberline {10.3.1}Eingabesubsystem \textcolor {red}{Fabian}}{176}{subsubsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.2}Ausgabesubsystem \textcolor {red}{Amir}}{177}{subsubsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.4}Gesamtintegration \textcolor {red}{Fabian}}{177}{subsection.10.4}%
-\contentsline {section}{\numberline {11}Ausblick}{180}{section.11}%
-\contentsline {section}{\numberline {12}Anhang}{182}{section.12}%
-\contentsline {section}{\numberline {13}Abkürzungsverzeichnis}{182}{section.13}%
-\contentsline {section}{\numberline {14}Projektmanagement}{183}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Projektstrukturplan}{183}{subsection.14.1}%
-\contentsline {subsection}{\numberline {14.2}Milestoneplan}{183}{subsection.14.2}%
-\contentsline {subsection}{\numberline {14.3}Gantt-Diagram}{183}{subsection.14.3}%
-\contentsline {subsection}{\numberline {14.4}Arbeitstunden}{184}{subsection.14.4}%
-\contentsline {section}{\numberline {15}Programme, Installationen und Plugins}{195}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Fusion 360}{195}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}UltiMaker Cura}{195}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}KiCad}{195}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Arduino IDE}{195}{subsection.15.4}%
-\contentsline {subsection}{\numberline {15.5}QT Framework}{195}{subsection.15.5}%
-\contentsline {section}{\numberline {16}Fertigungsunterlagen}{196}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Mechanik}{196}{subsection.16.1}%
-\contentsline {subsubsection}{\numberline {16.1.1}Skizzen ud Konzepte}{196}{subsubsection.16.1.1}%
-\contentsline {subsubsection}{\numberline {16.1.2}CAD-Zeichnungen}{196}{subsubsection.16.1.2}%
-\contentsline {subsubsection}{\numberline {16.1.3}3D-Modelle}{196}{subsubsection.16.1.3}%
-\contentsline {subsection}{\numberline {16.2}Hardware}{197}{subsection.16.2}%
-\contentsline {subsubsection}{\numberline {16.2.1}Skizzen und Konzepte}{197}{subsubsection.16.2.1}%
-\contentsline {subsubsection}{\numberline {16.2.2}Stromlaufpläne}{198}{subsubsection.16.2.2}%
-\contentsline {subsubsection}{\numberline {16.2.3}Platinenlayouts}{205}{subsubsection.16.2.3}%
-\contentsline {subsubsection}{\numberline {16.2.4}Bestückungslisten}{211}{subsubsection.16.2.4}%
-\contentsline {subsection}{\numberline {16.3}Software}{223}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}Skizzen und Konzepte}{223}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}Diagramme}{223}{subsubsection.16.3.2}%
-\contentsline {subsection}{\numberline {16.4}Software}{223}{subsection.16.4}%
-\contentsline {subsubsection}{\numberline {16.4.1}Skizzen und Konzepte}{223}{subsubsection.16.4.1}%
-\contentsline {subsubsection}{\numberline {16.4.2}Code}{226}{subsubsection.16.4.2}%
-\contentsline {paragraph}{\numberline {16.4.2.1}Eingabesubsystem}{226}{paragraph.16.4.2.1}%
-\contentsline {paragraph}{\numberline {16.4.2.2}Ausgabesubsystem}{226}{paragraph.16.4.2.2}%
-\contentsline {paragraph}{\numberline {16.4.2.3}User-Interface}{226}{paragraph.16.4.2.3}%
+\contentsline {section}{\numberline {3}VWA - Aktuatoren mit Positionsregelung [\textcolor {blue}{Al-Maytah}]}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Überblick über Aktuatoren}{7}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Diverse Arten von Aktuatoren und deren Anwendungsbereiche}{7}{subsubsection.3.1.1}%
+\contentsline {paragraph}{\numberline {3.1.1.1}Pneumatische Antriebe}{7}{paragraph.3.1.1.1}%
+\contentsline {paragraph}{\numberline {3.1.1.2}Hydraulische Antriebe}{8}{paragraph.3.1.1.2}%
+\contentsline {paragraph}{\numberline {3.1.1.3}Elektrische Antriebe}{8}{paragraph.3.1.1.3}%
+\contentsline {paragraph}{\numberline {3.1.1.4}Thermische und magnetische Antriebe}{8}{paragraph.3.1.1.4}%
+\contentsline {paragraph}{\numberline {3.1.1.5}Mechanische Antriebe}{8}{paragraph.3.1.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.2}Einführung in in den Servomotor}{8}{subsubsection.3.1.2}%
+\contentsline {paragraph}{\numberline {3.1.2.1}Grundlagen eines Servos}{9}{paragraph.3.1.2.1}%
+\contentsline {paragraph}{\numberline {3.1.2.2}Aufbau und Funktionsprinzip eines Servomotors}{9}{paragraph.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Positionsregelung}{10}{subsubsection.3.1.3}%
+\contentsline {paragraph}{\numberline {3.1.3.1}Einführung in die Positionsregelung}{10}{paragraph.3.1.3.1}%
+\contentsline {paragraph}{\numberline {3.1.3.2}Theoretische Grundlagen}{11}{paragraph.3.1.3.2}%
+\contentsline {paragraph}{\numberline {3.1.3.3}Funktionsprinzip des Regelkreises}{13}{paragraph.3.1.3.3}%
+\contentsline {section}{\numberline {4}VWA - Freie Lizenzen [\textcolor {blue}{Schweitzer}]}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Urheberrecht}{17}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Definition und Bedeutung}{17}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Auswirkung auf Software und Kreativwerke}{19}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Open Source}{20}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Definition und Bedeutung}{20}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Geschichte}{20}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}Motivation, Entstehung und Meilensteine}{20}{paragraph.4.2.2.1}%
+\contentsline {paragraph}{\numberline {4.2.2.2}Momentaner Zustand und Erwartungen für zukünftige Trends}{21}{paragraph.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Lizenzen}{22}{subsubsection.4.2.3}%
+\contentsline {paragraph}{\numberline {4.2.3.1}Definition und Bedeutung}{22}{paragraph.4.2.3.1}%
+\contentsline {paragraph}{\numberline {4.2.3.2}Freie Softwarelizenzen}{22}{paragraph.4.2.3.2}%
+\contentsline {paragraph}{\numberline {4.2.3.3}Kommerzielle Softwarelizenzen}{22}{paragraph.4.2.3.3}%
+\contentsline {paragraph}{\numberline {4.2.3.4}Copyleft Erklärung}{23}{paragraph.4.2.3.4}%
+\contentsline {paragraph}{\numberline {4.2.3.5}GNU GPL (General Public License)}{24}{paragraph.4.2.3.5}%
+\contentsline {paragraph}{\numberline {4.2.3.6}Apache}{25}{paragraph.4.2.3.6}%
+\contentsline {subsection}{\numberline {4.3}Creative Commons}{25}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Definition und Bedeutung}{25}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Überblick der Lizenzen}{26}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}VWA - Sicherheitsaspekte der Mensch-Roboter-Kollaboration [\textcolor {blue}{Szabo}]}{30}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Einleitung}{30}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Hintergrund und Motivation}{30}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Ziel der Arbeit}{30}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Grundlagen der Mensch-Roboter-Kollaboration}{30}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Definition}{30}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Arten der Zusammenarbeit}{31}{subsubsection.5.2.2}%
+\contentsline {paragraph}{\numberline {5.2.2.1}Koexistenz}{31}{paragraph.5.2.2.1}%
+\contentsline {paragraph}{\numberline {5.2.2.2}Synchonisation}{31}{paragraph.5.2.2.2}%
+\contentsline {paragraph}{\numberline {5.2.2.3}Kooperation}{32}{paragraph.5.2.2.3}%
+\contentsline {paragraph}{\numberline {5.2.2.4}Kollaboration}{33}{paragraph.5.2.2.4}%
+\contentsline {subsection}{\numberline {5.3}Sicherheitsaspekte}{34}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Gefahren und Risiken}{34}{subsubsection.5.3.1}%
+\contentsline {paragraph}{\numberline {5.3.1.1}Kollisionen}{35}{paragraph.5.3.1.1}%
+\contentsline {paragraph}{\numberline {5.3.1.2}Unvorhersehbare Bewegungen}{37}{paragraph.5.3.1.2}%
+\contentsline {subsubsection}{\numberline {5.3.2}Sicherheitsstandards und Normen}{37}{subsubsection.5.3.2}%
+\contentsline {paragraph}{\numberline {5.3.2.1}ISA / IEC 62443}{38}{paragraph.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.3}EU Vorschriften}{38}{subsubsection.5.3.3}%
+\contentsline {paragraph}{\numberline {5.3.3.1}EN61508}{39}{paragraph.5.3.3.1}%
+\contentsline {paragraph}{\numberline {5.3.3.2}Maschinenrichtlinie 2006/47/EG}{39}{paragraph.5.3.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.4}Nationale Vorschriften (Österreich)}{40}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}Lösungen zur Verbesserung der Sicherheit bei der MRK}{40}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}Sensortechnologien}{40}{subsubsection.5.4.1}%
+\contentsline {paragraph}{\numberline {5.4.1.1}Ultraschallsensoren}{41}{paragraph.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}Softwarebasierte Sicherheitsmaßnahmen}{42}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}Physische Sicherheitsmaßnahmen}{43}{subsubsection.5.4.3}%
+\contentsline {paragraph}{\numberline {5.4.3.1}Roboterbezogen}{43}{paragraph.5.4.3.1}%
+\contentsline {paragraph}{\numberline {5.4.3.2}Umgebungsbezogen}{43}{paragraph.5.4.3.2}%
+\contentsline {subsection}{\numberline {5.5}Fazit}{44}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Theoretische Grundlagen des Diplomprojekts}{45}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Flexsensor [\textcolor {blue}{Schweitzer}]}{45}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Servomotor [\textcolor {blue}{Schweitzer}]}{46}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}ESP-NOW [\textcolor {blue}{Schweitzer}]}{46}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}OSI-Modell}{48}{subsubsection.6.3.1}%
+\contentsline {paragraph}{\numberline {6.3.1.1}Physical Layer}{49}{paragraph.6.3.1.1}%
+\contentsline {paragraph}{\numberline {6.3.1.2}Data Link Layer}{49}{paragraph.6.3.1.2}%
+\contentsline {paragraph}{\numberline {6.3.1.3}Network Layer}{49}{paragraph.6.3.1.3}%
+\contentsline {paragraph}{\numberline {6.3.1.4}Transport Layer}{49}{paragraph.6.3.1.4}%
+\contentsline {paragraph}{\numberline {6.3.1.5}Session Layer}{49}{paragraph.6.3.1.5}%
+\contentsline {paragraph}{\numberline {6.3.1.6}Presentation Layer}{50}{paragraph.6.3.1.6}%
+\contentsline {paragraph}{\numberline {6.3.1.7}Application Layer}{50}{paragraph.6.3.1.7}%
+\contentsline {paragraph}{\numberline {6.3.1.8}ESP-NOW Schichten}{50}{paragraph.6.3.1.8}%
+\contentsline {paragraph}{\numberline {6.3.1.9}IEEE 802.11b/g/n Standard}{50}{paragraph.6.3.1.9}%
+\contentsline {subsection}{\numberline {6.4}OPV Technologien [\textcolor {blue}{Szabo}]}{51}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Single-Supply}{51}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Dual-Supply}{52}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Rail-to-Rail Technologie}{52}{subsubsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.5}Analog-Digital-Wandler [\textcolor {blue}{Schweitzer}]}{53}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Multiplexer [\textcolor {blue}{Schweitzer}]}{53}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}PWM-Signale [\textcolor {blue}{Schweitzer}]}{54}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}I2C Funktionsweise [\textcolor {blue}{Schweitzer}]}{54}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}UART Funktionsweise [\textcolor {blue}{Schweitzer}]}{55}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}WiFi [\textcolor {blue}{Schweitzer}]}{56}{subsection.6.10}%
+\contentsline {section}{\numberline {7}Grundlegende Systemkonzepte [\textcolor {blue}{Szabo}]}{57}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Gesamtsystemkonzept}{57}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Systembeschreibung}{57}{subsubsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.2}Eingabesubsystem}{58}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Ausgabesubsystem}{59}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Mechanische Realisierung [\textcolor {blue}{Al-Maytah}]}{60}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Handschuh}{60}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Anforderungen}{60}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Überlegungen}{60}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}Versuche}{60}{subsubsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.4}Testergebnisse}{60}{subsubsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.2}Roboterhand}{61}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Der Grundgedanke}{61}{subsubsection.8.2.1}%
+\contentsline {paragraph}{\numberline {8.2.1.1}Fertigung und CAD}{61}{paragraph.8.2.1.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Versuchsaufbauten}{62}{subsubsection.8.2.2}%
+\contentsline {paragraph}{\numberline {8.2.2.1}Aufbau}{62}{paragraph.8.2.2.1}%
+\contentsline {paragraph}{\numberline {8.2.2.2}Versuchsresultat}{62}{paragraph.8.2.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Entwicklungsstufe: intitial}{63}{subsubsection.8.2.3}%
+\contentsline {paragraph}{\numberline {8.2.3.1}Konzept Einführung}{63}{paragraph.8.2.3.1}%
+\contentsline {paragraph}{\numberline {8.2.3.2}Realisierung und Zusammenbau}{63}{paragraph.8.2.3.2}%
+\contentsline {paragraph}{\numberline {8.2.3.3}Fazit und Ergebnisse}{69}{paragraph.8.2.3.3}%
+\contentsline {subsubsection}{\numberline {8.2.4}Entwicklungsstufe: InMoov}{71}{subsubsection.8.2.4}%
+\contentsline {paragraph}{\numberline {8.2.4.1}Einführung}{71}{paragraph.8.2.4.1}%
+\contentsline {paragraph}{\numberline {8.2.4.2}Mechanismus}{71}{paragraph.8.2.4.2}%
+\contentsline {paragraph}{\numberline {8.2.4.3}Fazit und Ergebnisse}{74}{paragraph.8.2.4.3}%
+\contentsline {subsubsection}{\numberline {8.2.5}Entwicklungsstufe: Silikon}{76}{subsubsection.8.2.5}%
+\contentsline {paragraph}{\numberline {8.2.5.1}Das Konzept}{76}{paragraph.8.2.5.1}%
+\contentsline {paragraph}{\numberline {8.2.5.2}Gussform}{77}{paragraph.8.2.5.2}%
+\contentsline {paragraph}{\numberline {8.2.5.3}Gelenke}{80}{paragraph.8.2.5.3}%
+\contentsline {paragraph}{\numberline {8.2.5.4}Entwurf einer neuen Gussform}{82}{paragraph.8.2.5.4}%
+\contentsline {paragraph}{\numberline {8.2.5.5}Gussform und Gussversuch der gesamten Hand}{85}{paragraph.8.2.5.5}%
+\contentsline {subsubsection}{\numberline {8.2.6}Entwicklungsstufe: Hybrid}{90}{subsubsection.8.2.6}%
+\contentsline {paragraph}{\numberline {8.2.6.1}Erfahrung und Konzepterläuterung}{90}{paragraph.8.2.6.1}%
+\contentsline {paragraph}{\numberline {8.2.6.2}Erster Entwurf}{91}{paragraph.8.2.6.2}%
+\contentsline {paragraph}{\numberline {8.2.6.3}Verbesserungen – zweiter Entwurf}{93}{paragraph.8.2.6.3}%
+\contentsline {paragraph}{\numberline {8.2.6.4}Realisierung und Aufbau}{94}{paragraph.8.2.6.4}%
+\contentsline {paragraph}{\numberline {8.2.6.5}Versuche}{97}{paragraph.8.2.6.5}%
+\contentsline {subsubsection}{\numberline {8.2.7}Fazit und Reflexion}{98}{subsubsection.8.2.7}%
+\contentsline {section}{\numberline {9}Hardware Realisierung [\textcolor {blue}{Szabo}]}{99}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Eingabesubsystem}{99}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Grundlegende Voraussetzungen}{99}{subsubsection.9.1.1}%
+\contentsline {subsubsection}{\numberline {9.1.2}Überlegungen, Simulationen und Berechnungen}{99}{subsubsection.9.1.2}%
+\contentsline {paragraph}{\numberline {9.1.2.1}Bewegungserfassung der Fingerbeugung}{99}{paragraph.9.1.2.1}%
+\contentsline {paragraph}{\numberline {9.1.2.2}Auslesen der Sensoren}{99}{paragraph.9.1.2.2}%
+\contentsline {paragraph}{\numberline {9.1.2.3}Berechnung des Tiefpassfilters}{101}{paragraph.9.1.2.3}%
+\contentsline {paragraph}{\numberline {9.1.2.4}Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}{101}{paragraph.9.1.2.4}%
+\contentsline {paragraph}{\numberline {9.1.2.5}Umwandlung der Differenzwerte in ein geeignetes Format}{101}{paragraph.9.1.2.5}%
+\contentsline {paragraph}{\numberline {9.1.2.6}Vervielfachung der Schaltung für alle Flexsensoren}{102}{paragraph.9.1.2.6}%
+\contentsline {paragraph}{\numberline {9.1.2.7}Bewegungserfassung der Handgelenksdrehung}{103}{paragraph.9.1.2.7}%
+\contentsline {paragraph}{\numberline {9.1.2.8}Mikrokontroller}{103}{paragraph.9.1.2.8}%
+\contentsline {subsubsection}{\numberline {9.1.3}Versuchsaufbauten und Messungen}{104}{subsubsection.9.1.3}%
+\contentsline {paragraph}{\numberline {9.1.3.1}Messchaltung der Flexsensoren}{104}{paragraph.9.1.3.1}%
+\contentsline {paragraph}{\numberline {9.1.3.2}Messergebnisse}{106}{paragraph.9.1.3.2}%
+\contentsline {subsubsection}{\numberline {9.1.4}Schaltungsdesign}{109}{subsubsection.9.1.4}%
+\contentsline {paragraph}{\numberline {9.1.4.1}Externe Anschlüsse}{109}{paragraph.9.1.4.1}%
+\contentsline {paragraph}{\numberline {9.1.4.2}Mikrokontroller}{110}{paragraph.9.1.4.2}%
+\contentsline {paragraph}{\numberline {9.1.4.3}Mikrokontroller Buttons}{111}{paragraph.9.1.4.3}%
+\contentsline {paragraph}{\numberline {9.1.4.4}Status LEDs}{111}{paragraph.9.1.4.4}%
+\contentsline {paragraph}{\numberline {9.1.4.5}Multiplexer}{112}{paragraph.9.1.4.5}%
+\contentsline {paragraph}{\numberline {9.1.4.6}Operationsverstärker}{112}{paragraph.9.1.4.6}%
+\contentsline {paragraph}{\numberline {9.1.4.7}Analog-Digital-Wandler}{113}{paragraph.9.1.4.7}%
+\contentsline {paragraph}{\numberline {9.1.4.8}Gyroskop-Sensor}{114}{paragraph.9.1.4.8}%
+\contentsline {subsubsection}{\numberline {9.1.5}Platinendesign}{114}{subsubsection.9.1.5}%
+\contentsline {paragraph}{\numberline {9.1.5.1}Erste Testplatine}{114}{paragraph.9.1.5.1}%
+\contentsline {paragraph}{\numberline {9.1.5.2}Zweite Version der Platine}{116}{paragraph.9.1.5.2}%
+\contentsline {subsection}{\numberline {9.2}Roboterhand}{121}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {9.2.1}Grundlegende Voraussetzungen}{121}{subsubsection.9.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2}Überlegungen, Simulationen und Berechnungen}{121}{subsubsection.9.2.2}%
+\contentsline {paragraph}{\numberline {9.2.2.1}Aktorik zur Fingerbewegung}{121}{paragraph.9.2.2.1}%
+\contentsline {paragraph}{\numberline {9.2.2.2}Datenempfang}{121}{paragraph.9.2.2.2}%
+\contentsline {paragraph}{\numberline {9.2.2.3}Ansteuerung der Motoren}{121}{paragraph.9.2.2.3}%
+\contentsline {paragraph}{\numberline {9.2.2.4}Positions -und Kraftmessung der Roboterfinger}{122}{paragraph.9.2.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.3}Versuchsaufbauten und Messungen}{125}{subsubsection.9.2.3}%
+\contentsline {paragraph}{\numberline {9.2.3.1}Messschaltung der Griffkraftkontrolle}{125}{paragraph.9.2.3.1}%
+\contentsline {subsubsection}{\numberline {9.2.4}Schaltungsdesign}{129}{subsubsection.9.2.4}%
+\contentsline {paragraph}{\numberline {9.2.4.1}Externe Anschlüsse}{129}{paragraph.9.2.4.1}%
+\contentsline {paragraph}{\numberline {9.2.4.2}Serial-UART-Bridge}{131}{paragraph.9.2.4.2}%
+\contentsline {paragraph}{\numberline {9.2.4.3}Mikrokontroller}{132}{paragraph.9.2.4.3}%
+\contentsline {paragraph}{\numberline {9.2.4.4}Mikrokontroller Buttons}{133}{paragraph.9.2.4.4}%
+\contentsline {paragraph}{\numberline {9.2.4.5}Versorgung}{134}{paragraph.9.2.4.5}%
+\contentsline {paragraph}{\numberline {9.2.4.6}PWM-Controller}{134}{paragraph.9.2.4.6}%
+\contentsline {paragraph}{\numberline {9.2.4.7}Servoanschlüsse}{135}{paragraph.9.2.4.7}%
+\contentsline {paragraph}{\numberline {9.2.4.8}Strommessung zur Griffkraftkontrolle}{136}{paragraph.9.2.4.8}%
+\contentsline {paragraph}{\numberline {9.2.4.9}Status LEDs}{138}{paragraph.9.2.4.9}%
+\contentsline {subsubsection}{\numberline {9.2.5}Platinendesign}{139}{subsubsection.9.2.5}%
+\contentsline {paragraph}{\numberline {9.2.5.1}Erste Testplatine}{139}{paragraph.9.2.5.1}%
+\contentsline {paragraph}{\numberline {9.2.5.2}Zweite Version der Platine}{142}{paragraph.9.2.5.2}%
+\contentsline {section}{\numberline {10}Software Realisierung}{146}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Handschuh [\textcolor {blue}{Schweitzer}]}{146}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}Konzepte und Überlegungen}{146}{subsubsection.10.1.1}%
+\contentsline {paragraph}{\numberline {10.1.1.1}Datenübertragung}{146}{paragraph.10.1.1.1}%
+\contentsline {paragraph}{\numberline {10.1.1.2}Programmiersprache/Entwicklungsumgebung}{146}{paragraph.10.1.1.2}%
+\contentsline {paragraph}{\numberline {10.1.1.3}Benutzerfreundlichkeit}{147}{paragraph.10.1.1.3}%
+\contentsline {paragraph}{\numberline {10.1.1.4}Testen}{147}{paragraph.10.1.1.4}%
+\contentsline {paragraph}{\numberline {10.1.1.5}Allgemeines Konzept}{148}{paragraph.10.1.1.5}%
+\contentsline {paragraph}{\numberline {10.1.1.6}Minimaler \& maximaler Widerstandswert}{148}{paragraph.10.1.1.6}%
+\contentsline {paragraph}{\numberline {10.1.1.7}Toleranz bei Werten}{149}{paragraph.10.1.1.7}%
+\contentsline {paragraph}{\numberline {10.1.1.8}Verworfene Ideen}{149}{paragraph.10.1.1.8}%
+\contentsline {subsubsection}{\numberline {10.1.2}Realisierung und Gliederung}{150}{subsubsection.10.1.2}%
+\contentsline {paragraph}{\numberline {10.1.2.1}Realisierung}{150}{paragraph.10.1.2.1}%
+\contentsline {paragraph}{\numberline {10.1.2.2}Gliederung}{151}{paragraph.10.1.2.2}%
+\contentsline {paragraph}{\numberline {10.1.2.3}Wichtige Codezeilen}{152}{paragraph.10.1.2.3}%
+\contentsline {subsection}{\numberline {10.2}Roboterhand [\textcolor {blue}{Al-Maytah}]}{155}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Grundlegende Vorraussetzungen}{155}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Realisierung: Überblick}{155}{subsubsection.10.2.2}%
+\contentsline {paragraph}{\numberline {10.2.2.1}Programmfluss}{155}{paragraph.10.2.2.1}%
+\contentsline {paragraph}{\numberline {10.2.2.2}Effiziente Gliederung essentieller Systemkomponenten}{160}{paragraph.10.2.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.3}Kommunikation - Protokolle}{161}{subsubsection.10.2.3}%
+\contentsline {paragraph}{\numberline {10.2.3.1}Drahtlose Kommunikation}{161}{paragraph.10.2.3.1}%
+\contentsline {paragraph}{\numberline {10.2.3.2}Serielle Kommunikation}{162}{paragraph.10.2.3.2}%
+\contentsline {subsubsection}{\numberline {10.2.4}Individuelle Komponenten}{163}{subsubsection.10.2.4}%
+\contentsline {paragraph}{\numberline {10.2.4.1}Parser und Interpretation: drahtloser Datenströme}{164}{paragraph.10.2.4.1}%
+\contentsline {paragraph}{\numberline {10.2.4.2}Parser und Interpretation: serieller Datenströme}{164}{paragraph.10.2.4.2}%
+\contentsline {paragraph}{\numberline {10.2.4.3}proaktiver Datenkorrekturalgorithmus}{164}{paragraph.10.2.4.3}%
+\contentsline {paragraph}{\numberline {10.2.4.4}Datenaufbereitung und Anweisung für Servoaktoren}{166}{paragraph.10.2.4.4}%
+\contentsline {subsubsection}{\numberline {10.2.5}Fremdkomponenten}{167}{subsubsection.10.2.5}%
+\contentsline {paragraph}{\numberline {10.2.5.1}MCP3X21}{167}{paragraph.10.2.5.1}%
+\contentsline {paragraph}{\numberline {10.2.5.2}HCPCA9685}{167}{paragraph.10.2.5.2}%
+\contentsline {paragraph}{\numberline {10.2.5.3}ESP-NOW und Wifi.h}{167}{paragraph.10.2.5.3}%
+\contentsline {subsection}{\numberline {10.3}User Interface [\textcolor {blue}{Szabo}]}{168}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Grundlegende Vorraussetzungen}{168}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Entwicklungsumgebung}{168}{subsubsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.3}Konzepte und Überlegungen}{168}{subsubsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.4}Realisierung des Frontends}{170}{subsubsection.10.3.4}%
+\contentsline {subsubsection}{\numberline {10.3.5}Erläuterung der Grafikoberfläche}{170}{subsubsection.10.3.5}%
+\contentsline {subsubsection}{\numberline {10.3.6}Realisierung des Backends}{172}{subsubsection.10.3.6}%
+\contentsline {section}{\numberline {11}Tests und Messungen}{173}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Widerstandsmessung der Flexsensoren [\textcolor {blue}{Schweitzer}]}{173}{subsection.11.1}%
+\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{177}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Mechanik [\textcolor {blue}{Al-Maytah}]}{177}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Hardware [\textcolor {blue}{Szabo}]}{177}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Software}{178}{subsection.12.3}%
+\contentsline {subsubsection}{\numberline {12.3.1}Eingabesubsystem [\textcolor {blue}{Schweitzer}]}{178}{subsubsection.12.3.1}%
+\contentsline {subsubsection}{\numberline {12.3.2}Ausgabesubsystem [\textcolor {blue}{Al-Maytah}]}{179}{subsubsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.4}Gesamtintegration [\textcolor {blue}{Schweitzer}]}{179}{subsection.12.4}%
+\contentsline {section}{\numberline {13}Ausblick}{182}{section.13}%
+\contentsline {section}{\numberline {14}Abkürzungsverzeichnis}{184}{section.14}%
+\contentsline {section}{\numberline {15}Projektmanagement}{185}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Projektstrukturplan}{185}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Milestoneplan}{185}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Gantt-Diagram}{185}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Arbeitstunden}{186}{subsection.15.4}%
+\contentsline {section}{\numberline {16}Programme, Installationen und Plugins}{197}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Fusion 360}{197}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}UltiMaker Cura}{197}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}KiCad}{197}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Arduino IDE}{197}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}QT Framework}{197}{subsection.16.5}%
+\contentsline {section}{\numberline {17}Fertigungsunterlagen}{198}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Mechanik}{198}{subsection.17.1}%
+\contentsline {subsubsection}{\numberline {17.1.1}Skizzen ud Konzepte}{198}{subsubsection.17.1.1}%
+\contentsline {subsubsection}{\numberline {17.1.2}CAD-Zeichnungen}{198}{subsubsection.17.1.2}%
+\contentsline {subsubsection}{\numberline {17.1.3}3D-Modelle}{198}{subsubsection.17.1.3}%
+\contentsline {subsection}{\numberline {17.2}Hardware}{199}{subsection.17.2}%
+\contentsline {subsubsection}{\numberline {17.2.1}Skizzen und Konzepte}{199}{subsubsection.17.2.1}%
+\contentsline {subsubsection}{\numberline {17.2.2}Stromlaufpläne}{200}{subsubsection.17.2.2}%
+\contentsline {subsubsection}{\numberline {17.2.3}Platinenlayouts}{207}{subsubsection.17.2.3}%
+\contentsline {subsubsection}{\numberline {17.2.4}Bestückungslisten}{213}{subsubsection.17.2.4}%
+\contentsline {subsection}{\numberline {17.3}Software}{225}{subsection.17.3}%
+\contentsline {subsubsection}{\numberline {17.3.1}Skizzen und Konzepte}{225}{subsubsection.17.3.1}%
+\contentsline {subsubsection}{\numberline {17.3.2}Diagramme}{225}{subsubsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.4}Software}{225}{subsection.17.4}%
+\contentsline {subsubsection}{\numberline {17.4.1}Skizzen und Konzepte}{225}{subsubsection.17.4.1}%
+\contentsline {subsubsection}{\numberline {17.4.2}Code}{228}{subsubsection.17.4.2}%
+\contentsline {paragraph}{\numberline {17.4.2.1}Eingabesubsystem}{228}{paragraph.17.4.2.1}%
+\contentsline {paragraph}{\numberline {17.4.2.2}Ausgabesubsystem}{228}{paragraph.17.4.2.2}%
+\contentsline {paragraph}{\numberline {17.4.2.3}User-Interface}{228}{paragraph.17.4.2.3}%
