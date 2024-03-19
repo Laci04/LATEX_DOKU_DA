@@ -121,7 +121,7 @@
 	Abgabevermerk:\\
 	\\
 	\\
-	Datum: 13.2.2024 &\hspace{4cm}   übernommen von:\\
+	Datum: 04.04.2024 &\hspace{4cm}   übernommen von:\\
 	\end{tabular}
 	
 	\end{titlepage}
@@ -648,7 +648,314 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. (Al-May
 \section{Vorwissenschaftlicher Theorieteil}
 \label{chap:Vorwissenschaftlicher Theorieteil}
 
-\subsection{\textcolor{purple}{Platzhalter Thema Amir}}
+\subsection{Aktuatoren mit Positionsregelung}
+\subsubsection{Überblick über Aktuatoren}
+Ein Aktuator bezeichnet ein Gerät welche erhaltene Energie und Signale 
+in eine Bewegung oder auch Kraft umwandelt. Diese Apparaturen sind 
+weitverbreitete Komponenten in Bereichen wie der Robotik bis zu 
+großflächigen Anwendungen bei der Automatisierung und Steuerung 
+verschiedener Applikationen in der Industrie. \footnote{\cite{Q1}} \\
+\\
+Die anhand der Umwandlung resultierenden Bewegung kann rotierend oder 
+linear sein. Rotierende Bewegungen werden anhand eines Drehantriebs 
+erzeugt, bei linearen Bewegungen hingegen bewegt sich der Antrieb auf 
+einer Achse in beide Richtungen, vor und zurück. \footnote{\cite{Q4}} \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Actuator}}
+		\caption{Actuator (\textcolor{blue}{Quelle: \cite{Q4}})}
+		\label{fig:Actuator}
+	\end{center}
+\end{figure}
+\paragraph{Diverse Arten von Aktuatoren und deren Anwendungsbereiche}
+\hfill \break
+\hfill \break
+Aufgrund der weitverbreiteten Anwendung von Aktuatoren, erschließen sich 
+verschiedene Arten von diesen. Demnach gibt es thermische, mechanische, 
+elektrische, pneumatische und hydraulische Aktuatoren, mit verschiedenen 
+Eigenschaften für das jeweilige Anwendungsgebiet. Diese Eigenschaften, 
+können zu einem die Kraft, Reaktionszeit und auch Haltbarkeit sein, 
+sowie auch die Dreh- beziehungsweise allgemeine Geschwindigkeit. \footnote{\cite{Q1}} \\
+\subparagraph{Pneumatische Antriebe}
+\hfill \break
+\hfill \break
+Unter einem Pneumatischen Antrieb versteht sich ein Gerät welches anhand 
+von Druckluft eine Bewegung erzeugt. Die Anwendungen sind äußerst 
+vielseitig, beispielsweise für die Bewegung von Komponenten in Maschinen 
+und unter anderem auch zum Steuern, der Stellung eines Ventils. Die 
+Eigenschaften solch eines Antriebs sind sehr geringe Reaktionszeiten 
+sowie starke Kräfte. \footnote{\cite{Q1}} \\
+\subparagraph{Hydraulische Antriebe}
+\hfill \break
+\hfill \break
+Anhand des Drucks von Flüssigkeit wird beim hydraulischen Antrieb eine 
+Bewegung erzeugt, diese findet ihren Platz bei Schwerlastenanwendungen, 
+besonders im Konstruktions- und Fertigungsbereich. Hydraulische 
+Aktuatoren stehen für eine hohe Kraft und Haltbarkeit. \footnote{\cite{Q1}} \\
+\subparagraph{Elektrische Antriebe}
+\hfill \break
+\hfill \break
+Dies Form der Antriebe nutzen elektrische Energie um aus dieser eine 
+Bewegung zu erzeugen. Diese unterteilen sich in Gleich- und 
+Wechselstrommotoren, welche in elektronischen Anwendungen weitverbreitet 
+sind. Aufgrund ihrer äußerst genauen Steuerungsmöglichkeiten, sowie des 
+geringen Geräusches findet er seine Anwendung in der Automatisierung 
+gewisser Systeme, medizinischer Geräte und weiterer Laboranwendungen. \footnote{\cite{Q1}} \\
+\subparagraph{Thermische und magnetische Antriebe}
+\hfill \break
+\hfill \break
+Diese Form von Aktuatoren nutzt die Änderung von Temperatur oder 
+magnetischen Feldern um daraus eine Bewegung zu erzeugen. Ein thermischer 
+Antrieb macht sich somit die Ausdehnung oder Kontraktion gewisser 
+Materialien, welche durch Temperaturänderungen verursacht wurde, zu 
+nutze. Diese Verfahren finden ihre Applikation in sehr kleinen Systemen, 
+wie in mikromechanischen oder miniaturisierten Anwendungen. \footnote{\cite{Q1}} \\
+\subparagraph{Mechanische Antriebe}
+\hfill \break
+\hfill \break
+Eine Bewegung kann bei diesem Antrieb anhand von mechanischen Komponenten 
+wie Zahnräder, Nocken oder Hebel erzeugt werden. Deren Einsatz erfolgt 
+häufig in Anwendungen, die geringe Kosten und eine hohe Haltbarkeit auf 
+längere Zeit erfordern. \footnote{\cite{Q1}} \\
+\paragraph{Einführung in in den Servomotor}
+\hfill \break
+\hfill \break
+Mit einem DC-Motor als Kernkomponente ordnet sich der Servomotor den 
+elektrischen Antrieben zu. Der Begriff \textquote{Servo} bedeutet so viel wie 
+\textquote{Diener} im Lateinischen und ist auf seine Funktion als 
+Aktuator zurückzuführen, denn er ist eine Kombination eines 
+Elektromotors und einer zugehöriger Steuerungs- und Regelelektronik. \footnote{\cite{Q6}} \\
+\subparagraph{Grundlagen eines Servos}
+\hfill \break
+\hfill \break
+Aus dem Zusammenspiel eines Servomotors und eines Servoreglers 
+erschließt sich ein geschlossener Regelkreis, aus dem sich ein 
+jeweiliger Antrieb bildet. Der Servo wird geregelt nach dem Prinzip der 
+Positionsregelung, welche im Kapitel (Positionsregelung) ausführlicher 
+erläutert wird. \footnote{\cite{Q6}} Besonders zeichnen sich diese Motoren anhand ihrer 
+hohen Präzision aus, da sie in der Lage sind eine angeforderte Position 
+akkurat anzusteuern und diese konstant zu halten. Auch führt dies dazu, 
+dass der Antrieb ohne große Verzögerung eine Position beziehungsweise 
+auch Drehzahl erreicht. Eine Anwendung findet dieser daher, aufgrund 
+seiner Eigenschaften, in Systemen, welche darauf abzielen dynamische 
+Bewegungen zu erzielen, wie Roboter oder Maschinen. \footnote{\cite{Q7}} \\
+\subparagraph{Aufbau und Funktionsprinzip eines Servomotors}
+\label{par:Aufbau und Funktionsprinzip eines Servomotors}
+\hfill \break
+\hfill \break
+\textbf{Äußere Komponenten} \\
+\\
+Von außen sind von einem Servomotor sein Hauptgehäuse und seine 
+Anschlüsse zu sehen. Die Anschlüsse dabei sind bei Modellbau Motoren 
+die Versorgung, sowie das Signalkabel. Auf diesem Kabel erfolgt die 
+Datenübermittlung per PWM (Pulse-Wide-Modulation). Auf der oberen Seite 
+des Hauptgehäuses ist Zahnrad zu sehen, auf diesem können je nach 
+Anwendung verschiedene Aufsätze montiert werden. \footnote{\cite{Q1}}\textcolor{blue}{@3 min 38 Sekunden} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Amir_Servo1}}
+		\caption{Äußere Betrachtung eines Servomotors (\textcolor{blue}{Quelle: \cite{Q8}@3 min 51 Sekunden})}
+		\label{fig:Amir_Servo1}
+	\end{center}
+\end{figure}
+\hfill \break
+\textbf{Innere Komponenten} \\
+\\
+Im Innenleben des Servos befindet sich ein Mechanismus, welcher sich aus 
+mehreren Zahnrädern und Kugellagern zusammensetzt, aufgrund der 
+Anordnung, die diese Zahnräder haben, kann der Mechanismus auch als 
+Verbundgetriebe bezeichnet werden. Dieses Getriebe hat zwei Seiten, auf 
+der linken ist der sogenannte Eingang, welcher von einem Gleichstrommotor 
+angetrieben wird, und rechts ist der Ausgang, welcher letztlich die 
+gewünschte Drehung am äußeren des Motors ausgibt und zugleich mit einem 
+Potentiometer, zur Erfassung der Position, verbunden ist. \footnote{\cite{Q8}}\textcolor{blue}{@4 min 15 Sekunden} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Amir_Servo2}}
+		\caption{Servomotor von Innen (\textcolor{blue}{Quelle: \cite{Q8}@4 min 16 Sekunden})}
+		\label{fig:Amir_Servo2}
+	\end{center}
+\end{figure}
+\hfill \break
+Das Verbundgetriebe bewirkt, dass aus der hohen Drehzahl vom 
+Gleichstrommotor eine niedrigere geschaffen wird, und es erhöht sich 
+aufgrund der Übersetzung der Zahnräder das Drehmoment. \footnote{\cite{Q8}}\textcolor{blue}{@4 min 15 Sekunden} \\
+\paragraph{Positionsregelung}
+\hfill \break
+\hfill \break
+\subparagraph{Einführung in die Positionsregelung}
+\hfill \break
+\hfill \break
+Bezugnehmend auf ein System, wie der Antrieb eines Motors, regelt der 
+Positionsregler diesen auf eine bestimmte Position und versucht diese 
+durchgängig zu halten, solange bis auf eine neue Position geregelt 
+werden soll. Die Anwendung der Positionsregelung ist oft in der Robotik 
+zu sehen, sei es eine einzelne Achse eines Roboters oder ganze für 
+Systeme. \\
+\subparagraph{Theoretische Grundlagen}
+\hfill \break
+\hfill \break
+
+\textbf{Theorie und essenzielle Begriffe} \\
+\\
+Eine Regelung basiert immer auf dem Prinzip ein gewisses Ziel zu 
+erreichen und zu halten, ähnlich wie beim Erreichen eines Ziels gibt es 
+einen Ist-Zustand und einen Soll-Zustand. Zur Veranschaulichung kann 
+folgendes Beispiel genommen werden: Ist das Ziel Ein Kilometer zu laufen, 
+dann kann dies als die Soll-Größe betrachtet werden – ist man gerade bei 
+30\% der Strecke dann sind 300 Meter die Ist-Größe. Die Regelabweichung 
+beschreibt die Differenz zwischen der Soll-Größe und der Ist-Größe und 
+wäre in diesem Fall $700m$. Die daraus resultierende Stellgröße, wäre ein 
+Maß für die Anweisung \textdegree{Laufen}. \\
+\\
+\textbf{Erläuterung integrierter Regler} \\
+\\
+Der Regelkreis einen Positionsreglers setzt sich aus mehreren einzelnen 
+Reglern zusammen, um daraus die notwendige Regelstrecke zu bilden. \\
+\\
+\textbf{PID-Regler} \\
+\\
+Eine wesentliche Komponente der Positionsregelung ist der PID-Regler, 
+welcher eine Kombination beziehungsweise gar Parallelschaltung dreier 
+Reglungsglieder ist. Sein Ziel ist es grundsätzlich die Abweichung 
+zwischen Ist- und Sollgröße zu minimieren und dies möglichst präzise, 
+effizient und genau. Aufgrund seiner vielfältigen Eigenschaften ist der 
+PID-Regler in sämtlichen Anwendungen weitverbreitet und darf sich 
+dementsprechend als der \textquote{Standardregler} bezeichnen. Die drei 
+integrierten Regler, das P-Glied, das I-Glied sowie das D-Glieder, 
+ermöglichen das Einstellen anhand von drei Parametern, jedoch 
+ausschließlich auf Basis einer fundierten Berechnung. \footnote{\cite{Haager}}\textcolor{blue}{p.99} \\
+\\
+Die Übertragungsfunktion des PID-Reglers setzt sich aus den einzelnen 
+Übertragungsfunktionen der jeweiligen Glieder zusammen: \\
+\\
+$F_{R}(s)=k_{R}*(1+\frac{1}{sT_{n}}+sT_{v})=k_{R}+\frac{1}{sT_{O}}+sT_{D} $
+\\
+Der erste Summand \textquote{kr} der Übertragungsfunktion ist der P-Regler, das 
+\textquote{P} im Namen ergibt sich aus der Tatsache, dass seine Ausgangsgröße 
+proportional zur Eingangsgröße ist, der P-Regler gibt somit die 
+Konstante \textquote{kr}. \footnote{\cite{Q9}}\textcolor{blue}{P-Regler} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{P_Glied}}
+		\caption{P-Glied (\textcolor{blue}{Quelle: \cite{Haager}p.101})}
+		\label{fig:P_Glied}
+	\end{center}
+\end{figure}
+\hfill \break
+In der Übertragungsfunktion beschreibt der zweite Summand den I-Anteil, 
+dieser erzeugt eine Ausgangsstellgröße welche dem zeitlichen Integral, 
+daher der Name, der Eingangsgröße, sprich der Regelabweichung 
+proportional ist. Bei einer konstanten Regelabweichung würde sich die 
+Stellgröße in Form einer Rampe ändern. \footnote{\cite{Haager}}\textcolor{blue}{p.99} \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{I_Glied}}
+		\caption{I-Glied (\textcolor{blue}{Quelle: \cite{Haager}p.101})}
+		\label{fig:I_Glied}
+	\end{center}
+\end{figure}
+\hfill \break
+Der letzte Summand beinhaltet die Übertragungsfunktion des D-Anteils, 
+das \textquote{D} steht dabei für Differenzierer, denn dieser erzeugt eine 
+Stellgröße welche proportional der zeitlichen Änderungsrate der 
+Regelabweichung ist. Ist die Regelabweichung konstant, gibt es demnach 
+keine Stellgröße, was jedoch bedeutet, dass mit einer raschen Reaktion 
+auf eine Änderung der Regelabweichung zu rechnen ist. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{D_Glied}}
+		\caption{D-Glied (\textcolor{blue}{Quelle: \cite{Haager}p.101})}
+		\label{fig:D_Glied}
+	\end{center}
+\end{figure}
+\hfill \break
+\subparagraph{Funktionsprinzip des Regelkreises}
+\hfill \break
+\hfill \break
+Der Regelkreis einer Positionsregelung setzt sich aus mehreren 
+Verschiedenen Komponenten zusammen, mitunter der PID-Regler als 
+Kernglied, sowie auch weitere P und I Regler. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Regelkreis}}
+		\caption{Makrodarstellung des Regelkreises}
+		\label{fig:Regelkreis}
+	\end{center}
+\end{figure}
+\hfill \break
+Grundsätzlich beginnt der Kreislauf der Regelung mit einer Sollgröße, in 
+diesem Fall ein Soll-Winkel von 100\textdegree. Vorhanden in der Simulation der 
+Positionsregelung ist auch ein optionaler Sollsprung. Als wird der 
+Sollwinkel von Grad in Radiant umgerechnet, folglich wird eine Differenz 
+zwischen dem Soll- und dem aktuellen Drehwinkel gebildet. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Regelkreis2}}
+		\caption{Abschnitt des Regelkreises für die Sollgröße}
+		\label{fig:Regelkreis2}
+	\end{center}
+\end{figure}
+\hfill \break
+Die berechnete Differenz, welche die Regelabweichung darstellt, wird 
+darauf an den PID-Regler übergeben, welche eine entsprechende Stellgröße 
+an den Motor gibt. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Regelkreis3}}
+		\caption{Abschnitt des Regelkreises Motor}
+		\label{fig:Regelkreis3}
+	\end{center}
+\end{figure}
+\hfill \break
+Beschreiben lässt sich der Motor anhand folgenden Blocks, welcher sich 
+aus einem PT1-Glied und mechanischer Widerstände beziehungsweise 
+Belastungen zusammensetzt. Als Verzögerungsglied erster Ordnung 
+simuliert und beschreibt dieses das Anlaufverhalten des Motors. \footnote{\cite{Q12}} 
+Zusätzlich werden das Lastmoment, die Reibung und die Trägheit in das 
+System miteinkalkuliert. Wie in \textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}} 
+bereits beschrieben, wird die Drehzahl mit einem 
+Getriebe übersetzt, im Falle dieses Beispiels beträgt das 
+Übersetzungsverhältnis des Getriebes 0,1. \\
+\\
+Finalerweise wird der Drehwinkel nochmals von Radiant in Grad 
+rückgerechnet und der Drehwinkel ergibt sich, dieser wird anschließend 
+als Feedback im Regelkreis rückgeführt und bietet eine Grundlage zur 
+Berechnung der neuen Regelabweichung. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1.2}
+		{\includegraphics[width=0.8 \linewidth]{Diagram_Positionsregler}}
+		\caption{Diagram Positionsregler}
+		\label{fig:Diagram_Poositionsregler}
+	\end{center}
+\end{figure}
+\hfill \break
+Zu sehen sind in dieser Abbildung, drei Größen: In grün der Soll-Winkel, 
+in blau der tatsächliche Drehwinkel (die Ist-Größe) und die Drehzahl ist 
+orange gekennzeichnet. \\
+Erkennen lässt sich, dass zum Zeitpunkt t=0 das System die Anweisung 
+bekommt auf einen Winkel von 100\textdegree zu regeln. Nach 0,4 Sekunden wurde 
+diese Position erreicht, jedoch zugleich überschritten, der Motor hat 
+sich auf \~105\textdegree gedreht. Während diesem Vorgang ist die Drehzahl auf ein 
+maximum von 10 Umdrehungen angestiegen, nach dem erreichen des Zielwerts 
+sinkt die Drehzahl und somit auch der Drehwinkel bis dieser 100\textdegree 
+erreicht. \\
+
+\newpage
+%=============================================================================
+%=============================================================================
+
 \subsection{Freie Lizenzen}
 \subsubsection{Urheberrecht}
 \paragraph{Definition und Bedeutung}
@@ -1068,8 +1375,6 @@ verzichtet ebenso auf sämtliche Schutzrechte. Mit dem Werk, das mit CC0 lizenzi
 		\label{fig:CCO}
 	\end{center}
 \end{figure}
-\hfill \break
-
 
 \newpage
 %=============================================================================
