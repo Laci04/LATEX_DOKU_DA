@@ -1123,19 +1123,18 @@ finanzieller Nutzen daraus resultiert. \footnote{\cite{WikipediaOpenSource}} \\
 \\
 Laut Befragung nutzen bereits jetzt mehr als 75\% der Unternehmen Open Source Software, bei Behörden sind es 
 immerhin stolze 59\%. Rund 50\% der Unternehmen sind bestrebt die Entwicklung von Open Source zu unterstützen 
-und 32\% der Befragten haben im Unternehmen schon eine Open Source Policy verankert. \\
+und 32\% der Befragten haben im Unternehmen schon eine Open Source Policy verankert. \footnote{\cite{PWC}} \\
 \\
 Die Tendenz ist klar steigend. Dies liegt daran, dass Open Source ein Treiber der Innovation ist. Viele neue 
 Technologien werden vorerst auf dieser Basis geschrieben und später erst, nachdem diese erprobt wurden, in 
 unternehmensinterne Programme aufgenommen. Ein weiterer Vorteil, der auch in der Zukunft nicht unrelevant 
 sein wird, ist der Fakt, dass immer mehr Wert auf Open Source Software gelegt wird, da die anfallenden Kosten 
 dort deutlich geringer sind. Es kann auf diese frei zugegriffen werden und zusätzlich profitiert man von dem 
-weltweiten Netz der Entwickler, die tagtäglich die Software versuchen ein Stück besser zu machen. 
+weltweiten Netz der Entwickler, die tagtäglich die Software versuchen ein Stück besser zu machen. \footnote{\cite{PWC2}}
 Schlussfolgernd ist es auch für Unternehmen vorteilhaft, wenn sie Open Source Projekte jederzeit verändern 
 dürfen. Gerade im Bereich der Künstlichen Intelligenz wird ein Fokus auf die Entwicklung als Open Source 
 Software gesetzt werden. Nebenbei ist das Thema Sicherheit nie zu vergessen, deshalb wird wohl in Zukunft 
-auch auf diesen Bereich, da es immer häufiger zu Cyberattacken kommt, mehr Wert gelegt werden. \\
-
+auch auf diesen Bereich, da es immer häufiger zu Cyberattacken kommt, mehr Wert gelegt werden. \footnote{\cite{bitkom}} \\
 \paragraph{Lizenzen}
 \hfill \break
 \hfill \break
@@ -1213,13 +1212,13 @@ Unklarheiten beseitigt und Lücken in der Auslegung verschiedenster rechtlicher 
 Heutzutage stellt die GPL V2 die am meisten verbreite GPL-Lizenz dar. Nicht zuletzt aufgrund der Einfachheit, 
 da es ab der GPL V3 deutlich komplexer wurde. \\
 \begin{itemize}
-	\item Eine wichtige Neuerung stellte die ,,Liberty or Death-Klausel“ dar. Diese wurde mit dem Sinn 
+	\item Eine wichtige Neuerung stellte die \textquote{Liberty or Death-Klausel} dar. Diese wurde mit dem Sinn 
 	eingeführt, dass diejenigen Menschen, die versuchen die Rechte zu beschränken, die einem durch die 
 	Lizenz zustehen, diese automatisch verlieren.
-	\item •	Die Systembibliotheken Ausnahme kam in der V2 ebenfalls hinzu. Ab diesem Zeitpunkt war es auch 
+	\item Die Systembibliotheken Ausnahme kam in der V2 ebenfalls hinzu. Ab diesem Zeitpunkt war es auch 
 	möglich Systembibliotheken in GPL-lizenzierter Software zu verwenden, ohne dabei einen Verstoß zu begehen. 
 	Das erleichterte den Entwicklern das Schaffen von neuer Software drastisch.
-	\item •	Wichtige Softwareprojekte, wie beispielsweise der Linux Kernel, wurden unter der GPL V2 
+	\item Wichtige Softwareprojekte, wie beispielsweise der Linux Kernel, wurden unter der GPL V2 
 	veröffentlicht. \footnote{\cite{WikipediaGPL3}}
 \end{itemize}
 \hfill \break
@@ -1229,7 +1228,7 @@ Die dritte Version der GPL wurde 2007 veröffentlicht. In dieser wurde der Fokus
 Neuerungen, die seit der letzten Veröffentlichung stattfanden, gelegt und wie man auf diese am besten 
 reagieren kann. Die wichtigsten Neuerungen: \\
 \begin{itemize}
-	\item •	Eine wichtige Neuerung stellte das Behandeln von \textquote{Tivoisierung} dar. Das bedeutet, dass 
+	\item Eine wichtige Neuerung stellte das Behandeln von \textquote{Tivoisierung} dar. Das bedeutet, dass 
 	Hersteller oftmals GPL-lizensierte Software auf deren Hardware hatten, die nur sie darauf verändern 
 	konnten. In der GPL V3 kam die Neuerung hinzu, dass den Nutzern Schlüssel oder Codes zur Verfügung 
 	gestellt werden müssen, damit auch modifizierte Software auf der Hardware zugelassen werden kann.
@@ -1252,7 +1251,7 @@ Werke mit Apache V2.0 Lizenz müssen: \\
 	\item eine Kopie der Apache Lizenz beinhalten
 	\item angeben, wenn diese modifiziert wurden und dies an einer gut sichtbaren Stelle vermerken
 	\item alle originalen Urheberrechtsvermerke innerhalb der Quellform angeben
-	\item o	im Falle des Vorhandenseins einer Textdatei mit dem Namen \textquote{NOTICE}, die 
+	\item im Falle des Vorhandenseins einer Textdatei mit dem Namen \textquote{NOTICE}, die 
 	darinstehenden Urhebervermerke enthalten \footnote{\cite{WikipediaApache}}
 \end{itemize}
 \hfill \break
@@ -2400,7 +2399,37 @@ welches in [\textcolor{blue}{\autoref{chap:User Interface}}] näher erklrärt wi
 \label{chap:Mechanische Realisierung}
 
 \subsection{Handschuh \textcolor{red}{Amir}}
-\subsubsection{\textcolor{purple}{Platzhalter für diverse Unterpunkte von Amir}}
+\subsubsection{Anforderungen}
+Für eine korrekte Erfassung der Daten erfordert das Eingangssubsystem nicht nur ein 
+zuverlässiges Messsystem sondern, oder eine effiziente Datenkorrektur per Software, 
+sondern auch eine Mechanische Komponente, welche die Sensorik entsprechend an den 
+Fingern des Nutzers positioniert. Demnach soll eine an die Hand montierbare physische 
+Komponente entworfen werden, welche dies erfüllt. \\
+\\
+\subsubsection{Überlegungen}
+Die erste Überlegung war es unter anderem einen Stoff-Handschuh, besser gesagt ein 
+Arbeitshandschuh, als Basis dieser Komponente zu nutzen, auf diesem sollen die 
+Flex-Sensoren entsprechend angebracht werden. Wichtig ist, dass die Sensoren sich 
+mit dem Finger mitbiegen und bewegen und dies der Fingerstellung entsprechend. \\
+\\
+\subsubsection{Versuche}
+Der initiale Versuch, war es einen Stoff-Handschuh zu nutzen und an die Finger 
+dessen die Sensoren anzunähen. Jeder Flex-Sensor ist somit mit seinem Anfang, der 
+Punkt, an dem auch die Anschlüsse des Sensors sind, fest vernäht und fixiert. Weiters 
+wurde er auch mit eine naht ummantelt, in der er sich begrenzt nach vor und zurück 
+bewegen kann. Er wird durch diese Ummantelung somit ständig am Finger gehalten, kann 
+sich jedoch auch frei bewegen in ihm. \\
+\\
+\subsubsection{Testergebnisse}
+\begin{itemize}
+	\item Der Handschuh wirkt äußerst einschränkend auf die Hand des Nutzers, dies 
+	ist darauf zurückzuführen, dass er äußerst dick ist.
+	\item Aufgrund dieser Dicke, kann beim anwinkeln des Fingers, der Sensor nicht 
+	entsprechend geknickt werden um eine ausreichendes Messergebnis zu liefern.
+\end{itemize}
+\hfill \break
+Nach weiteren Überlegungen kam es zu einem neuen Konzept, ohne einen Handschuh als 
+Basis. Dieses ermöglicht es die Hand fr
 
 
 \newpage
@@ -3212,7 +3241,7 @@ Dadurch konnte der Durchmesser des Zahnrades um ein Vielfaches verkleinert werde
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.8}
+		\scalebox{1}
 		{\includegraphics[width=0.8 \linewidth]{Zahnstangenmechanismus_Unterarm}}
 		\caption{Verbesserung der ersten Rekonstruktion}
 		\label{fig:Zahnstangenmechanismus_Unterarm}			
@@ -3226,10 +3255,87 @@ Langlöchern adjustiert werden. Das Modell wurde mit der Rücksicht entworfen, S
 \paragraph{Realisierung und Aufbau}
 \hfill \break
 \hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Handv2_real}}
+		\caption{Roboterhand Etnwicklungsstufe Hybrid}
+		\label{fig:Handv2_real}			
+	\end{center}
+\end{figure}
+\hfill \break
+Die realisierte Hand, welche eine von Gael Levin erweiterte Version der Hand aus 
+\autoref{chap:Entwicklungsstufe: InMoov} ist, weist auch in der Realität eine 
+deutlich höhere Stabilität als die der vorherigen Hand auf. Besonders die 
+Verbindung der Fingergelenke und deren Wandstärke hat sich bereits bei der Montage 
+als äußerst stabil erwiesen. Zu Schwierigkeiten kam es beim Einbauen der Zugfeder, 
+welche für den Rückzug des Fingers verantwortlich ist, da diese sich schwer durch 
+die Führungen ziehen ließ und währenddessen gespannt werden musste. Auch wurden 
+Fingerkuppen aus Silikon in einer entsprechenden Form gegossen, welche für mehr 
+Grip sorgen sollen. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Unterarm_real}}
+		\caption{Mechanismus der Entwicklungsstufe Hybrid}
+		\label{fig:Unterarm_real}			
+	\end{center}
+\end{figure}
+\hfill \break
+In der \autoref{fig:Unterarm_real} sind die gedruckten Komponenten des Motorblocks 
+zu sehen, die Montage ist jedoch nur durch ein Zusammenspiel von Software und 
+Hardware möglich. Der Servomotor muss in die Position 0 gestellt werden, folglich 
+wird die Zahnstange mit gespannter Schnur entsprechend positioniert, daraufhin 
+darf erst das Zahnrad montiert werden. Für die Zahnstangen war eine Anpassung 
+notwendig, da diese etwas zu dick für die Führungen waren. \\
+\\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{1}
+		{\includegraphics[width=0.8 \linewidth]{Arm_real}}
+		\caption{Mechanismus Entwicklungsstufe Hybrid mit Oberarmerweiterung}
+		\label{fig:Arm_real}			
+	\end{center}
+\end{figure}
+\hfill \break
+Neben dem Entwurf und der Realisierung des Unterarms wurde zusätzlich aus 
+Eigeninitiative der von Gael Levin gefertigte Oberarm und das dazugehörige 
+Schulgelenk gedruckt und an ein entsprechendes Gerüst befestigt. Jedoch ist diese 
+Erweiterung nicht motorisiert worden, dies hat den Grund, dass das Diplomprojekt
+von der Abteilung abgenommen und im Robotik-Unterricht erweitert werden soll. \\
+Dabei können zahlreiche Erweiterungen vorgenommen werden, wie unteranderem die 
+Ausstattung mit Motoren an vier möglichen Gelenken und weitere mechanische 
+Anpassungen. \\
+\paragraph{Versuche}
+\hfill \break
+\hfill \break
+Bei dieser finalen Entwicklungsstufe hat sich gezeigt, dass die Erkenntnisse der 
+vorherigen Stufen zu einem nun stabilen und zuverlässigen Modell geführt haben. 
+Die Versuchsergebnisse haben folgende Informationen geliefert: \\
+\\
+\begin{itemize}
+	\item Die neue Mechanik ist äußerst präzise, sei es der Motorblock oder der 
+	Faltmechanismus. Die Finger können äußerst akkurat auf eine gewünschte 
+	Position gestellt werden.
+	\item Der Griff, welcher durch die Fingerkuppen aus Silikon geschaffen wird, 
+	ermöglicht es passende Objekte fest zu greifen. Getestet wurde dies mit einer 
+	250ml Flasche, einem Handschuh, einer menschlichen Hand und auch mit Werkzeug, 
+	wie einem Schraubendreher. 
+	\item Die Reibung konnte erheblich reduziert werden, besonders hilfreich waren 
+	dabei noch zusätzlich gefräste Umlenkungen, welche die Zugschnur auch 
+	ausrichten. 
+\end{itemize}
 
-\paragraph{Versuche...}
-\hfill \break
-\hfill \break
+\subsubsection{Fazit und Reflexion}
+Die Entwicklung der Mechanik hatte viele Höhen und Tiefen, war jedoch äußerst 
+lehrreich. Jede Entwicklungsstufe hat ihre Erkenntnisse mit sich gebracht, jedoch 
+auch gezeigt, dass sich einige Probleme nicht eliminieren sondern ausschließlich 
+minimieren lassen. Während dem Prozess der Entwicklung hat der Faltmechanismus 
+einige Änderungen und Anpassungen erhalten, von der bloßen Verbindung mit 
+Gummikordeln bis zu einer separaten Verbindung der Fingerglieder und einem 
+Rückzug mit einer Zugfeder. Die letzte Entwicklungsstufe darf nun als Konzept 
+betrachtet werden, welches alle positiven Eigenschaften der vorherigen Modelle 
+vereint und daraus eine optimale Hand für unsere Anforderungen geschaffen hat. \\
 
 \newpage
 %--------------------------------------------------------------------------
@@ -3442,24 +3548,6 @@ dem reinen Chip und dem Modul, bei dem die Antenne und andere Funktionalitäten,
 schon integriert sind. Nach Abwägungen von Größe und Performance, haben wir uns für das ESP32-WROOM-32E-N16 Modul entschieden.
 Dieses hat eine integrierte Antenne, reichlich Performance und viel Flash-Speicher. Der Formfaktor ist bei allen diesen 
 Funktionalitäten immer noch im Rahmen. \\
-\\
-\paragraph{\textcolor{red}{Akkuversorgung}}
-\hfill \break
-\hfill \break
-Da es nicht praktikabel ist die Schaltung des Handschuhs dauerhaft mit einem Kabel zu versorgen, soll dies schlussendlich durch
-einen Akku oder eine Batterie erfolgen. Entschieden haben wir uns für eine Lithium-Polymer-Akku (LiPo), da diese trotz geringer 
-größe verglichen mit anderen Akkuarten eine hohe Kapazität besitzen. \\
-\\
-Die notwendige Kapazität für eine bestimmte Betriebsdauer wurde folgendermaßen berechnet:
-\textcolor{red}{Berechnung Akkukapazität hier einfügen}
-\\
-Um den LiPo-Akku nicht jedes mal extern aufladen zu müssen, haben wir uns eine Schaltung überlegt, die dies auch mithilfe des
-schon vorhandenen USB-C Anschlusses für das Programmieren des Mikrokontrollers verwendet wird. Dazu ist allerdings eine relativ 
-komplitzierte Schaltung notwendig, weswegen bei vielen Produkten, die LiPo-Akkus verwenden, extra Ladegeräte gekauft werden müssen.
-Dies wollten wir vermeiden und haben dementsprechend viel Zeit in die Reserche für eine funktionierende LiPo-Kontroller-Schaltung
-investiert. \\
-\\
-Zunächst ist jedoch wichtig zu wissen, welchen Akku wir überhaupt erwenden. Entschieden haben wir uns für den \textcolor{red}{LiPo-Akku}.
 \\
 
 \subsubsection{Versuchsaufbauten und Messungen \textcolor{red}{Laci}}
@@ -4822,12 +4910,12 @@ verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umset
 	\begin{center}
 		\scalebox{1.1}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss1_Roboterhand}}
-		\caption{Programmfluss1}
+		\caption{Flussdiagramm der Software des Ausgabesubsystems}
 		\label{fig:Programmfluss1_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
-Das Diagramm in [\textcolor{blue}{\autoref{label:Programmfluss1_Roboterhand}}] veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
+Das Diagramm in [\textcolor{blue}{\autoref{fig:Programmfluss1_Roboterhand}}] veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
 werden auf diesen verarbeitet und interpretiert.
 \\
 Zu Beginn der Software muss geklärt werden ob ein seriell verbundenes Userinterface erkannt wurde oder nicht. Ermöglicht wird dies durch eine Anfrage, 
@@ -4843,29 +4931,29 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 	\begin{center}
 		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss2_Roboterhand}}
-		\caption{Programmfluss2}
+		\caption{Route des Only-Glove-Modus im Ausgabesubsystem}
 		\label{fig:Programmfluss2_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
 \textbf{ONLY-GLOVE Modus:} \\
 Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
-die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{red}{8.2.5.3 ESP-NOW und Wifi.h}] wird 
+die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{blue}{\autoref{ESP-NOW und Wifi.h}}] wird 
 die Anwendung dieser Komponente in dem System detailliert erläutert. \\
 Wurden Daten empfangen wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
-Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{red}{8.2.4.1 Parser und Interpretation: drahtloser Datenströme}] weitergegeben, 
+Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}] weitergegeben, 
 dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
-eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{red}{8.2.4.3 proaktiver Datenkorrekturalgorithmus}]
+eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{blue}{par:proaktiver Datenkorrekturalgorithmus}]
 zu finden. \\
 Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
-[\textcolor{red}{8.2.4.4 Datenaufbereitung und Anweisung für Servoaktoren}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
+[\textcolor{blue}{\autoref{par:Datenaufbereitung und Anweisung für Servoaktoren}}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
 gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss3_Roboterhand}}
-		\caption{Programmfluss3}
+		\caption{Route des UI-Mode im Ausgabesubsystem}
 		\label{fig:Programmfluss3_Roboterhand}		
 	\end{center}
 \end{figure}
@@ -4906,9 +4994,9 @@ In Form einer Funktion können diese implementiert werden. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{effiziente_Gliederung}}
-		\caption{effiziente Gliederung}
+		\caption{Überblick der Softwarekomponenten}
 		\label{fig:effiziente_Gliederung}		
 	\end{center}
 \end{figure}
@@ -4922,8 +5010,8 @@ mit Konfigurationsmöglichkeiten für beispielsweise die drahtlose Kommunikation
 \label{chap:Kommunikation-Protokolle}
 Für den Datenaustausch zwischen dem Eingabe- und dem Ausgabesubsystem wird ein einheitliches Protokoll benötigt, welches auch während der Entwicklung 
 ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten welche für das 
-Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{red}{8.2.4.1 Parser und Interpretation: drahtloser Datenströme}]
-und [\textcolor{red}{8.2.4.2 Parser und Interpretation: serieller Datenströme}]. \\
+Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}]
+und [\textcolor{blue}{\autoref{par:Parser und Interpretation: serieller Datenströme}}]. \\
 \\
 
 \paragraph{Drahtlose Kommunikation}
@@ -5025,7 +5113,7 @@ von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. D
 \\
 
 \subsubsection{Individuelle Komponenten}
-Wie in [\textcolor{red}{8.2.2.2 Effiziente Gliederung essenzieller Systemkomponenten}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
+Wie in [\textcolor{blue}{\autoref{Effiziente Gliederung essenzieller Systemkomponenten}}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
 Unterprogrammen zusammen, diese werden als „Komponente“ bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
 sich die jeweiligen Routen, die ein Datenpacket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
 Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
@@ -5033,6 +5121,7 @@ werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter 
 \\
 
 \paragraph{Parser und Interpretation: drahtloser Datenströme}
+\label{par:Parser und Interpretation: drahtloser Datenströme}
 \hfill \break
 \hfill \break
 Die Interpretation drahtloser Datenströme findet auf zwei Datenrouten im Programm ihre Anwendung. Einmal im \textquote{ONLY-GLOVE} Modus und auch im Userinterface 
@@ -5061,21 +5150,23 @@ empfangenen Datenpakets. Der dritte Parameter gibt die Länge des Datenpakets an
 \end{lstlisting}
 \hfill \break
 \normalsize
-Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in [\textcolor{red}{8.2.3.1 Drahtlose Kommunikation}] beschrieben, erfüllt wird. \\
+Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in [\textcolor{blue}{\autoref{par:Drahtlose Kommunikation}}] beschrieben, erfüllt wird. \\
 Ist dies der Fall wird in die Struktur \textquote{Rückgabe} der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
 \\
 
-\paragraph{Parser und Interpreatation: serieller Datenströme}
+\paragraph{Parser und Interpretation: serieller Datenströme}
+\label{par:Parser und Interpretation: serieller Datenströme}
 \hfill \break
 \hfill \break
 Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
-die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{red}{8.2.3.2 Serielle Kommunikation}] beschrieben, hat dieser Parser mit 
+die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{blue}{\autoref{par:Serielle Kommunikation}}] beschrieben, hat dieser Parser mit 
 Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zu einem Anweisungen für einzelne Finger, sowie auch Gesten. \\
 \\
 \textcolor{red}{Platzhalter für Amir} \\
 \\
 
 \paragraph{proaktiver Datenkorrekturalgorithmus}
+\label{par:proaktiver Datenkorrekturalgorithmus}
 \hfill \break
 \hfill \break
 Aufgrund der Volatilität der Flex-Sensoren, sowie auch der Verdrahtung, welche bei Bewegung eines Fingers mitbelastet wird, besteht eine Chance dass es 
@@ -5132,6 +5223,7 @@ den Gebraucher nicht wahrnehmbar. \\
 \\
 
 \paragraph{Datenaufbereitung und Anweisung für Servoaktoren}
+\label{par:Datenaufbereitung und Anweisung für Servoaktoren}
 \hfill \break
 \hfill \break
 Jeder der im Projekt verwendeten Servomotoren, der MG995R, hat im Originalzustand einen maximalen Drehwinkel von 180\textdegree - entsprechend auf diesen 
@@ -5187,6 +5279,7 @@ HCPCA9685.Servo(rueckgabe.servoIndex.XXXXX);
 \hfill \break
 
 \paragraph{ESP-NOW und Wifi.h}
+\label{par:ESP-NOW und Wifi.h}
 \hfill \break
 \hfill \break
 

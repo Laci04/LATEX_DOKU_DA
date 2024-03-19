@@ -10,10 +10,10 @@
 \contentsline {figure}{\numberline {9}{\ignorespaces Abschnitt des Regelkreises Motor\relax }}{15}{figure.caption.13}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Diagram Positionsregler\relax }}{16}{figure.caption.14}%
 \contentsline {figure}{\numberline {11}{\ignorespaces CC BY (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{26}{figure.caption.15}%
-\contentsline {figure}{\numberline {12}{\ignorespaces CC BY-SA (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{26}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces CC BY-SA (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.16}%
 \contentsline {figure}{\numberline {13}{\ignorespaces CC BY-NC (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.17}%
 \contentsline {figure}{\numberline {14}{\ignorespaces CC BY-NC-SA (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.18}%
-\contentsline {figure}{\numberline {15}{\ignorespaces CC BY-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces CC BY-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.19}%
 \contentsline {figure}{\numberline {16}{\ignorespaces BY-NC-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.20}%
 \contentsline {figure}{\numberline {17}{\ignorespaces CCO (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.21}%
 \contentsline {figure}{\numberline {18}{\ignorespaces Koexistenz \textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {rubigm.p11}}\relax }}{30}{figure.caption.22}%
@@ -65,75 +65,78 @@
 \contentsline {figure}{\numberline {64}{\ignorespaces Rekonstruktion des Motorblocks\relax }}{90}{figure.caption.68}%
 \contentsline {figure}{\numberline {65}{\ignorespaces Mechanismus mit Zahnrad und Zahnstange\relax }}{91}{figure.caption.69}%
 \contentsline {figure}{\numberline {66}{\ignorespaces Verbesserung der ersten Rekonstruktion\relax }}{92}{figure.caption.70}%
-\contentsline {figure}{\numberline {67}{\ignorespaces LTspice Simulation der Flexesnor - Messschaltung\relax }}{94}{figure.caption.71}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Steckbrettaufbau der Flexesnor - Messschaltung\relax }}{99}{figure.caption.72}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Netzteileinstellungen\relax }}{100}{figure.caption.73}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Oszilloskopbild mit $R_{L} = 27k\Omega $\relax }}{101}{figure.caption.74}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Oszilloskopbild mit $R_{L} = 67k\Omega $\relax }}{102}{figure.caption.75}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Oszilloskopbild mit $R_{L} = 118k\Omega $\relax }}{103}{figure.caption.76}%
-\contentsline {figure}{\numberline {73}{\ignorespaces USB-C-Buchse\relax }}{104}{figure.caption.77}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Flexsensor Connector\relax }}{105}{figure.caption.78}%
-\contentsline {figure}{\numberline {75}{\ignorespaces ESP32 Mikrokontroller\relax }}{106}{figure.caption.79}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Status LEDs\relax }}{107}{figure.caption.80}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Multiplexer\relax }}{107}{figure.caption.81}%
-\contentsline {figure}{\numberline {78}{\ignorespaces Operationsverstärker - Schaltung\relax }}{108}{figure.caption.82}%
-\contentsline {figure}{\numberline {79}{\ignorespaces ADC - Schaltung\relax }}{108}{figure.caption.83}%
-\contentsline {figure}{\numberline {80}{\ignorespaces Gyroskopsensor - Schaltung\relax }}{109}{figure.caption.84}%
-\contentsline {figure}{\numberline {81}{\ignorespaces Platinenoberseite - erste Testplatine - Eingabesubsystem\relax }}{110}{figure.caption.85}%
-\contentsline {figure}{\numberline {82}{\ignorespaces Platinenunterseite - erste Testplatine - Eingabesubsystem\relax }}{111}{figure.caption.86}%
-\contentsline {figure}{\numberline {83}{\ignorespaces Toplayer des zweiten Platinenlayouts\relax }}{112}{figure.caption.87}%
-\contentsline {figure}{\numberline {84}{\ignorespaces Bottomlayer des zweiten Platinenlayouts\relax }}{113}{figure.caption.88}%
-\contentsline {figure}{\numberline {85}{\ignorespaces Topside des zweiten Platinenmodells\relax }}{114}{figure.caption.89}%
-\contentsline {figure}{\numberline {86}{\ignorespaces Bottomside des zweiten Platinenmodells\relax }}{114}{figure.caption.90}%
-\contentsline {figure}{\numberline {87}{\ignorespaces Schaltbild der Stromessschaltung\relax }}{118}{figure.caption.91}%
-\contentsline {figure}{\numberline {88}{\ignorespaces Steckbrettaufbau der Messchaltung zur Strommessung\relax }}{120}{figure.caption.92}%
-\contentsline {figure}{\numberline {89}{\ignorespaces Testaufbau der Strommessung eines Servomotors\relax }}{121}{figure.caption.93}%
-\contentsline {figure}{\numberline {90}{\ignorespaces Messtabelle Strommessung\relax }}{122}{figure.caption.94}%
-\contentsline {figure}{\numberline {91}{\ignorespaces Diagramm der Strommessung in Abhängigkeit der Zugkraft\relax }}{123}{figure.caption.95}%
-\contentsline {figure}{\numberline {92}{\ignorespaces Oszilloskopbild - Stromanlaufverhalten eines Servomotors\relax }}{123}{figure.caption.96}%
-\contentsline {figure}{\numberline {93}{\ignorespaces USB-C-Buchse\relax }}{125}{figure.caption.97}%
-\contentsline {figure}{\numberline {94}{\ignorespaces Netzteil Input Connector\relax }}{126}{figure.caption.98}%
-\contentsline {figure}{\numberline {95}{\ignorespaces Serial-UART-Bridge\relax }}{127}{figure.caption.99}%
-\contentsline {figure}{\numberline {96}{\ignorespaces Mikrokontroller ESP32\relax }}{128}{figure.caption.100}%
-\contentsline {figure}{\numberline {97}{\ignorespaces Mikorkontroller Buttons\relax }}{128}{figure.caption.101}%
-\contentsline {figure}{\numberline {98}{\ignorespaces Spannungswandler 5V - 3.3V\relax }}{129}{figure.caption.102}%
-\contentsline {figure}{\numberline {99}{\ignorespaces PWM Controller\relax }}{130}{figure.caption.103}%
-\contentsline {figure}{\numberline {100}{\ignorespaces Servo Anschlüsse\relax }}{131}{figure.caption.104}%
-\contentsline {figure}{\numberline {101}{\ignorespaces Multiplexer Schaltung\relax }}{132}{figure.caption.105}%
-\contentsline {figure}{\numberline {102}{\ignorespaces OPV Schaltung\relax }}{132}{figure.caption.106}%
-\contentsline {figure}{\numberline {103}{\ignorespaces ADC Schaltung\relax }}{133}{figure.caption.107}%
-\contentsline {figure}{\numberline {104}{\ignorespaces Status LEDs\relax }}{134}{figure.caption.108}%
-\contentsline {figure}{\numberline {105}{\ignorespaces Oberseite erste Testplatine Ausgabesubsystem\relax }}{135}{figure.caption.109}%
-\contentsline {figure}{\numberline {106}{\ignorespaces Unterseite erste Testplatine Ausgabesubsystem\relax }}{136}{figure.caption.110}%
-\contentsline {figure}{\numberline {107}{\ignorespaces Toplayer zweites Platinendesign\relax }}{137}{figure.caption.111}%
-\contentsline {figure}{\numberline {108}{\ignorespaces Bottomlayer zweites Platinendesign\relax }}{138}{figure.caption.112}%
-\contentsline {figure}{\numberline {109}{\ignorespaces Oberseite zweites Platinenmodell\relax }}{139}{figure.caption.113}%
-\contentsline {figure}{\numberline {110}{\ignorespaces Unterseite zweites Platinenmodell\relax }}{140}{figure.caption.114}%
-\contentsline {figure}{\numberline {111}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{146}{figure.caption.115}%
-\contentsline {figure}{\numberline {112}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{147}{figure.caption.116}%
-\contentsline {figure}{\numberline {113}{\ignorespaces Programmfluss1\relax }}{151}{figure.caption.117}%
-\contentsline {figure}{\numberline {114}{\ignorespaces Programmfluss2\relax }}{152}{figure.caption.118}%
-\contentsline {figure}{\numberline {115}{\ignorespaces Programmfluss3\relax }}{153}{figure.caption.119}%
-\contentsline {figure}{\numberline {116}{\ignorespaces effiziente Gliederung\relax }}{155}{figure.caption.120}%
-\contentsline {figure}{\numberline {117}{\ignorespaces Median\relax }}{159}{figure.caption.123}%
-\contentsline {figure}{\numberline {118}{\ignorespaces Median\relax }}{159}{figure.caption.124}%
-\contentsline {figure}{\numberline {119}{\ignorespaces User-Interface Konzept\relax }}{163}{figure.caption.126}%
-\contentsline {figure}{\numberline {120}{\ignorespaces UI Benutzeroberfläche\relax }}{164}{figure.caption.127}%
-\contentsline {figure}{\numberline {121}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{168}{figure.caption.128}%
-\contentsline {figure}{\numberline {122}{\ignorespaces Einstellung 1\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {123}{\ignorespaces Einstellung 2\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {124}{\ignorespaces Einstellung 3\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {125}{\ignorespaces Einstellung 4\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {126}{\ignorespaces Einstellung 5\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {127}{\ignorespaces Einstellung 6\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {128}{\ignorespaces Einstellung 7\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {129}{\ignorespaces Einstellung 8\relax }}{170}{table.caption.131}%
-\contentsline {figure}{\numberline {130}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{201}{figure.caption.144}%
-\contentsline {figure}{\numberline {131}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{202}{figure.caption.145}%
-\contentsline {figure}{\numberline {132}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{203}{figure.caption.146}%
-\contentsline {figure}{\numberline {133}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{204}{figure.caption.147}%
-\contentsline {figure}{\numberline {134}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{205}{figure.caption.148}%
-\contentsline {figure}{\numberline {135}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{206}{figure.caption.149}%
-\contentsline {figure}{\numberline {136}{\ignorespaces Softwarekonzept Eingabesubsystem\relax }}{219}{figure.caption.162}%
-\contentsline {figure}{\numberline {137}{\ignorespaces Softwarekonzept Ausgabesubsystem\relax }}{220}{figure.caption.163}%
-\contentsline {figure}{\numberline {138}{\ignorespaces Softwarekonzept Teilbereich Servostellung\relax }}{221}{figure.caption.164}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Roboterhand Etnwicklungsstufe Hybrid\relax }}{93}{figure.caption.71}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Mechanismus der Entwicklungsstufe Hybrid\relax }}{94}{figure.caption.72}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Mechanismus Entwicklungsstufe Hybrid mit Oberarmerweiterung\relax }}{95}{figure.caption.73}%
+\contentsline {figure}{\numberline {70}{\ignorespaces LTspice Simulation der Flexesnor - Messschaltung\relax }}{98}{figure.caption.74}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Steckbrettaufbau der Flexesnor - Messschaltung\relax }}{103}{figure.caption.75}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Netzteileinstellungen\relax }}{103}{figure.caption.76}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Oszilloskopbild mit $R_{L} = 27k\Omega $\relax }}{104}{figure.caption.77}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Oszilloskopbild mit $R_{L} = 67k\Omega $\relax }}{105}{figure.caption.78}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Oszilloskopbild mit $R_{L} = 118k\Omega $\relax }}{106}{figure.caption.79}%
+\contentsline {figure}{\numberline {76}{\ignorespaces USB-C-Buchse\relax }}{107}{figure.caption.80}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Flexsensor Connector\relax }}{108}{figure.caption.81}%
+\contentsline {figure}{\numberline {78}{\ignorespaces ESP32 Mikrokontroller\relax }}{109}{figure.caption.82}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Status LEDs\relax }}{110}{figure.caption.83}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Multiplexer\relax }}{110}{figure.caption.84}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Operationsverstärker - Schaltung\relax }}{111}{figure.caption.85}%
+\contentsline {figure}{\numberline {82}{\ignorespaces ADC - Schaltung\relax }}{111}{figure.caption.86}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Gyroskopsensor - Schaltung\relax }}{112}{figure.caption.87}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Platinenoberseite - erste Testplatine - Eingabesubsystem\relax }}{113}{figure.caption.88}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Platinenunterseite - erste Testplatine - Eingabesubsystem\relax }}{114}{figure.caption.89}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Toplayer des zweiten Platinenlayouts\relax }}{115}{figure.caption.90}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Bottomlayer des zweiten Platinenlayouts\relax }}{116}{figure.caption.91}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Topside des zweiten Platinenmodells\relax }}{117}{figure.caption.92}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Bottomside des zweiten Platinenmodells\relax }}{117}{figure.caption.93}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Schaltbild der Stromessschaltung\relax }}{121}{figure.caption.94}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Steckbrettaufbau der Messchaltung zur Strommessung\relax }}{123}{figure.caption.95}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Testaufbau der Strommessung eines Servomotors\relax }}{124}{figure.caption.96}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Messtabelle Strommessung\relax }}{125}{figure.caption.97}%
+\contentsline {figure}{\numberline {94}{\ignorespaces Diagramm der Strommessung in Abhängigkeit der Zugkraft\relax }}{126}{figure.caption.98}%
+\contentsline {figure}{\numberline {95}{\ignorespaces Oszilloskopbild - Stromanlaufverhalten eines Servomotors\relax }}{126}{figure.caption.99}%
+\contentsline {figure}{\numberline {96}{\ignorespaces USB-C-Buchse\relax }}{128}{figure.caption.100}%
+\contentsline {figure}{\numberline {97}{\ignorespaces Netzteil Input Connector\relax }}{129}{figure.caption.101}%
+\contentsline {figure}{\numberline {98}{\ignorespaces Serial-UART-Bridge\relax }}{130}{figure.caption.102}%
+\contentsline {figure}{\numberline {99}{\ignorespaces Mikrokontroller ESP32\relax }}{131}{figure.caption.103}%
+\contentsline {figure}{\numberline {100}{\ignorespaces Mikorkontroller Buttons\relax }}{131}{figure.caption.104}%
+\contentsline {figure}{\numberline {101}{\ignorespaces Spannungswandler 5V - 3.3V\relax }}{132}{figure.caption.105}%
+\contentsline {figure}{\numberline {102}{\ignorespaces PWM Controller\relax }}{133}{figure.caption.106}%
+\contentsline {figure}{\numberline {103}{\ignorespaces Servo Anschlüsse\relax }}{134}{figure.caption.107}%
+\contentsline {figure}{\numberline {104}{\ignorespaces Multiplexer Schaltung\relax }}{135}{figure.caption.108}%
+\contentsline {figure}{\numberline {105}{\ignorespaces OPV Schaltung\relax }}{135}{figure.caption.109}%
+\contentsline {figure}{\numberline {106}{\ignorespaces ADC Schaltung\relax }}{136}{figure.caption.110}%
+\contentsline {figure}{\numberline {107}{\ignorespaces Status LEDs\relax }}{137}{figure.caption.111}%
+\contentsline {figure}{\numberline {108}{\ignorespaces Oberseite erste Testplatine Ausgabesubsystem\relax }}{138}{figure.caption.112}%
+\contentsline {figure}{\numberline {109}{\ignorespaces Unterseite erste Testplatine Ausgabesubsystem\relax }}{139}{figure.caption.113}%
+\contentsline {figure}{\numberline {110}{\ignorespaces Toplayer zweites Platinendesign\relax }}{140}{figure.caption.114}%
+\contentsline {figure}{\numberline {111}{\ignorespaces Bottomlayer zweites Platinendesign\relax }}{141}{figure.caption.115}%
+\contentsline {figure}{\numberline {112}{\ignorespaces Oberseite zweites Platinenmodell\relax }}{142}{figure.caption.116}%
+\contentsline {figure}{\numberline {113}{\ignorespaces Unterseite zweites Platinenmodell\relax }}{143}{figure.caption.117}%
+\contentsline {figure}{\numberline {114}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{149}{figure.caption.118}%
+\contentsline {figure}{\numberline {115}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{150}{figure.caption.119}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Flussdiagramm der Software des Ausgabesubsystems\relax }}{154}{figure.caption.120}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Route des Only-Glove-Modus im Ausgabesubsystem\relax }}{156}{figure.caption.121}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Route des UI-Mode im Ausgabesubsystem\relax }}{157}{figure.caption.122}%
+\contentsline {figure}{\numberline {119}{\ignorespaces Überblick der Softwarekomponenten\relax }}{159}{figure.caption.123}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Median\relax }}{163}{figure.caption.126}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Median\relax }}{164}{figure.caption.127}%
+\contentsline {figure}{\numberline {122}{\ignorespaces User-Interface Konzept\relax }}{167}{figure.caption.129}%
+\contentsline {figure}{\numberline {123}{\ignorespaces UI Benutzeroberfläche\relax }}{168}{figure.caption.130}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{172}{figure.caption.131}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Einstellung 1\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Einstellung 2\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Einstellung 3\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Einstellung 4\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Einstellung 5\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Einstellung 6\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Einstellung 7\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Einstellung 8\relax }}{174}{table.caption.134}%
+\contentsline {figure}{\numberline {133}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{205}{figure.caption.147}%
+\contentsline {figure}{\numberline {134}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{206}{figure.caption.148}%
+\contentsline {figure}{\numberline {135}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{207}{figure.caption.149}%
+\contentsline {figure}{\numberline {136}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{208}{figure.caption.150}%
+\contentsline {figure}{\numberline {137}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{209}{figure.caption.151}%
+\contentsline {figure}{\numberline {138}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{210}{figure.caption.152}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Softwarekonzept Eingabesubsystem\relax }}{223}{figure.caption.165}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Softwarekonzept Ausgabesubsystem\relax }}{224}{figure.caption.166}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Softwarekonzept Teilbereich Servostellung\relax }}{225}{figure.caption.167}%

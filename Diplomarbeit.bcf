@@ -2414,24 +2414,24 @@
     <bcf:citekey order="47" intorder="1">WikipediaGPL2</bcf:citekey>
     <bcf:citekey order="48" intorder="1">WikipediaLinux</bcf:citekey>
     <bcf:citekey order="49" intorder="1">WikipediaOpenSource16</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Simpleclub23</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Simpleclub24</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Simpleclub25</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">GNU</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">GNU</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">WikipediaGPL</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">WikipediaGPL3</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">WikipediaGPL3</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">WikipediaGPL4</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">Apache</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">WikipediaApache</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">WikipediaApache</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">CreativeCommons35</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">CreativeCommons36</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">CreativeCommons37</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">bpb</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">CreativeCommonsBilder</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">CreativeCommonsBilder</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">PWC</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">PWC2</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">bitkom</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">Simpleclub23</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Simpleclub24</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Simpleclub25</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">GNU</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">GNU</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">WikipediaGPL</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">WikipediaGPL3</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">WikipediaGPL3</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">WikipediaGPL4</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Apache</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">WikipediaApache</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">WikipediaApache</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">CreativeCommons35</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">CreativeCommons36</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">CreativeCommons37</bcf:citekey>
     <bcf:citekey order="68" intorder="1">bpb</bcf:citekey>
     <bcf:citekey order="69" intorder="1">CreativeCommonsBilder</bcf:citekey>
     <bcf:citekey order="70" intorder="1">CreativeCommonsBilder</bcf:citekey>
@@ -2447,13 +2447,13 @@
     <bcf:citekey order="80" intorder="1">bpb</bcf:citekey>
     <bcf:citekey order="81" intorder="1">CreativeCommonsBilder</bcf:citekey>
     <bcf:citekey order="82" intorder="1">CreativeCommonsBilder</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">CreativeComonsLizenz</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">bpb</bcf:citekey>
     <bcf:citekey order="84" intorder="1">CreativeCommonsBilder</bcf:citekey>
     <bcf:citekey order="85" intorder="1">CreativeCommonsBilder</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">rubigm.p10</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">rubigm.p11</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">rubigm.p11</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">rubigm.p11</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">CreativeComonsLizenz</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">CreativeCommonsBilder</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">CreativeCommonsBilder</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">rubigm.p10</bcf:citekey>
     <bcf:citekey order="90" intorder="1">rubigm.p11</bcf:citekey>
     <bcf:citekey order="91" intorder="1">rubigm.p11</bcf:citekey>
     <bcf:citekey order="92" intorder="1">rubigm.p11</bcf:citekey>
@@ -2464,37 +2464,40 @@
     <bcf:citekey order="97" intorder="1">rubigm.p11</bcf:citekey>
     <bcf:citekey order="98" intorder="1">rubigm.p11</bcf:citekey>
     <bcf:citekey order="99" intorder="1">rubigm.p11</bcf:citekey>
-    <bcf:citekey order="100" intorder="1">TÜVaustria</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">TÜVaustria</bcf:citekey>
-    <bcf:citekey order="102" intorder="1">TÜVaustria</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">Frauenhofer17</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">Frauenhofer17</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">Frauenhofer18</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">Frauenhofer18</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">Frauenhofer18</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">Frauenhofer17</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">FHvorarlberg</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">ISA</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">Pilz</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">TÜVsüd</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">Generationrobots</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">Generationrobots</bcf:citekey>
-    <bcf:citekey order="115" intorder="1">Generationrobots</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">rubigm.p11</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">rubigm.p11</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">rubigm.p11</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">TÜVaustria</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">TÜVaustria</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">TÜVaustria</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Frauenhofer17</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">Frauenhofer17</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">Frauenhofer18</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">Frauenhofer18</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">Frauenhofer18</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">Frauenhofer17</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">FHvorarlberg</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">ISA</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">Pilz</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">TÜVsüd</bcf:citekey>
     <bcf:citekey order="116" intorder="1">Generationrobots</bcf:citekey>
-    <bcf:citekey order="117" intorder="1">Frauenhofer21</bcf:citekey>
-    <bcf:citekey order="118" intorder="1">Frauenhofer21</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">Frauenhofer22</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">Frauenhofer22</bcf:citekey>
-    <bcf:citekey order="121" intorder="1">Frauenhofer23</bcf:citekey>
-    <bcf:citekey order="122" intorder="1">Frauenhofer23</bcf:citekey>
-    <bcf:citekey order="123" intorder="1">Flexsensorabbildung</bcf:citekey>
-    <bcf:citekey order="124" intorder="1">Flexsensorabbildung</bcf:citekey>
-    <bcf:citekey order="125" intorder="1">Servoabbildung</bcf:citekey>
-    <bcf:citekey order="126" intorder="1">Servoabbildung</bcf:citekey>
-    <bcf:citekey order="127" intorder="1">I2Cabbildung</bcf:citekey>
-    <bcf:citekey order="128" intorder="1">I2Cabbildung</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">WIFIabbildung</bcf:citekey>
-    <bcf:citekey order="130" intorder="1">WIFIabbildung</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">Generationrobots</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">Generationrobots</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">Generationrobots</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">Frauenhofer21</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">Frauenhofer21</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">Frauenhofer22</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">Frauenhofer22</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">Frauenhofer23</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">Frauenhofer23</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">Flexsensorabbildung</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">Flexsensorabbildung</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">Servoabbildung</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">Servoabbildung</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">I2Cabbildung</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">I2Cabbildung</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">WIFIabbildung</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">WIFIabbildung</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
