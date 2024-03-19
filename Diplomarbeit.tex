@@ -2483,20 +2483,20 @@ sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
 
 \subsubsection{Versuchsaufbauten}
 \label{chap:Versuchsaufbauten}
-In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell, Erkenntnisse über 
+In diesem Versuchsaufbau war es das Ziel mit einem einfachen Testmodell, Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
 Dafür wurde in der CAD Software Fusion360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] ein erstes Testmodell entworfen. \\
 
 \paragraph{Aufbau}
 \hfill \break
 \hfill \break
-Das Modell besteht aus den drei Gliedern eines Fingers, einer Halterung für einen vorgesehenen
-Servomotor, sowie aus den im Inneren vorhandenen Führungen. \\
+Das Modell besteht aus den drei Gliedern eines Fingers, sowie einer Halterung für einen vorgesehenen
+Servomotor und aus den im Inneren vorhandenen Führungen. \\
 \\
-Zwischen jedem Fingerglied befindet sich ein enstprechender Abstand, verbunden sind diese durch ein Steg. Dieser hat den Zweck sich bei Zug an der Schnur zu biegen, durch 
+Zwischen jedem Fingerglied befindet sich ein enstprechender Abstand, verbunden sind diese durch einen Steg. Dieser hat den Zweck sich bei Zug an der Schnur zu biegen, durch 
 die Führungen wird nur eine Biegung an diesem ermöglicht. Befestigt wird die
-Schnur an einer Halterung am Servomotor und wir dadurch bei Rotation des Servos 
-entsprechend angezogen. Die Fingerglieder haben eine nach außen gewölbte Form und sind 
+Schnur an einer Halterung am Servomotor und wird dadurch bei Rotation des Servos 
+entsprechend gespannt. Die Fingerglieder haben eine nach außen gewölbte Form und sind 
 in Richtung des Stegs verjüngt, dies ermöglicht dem Finger sich auf noch engeren Raum 
 zusammenzuziehen.
 
@@ -2505,8 +2505,8 @@ zusammenzuziehen.
 \hfill \break
 \hfill \break
 Das Versuchsresultat war lehrreich und bot einen breiten Einblick in den angepeilten Failtmechanismus. 
-Dabei gab es zahlreiche Erkenntnisse über Reibung, Stabilität und mechanische Abnutzung 
-sowie aber auch Belastung. \\
+Dabei gab es zahlreiche Erkenntnisse über die Reibung, Stabilität und mechanische Abnutzungen 
+sowie aber auch das Verhalten der Gesamtmechanik bei Belastung. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2520,11 +2520,11 @@ Eine der Erkenntnisse war es, dass die Schnur eine gewisse Reißfestigkeit benö
 Getestet wurden dabei mehrere Schnüre unter anderem auch Nylonschnüre. Als besonders 
 stabil haben sich dann Angelschnüre bewiesen.
 Festgestellt wurde , dass ein mechanischer Rückzug benötigt wird, welcher den 
-Finger wieder in seine Ursprungsposition: ausgestreckt – versetzt. Anfangs war dafür 
+Finger wieder in seine Ursprungsposition: ausgestreckt - versetzt. Anfangs war dafür 
 der Steg vorgesehen, dieser hat sich jedoch über die Zeit abgenutzt und hat den 
 Finger nicht in die Ursprungsposition befördert. Eine der möglichen Lösung sind 
 Gummikordeln, elastische Schnüre, welche am „Fingerrücken“ platziert werden und sich 
-bei Biegen des Fingers spannen. Desto kürzer die Zugschnur im Finger, desto länger die 
+bei Biegen des Fingers spannen. Daraus resultiert: Desto kürzer die Zugschnur im Finger, desto länger die 
 Gummikordel. \\
 
 \subsubsection{Entwicklungsstufe: intitial}
@@ -2539,10 +2539,10 @@ welches den im Versuch aufgetretenen Problematiken trotzen kann. Unter anderem
 der nicht vorhandene Rückzug, eine Schnur für den Zug mit ausreichender 
 Reißfestigkeit sowie eine anwendungsgemäße Konstruktion des Fingers. \\
 \\
-Eine konkrete Lösung, um für mehr Sicherheit im Zusammenhang mit dem Zugsystem 
+Eine konkrete Lösung, um für mehr Zuverlässigkeit, im Zusammenhang mit dem Zugsystem 
 zu sorgen wurde für diesen Aufbau eine Angelschnur gewählt, diese soll äußerst Riss- und Schnittfest sein. \\
 \\
-Im Versuch [siehe \textcolor{blue}{\autoref{chap:Versuchsaufbauten}}] hat sich erwiesen, dass eine Fläche aus PLA welche die 
+Im Versuch [siehe \textcolor{blue}{\autoref{chap:Versuchsaufbauten}}] hat sich erwiesen, dass ein Steg aus dem Kunststoff PLA welche die 
 Fingerglieder verbindet nicht genügend Kraft aufbringt, um den Finger wieder in 
 seine Ursprungsposition zu bewegen. Demnach wird eine Kraft benötigt, welche 
 ständig dem Zug der Angelschnur entgegenwirkt und den Finger entsprechend 
@@ -2556,7 +2556,7 @@ eines Bandes mit ausreichender Kraft gewählt. \\
 \hfill \break
 Das Konzept wird anhand einer Testhand realisiert, diese setzt sich im Wesentlichen 
 aus zwei Komponenten zusammen: dem Motorblock, welcher für die Antriebsmechanik 
-zuständig ist, und der Roboterhand, welche die eigentliche die Bewegungen der Motoren 
+zuständig ist, und der Roboterhand, welche die eigentliche Bewegungen der Motoren 
 in der Bionic Hand umsetzen. \\
 \\
 \begin{figure}[H]
@@ -2572,7 +2572,7 @@ Das komplexeste Modell ist die Roboterhand, die aus mehreren Elementen besteht,
 darunter die Handfläche sowie die einzelnen Finger, die sich jeweils in drei Glieder 
 unterteilen lassen. Der Mechanismus in jedem Finger erfüllt dieselbe Funktion: Durch 
 ziehen an der Schnur verkürzt sich ihre Länge, was dazu führt, dass sich der 
-jeweilige Finger zusammenzieht. Im Detail betrachtet beschränkt sich der Mechanismus 
+jeweilige Finger faltelt. Im Detail betrachtet beschränkt sich der Mechanismus 
 des Fingers nicht nur auf das bloße Ziehen an ihm. Der Finger unterteilt in weitere 
 Elemente. Er besteht aus drei Gliedern, von denen jedes eine Abschrägung an beiden 
 Kanten, die zum nächsten Glied ausgerichtet sind, aufweist. Durch die Verjüngung der 
@@ -2589,9 +2589,9 @@ Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
 \end{figure}
 \hfill \break
 Wie in dieser Grafik ersichtlich wird hier der Querschnitt aller Finger dargestellt, 
-dabei ist es nicht von Relevanz welches der drei Fingerglieder hier genommen wird. 
+dabei ist es nicht von Relevanz welches der jeweils drei Fingerglieder hier genommen wird. 
 Alle Glieder, das unterste, das mittlere sowie das oberste Glied haben eine 
-gemeinsame Eigenschaft: Durch jeden Finger verlaufen drei Tunnel. Der oberste Tunnel 
+gemeinsame Eigenschaft: Durch jedes verlaufen drei Tunnel. Der oberste Tunnel 
 hat den Zweck einen Durchgang für die Angelschnur zu schaffen, an dieser wird gezogen 
 und bewirkt das Falten des Fingers. \\
 \\
@@ -2605,12 +2605,12 @@ und bewirkt das Falten des Fingers. \\
 \end{figure}
 \hfill \break
 In den beiden unteren Tunneln oder auch Kanälen, 
-welche einen ersichtlich größeren Durchmesser von XX mm besitzen verläuft das 
+welche einen ersichtlich größeren Durchmesser besitzen verläuft das 
 Elastomer, ein elastisches Band. Durch Falten des Fingers, welcher durch Zug an der 
-Angelschnur ausgelöst wird, verlängert sich die Strecke auf, die sich das elastische 
+Angelschnur ausgelöst wird, verlängert sich die Strecke, auf die sich das elastische 
 Band spannen muss. Dies löst gegengleich zum Zug eine gegenwirkende Spannung aus. 
 Anhand der durch das Band entstandenen Zugkraft, behält der Finger seine Position, 
-er wird somit gesichert, um weiter in Richtung Zug der Angelschnur zu kippen und 
+er wird somit gesichert, um nicht weiter in Richtung Zug der Angelschnur zu kippen und 
 wiederrum von der Angelschnur, um in Richtung des Bandes zu kippen. Neben der 
 Funktion des Rückzuges verbinden die beiden Bänder alle aneinander liegenden 
 Fingerglieder sowie auch das unterste Glied mit dem Handflächenelement. Dabei 
@@ -2765,7 +2765,7 @@ zur Zugkraft zu Falten. \\
 \paragraph{Einführung}
 \hfill \break
 \hfill \break
-Im Versuch der „ersten Testhand“ haben sich zahlreiche Problematiken und 
+Im Versuch der Entwicklungsstufe "initial" haben sich zahlreiche Problematiken und 
 Erkenntnisse ergeben, demnach erfordert die Weiterentwicklung der Hand, 
 die Unterstützung externer Fachkenntnisse.
 Nach Recherche im Internet, hat sich ergeben, dass ein französischer 
@@ -2784,7 +2784,7 @@ eine weitere Versuchshand zu schaffen. \\
 \label{par:Mechanismus_zweite_Hand}
 \hfill \break
 \hfill \break
-Der Mechanismus der zweiten Versuchshand \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] auf. \\
+Der Mechanismus der zweiten Versuchshand, welche den Namen "Entwicklungsstufe: InMoov" trägt, \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] auf. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -2797,7 +2797,7 @@ Der Mechanismus der zweiten Versuchshand \textquote{InMoov} ist äußerst umfang
 \hfill \break
 Die Problematik, dass wie beim vorherigen Modell die beiden Glieder aneinander reiben und sich nicht parallel zur Zugkraft kontinuierlich umrollen ist hier nicht vorhanden, da die Konstruktion von Grund auf andere Eigenschaften aufweist. 
 Denn die jeweiligen Glieder werden hier nicht mit Bändern verbunden, sondern mit einer Schraube, welche die beiden Glieder, die ineinander gehen verbinden. Durch diese Verbindung sind die Finger zu einem stabil – können nicht nach links und 
-rechts kippen und sich ausschließlich vom ausgestreckten Zustand nach innen Falten. Auch wird mechanisch ein Falten in die andere Richtung, verhindert. \\
+rechts kippen und sich ausschließlich vom ausgestreckten Zustand nach innen Falten. Auch wird mechanisch ein Falten in die andere Richtung blockiert. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -2809,15 +2809,15 @@ rechts kippen und sich ausschließlich vom ausgestreckten Zustand nach innen Fal
 \end{figure}
 \hfill \break
 Am tatsächlichen Faltmechanismus hat sich bis auf einer Anpassung am Elastomer nicht viel geändert, denn der Rückzug erfolgt nicht mehr traditionell per elastischem Band. Diese Umsetzung des Faltmechanismus ist jedoch von großer Bedeutung, dar 
-nur der Rückzug sowie der Faltung von ein und demselben Motor ausgelöst wird. Im Detail funktioniert der Mechanismus wie mit Hilfe der Grafik ersichtlich wie folgt: Am Servomotor wird eine runde Vorrichtung montiert, diese hat an der Außenkante 
+nur der Rückzug sowie die Faltung von ein und demselben Motor ausgelöst wird. Im Detail funktioniert der Mechanismus wie wie folgt: Am Servomotor wird eine runde Vorrichtung montiert, diese hat an der Außenkante 
 eine beidseitige Verjüngung, an dieser soll die Schnur entlanglaufen. Nun verlaufen beide Schnüre, die für den Ein- sowie Auszug verantwortlichen Schnüre, jeweils auf einer Seite, an dieser Runden Vorrichtung und sind an dem Ende dieser montiert. 
-Dreht sich nun der Motor um 90\textdegree gibt er mehr der Schnur(1) her und verkürzt die Schnur(2). Bei diesem Vorgang müssen jedoch beide Schnüre so gespannt sein, dass keine der beiden nachgibt und sich bei Bewegung des Motors lockert. \\
+Dreht sich nun der Motor um 90\textdegree gibt er mehr der Schnur her und verkürzt die zweite Schnur. Bei diesem Vorgang müssen jedoch beide Schnüre so gespannt sein, dass keine der beiden nachgibt und sich bei Bewegung des Motors lockert. \\
 \\
 Das Modell der Handfläche, an dem alle Finger und weitere Komponenten zentral zusammenkommen setzt sich selbst aus insgesamt vier tatsächlichen Elementen zusammen und zwei Hilfselementen. \\
-Das Hauptelement ist in dem Fall wie in der Grafik ersichtlich (1), dies ist das Größte und Zentrale Element, durch dieses Element verlaufen 15 Kanäle, die mittleren fünf dienen optionaler Sensorik. Die oberen fünf Kanäle sind für die Schnüre, 
+Das Hauptelement ist in dem Fall die Handfläche, dies ist das Größte und zentralste Element, durch dieses Element verlaufen 15 Kanäle, die mittleren fünf dienen optionaler Sensorik. Die oberen fünf Kanäle sind für die Schnüre, 
 welche dem Einfalten dienen, die oberen dienen der Schnüre für den Rückzug. \\
-Um die Hand noch dynamischer zu gestalten besitzen der Ringfinger sowie der Kleinefinger ein zusätzliches Element (2) sowie (3), welches sich bei Zug auf wenige Grad mit faltet. Der Daumen hat eine ähnliche Funktion, Element (4) in der Grafik. \\
-Als Hilfselement werden hier die Stifte (5) und (6) welche zur Verbindung zwischen Element (1) sowie den weiteren Elementen dienen. \\
+Um die Hand noch dynamischer zu gestalten besitzen der Ringfinger sowie der Kleinefinger ein zusätzliches Element, welches sich bei Zug auf wenige Grad mit faltet. Der Daumen hat eine ähnliche Funktion. \\
+Als Hilfselement werden hier die Stifte und welche zur Verbindung zwischen Element sowie den weiteren Elementen dienen. \\
 \\
 Ein ebenso neuer und optionaler Mechanismus ist die des Handgelenks, dieser ermöglicht es der Hand um ihre eigene Achse zu rotieren. Umgesetzt wird dies mit einem Servomotor, welcher mit einer Übersetzung anhand zweier Zahnräder die Hand rotiert. \\
 \\
@@ -3023,7 +3023,7 @@ Mit einer Erweiterung wird das gesamte Modell in der Gussform befestigt und posi
 \\
 \textbf{Ergebnis:} \\
 \\
-Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, damit dies nicht passiert – wie die Verschraub Möglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
+Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, damit dies nicht passiert – wie beispielsweise die Verschraub Möglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
 Gelöst konnte dies mit Klebebändern, die zum Abdichten verwendet wurden. \\
 Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, denn der Finger funktioniert in Zusammenspiel mit dem Gelenk wie erwartet. \\
 \\
