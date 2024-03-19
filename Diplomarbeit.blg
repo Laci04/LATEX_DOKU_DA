@@ -1,60 +1,66 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Diplomarbeit.blg'
-[35] biber-darwin:340> INFO - === Sat Mar 16, 2024, 22:22:38
-[44] Biber.pm:419> INFO - Reading 'Diplomarbeit.bcf'
-[92] Biber.pm:979> INFO - Found 42 citekeys in bib section 0
-[100] Biber.pm:4419> INFO - Processing section 0
-[105] Biber.pm:4610> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[106] bibtex.pm:1713> INFO - LaTeX decoding ...
-[118] bibtex.pm:1519> INFO - Found BibTeX data source 'Literatur.bib'
-[192] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[192] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[192] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[192] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[204] bbl.pm:660> INFO - Writing 'Diplomarbeit.bbl' with encoding 'UTF-8'
-[210] bbl.pm:763> INFO - Output to Diplomarbeit.bbl
-[210] Biber.pm:131> WARN - online entry 'Saferinternet.p7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[210] Biber.pm:131> WARN - online entry 'Saferinternet.p8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[210] Biber.pm:131> WARN - online entry 'Saferinternet.p10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[210] Biber.pm:131> WARN - online entry 'Saferinternet.p11' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Saferinternet.p12' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Ionos7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Ionos8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Ionos9' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Ionos10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaOpenSource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaOpenSource12' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Opensource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Giga' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaOpenSource16' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaGPL2' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaLinux' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Simpleclub23' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Simpleclub24' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Simpleclub25' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'GNU' (Literatur.bib): Invalid format '09.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaGPL' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaGPL3' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaGPL4' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Apache' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WikipediaApache' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'CreativeCommons35' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'CreativeCommons36' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'CreativeCommons37' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'bpb' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'CreativeCommonsBilder' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'CreativeComonsLizenz' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'rubigm1' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'rubigm2' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'TÜVaustria' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'FHvorarlberg' (Literatur.bib): Invalid format '11.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'ISA' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Pilz' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'TÜVsüd' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Flexsensorabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'Servoabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'I2Cabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - online entry 'WIFIabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
-[211] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_O4aX/fe6d16e8a0935a16f008a64fa11444f8_2822.utf8, line 202, warning: 42 characters of junk seen at toplevel
-[211] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_O4aX/fe6d16e8a0935a16f008a64fa11444f8_2822.utf8, line 256, warning: 42 characters of junk seen at toplevel
-[211] Biber.pm:133> INFO - WARNINGS: 44
+[34] biber-darwin:340> INFO - === Tue Mar 19, 2024, 10:03:03
+[42] Biber.pm:419> INFO - Reading 'Diplomarbeit.bcf'
+[90] Biber.pm:979> INFO - Found 48 citekeys in bib section 0
+[97] Biber.pm:4419> INFO - Processing section 0
+[101] Biber.pm:4610> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[103] bibtex.pm:1713> INFO - LaTeX decoding ...
+[116] bibtex.pm:1519> INFO - Found BibTeX data source 'Literatur.bib'
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[191] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[191] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[191] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[205] bbl.pm:660> INFO - Writing 'Diplomarbeit.bbl' with encoding 'UTF-8'
+[211] bbl.pm:763> INFO - Output to Diplomarbeit.bbl
+[211] Biber.pm:131> WARN - online entry 'Saferinternet.p7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[211] Biber.pm:131> WARN - online entry 'Saferinternet.p8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[211] Biber.pm:131> WARN - online entry 'Saferinternet.p10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Saferinternet.p11' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Saferinternet.p12' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Ionos7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Ionos8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Ionos9' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Ionos10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaOpenSource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaOpenSource12' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Opensource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Giga' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaOpenSource16' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaGPL2' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaLinux' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Simpleclub23' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Simpleclub24' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Simpleclub25' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'GNU' (Literatur.bib): Invalid format '09.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaGPL' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaGPL3' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaGPL4' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Apache' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WikipediaApache' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'CreativeCommons35' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'CreativeCommons36' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'CreativeCommons37' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'bpb' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'CreativeCommonsBilder' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'CreativeComonsLizenz' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'rubigm.p10' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'rubigm.p11' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'TÜVaustria' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Frauenhofer17' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Frauenhofer18' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'FHvorarlberg' (Literatur.bib): Invalid format '11.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'ISA' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Pilz' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'TÜVsüd' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Generationrobots' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Frauenhofer21' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Frauenhofer22' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Frauenhofer23' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Flexsensorabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'Servoabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'I2Cabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - online entry 'WIFIabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring
+[212] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_go3P/fe6d16e8a0935a16f008a64fa11444f8_3488.utf8, line 202, warning: 42 characters of junk seen at toplevel
+[212] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_go3P/fe6d16e8a0935a16f008a64fa11444f8_3488.utf8, line 303, warning: 42 characters of junk seen at toplevel
+[212] Biber.pm:133> INFO - WARNINGS: 50
