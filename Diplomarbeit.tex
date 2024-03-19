@@ -2431,11 +2431,11 @@ Basis. Dieses ermöglicht es die Hand fr
 Der Grundgedanke der Mechanik in der Roboterhand ist es alle drei Glieder eines Fingers,
 darunter das Fingergrundglied, das Fingermittelglied und das Fingerendglied mit 
 ausschließlich der Bewegung eines einzelnen Servomotors auf oder zu zuklappen. 
-Umsetzbar ist dies durch ein Zugsystem, welches für ein Aufklappen und ein Zuklappen 
-des Fingers ermöglicht. Gezogen wird durch den Finger der Roboterhand ein oder mehrere 
+Umsetzbar ist dies durch ein Zugsystem, welches ein Aufklappen und ein Zuklappen 
+des Fingers ermöglicht. Gezogen werden durch den Finger der Roboterhand ein oder mehrere 
 Schnüre, ähnlich wie bei einer Marionette. Diese Schnüre bringen den Finger je nach 
 Verlängern oder Verkürzen zum Bewegen. Ebenso ist je nach Zug wählbar in welcher 
-Stellung der Finger sich dann befindet. Befestigt wird dies an einem mit dem Servomotor 
+Stellung der Finger sich befinden soll. Befestigt wird dies an einem mit dem Servomotor 
 gesteuertem Zugmechanismus. \\
 
 \paragraph{Fertigung und CAD}
@@ -2445,9 +2445,9 @@ gesteuertem Zugmechanismus. \\
 Der Entwurf eines Modells ist mit ständiger Weiterentwicklung verbunden, sind in 
 solch einem Modell mechanische Komponenten vorhanden nimmt die Fertigungsschleife 
 ersichtlich mehr Komplexität an und erfordert die Möglichkeit in kürzester Zeit 
-flexibel Anpassungen und Optimierungen am Entwurf ausgiebig zu testen. Speziell 
+rasch Anpassungen und Optimierungen am Entwurf ausgiebig zu testen. Speziell 
 während der Entwicklung der mechanischen Komponente einer Roboterhand ist auf 
-viele Faktoren zu achten, es ergeben sich ständig neue Erkenntnisse sowie auch 
+viele Faktoren zu achten, es ergeben sich laufend neue Erkenntnisse sowie auch 
 Problematiken, welche eine Lösung erfordern. Sei es mangelnde Stabilität unter 
 hoher Belastung, zu viel Reibung oder gängige Konstruktionsfehler. \\
 \\
@@ -2475,7 +2475,7 @@ ist, sowie auch schnell. \footnote{\url{https://filamentworld.de/3d-druckverfahr
 \\
 In der initialen Entwicklungsphase des Projekts „Bionic-Hand“ kommen zwei private 3D, 
 Drucker zum Einsatz, welche das FDM-Verfahren nutzen. Der sich daraus erschließende 
-Vorteil ist eine effektive und besonders effektive Prototypenherstellung. Von großer 
+Vorteil ist eine effektive und besonders rasche Prototypenherstellung. Von großer 
 Bedeutung ist die Möglichkeit, jederzeit ein Modell in den Drucker zu laden und damit 
 innerhalb weniger Stunden neues Versuchsobjekt zu erhalten. \\
 Im Laufe der ersten Versuchsaufbauten war die Druckqualität nicht sehr relevant, denn 
@@ -2484,29 +2484,28 @@ sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
 
 \subsubsection{Versuchsaufbauten}
 \label{chap:Versuchsaufbauten}
-In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell Erkenntnisse über 
+In diesem Versuchsaufbau war es das Ziel mit einem simplen Testmodell, Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
 Dafür wurde in der CAD Software Fusion360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] ein erstes Testmodell entworfen. \\
 
 \paragraph{Aufbau}
 \hfill \break
 \hfill \break
-Das Modell besteht aus den drei Gliedern eines Fingers, einer Halterung für einen 
+Das Modell besteht aus den drei Gliedern eines Fingers, einer Halterung für einen vorgesehenen
 Servomotor, sowie aus den im Inneren vorhandenen Führungen. \\
 \\
-Zwischen jedem Fingerglied befindet sich 1cm Abstand, verbunden sind diese durch eine 
-3mm dicke Fläche. Die Fläche hat den Zweck sich bei Zug an der Schnur zu biegen, durch 
-die Führungen wird nur eine Biegung an der „Fläche“ ermöglicht. Befestigt wird die
+Zwischen jedem Fingerglied befindet sich ein enstprechender Abstand, verbunden sind diese durch ein Steg. Dieser hat den Zweck sich bei Zug an der Schnur zu biegen, durch 
+die Führungen wird nur eine Biegung an diesem ermöglicht. Befestigt wird die
 Schnur an einer Halterung am Servomotor und wir dadurch bei Rotation des Servos 
-entsprechend angezogen. Die Fingerglieder haben eine nach außen gewölbter Form und sind 
-in Richtung der Fläche verjüngt, dies ermöglicht dem Finger sich auf noch engeren Raum 
+entsprechend angezogen. Die Fingerglieder haben eine nach außen gewölbte Form und sind 
+in Richtung des Stegs verjüngt, dies ermöglicht dem Finger sich auf noch engeren Raum 
 zusammenzuziehen.
 
 \paragraph{Versuchsresultat}
 \label{par:Versuchsresultat}
 \hfill \break
 \hfill \break
-Das Versuchsresultat war nahrhaft und bot einen breiten Einblick in den Mechanismus. 
+Das Versuchsresultat war lehrreich und bot einen breiten Einblick in den angepeilten Failtmechanismus. 
 Dabei gab es zahlreiche Erkenntnisse über Reibung, Stabilität und mechanische Abnutzung 
 sowie aber auch Belastung. \\
 \begin{figure}[H]
@@ -2518,13 +2517,13 @@ sowie aber auch Belastung. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Einer der Erkenntnisse war es, dass die Schnur eine gewisse Zugfestigkeit benötigt. 
+Eine der Erkenntnisse war es, dass die Schnur eine gewisse Reißfestigkeit benötigt. 
 Getestet wurden dabei mehrere Schnüre unter anderem auch Nylonschnüre. Als besonders 
 stabil haben sich dann Angelschnüre bewiesen.
-Festgestellt wurde ebenso, dass ein mechanischer Widerstand benötigt wird, welcher den 
+Festgestellt wurde , dass ein mechanischer Rückzug benötigt wird, welcher den 
 Finger wieder in seine Ursprungsposition: ausgestreckt – versetzt. Anfangs war dafür 
-die freie Fläche vorgesehen, diese hat sich jedoch über die Zeit abgenutzt und hat den 
-Finger nicht in die Ursprungsposition befördert. Eine mögliche Lösung während 
+der Steg vorgesehen, dieser hat sich jedoch über die Zeit abgenutzt und hat den 
+Finger nicht in die Ursprungsposition befördert. Eine der möglichen Lösung sind 
 Gummikordeln, elastische Schnüre, welche am „Fingerrücken“ platziert werden und sich 
 bei Biegen des Fingers spannen. Desto kürzer die Zugschnur im Finger, desto länger die 
 Gummikordel. \\
@@ -2537,14 +2536,12 @@ Gummikordel. \\
 Die erste Testhand zielt darauf ab ein Modell welches durchgängig erweitert 
 werden kann zu schaffen. Mit Rücksicht auf etwaige Testergebnisse des 
 Versuchsresultats [siehe \textcolor{blue}{\autoref{par:Versuchsresultat}}] soll ein Modell geschaffen werden, 
-welches den im Versuch aufgetretenen Problematiken entgegenwirkt. Unter anderem 
+welches den im Versuch aufgetretenen Problematiken trotzen kann. Unter anderem 
 der nicht vorhandene Rückzug, eine Schnur für den Zug mit ausreichender 
 Reißfestigkeit sowie eine anwendungsgemäße Konstruktion des Fingers. \\
 \\
 Eine konkrete Lösung, um für mehr Sicherheit im Zusammenhang mit dem Zugsystem 
-zu sorgen wurde für diesen Aufbau eine Angelschnur mit einem Durchmesser von 
-XXmm gewählt, diese hat eine Kraft von XX/m. Aufgrund der XXX ist die Schnur 
-ebenso schnittfest. \\
+zu sorgen wurde für diesen Aufbau eine Angelschnur gewählt, diese soll äußerst Riss- und Schnittfest sein. \\
 \\
 Im Versuch [siehe \textcolor{blue}{\autoref{chap:Versuchsaufbauten}}] hat sich erwiesen, dass eine Fläche aus PLA welche die 
 Fingerglieder verbindet nicht genügend Kraft aufbringt, um den Finger wieder in 
