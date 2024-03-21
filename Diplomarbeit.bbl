@@ -1068,6 +1068,34 @@
       \endverb
       \warn{\item online entry 'TÜVaustria' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
+    \entry{CIAtriade}{online}{}
+      \name{author}{1}{}{%
+        {{hash=87dc0dde36a6f6141a2ac5b83d03faa1}{%
+           family={Josh},
+           familyi={J\bibinitperiod},
+           given={Fruhlinger},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \strng{fullhash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \strng{bibnamehash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \strng{authorbibnamehash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \strng{authornamehash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \strng{authorfullhash}{87dc0dde36a6f6141a2ac5b83d03faa1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The CIA triad: Definition, components and examples}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.csoonline.com/article/568917/the-cia-triad-definition-components-and-examples.html
+      \endverb
+      \verb{url}
+      \verb https://www.csoonline.com/article/568917/the-cia-triad-definition-components-and-examples.html
+      \endverb
+      \warn{\item online entry 'CIAtriade' (Literatur.bib): Invalid format '21.03.2024' of date field 'urldate' - ignoring}
+    \endentry
     \entry{Frauenhofer17}{online}{}
       \name{author}{1}{}{%
         {{hash=75f2579b191e3dbd03341625b9ba87fe}{%

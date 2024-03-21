@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber Diplomarbeit"] 1710860108 "Diplomarbeit.bcf" "Diplomarbeit.bbl" "Diplomarbeit" 1710881782 0
-  "./Literatur.bib" 1710859559 15981 d2ccc66fd08d4f0dc8d5521966adbfd5 ""
-  "Diplomarbeit.bcf" 1710881782 116102 63d5640b2d62d26bee298f38284a3c20 "pdflatex"
+["biber Diplomarbeit"] 1711012631 "Diplomarbeit.bcf" "Diplomarbeit.bbl" "Diplomarbeit" 1711021450 0
+  "./Literatur.bib" 1711012578 16280 262d5b8f3e4ea0eb337166f3f0154f87 ""
+  "Diplomarbeit.bcf" 1711021449 116168 f348ccca6e7b18765df981ab807e9c54 "pdflatex"
   (generated)
   "Diplomarbeit.bbl"
   "Diplomarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1710881769 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1710881782 0
-  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1710881757 404639 c474be1042b3dd6f22fbf956def803cf ""
+["pdflatex"] 1711021438 "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" "Diplomarbeit.pdf" "Diplomarbeit" 1711021450 0
+  "/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/Diplomarbeit.tex" 1711021425 404620 a0a8ae025c650b009492b7380bdf846f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -264,15 +264,15 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1700734286 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1700734226 7883457 947e8fb68b0e381874a05551972b9777 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "Diplomarbeit.aux" 1710881782 104243 e7257a2614975bbc1eb785827cd806a5 "pdflatex"
-  "Diplomarbeit.bbl" 1710860110 65433 f86f87677fa4f9c155cc76d62118ebd4 "biber Diplomarbeit"
-  "Diplomarbeit.lof" 1710881782 18527 a9cdc4200a33fbb667409916c9913fef "pdflatex"
-  "Diplomarbeit.lot" 1710881782 2537 6f324ff225a56a09b817f38f8caf4332 "pdflatex"
-  "Diplomarbeit.out" 1710881782 47308 c672ab1293a9f78ea37b10600ddebcdd "pdflatex"
-  "Diplomarbeit.run.xml" 1710881782 2487 20d2bed8d7e39b840af9ea31abef8929 "pdflatex"
-  "Diplomarbeit.tex" 1710881757 404639 c474be1042b3dd6f22fbf956def803cf ""
-  "Diplomarbeit.toc" 1710881782 25263 85a41af9598456e5c5f67f725df8c42b "pdflatex"
-  "Literatur.bib" 1710859559 15981 d2ccc66fd08d4f0dc8d5521966adbfd5 ""
+  "Diplomarbeit.aux" 1711021449 104347 3f98be42c18c30366ac78486080eef12 "pdflatex"
+  "Diplomarbeit.bbl" 1711012633 66730 d9939234e84818df6244ac759747a230 "biber Diplomarbeit"
+  "Diplomarbeit.lof" 1711021449 18415 c78cd80c671d5c2f78f64a8e7d24c840 "pdflatex"
+  "Diplomarbeit.lot" 1711021449 2537 9cc9814557fdecb951850fb5013ef080 "pdflatex"
+  "Diplomarbeit.out" 1711021449 47183 f6bcef62200acaef2cfbbde705e3d9e7 "pdflatex"
+  "Diplomarbeit.run.xml" 1711021449 2487 20d2bed8d7e39b840af9ea31abef8929 "pdflatex"
+  "Diplomarbeit.tex" 1711021425 404620 a0a8ae025c650b009492b7380bdf846f ""
+  "Diplomarbeit.toc" 1711021449 25238 b677dc163bfd73a7fe5e9ebbeb6e3e6e "pdflatex"
+  "Literatur.bib" 1711012578 16280 262d5b8f3e4ea0eb337166f3f0154f87 ""
   "src/ADC_Blockschaltbild.jpg" 1708604060 75468 c3de561df1f27fb3e1f305c37010a1ac ""
   "src/ADC_Schaltplan_Handschuh.png" 1706621435 43829 32179e648cc270ffd05f41feae648e79 ""
   "src/ADC_Schaltplan_Roboterhand.png" 1708454794 60543 7e101fe90d72b75170d8ece570153e19 ""
@@ -328,7 +328,6 @@
   "src/Handv2_real.jpg" 1710855839 124218 49388e541baf1240fecf4614ee759225 ""
   "src/I2C.jpg" 1708331884 60194 1e84a079151cc5432539452eeeae6f31 ""
   "src/I_Glied.png" 1710849420 14961 6a0bc89de92cbc752c07360ca9678ae7 ""
-  "src/JST_Flexsensoren_Schaltplan_Handschuh.png" 1706626755 66395 7503dc8aef895f11da2a3fe65eb6abdd ""
   "src/Koexistenz.jpeg" 1710334720 214298 21ca4e2634a4f97056ac9cdc26e6a66b ""
   "src/Kollaboration.jpeg" 1710334802 202634 a8b24bac8dd36db10a537ef902a09150 ""
   "src/Konzept_UserInterface.jpeg" 1707857696 127652 3f1926ff4bd008e26b3310d8bdbcc0cb ""

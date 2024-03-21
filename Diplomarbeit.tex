@@ -512,27 +512,27 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
     \caption{Lastenheft}
     \begin{tabular}{|c|c|c|c|}
         \hline
-        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
+        Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad (\%) \\
         \hline
-        1 & \fcolorbox{white}{white}{\parbox{5cm}{Es soll ein Handchuh (Eingabe) entwickelt werden, mit dem man eine Roboterhand (Ausgabe) steuern kann.}} & Y &  \\
+        1 & \fcolorbox{white}{white}{\parbox{5cm}{Es soll ein Handchuh (Eingabe) entwickelt werden, mit dem man eine Roboterhand (Ausgabe) steuern kann.}} & Y & 100 \\
 		\hline
-		2 & \fcolorbox{white}{white}{\parbox{5cm}{Der Handschuh soll kabellos mit der Roboterhand verbunden werden können.}} & Y &  \\
+		2 & \fcolorbox{white}{white}{\parbox{5cm}{Der Handschuh soll kabellos mit der Roboterhand verbunden werden können.}} & Y & 100 \\
         \hline
-		3 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungen der Roboterhand sollen möglichst gut die einer echten Hand immitieren.}} & Y &  \\
+		3 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungen der Roboterhand sollen möglichst gut die einer echten Hand immitieren.}} & Y & 100 \\
 		\hline
-		4 & \fcolorbox{white}{white}{\parbox{5cm}{Die Roboterhand ist ein fertiges Design (3D Druck), dass im Projekt integriert wird.}} & Y &  \\
+		4 & \fcolorbox{white}{white}{\parbox{5cm}{Die Roboterhand ist ein fertiges Design (3D Druck), dass im Projekt integriert wird.}} & Y & \fcolorbox{white}{white}{\parbox{3cm}{50 , weil das fertige Design verbessert und modifieziert wurde}} \\
         \hline
-		5 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungserfassung soll mit entsprechender Sensorik erfolgen.}} & Y &  \\
+		5 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungserfassung soll mit entsprechender Sensorik erfolgen.}} & Y & 100 \\
 		\hline
-		6 & \fcolorbox{white}{white}{\parbox{5cm}{ - Flex Sensoren für die Finger}} & Y &  \\
+		6 & \fcolorbox{white}{white}{\parbox{5cm}{ - Flex Sensoren für die Finger}} & Y & 100 \\
         \hline
-		7 & \fcolorbox{white}{white}{\parbox{5cm}{ - Gyro Sensor für die Drehung des Handgelenks}} & N &  \\
+		7 & \fcolorbox{white}{white}{\parbox{5cm}{ - Gyro Sensor für die Drehung des Handgelenks}} & N & \fcolorbox{white}{white}{\parbox{3cm}{50, Hardware ja, Software nein}} \\
 		\hline
-		8 & \fcolorbox{white}{white}{\parbox{5cm}{Die Datenauswertung soll mit einem Mikrokontroller erfolgen.}} & Y &  \\
+		8 & \fcolorbox{white}{white}{\parbox{5cm}{Die Datenauswertung soll mit einem Mikrokontroller erfolgen.}} & Y & 100 \\
         \hline
-		9 & \fcolorbox{white}{white}{\parbox{5cm}{Eine Platine für das Verbinden aller Komponenten am Handschuh muss gebaut werden.}} & Y &  \\
+		9 & \fcolorbox{white}{white}{\parbox{5cm}{Eine Platine für das Verbinden aller Komponenten am Handschuh muss gebaut werden.}} & Y & 100 \\
 		\hline
-		10 & \fcolorbox{white}{white}{\parbox{5cm}{ - soll auf den Handrücken des Handschuhs passen}} & Y &  \\
+		10 & \fcolorbox{white}{white}{\parbox{5cm}{ - soll auf den Handrücken des Handschuhs passen}} & Y & 100 \\
         \hline
     \end{tabular}
     \label{tab:zeilenumbruch_parbox}
@@ -545,35 +545,32 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
         Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
         \hline
-		11 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschlussmöglichkeiten für einen Akku (Akkupack oder LiPo), plus alternativ für eine externe Stromversorgung müssen vorhanden sein}} & Y &  \\
+		11 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschlussmöglichkeiten für einen Akku (Akkupack oder LiPo), plus alternativ für eine externe Stromversorgung müssen vorhanden sein}} & Y & 100 \\
 		\hline
-		12 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschluss zum Programmieren des ESP32}} & Y &  \\
+		12 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschluss zum Programmieren des ESP32}} & Y & 100 \\
         \hline
-		13 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload und Reset Button für ESP32}} & Y &  \\
+		13 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload und Reset Button für ESP32}} & Y & 100 \\
 		\hline
-		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & N &  \\
+		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & N & \fcolorbox{white}{white}{\parbox{3cm}{0, da die Sensoren anfangs angenäht wurden nun aber schlussendlich aber nicht}}  \\
         \hline
-		15 & \fcolorbox{white}{white}{\parbox{5cm}{Mit einem ADC, sollen mindestens 30 verschiedene Positionen der Flexsensoren detektiert werden können.}} & Y &  \\
+		15 & \fcolorbox{white}{white}{\parbox{5cm}{Mit einem ADC, sollen mindestens 30 verschiedene Positionen der Flexsensoren detektiert werden können.}} & Y & 100 \\
 		\hline
-		16 & \fcolorbox{white}{white}{\parbox{5cm}{ - diese Positionen sollen wiederherstellbar sein}} & Y &  \\
+		16 & \fcolorbox{white}{white}{\parbox{5cm}{ - diese Positionen sollen wiederherstellbar sein}} & Y & 50 \\
         \hline
-		17 & \fcolorbox{white}{white}{\parbox{5cm}{Das Maximalgewicht des Handschuhs soll 500g nicht übersteigen.}} & Y &  \\
+		17 & \fcolorbox{white}{white}{\parbox{5cm}{Das Maximalgewicht des Handschuhs soll 500g nicht übersteigen.}} & Y & 100 \\
 		\hline
-		18 & \fcolorbox{white}{white}{\parbox{5cm}{Fertigung mittels 3D-Druck (fertiges Design)}} & Y &  \\
+		18 & \fcolorbox{white}{white}{\parbox{5cm}{Fertigung mittels 3D-Druck (fertiges Design)}} & Y & 100 \\
         \hline
-		19 & \fcolorbox{white}{white}{\parbox{5cm}{ - metallische Gelenke für die Finger}} & Y &  \\
+		19 & \fcolorbox{white}{white}{\parbox{5cm}{ - metallische Gelenke für die Finger}} & Y & 100 \\
 		\hline
-		20 & \fcolorbox{white}{white}{\parbox{5cm}{ - Abmessungen der Hand und Finger wie eine echte !!}} & Y &  \\
+		20 & \fcolorbox{white}{white}{\parbox{5cm}{ - Abmessungen der Hand und Finger wie eine echte !!}} & Y & 100 \\
         \hline
-		21 & \fcolorbox{white}{white}{\parbox{5cm}{Drucksensoren an den Fingerspitzen}} & N &  \\
+		21 & \fcolorbox{white}{white}{\parbox{5cm}{Drucksensoren an den Fingerspitzen}} & N & 0 \\
 		\hline
-		22 & \fcolorbox{white}{white}{\parbox{5cm}{Nachstellung der Bewegungen mit Motoren}} & Y &  \\
+		22 & \fcolorbox{white}{white}{\parbox{5cm}{Nachstellung der Bewegungen mit Motoren}} & Y & 100 \\
         \hline
-		23 & \fcolorbox{white}{white}{\parbox{5cm}{ - Servomotoren}} & Y &  \\
+		23 & \fcolorbox{white}{white}{\parbox{5cm}{ - Servomotoren}} & Y & 100 \\
 		\hline
-		24 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich kontrolliert zum und vom Handballen weg bewegen können.}} & Y &  \\
-        \hline
-
     \end{tabular}
     \label{tab:zeilenumbruch_parbox}
 \end{table}
@@ -585,31 +582,30 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
         Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
         \hline
-		25 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich seitlich bewegen können.}} & N &  \\
-		\hline
-		26 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich zitterfrei bewegen können.}} & Y &  \\
+		24 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich kontrolliert zum und vom Handballen weg bewegen können.}} & Y & 100 \\
         \hline
-		27 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich störungsfrei bewegen können.}} & Y &  \\
+		25 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich seitlich bewegen können.}} & N & 0 \\
 		\hline
-		28 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile kabellose Verbindung !! (störungstolerantes Kommunikationsprotokoll)}} & Y &  \\
+		26 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich zitterfrei bewegen können.}} & Y & 90 \\
         \hline
-		29 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile Spannungsversorgung für jeden einzelnen Motor}} & Y &  \\
+		27 & \fcolorbox{white}{white}{\parbox{5cm}{Die Finger sollen sich störungsfrei bewegen können.}} & Y & 90 \\
 		\hline
-		30 & \fcolorbox{white}{white}{\parbox{5cm}{ - Mikrokontroller für die Kommunikation mit dem Handschuh und die Steuerung der Servomotoren (ESP32)}} & Y &  \\
+		28 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile kabellose Verbindung !! (störungstolerantes Kommunikationsprotokoll)}} & Y & 90 \\
         \hline
-		31 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschluss für externes Netzteil}} & Y &  \\
+		29 & \fcolorbox{white}{white}{\parbox{5cm}{ - stabile Spannungsversorgung für jeden einzelnen Motor}} & Y & 100 \\
 		\hline
-		32 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschlus zum Programmieren des ESP32}} & Y &  \\
+		30 & \fcolorbox{white}{white}{\parbox{5cm}{ - Mikrokontroller für die Kommunikation mit dem Handschuh und die Steuerung der Servomotoren (ESP32)}} & Y & 100 \\
         \hline
-		33 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload -und Reset Button für ESP32}} & Y &  \\
+		31 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anschluss für externes Netzteil}} & Y & 100 \\
 		\hline
-		34 & \fcolorbox{white}{white}{\parbox{5cm}{Jeder einzelne Servomotor soll eine Stromüberwachung haben.}} & Y &  \\
+		32 & \fcolorbox{white}{white}{\parbox{5cm}{ - USB Anschlus zum Programmieren des ESP32}} & Y & 100 \\
         \hline
-		35 & \fcolorbox{white}{white}{\parbox{5cm}{ - mit dieser soll die Griffkraft der Finger kontrolliert werden können. (leicht - mittel - stark)}} & Y &  \\
+		33 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload -und Reset Button für ESP32}} & Y & 100 \\
 		\hline
-		36 & \fcolorbox{white}{white}{\parbox{5cm}{ - die Parameter der Griffkraft soll eingestellt werden können.}} & Y &  \\
+		34 & \fcolorbox{white}{white}{\parbox{5cm}{Jeder einzelne Servomotor soll eine Stromüberwachung haben.}} & Y & 70 \\
         \hline
-
+		35 & \fcolorbox{white}{white}{\parbox{5cm}{ - mit dieser soll die Griffkraft der Finger kontrolliert werden können. (leicht - mittel - stark)}} & Y & 0 \\
+		\hline
     \end{tabular}
     \label{tab:zeilenumbruch_parbox}
 \end{table}
@@ -621,17 +617,19 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
         Requirement Nr. & Requirement Text & Mandatory (Y/N) & Erfüllungsgrad \\
         \hline
-		37 & \fcolorbox{white}{white}{\parbox{5cm}{Die Hand soll eine 500mL Plastikflasche, die zur Hälfte gefüllt ist, als Endziel greifen können und in der Luft halten.}} & Y &  \\
-		\hline
-		38 & \fcolorbox{white}{white}{\parbox{5cm}{Das User Interface soll folgende Elemente aufweisen:}} & Y &  \\
+		36 & \fcolorbox{white}{white}{\parbox{5cm}{ - die Parameter der Griffkraft sollen eingestellt werden können.}} & Y & 0 \\
         \hline
-		39 & \fcolorbox{white}{white}{\parbox{5cm}{ - 3D Modell der Hand}} & N &  \\
+		37 & \fcolorbox{white}{white}{\parbox{5cm}{Die Hand soll eine 500mL Plastikflasche, die zur Hälfte gefüllt ist, als Endziel greifen können und in der Luft halten.}} & Y & 100 \\
 		\hline
-		40 & \fcolorbox{white}{white}{\parbox{5cm}{ - Griffkraftanzeige (in kg)}} & Y &  \\
+		38 & \fcolorbox{white}{white}{\parbox{5cm}{Das User Interface soll folgende Elemente aufweisen:}} & Y & 75 \\
         \hline
-        41 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anzeige der Servostellung (Winkel)}} & Y &  \\
+		39 & \fcolorbox{white}{white}{\parbox{5cm}{ - 3D Modell der Hand}} & N & 100 \\
 		\hline
-		42 & \fcolorbox{white}{white}{\parbox{5cm}{ - in Form einer Applikation}} & Y &  \\
+		40 & \fcolorbox{white}{white}{\parbox{5cm}{ - Griffkraftanzeige (in kg)}} & Y & 0 \\
+        \hline
+        41 & \fcolorbox{white}{white}{\parbox{5cm}{ - Anzeige der Servostellung (Winkel)}} & Y & 100 \\
+		\hline
+		42 & \fcolorbox{white}{white}{\parbox{5cm}{ - in Form einer Applikation}} & Y & 100 \\
         \hline
     \end{tabular}
     \label{tab:zeilenumbruch_parbox}
@@ -929,10 +927,10 @@ Ordnung und beschreibt dieses das Anlaufverhalten des Motors. (Q12) Zusätzlich 
 das Lastmoment, die Reibung und die Trägheit in das System miteinkalkuliert. \\
 Aus der mathematischen Modellierung des Gleichstrommotors, wie im Blockschaltbild 
 dargestellt, ergibt sich eine Winkelgeschwindigkeit, die Drehzahl des Motors \textquote{OMEGA}.
-Wie in \textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}} 
+Wie in [\textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}}] 
 bereits beschrieben, wird die Drehzahl mit einem Getriebe übersetzt, im Falle dieses 
 Beispiels beträgt das Übersetzungsverhältnis des Getriebes 0,1. \\
-Mit einem I-Glied muss diese in den Drehwinkel Phi, welcher der Motorposition 
+Mit einem I-Glied muss diese in den Drehwinkel $\Phi$, welcher der Motorposition 
 entspricht umgerechnet werden. \\
 \\
 $\int_{0}^{t} \omega(t)dt = \phi$ \\
@@ -950,13 +948,13 @@ rückgeführt und bietet eine Grundlage zur Berechnung der neuen Regelabweichung
 \end{figure}
 \hfill \break
 Zu sehen sind in dieser Abbildung, drei Größen: In grün der Soll-Winkel, in blau der 
-tatsächliche Drehwinkel PHI (die Ist-Größe) und die Drehzahl (Winkelgeschwindigkeit 
+tatsächliche Drehwinkel $\Phi$ (die Ist-Größe) und die Drehzahl (Winkelgeschwindigkeit 
 OMEGA) ist orange gekennzeichnet. \\
 Erkennen lässt sich, dass zum Zeitpunkt t=0 das System die Anweisung bekommt auf 
 einen Winkel von 100\textdegree zu regeln. Nach 0,4 Sekunden wurde diese Position erreicht, 
-jedoch zugleich überschritten, der Motor hat sich auf \~105\textdegree gedreht. Während diesem 
+jedoch zugleich überschritten, der Motor hat sich auf 105\textdegree gedreht. Während diesem 
 Vorgang ist die Drehzahl auf ein maximum von 10 Umdrehungen angestiegen, nach dem 
-Erreichen des Zielwerts sinkt die Drehzahl und somit auch der Drehwinkel PHI bis 
+Erreichen des Zielwerts sinkt die Drehzahl und somit auch der Drehwinkel $\Phi$ bis 
 dieser 100\textdegree erreicht. \\
 \\
 
@@ -1383,7 +1381,7 @@ verzichtet ebenso auf sämtliche Schutzrechte. Mit dem Werk, das mit CC0 lizenzi
 %=============================================================================
 %=============================================================================
 
-\section{VWA - Sicherheitsaspekte der Mensch-Roboter-Kollaboration [\textcolor{blue}{Szabo}]}
+\section{VWA - Sicherheitsaspekte der MRK [\textcolor{blue}{Szabo}]}
 \subsection{Einleitung}
 \subsubsection{Hintergrund und Motivation}
 Der Hintergrund dieser vorwissenschaftlichen Arbeit besteht darin, mögliche 
@@ -1517,7 +1515,7 @@ diese gezielten Angriffe, können sowohl Maschinen beschädigt als auch Menschen
 verletzt werden, da durch die Übernahme fremder Personen alle Sicherheitsmaßnahmen 
 außer Kraft gesetzt werden. \footnote{\cite{TÜVaustria}}\\
 \\
-Die Schutzziele werden in der CIA-Triade zusammengefasst. (Link zu CIA-Triade) \\
+Die Schutzziele werden in der CIA-Triade zusammengefasst. [\textcolor{blue}{siehe \cite{CIAtriade}}] \\
 \\
 In den folgenden Punkten werden Gefahren und Risiken erläutert, die nicht nur 
 durch etwaige Hacker-Angriffe oder anderweitige illegale Tätigkeiten entstehen 
@@ -1539,10 +1537,10 @@ unvorhergesehene Schwächen in der physischen Integrität auftreten, wodurch
 Bewegungen plötzlich anders als gewünscht geschehen können. Nicht nur das, Teile 
 könnten genauso nachgeben und abbrechen, wodurch der Kollaborateur erheblichen 
 Schaden nehmen könnte. Dies gilt es mit allen Mitteln zu verhindern, weshalb 
-Richtlinien und Normen (wie in Punkt Sicherheitsstandards und Normen beschrieben) 
+Richtlinien und Normen [siehe \textcolor{blue}{\autoref{chap:Sicherheitsstandards und Normen}}]
 unbedingt eingehalten und dauerhaft verbessert werden müsse3n. Die schon vorhandenen 
 Sicherheitsmaßnahmen, die zusätzlich zu diversen Richtlinien umgesetzt werden, 
-sind in Punkt (Lösungen zur Verbesserung der Sicherheit) beschrieben. \\
+sind in [\textcolor{blue}{\autoref{chap:Lösungen zur Verbesserung der Sicherheit bei der MRK}}] beschrieben. \\
 \\
 Es wird nach der Dauer des Kontakts und nach der Möglichkeit für die Person sich 
 zu befreien entschieden, welche Art der Kollision vorliegt. Die genaue 
@@ -1586,10 +1584,10 @@ meisten Menschen im linken Brustbereich sitzt, ist diese Hälfte des Oberkörper
 auch deutlich empfindlicher. Die Folge ist, das strengere Grenzwerte gelten. \footnote{\cite{Frauenhofer18}} \\
 \\
 Um sich etwas mehr unter den Grenzwerten vorstellen zu können, kann gesagt werden, 
-dass eine Kraft von 65 N einem 6,5kg schweren Objekt gleicht, dass in Ruhe auf 
+dass eine Kraft von $65N$ einem $6,5kg$ schweren Objekt gleicht, dass in Ruhe auf 
 einem Tisch liegt. Das bedeutet, dass der Grenzwert der Kraft im Kopfbereich 
-schon erreicht ist, wenn ein 6,5kg schweres Objekt auf dem Kopf liegt. Im 
-Bauchbereich wäre der Grenzwert gleichzusetzen mit einem 13kg- 14kg scheren 
+schon erreicht ist, wenn ein $6,5kg$ schweres Objekt auf dem Kopf liegt. Im 
+Bauchbereich wäre der Grenzwert gleichzusetzen mit einem $13kg-14kg$ scheren 
 Gegenstand, der nicht bewegt wird. Dabei entsteht die Kraft rein durch die 
 Erdanziehungskraft. \\
 \\
@@ -1628,12 +1626,13 @@ bionische Hand zu erheblichen Schwierigkeiten führen würde. Es könnten Robote
 abbrechen und Schnüre reißen. Wenn durch solch eine unvorhersehbaren Fehlfunktion 
 Roboterteile beschädigt, werden ist eine sichere Zusammenarbeit für den Mensch 
 nicht mehr möglich. Präventive Maßnahmen und Lösungsansätze für destruktive 
-Fehlfunktionen werden in Punkt (Lösungen zur Verbesserung der Sicherheit) 
+Fehlfunktionen werden in [\textcolor{blue}{\autoref{chap:Lösungen zur Verbesserung der Sicherheit bei der MRK}}]
 beschrieben. \\
 \\
 Falls bei unvorhersehbaren Bewegungen Kollisionen entstehen, sind die gleichen 
 Vorschriften wie in Punkt (Kollisionen) zu erfüllen. \\
 \subsubsection{Sicherheitsstandards und Normen}
+\label{chap:Sicherheitsstandards und Normen}
 Normen und Sicherheitsstandards sind Anforderungen, die von jeglichen Institutionen 
 in Bezug auf Produkte, Dienstleistungen und Verfahren umgesetzt werden müssen. 
 Diese Richtlinien tragen maßgeblich zur bedenk losen Verwendung von 
@@ -1724,6 +1723,7 @@ Europäische Richtlinien müssen als nationales Gesetz angesehen werden und dür
 nicht umgangen werden! \footnote{Fachlehrer Baumgartner} \\
 \\
 \subsection{Lösungen zur Verbesserung der Sicherheit bei der MRK}
+\label{chap:Lösungen zur Verbesserung der Sicherheit bei der MRK}
 \subsubsection{Sensortechnologien}
 Abstandssensoren sind für die sichere Verwendung von Robotern essenziell. Ohne 
 diese Sicherheitsmaßnahmen zur Vermeidung von Kollisionen, wäre die 
@@ -1777,7 +1777,7 @@ einer Person ebenso der Fall sein. \\
 Weiß der Roboter nach dem Stoppen vor einem Hindernis (einem Mensch) allerdings 
 nicht genau wo er sich im Raum befindet, muss dieser von einem Mitarbeiter wieder 
 in die Ursprungssituation zurückgebracht werden. So kann ein erneuter sicherer 
-Start erfolgen. Dies nennt man auch \textdegree{Perceptual Aliasing} und beschreibt die 
+Start erfolgen. Dies nennt man auch \textquote{Perceptual Aliasing} und beschreibt die 
 zweideutige Situation eines Roboters aufgrund von Informationsmangel. Die nächste 
 sichere Bewegung ist nicht eindeutig, daher wird ein Mensch benötigt, um den 
 Betrieb wieder zu starten. \footnote{\cite{Generationrobots}} \\
@@ -3096,7 +3096,7 @@ Krümmungsstellen so verstärkt, dass er sich hauptsächlich in die Faltrichtung
 \paragraph{Gussform und Gussversuch der gesamten Hand}
 \hfill \break
 \hfill \break
-Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus [\textcolor{blue}{\autoref{par:Gussform}}], eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das \textquote{Skelet} auch 
+Für den Guss der gesamten Hand wird ähnlich wie bei dem Finger aus [\textcolor{blue}{\autoref{par:Gussform}}], eine Gussform benötigt, diese Gussform hat jedoch ein größeres Spektrum an Anforderungen. Mitunter muss berücksichtigt werden, dass das \textquote{Skelett} auch 
 bekannt als das Gelenksgerüst präzise in der Mitte eines Fingers platziert werden muss. \\
 \\
 \begin{figure}[H]
@@ -3667,20 +3667,7 @@ das genaue Schaltungsdesign erläutert. \\
 				\label{fig:USB_C_Schaltplan_Handschuh}				
 			\end{center}
 		\end{figure}
-	\item Anschluss der Flexsensoren: \\
-		  \\
-		  Die Flexsensoren könnten natürlich einfach angelötet werden, jedoch ist die einfache Wartung bei einem fehlerhaften
-		  Sensor ebenfalls zu berücksichtigen. Aufgrund dessen wird eine 6-Pin-JST-Buchse als Anschluss verwendet. Alle GND-Pins
-		  werden auf einen zusammengefasst, um möglichst viel Platz zu Sparen. \\
-		  \begin{figure}[H]
-			\begin{center}
-				\scalebox{0.5}
-				{\includegraphics[width=0.8 \linewidth]{JST_Flexsensoren_Schaltplan_Handschuh}}
-				\caption{Flexsensor Connector}
-				\label{fig:JST_Flexsensoren_Schaltplan_Handschuh}				
-			\end{center}
-		\end{figure}
-	\end{itemize}
+ GitHub\end{itemize}
 
 \paragraph{Mikrokontroller} 
 \hfill \break
