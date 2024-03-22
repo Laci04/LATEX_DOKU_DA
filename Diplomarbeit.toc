@@ -205,7 +205,7 @@
 \contentsline {subsubsection}{\numberline {10.2.4}Individuelle Komponenten}{164}{subsubsection.10.2.4}%
 \contentsline {paragraph}{\numberline {10.2.4.1}Parser und Interpretation: drahtloser Datenströme}{165}{paragraph.10.2.4.1}%
 \contentsline {paragraph}{\numberline {10.2.4.2}Parser und Interpretation: serieller Datenströme}{165}{paragraph.10.2.4.2}%
-\contentsline {paragraph}{\numberline {10.2.4.3}proaktiver Datenkorrekturalgorithmus}{165}{paragraph.10.2.4.3}%
+\contentsline {paragraph}{\numberline {10.2.4.3}proaktiver Datenkorrekturalgorithmus}{166}{paragraph.10.2.4.3}%
 \contentsline {paragraph}{\numberline {10.2.4.4}Datenaufbereitung und Anweisung für Servoaktoren}{167}{paragraph.10.2.4.4}%
 \contentsline {subsubsection}{\numberline {10.2.5}Fremdkomponenten}{168}{subsubsection.10.2.5}%
 \contentsline {paragraph}{\numberline {10.2.5.1}MCP3X21}{168}{paragraph.10.2.5.1}%
