@@ -26,14 +26,13 @@
       \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{A comparative study on the position control method of dc servo motor with position feedback by using arduino}
-      \field{year}{2016}
+      \field{year}{19.03.2024}
       \verb{urlraw}
       \verb https://www.researchgate.net/publication/313384504_A_comparative_study_on_the_position_control_method_of_dc_servo_motor_with_position_feedback_by_using_arduino
       \endverb
       \verb{url}
       \verb https://www.researchgate.net/publication/313384504_A_comparative_study_on_the_position_control_method_of_dc_servo_motor_with_position_feedback_by_using_arduino
       \endverb
-      \warn{\item online entry 'Q13' (Literatur.bib): Invalid format '19.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WIFIabbildung}{online}{}
       \name{author}{1}{}{%
@@ -54,28 +53,28 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{WIFI Logo}
-      \field{year}{2016}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
       \endverb
       \verb{url}
       \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
       \endverb
-      \warn{\item online entry 'WIFIabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Apache}{online}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Apache}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://apache.org/licenses/LICENSE-1.0
       \endverb
       \verb{url}
       \verb https://apache.org/licenses/LICENSE-1.0
       \endverb
-      \warn{\item online entry 'Apache' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{TÜVaustria}{online}{}
       \name{author}{1}{}{%
@@ -99,7 +98,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mensch Roboter Kollaboration Einfluss der ITsecurity}
-      \field{year}{2018}
+      \field{year}{06.03.2024}
       \field{pages}{12}
       \range{pages}{1}
       \verb{urlraw}
@@ -108,7 +107,6 @@
       \verb{url}
       \verb https://tr.tuv.at/fileadmin/user_upload/docs/group/innovation/tuv-austria-white-paper-deutsch/003_tuv_austria_white_paper_III_einfluss_it_security_sicherheit_in_der_mensch_roboter_kollaboration_fraunhofer_DE_WEB.pdf
       \endverb
-      \warn{\item online entry 'TÜVaustria' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{ISA}{online}{}
       \name{author}{1}{}{%
@@ -135,14 +133,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ISA/IEC 62443 Series of Standards}
-      \field{year}{2024}
+      \field{year}{13.03.2024}
       \verb{urlraw}
       \verb https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards
       \endverb
       \verb{url}
       \verb https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards
       \endverb
-      \warn{\item online entry 'ISA' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Q7}{online}{}
       \name{author}{1}{}{%
@@ -166,14 +163,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Grundlagen: Der Servomotor – Funktionsweise, Kühlung und Anwendungsgebiete}
-      \field{year}{2024}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://www.baumueller.com/de/insights/grundlagen/servomotor-funktionsweise-eigenschaften-anwendungsgebiete#:~:text=Der%20Servoantrieb%20bietet%20vor%20allem,Abbremsungen%20auf%20bestimmte%20Drehzahlen%20durchführen
       \endverb
       \verb{url}
       \verb https://www.baumueller.com/de/insights/grundlagen/servomotor-funktionsweise-eigenschaften-anwendungsgebiete#:~:text=Der%20Servoantrieb%20bietet%20vor%20allem,Abbremsungen%20auf%20bestimmte%20Drehzahlen%20durchf%C3%BChren
       \endverb
-      \warn{\item online entry 'Q7' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Servoabbildung}{online}{}
       \name{author}{1}{}{%
@@ -189,17 +185,18 @@
       \strng{authorfullhash}{10d7031ae5ab86c12555e02a37bd93e6}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Futaba S3003 Servo.jpg}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
       \endverb
       \verb{url}
       \verb https://3.bp.blogspot.com/-_Qhk9H-K3tI/UVQhc8-bxSI/AAAAAAAABT4/bWZ8dEICtZY/s640/Futaba_S3003_Servo.jpg
       \endverb
-      \warn{\item online entry 'Servoabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CreativeCommons37}{online}{}
       \name{author}{1}{}{%
@@ -220,17 +217,18 @@
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Und was habe ich als Rechtinhaber davon?}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
       \verb{url}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
-      \warn{\item online entry 'CreativeCommons37' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CreativeCommons35}{online}{}
       \name{author}{1}{}{%
@@ -251,17 +249,18 @@
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Was ist CC?}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
       \verb{url}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
-      \warn{\item online entry 'CreativeCommons35' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CreativeCommons36}{online}{}
       \name{author}{1}{}{%
@@ -282,45 +281,48 @@
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradate}{3}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Wozu solch vorgefertigte Erklärungen?}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
       \verb{url}
       \verb https://de.creativecommons.net/was-ist-cc/
       \endverb
-      \warn{\item online entry 'CreativeCommons36' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CreativeCommonsBilder}{online}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Creative Commons Bilder}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://creativecommons.org/mission/downloads/
       \endverb
       \verb{url}
       \verb https://creativecommons.org/mission/downloads/
       \endverb
-      \warn{\item online entry 'CreativeCommonsBilder' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CreativeComonsLizenz}{online}{}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Creative Commons Lizenz}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://creativecommons.org/share-your-work/cclicenses/
       \endverb
       \verb{url}
       \verb https://creativecommons.org/share-your-work/cclicenses/
       \endverb
-      \warn{\item online entry 'CreativeComonsLizenz' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{FHvorarlberg}{online}{}
       \name{author}{1}{}{%
@@ -344,7 +346,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mensch Roboter Kollaboration (MRK) Gestaltungshilfe für MRK Anwendungen}
-      \field{year}{2022}
+      \field{year}{11.03.2024}
       \field{pages}{31\bibrangedash 32}
       \range{pages}{2}
       \verb{urlraw}
@@ -353,7 +355,6 @@
       \verb{url}
       \verb https://opus.fhv.at/frontdoor/deliver/index/docId/4600/file/MRK_Gestaltungshilfe_fuer_MRK-Anwendungen.pdf
       \endverb
-      \warn{\item online entry 'FHvorarlberg' (Literatur.bib): Invalid format '11.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Flexsensorabbildung}{online}{}
       \name{author}{1}{}{%
@@ -377,14 +378,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Flexsensor}
-      \field{year}{2013}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
       \endverb
       \verb{url}
       \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
       \endverb
-      \warn{\item online entry 'Flexsensorabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{I2Cabbildung}{online}{}
       \name{author}{1}{}{%
@@ -400,17 +400,18 @@
       \strng{authorfullhash}{7b672e35850c75b0a44dbbe3e1dbc4c9}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{I2C Zeitdiagramm}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
       \endverb
       \verb{url}
       \verb http://fmh-studios.de/theorie/informationstechnik/i2c-bus/
       \endverb
-      \warn{\item online entry 'I2Cabbildung' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Frauenhofer17}{online}{}
       \name{author}{1}{}{%
@@ -433,7 +434,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sicherheit in der Mensch-Roboter-Kollaboration}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \field{pages}{17}
       \range{pages}{1}
       \verb{urlraw}
@@ -442,7 +443,6 @@
       \verb{url}
       \verb https://www.fraunhofer.at/content/dam/austria/documents/WhitePaperTUEV/White%20Paper_Sicherheit_MRK_Ausgabe%202.pdf
       \endverb
-      \warn{\item online entry 'Frauenhofer17' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Frauenhofer18}{online}{}
       \name{author}{1}{}{%
@@ -465,7 +465,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sicherheit in der Mensch-Roboter-Kollaboration}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \field{pages}{18}
       \range{pages}{1}
       \verb{urlraw}
@@ -474,7 +474,6 @@
       \verb{url}
       \verb https://www.fraunhofer.at/content/dam/austria/documents/WhitePaperTUEV/White%20Paper_Sicherheit_MRK_Ausgabe%202.pdf
       \endverb
-      \warn{\item online entry 'Frauenhofer18' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Frauenhofer21}{online}{}
       \name{author}{1}{}{%
@@ -497,7 +496,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sicherheit in der Mensch-Roboter-Kollaboration}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \field{pages}{21}
       \range{pages}{1}
       \verb{urlraw}
@@ -506,7 +505,6 @@
       \verb{url}
       \verb https://www.fraunhofer.at/content/dam/austria/documents/WhitePaperTUEV/White%20Paper_Sicherheit_MRK_Ausgabe%202.pdf
       \endverb
-      \warn{\item online entry 'Frauenhofer21' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Frauenhofer22}{online}{}
       \name{author}{1}{}{%
@@ -529,7 +527,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sicherheit in der Mensch-Roboter-Kollaboration}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \field{pages}{22}
       \range{pages}{1}
       \verb{urlraw}
@@ -538,7 +536,6 @@
       \verb{url}
       \verb https://www.fraunhofer.at/content/dam/austria/documents/WhitePaperTUEV/White%20Paper_Sicherheit_MRK_Ausgabe%202.pdf
       \endverb
-      \warn{\item online entry 'Frauenhofer22' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Frauenhofer23}{online}{}
       \name{author}{1}{}{%
@@ -561,7 +558,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Sicherheit in der Mensch-Roboter-Kollaboration}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \field{pages}{23}
       \range{pages}{1}
       \verb{urlraw}
@@ -570,21 +567,21 @@
       \verb{url}
       \verb https://www.fraunhofer.at/content/dam/austria/documents/WhitePaperTUEV/White%20Paper_Sicherheit_MRK_Ausgabe%202.pdf
       \endverb
-      \warn{\item online entry 'Frauenhofer23' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{GNU}{online}{}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{GNU}
+      \field{year}{09.03.2024}
       \verb{urlraw}
       \verb https://www.gnu.org/licenses/copyleft.de.html
       \endverb
       \verb{url}
       \verb https://www.gnu.org/licenses/copyleft.de.html
       \endverb
-      \warn{\item online entry 'GNU' (Literatur.bib): Invalid format '09.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WikipediaGPL2}{online}{}
       \name{author}{1}{}{%
@@ -605,17 +602,18 @@
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Entstehung}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
-      \warn{\item online entry 'WikipediaGPL2' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WikipediaGPL3}{online}{}
       \name{author}{1}{}{%
@@ -636,17 +634,18 @@
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Geschichte}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
-      \warn{\item online entry 'WikipediaGPL3' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WikipediaGPL4}{online}{}
       \name{author}{1}{}{%
@@ -667,17 +666,18 @@
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradate}{3}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{GPL Version 3}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
-      \warn{\item online entry 'WikipediaGPL4' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Q8}{online}{}
       \name{author}{1}{}{%
@@ -698,14 +698,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Servomotor erklärt}
-      \field{year}{2022}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://www.youtube.com/watch?v=g4BM1pjm64s
       \endverb
       \verb{url}
       \verb https://www.youtube.com/watch?v=g4BM1pjm64s
       \endverb
-      \warn{\item online entry 'Q8' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Ionos8}{online}{}
       \name{author}{1}{}{%
@@ -723,17 +722,18 @@
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Bedingungen für den Urheberrechtsschutz: Software als geistiges Eigentum}
+      \field{year}{06.03.2024}
       \verb{urlraw}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
       \verb{url}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
-      \warn{\item online entry 'Ionos8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Ionos10}{online}{}
       \name{author}{1}{}{%
@@ -751,17 +751,18 @@
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Nicht unter das Urheberrecht fallen hingegen}
+      \field{year}{06.03.2024}
       \verb{urlraw}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
       \verb{url}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
-      \warn{\item online entry 'Ionos10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Ionos9}{online}{}
       \name{author}{1}{}{%
@@ -779,17 +780,18 @@
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradate}{3}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unter den urheberrechtlichen Schtuz fallen}
+      \field{year}{06.03.2024}
       \verb{urlraw}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
       \verb{url}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
-      \warn{\item online entry 'Ionos9' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Ionos7}{online}{}
       \name{author}{1}{}{%
@@ -807,17 +809,18 @@
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradate}{4}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Urheberrecht bei Software}
+      \field{year}{06.03.2024}
       \verb{urlraw}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
       \verb{url}
       \verb https://www.ionos.at/digitalguide/websites/online-recht/urheberrecht-bei-software/
       \endverb
-      \warn{\item online entry 'Ionos7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{CIAtriade}{online}{}
       \name{author}{1}{}{%
@@ -841,14 +844,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The CIA triad: Definition, components and examples}
-      \field{year}{2020}
+      \field{year}{21.03.2024}
       \verb{urlraw}
       \verb https://www.csoonline.com/article/568917/the-cia-triad-definition-components-and-examples.html
       \endverb
       \verb{url}
       \verb https://www.csoonline.com/article/568917/the-cia-triad-definition-components-and-examples.html
       \endverb
-      \warn{\item online entry 'CIAtriade' (Literatur.bib): Invalid format '21.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Q1}{online}{}
       \name{author}{1}{}{%
@@ -872,14 +874,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Was ist ein Aktuator - Arten und Anwendungen}
-      \field{year}{2023}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://tameson.de/pages/aktuator
       \endverb
       \verb{url}
       \verb https://tameson.de/pages/aktuator
       \endverb
-      \warn{\item online entry 'Q1' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{bpb}{online}{}
       \name{author}{1}{}{%
@@ -898,17 +899,18 @@
       \strng{authorfullhash}{06e385dff2ace3fe5f971c42d5409a44}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{bpb}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://www.bpb.de/lernen/digitale-bildung/oer-material-fuer-alle/220550/die-sechs-creative-commons-lizenztypen-im-ueberblick/
       \endverb
       \verb{url}
       \verb https://www.bpb.de/lernen/digitale-bildung/oer-material-fuer-alle/220550/die-sechs-creative-commons-lizenztypen-im-ueberblick/
       \endverb
-      \warn{\item online entry 'bpb' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Generationrobots}{online}{}
       \name{author}{1}{}{%
@@ -932,28 +934,28 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Ultraschallsensoren für Kollisionvermeidung}
-      \field{year}{2017}
+      \field{year}{18.03.2024}
       \verb{urlraw}
       \verb https://www.generationrobots.com/blog/de/ultraschallsensoren-fur-kollisionvermeidung/
       \endverb
       \verb{url}
       \verb https://www.generationrobots.com/blog/de/ultraschallsensoren-fur-kollisionvermeidung/
       \endverb
-      \warn{\item online entry 'Generationrobots' (Literatur.bib): Invalid format '18.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Opensource}{online}{}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Opensource}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://opensource.org/osd
       \endverb
       \verb{url}
       \verb https://opensource.org/osd
       \endverb
-      \warn{\item online entry 'Opensource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Q4}{online}{}
       \name{author}{1}{}{%
@@ -974,21 +976,22 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Was ist ein Aktuator?}
-      \field{year}{2022}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://www.reac-group.com/de_de/wissenswertes/aktuatoren/was-ist-ein-aktuator/
       \endverb
       \verb{url}
       \verb https://www.reac-group.com/de_de/wissenswertes/aktuatoren/was-ist-ein-aktuator/
       \endverb
-      \warn{\item online entry 'Q4' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Saferinternet.p10}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Saferinternet p.10}
+      \field{year}{06.03.2024}
       \field{pages}{10}
       \range{pages}{1}
       \verb{urlraw}
@@ -997,14 +1000,15 @@
       \verb{url}
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'Saferinternet.p10' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Saferinternet.p11}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Saferinternet p.11}
+      \field{year}{06.03.2024}
       \field{pages}{11}
       \range{pages}{1}
       \verb{urlraw}
@@ -1013,14 +1017,15 @@
       \verb{url}
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'Saferinternet.p11' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Saferinternet.p12}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Saferinternet p.12}
+      \field{year}{06.03.2024}
       \field{pages}{12}
       \range{pages}{1}
       \verb{urlraw}
@@ -1029,14 +1034,15 @@
       \verb{url}
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'Saferinternet.p12' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Saferinternet.p7}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Saferinternet p.7}
+      \field{year}{06.03.2024}
       \field{pages}{7}
       \range{pages}{1}
       \verb{urlraw}
@@ -1045,14 +1051,15 @@
       \verb{url}
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'Saferinternet.p7' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Saferinternet.p8}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Saferinternet p.8}
+      \field{year}{06.03.2024}
       \field{pages}{8}
       \range{pages}{1}
       \verb{urlraw}
@@ -1061,7 +1068,6 @@
       \verb{url}
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
-      \warn{\item online entry 'Saferinternet.p8' (Literatur.bib): Invalid format '06.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Pilz}{online}{}
       \name{author}{1}{}{%
@@ -1088,14 +1094,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{EN 61508: Funktionale Sicherheit von Steuerungssystemen}
-      \field{year}{2024}
+      \field{year}{13.03.2024}
       \verb{urlraw}
       \verb https://www.pilz.com/de-DE/support/law-standards-norms/functional-safety/en-iec-61508
       \endverb
       \verb{url}
       \verb https://www.pilz.com/de-DE/support/law-standards-norms/functional-safety/en-iec-61508
       \endverb
-      \warn{\item online entry 'Pilz' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Giga}{online}{}
       \name{author}{1}{}{%
@@ -1114,17 +1119,18 @@
       \strng{authorfullhash}{face169d07fbc9456304189e764388c5}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Giga}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://www.giga.de/artikel/was-ist-open-source-einfach-erklaert/
       \endverb
       \verb{url}
       \verb https://www.giga.de/artikel/was-ist-open-source-einfach-erklaert/
       \endverb
-      \warn{\item online entry 'Giga' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{PWC}{online}{}
       \name{author}{1}{}{%
@@ -1145,17 +1151,18 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PWC}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://www.pwc.de/de/digitale-transformation/open-source-software-management-und-compliance/open-source-software-aktuelle-trends-und-entwicklungen.html
       \endverb
       \verb{url}
       \verb https://www.pwc.de/de/digitale-transformation/open-source-software-management-und-compliance/open-source-software-aktuelle-trends-und-entwicklungen.html
       \endverb
-      \warn{\item online entry 'PWC' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{PWC2}{online}{}
       \name{author}{1}{}{%
@@ -1176,17 +1183,18 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Unternehmen und Behörden setzen auf Open Source Software}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://www.pwc.de/de/digitale-transformation/open-source-software-management-und-compliance/open-source-software-aktuelle-trends-und-entwicklungen.html
       \endverb
       \verb{url}
       \verb https://www.pwc.de/de/digitale-transformation/open-source-software-management-und-compliance/open-source-software-aktuelle-trends-und-entwicklungen.html
       \endverb
-      \warn{\item online entry 'PWC2' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Simpleclub24}{online}{}
       \name{author}{1}{}{%
@@ -1204,17 +1212,18 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Freie Softwarelizenzen}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
       \verb{url}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
-      \warn{\item online entry 'Simpleclub24' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Simpleclub25}{online}{}
       \name{author}{1}{}{%
@@ -1232,17 +1241,18 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Kommerzielle Softwarelizenzen}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
       \verb{url}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
-      \warn{\item online entry 'Simpleclub25' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Simpleclub23}{online}{}
       \name{author}{1}{}{%
@@ -1260,17 +1270,18 @@
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradate}{3}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Softwarelizenzen einfach erklärt}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
       \verb{url}
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
-      \warn{\item online entry 'Simpleclub23' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Q9}{online}{}
       \name{author}{1}{}{%
@@ -1286,17 +1297,18 @@
       \strng{authorfullhash}{7f697089a266d5be4f7ba9047699556a}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{PID Regler}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://studyflix.de/informatik/pid-regler-1450
       \endverb
       \verb{url}
       \verb https://studyflix.de/informatik/pid-regler-1450
       \endverb
-      \warn{\item online entry 'Q9' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{TÜVsüd}{online}{}
       \name{author}{1}{}{%
@@ -1320,14 +1332,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{MASCHINENRICHTLINIE 2006/42/EG EINFACH ERKLÄRT}
-      \field{year}{2024}
+      \field{year}{13.03.2024}
       \verb{urlraw}
       \verb https://www.tuvsud.com/de-de/indust-re/maschinensicherheit-info/maschinenrichtlinie
       \endverb
       \verb{url}
       \verb https://www.tuvsud.com/de-de/indust-re/maschinensicherheit-info/maschinenrichtlinie
       \endverb
-      \warn{\item online entry 'TÜVsüd' (Literatur.bib): Invalid format '13.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{rubigm.p10}{online}{}
       \name{author}{1}{}{%
@@ -1353,7 +1364,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
-      \field{year}{2019}
+      \field{year}{05.03.2024}
       \field{pages}{10}
       \range{pages}{1}
       \verb{urlraw}
@@ -1362,7 +1373,6 @@
       \verb{url}
       \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
       \endverb
-      \warn{\item online entry 'rubigm.p10' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{rubigm.p11}{online}{}
       \name{author}{1}{}{%
@@ -1388,7 +1398,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{LEITFADEN ZUR EINFÜHRUNG VON MENSCH ROBOTER KOLLABORATION: PERSPEKTIVEN DER BETRIEBLICHEN INTERESSENVERTRETUNG}
-      \field{year}{2019}
+      \field{year}{05.03.2024}
       \field{pages}{11}
       \range{pages}{1}
       \verb{urlraw}
@@ -1397,9 +1407,8 @@
       \verb{url}
       \verb https://www.rubigm.ruhr-uni-bochum.de/rubigm/mam/content/publications/scipub/mrk_leitfaden.pdf
       \endverb
-      \warn{\item online entry 'rubigm.p11' (Literatur.bib): Invalid format '05.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{Q6}{online}{}
+    \entry{WikipediaOpenSource}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1414,21 +1423,19 @@
       \field{extraname}{1}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Servomotor}
-      \field{year}{2024}
+      \field{year}{07.03.2024}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Servomotor
+      \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Servomotor
+      \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
-      \warn{\item online entry 'Q6' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{WikipediaOpenSource}{online}{}
+    \entry{WikipediaOpenSource12}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1443,18 +1450,21 @@
       \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{1}
-      \field{labeldatesource}{nodate}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definition}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
-      \warn{\item online entry 'WikipediaOpenSource' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{WikipediaOpenSource12}{online}{}
+    \entry{WikipediaApache}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1469,20 +1479,21 @@
       \field{extraname}{3}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{2}
-      \field{labeldatesource}{nodate}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Definition}
+      \field{title}{Eigenschaften}
+      \field{year}{07.03.2024}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Open_Source
+      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Open_Source
+      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
       \endverb
-      \warn{\item online entry 'WikipediaOpenSource12' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{WikipediaApache}{online}{}
+    \entry{WikipediaOpenSource16}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1497,20 +1508,21 @@
       \field{extraname}{4}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{3}
-      \field{labeldatesource}{nodate}
+      \field{extradate}{4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Eigenschaften}
+      \field{title}{Geschichte}
+      \field{year}{07.03.2024}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
+      \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Apache-Lizenz
+      \verb https://de.wikipedia.org/wiki/Open_Source
       \endverb
-      \warn{\item online entry 'WikipediaApache' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
-    \entry{WikipediaOpenSource16}{online}{}
+    \entry{Q6}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9c677286866aad38f8e9b660f5411814}{%
            family={Wikipedia},
@@ -1525,46 +1537,48 @@
       \field{extraname}{5}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradate}{4}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Geschichte}
+      \field{title}{Servomotor}
+      \field{year}{10.03.2024}
       \verb{urlraw}
-      \verb https://de.wikipedia.org/wiki/Open_Source
+      \verb https://de.wikipedia.org/wiki/Servomotor
       \endverb
       \verb{url}
-      \verb https://de.wikipedia.org/wiki/Open_Source
+      \verb https://de.wikipedia.org/wiki/Servomotor
       \endverb
-      \warn{\item online entry 'WikipediaOpenSource16' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WikipediaGPL}{online}{}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Wikipedia GPL}
+      \field{year}{07.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
-      \warn{\item online entry 'WikipediaGPL' (Literatur.bib): Invalid format '07.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{WikipediaLinux}{online}{}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labeltitlesource}{title}
       \field{title}{Wikipedia Linux}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://de.wikipedia.org/wiki/Linux_(Kernel)
       \endverb
       \verb{url}
       \verb https://de.wikipedia.org/wiki/Linux_(Kernel)
       \endverb
-      \warn{\item online entry 'WikipediaLinux' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
     \entry{Haager}{book}{}
       \name{author}{1}{}{%
@@ -1614,17 +1628,18 @@
       \strng{authorfullhash}{6b1ccdf2982d347c3f98d2151578701b}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{bitkom}
+      \field{year}{10.03.2024}
       \verb{urlraw}
       \verb https://www.pwc.de/de/digitale-transformation/bitkom-open-source-monitor-2023.pdf
       \endverb
       \verb{url}
       \verb https://www.pwc.de/de/digitale-transformation/bitkom-open-source-monitor-2023.pdf
       \endverb
-      \warn{\item online entry 'bitkom' (Literatur.bib): Invalid format '10.03.2024' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

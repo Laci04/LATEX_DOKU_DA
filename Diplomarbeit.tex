@@ -243,7 +243,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
 	 \hline
 	  \bfseries{\small{Realization}} & \small{The movements of the human hand are recorded with Flex sensors on the glove.
-	  The required data is then transmitted to the robotic hand via Bluetooth. A website will serve as
+	  The required data is then transmitted to the robotic hand via wireless communication. An application of some kind will serve as
 	  the user interface.}\\  
 	 \hline
 	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
@@ -346,7 +346,7 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	 \hline
 	  \bfseries{\small{Realisierung}} & \small{Die Bewegungen der menschlichen Hand werden mit Flexsensoren am Handschuh erfasst. Die benötigten Daten werden
 	  anschließend über ein drahtloses Protokoll an die Roboterhand übertragen. Die Bewegungen der Roboterfinger werden mit
-	  Servomotoren realisiert. Als User-Interface soll eine Application dienen.}\\  
+	  Servomotoren realisiert. Als User-Interface soll eine Applikation dienen.}\\  
 	 \hline
 	\multicolumn{2}{l}{\large{ \textbf{}}}\\ 
 	 \hline
@@ -401,14 +401,6 @@ Wir danken allen, die uns im Rahmen dieses Projekts zur Seite standen.
 	\end{centering}
 	
 \thispagestyle{empty}
-
-\newpage
-\thispagestyle{empty}
-\begin{center}
-    \vspace*{\fill}
-    \Huge{\textbf{Inhaltsverzeichnis}}
-    \vspace*{\fill}
-\end{center}
 
 \newpage
 
@@ -482,7 +474,7 @@ Fachlehrer Robert Offner
 
 \subsection{Untersuchungsanliegen der individuellen Themenstellungen}
 \label{chap:Untersuchungsanliegen der individuellen Themenstellungen}
-Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design aufgebaut werden,
+Mit dieser Diplomarbeit soll eine Roboterhand nach einem fertigen Design, das nach Bedarf auch erweitert werden kann, aufgebaut werden,
 die mit einem kabellos angebundenen Handschuh gesteuert wird. Zu diesem Zweck müssen
 verschiedene Sensoren getestet werden, die die Fingergelenksstellung messen. Deren Daten
 müssen ausgelesen und mittels kabelloser Schnittstelle an die Roboterhand übertragen werden
@@ -520,7 +512,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
 		3 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungen der Roboterhand sollen möglichst gut die einer echten Hand immitieren.}} & Y & 100 \\
 		\hline
-		4 & \fcolorbox{white}{white}{\parbox{5cm}{Die Roboterhand ist ein fertiges Design (3D Druck), dass im Projekt integriert wird.}} & Y & \fcolorbox{white}{white}{\parbox{3cm}{50 , weil das fertige Design verbessert und modifieziert wurde}} \\
+		4 & \fcolorbox{white}{white}{\parbox{5cm}{Die Roboterhand ist ein fertiges Design (3D Druck), dass im Projekt integriert wird.}} & Y & \fcolorbox{white}{white}{\parbox{3cm}{150 , weil das fertige Design verbessert und modifieziert wurde}} \\
         \hline
 		5 & \fcolorbox{white}{white}{\parbox{5cm}{Die Bewegungserfassung soll mit entsprechender Sensorik erfolgen.}} & Y & 100 \\
 		\hline
@@ -551,7 +543,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
 		13 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload und Reset Button für ESP32}} & Y & 100 \\
 		\hline
-		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & N & \fcolorbox{white}{white}{\parbox{3cm}{0, da die Sensoren anfangs angenäht wurden nun aber schlussendlich aber nicht}}  \\
+		14 & \fcolorbox{white}{white}{\parbox{5cm}{ - Annähen?}} & N & \fcolorbox{white}{white}{\parbox{3cm}{0, da die Sensoren anfangs angenäht wurden nun aber schlussendlich nicht}}  \\
         \hline
 		15 & \fcolorbox{white}{white}{\parbox{5cm}{Mit einem ADC, sollen mindestens 30 verschiedene Positionen der Flexsensoren detektiert werden können.}} & Y & 100 \\
 		\hline
@@ -602,7 +594,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
         \hline
 		33 & \fcolorbox{white}{white}{\parbox{5cm}{ - Upload -und Reset Button für ESP32}} & Y & 100 \\
 		\hline
-		34 & \fcolorbox{white}{white}{\parbox{5cm}{Jeder einzelne Servomotor soll eine Stromüberwachung haben.}} & Y & 70 \\
+		34 & \fcolorbox{white}{white}{\parbox{5cm}{Jeder einzelne Servomotor soll eine Stromüberwachung haben.}} & Y & 100 \\
         \hline
 		35 & \fcolorbox{white}{white}{\parbox{5cm}{ - mit dieser soll die Griffkraft der Finger kontrolliert werden können. (leicht - mittel - stark)}} & Y & 0 \\
 		\hline
@@ -639,7 +631,7 @@ dem der Benutzer Daten des Roboterarms und des Handschuhs einsehen kann. [\textc
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{VWA - Aktuatoren mit Positionsregelung [\textcolor{blue}{Al-Maytah}]}
+\section{VWTT - Aktuatoren mit Positionsregelung [\textcolor{blue}{Al-Maytah}]}
 \subsection{Überblick über Aktuatoren}
 Ein Aktuator bezeichnet ein Gerät welches erhaltene Energie und Signale 
 in eine Bewegung oder auch Kraft umwandelt. Diese Apparaturen sind 
@@ -648,7 +640,7 @@ großflächigen Anwendungen bei der Automatisierung und Steuerung
 verschiedener Applikationen in der Industrie. \footnote{\cite{Q1}} \\
 \\
 Die anhand der Umwandlung resultierende Bewegung kann rotierend oder 
-linear sein. Rotierende Bewegungen werden anhand eines Drehantriebs 
+geradlinig sein. Rotierende Bewegungen werden anhand eines Drehantriebs 
 erzeugt, bei linearen Bewegungen hingegen bewegt sich der Antrieb auf 
 einer Achse in beide Richtungen, vor und zurück. \footnote{\cite{Q4}} \\
 \\
@@ -737,7 +729,7 @@ Bewegungen zu erzielen, wie Roboter oder Maschinen. \footnote{\cite{Q7}} \\
 Von außen sind von einem Servomotor sein Hauptgehäuse und seine 
 Anschlüsse zu sehen. Die Anschlüsse dabei sind bei Modellbau Motoren 
 die Versorgung, sowie das Signalkabel. Auf diesem Kabel erfolgt die 
-Datenübermittlung per PWM (Pulse-Wide-Modulation). Auf der oberen Seite 
+Datenübermittlung per PWM (Pulse-Width-Modulation). Auf der oberen Seite 
 des Hauptgehäuses ist ein Zahnrad zu sehen, auf diesem können je nach 
 Anwendung verschiedene Aufsätze montiert werden. \footnote{\cite{Q1}}\textcolor{blue}{@3 min 38 Sekunden} \\
 \begin{figure}[H]
@@ -962,7 +954,7 @@ dieser 100\textdegree erreicht. \\
 %=============================================================================
 %=============================================================================
 
-\section{VWA - Freie Lizenzen [\textcolor{blue}{Schweitzer}]}
+\section{VWTT - Freie Lizenzen [\textcolor{blue}{Schweitzer}]}
 \subsection{Urheberrecht}
 \subsubsection{Definition und Bedeutung}
 Autoren, Programmierer oder aber auch beispielsweise Maler sind Urheber ihres selbst geschaffenen Werkes. 
@@ -1381,7 +1373,7 @@ verzichtet ebenso auf sämtliche Schutzrechte. Mit dem Werk, das mit CC0 lizenzi
 %=============================================================================
 %=============================================================================
 
-\section{VWA - Sicherheitsaspekte der MRK [\textcolor{blue}{Szabo}]}
+\section{VWTT - Sicherheitsaspekte der MRK [\textcolor{blue}{Szabo}]}
 \subsection{Einleitung}
 \subsubsection{Hintergrund und Motivation}
 Der Hintergrund dieser vorwissenschaftlichen Arbeit besteht darin, mögliche 
@@ -1868,7 +1860,7 @@ steht der erfolgreichen MRK nichts mehr im Weg. \\
 \newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
-\section{Theoretische Grundlagen des Diplomprojekts}
+\section{Übersicht der eingesetzten Technologien}
 \label{chap:Theoretische Grundlagen des Diplomprojekts}
 
 \subsection{Flexsensor [\textcolor{blue}{Schweitzer}]}
@@ -2113,7 +2105,7 @@ drei können jedoch das 2,4GHz-Band zum Datenaustausch verwenden.  \\
 
 \subsection{OPV Technologien [\textcolor{blue}{Szabo}]}
 \label{chap:OPV Technologien}
-Ein Operationsverstärker, kurz OPV, ist ein analoger Gleichspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
+Ein Operationsverstärker, kurz OPV, ist ein analoger Gleich- und Wechselspannungsverstärker, der sich durch seine üblicherweise sehr hohe 
 Verstärkung auszeichnet. Der elektroische Grundbaustein ist ein Differenzverstärker, der durch äußere Beschaltungen angepasst werden kann.
 In der grundlegendsten Funktion, verstärkt ein OPV die Differenz der beiden Eingangsspannungen am $"$+$"$ und $"$-$"$ Anschluss. Das Ergebnis
 dieses Verstärkungsprozesses wird anschließend über $"$Vout$"$ ausgegeben. \\
@@ -2307,10 +2299,11 @@ WIFI (Wireless Fidelity) ist eigentlich ein Markenname, der oft fälschlicherwei
 Innerhalb eines WLANs können Datenpakete gesendet und empfangen werden. Der Vorteil dieser drahtlosen Verbindung liegt darin, dass die Geräte keine physische Verbindung per Datenkabel benötigen. Sie können innerhalb einer bestimmten Reichweite miteinander kommunizieren.
 Die Reichweite eines WLANs kann durch verschiedene Faktoren beeinflusst werden. Beispielsweise können physische Hindernisse wie Wände oder Möbel das Signal abschwächen. Auch andere drahtlose Geräte oder Netzwerke können Interferenzen verursachen und die Signalqualität beeinträchtigen. \\
 
+\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 
-\section{Grundlegende Systemkonzepte [\textcolor{blue}{Szabo}]}
+\section{Grundlegendes Systemkonzept [\textcolor{blue}{Szabo}]}
 \label{chap:Grundlegende Systemkonzepte}
 
 \subsection{Gesamtsystemkonzept}
@@ -3426,6 +3419,9 @@ entlastet den Eingang des folgenden ADCs. Der Tiefpassfilter wurde folgendermaß
 \\
 \hspace*{4.25cm} $ C = 68 nF $ \hspace*{1cm} $ R = \frac{\tau}{68nF} = 117 \Omega $ \\
 \\
+Der zum Kondensator parallel geschaltete Widerstand wurde bei der Berechnung des Filters nicht berücksichtigt,
+da dieser die Grenzfrequenz bei der physischen Anwendung nur unmerkbar beeinflusst. Die Komplexität stünde mit der 
+zusätzlich erzielten Genauigkeit in keiner Relation. \\
 \paragraph{Berechnung der OPV Verstärkung und Dimensionierung des Shuntwiderstands}
 \hfill \break
 \hfill \break
@@ -3494,6 +3490,9 @@ Für diesen Zweck ist ein Multiplexer bestens geeignet. Folgende Kriterien muss 
 Folglich viel die Wahl auf den MUX508IDR. Dieser ist ein 8:1 Channel Multiplexer, der über 5V versorgt werden kann und über drei 
 Analoganschlüsse für die Auswahl des Kanals verfügt. \\
 \\
+Bei der Umschaltdauer wird die volle Schnelligkeit des Chips verwendet, um eine minimale Verzögerung von der Bewegung des Sensors zur Bewegung 
+der Roboterhand zu gewährleisten. 
+\\
 \paragraph{Bewegungserfassung der Handgelenksdrehung}
 \hfill \break
 \hfill \break
@@ -3502,6 +3501,10 @@ Funktion eines Gyroskops haben und folglich die Positionen von X, Y -und Z-Achse
 I2C-Bus erfolgen, um die Kompatiblität mit der restlichen Schaltung zu ermöglichen. \\
 \\
 Ausgewählt wurder der Sensor MPU-6000, da dieser schon eingebaute ADCs hat, um die Achswerte vor der Übertragung zu digitalisieren. \\
+\\
+Wichtig zu beachten ist allerdings, dass dieser Sensor nur in Hardware auf der Platine integriert wurde und 
+die Softwareansteuerung noch nicht vorhanden ist. Diese müsste im Zuge möglicher Erweiterungen [siehe \textcolor{blue}{\autoref{chap:Ausblick}}]
+programmiert werden. \\
 \\
 \paragraph{Mikrokontroller}
 \label{par:Mikrokontroller}
@@ -3904,8 +3907,7 @@ kein Problem und wird beim nächsten Platinenlayout behoben. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_oben_v2}}], ist ein 3D-Modell des Toplayers abgebildet. Dies ist eine exakte Representation der gefertigten
-Platine, die anschließend bestückt worden ist. \\
+In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_oben_v2}}], ist die bestückte Oberseite des zweiten Platinenmodells des Eingabesubsystems zu sehen. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -3916,8 +3918,7 @@ Platine, die anschließend bestückt worden ist. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_unten_v2}}], ist das 3D-Modell des Bottomlayersabgebildet. Dies ist ebenfalls eine exakte Representation der
-gefertigten Platine und muss noch bestückt werden. \\
+In [\textcolor{blue}{\autoref{fig:Platinenmodell_Handschuh_unten_v2}}], ist die bestückte Unterseite des zweiten Platinenmodells des Eingabesubsystems zu sehen. Diese wurde von JLCPCB bestückt. \\
 \\
 
 \newpage
@@ -4995,7 +4996,7 @@ mit Konfigurationsmöglichkeiten für beispielsweise die drahtlose Kommunikation
 Für den Datenaustausch zwischen dem Eingabe- und dem Ausgabesubsystem wird ein einheitliches Protokoll benötigt, welches auch während der Entwicklung 
 ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten welche für das 
 Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}]
-und [\textcolor{blue}{\autoref{par:Parser und Interpretation: serieller Datenströme}}]. \\
+und [\textcolor{blue}{\autoref{par:Parser und Interpretation: serieller Datenströme}}] erklärt. \\
 \\
 
 \paragraph{Drahtlose Kommunikation}
@@ -5708,6 +5709,7 @@ Wissen, das wir während der gesamten Entwicklungsphase gesammelt haben, können
 %--------------------------------------------------------------------------
 %==AUSBLICK================================================================
 \section{Ausblick}
+\label{chap:Ausblick}
 
 Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. Einige Änderungs -oder Verbesserungsvorschläge des Gesamtdesigns sind in Folge beschrieben. \\
 \\
@@ -7006,33 +7008,7 @@ erstellt werden. \\
 \subsection{Software}
 \label{chap:Fertigungsunterlagen_Software}
 \subsubsection{Skizzen und Konzepte}
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{0.6}
-		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Handschuh}}
-		\caption{Softwarekonzept Eingabesubsystem}
-		\label{fig:Softwarekonzept_Handschuh}		
-	\end{center}
-\end{figure}
-\hfill \break
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{0.6}
-		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Roboterhand}}
-		\caption{Softwarekonzept Ausgabesubsystem}
-		\label{fig:Softwarekonzept_Roboterhand}		
-	\end{center}
-\end{figure}
-\hfill \break
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{0.6}
-		{\includegraphics[width=0.8 \linewidth]{Softwarekonzept_Teilbereich_Servostellung}}
-		\caption{Softwarekonzept Teilbereich Servostellung}
-		\label{fig:Softwarekonzept_Teilbereich_Servostellung}		
-	\end{center}
-\end{figure}
-\hfill \break
+
 
 \subsubsection{Code}
 \label{chap:Fertigungsunterlagen_Software_Code}
