@@ -26,19 +26,20 @@
 \contentsline {subsubsection}{\numberline {4.1.2}Auswirkung auf Software und Kreativwerke}{19}{subsubsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.2}Open Source}{20}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Definition und Bedeutung}{20}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Geschichte}{20}{subsubsection.4.2.2}%
-\contentsline {paragraph}{\numberline {4.2.2.1}Motivation, Entstehung und Meilensteine}{20}{paragraph.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Geschichte}{21}{subsubsection.4.2.2}%
+\contentsline {paragraph}{\numberline {4.2.2.1}Motivation, Entstehung und Meilensteine}{21}{paragraph.4.2.2.1}%
 \contentsline {paragraph}{\numberline {4.2.2.2}Momentaner Zustand und Erwartungen für zukünftige Trends}{21}{paragraph.4.2.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Lizenzen}{22}{subsubsection.4.2.3}%
 \contentsline {paragraph}{\numberline {4.2.3.1}Definition und Bedeutung}{22}{paragraph.4.2.3.1}%
 \contentsline {paragraph}{\numberline {4.2.3.2}Freie Softwarelizenzen}{22}{paragraph.4.2.3.2}%
-\contentsline {paragraph}{\numberline {4.2.3.3}Kommerzielle Softwarelizenzen}{22}{paragraph.4.2.3.3}%
+\contentsline {paragraph}{\numberline {4.2.3.3}Kommerzielle Softwarelizenzen - Gegenkonzept der freien Softwarelizenzen}{22}{paragraph.4.2.3.3}%
 \contentsline {paragraph}{\numberline {4.2.3.4}Copyleft Erklärung}{23}{paragraph.4.2.3.4}%
 \contentsline {paragraph}{\numberline {4.2.3.5}GNU GPL (General Public License)}{24}{paragraph.4.2.3.5}%
 \contentsline {paragraph}{\numberline {4.2.3.6}Apache}{25}{paragraph.4.2.3.6}%
-\contentsline {subsection}{\numberline {4.3}Creative Commons}{25}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Definition und Bedeutung}{25}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Überblick der Lizenzen}{26}{subsubsection.4.3.2}%
+\contentsline {paragraph}{\numberline {4.2.3.7}MIT}{25}{paragraph.4.2.3.7}%
+\contentsline {subsection}{\numberline {4.3}Creative Commons}{26}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Definition und Bedeutung}{26}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Überblick der Lizenzen}{27}{subsubsection.4.3.2}%
 \contentsline {section}{\numberline {5}VWTT - Sicherheitsaspekte der MRK [\textcolor {blue}{Szabo}]}{30}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Einleitung}{30}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Hintergrund und Motivation}{30}{subsubsection.5.1.1}%
@@ -184,78 +185,78 @@
 \contentsline {subsubsection}{\numberline {10.1.1}Konzepte und Überlegungen}{147}{subsubsection.10.1.1}%
 \contentsline {paragraph}{\numberline {10.1.1.1}Datenübertragung}{147}{paragraph.10.1.1.1}%
 \contentsline {paragraph}{\numberline {10.1.1.2}Programmiersprache/Entwicklungsumgebung}{147}{paragraph.10.1.1.2}%
-\contentsline {paragraph}{\numberline {10.1.1.3}Benutzerfreundlichkeit}{148}{paragraph.10.1.1.3}%
-\contentsline {paragraph}{\numberline {10.1.1.4}Testen}{148}{paragraph.10.1.1.4}%
-\contentsline {paragraph}{\numberline {10.1.1.5}Allgemeines Konzept}{149}{paragraph.10.1.1.5}%
-\contentsline {paragraph}{\numberline {10.1.1.6}Minimaler \& maximaler Widerstandswert}{149}{paragraph.10.1.1.6}%
-\contentsline {paragraph}{\numberline {10.1.1.7}Toleranz bei Werten}{150}{paragraph.10.1.1.7}%
-\contentsline {paragraph}{\numberline {10.1.1.8}Verworfene Ideen}{150}{paragraph.10.1.1.8}%
-\contentsline {subsubsection}{\numberline {10.1.2}Realisierung und Gliederung}{151}{subsubsection.10.1.2}%
-\contentsline {paragraph}{\numberline {10.1.2.1}Realisierung}{151}{paragraph.10.1.2.1}%
-\contentsline {paragraph}{\numberline {10.1.2.2}Gliederung}{152}{paragraph.10.1.2.2}%
-\contentsline {paragraph}{\numberline {10.1.2.3}Wichtige Codezeilen}{153}{paragraph.10.1.2.3}%
-\contentsline {subsection}{\numberline {10.2}Roboterhand [\textcolor {blue}{Al-Maytah}]}{156}{subsection.10.2}%
-\contentsline {subsubsection}{\numberline {10.2.1}Grundlegende Vorraussetzungen}{156}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2}Realisierung: Überblick}{156}{subsubsection.10.2.2}%
-\contentsline {paragraph}{\numberline {10.2.2.1}Programmfluss}{156}{paragraph.10.2.2.1}%
-\contentsline {paragraph}{\numberline {10.2.2.2}Effiziente Gliederung essentieller Systemkomponenten}{161}{paragraph.10.2.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.3}Kommunikation - Protokolle}{162}{subsubsection.10.2.3}%
-\contentsline {paragraph}{\numberline {10.2.3.1}Drahtlose Kommunikation}{162}{paragraph.10.2.3.1}%
-\contentsline {paragraph}{\numberline {10.2.3.2}Serielle Kommunikation}{163}{paragraph.10.2.3.2}%
-\contentsline {subsubsection}{\numberline {10.2.4}Individuelle Komponenten}{164}{subsubsection.10.2.4}%
-\contentsline {paragraph}{\numberline {10.2.4.1}Parser und Interpretation: drahtloser Datenströme}{165}{paragraph.10.2.4.1}%
-\contentsline {paragraph}{\numberline {10.2.4.2}Parser und Interpretation: serieller Datenströme}{165}{paragraph.10.2.4.2}%
-\contentsline {paragraph}{\numberline {10.2.4.3}proaktiver Datenkorrekturalgorithmus}{166}{paragraph.10.2.4.3}%
-\contentsline {paragraph}{\numberline {10.2.4.4}Datenaufbereitung und Anweisung für Servoaktoren}{167}{paragraph.10.2.4.4}%
-\contentsline {subsubsection}{\numberline {10.2.5}Fremdkomponenten}{168}{subsubsection.10.2.5}%
-\contentsline {paragraph}{\numberline {10.2.5.1}MCP3X21}{168}{paragraph.10.2.5.1}%
-\contentsline {paragraph}{\numberline {10.2.5.2}HCPCA9685}{168}{paragraph.10.2.5.2}%
-\contentsline {paragraph}{\numberline {10.2.5.3}ESP-NOW und Wifi.h}{168}{paragraph.10.2.5.3}%
-\contentsline {subsection}{\numberline {10.3}User Interface [\textcolor {blue}{Szabo}]}{169}{subsection.10.3}%
-\contentsline {subsubsection}{\numberline {10.3.1}Grundlegende Vorraussetzungen}{169}{subsubsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.2}Entwicklungsumgebung}{169}{subsubsection.10.3.2}%
-\contentsline {subsubsection}{\numberline {10.3.3}Konzepte und Überlegungen}{169}{subsubsection.10.3.3}%
-\contentsline {subsubsection}{\numberline {10.3.4}Realisierung des Frontends}{171}{subsubsection.10.3.4}%
-\contentsline {subsubsection}{\numberline {10.3.5}Erläuterung der Grafikoberfläche}{171}{subsubsection.10.3.5}%
-\contentsline {subsubsection}{\numberline {10.3.6}Realisierung des Backends}{173}{subsubsection.10.3.6}%
-\contentsline {section}{\numberline {11}Tests und Messungen}{174}{section.11}%
-\contentsline {subsection}{\numberline {11.1}Widerstandsmessung der Flexsensoren [\textcolor {blue}{Schweitzer}]}{174}{subsection.11.1}%
-\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{178}{section.12}%
-\contentsline {subsection}{\numberline {12.1}Mechanik [\textcolor {blue}{Al-Maytah}]}{178}{subsection.12.1}%
-\contentsline {subsection}{\numberline {12.2}Hardware [\textcolor {blue}{Szabo}]}{178}{subsection.12.2}%
-\contentsline {subsection}{\numberline {12.3}Software}{179}{subsection.12.3}%
-\contentsline {subsubsection}{\numberline {12.3.1}Eingabesubsystem [\textcolor {blue}{Schweitzer}]}{179}{subsubsection.12.3.1}%
-\contentsline {subsubsection}{\numberline {12.3.2}Ausgabesubsystem [\textcolor {blue}{Al-Maytah}]}{180}{subsubsection.12.3.2}%
-\contentsline {subsection}{\numberline {12.4}Gesamtintegration [\textcolor {blue}{Schweitzer}]}{180}{subsection.12.4}%
-\contentsline {section}{\numberline {13}Ausblick}{183}{section.13}%
-\contentsline {section}{\numberline {14}Abkürzungsverzeichnis}{185}{section.14}%
-\contentsline {section}{\numberline {15}Projektmanagement}{186}{section.15}%
-\contentsline {subsection}{\numberline {15.1}Projektstrukturplan}{186}{subsection.15.1}%
-\contentsline {subsection}{\numberline {15.2}Milestoneplan}{186}{subsection.15.2}%
-\contentsline {subsection}{\numberline {15.3}Gantt-Diagram}{186}{subsection.15.3}%
-\contentsline {subsection}{\numberline {15.4}Arbeitstunden}{187}{subsection.15.4}%
-\contentsline {section}{\numberline {16}Programme, Installationen und Plugins}{199}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Fusion 360}{199}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}UltiMaker Cura}{199}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}KiCad}{199}{subsection.16.3}%
-\contentsline {subsection}{\numberline {16.4}Arduino IDE}{199}{subsection.16.4}%
-\contentsline {subsection}{\numberline {16.5}QT Framework}{199}{subsection.16.5}%
-\contentsline {section}{\numberline {17}Fertigungsunterlagen}{200}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Mechanik}{200}{subsection.17.1}%
-\contentsline {subsubsection}{\numberline {17.1.1}Skizzen ud Konzepte}{200}{subsubsection.17.1.1}%
-\contentsline {subsubsection}{\numberline {17.1.2}CAD-Zeichnungen}{200}{subsubsection.17.1.2}%
-\contentsline {subsubsection}{\numberline {17.1.3}3D-Modelle}{200}{subsubsection.17.1.3}%
-\contentsline {subsection}{\numberline {17.2}Hardware}{201}{subsection.17.2}%
-\contentsline {subsubsection}{\numberline {17.2.1}Skizzen und Konzepte}{201}{subsubsection.17.2.1}%
-\contentsline {subsubsection}{\numberline {17.2.2}Stromlaufpläne}{202}{subsubsection.17.2.2}%
-\contentsline {subsubsection}{\numberline {17.2.3}Platinenlayouts}{209}{subsubsection.17.2.3}%
-\contentsline {subsubsection}{\numberline {17.2.4}Bestückungslisten}{215}{subsubsection.17.2.4}%
-\contentsline {subsection}{\numberline {17.3}Software}{227}{subsection.17.3}%
-\contentsline {subsubsection}{\numberline {17.3.1}Skizzen und Konzepte}{227}{subsubsection.17.3.1}%
-\contentsline {subsubsection}{\numberline {17.3.2}Diagramme}{227}{subsubsection.17.3.2}%
-\contentsline {subsection}{\numberline {17.4}Software}{227}{subsection.17.4}%
-\contentsline {subsubsection}{\numberline {17.4.1}Skizzen und Konzepte}{227}{subsubsection.17.4.1}%
-\contentsline {subsubsection}{\numberline {17.4.2}Code}{227}{subsubsection.17.4.2}%
-\contentsline {paragraph}{\numberline {17.4.2.1}Eingabesubsystem}{227}{paragraph.17.4.2.1}%
-\contentsline {paragraph}{\numberline {17.4.2.2}Ausgabesubsystem}{227}{paragraph.17.4.2.2}%
-\contentsline {paragraph}{\numberline {17.4.2.3}User-Interface}{227}{paragraph.17.4.2.3}%
+\contentsline {paragraph}{\numberline {10.1.1.3}Einfache Bdienbarkeit}{149}{paragraph.10.1.1.3}%
+\contentsline {paragraph}{\numberline {10.1.1.4}Testen}{149}{paragraph.10.1.1.4}%
+\contentsline {paragraph}{\numberline {10.1.1.5}Allgemeines Konzept}{150}{paragraph.10.1.1.5}%
+\contentsline {paragraph}{\numberline {10.1.1.6}Minimaler \& maximaler Widerstandswert}{151}{paragraph.10.1.1.6}%
+\contentsline {paragraph}{\numberline {10.1.1.7}Toleranz bei Werten}{152}{paragraph.10.1.1.7}%
+\contentsline {paragraph}{\numberline {10.1.1.8}Verworfene Ideen}{152}{paragraph.10.1.1.8}%
+\contentsline {subsubsection}{\numberline {10.1.2}Realisierung und Gliederung}{155}{subsubsection.10.1.2}%
+\contentsline {paragraph}{\numberline {10.1.2.1}Realisierung}{155}{paragraph.10.1.2.1}%
+\contentsline {paragraph}{\numberline {10.1.2.2}Gliederung}{156}{paragraph.10.1.2.2}%
+\contentsline {paragraph}{\numberline {10.1.2.3}Wichtige Codezeilen}{159}{paragraph.10.1.2.3}%
+\contentsline {subsection}{\numberline {10.2}Roboterhand [\textcolor {blue}{Al-Maytah}]}{163}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {10.2.1}Grundlegende Vorraussetzungen}{163}{subsubsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2}Realisierung: Überblick}{163}{subsubsection.10.2.2}%
+\contentsline {paragraph}{\numberline {10.2.2.1}Programmfluss}{163}{paragraph.10.2.2.1}%
+\contentsline {paragraph}{\numberline {10.2.2.2}Effiziente Gliederung essentieller Systemkomponenten}{168}{paragraph.10.2.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.3}Kommunikation - Protokolle}{169}{subsubsection.10.2.3}%
+\contentsline {paragraph}{\numberline {10.2.3.1}Drahtlose Kommunikation}{169}{paragraph.10.2.3.1}%
+\contentsline {paragraph}{\numberline {10.2.3.2}Serielle Kommunikation}{170}{paragraph.10.2.3.2}%
+\contentsline {subsubsection}{\numberline {10.2.4}Individuelle Komponenten}{171}{subsubsection.10.2.4}%
+\contentsline {paragraph}{\numberline {10.2.4.1}Parser und Interpretation: drahtloser Datenströme}{172}{paragraph.10.2.4.1}%
+\contentsline {paragraph}{\numberline {10.2.4.2}Parser und Interpretation: serieller Datenströme}{172}{paragraph.10.2.4.2}%
+\contentsline {paragraph}{\numberline {10.2.4.3}proaktiver Datenkorrekturalgorithmus}{173}{paragraph.10.2.4.3}%
+\contentsline {paragraph}{\numberline {10.2.4.4}Datenaufbereitung und Anweisung für Servoaktoren}{174}{paragraph.10.2.4.4}%
+\contentsline {subsubsection}{\numberline {10.2.5}Fremdkomponenten}{175}{subsubsection.10.2.5}%
+\contentsline {paragraph}{\numberline {10.2.5.1}MCP3X21}{175}{paragraph.10.2.5.1}%
+\contentsline {paragraph}{\numberline {10.2.5.2}HCPCA9685}{175}{paragraph.10.2.5.2}%
+\contentsline {paragraph}{\numberline {10.2.5.3}ESP-NOW und Wifi.h}{175}{paragraph.10.2.5.3}%
+\contentsline {subsection}{\numberline {10.3}User Interface [\textcolor {blue}{Szabo}]}{176}{subsection.10.3}%
+\contentsline {subsubsection}{\numberline {10.3.1}Grundlegende Vorraussetzungen}{176}{subsubsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.2}Entwicklungsumgebung}{176}{subsubsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.3}Konzepte und Überlegungen}{176}{subsubsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.4}Realisierung des Frontends}{178}{subsubsection.10.3.4}%
+\contentsline {subsubsection}{\numberline {10.3.5}Erläuterung der Grafikoberfläche}{178}{subsubsection.10.3.5}%
+\contentsline {subsubsection}{\numberline {10.3.6}Realisierung des Backends}{180}{subsubsection.10.3.6}%
+\contentsline {section}{\numberline {11}Tests und Messungen}{181}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Widerstandsmessung der Flexsensoren [\textcolor {blue}{Schweitzer}]}{181}{subsection.11.1}%
+\contentsline {section}{\numberline {12}Ergebnisse und Erkenntisse}{185}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Mechanik [\textcolor {blue}{Al-Maytah}]}{185}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Hardware [\textcolor {blue}{Szabo}]}{185}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Software}{186}{subsection.12.3}%
+\contentsline {subsubsection}{\numberline {12.3.1}Eingabesubsystem [\textcolor {blue}{Schweitzer}]}{186}{subsubsection.12.3.1}%
+\contentsline {subsubsection}{\numberline {12.3.2}Ausgabesubsystem [\textcolor {blue}{Al-Maytah}]}{187}{subsubsection.12.3.2}%
+\contentsline {subsection}{\numberline {12.4}Gesamtintegration [\textcolor {blue}{Schweitzer}]}{187}{subsection.12.4}%
+\contentsline {section}{\numberline {13}Ausblick}{190}{section.13}%
+\contentsline {section}{\numberline {14}Abkürzungsverzeichnis}{192}{section.14}%
+\contentsline {section}{\numberline {15}Projektmanagement}{193}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Projektstrukturplan}{193}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Milestoneplan}{193}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Gantt-Diagram}{193}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Arbeitstunden}{194}{subsection.15.4}%
+\contentsline {section}{\numberline {16}Programme, Installationen und Plugins}{206}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Fusion 360}{206}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}UltiMaker Cura}{206}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}KiCad}{206}{subsection.16.3}%
+\contentsline {subsection}{\numberline {16.4}Arduino IDE}{206}{subsection.16.4}%
+\contentsline {subsection}{\numberline {16.5}QT Framework}{206}{subsection.16.5}%
+\contentsline {section}{\numberline {17}Fertigungsunterlagen}{207}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Mechanik}{207}{subsection.17.1}%
+\contentsline {subsubsection}{\numberline {17.1.1}Skizzen ud Konzepte}{207}{subsubsection.17.1.1}%
+\contentsline {subsubsection}{\numberline {17.1.2}CAD-Zeichnungen}{207}{subsubsection.17.1.2}%
+\contentsline {subsubsection}{\numberline {17.1.3}3D-Modelle}{207}{subsubsection.17.1.3}%
+\contentsline {subsection}{\numberline {17.2}Hardware}{208}{subsection.17.2}%
+\contentsline {subsubsection}{\numberline {17.2.1}Skizzen und Konzepte}{208}{subsubsection.17.2.1}%
+\contentsline {subsubsection}{\numberline {17.2.2}Stromlaufpläne}{209}{subsubsection.17.2.2}%
+\contentsline {subsubsection}{\numberline {17.2.3}Platinenlayouts}{216}{subsubsection.17.2.3}%
+\contentsline {subsubsection}{\numberline {17.2.4}Bestückungslisten}{222}{subsubsection.17.2.4}%
+\contentsline {subsection}{\numberline {17.3}Software}{234}{subsection.17.3}%
+\contentsline {subsubsection}{\numberline {17.3.1}Skizzen und Konzepte}{234}{subsubsection.17.3.1}%
+\contentsline {subsubsection}{\numberline {17.3.2}Diagramme}{234}{subsubsection.17.3.2}%
+\contentsline {subsection}{\numberline {17.4}Software}{234}{subsection.17.4}%
+\contentsline {subsubsection}{\numberline {17.4.1}Skizzen und Konzepte}{234}{subsubsection.17.4.1}%
+\contentsline {subsubsection}{\numberline {17.4.2}Code}{234}{subsubsection.17.4.2}%
+\contentsline {paragraph}{\numberline {17.4.2.1}Eingabesubsystem}{234}{paragraph.17.4.2.1}%
+\contentsline {paragraph}{\numberline {17.4.2.2}Ausgabesubsystem}{234}{paragraph.17.4.2.2}%
+\contentsline {paragraph}{\numberline {17.4.2.3}User-Interface}{234}{paragraph.17.4.2.3}%

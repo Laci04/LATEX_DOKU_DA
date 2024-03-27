@@ -12,10 +12,10 @@
 \contentsline {figure}{\numberline {11}{\ignorespaces Diagram Positionsregler\relax }}{16}{figure.caption.15}%
 \contentsline {figure}{\numberline {12}{\ignorespaces CC BY (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.16}%
 \contentsline {figure}{\numberline {13}{\ignorespaces CC BY-SA (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.17}%
-\contentsline {figure}{\numberline {14}{\ignorespaces CC BY-NC (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces CC BY-NC (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.18}%
 \contentsline {figure}{\numberline {15}{\ignorespaces CC BY-NC-SA (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.19}%
 \contentsline {figure}{\numberline {16}{\ignorespaces CC BY-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.20}%
-\contentsline {figure}{\numberline {17}{\ignorespaces BY-NC-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{28}{figure.caption.21}%
+\contentsline {figure}{\numberline {17}{\ignorespaces BY-NC-ND (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{29}{figure.caption.21}%
 \contentsline {figure}{\numberline {18}{\ignorespaces CCO (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{29}{figure.caption.22}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Koexistenz \textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {rubigm.p11}}\relax }}{31}{figure.caption.23}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Synchronisation \textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {rubigm.p11}}\relax }}{32}{figure.caption.24}%
@@ -113,28 +113,39 @@
 \contentsline {figure}{\numberline {112}{\ignorespaces Bottomlayer zweites Platinendesign\relax }}{144}{figure.caption.116}%
 \contentsline {figure}{\numberline {113}{\ignorespaces Oberseite zweites Platinenmodell\relax }}{145}{figure.caption.117}%
 \contentsline {figure}{\numberline {114}{\ignorespaces Unterseite zweites Platinenmodell\relax }}{146}{figure.caption.118}%
-\contentsline {figure}{\numberline {115}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{152}{figure.caption.119}%
-\contentsline {figure}{\numberline {116}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{153}{figure.caption.120}%
-\contentsline {figure}{\numberline {117}{\ignorespaces Flussdiagramm der Software des Ausgabesubsystems\relax }}{157}{figure.caption.121}%
-\contentsline {figure}{\numberline {118}{\ignorespaces Route des Only-Glove-Modus im Ausgabesubsystem\relax }}{159}{figure.caption.122}%
-\contentsline {figure}{\numberline {119}{\ignorespaces Route des UI-Mode im Ausgabesubsystem\relax }}{160}{figure.caption.123}%
-\contentsline {figure}{\numberline {120}{\ignorespaces Überblick der Softwarekomponenten\relax }}{162}{figure.caption.124}%
-\contentsline {figure}{\numberline {121}{\ignorespaces Median\relax }}{166}{figure.caption.127}%
-\contentsline {figure}{\numberline {122}{\ignorespaces Median\relax }}{167}{figure.caption.128}%
-\contentsline {figure}{\numberline {123}{\ignorespaces User-Interface Konzept\relax }}{170}{figure.caption.130}%
-\contentsline {figure}{\numberline {124}{\ignorespaces UI Benutzeroberfläche\relax }}{171}{figure.caption.131}%
-\contentsline {figure}{\numberline {125}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{175}{figure.caption.132}%
-\contentsline {figure}{\numberline {126}{\ignorespaces Einstellung 1\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {127}{\ignorespaces Einstellung 2\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {128}{\ignorespaces Einstellung 3\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {129}{\ignorespaces Einstellung 4\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {130}{\ignorespaces Einstellung 5\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {131}{\ignorespaces Einstellung 6\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {132}{\ignorespaces Einstellung 7\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {133}{\ignorespaces Einstellung 8\relax }}{177}{table.caption.135}%
-\contentsline {figure}{\numberline {134}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{209}{figure.caption.148}%
-\contentsline {figure}{\numberline {135}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{210}{figure.caption.149}%
-\contentsline {figure}{\numberline {136}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{211}{figure.caption.150}%
-\contentsline {figure}{\numberline {137}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{212}{figure.caption.151}%
-\contentsline {figure}{\numberline {138}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{213}{figure.caption.152}%
-\contentsline {figure}{\numberline {139}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{214}{figure.caption.153}%
+\contentsline {figure}{\numberline {115}{\ignorespaces ESP NOW Datenübertragung (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Hsieh}})\relax }}{148}{figure.caption.119}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Beispiel Arduino IDE 2\relax }}{149}{figure.caption.120}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Beispiel maximaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{150}{figure.caption.121}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Beispiel minimaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{150}{figure.caption.122}%
+\contentsline {figure}{\numberline {119}{\ignorespaces Flexsensor minimaler Wert\relax }}{152}{figure.caption.123}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Flexsensor maximaler Wert\relax }}{152}{figure.caption.124}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Beispielhafte Verzögerung vor dem Senden\relax }}{154}{figure.caption.125}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Beispiel: maximalen Wert über Serial Monitor festlegen (Werte manuell eintragen)\relax }}{155}{figure.caption.126}%
+\contentsline {figure}{\numberline {123}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{156}{figure.caption.127}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{158}{figure.caption.128}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{159}{figure.caption.129}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Multiplexer Kanäle (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {TexasInstruments}})\relax }}{161}{figure.caption.130}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Beispiel: Paket nach bestimmtem Muster senden\relax }}{162}{figure.caption.131}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Flussdiagramm der Software des Ausgabesubsystems\relax }}{164}{figure.caption.132}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Route des Only-Glove-Modus im Ausgabesubsystem\relax }}{166}{figure.caption.133}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Route des UI-Mode im Ausgabesubsystem\relax }}{167}{figure.caption.134}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Überblick der Softwarekomponenten\relax }}{169}{figure.caption.135}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Median\relax }}{173}{figure.caption.138}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Median\relax }}{174}{figure.caption.139}%
+\contentsline {figure}{\numberline {134}{\ignorespaces User-Interface Konzept\relax }}{177}{figure.caption.141}%
+\contentsline {figure}{\numberline {135}{\ignorespaces UI Benutzeroberfläche\relax }}{178}{figure.caption.142}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{182}{figure.caption.143}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Einstellung 1\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {138}{\ignorespaces Einstellung 2\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {139}{\ignorespaces Einstellung 3\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Einstellung 4\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Einstellung 5\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {142}{\ignorespaces Einstellung 6\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {143}{\ignorespaces Einstellung 7\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {144}{\ignorespaces Einstellung 8\relax }}{184}{table.caption.146}%
+\contentsline {figure}{\numberline {145}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{216}{figure.caption.159}%
+\contentsline {figure}{\numberline {146}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{217}{figure.caption.160}%
+\contentsline {figure}{\numberline {147}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{218}{figure.caption.161}%
+\contentsline {figure}{\numberline {148}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{219}{figure.caption.162}%
+\contentsline {figure}{\numberline {149}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{220}{figure.caption.163}%
+\contentsline {figure}{\numberline {150}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{221}{figure.caption.164}%

@@ -679,6 +679,70 @@
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
     \endentry
+    \entry{Holton2}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2868d97b6a3b67a76e5709d6682a812}{%
+           family={Ian},
+           familyi={I\bibinitperiod},
+           given={Holton},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{fullhash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{bibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authorbibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authornamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authorfullhash}{d2868d97b6a3b67a76e5709d6682a812}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Der Einsatz von MIT-lizenzierten Komponenten in eigener Software}
+      \field{year}{24.03.2024}
+      \verb{urlraw}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+      \verb{url}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+    \endentry
+    \entry{Holton1}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2868d97b6a3b67a76e5709d6682a812}{%
+           family={Ian},
+           familyi={I\bibinitperiod},
+           given={Holton},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{fullhash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{bibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authorbibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authornamehash}{d2868d97b6a3b67a76e5709d6682a812}
+      \strng{authorfullhash}{d2868d97b6a3b67a76e5709d6682a812}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MIT Lizenz Einführung}
+      \field{year}{24.03.2024}
+      \verb{urlraw}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+      \verb{url}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+    \endentry
     \entry{Q8}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7c449d7ab694d02cf872812a059ad183}{%
@@ -984,6 +1048,36 @@
       \verb https://www.reac-group.com/de_de/wissenswertes/aktuatoren/was-ist-ein-aktuator/
       \endverb
     \endentry
+    \entry{Pelayo}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8ce0e430734cdd0d21f5cfbbe662957}{%
+           family={Roland},
+           familyi={R\bibinitperiod},
+           given={Pelayo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \strng{fullhash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \strng{bibnamehash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \strng{authorbibnamehash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \strng{authornamehash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \strng{authorfullhash}{d8ce0e430734cdd0d21f5cfbbe662957}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Use a Flex Sensor}
+      \field{year}{25.03.2024}
+      \verb{urlraw}
+      \verb https://www.teachmemicro.com/use-flex-sensor/
+      \endverb
+      \verb{url}
+      \verb https://www.teachmemicro.com/use-flex-sensor/
+      \endverb
+    \endentry
     \entry{Saferinternet.p10}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -1018,15 +1112,15 @@
       \verb https://www.saferinternet.at/themen/urheberrechte
       \endverb
     \endentry
-    \entry{Saferinternet.p12}{online}{}
+    \entry{Saferinternet.p29}{online}{}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labeltitlesource}{title}
-      \field{title}{Saferinternet p.12}
+      \field{title}{Saferinternet p.29}
       \field{year}{06.03.2024}
-      \field{pages}{12}
+      \field{pages}{29}
       \range{pages}{1}
       \verb{urlraw}
       \verb https://www.saferinternet.at/themen/urheberrechte
@@ -1340,6 +1434,36 @@
       \verb https://www.tuvsud.com/de-de/indust-re/maschinensicherheit-info/maschinenrichtlinie
       \endverb
     \endentry
+    \entry{Hsieh}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f981ae78472ba625a51fada8fc77d0f}{%
+           family={Wan-Ting},
+           familyi={W\bibinithyphendelim T\bibinitperiod},
+           given={Hsieh},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f981ae78472ba625a51fada8fc77d0f}
+      \strng{fullhash}{8f981ae78472ba625a51fada8fc77d0f}
+      \strng{bibnamehash}{8f981ae78472ba625a51fada8fc77d0f}
+      \strng{authorbibnamehash}{8f981ae78472ba625a51fada8fc77d0f}
+      \strng{authornamehash}{8f981ae78472ba625a51fada8fc77d0f}
+      \strng{authorfullhash}{8f981ae78472ba625a51fada8fc77d0f}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Week 13: Networking and Communications}
+      \field{year}{25.03.2024}
+      \verb{urlraw}
+      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wireless-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
+      \endverb
+      \verb{url}
+      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wireless-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
+      \endverb
+    \endentry
     \entry{rubigm.p10}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec1231996de72ba6d8de12b8e11f3caa}{%
@@ -1642,6 +1766,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Holton3}
 \endrefsection
 \endinput
 
