@@ -61,6 +61,33 @@
       \verb https://commons.wikimedia.org/wiki/File:WiFi_Logo.svg#/media/Datei:WiFi_Logo.svg
       \endverb
     \endentry
+    \entry{Inmoovhand}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c95090f66b202fdb3df5f0aab3573956}{%
+           family={Anar},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c95090f66b202fdb3df5f0aab3573956}
+      \strng{fullhash}{c95090f66b202fdb3df5f0aab3573956}
+      \strng{bibnamehash}{c95090f66b202fdb3df5f0aab3573956}
+      \strng{authorbibnamehash}{c95090f66b202fdb3df5f0aab3573956}
+      \strng{authornamehash}{c95090f66b202fdb3df5f0aab3573956}
+      \strng{authorfullhash}{c95090f66b202fdb3df5f0aab3573956}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inmoovhand}
+      \field{year}{27.03.2024}
+      \verb{urlraw}
+      \verb http://www.reppersdelight.spacymen.com
+      \endverb
+      \verb{url}
+      \verb http://www.reppersdelight.spacymen.com
+      \endverb
+    \endentry
     \entry{Apache}{online}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -768,6 +795,36 @@
       \endverb
       \verb{url}
       \verb https://www.youtube.com/watch?v=g4BM1pjm64s
+      \endverb
+    \endentry
+    \entry{TexasInstruments}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=98891ef37ae74f3a00ae9a7c9c316e78}{%
+           family={Instruments},
+           familyi={I\bibinitperiod},
+           given={Texas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{fullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{bibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorbibnamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authornamehash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \strng{authorfullhash}{98891ef37ae74f3a00ae9a7c9c316e78}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MUX50x 36-V, Low-Capacitance, Low-Charge-Injection, Precision, AnalogMultiplexers}
+      \field{year}{10.03.2024}
+      \verb{urlraw}
+      \verb https://www.ti.com/lit/ds/symlink/mux508.pdf?ts=1711326326881
+      \endverb
+      \verb{url}
+      \verb https://www.ti.com/lit/ds/symlink/mux508.pdf?ts=1711326326881
       \endverb
     \endentry
     \entry{Ionos8}{online}{}

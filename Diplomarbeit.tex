@@ -700,7 +700,7 @@ Eine Bewegung kann bei diesem Antrieb anhand von mechanischen Komponenten
 wie Zahnrädern, Nocken oder Hebel erzeugt werden. Deren Einsatz erfolgt 
 häufig in Anwendungen, die geringe Kosten und eine hohe Haltbarkeit auf 
 längere Zeit erfordern. \footnote{\cite{Q1}} \\
-\subsubsection{Einführung in in den Servomotor}
+\subsubsection{Einführung in den Servomotor}
 Mit einem DC-Motor als Kernkomponente ordnet sich der Servomotor den 
 elektrischen Antrieben zu. Der Begriff \textquote{Servo} bedeutet so viel wie 
 \textquote{Diener} im Lateinischen und ist auf seine Funktion als 
@@ -712,7 +712,7 @@ Elektromotors und einer zugehörigen Steuerungs- und Regelungselektronik. \footn
 Aus dem Zusammenspiel eines Servomotors und eines Servoreglers 
 erschließt sich ein geschlossener Regelkreis, aus dem sich ein 
 jeweiliger Antrieb bildet. Der Servo wird geregelt nach dem Prinzip der 
-Positionsregelung, welche im Kapitel (Positionsregelung) ausführlicher 
+Positionsregelung, welche in [\textcolor{blue}{\autoref{chap:Positionsregelung}}] ausführlicher 
 erläutert wird. \footnote{\cite{Q6}} Besonders zeichnen sich diese Motoren anhand ihrer 
 hohen Präzision aus, da sie in der Lage sind eine angeforderte Position 
 akkurat anzusteuern und diese konstant zu halten. Auch führt dies dazu, 
@@ -764,6 +764,7 @@ Das Verbundgetriebe bewirkt, dass aus der hohen Drehzahl vom
 Gleichstrommotor eine niedrigere geschaffen wird, und es erhöht sich 
 aufgrund der Übersetzung der Zahnräder das Drehmoment. \footnote{\cite{Q8}}\textcolor{blue}{@4 min 15 Sekunden} \\
 \subsubsection{Positionsregelung}
+\label{chap:Positionsregelung}
 \paragraph{Einführung in die Positionsregelung}
 \hfill \break
 \hfill \break
@@ -797,9 +798,9 @@ wird, dass die Zielposition erreicht wurde. \\
 \paragraph{Theoretische Grundlagen}
 \hfill \break
 \hfill \break
-\textbf{essenzielle Begriffe} \\
+\textbf{Essenzielle Begriffe} \\
 \\
-Ist-Größe: Beschreibt in diesem Zusammenhang den aktuellen Drehwinkel PHI des Motors, 
+Ist-Größe: Beschreibt in diesem Zusammenhang den aktuellen Drehwinkel $\Phi$ des Motors, 
 wird über das Potentiometer ermittelt. \\
 Soll-Größe: Diese ist der Zielwinkel, bis zu dieser Position soll der Gleichstrommotor 
 sich drehen und wird per PWM übergeben. \\
@@ -828,12 +829,8 @@ ausschließlich auf Basis einer fundierten Berechnung. \footnote{\cite{Haager}}\
 Die Übertragungsfunktion des PID-Reglers setzt sich aus den einzelnen 
 Übertragungsfunktionen der jeweiligen Glieder zusammen: \\
 \\
-$F_{R}(s)=k_{R}*(1+\frac{1}{sT_{n}}+sT_{v})=k_{R}+\frac{1}{sT_{O}}+sT_{D} $
+$F_{R}(s)=k_{R}*(1+\frac{1}{sT_{n}}+sT_{v})=k_{R}+\frac{1}{sT_{O}}+sT_{D} $ \\
 \\
-Der erste Summand \textquote{kr} der Übertragungsfunktion ist der P-Regler, das 
-\textquote{P} im Namen ergibt sich aus der Tatsache, dass seine Ausgangsgröße 
-proportional zur Eingangsgröße ist, der P-Regler gibt somit die 
-Konstante \textquote{kr}. \footnote{\cite{Q9}}\textcolor{blue}{P-Regler} \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -843,11 +840,11 @@ Konstante \textquote{kr}. \footnote{\cite{Q9}}\textcolor{blue}{P-Regler} \\
 	\end{center}
 \end{figure}
 \hfill \break
-In der Übertragungsfunktion beschreibt der zweite Summand den I-Anteil, 
-dieser erzeugt eine Ausgangsstellgröße, welche dem zeitlichen Integral, 
-daher der Name, der Eingangsgröße, sprich der Regelabweichung 
-proportional ist. Bei einer konstanten Regelabweichung würde sich die 
-Stellgröße in Form einer Rampe ändern. \footnote{\cite{Haager}}\textcolor{blue}{p.99} \\
+Der erste Summand \textquote{$k_{R}$} der Übertragungsfunktion ist der P-Regler, das 
+\textquote{P} im Namen ergibt sich aus der Tatsache, dass seine Ausgangsgröße 
+proportional zur Eingangsgröße ist, der P-Regler gibt somit die 
+Konstante \textquote{$k_{R}$}. \footnote{\cite{Q9}}\textcolor{blue}{P-Regler} \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -857,12 +854,12 @@ Stellgröße in Form einer Rampe ändern. \footnote{\cite{Haager}}\textcolor{blu
 	\end{center}
 \end{figure}
 \hfill \break
-Der letzte Summand beinhaltet die Übertragungsfunktion des D-Anteils, 
-das \textquote{D} steht dabei für Differenzierer, denn dieser erzeugt eine 
-Stellgröße, welche proportional der zeitlichen Änderungsrate der 
-Regelabweichung ist. Ist die Regelabweichung konstant, gibt es demnach 
-keine Stellgröße, was jedoch bedeutet, dass mit einer raschen Reaktion 
-auf eine Änderung der Regelabweichung zu rechnen ist. \\
+In der Übertragungsfunktion beschreibt der zweite Summand den I-Anteil, 
+dieser erzeugt eine Ausgangsstellgröße, welche dem zeitlichen Integral, 
+daher der Name, der Eingangsgröße, sprich der Regelabweichung 
+proportional ist. Bei einer konstanten Regelabweichung würde sich die 
+Stellgröße in Form einer Rampe ändern. \footnote{\cite{Haager}}\textcolor{blue}{p.99} \\
+\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -872,6 +869,12 @@ auf eine Änderung der Regelabweichung zu rechnen ist. \\
 	\end{center}
 \end{figure}
 \hfill \break
+Der letzte Summand beinhaltet die Übertragungsfunktion des D-Anteils, 
+das \textquote{D} steht dabei für Differenzierer, denn dieser erzeugt eine 
+Stellgröße, welche proportional der zeitlichen Änderungsrate der 
+Regelabweichung ist. Ist die Regelabweichung konstant, gibt es demnach 
+keine Stellgröße, was jedoch bedeutet, dass mit einer raschen Reaktion 
+auf eine Änderung der Regelabweichung zu rechnen ist. \\
 \paragraph{Funktionsprinzip des Regelkreises}
 \hfill \break
 \hfill \break
@@ -919,7 +922,7 @@ PT1-Glied und sämtlichen Störmomenten zusammensetzt. Als Verzögerungsglied er
 Ordnung beschreibt dieses das Anlaufverhalten des Motors. (Q12) Zusätzlich werden 
 das Lastmoment, die Reibung und die Trägheit in das System miteinkalkuliert. \\
 Aus der mathematischen Modellierung des Gleichstrommotors, wie im Blockschaltbild 
-dargestellt, ergibt sich eine Winkelgeschwindigkeit, die Drehzahl des Motors \textquote{OMEGA}.
+dargestellt, ergibt sich eine Winkelgeschwindigkeit, die Drehzahl des Motors \textquote{$\Omega$}.
 Wie in [\textcolor{blue}{\autoref{par:Aufbau und Funktionsprinzip eines Servomotors}}] 
 bereits beschrieben, wird die Drehzahl mit einem Getriebe übersetzt, im Falle dieses 
 Beispiels beträgt das Übersetzungsverhältnis des Getriebes 0,1. \\
@@ -942,7 +945,7 @@ rückgeführt und bietet eine Grundlage zur Berechnung der neuen Regelabweichung
 \hfill \break
 Zu sehen sind in dieser Abbildung drei Größen: In Grün der Soll-Winkel, in Blau der 
 tatsächliche Drehwinkel $\Phi$ (die Ist-Größe) und die Drehzahl (Winkelgeschwindigkeit 
-OMEGA) ist orange gekennzeichnet. \\
+$\Omega$) ist orange gekennzeichnet. \\
 Erkennen lässt sich, dass zum Zeitpunkt t=0 das System die Anweisung bekommt auf 
 einen Winkel von 100\textdegree zu regeln. Nach 0,4 Sekunden wurde diese Position erreicht, 
 jedoch zugleich überschritten, der Motor hat sich auf 105\textdegree gedreht. Während dieses 
@@ -2388,7 +2391,7 @@ richtig verarbeitet. \\
 		\label{fig:Blockschaltbild_Roboterhandsystem}		
 	\end{center}
 \end{figure}
-
+\hfill \break
 Sind die Daten des Eingabesubsystems empfangen, müssen diese in ein geeignetes Format für die Steuerung der Aktorik, also den Servomotoren,
 umgewandelt werden. Dies geschieht mit dem Mikrokontroller. Angebunden an das Ausgabesubsystem, ist ein Graphical-User-Interface, 
 welches in [\textcolor{blue}{\autoref{chap:User Interface}}] näher erklrärt wird. \\
@@ -2417,8 +2420,15 @@ Flex-Sensoren entsprechend angebracht werden. Wichtig ist, dass die Sensoren sic
 mit dem Finger mitbiegen sowie auch bewegen und dies der Fingerstellung entsprechend. \\
 \\
 \subsubsection{Versuche}
-
-%-- HIER WIRD DIE ABBILDUNG VOM STOFF-HANDSCHUH BENOTIGT.s
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Flexsensorhandschuh}}
+		\caption{Handschuhkonzept mit Sensor}
+		\label{fig:Flexsensorhandschuh}		
+	\end{center}
+\end{figure}
+\hfill \break
 Der initiale Versuch war es einen Stoff-Handschuh zu nutzen und an dessen Finger die Sensoren anzunähen. Jeder Flex-Sensor ist somit mit seinem Anfang, dem 
 Punkt, an dem auch die Anschlüsse des Sensors sind, fest vernäht und fixiert. Weiters 
 wurde er auch mit einer Naht ummantelt, in der er sich begrenzt nach vor und zurück 
@@ -2434,13 +2444,20 @@ sich jedoch auch frei in ihr bewegen. \\
 \end{itemize}
 \hfill \break
 Nach weiteren Überlegungen kam es zu einem neuen Konzept, ohne einen Handschuh als 
-Basis. Dieses Konzept schränkt die Bewegungen des Nutzers weniger ein als es das vorherige tat.
-  %-- HIER WIRD DIE ABBILDUNG VON DEN RINGEN BENÖTIGT.
+Basis. Dieses Konzept schränkt die Bewegungen des Nutzers weniger ein als es das vorherige tat. \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Ringkonzept}}
+		\caption{Veranschaulichung des Ringkonzepts}
+		\label{fig:Ringkonzept}		
+	\end{center}
+\end{figure}
+\hfill \break
 Bei dieser Realisierung, wird auf jeden Finger ein Aufsatz montiert, welcher eine ringartige Anschnallmöglichkeit und einen Flexsensor beinhaltet.
 Wie in der Abbildung ersichtlich besteht die Anschnallmöglichkeit aus zwei Ringen, Nummer (1) und (2), mit jeweils einer Führung auf diesen. Durch diese verläuft der Sensor (3), fixiert ist er an dem vordersten Ring, in der Grafik (1)
 und bewegt sich durch die Führung des Rings (2). In der Grafik lässt sich das Seitenprofil der Ringe am Daumen besser erkennen.
-Aufgrund dieser Montage kann der Sensor deutlich stärker gebogen werden, was dafür sorgt, dass aus mechanischer Sicht die besten Gegebenheiten für eine Messung geschaffen werden.
-
+Aufgrund dieser Montage kann der Sensor deutlich stärker gebogen werden, was dafür sorgt, dass aus mechanischer Sicht die besten Gegebenheiten für eine Messung geschaffen werden. \\
 
 \newpage
 \subsection{Roboterhand}
@@ -2498,7 +2515,7 @@ Im Laufe der ersten Versuchsaufbauten war die Druckqualität nicht sehr relevant
 der Fokus lag auf der Zeitersparnis und hauptsächlich auf dem Gewinn von Erkenntnissen, 
 sowie auf dem Verständnis der in der CAD-Software entworfenen Mechanismen. \\
 
-\subsubsection{Versuchsaufbauten}
+\subsubsection{Versuchsaufbau}
 \label{chap:Versuchsaufbauten}
 In diesem Versuchsaufbau war es das Ziel mit einem einfachen Testmodell Erkenntnisse über 
 den Mechanismus zu erhalten und dadurch mehr aus ihm zu lernen. 
@@ -2506,6 +2523,15 @@ Dafür wurde in der CAD Software Fusion360 [\textcolor{blue}{\autoref{chap:Fusio
 
 \paragraph{Aufbau}
 \hfill \break
+\hfill \break
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Fingerversuch}}
+		\caption{Darstellung des Versuchsmodells}
+		\label{fig:Fingerversuch}		
+	\end{center}
+\end{figure}
 \hfill \break
 Das Modell besteht aus den drei Gliedern eines Fingers, sowie einer Halterung für einen vorgesehenen
 Servomotor und aus den im Inneren vorhandenen Führungen. \\
@@ -2523,15 +2549,7 @@ zusammenzuziehen.
 Das Versuchsresultat war lehrreich und bot einen breiten Einblick in den angepeilten Faltmechanismus. 
 Dabei gab es zahlreiche Erkenntnisse über die Reibung, Stabilität und mechanische Abnutzung
 sowie aber auch über das Verhalten der Gesamtmechanik bei Belastung. \\
-\begin{figure}[H]
-	\begin{center}
-		\scalebox{0.8}
-		{\includegraphics[width=0.8 \linewidth]{Fingerversuch}}
-		\caption{Darstellung des Versuchsmodells}
-		\label{fig:Fingerversuch}		
-	\end{center}
-\end{figure}
-\hfill \break
+\\
 Eine der Erkenntnisse war es, dass die Schnur eine gewisse Reißfestigkeit benötigt. 
 Getestet wurden dabei mehrere Schnüre unter anderem auch Nylonschnüre. Als besonders 
 stabil haben sich dann Angelschnüre bewiesen.
@@ -2543,7 +2561,7 @@ Gummikordeln, elastische Schnüre, welche am „Fingerrücken“ platziert werde
 bei Biegen des Fingers spannen. Daraus resultiert: Desto kürzer die Zugschnur im Finger, desto länger die 
 Gummikordel. \\
 
-\subsubsection{Entwicklungsstufe: intitial}
+\subsubsection{Entwicklungsstufe: initial}
 \label{chap:Entwicklungsstufe: intitial}
 \paragraph{Konzept Einführung}
 \hfill \break
@@ -2570,11 +2588,6 @@ eines Bandes mit ausreichender Kraft gewählt. \\
 \label{par:Realisierung und Zusammenbau}
 \hfill \break
 \hfill \break
-Das Konzept wird anhand einer Testhand realisiert, diese setzt sich im Wesentlichen 
-aus zwei Komponenten zusammen: dem Motorblock, welcher für die Antriebsmechanik 
-zuständig ist, und der Roboterhand, welche die eigentliche Bewegungen der Motoren 
-in der Bionic Hand umsetzt. \\
-\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2584,17 +2597,16 @@ in der Bionic Hand umsetzt. \\
 	\end{center}
 \end{figure}
 \hfill \break
+Das Konzept wird anhand einer Testhand realisiert, diese setzt sich im Wesentlichen 
+aus zwei Komponenten zusammen: dem Motorblock, welcher für die Antriebsmechanik 
+zuständig ist, und der Roboterhand, welche die eigentliche Bewegungen der Motoren 
+in der Bionic Hand umsetzt. \\
+\\
 Das komplexeste Modell ist die Roboterhand, die aus mehreren Elementen besteht, 
 darunter die Handfläche sowie die einzelnen Finger, die sich jeweils in drei Glieder 
 unterteilen lassen. Der Mechanismus in jedem Finger erfüllt dieselbe Funktion: Durch 
 ziehen an der Schnur verkürzt sich ihre Länge, was dazu führt, dass sich der 
-jeweilige Finger faltelt. Im Detail betrachtet beschränkt sich der Mechanismus 
-des Fingers nicht nur auf das bloße Ziehen an ihm. Der Finger unterteilt in weitere 
-Elemente. Er besteht aus drei Gliedern, von denen jedes eine Abschrägung an beiden 
-Kanten, die zum nächsten Glied ausgerichtet sind, aufweist. Durch die Verjüngung der 
-Kanten, kann beim sogenannten Falten des Fingers dafür gesorgt werden, dass sich der 
-Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
-\\
+jeweilige Finger faltelt. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2604,7 +2616,14 @@ Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Wie in dieser Grafik ersichtlich wird hier der Querschnitt aller Finger dargestellt, 
+Im Detail betrachtet beschränkt sich der Mechanismus 
+des Fingers nicht nur auf das bloße Ziehen an ihm. Der Finger unterteilt in weitere 
+Elemente. Er besteht aus drei Gliedern, von denen jedes eine Abschrägung an beiden 
+Kanten, die zum nächsten Glied ausgerichtet sind, aufweist. Durch die Verjüngung der 
+Kanten, kann beim sogenannten Falten des Fingers dafür gesorgt werden, dass sich der 
+Finger auf kleineren Raum zusammenziehen oder auch falten kann. \\
+\\
+Wie in [\textcolor{blue}{\autoref{fig:Finger_1}}] ersichtlich, wird hier der Querschnitt aller Finger dargestellt, 
 dabei ist es nicht von Relevanz welches der jeweils drei Fingerglieder hier genommen wird. 
 Alle Glieder, das unterste, das mittlere sowie das oberste Glied haben eine 
 gemeinsame Eigenschaft: Durch jedes verlaufen drei Tunnel. Der oberste Tunnel 
@@ -2650,7 +2669,7 @@ gemessen werden. \\
 \hfill \break
 Verbunden sind alle Finger mit dem Element der Handfläche, dieses Element fungiert 
 lediglich als Verbindungskomponente zwischen allen Fingern und dem Daumen. 
-Im Querschnitt der Handfläche lässt sich erkennen, dass diese von innen einen 
+Im Querschnitt der Handfläche [siehe \textcolor{blue}{\autoref{fig:Handfläche_1}}] lässt sich erkennen, dass diese von innen einen 
 Hohlraum beinhaltet. Dieser Hohlraum hat jeweils einen Kanal zu jedem der Finger, 
 sowie Daumen. Dort soll später die Angelschnur durchgeführt werden. Nahe dem 
 Handgelenk befindet sich eine große Öffnung, diese ist für alle fünf Schnüre 
@@ -2748,11 +2767,12 @@ Die entstandenen Problematiken:
 		\end{center}
 	\end{figure}
 	\hfill \break
-	\item Eine Fehlkonstruktion waren wie bereits erwähnt die Flächen zwischen den 
+	\item Der folgende Text bezieht sich auf [\textcolor{blue}{\autoref{fig:Fingerskizze2}}]. \\
+	Eine Fehlkonstruktion waren wie bereits erwähnt die Flächen zwischen den 
 	beiden Fingergliedern, welche zu einem für mehr Reibung gesorgt haben aber auch den einzelnen 
 	Gliedern, aufgrund ihrer Form ,nicht ermöglicht haben 
 	sich aneinander abzurollen. Dies führt dazu, dass sich der Finger bei ausreichend 
-	Zugkraft rapide einklappt und nicht gleichmäßig abrollt. Wobei dies von großer 
+	Zugkraft rapide einklappt und nicht gleichmäßig abrollt.  Wobei dies von großer 
 	Bedeutung ist, da somit nicht bei linear ansteigender Zugkraft für eine 
 	gleichmäßige Faltung gesorgt werden kann.
 	\item Ebenso führt auch der Durchgang, welcher für die Zugschnur ist zu 
@@ -2761,7 +2781,6 @@ Die entstandenen Problematiken:
 	Somit muss zusätzlich mehr Kraft angewendet werden.
 \end{itemize}
 \hfill \break
-
 \textbf{Fazit} \\
 \\
 Wie in [\textcolor{blue}{\autoref{par:Realisierung und Zusammenbau}}] erwähnt, wurde aufgrund 
@@ -2781,7 +2800,7 @@ zur Zugkraft zu Falten. \\
 \paragraph{Einführung}
 \hfill \break
 \hfill \break
-Im Versuch der Entwicklungsstufe "initial" haben sich zahlreiche Problematiken und 
+Im Versuch der Entwicklungsstufe \textquote{initial} haben sich zahlreiche Problematiken und 
 Erkenntnisse ergeben, demnach erfordert die Weiterentwicklung der Hand, 
 die Unterstützung externer Fachkenntnisse.
 Nach Recherche im Internet, hat sich ergeben, dass ein französischer 
@@ -2795,12 +2814,11 @@ Wissen in dieses eingeflossen sind. Ziel ist es diese 3D druckbare Hand
 selbst zu realisieren, je nach Anforderung zu modifizieren und anhand dessen 
 eine weitere Versuchshand zu schaffen. \\
 \\
-
 \paragraph{Mechanismus}
 \label{par:Mechanismus_zweite_Hand}
 \hfill \break
 \hfill \break
-Der Mechanismus der zweiten Versuchshand, welche den Namen "Entwicklungsstufe: InMoov" trägt, \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] auf. \\
+Der Mechanismus der zweiten Versuchshand, welche den Namen \textquote{Entwicklungsstufe: InMoov} trägt, \textquote{InMoov} ist äußerst umfangreich und weist meist bessere Lösungen für Features der ersten Versuchshand aus [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: intitial}}] auf. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -2829,6 +2847,15 @@ nur der Rückzug sowie die Faltung von ein und demselben Motor ausgelöst wird. 
 eine beidseitige Verjüngung, an dieser soll die Schnur entlanglaufen. Nun verlaufen beide Schnüre, die für den Ein- sowie Auszug verantwortlichen Schnüre, jeweils auf einer Seite, an dieser Runden Vorrichtung und sind an dem Ende dieser montiert. 
 Dreht sich nun der Motor um 90\textdegree gibt er mehr der Schnur her und verkürzt die zweite Schnur. Bei diesem Vorgang müssen jedoch beide Schnüre so gespannt sein, dass keine der beiden nachgibt und sich bei Bewegung des Motors lockert. \\
 \\
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.8}
+		{\includegraphics[width=0.8 \linewidth]{Inmoovhand}}
+		\caption{Inmoovhand und ihre Komponenten (\textcolor{blue}{Quelle: \cite{Inmoovhand}})}
+		\label{fig:Inmoovhand}			
+	\end{center}
+\end{figure}
+\hfill \break
 Das Modell der Handfläche, an dem alle Finger und weitere Komponenten zentral zusammenkommen setzt sich selbst aus insgesamt vier tatsächlichen Elementen zusammen und zwei Hilfselementen. \\
 Das Hauptelement ist in dem Fall die Handfläche, dies ist das Größte und zentralste Element, durch dieses Element verlaufen 15 Kanäle, die mittleren fünf dienen optionaler Sensorik. Die oberen fünf Kanäle sind für die Schnüre, 
 welche dem Einfalten dienen, die oberen dienen der Schnüre für den Rückzug. \\
@@ -2975,10 +3002,6 @@ Im oberen Teil des Fingers verläuft durch jedes einzelne Glied ein Kanal, für 
 Um diese Fläche optional nochmals im Nachhinein zu verdicken und dadurch zu beeinflussen, wie stark der Rückzug ist wurden zwei Einkerbungen in das Modell des Fingers implementiert. Durch das Aufgießen mit Silikon dieser rechteckigen Einkerbungen 
 an den Biegungspunkten, kann dies bewirkt werden. \\
 \\
-Der ganze Finger wird in eine Gussform gegossen, diese besteht aus zwei Teilen um den Finger leicht aus der Form lösen zu können, ohne dabei die beiden Objekte zu beschädigen. \\
-Verbunden sind beide Teile der Form mit einem Steckmechanismus, wie in der [\textcolor{blue}{\autoref{fig:Silikon_Testfinger_Gussform}}] ersichtlich. Am oberen Teil der Gussform befindet sich ein Loch in dieses wird das flüssige Silikon später gegossen, das Loch wurde extra groß 
-dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
-\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -2988,6 +3011,10 @@ dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
 	\end{center}
 \end{figure}
 \hfill \break
+Der ganze Finger wird in eine Gussform gegossen, diese besteht aus zwei Teilen um den Finger leicht aus der Form lösen zu können, ohne dabei die beiden Objekte zu beschädigen. \\
+Verbunden sind beide Teile der Form mit einem Steckmechanismus, wie in der [\textcolor{blue}{\autoref{fig:Silikon_Testfinger_Gussform}}] ersichtlich. Am oberen Teil der Gussform befindet sich ein Loch in dieses wird das flüssige Silikon später gegossen, das Loch wurde extra groß 
+dimensioniert damit gleichzeitig auch die Luft im Innenraum entweichen kann. \\
+\\
 Das hier verwendete flüssig Silikon besteht aus zwei Komponenten welche als Teil A und Teil B bezeichnet werden. Teil A ist die Hauptkomponente des Silikons und Teil B ist die Härtekomponente, zusammen vermischt führt dies zu einem festen elastischen 
 Material. \\
 \\
@@ -3039,10 +3066,6 @@ Mit einer Erweiterung wird das gesamte Modell in der Gussform befestigt und posi
 \\
 \textbf{Ergebnis:} \\
 \\
-Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, damit dies nicht passiert – wie beispielsweise die Verschraub Möglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
-Gelöst konnte dies mit Klebebändern, die zum Abdichten verwendet wurden. \\
-Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, denn der Finger funktioniert in Zusammenspiel mit dem Gelenk wie erwartet. \\
-\\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -3052,7 +3075,9 @@ Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, d
 	\end{center}
 \end{figure}
 \hfill \break
-
+Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, damit dies nicht passiert – wie beispielsweise die Verschraub Möglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
+Gelöst konnte dies mit Klebebändern, die zum Abdichten verwendet wurden. \\
+Trotz der Komplikationen, hat sich der Versuch als erfolgreich herausgestellt, denn der Finger funktioniert in Zusammenspiel mit dem Gelenk wie erwartet. \\
 \paragraph{Entwurf einer neuen Gussform}
 \hfill \break
 \hfill \break
@@ -3072,9 +3097,7 @@ in der Handfläche beginnen, damit sich diese besser um das gewünschte Objekt "
 \end{figure}
 \hfill \break
 Ohne nun bereits auf das Gerüst einzugehen ist in dieser Grafik zu sehen, dass die Handfläche zwischen den Fingern kein Material hat. Dies schafft auch die optionale Möglichkeit die Finger mit einem weiteren Mechanismus seitlich zu bewegen. \\
-In der Grafik ist ebenso die sich von den anderen Fingern unterscheidende Anordnung des Daumens, dieser liegt seitlich und soll beim Falten sich ähnlich wie der echte Daumen des Menschen verhalten.
-Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsächlichen Knochen eines Menschen orientiert, damit soll für mehr Ähnlichkeit zur Anatomie der menschlichen Hand gesorgt werden. \\
-\\
+In [\textcolor{blue}{\autoref{fig:Silikonhand_3Dmodell2}}] ist ebenso die sich von den anderen Fingern unterscheidende Anordnung des Daumens, dieser liegt seitlich und soll beim Falten sich ähnlich wie der echte Daumen des Menschen verhalten. \\
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{0.8}
@@ -3092,6 +3115,8 @@ Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsäch
 	\end{center}
 \end{figure}
 \hfill \break
+Das Gerüst hat dabei eine triviale Neuerung, denn es wurde sich an den tatsächlichen Knochen eines Menschen orientiert, damit soll für mehr Ähnlichkeit zur Anatomie der menschlichen Hand gesorgt werden. \\
+\\
 Im Unterschied zu einer vorherigen Version des Gerüsts, ist zu erkennen, welche Vorteile die neue gegenüber ihr hat. Zu einem ist diese viel flexibler und hat keine große und starre Handwurzel. 
 Ein weiter Unterschied ist die Verbindung der einzelnen Knochen in jedem Finger. Anders wie bei der alten Version werden hier keine Schrauben zu der Verbindung einzelner Gelenksteile, sondern Gummikordeln verwendet. \\
 \\
@@ -3149,19 +3174,7 @@ Wie in dieser Veranschaulichung ersichtlich wird in aufrechtem Zustand der Gussf
 Stelle des Innenraums liegt. Um sicherzustellen, dass die Hand stets aufrecht bleibt und während dem Härteprozess des Silikons nicht gesichert in ihrer Position bleibt wurde eine Halterung entworfen, auf diese Kann die Form gesteckt werden. Das Loch 
 wurde möglichst groß modelliert, damit die im Innenraum verbleibende Luft der Gussform ausreichend entweichen kann. \\
 \\
-\textbf{Der Guss:} \\
-\\
-Der Gussprozess ist nicht einwandfrei verlaufen, mitunter lag dies hauptsächlich an den Lücken zwischen den einzelnen Elementen. Aufgrund des FDM-Druckverfahren sind zwischen den einzelnen Flächen entweder Rillen oder versetzte Schichten und dies 
-führt dazu, dass diese nicht exakt aufeinander Aufliegen. Dort fließt das Silikon dann meist aus der Gussform aus. \\
-Um diesem Problem entgegenzuwirken, ohne das Model aus Kostengründen neu drucken zu müssen gab es folgende Lösungsversuche:
-\begin{itemize}
-	\item Ein Versuch war es mit einem Dichtenden Klebeband, diese Freiräume von außen abzudichten. Dies hat kaum zu einer Verbesserung beigetragen. Das Band hat dem Druck vom Silikon meist nicht standgehalten und hatte keine ideale Haftung an 
-	den äußeren Wänden der Gussform.
-	\item Weiters wurde versucht mit einer Dichtmasse abzudichten, doch selbst diese konnte das Modell nicht vollständig abdichten. Zwar wurde es besser, jedoch besonders an komplexeren Bereichen, wie bei dem Daumen gab es keine bemerkbare Verbesserung.
-\end{itemize}
-\hfill \break
-Letztlich konnte kein nutzbares Ergebnis mit der Gussform erzielt, werden. Die Versuche das Modell abzudichten war nur teilweise erfolgreich. Wie an dieser Abbildung ersichtlich konnten die Finger zwar gegossen werden, jedoch konnte das Silikon 
-nicht die „Handfläche“ halten ohne auszurinnen. \\
+\textbf{Resultate des Gussversuchs:} \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -3172,9 +3185,17 @@ nicht die „Handfläche“ halten ohne auszurinnen. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Jedoch gab es einen Notlösungsversuch um das vorhandene Material zu retten, dafür wurden die Finger abgeschnitten bis zu dem Punkt, an dem der Guss nicht gelungen ist, daraufhin vermessen und ein Modell wurde modelliert. Dieses ersetzt die Handfläche 
-aus Silikon mit einer 3D Gedruckten und auf diese können die bestehenden Silikonfinger auf eine Einkerbung für diese gesteckt werden. In der Abbildung ist der Unterschied, zwischen Silikon und Kunststoff anhand der Farben zu sehen, dunkelgrau steht 
-für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind auch fünf Kanäle, durch diese soll die Angelschnur gehen und an den Fingern ziehen. \\
+Der Gussprozess ist nicht einwandfrei verlaufen, mitunter lag dies hauptsächlich an den Lücken zwischen den einzelnen Elementen. Aufgrund des FDM-Druckverfahren sind zwischen den einzelnen Flächen entweder Rillen oder versetzte Schichten und dies 
+führt dazu, dass diese nicht exakt aufeinander Aufliegen. Dort fließt das Silikon dann meist aus der Gussform aus. \\
+Um diesem Problem entgegenzuwirken, ohne das Model aus Kostengründen neu drucken zu müssen gab es folgende Lösungsversuche:
+\begin{itemize}
+	\item Ein Versuch war es mit einem Dichtenden Klebeband, diese Freiräume von außen abzudichten. Dies hat kaum zu einer Verbesserung beigetragen. Das Band hat dem Druck vom Silikon meist nicht standgehalten und hatte keine ideale Haftung an 
+	den äußeren Wänden der Gussform.
+	\item Weiters wurde versucht mit einer Dichtmasse abzudichten, doch selbst diese konnte das Modell nicht vollständig abdichten. Zwar wurde es besser, jedoch besonders an komplexeren Bereichen, wie bei dem Daumen gab es keine bemerkbare Verbesserung.
+\end{itemize}
+\hfill \break
+Letztlich konnte kein nutzbares Ergebnis mit der Gussform erzielt, werden. Die Versuche das Modell abzudichten war nur teilweise erfolgreich. Wie an dieser Abbildung ersichtlich konnten die Finger zwar gegossen werden, jedoch konnte das Silikon 
+nicht die \textquote{Handfläche} halten ohne auszurinnen. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -3193,6 +3214,10 @@ für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind 
 	\end{center}
 \end{figure}
 \hfill \break
+Jedoch gab es einen Notlösungsversuch um das vorhandene Material zu retten, dafür wurden die Finger abgeschnitten bis zu dem Punkt, an dem der Guss nicht gelungen ist, daraufhin vermessen und ein Modell wurde modelliert. Dieses ersetzt die Handfläche 
+aus Silikon mit einer 3D Gedruckten und auf diese können die bestehenden Silikonfinger auf eine Einkerbung für diese gesteckt werden. In der Abbildung ist der Unterschied, zwischen Silikon und Kunststoff anhand der Farben zu sehen, dunkelgrau steht 
+für das 3D-Gedruckte Modell und die beige Farbe für das Silikon. Zusehen sind auch fünf Kanäle, durch diese soll die Angelschnur gehen und an den Fingern ziehen. \\
+\\
 In der Praxis hat sich dann herausgestellt, dass die Finger sehr weich sind und daher ihr eigenes Gewicht kaum halten können. Der hat Faltmechanismus funktioniert, jedoch nicht ausreichend und in auch nicht in gewünschtem Maße. Lösen könnte man die 
 Instabilität der einzelnen Fingern mit härterem Silikon. Grundsätzlich wurde moderat hartes Silikongewählt mit dem Härtefaktor 25A, das doppelte somit 50A oder mehr wären notwendig um die Finger stabil zu halten. \\
 \\
@@ -3218,7 +3243,6 @@ diese erstreckt sich durch den gesamten Finger und ist am Anfang und seinem Ende
 Doch nicht alles war ideal an dem Modell der neuen Hand, den der Motorblock wurde nicht optimiert und nutzt weiterhin den Mechanismus, in dem sich die Zugschnur um einen Aufsatz auf dem Motor wickelt. Daher muss eigens ein neuer Mechanismus 
 entworfen werden in diesem soll die Drehbewegung des Servomotors in eine lineare Zugbewegung übersetzt werden. \\
 \\
-
 \paragraph{Erster Entwurf}
 \hfill \break
 \hfill \break
@@ -3276,9 +3300,17 @@ Langlöchern adjustiert werden. Das Modell wurde mit der Rücksicht entworfen, S
 		\label{fig:Handv2_real}			
 	\end{center}
 \end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\scalebox{0.5}
+		{\includegraphics[width=0.8 \linewidth]{Handv2_real_Zugfeder}}
+		\caption{Rückzugsmechanismus der Entwicklungsstufe Hybrid}
+		\label{fig:Handv2_real_Zugfeder}			
+	\end{center}
+\end{figure}
 \hfill \break
 Die realisierte Hand, welche eine von Gael Levin erweiterte Version der Hand aus 
-\autoref{chap:Entwicklungsstufe: InMoov} ist, weist auch in der Realität eine 
+[\textcolor{blue}{\autoref{chap:Entwicklungsstufe: InMoov}}] ist, weist auch in der Realität eine 
 deutlich höhere Stabilität als die der vorherigen Hand auf. Besonders die 
 Verbindung der Fingergelenke und deren Wandstärke hat sich bereits bei der Montage 
 als äußerst stabil erwiesen. Zu Schwierigkeiten kam es beim Einbauen der Zugfeder, 
@@ -3295,7 +3327,7 @@ Grip sorgen sollen. \\
 	\end{center}
 \end{figure}
 \hfill \break
-In der \autoref{fig:Unterarm_real} sind die gedruckten Komponenten des Motorblocks 
+In der [\textcolor{blue}{\autoref{fig:Unterarm_real}}] sind die gedruckten Komponenten des Motorblocks 
 zu sehen, die Montage ist jedoch nur durch ein Zusammenspiel von Software und 
 Hardware möglich. Der Servomotor muss in die Position 0 gestellt werden, folglich 
 wird die Zahnstange mit gespannter Schnur entsprechend positioniert, daraufhin 
@@ -3330,12 +3362,12 @@ Die Versuchsergebnisse haben folgende Informationen geliefert: \\
 	\item Die neue Mechanik ist äußerst präzise, sei es der Motorblock oder der 
 	Faltmechanismus. Die Finger können äußerst akkurat auf eine gewünschte 
 	Position gestellt werden.
-	\item Der Griff, welcher durch die Fingerkuppen aus Silikon geschaffen wird, 
+	\item Der Griff, welcher durch die Fingerkuppen aus Silikon [siehe \textcolor{blue}{\autoref{fig:Handv2_real}}] geschaffen wird, 
 	ermöglicht es passende Objekte fest zu greifen. Getestet wurde dies mit einer 
 	250ml Flasche, einem Handschuh, einer menschlichen Hand und auch mit Werkzeug, 
 	wie einem Schraubendreher. 
 	\item Die Reibung konnte erheblich reduziert werden, besonders hilfreich waren 
-	dabei noch zusätzlich gefräste Umlenkungen, welche die Zugschnur auch 
+	dabei noch zusätzlich gefräste Umlenkungen [siehe \textcolor{blue}{\autoref{fig:Handv2_real}}], welche die Zugschnur auch 
 	ausrichten. 
 \end{itemize}
 
@@ -3453,7 +3485,7 @@ zusätzlich erzielten Genauigkeit in keiner Relation. \\
 \hspace*{1cm} Gain gewählt mit 46. \hspace*{1cm} $ R_{g} = 1.1k\Omega $ \\
 \\
 Die Verstärkung wurde so gewählt, dass diese mit dem Shunt-Widerstand für den ADC optimal geeignet ist.
-Der Shunt-Widerstand wurde mithilfe der Simulation in \autoref{fig:Simulation_Spannungsmessung_Flexsensoren}
+Der Shunt-Widerstand wurde mithilfe der Simulation in [\textcolor{blue}{\autoref{fig:Simulation_Spannungsmessung_Flexsensoren}}]
 gewählt. \\
 \\
 Der Shuntwiderstand wurde nicht wirklich berechnet. Dieser wurde durch probieren in der Simulation ermittelt. Eine Berechnung
@@ -3484,7 +3516,7 @@ Folgende drei Kriterien sind maßgeblich bei der Wahl der Analog-Digital-Wandler
 		  \\
 		  \hspace*{1cm} $ ADC Ausgangsstufen = \frac{2.3V}{3.22mV} = 713 $ \\
 \end{itemize}
-Der reale Ausgangspegel des OPVs liegt, wie bei der Simulation in \autoref{par:Auslesen der Sensoren} ermittelt, zwischen 1.277V bis 2.416V.
+Der reale Ausgangspegel des OPVs liegt, wie bei der Simulation in [\textcolor{blue}{\autoref{par:Auslesen der Sensoren}}] ermittelt, zwischen 1.277V bis 2.416V.
 Das beudeutet, dass eine Auflösung von 10Bit und ein Austeuerbereich von 0V - 3.3V ausreichend ist, um den kompletten Wertebereich
 sehr genau abzudecken. Zusätzlich haben wir uns noch dazu entschieden alle Logikbauteile die eine Kommunikation mit dem Mikrokontroller
 erfordern mit dem I2C Bussystem anzuschließen. Daher muss der Analog-Digital-Wandler diese Art der Kommunikation ebenfalls unterstützen.
@@ -3974,7 +4006,7 @@ ausfallen wird. \\
 \hfill \break
 Um den Datentransfer möglichst einfach zu gestallten und keine Kompatibilitätsprobleme zu haben, entschieden wir uns den gleichen Mikrokontroller
 wie beim Eingabesubsystem zu verwenden. Dies ermöglicht eine relativ einfache Datenübertragung ohne zusätzliche Antennen. Werden Daten empfangen,
-so wird die Software am Chip aktiv, die in [\textcolor{blue}{\autoref{chap:Realisierung und Gleiderung Roboterhandsoftware}}] näher beschrieben wird. Der
+so wird die Software am Chip aktiv, die in [\textcolor{blue}{\autoref{chap:Realisierung: Überblick}}] näher beschrieben wird. Der
 Entschluss zur Verwendung dieser \textquote{identischen} Systeme, wurde relativ rasch getroffen, da wir genug andere Schwierigkeiten haben werden und 
 die Funkübertragung nicht dazu zählen soll. Genauere Designanforderungen, zum Layout der integrierten Antenne, werden in [\textcolor{blue}{\autoref{chap:Platinendesign Roboterhand}}] erklärt.
 
@@ -5040,7 +5072,7 @@ esp_err_t result = esp_now_send(broadcastAddress,
 		\scalebox{1.1}
 		{\includegraphics[width=0.8 \linewidth]{Paketmuster}}
 		\caption{Beispiel: Paket nach bestimmtem Muster senden}
-		\label{fig:MUX508}			
+		\label{fig:Paketmuster}			
 	\end{center}
 \end{figure}
 \hfill \break
@@ -5077,6 +5109,7 @@ System und liefert dem Userinterface relevante Daten. \\
 \\
 
 \subsubsection{Realisierung: Überblick}
+\label{chap:Realisierung: Überblick}
 Die Vielfalt der Software fordert Struktur und eine systematische Gliederung. Empfangene Daten durchlaufen mehrere Strecken, an denen diese dann 
 verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umsetzt. \\
 \\
@@ -5086,7 +5119,7 @@ verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umset
 \hfill \break
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{1.1}
+		\scalebox{1.2}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss1_Roboterhand}}
 		\caption{Flussdiagramm der Software des Ausgabesubsystems}
 		\label{fig:Programmfluss1_Roboterhand}		
@@ -5107,7 +5140,7 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.7}
+		\scalebox{0.4}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss2_Roboterhand}}
 		\caption{Route des Only-Glove-Modus im Ausgabesubsystem}
 		\label{fig:Programmfluss2_Roboterhand}		
@@ -5115,13 +5148,14 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \end{figure}
 \hfill \break
 \textbf{ONLY-GLOVE Modus:} \\
+\\
 Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
 die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{blue}{\autoref{ESP-NOW und Wifi.h}}] wird 
 die Anwendung dieser Komponente in dem System detailliert erläutert. \\
 Wurden Daten empfangen wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
 Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}] weitergegeben, 
 dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
-eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{blue}{par:proaktiver Datenkorrekturalgorithmus}]
+eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{blue}{\autoref{par:proaktiver Datenkorrekturalgorithmus}}]
 zu finden. \\
 Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
 [\textcolor{blue}{\autoref{par:Datenaufbereitung und Anweisung für Servoaktoren}}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
@@ -5129,14 +5163,15 @@ gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.7}
+		\scalebox{0.9}
 		{\includegraphics[width=0.8 \linewidth]{Programmfluss3_Roboterhand}}
 		\caption{Route des UI-Mode im Ausgabesubsystem}
 		\label{fig:Programmfluss3_Roboterhand}		
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{UserInterface Modus:} \\
+\textbf{User Interface Modus:} \\
+\\
 Dieser Modus ermöglicht es die Hand über jeweils das Userinterface und auch den Handschuh zu steuern, jedoch getrennt voneinander. Oft wird dieser Modus 
 missverstanden, da interpretiert wird, dass er ausschließlich eine Steuermöglichkeit über das Userinterface bietet. \\
 Welche Steuerungsmöglichkeit gewählt wird kann über das Interface per „Switch-Button“ eingestellt werden. Das Userinterface sendet bei der nächsten 
@@ -5159,9 +5194,8 @@ Die Anweisungen landen in erster Hand in der Komponente \textquote{UI-Interprete
 diese an die folgende Komponente des \textquote{Servomappings}. Unmittelbar nachdem die angepassten Werte dem Motor übergeben wurden, wird eine Strommessung von 
 der Software aus gestartet. Diese sendet die erfassten Werte des Messfensters an das Userinterface. \\
 \\
-
-
 \paragraph{Effiziente Gliederung essentieller Systemkomponenten}
+\label{par:Effiziente Gliederung essentieller Systemkomponenten}
 \hfill \break
 \hfill \break
 Der Programmcode wurde modular in Form einzelner Komponenten realisiert, anhand dessen wird die Möglichkeit geschaffen diese mehrfach zu verwenden und 
@@ -5291,8 +5325,8 @@ von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. D
 \\
 
 \subsubsection{Individuelle Komponenten}
-Wie in [\textcolor{blue}{\autoref{Effiziente Gliederung essenzieller Systemkomponenten}}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
-Unterprogrammen zusammen, diese werden als „Komponente“ bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
+Wie in [\textcolor{blue}{\autoref{par:Effiziente Gliederung essentieller Systemkomponenten}}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
+Unterprogrammen zusammen, diese werden als \textquote{Komponente} bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
 sich die jeweiligen Routen, die ein Datenpacket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
 Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
 werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter sind. \\
@@ -5339,9 +5373,6 @@ Ist dies der Fall wird in die Struktur \textquote{Rückgabe} der extrahierte Ser
 Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
 die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{blue}{\autoref{par:Serielle Kommunikation}}] beschrieben, hat dieser Parser mit 
 Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zu einem Anweisungen für einzelne Finger, sowie auch Gesten. \\
-\\
-\textcolor{red}{Platzhalter für Amir} \\
-\\
 
 \paragraph{proaktiver Datenkorrekturalgorithmus}
 \label{par:proaktiver Datenkorrekturalgorithmus}
@@ -5397,15 +5428,12 @@ Anhand der Verzögerung der Elemente, beträgt im Falle des Beispiels neun, ist 
 Dies verhindert, dass eine rapide Änderung als Fehler identifiziert wird. Aufgrund des hohen Datenflusses sind Verzögerungen von rund zehn Elementen für 
 den Gebraucher nicht wahrnehmbar. \\
 \\
-\textcolor{red}{REMINDER AN AMIR CODE EINFÜGEN UND DIE BERECHNUNG DES MEDIANS IM CODE DARSTELLEN} \\
-\\
-
 \paragraph{Datenaufbereitung und Anweisung für Servoaktoren}
 \label{par:Datenaufbereitung und Anweisung für Servoaktoren}
 \hfill \break
 \hfill \break
 Jeder der im Projekt verwendeten Servomotoren, der MG995R, hat im Originalzustand einen maximalen Drehwinkel von 180\textdegree - entsprechend auf diesen 
-Winkel wurde der Mechanismus, wie in [\textcolor{blue}{\autoref{chap:Vierte Hand (Hybird-Konzept)}}] näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
+Winkel wurde der Mechanismus, wie in [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: Hybrid}}] näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
 fehlende Glied, welches dafür sorgt, dass die Finger sich optimal bewegen. \\
 Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung sobald sich der Motor um beispielsweise 30\textdegree dreht. Um ein einheitliches 
 System zu schaffen, muss somit ermittelt bei welchem Drehungswinkel der Finger bereits gestreckt oder in der maximalen Falteposition, sprich vollkommen 
@@ -5440,26 +5468,10 @@ Die Funktion \textquote{HPCA9685.Servo} erfordert einen anderen Wertebereich als
 \begin{lstlisting}
 int value_out = map(rueckgabe.grad, 0, 100, fingerLimits[rueckgabe.servoIndex][0], 
 fingerLimits[rueckgabe.servoIndex][1]);
-HCPCA9685.Servo(rueckgabe.servoIndex.XXXXX);
+HCPCA9685.Servo(rueckgabe.servoIndex.);
 \end{lstlisting}
 \hfill \break
 \normalsize
-\textcolor{red}{REMINDER AN AMIR DEN CODE UNBEDINGT NOCH ANPASSEN} \\
-\\
-\subsubsection{Fremdkomponenten}
-
-\paragraph{MCP3X21}
-\hfill \break
-\hfill \break
-
-\paragraph{HCPCA9685}
-\hfill \break
-\hfill \break
-
-\paragraph{ESP-NOW und Wifi.h}
-\label{par:ESP-NOW und Wifi.h}
-\hfill \break
-\hfill \break
 
 \newpage
 \subsection{User Interface [\textcolor{blue}{Szabo}]}
@@ -5551,6 +5563,7 @@ Bei jeder, durch das User-Interface, initiierten Bewegung, wird ein $String$ an 
 Roboterhand in die gewünschte Position bewegt werden. Das Code des Ausgabesubsystems prüft die ankommenden Werte vor der Bewegung der Motoren auf Plausibilität. \\
 \\
 \textbf{Finger-Slider} \\
+\\
 Im untere, linken Bereich des Grafikoberfläche, befindet sich ein $Stack-Layout$, das mit sechs $Slidern$ gefüllt ist. Diese Schieberegler ermöglichen es dem Benutzer jeden Finger der Roboterhand einzeln zu steuern. Dies
 funktioniert allerdings wieder nur, wenn der $Steuermodusschalter$ auf $UI-Controlled$ gestellt ist. Mit dem untersten Slider, können auch alle Finger auf einmal bewegt werden. Steuermöglichkeiten wie diese sind vorgesehen, 
 damit der Benutzer bei einer möglichen Fehlfunktion des Eingabesubsystems nicht handlungsunfähig wird. Mit dem User-Interface kann somit noch weitergearbeitet werden, wennauch nicht so praktikabel wie per Eingabesubsystem, nämlich dem Handschuh. \\
@@ -5558,10 +5571,12 @@ damit der Benutzer bei einer möglichen Fehlfunktion des Eingabesubsystems nicht
 Die Übergabe der Steuerwerte erfolgt mit einem Protokoll [siehe \textcolor{blue}{\autoref{chap:Kommunikation-Protokolle}}] \\
 \\
 \textbf{Kontrollanzeigen} \\ 
+\\
 Im unteren, rechten Bereich von [\textcolor{blue}{\autoref{fig:UI_Oberfläche}}], befinden sich die $Kontrollanzeigen$ für die Servostellungen und die Griffkraft der Roboterhand. Mittels dem Protokoll [siehe \textcolor{blue}{\autoref{chap:Kommunikation-Protokolle}}], werden
 die Servowinkelwerte jedes einzelnen Servos an das User-Interface gesendet. Diese werden interpretiert und auf Plausibilität geprüft. Folglich werden die vorherigen Werte, die im Anzeigefenster standen, überschrieben und der neue aktualisierte Wert angezeigt. \\
 \\
 \textbf{3D-Modell} \\
+\\
 In der Mitte der Grafikoberfläche, ist die, nicht übersehbare, Darstellung eines echten Handskelets zu sehen. Dieses 3D-Modell wurde in Fusion 360 [\textcolor{blue}{\autoref{chap:Fusion 360}}] erstellt. Jedes einzelne Teil wurde anschließend exportiert und im QT-DesignStudio korrekt positioniert. Wichtig
 hierbei ist es zu beachten, dass jedes Hand -und Fingerglied vor dem Export aus Fusion 360 genau an seinem Ursprung liegen muss, da die Beugung der Finger ansonsten nicht korrekt nachgestellt werden kann. Die Drehachse jedes Gelenks, wäre durch einen inkorrekten Export
 verschoben.  
@@ -5808,8 +5823,10 @@ Letztendlich erweisen sich die Überlegungen, die bereits am Anfang angestellt
 wurden, als sinnvoll. Dies führt dazu, dass nicht alle Überlegungen 
 zwischendurch verworfen werden müssen. \\
 \\
-
 \subsubsection{Ausgabesubsystem [\textcolor{blue}{Al-Maytah}]}
+\textcolor{red}{Platzhalter für Amir}
+\\
+
 
 \subsection{Gesamtintegration [\textcolor{blue}{Schweitzer}]}
 In diesem Abschnitt reflektieren wir die Vielfalt an Erkenntnissen, die wir 
@@ -5894,8 +5911,8 @@ sammeln. Es gab viele Herausforderungen, aber auch daraus resultierende
 Erfolge waren keine Seltenheit. Oft waren wir etwas zu optimistisch, aber 
 letztendlich konnten wir alle Meilensteine rechtzeitig erreichen. Mit dem 
 Wissen, das wir während der gesamten Entwicklungsphase gesammelt haben, können
- wir nun effizienter an ähnlichen Projekten arbeiten. \\
- \\
+wir nun effizienter an ähnlichen Projekten arbeiten. \\
+\\
 
 \newpage
 %--------------------------------------------------------------------------
@@ -5907,6 +5924,7 @@ Wissen, das wir während der gesamten Entwicklungsphase gesammelt haben, können
 Das Projekt bietet eine gute Basis für zukünftige, aufbauende Erweiterungen. Einige Änderungs -oder Verbesserungsvorschläge des Gesamtdesigns sind in Folge beschrieben. \\
 \\
 \textbf{Handgelenksrotation} \\
+\\
 Auf der Platine des Eingabesystems könnte eine Steuerung für einen Gyroskopsensor integriert werden. 
 Dieser Sensor, am Handschuh befestigt, wäre in der Lage, die Drehbewegungen des Handgelenks zu 
 erfassen. Die erfassten Daten könnten dann durch eine speziell dafür entwickelte Software auf der 
@@ -5916,6 +5934,7 @@ Feature würde den zusätzlichen Vorteil bieten, dass Objekte aus verschiedenen 
 werden könnten. \\
 \\
 \textbf{Taktile Sensoren an den Fingerspitzen} \\
+\\
 Taktile Sensoren an den Fingerspitzen der Roboterhand könnten den auf jeden einzelnen Finger 
 ausgeübten Druck messen. Durch eine spezielle Messschaltung könnten die Daten dieser Sensoren 
 ausgelesen und verarbeitet werden. Dies würde es ermöglichen, zu bestimmen, ob ein bestimmter 
@@ -5926,6 +5945,7 @@ würde die Roboterhand in ihrer aktuellen Position verharren lassen und keine zu
 das Objekt ausüben. \\
 \\
 \textbf{Akku auf Platine des Eingabesubsystems} \\
+\\
 Es wurde bereits ein Akku für die Platine des Eingabesubsystems eingeplant. Dieser ist auch bereits 
 in der neuesten Version der Platine vorhanden und sollte auch funktionieren. Damit wäre auch ein 
 Betrieb dieser ohne ein Netzteil möglich. Das hat den Vorteil, dass man mit dem Handschuh nicht 
@@ -5934,6 +5954,7 @@ durch den Raum bewegen. Die Daten werden genauso wie zuvor übertragen, da alles
 Betriebsmöglichkeiten (Akku und Netzteil) konzipiert wurde. \\
 \\
 \textbf{Mehrere Modi im User-Interface} \\
+\\
 Es soll möglich sein, dass mehrere voreingestellte Modi im User-Interface ausgewählt werden können. 
 Über diese soll es möglich gemacht werden, dass man beispielsweise einen bestimmten Gegenstand 
 einer definierten Liste auswählen kann. Darüber soll es dann möglich sein, dass das Ausgabesubsystem 
@@ -5943,6 +5964,7 @@ wiederum könnte beispielsweise den Befehl an die Platine senden, dass die Robot
 derzeitigen Position halten soll. \\
 \\
 \textbf{Sicherheit beim Senden von Daten} \\
+\\
 Es könnte auf eine Verschlüsselung beim Senden von Daten gesetzt werden, damit diese kein 
 Unbefugter abfangen und auswerten kann. In unserem Fall stellt es kein Problem dar, dass die 
 Daten keine Verschlüsselung besitzen, aber in anderen Bereichen, beispielsweise in der Industrie, 
@@ -5950,6 +5972,7 @@ wird eine zuverlässige und verschlüsselte Übertragung der Daten essenziell se
 dadurch das System manipulieren können. \\
 \\
 \textbf{Größere Analyse von Daten} \\
+\\
 Durch einen zusätzlichen Datenträger, wie zum Beispiel einer SD-Karte, können Daten dauerhaft 
 gespeichert werden. Dadurch wäre es möglich eine Analyse dieser über einen festgelegten Zeitraum 
 durchzuführen. Es könnte dadurch herausgefunden werden, wie viel Strom bei einem festgelegten 
@@ -5962,6 +5985,7 @@ leichter ist es, festzulegen, wann die Schaltung nicht mehr richtig funktioniert
 gewisse Stromspitzen auftreten. \\
 \\
 \textbf{Mechanische Komponenten kompakter verbauen} \\
+\\
 Das mechanische Gehäuse für den Motorblock kann kompakter modelliert werden. Des Weiteren ist der 
 3D-gedruckte Unterarm etwas zu groß geraten. In Zukunft müsste hier auf Maße geachtet werden, die 
 dem menschlichen Unterarm entsprechen, um eine realistischere Darstellung zu gewährleisten. 
@@ -5969,8 +5993,9 @@ In vielen Bereichen des modellierten Roboterarms sind momentan zu viele Lufträu
 zukünftigen Modellierungen deutlich reduziert werden können. \\
 \\
 \textbf{Professionell gefertigte mechanische Teile} \\
-
-
+\\
+\textcolor{red}{Platzhalter Amir}
+\\
 
 \newpage
 %--------------------------------------------------------------------------

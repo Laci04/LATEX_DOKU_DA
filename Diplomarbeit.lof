@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces I-Glied (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Haager}p.101})\relax }}{13}{figure.caption.10}%
 \contentsline {figure}{\numberline {7}{\ignorespaces D-Glied (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Haager}p.101})\relax }}{13}{figure.caption.11}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Makrodarstellung des Regelkreises\relax }}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Abschnitt des Regelkreises für die Sollgröße\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Abschnitt des Regelkreises für die Sollgröße\relax }}{15}{figure.caption.13}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Abschnitt des Regelkreises Motor\relax }}{15}{figure.caption.14}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Diagram Positionsregler\relax }}{16}{figure.caption.15}%
 \contentsline {figure}{\numberline {12}{\ignorespaces CC BY (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {CreativeCommonsBilder}})\relax }}{27}{figure.caption.16}%
@@ -36,116 +36,120 @@
 \contentsline {figure}{\numberline {35}{\ignorespaces Blockschaltbild des Gesamtsystems\relax }}{57}{figure.caption.39}%
 \contentsline {figure}{\numberline {36}{\ignorespaces Blockschaltbild des Eingabesubsystems\relax }}{58}{figure.caption.40}%
 \contentsline {figure}{\numberline {37}{\ignorespaces Blockschaltbild des Ausgabesubsystems\relax }}{59}{figure.caption.41}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Darstellung des Versuchsmodells\relax }}{63}{figure.caption.42}%
-\contentsline {figure}{\numberline {39}{\ignorespaces initiales Grundkonzept\relax }}{64}{figure.caption.43}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Querschnitt der Finger\relax }}{65}{figure.caption.44}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Faltmechanismus der Entwicklungsstufe: initial\relax }}{66}{figure.caption.45}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Querschnitt der Handfläche\relax }}{67}{figure.caption.46}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Ständer für die Handkomponente\relax }}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Servomotoren-Halterung und Umlenkungen\relax }}{69}{figure.caption.48}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Skizzierung der unregelmäßigen Faltmechanik\relax }}{70}{figure.caption.49}%
-\contentsline {figure}{\numberline {46}{\ignorespaces mechanische Verbindung der einzelnen Fingerglieder\relax }}{72}{figure.caption.50}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Der InMoov-Faltmechanismus\relax }}{72}{figure.caption.51}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Realisierung der Entwicklungsstufe: InMoov\relax }}{73}{figure.caption.52}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Innenseite des Silikonfingers\relax }}{77}{figure.caption.53}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Außenseite des Silikonfingers\relax }}{78}{figure.caption.54}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Gussform des ersten Gussversuchs\relax }}{79}{figure.caption.55}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Gussform des zweiten Gussversuchs\relax }}{80}{figure.caption.56}%
-\contentsline {figure}{\numberline {53}{\ignorespaces innere Ansicht des Fingergelenks\relax }}{81}{figure.caption.57}%
-\contentsline {figure}{\numberline {54}{\ignorespaces äußere Ansicht des Fingergelenks\relax }}{81}{figure.caption.58}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Silikonfinger mit eingegossenem Gelenk\relax }}{82}{figure.caption.59}%
-\contentsline {figure}{\numberline {56}{\ignorespaces Modell der Silikonhand mit integrierten \textquote {Knochen Gelenken}\relax }}{83}{figure.caption.60}%
-\contentsline {figure}{\numberline {57}{\ignorespaces aktuelle Version des Gelenks\relax }}{84}{figure.caption.61}%
-\contentsline {figure}{\numberline {58}{\ignorespaces vorherige Version des Gerüsts\relax }}{84}{figure.caption.62}%
-\contentsline {figure}{\numberline {59}{\ignorespaces Verbindung der einzelnen Glieder mit Gummikordeln\relax }}{85}{figure.caption.63}%
-\contentsline {figure}{\numberline {60}{\ignorespaces unteres Element der Gussfom\relax }}{86}{figure.caption.64}%
-\contentsline {figure}{\numberline {61}{\ignorespaces oberes Element der Gussform\relax }}{86}{figure.caption.65}%
-\contentsline {figure}{\numberline {62}{\ignorespaces Gussform mit Halterung\relax }}{87}{figure.caption.66}%
-\contentsline {figure}{\numberline {63}{\ignorespaces Silikonhand Fehlversuch\relax }}{88}{figure.caption.67}%
-\contentsline {figure}{\numberline {64}{\ignorespaces Notkonzept: Handfäche aus hartem Kunststoff (PLA)\relax }}{89}{figure.caption.68}%
-\contentsline {figure}{\numberline {65}{\ignorespaces Realisierung des Notkonzepts\relax }}{90}{figure.caption.69}%
-\contentsline {figure}{\numberline {66}{\ignorespaces Rekonstruktion des Motorblocks\relax }}{92}{figure.caption.70}%
-\contentsline {figure}{\numberline {67}{\ignorespaces Mechanismus mit Zahnrad und Zahnstange\relax }}{93}{figure.caption.71}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Verbesserung der ersten Rekonstruktion\relax }}{94}{figure.caption.72}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Roboterhand Etnwicklungsstufe Hybrid\relax }}{95}{figure.caption.73}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Mechanismus der Entwicklungsstufe Hybrid\relax }}{96}{figure.caption.74}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Mechanismus Entwicklungsstufe Hybrid mit Oberarmerweiterung\relax }}{97}{figure.caption.75}%
-\contentsline {figure}{\numberline {72}{\ignorespaces LTspice Simulation der Flexesnor - Messschaltung\relax }}{100}{figure.caption.76}%
-\contentsline {figure}{\numberline {73}{\ignorespaces Steckbrettaufbau der Flexesnor - Messschaltung\relax }}{105}{figure.caption.77}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Netzteileinstellungen\relax }}{106}{figure.caption.78}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Oszilloskopbild mit $R_{L} = 27k\Omega $\relax }}{107}{figure.caption.79}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Oszilloskopbild mit $R_{L} = 67k\Omega $\relax }}{108}{figure.caption.80}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Oszilloskopbild mit $R_{L} = 118k\Omega $\relax }}{109}{figure.caption.81}%
-\contentsline {figure}{\numberline {78}{\ignorespaces USB-C-Buchse\relax }}{110}{figure.caption.82}%
-\contentsline {figure}{\numberline {79}{\ignorespaces ESP32 Mikrokontroller\relax }}{111}{figure.caption.83}%
-\contentsline {figure}{\numberline {80}{\ignorespaces Status LEDs\relax }}{112}{figure.caption.84}%
-\contentsline {figure}{\numberline {81}{\ignorespaces Multiplexer\relax }}{113}{figure.caption.85}%
-\contentsline {figure}{\numberline {82}{\ignorespaces Operationsverstärker - Schaltung\relax }}{113}{figure.caption.86}%
-\contentsline {figure}{\numberline {83}{\ignorespaces ADC - Schaltung\relax }}{114}{figure.caption.87}%
-\contentsline {figure}{\numberline {84}{\ignorespaces Gyroskopsensor - Schaltung\relax }}{114}{figure.caption.88}%
-\contentsline {figure}{\numberline {85}{\ignorespaces Platinenoberseite - erste Testplatine - Eingabesubsystem\relax }}{116}{figure.caption.89}%
-\contentsline {figure}{\numberline {86}{\ignorespaces Platinenunterseite - erste Testplatine - Eingabesubsystem\relax }}{117}{figure.caption.90}%
-\contentsline {figure}{\numberline {87}{\ignorespaces Toplayer des zweiten Platinenlayouts\relax }}{118}{figure.caption.91}%
-\contentsline {figure}{\numberline {88}{\ignorespaces Bottomlayer des zweiten Platinenlayouts\relax }}{119}{figure.caption.92}%
-\contentsline {figure}{\numberline {89}{\ignorespaces Topside des zweiten Platinenmodells\relax }}{120}{figure.caption.93}%
-\contentsline {figure}{\numberline {90}{\ignorespaces Bottomside des zweiten Platinenmodells\relax }}{120}{figure.caption.94}%
-\contentsline {figure}{\numberline {91}{\ignorespaces Schaltbild der Stromessschaltung\relax }}{124}{figure.caption.95}%
-\contentsline {figure}{\numberline {92}{\ignorespaces Steckbrettaufbau der Messchaltung zur Strommessung\relax }}{126}{figure.caption.96}%
-\contentsline {figure}{\numberline {93}{\ignorespaces Testaufbau der Strommessung eines Servomotors\relax }}{127}{figure.caption.97}%
-\contentsline {figure}{\numberline {94}{\ignorespaces Messtabelle Strommessung\relax }}{128}{figure.caption.98}%
-\contentsline {figure}{\numberline {95}{\ignorespaces Diagramm der Strommessung in Abhängigkeit der Zugkraft\relax }}{129}{figure.caption.99}%
-\contentsline {figure}{\numberline {96}{\ignorespaces Oszilloskopbild - Stromanlaufverhalten eines Servomotors\relax }}{129}{figure.caption.100}%
-\contentsline {figure}{\numberline {97}{\ignorespaces USB-C-Buchse\relax }}{131}{figure.caption.101}%
-\contentsline {figure}{\numberline {98}{\ignorespaces Netzteil Input Connector\relax }}{132}{figure.caption.102}%
-\contentsline {figure}{\numberline {99}{\ignorespaces Serial-UART-Bridge\relax }}{133}{figure.caption.103}%
-\contentsline {figure}{\numberline {100}{\ignorespaces Mikrokontroller ESP32\relax }}{134}{figure.caption.104}%
-\contentsline {figure}{\numberline {101}{\ignorespaces Mikorkontroller Buttons\relax }}{134}{figure.caption.105}%
-\contentsline {figure}{\numberline {102}{\ignorespaces Spannungswandler 5V - 3.3V\relax }}{135}{figure.caption.106}%
-\contentsline {figure}{\numberline {103}{\ignorespaces PWM Controller\relax }}{136}{figure.caption.107}%
-\contentsline {figure}{\numberline {104}{\ignorespaces Servo Anschlüsse\relax }}{137}{figure.caption.108}%
-\contentsline {figure}{\numberline {105}{\ignorespaces Multiplexer Schaltung\relax }}{138}{figure.caption.109}%
-\contentsline {figure}{\numberline {106}{\ignorespaces OPV Schaltung\relax }}{138}{figure.caption.110}%
-\contentsline {figure}{\numberline {107}{\ignorespaces ADC Schaltung\relax }}{139}{figure.caption.111}%
-\contentsline {figure}{\numberline {108}{\ignorespaces Status LEDs\relax }}{140}{figure.caption.112}%
-\contentsline {figure}{\numberline {109}{\ignorespaces Oberseite erste Testplatine Ausgabesubsystem\relax }}{141}{figure.caption.113}%
-\contentsline {figure}{\numberline {110}{\ignorespaces Unterseite erste Testplatine Ausgabesubsystem\relax }}{142}{figure.caption.114}%
-\contentsline {figure}{\numberline {111}{\ignorespaces Toplayer zweites Platinendesign\relax }}{143}{figure.caption.115}%
-\contentsline {figure}{\numberline {112}{\ignorespaces Bottomlayer zweites Platinendesign\relax }}{144}{figure.caption.116}%
-\contentsline {figure}{\numberline {113}{\ignorespaces Oberseite zweites Platinenmodell\relax }}{145}{figure.caption.117}%
-\contentsline {figure}{\numberline {114}{\ignorespaces Unterseite zweites Platinenmodell\relax }}{146}{figure.caption.118}%
-\contentsline {figure}{\numberline {115}{\ignorespaces ESP NOW Datenübertragung (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Hsieh}})\relax }}{148}{figure.caption.119}%
-\contentsline {figure}{\numberline {116}{\ignorespaces Beispiel Arduino IDE 2\relax }}{149}{figure.caption.120}%
-\contentsline {figure}{\numberline {117}{\ignorespaces Beispiel maximaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{150}{figure.caption.121}%
-\contentsline {figure}{\numberline {118}{\ignorespaces Beispiel minimaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{150}{figure.caption.122}%
-\contentsline {figure}{\numberline {119}{\ignorespaces Flexsensor minimaler Wert\relax }}{152}{figure.caption.123}%
-\contentsline {figure}{\numberline {120}{\ignorespaces Flexsensor maximaler Wert\relax }}{152}{figure.caption.124}%
-\contentsline {figure}{\numberline {121}{\ignorespaces Beispielhafte Verzögerung vor dem Senden\relax }}{154}{figure.caption.125}%
-\contentsline {figure}{\numberline {122}{\ignorespaces Beispiel: maximalen Wert über Serial Monitor festlegen (Werte manuell eintragen)\relax }}{155}{figure.caption.126}%
-\contentsline {figure}{\numberline {123}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{156}{figure.caption.127}%
-\contentsline {figure}{\numberline {124}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{158}{figure.caption.128}%
-\contentsline {figure}{\numberline {125}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{159}{figure.caption.129}%
-\contentsline {figure}{\numberline {126}{\ignorespaces Multiplexer Kanäle (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {TexasInstruments}})\relax }}{161}{figure.caption.130}%
-\contentsline {figure}{\numberline {127}{\ignorespaces Beispiel: Paket nach bestimmtem Muster senden\relax }}{162}{figure.caption.131}%
-\contentsline {figure}{\numberline {128}{\ignorespaces Flussdiagramm der Software des Ausgabesubsystems\relax }}{164}{figure.caption.132}%
-\contentsline {figure}{\numberline {129}{\ignorespaces Route des Only-Glove-Modus im Ausgabesubsystem\relax }}{166}{figure.caption.133}%
-\contentsline {figure}{\numberline {130}{\ignorespaces Route des UI-Mode im Ausgabesubsystem\relax }}{167}{figure.caption.134}%
-\contentsline {figure}{\numberline {131}{\ignorespaces Überblick der Softwarekomponenten\relax }}{169}{figure.caption.135}%
-\contentsline {figure}{\numberline {132}{\ignorespaces Median\relax }}{173}{figure.caption.138}%
-\contentsline {figure}{\numberline {133}{\ignorespaces Median\relax }}{174}{figure.caption.139}%
-\contentsline {figure}{\numberline {134}{\ignorespaces User-Interface Konzept\relax }}{177}{figure.caption.141}%
-\contentsline {figure}{\numberline {135}{\ignorespaces UI Benutzeroberfläche\relax }}{178}{figure.caption.142}%
-\contentsline {figure}{\numberline {136}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{182}{figure.caption.143}%
-\contentsline {figure}{\numberline {137}{\ignorespaces Einstellung 1\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {138}{\ignorespaces Einstellung 2\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {139}{\ignorespaces Einstellung 3\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {140}{\ignorespaces Einstellung 4\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {141}{\ignorespaces Einstellung 5\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {142}{\ignorespaces Einstellung 6\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {143}{\ignorespaces Einstellung 7\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {144}{\ignorespaces Einstellung 8\relax }}{184}{table.caption.146}%
-\contentsline {figure}{\numberline {145}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{216}{figure.caption.159}%
-\contentsline {figure}{\numberline {146}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{217}{figure.caption.160}%
-\contentsline {figure}{\numberline {147}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{218}{figure.caption.161}%
-\contentsline {figure}{\numberline {148}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{219}{figure.caption.162}%
-\contentsline {figure}{\numberline {149}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{220}{figure.caption.163}%
-\contentsline {figure}{\numberline {150}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{221}{figure.caption.164}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Handschuhkonzept mit Sensor\relax }}{61}{figure.caption.42}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Veranschaulichung des Ringkonzepts\relax }}{62}{figure.caption.43}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Darstellung des Versuchsmodells\relax }}{64}{figure.caption.44}%
+\contentsline {figure}{\numberline {41}{\ignorespaces initiales Grundkonzept\relax }}{66}{figure.caption.45}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Querschnitt der Finger\relax }}{67}{figure.caption.46}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Faltmechanismus der Entwicklungsstufe: initial\relax }}{68}{figure.caption.47}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Querschnitt der Handfläche\relax }}{69}{figure.caption.48}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Ständer für die Handkomponente\relax }}{70}{figure.caption.49}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Servomotoren-Halterung und Umlenkungen\relax }}{71}{figure.caption.50}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Skizzierung der unregelmäßigen Faltmechanik\relax }}{72}{figure.caption.51}%
+\contentsline {figure}{\numberline {48}{\ignorespaces mechanische Verbindung der einzelnen Fingerglieder\relax }}{74}{figure.caption.52}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Der InMoov-Faltmechanismus\relax }}{74}{figure.caption.53}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Inmoovhand und ihre Komponenten (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Inmoovhand}})\relax }}{75}{figure.caption.54}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Realisierung der Entwicklungsstufe: InMoov\relax }}{76}{figure.caption.55}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Innenseite des Silikonfingers\relax }}{80}{figure.caption.56}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Außenseite des Silikonfingers\relax }}{80}{figure.caption.57}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Gussform des ersten Gussversuchs\relax }}{81}{figure.caption.58}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Gussform des zweiten Gussversuchs\relax }}{82}{figure.caption.59}%
+\contentsline {figure}{\numberline {56}{\ignorespaces innere Ansicht des Fingergelenks\relax }}{83}{figure.caption.60}%
+\contentsline {figure}{\numberline {57}{\ignorespaces äußere Ansicht des Fingergelenks\relax }}{83}{figure.caption.61}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Silikonfinger mit eingegossenem Gelenk\relax }}{84}{figure.caption.62}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Modell der Silikonhand mit integrierten \textquote {Knochen Gelenken}\relax }}{85}{figure.caption.63}%
+\contentsline {figure}{\numberline {60}{\ignorespaces aktuelle Version des Gelenks\relax }}{86}{figure.caption.64}%
+\contentsline {figure}{\numberline {61}{\ignorespaces vorherige Version des Gerüsts\relax }}{86}{figure.caption.65}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Verbindung der einzelnen Glieder mit Gummikordeln\relax }}{87}{figure.caption.66}%
+\contentsline {figure}{\numberline {63}{\ignorespaces unteres Element der Gussfom\relax }}{88}{figure.caption.67}%
+\contentsline {figure}{\numberline {64}{\ignorespaces oberes Element der Gussform\relax }}{89}{figure.caption.68}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Gussform mit Halterung\relax }}{90}{figure.caption.69}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Silikonhand Fehlversuch\relax }}{91}{figure.caption.70}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Notkonzept: Handfäche aus hartem Kunststoff (PLA)\relax }}{92}{figure.caption.71}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Realisierung des Notkonzepts\relax }}{93}{figure.caption.72}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Rekonstruktion des Motorblocks\relax }}{95}{figure.caption.73}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Mechanismus mit Zahnrad und Zahnstange\relax }}{96}{figure.caption.74}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Verbesserung der ersten Rekonstruktion\relax }}{97}{figure.caption.75}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Roboterhand Etnwicklungsstufe Hybrid\relax }}{98}{figure.caption.76}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Rückzugsmechanismus der Entwicklungsstufe Hybrid\relax }}{98}{figure.caption.77}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Mechanismus der Entwicklungsstufe Hybrid\relax }}{99}{figure.caption.78}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Mechanismus Entwicklungsstufe Hybrid mit Oberarmerweiterung\relax }}{100}{figure.caption.79}%
+\contentsline {figure}{\numberline {76}{\ignorespaces LTspice Simulation der Flexesnor - Messschaltung\relax }}{103}{figure.caption.80}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Steckbrettaufbau der Flexesnor - Messschaltung\relax }}{108}{figure.caption.81}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Netzteileinstellungen\relax }}{109}{figure.caption.82}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Oszilloskopbild mit $R_{L} = 27k\Omega $\relax }}{110}{figure.caption.83}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Oszilloskopbild mit $R_{L} = 67k\Omega $\relax }}{111}{figure.caption.84}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Oszilloskopbild mit $R_{L} = 118k\Omega $\relax }}{112}{figure.caption.85}%
+\contentsline {figure}{\numberline {82}{\ignorespaces USB-C-Buchse\relax }}{113}{figure.caption.86}%
+\contentsline {figure}{\numberline {83}{\ignorespaces ESP32 Mikrokontroller\relax }}{114}{figure.caption.87}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Status LEDs\relax }}{115}{figure.caption.88}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Multiplexer\relax }}{116}{figure.caption.89}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Operationsverstärker - Schaltung\relax }}{116}{figure.caption.90}%
+\contentsline {figure}{\numberline {87}{\ignorespaces ADC - Schaltung\relax }}{117}{figure.caption.91}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Gyroskopsensor - Schaltung\relax }}{117}{figure.caption.92}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Platinenoberseite - erste Testplatine - Eingabesubsystem\relax }}{119}{figure.caption.93}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Platinenunterseite - erste Testplatine - Eingabesubsystem\relax }}{120}{figure.caption.94}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Toplayer des zweiten Platinenlayouts\relax }}{121}{figure.caption.95}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Bottomlayer des zweiten Platinenlayouts\relax }}{122}{figure.caption.96}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Topside des zweiten Platinenmodells\relax }}{123}{figure.caption.97}%
+\contentsline {figure}{\numberline {94}{\ignorespaces Bottomside des zweiten Platinenmodells\relax }}{123}{figure.caption.98}%
+\contentsline {figure}{\numberline {95}{\ignorespaces Schaltbild der Stromessschaltung\relax }}{127}{figure.caption.99}%
+\contentsline {figure}{\numberline {96}{\ignorespaces Steckbrettaufbau der Messchaltung zur Strommessung\relax }}{129}{figure.caption.100}%
+\contentsline {figure}{\numberline {97}{\ignorespaces Testaufbau der Strommessung eines Servomotors\relax }}{130}{figure.caption.101}%
+\contentsline {figure}{\numberline {98}{\ignorespaces Messtabelle Strommessung\relax }}{131}{figure.caption.102}%
+\contentsline {figure}{\numberline {99}{\ignorespaces Diagramm der Strommessung in Abhängigkeit der Zugkraft\relax }}{132}{figure.caption.103}%
+\contentsline {figure}{\numberline {100}{\ignorespaces Oszilloskopbild - Stromanlaufverhalten eines Servomotors\relax }}{132}{figure.caption.104}%
+\contentsline {figure}{\numberline {101}{\ignorespaces USB-C-Buchse\relax }}{134}{figure.caption.105}%
+\contentsline {figure}{\numberline {102}{\ignorespaces Netzteil Input Connector\relax }}{135}{figure.caption.106}%
+\contentsline {figure}{\numberline {103}{\ignorespaces Serial-UART-Bridge\relax }}{136}{figure.caption.107}%
+\contentsline {figure}{\numberline {104}{\ignorespaces Mikrokontroller ESP32\relax }}{137}{figure.caption.108}%
+\contentsline {figure}{\numberline {105}{\ignorespaces Mikorkontroller Buttons\relax }}{137}{figure.caption.109}%
+\contentsline {figure}{\numberline {106}{\ignorespaces Spannungswandler 5V - 3.3V\relax }}{138}{figure.caption.110}%
+\contentsline {figure}{\numberline {107}{\ignorespaces PWM Controller\relax }}{139}{figure.caption.111}%
+\contentsline {figure}{\numberline {108}{\ignorespaces Servo Anschlüsse\relax }}{140}{figure.caption.112}%
+\contentsline {figure}{\numberline {109}{\ignorespaces Multiplexer Schaltung\relax }}{141}{figure.caption.113}%
+\contentsline {figure}{\numberline {110}{\ignorespaces OPV Schaltung\relax }}{141}{figure.caption.114}%
+\contentsline {figure}{\numberline {111}{\ignorespaces ADC Schaltung\relax }}{142}{figure.caption.115}%
+\contentsline {figure}{\numberline {112}{\ignorespaces Status LEDs\relax }}{143}{figure.caption.116}%
+\contentsline {figure}{\numberline {113}{\ignorespaces Oberseite erste Testplatine Ausgabesubsystem\relax }}{144}{figure.caption.117}%
+\contentsline {figure}{\numberline {114}{\ignorespaces Unterseite erste Testplatine Ausgabesubsystem\relax }}{145}{figure.caption.118}%
+\contentsline {figure}{\numberline {115}{\ignorespaces Toplayer zweites Platinendesign\relax }}{146}{figure.caption.119}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Bottomlayer zweites Platinendesign\relax }}{147}{figure.caption.120}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Oberseite zweites Platinenmodell\relax }}{148}{figure.caption.121}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Unterseite zweites Platinenmodell\relax }}{149}{figure.caption.122}%
+\contentsline {figure}{\numberline {119}{\ignorespaces ESP NOW Datenübertragung (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Hsieh}})\relax }}{151}{figure.caption.123}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Beispiel Arduino IDE 2\relax }}{152}{figure.caption.124}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Beispiel maximaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{153}{figure.caption.125}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Beispiel minimaler Widerstand (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {Pelayo}})\relax }}{153}{figure.caption.126}%
+\contentsline {figure}{\numberline {123}{\ignorespaces Flexsensor minimaler Wert\relax }}{155}{figure.caption.127}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Flexsensor maximaler Wert\relax }}{155}{figure.caption.128}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Beispielhafte Verzögerung vor dem Senden\relax }}{157}{figure.caption.129}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Beispiel: maximalen Wert über Serial Monitor festlegen (Werte manuell eintragen)\relax }}{158}{figure.caption.130}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Flussdiagramm Software Eingabesubsystem\relax }}{159}{figure.caption.131}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{161}{figure.caption.132}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Softwaremap Eingabesubsystem\relax }}{162}{figure.caption.133}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Multiplexer Kanäle (\textcolor {blue}{Quelle: \blx@tocontentsinit {0}\cite {TexasInstruments}})\relax }}{164}{figure.caption.134}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Beispiel: Paket nach bestimmtem Muster senden\relax }}{165}{figure.caption.135}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Flussdiagramm der Software des Ausgabesubsystems\relax }}{167}{figure.caption.136}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Route des Only-Glove-Modus im Ausgabesubsystem\relax }}{169}{figure.caption.137}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Route des UI-Mode im Ausgabesubsystem\relax }}{170}{figure.caption.138}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Überblick der Softwarekomponenten\relax }}{172}{figure.caption.139}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Median\relax }}{176}{figure.caption.142}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Median\relax }}{177}{figure.caption.143}%
+\contentsline {figure}{\numberline {138}{\ignorespaces User-Interface Konzept\relax }}{180}{figure.caption.145}%
+\contentsline {figure}{\numberline {139}{\ignorespaces UI Benutzeroberfläche\relax }}{181}{figure.caption.146}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{185}{figure.caption.147}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Einstellung 1\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {142}{\ignorespaces Einstellung 2\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {143}{\ignorespaces Einstellung 3\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {144}{\ignorespaces Einstellung 4\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {145}{\ignorespaces Einstellung 5\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {146}{\ignorespaces Einstellung 6\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {147}{\ignorespaces Einstellung 7\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {148}{\ignorespaces Einstellung 8\relax }}{187}{table.caption.150}%
+\contentsline {figure}{\numberline {149}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{219}{figure.caption.163}%
+\contentsline {figure}{\numberline {150}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{220}{figure.caption.164}%
+\contentsline {figure}{\numberline {151}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{221}{figure.caption.165}%
+\contentsline {figure}{\numberline {152}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{222}{figure.caption.166}%
+\contentsline {figure}{\numberline {153}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{223}{figure.caption.167}%
+\contentsline {figure}{\numberline {154}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{224}{figure.caption.168}%
