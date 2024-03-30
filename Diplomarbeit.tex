@@ -5724,7 +5724,11 @@ Abbildungen zeigen das unterschiedlich starke Abbiegen des Zeigefingers je Einst
 \section{Ergebnisse und Erkenntisse}
 \label{chap:Ergebnisse und Erkenntisse}
 \subsection{Mechanik [\textcolor{blue}{Al-Maytah}]}
-\textcolor{red}{Platzhalter für Amir}
+\textcolor{red}{
+	In der Entwicklungsphase der mechnaischen Komponenten des Systems kam es zu vielen Höhen und Tiefen.
+	Dieser Prozess war lange geprägt von einer Serie an Rückschlägen doch aufgrund der daraus entstanden
+	Erkenntisse und Fortschritte konnte mechanisch ein System verwirklicht werden welches ...
+}
 \\
 \subsection{Hardware [\textcolor{blue}{Szabo}]}
 In diesem Punkt werden alle, im Laufe der Projektentwicklung gewonnen, Erkenntnisse erläutert. Dazu zählen nicht nur die
@@ -5824,7 +5828,42 @@ wurden, als sinnvoll. Dies führt dazu, dass nicht alle Überlegungen
 zwischendurch verworfen werden müssen. \\
 \\
 \subsubsection{Ausgabesubsystem [\textcolor{blue}{Al-Maytah}]}
-\textcolor{red}{Platzhalter für Amir}
+\textcolor{red}{ 
+
+Die Software des Ausgabesubsystems, welche die intelligente Komponente dessen ist, 
+hat gezeigt von welcher Bedeutung Ordnung während eines langfrisitgen Entwicklungsprozesses ist. 
+Das entwickleter Code funktioniert ist die Grundvoraussetzung für dieses System, 
+doch ohne die entsprechende Organisation und Ordnung rückt diese Aspekt schnell 
+in den Hintergrund. 
+
+Somit wurde recht früh in der Entwicklungsphase bemerkt, dass es an Struktur 
+im Bereich der Software fehlt. Zahlreiche Maßnahmen wurden ergriffen um dem 
+entgegen zu wirken. Zu einem eine bessere und einheitliche Organisation des Eingabe- sowie 
+Ausgabesubsystems im GitHub-Repository und das Einführen gewisser Entwicklungsstufen und Branchen. 
+Wodruch es immer eine Version gab die getestet ist und zuverlässig funktioniert, sowie auch eine 
+Entwickler-Version welche unter ständiger Bearbeitung stand.
+
+Im Laufe der Zeit hat sich ergeben, dass es zu unübersichtlich ist, den gesamten Code in eine einzelne
+Datei zu schreiben. Demnach wurde das Gesamtsystem in einzelne Komponenten gegliedert, 
+die Software hat unterteilt sich somit auf in Komponenten welche im Hauptprogramm integriert werden.
+Dies hat dazu geführt, dass die Wartung und Entwicklung der Software rapide voran ging.
+Fehler wurden schneller entdeckt, oder es konnten fehlerhafte Code-Abschnitte einfach ausgetauscht werden.
+
+Als Beispiel, wurde der Datenkorrekturalgorithmus extern entwickelt und in einem eigenem Sketch ausgiebig getestet.
+Hat dieser funktioniert, wurde er als Komponente in das Hauptprogramm eingebunden.
+Meist waren wenige Tests notwendig bis die Implementation dann vollendet war.
+
+Äußerst lehrreich war die drahtlose Übertragung der Daten zwischen dem Eingabe- und Ausgabesbusystem,
+diese hat für eine lange Zeit nicht funktioniert und war auch nicht äußerst stabil. 
+Als die Datenübertragung erstmals möglich war, konnten die Hand mit dem Handschuh
+das erste mal bedient werden. 
+Dadurch wurde ein Zittern der Hand erkannt, welche Softwareseitig behoben wurde.
+
+Im Großen und Ganzen hat sich gezeigt, dass Software mehr als nur Programmieren ist. Ordnung 
+und eine entsprechende Organisation sind ein großer Bestandteil des Endprodukts und
+haben vieles ermöglicht. 
+
+}
 \\
 
 
@@ -5994,7 +6033,12 @@ zukünftigen Modellierungen deutlich reduziert werden können. \\
 \\
 \textbf{Professionell gefertigte mechanische Teile} \\
 \\
-\textcolor{red}{Platzhalter Amir}
+\textcolor{red}{
+Zwar eignet sich der 3D-Druck mit dem Kunstoff PLA für einen Anfangsprototypen, zeigt jedoch auch, dass die daraus gewonnene Qualität langfristig keine Option ist.
+Somit müssen besonders mechanische Komponenten mit Verfahren gefertigt werden, die auch Industiriell ihre Annerkennung finden. Besonders Zahnräder und Zahnstangen
+sollten aus zuverlässigen Kunstoffen oder Metallen bestehen, die belastbar und haltbar sind. Weiters stehen die Finger und deren Glieder unter ständiger Belastung, 
+besonders während dem Faltvorgang und müssen demnach auch aus einem härterem Kunstoff gefertigt werden.
+}
 \\
 
 \newpage
