@@ -5098,18 +5098,18 @@ Empfängerplatine gesendet. \\
 \subsection{Roboterhand [\textcolor{blue}{Al-Maytah}]}
 
 \subsubsection{Grundlegende Vorraussetzungen}
-Die Software des Roboterarmes fungiert als Herzstück der mechanischen Roboterhand und legt damit eine Brücke zwischen den auf dem Handschuh erfassten 
-humanoiden Bewegungen und der Hand des Roboters. Empfangene Daten, sei es auf drahtlosen oder direktem Wege, müssen interpretiert, analysiert und bei 
+Die Software des Ausgabesbusystems fungiert als Herzstück der mechanischen Roboterhand und legt damit eine Brücke zwischen den auf dem Handschuh erfassten 
+humanoiden Bewegungen und der Hand des Roboters. Empfangene Daten, sei es auf drahtlosem oder direktem Wege, müssen interpretiert, analysiert und bei 
 Gegebenheit auch korrigiert werden. Die Software soll in der Lage sein, Fehler frühzeitig zu erkennen und entsprechend auf diese zu reagieren. Ein Zittern 
-oder ungewünschte Bewegungen der Fingern sollen durch diese Algorithmen verhindert werden. Dar es zwei Steuerungsmöglichkeiten gibt, per Handschuh oder 
-Userinterface, muss automatisch zwischen den gewollten Modis unterschieden werden. Eine intelligente Strommessung der Servoaktoren erweitert dieses 
+oder ungewünschte Bewegungen der Finger sollen durch diese Algorithmen verhindert werden. Da es zwei Steuerungsmöglichkeiten gibt, per Handschuh oder 
+Userinterface, muss automatisch zwischen den gewollten Modis unterschieden werden. Eine intelligente Strommessung der Aktuatoren erweitert dieses 
 System und liefert dem Userinterface relevante Daten. \\
 \\
 
 \subsubsection{Realisierung: Überblick}
 \label{chap:Realisierung: Überblick}
 Die Vielfalt der Software fordert Struktur und eine systematische Gliederung. Empfangene Daten durchlaufen mehrere Strecken, an denen diese dann 
-verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umsetzt. \\
+verarbeitet werden, um letztlich die gewünschte Bewegung des Fingers umzusetzen. \\
 \\
 
 \paragraph{Programmfluss}
@@ -5127,13 +5127,13 @@ verarbeitet werden, um letztlich dann die gewünschte Bewegung des Fingers umset
 Das Diagramm in [\textcolor{blue}{\autoref{fig:Programmfluss1_Roboterhand}}] veranschaulicht den Fluss empfangener Daten, diese durchlaufen bedingungsabhängig verschiedene Routen und 
 werden auf diesen verarbeitet und interpretiert.
 \\
-Zu Beginn der Software muss geklärt werden ob ein seriell verbundenes Userinterface erkannt wurde oder nicht. Ermöglicht wird dies durch eine Anfrage, 
-welche von der Roboterhand über die Serielle Schnittstelle an das Userinterface gesendet wird. Dies erfolgt durch den String \textquote{\$req.UI}, welcher vom Userinterface als Anweisung zum Antworten 
-interpretiert wird. Antwortet das Userinterface wie erwartet versetzt sich die Roboterhand in den Userinterface-Modus, in der Grafik als \textquote{UI-MODE} 
+Zu Beginn der Software muss geklärt werden, ob ein seriell verbundenes Userinterface erkannt wurde oder nicht. Ermöglicht wird dies durch eine Anfrage, 
+welche von der Roboterhand über die serielle Schnittstelle an das Userinterface gesendet wird. Dies erfolgt durch den String \textquote{\$req.UI}, welcher vom Userinterface als Anweisung zum Antworten 
+interpretiert wird. Antwortet das Userinterface wie erwartet, versetzt sich die Roboterhand in den Userinterface-Modus, in der Grafik als \textquote{UI-MODE} 
 gekennzeichnet. Erfolgt keine Antwort, konfiguriert sich die Hand ausschließlich darauf, auf Daten welche über das drahtlose ESP-NOW Protokoll empfangen 
-werden zu reagieren. Der Modus in dem die Hand ist wird als \textquote{ONLY – GLOVE} in dieser Grafik bezeichnet. \\
-Ist die Hand im Userinterface-Modus ist dennoch eine Kommunikation und Steuerung über die drahtlos verbundene Roboterhand möglich. Die Software 
-unterscheidet somit ob ausschließlich die Hand oder beides, das Unterinterface und die Hand, genutzt wird. Wird beides genutzt gibt es jedoch auch ein 
+werden, zu reagieren. Der Modus, in dem die Hand ist, wird als \textquote{ONLY – GLOVE} in dieser Grafik bezeichnet. \\
+Ist die Hand im Userinterface-Modus, ist dennoch eine Kommunikation und Steuerung über die drahtlos verbundene Roboterhand möglich. Die Software 
+unterscheidet somit, ob ausschließlich die Hand oder beides, das Unterinterface und die Hand, genutzt wird. Wird beides genutzt, gibt es jedoch auch ein 
 Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 \\
 \begin{figure}[H]
@@ -5150,14 +5150,14 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
 die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{blue}{\autoref{ESP-NOW und Wifi.h}}] wird 
 die Anwendung dieser Komponente in dem System detailliert erläutert. \\
-Wurden Daten empfangen wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
+Wurden Daten empfangen, wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
 Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}] weitergegeben, 
 dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
 eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{blue}{\autoref{par:proaktiver Datenkorrekturalgorithmus}}]
 zu finden. \\
-Wurden die Daten überprüft und je nach Situation auch korrigiert wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
+Wurden die Daten überprüft und je nach Situation auch korrigiert, wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
 [\textcolor{blue}{\autoref{par:Datenaufbereitung und Anweisung für Servoaktoren}}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
-gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
+gemappt. Letztlich wird dann die Position an den Motor übergeben. \\
 \\
 \begin{figure}[H]
 	\begin{center}
@@ -5170,17 +5170,17 @@ gemappt. Letztlich wird dann die Position an dem Motor übergeben. \\
 \hfill \break
 \textbf{User Interface Modus:} \\
 \\
-Dieser Modus ermöglicht es die Hand über jeweils das Userinterface und auch den Handschuh zu steuern, jedoch getrennt voneinander. Oft wird dieser Modus 
-missverstanden, da interpretiert wird, dass er ausschließlich eine Steuermöglichkeit über das Userinterface bietet. \\
-Welche Steuerungsmöglichkeit gewählt wird kann über das Interface per „Switch-Button“ eingestellt werden. Das Userinterface sendet bei der nächsten 
+Dieser Modus ermöglicht es, die Hand über jeweils das Userinterface und auch den Handschuh zu steuern, jedoch getrennt voneinander. Oft wird dieser Modus 
+missverstanden, da interpretiert wird, dass er ausschließlich eine Steuerungsmöglichkeit über das Userinterface bietet. \\
+Welche Steuerungsmöglichkeit gewählt wird, kann über das Interface per „Switch-Button“ eingestellt werden. Das Userinterface sendet bei der nächsten 
 Anfrage von der Roboterhand-Software die Information mit auf welchen Modus der Schalter gestellt wurde. \\
 \\
-Erhält das Userinterface eine Anfrage antwortet dieses entsprechend mit - \$answ.here und fügt daraufhin je nachdem welcher Modus im Userinterface gewählt 
-wurde ein .han, für die Steuerung per Handschuh, oder ein .ser, für eine Steuerung per Interface, an diesen String an. \\
+Erhält das Userinterface eine Anfrage, antwortet dieses entsprechend mit - \$answ.here und fügt daraufhin, je nachdem welcher Modus im Userinterface gewählt 
+wurde, ein .han für die Steuerung per Handschuh oder ein .ser für eine Steuerung per Interface an diesen String an. \\
 Die Antwort vom Userinterface darf ausschließlich \textquote{\$answ.here.ser} oder \textquote{\$answ.here.han} sein. \\
 Im Kapitel (8.3.4 Realisierung des Frontends) sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
 \\
-Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle Empfangenen Befehle vom 
+Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle empfangenen Befehle vom 
 diesem ignoriert, außer die Anweisung die Steuerungsoption zu wechseln. Der Ablauf in dieser Option gleicht dem des im Only-Glove Modus, die drahtlos 
 empfangenen Daten werden interpretiert, daraufhin geprüft und eventuell korrigiert und letztlich gemappt bis sie dann an den Motor übergeben werden. 
 Zusätzlich wird direkt nachdem die Anweisungen an den Motor übergeben wurden, eine Strommessung gestartet – wessen Messergebnisse in der Form einer 
