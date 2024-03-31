@@ -5181,14 +5181,14 @@ Die Antwort vom Userinterface darf ausschließlich \textquote{\$answ.here.ser} o
 Im Kapitel (8.3.4 Realisierung des Frontends) sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
 \\
 Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle empfangenen Befehle vom 
-diesem ignoriert, außer die Anweisung die Steuerungsoption zu wechseln. Der Ablauf in dieser Option gleicht dem des im Only-Glove Modus, die drahtlos 
+diesem ignoriert, außer die Anweisung die Steuerungsoption zu wechseln. Der Ablauf in dieser Option gleicht dem des im Only-Glove Modus. Die drahtlos 
 empfangenen Daten werden interpretiert, daraufhin geprüft und eventuell korrigiert und letztlich gemappt bis sie dann an den Motor übergeben werden. 
-Zusätzlich wird direkt nachdem die Anweisungen an den Motor übergeben wurden, eine Strommessung gestartet – wessen Messergebnisse in der Form einer 
-Rückmeldung an das Userinterface über die Serielle Schnittstelle gesendet werden. \\
+Zusätzlich wird, direkt nachdem die Anweisungen an den Motor übergeben wurden, eine Strommessung gestartet – dessen Messergebnisse in der Form einer 
+Rückmeldung an das Userinterface über die serielle Schnittstelle gesendet werden. \\
 \\
-Entscheidet sich der Nutzer nun doch die Roboterhand mit den vom Userinterface geboten Bedienungsmöglichkeiten zu steuern, wird ebenso bei der nächsten 
-erhaltenen Anfrage diese Änderung übergeben. Wird diese Änderung erkannt, reagiert die Software auf alle vom Interface übergeben Positionsanweisungen. 
-Die Anweisungen landen in erster Hand in der Komponente \textquote{UI-Interpreter} dort werden diese Anweisungen in ihre Parameter geteilt und das Programm übergibt 
+Entscheidet sich der Nutzer nun doch die Roboterhand mit den vom Userinterface gebotenen Bedienungsmöglichkeiten zu steuern, wird ebenso bei der nächsten 
+erhaltenen Anfrage diese Änderung übergeben. Wird diese Änderung erkannt, reagiert die Software auf alle vom Interface übergebenen Positionsanweisungen. 
+Die Anweisungen landen in erster Hand in der Komponente \textquote{UI-Interpreter}, dort werden diese Anweisungen in ihre Parameter geteilt und das Programm übergibt 
 diese an die folgende Komponente des \textquote{Servomappings}. Unmittelbar nachdem die angepassten Werte dem Motor übergeben wurden, wird eine Strommessung von 
 der Software aus gestartet. Diese sendet die erfassten Werte des Messfensters an das Userinterface. \\
 \\
@@ -5196,8 +5196,8 @@ der Software aus gestartet. Diese sendet die erfassten Werte des Messfensters an
 \label{par:Effiziente Gliederung essentieller Systemkomponenten}
 \hfill \break
 \hfill \break
-Der Programmcode wurde modular in Form einzelner Komponenten realisiert, anhand dessen wird die Möglichkeit geschaffen diese mehrfach zu verwenden und 
-die Komplexität der Software zu minimieren. Die bereits beschriebenen Routen welche von einem Datenpacket durchlaufen werden, setzen sich aus diesen 
+Der Programmcode wurde modular in Form einzelner Komponenten realisiert, anhand dessen wird die Möglichkeit geschaffen, diese mehrfach zu verwenden und 
+die Komplexität der Software zu minimieren. Die bereits beschriebenen Routen, welche von einem Datenpaket durchlaufen werden, setzen sich aus diesen 
 repetitiven Komponenten zusammen. \\
 Die einzelnen Komponenten sind getrennt von dem Hauptprogramm und sind somit nicht in diesem vorhanden, jedoch werden sie mit einer .h Datei verknüpft. 
 In Form einer Funktion können diese implementiert werden. \\
@@ -5212,15 +5212,15 @@ In Form einer Funktion können diese implementiert werden. \\
 \end{figure}
 \hfill \break
 Diese Struktur des Programms bringt zahlreiche Vorteile mit sich, unter anderem, dass sich wiederholende Code-Abschnitte nun anhand der Gliederung mit 
-einer Komponente effektiv implementieren lassen. Aber auch der Die Übersicht spielt eine große Rolle, das Hauptprogramm ist bereits äußerst überfüllt 
+einer Komponente effektiv implementieren lassen. Aber auch die Übersicht spielt eine große Rolle. Das Hauptprogramm ist bereits äußerst überfüllt 
 mit Konfigurationsmöglichkeiten für beispielsweise die drahtlose Kommunikation beider Subsysteme. \\
 \\
 
 \subsubsection{Kommunikation - Protokolle}
 \label{chap:Kommunikation-Protokolle}
 Für den Datenaustausch zwischen dem Eingabe- und dem Ausgabesubsystem wird ein einheitliches Protokoll benötigt, welches auch während der Entwicklung 
-ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten welche für das 
-Interpretieren der Datenzuständig sind. Die Funktionalität beider Parser wird in [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}]
+ohne große Mühe interpretiert und verstanden werden kann. Dabei erleichtert ein einheitliches Protokoll die Realisierung der Komponenten, welche für das 
+Interpretieren der Daten zuständig sind. Die Funktionalität beider Parser wird in [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}]
 und [\textcolor{blue}{\autoref{par:Parser und Interpretation: serieller Datenströme}}] erklärt. \\
 \\
 
@@ -5228,18 +5228,16 @@ und [\textcolor{blue}{\autoref{par:Parser und Interpretation: serieller Datenstr
 \label{par:Drahtlose Kommunikation}
 \hfill \break
 \hfill \break
-Unter der drahtlosen Kommunikation kann die zwischen dem Eingabesubsystem und dem Ausgabesubsystem, welches über ESP-NOW erfolgt, verstanden werden. 
+Unter der drahtlosen Kommunikation kann der Datenaustausch zwischen dem Eingabesubsystem und dem Ausgabesubsystem, welches über ESP-NOW erfolgt, verstanden werden. 
 Übergeben werden die Datenpakete auf dieser Strecke unidirektional, von dem Eingabesubsystem zu dem Ausgabesubsystem. Ein Datenpaket enthält immer jeweils 
-die Position eines Fingers und dessen Index.Unter der drahtlosen Kommunikation kann die zwischen dem Eingabesubsystem und dem Ausgabesubsystem, welches 
-über ESP-NOW erfolgt, verstanden werden. Übergeben werden die Datenpakete auf dieser Strecke unidirektional, von dem Eingabesubsystem zu dem 
-Ausgabesubsystem. Ein Datenpaket enthält immer jeweils die Position eines Fingers und dessen Index. \\
+die Position eines Fingers und dessen Index. \\
 \\
 Beispiel für ein Paket: \\
 $\$S:1:50$ \\
 \\
-\$ Ist der primäre Präfix von jedem gesendet Datenpaket und die Grundvoraussetzung, dass der jeweilige Parser es überhaupt interpretiert. \\
+\$ ist der primäre Präfix von jedem gesendeten Datenpaket und die Grundvoraussetzung, dass der jeweilige Parser es überhaupt interpretiert. \\
 \\
-Das folgende \textquote{S} steht in diesem Fall für Servo und deutet daraufhin, dass nun ein variabler Wert folgt welcher den Index des jeweiligen Motors angibt. 
+Das folgende \textquote{S} steht in diesem Fall für Servo und deutet daraufhin, dass nun ein variabler Wert folgt, welcher den Index des jeweiligen Motors angibt. 
 Dieser kann in diesem Fall von 0-4 variieren und wird mit einem \textquote{:} getrennt. \\
 Es ist ein verpflichtender Teil des Protokolls, dass alle variablen Werte auf diese Weise getrennt werden. \\
 Nach dem nächsten \textquote{:} muss nun ein Wert zwischen 0 und 100 folgen. Dies ist ein gemappter Wert, welcher von der Software dann auf die Zugcharakteristik 
@@ -5252,7 +5250,7 @@ Das Paket aus dem Beispiel bedeutet somit: \textquote{Der Servomotor-1 soll sein
 \label{par:Serielle Kommunikation}
 \hfill \break
 \hfill \break
-Die Serielle Kommunikation beschreibt den Datenverkehr zwischen dem Ausgabesubsystem und dem Userinterface. Aufgrund der vielfältigen Funktionen und auch 
+Die serielle Kommunikation beschreibt den Datenverkehr zwischen dem Ausgabesubsystem und dem Userinterface. Aufgrund der vielfältigen Funktionen und auch 
 der bidirektionalen Kommunikationslinie muss das Protokoll in mehrere Abschnitte unterteilt werden. Darunter Fingersteuerungen, Gesten und das Feedback. \\
 \\
 Fingersteuerungen: \\
@@ -5279,7 +5277,7 @@ Fingersteuerungen: \\
     \label{tab:Fingersteuerung}
 \end{table}
 \hfill \break
-Dies ist ein Überblick des Protokolls welches beschreibt wie das Userinterface Anweisungen an das Ausgabesubsystem sendet. Das Format ist wie folgt: 
+Dies ist ein Überblick des Protokolls welches beschreibt, wie das Userinterface Anweisungen an das Ausgabesubsystem sendet. Das Format ist wie folgt: 
 \$FINGERINDEX:WERT, der Index des Fingers übergibt welcher Finger gemeint ist, der Wert besagt auf welche Position sich der Finger stellen soll.
 Es gibt auch eine Anweisung, welche alle Finger ansteuert, diese könnte beispielsweise wie folgt aussehen: \$Al\_S:50 und würde die Finger auf 50\% Faltung 
 stellen. \\
@@ -5307,8 +5305,8 @@ Neben dem einzelnen Steuern der Finger soll auch die Möglichkeit gegeben werden
     \label{tab:Gestensteuerung}
 \end{table}
 \hfill \break
-Das Format der Geste beschreibt sich wie folgt: $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ – Das G sagt dem Interpreter das dies eine Anweisung ist welche eine 
-Geste beschreibt, darauf folgend fünf Werte von 0 bis 100 welche als V1 bis V5 benannt wurden, diese geben die Position in Prozent jedes einzelnen Fingers 
+Das Format der Geste beschreibt sich wie folgt: $\$G:V_{1},V_{2},V_{3},V_{4},V_{5}$ – Das G sagt dem Parser, dass dies eine Anweisung ist, welche eine 
+Geste beschreibt, darauf folgen fünf Werte von 0 bis 100, welche als V1 bis V5 benannt wurden, diese geben die Position in Prozent jedes einzelnen Fingers 
 an. \\
 \\
 Aufgrund des bidirektionalen Datenverkehrs zwischen dem Ausgangssubsystem und dem Userinterface muss nun auch ein Protokoll für das Feedback geschaffen 
@@ -5318,14 +5316,14 @@ An das Userinterface werden bei aktuellstem Entwicklungsstand ausschließlich Da
 Dies erfolgt in folgendem Format: \\
 \$A:INDEX:WERT \\
 \\
-\textbf{\textquote{A}} bedeutet für das Userinterface, dass nun mit einem Messerwert der jeweiligen Ströme gerechnet werden muss. An der Stelle von \textbf{\textquote{INDEX}} ist ein Wert 
-von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. Darauf folgt, dann der Messwert \textbf{\textquote{WERT}}. \\
+\textbf{\textquote{A}} bedeutet für das Userinterface, dass nun mit einem Messwert der jeweiligen Ströme gerechnet werden muss. An der Stelle von \textbf{\textquote{INDEX}} ist ein Wert 
+von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. Darauf folgt dann der Messwert \textbf{\textquote{WERT}}. \\
 \\
 
 \subsubsection{Individuelle Komponenten}
 Wie in [\textcolor{blue}{\autoref{par:Effiziente Gliederung essentieller Systemkomponenten}}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
 Unterprogrammen zusammen, diese werden als \textquote{Komponente} bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
-sich die jeweiligen Routen, die ein Datenpacket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
+sich die jeweiligen Routen, die ein Datenpaket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
 Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
 werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter sind. \\
 \\
@@ -5360,8 +5358,8 @@ empfangenen Datenpakets. Der dritte Parameter gibt die Länge des Datenpakets an
 \end{lstlisting}
 \hfill \break
 \normalsize
-Das Unterprogramm prüft ob die Grundbedingungen, somit das erforderte Format wie in [\textcolor{blue}{\autoref{par:Drahtlose Kommunikation}}] beschrieben, erfüllt wird. \\
-Ist dies der Fall wird in die Struktur \textquote{Rückgabe} der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
+Das Unterprogramm prüft, ob die Grundbedingung, somit das erforderte Format wie in [\textcolor{blue}{\autoref{par:Drahtlose Kommunikation}}] beschrieben, erfüllt wird. \\
+Ist dies der Fall, wird in die Struktur \textquote{Rückgabe} der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
 \\
 
 \paragraph{Parser und Interpretation: serieller Datenströme}
@@ -5370,15 +5368,15 @@ Ist dies der Fall wird in die Struktur \textquote{Rückgabe} der extrahierte Ser
 \hfill \break
 Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
 die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{blue}{\autoref{par:Serielle Kommunikation}}] beschrieben, hat dieser Parser mit 
-Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zu einem Anweisungen für einzelne Finger, sowie auch Gesten. \\
+Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zum Beispiel Anweisungen für einzelne Finger, sowie auch Gesten. \\
 
 \paragraph{proaktiver Datenkorrekturalgorithmus}
 \label{par:proaktiver Datenkorrekturalgorithmus}
 \hfill \break
 \hfill \break
-Aufgrund der Volatilität der Flex-Sensoren, sowie auch der Verdrahtung, welche bei Bewegung eines Fingers mitbelastet wird, besteht eine Chance dass es 
-zu fehlerhaften Messwerten kommt. Um das Eingabesubsystem möglichst performant und einfach zu halten wird ein Filter und Prüfsystem auf das 
-Ausgabesubsystem ausgelagert. Benötigt wird ein Algorithmus welcher Fehler erkennt und diese unmittelbar sinnhaft korrigiert. \\
+Aufgrund der Volatilität der Flex-Sensoren, sowie auch der Verdrahtung, welche bei Bewegung eines Fingers mitbelastet wird, besteht eine Chance, dass es 
+zu fehlerhaften Messwerten kommt. Um das Eingabesubsystem möglichst performant und einfach zu halten, wird ein Filter und Prüfsystem auf das 
+Ausgabesubsystem ausgelagert. Benötigt wird ein Algorithmus, welcher Fehler erkennt und diese unmittelbar sinnhaft korrigiert. \\
 \\
 Der proaktive Datenkorrekturalgorithmus basiert auf dem Prinzip der Verzögerung und lässt empfangene Daten einen Prozess durchlaufen, bis diese korrigiert 
 und an den Motor übergeben werden. \\
@@ -5392,12 +5390,12 @@ und an den Motor übergeben werden. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Im Fokus des Algorithmus liegt ein Array, ein zusammenhängender Speicherblock, in diesem werden alle Empfangenen Daten chronologisch gespeichert. Jedem 
-der Fünf Finger ist solch ein Array zugeordnet, welches beispielsweise die letzten zehn Fingerpositionswerte beinhaltet. \\
+Im Fokus des Algorithmus liegt ein Array, ein zusammenhängender Speicherblock, in diesem werden alle empfangenen Daten chronologisch gespeichert. Jedem 
+der fünf Finger ist solch ein Array zugeordnet, welches beispielsweise die letzten zehn Fingerpositionswerte beinhaltet. \\
 \\
-Parst das Ausgangssubsystem einen neuen Wert, landet dieser im Array des Fingers und alle bereits vorhandenen Wert werden um eine Position nach rechts 
+Parst das Ausgangssubsystem einen neuen Wert, landet dieser im Array des Fingers und alle bereits vorhandenen Werte werden um eine Position nach rechts 
 geshiftet. \\
-Die Elemente des Arrays haben jeweils einen eigenen nutzen. Aus dem ersten bis zum siebten Element wird bei jeder Iteration ein Median berechnet und in 
+Die Elemente des Arrays haben jeweils einen eigenen Nutzen. Aus dem ersten bis zum siebten Element wird bei jeder Iteration ein Median berechnet und in 
 einer externen Variable gespeichert. \\
 Das achte Element ist der sogenannte \textquote{SCOPE}, dieser Wert ist die zweite Komponente einer Vergleichsoperation. Das neunte Element ist das letzte des 
 Speichers, in diesem befindet sich der am aktuellsten geprüfte und je nach Umständen auch korrigierte Wert. \\
@@ -5414,15 +5412,15 @@ Speichers, in diesem befindet sich der am aktuellsten geprüfte und je nach Umst
 In der [\textcolor{blue}{\autoref{fig:Median2}}] werden mehre Iterationen gezeigt, welche die Fehlererkennung und Eliminierung dieses veranschaulichen. Gezeigt wird hier derselbe 
 Speicher, chronologisch wird gezeigt, wie von oben nach unten sich der Speicher pro Iteration ändert. Bei 1. ist zu sehen, dass sich im Scope der Wert 
 „25“ befindet. Der berechnete Median beträgt 15. \\
-Nun erfolgt eine Vergleichsoperation zwischen dem Wert im Scope und dem Median, überschreitet deren Differenz einen maximalen Grenzwert muss dieser 
-korrigiert werden. Da dies nicht der Fall ist wird der Wert 25 in der nächsten Iteration auf das Element für den OUTPUT geschoben. \\
+Nun erfolgt eine Vergleichsoperation zwischen dem Wert im Scope und dem Median, überschreitet deren Differenz einen maximalen Grenzwert, muss dieser 
+korrigiert werden. Da dies nicht der Fall ist, wird der Wert 25 in der nächsten Iteration auf das Element für den OUTPUT geschoben. \\
 \\
 Bei der nächsten Iteration, in [\textcolor{blue}{\autoref{fig:Median2}}] an Stelle 2. zu finden, wurden alle Werte nach rechts verschoben. Nun steht der Wert 987 im Scope, bei der 
 Vergleichsoperation mit dem Median von 14 ist ersichtlich, dass deren Differenz die maximal konfigurierte Grenze überschreitet. Das Ergebnis: Eine 
 Korrektur ist erforderlich. Die nächste Iteration zeigt, dass dieser Wert korrigiert wurde. Der als fehlerhaft identifizierte Wert wurde mit dem 
 berechneten Median von 14 ersetzt. \\ 
 \\
-Anhand der Verzögerung der Elemente, beträgt im Falle des Beispiels neun, ist der Algorithmus in der Lage einen Wert anhand der zukünftigen zu Beurteilen. 
+Anhand der Verzögerung der Elemente, welche im Falle des Beispiels neun Elemente beträgt, ist der Algorithmus in der Lage einen Wert anhand der zukünftigen zu beurteilen. 
 Dies verhindert, dass eine rapide Änderung als Fehler identifiziert wird. Aufgrund des hohen Datenflusses sind Verzögerungen von rund zehn Elementen für 
 den Gebraucher nicht wahrnehmbar. \\
 \\
@@ -5433,9 +5431,9 @@ den Gebraucher nicht wahrnehmbar. \\
 Jeder der im Projekt verwendeten Servomotoren, der MG995R, hat im Originalzustand einen maximalen Drehwinkel von 180\textdegree - entsprechend auf diesen 
 Winkel wurde der Mechanismus, wie in [\textcolor{blue}{\autoref{chap:Entwicklungsstufe: Hybrid}}] näher beschrieben, entworfen. Die Softwareansteuerung ist das letzte 
 fehlende Glied, welches dafür sorgt, dass die Finger sich optimal bewegen. \\
-Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung sobald sich der Motor um beispielsweise 30\textdegree dreht. Um ein einheitliches 
-System zu schaffen, muss somit ermittelt bei welchem Drehungswinkel der Finger bereits gestreckt oder in der maximalen Falteposition, sprich vollkommen 
-eingefaltet ist. \\
+Grundsätzlich steht keiner der Finger oder der Daumen in der gleichen Faltstellung, sobald sich der Motor um beispielsweise 30\textdegree dreht. Um ein einheitliches 
+System zu schaffen, muss somit ermittelt werden bei welchem Drehwinkel der Finger bereits gestreckt oder in der maximalen Faltposition, sprich vollkommen 
+eingefaltet, ist. \\
 \\
 \begin{table}[H]
     \centering
@@ -5457,10 +5455,10 @@ eingefaltet ist. \\
     \label{tab:Servo Drehwinkel}
 \end{table}
 \hfill \break
-Das Eingangssubsystem misst die Stellung der Flex-Sensoren und übersetzt diese dann auf einen Bereich von 0 bis 100\%, das Ausgabesbusystem empfängt 
+Das Eingabesubsystem misst die Stellung der Flex-Sensoren und übersetzt diese dann auf einen Bereich von 0 bis 100\%, das Ausgabesbusystem empfängt 
 die prozentuale Faltstellung des Fingers. \\
 \\
-Die Funktion \textquote{HPCA9685.Servo} erfordert einen anderen Wertebereich als der empfangene von 0 bis 100 und somit müssen diese Werte gemappt werden. \\
+Die Funktion \textquote{HPCA9685.Servo} erfordert einen anderen Wertebereich als der empfangene Wert von 0 bis 100 und somit müssen diese Werte gemappt werden. \\
 \\
 \footnotesize
 \begin{lstlisting}
