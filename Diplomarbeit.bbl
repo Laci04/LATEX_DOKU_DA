@@ -706,25 +706,51 @@
       \verb https://de.wikipedia.org/wiki/GNU_General_Public_License
       \endverb
     \endentry
+    \entry{Holton3}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1552601dba81fa08f5940daa583b5a01}{%
+           family={Holton},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{fullhash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{bibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorbibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authornamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorfullhash}{1552601dba81fa08f5940daa583b5a01}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beispiele für Software unter MIT License}
+      \field{year}{24.03.2024}
+      \verb{urlraw}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+      \verb{url}
+      \verb https://www.esono.de/blog/softwareentwicklung/mit-lizenz-eine-einfuehrung_aid_1083.html
+      \endverb
+    \endentry
     \entry{Holton2}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2868d97b6a3b67a76e5709d6682a812}{%
-           family={Ian},
-           familyi={I\bibinitperiod},
-           given={Holton},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1552601dba81fa08f5940daa583b5a01}{%
+           family={Holton},
+           familyi={H\bibinitperiod}}}%
       }
-      \strng{namehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{fullhash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{bibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authorbibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authornamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authorfullhash}{d2868d97b6a3b67a76e5709d6682a812}
-      \field{extraname}{1}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradate}{1}
+      \strng{namehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{fullhash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{bibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorbibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authornamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorfullhash}{1552601dba81fa08f5940daa583b5a01}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -740,23 +766,20 @@
     \endentry
     \entry{Holton1}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2868d97b6a3b67a76e5709d6682a812}{%
-           family={Ian},
-           familyi={I\bibinitperiod},
-           given={Holton},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1552601dba81fa08f5940daa583b5a01}{%
+           family={Holton},
+           familyi={H\bibinitperiod}}}%
       }
-      \strng{namehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{fullhash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{bibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authorbibnamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authornamehash}{d2868d97b6a3b67a76e5709d6682a812}
-      \strng{authorfullhash}{d2868d97b6a3b67a76e5709d6682a812}
-      \field{extraname}{2}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradate}{2}
+      \strng{namehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{fullhash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{bibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorbibnamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authornamehash}{1552601dba81fa08f5940daa583b5a01}
+      \strng{authorfullhash}{1552601dba81fa08f5940daa583b5a01}
+      \field{extraname}{3}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradate}{3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -1823,7 +1846,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Holton3}
 \endrefsection
 \endinput
 

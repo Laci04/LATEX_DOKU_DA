@@ -1039,8 +1039,6 @@ freien Werknutzung verwendet werden. Genau zwischen diesen beiden Arten muss unt
 \hfill \break
 
 \subsubsection{Auswirkung auf Software und Kreativwerke}
-\hfill \break
-\hfill \break
 Auch Softwares, beziehungsweise allgemein Kreativwerke, sind vom Urheberrecht geschützt. Dies ist der Fall, 
 da diese auch in die Kategorie der Sprachwerke fallen (§2 Abs.1 Nr.1 UrhG). Bereits ab dem Schaffen der 
 Software fällt diese unter das Urheberrechtsgesetz. Diese muss hierbei nicht fertiggestellt worden sein und 
@@ -2175,19 +2173,23 @@ Prozessor die Werte verarbeiten kann. Deshalb kommen ADCs in elektronischen
 Schaltungen häufig vor. \\
 \\
 \textbf{Abtastung:} \\
+\\
 Es werden kontinuierliche analoge Signale mit einer bestimmten 
 Abtastrate abgetastet. Das kontinuierliche Signal wird hierbei zu einem 
 zeitdiskreten, wobei die Amplitude stets kontinuierlich bleibt. \\
 \\
 \textbf{Halteschaltung:} \\
+\\
 Die nach der Abtastung vorhandenen Messwerte werden in der Halteschaltung so 
 lange zurückgehalten, bis ein neuer die Halteschaltung erreicht. \\
 \\
 \textbf{Quantisierer:} \\
+\\
 Die Messwerte werden hier in diskrete Amplitudenwerte aufgeteilt. Das Signal 
 ist ab dem Quantisierer zeitdiskret und besitzt nun eine diskrete Amplitude. \\
 \\
 \textbf{Codierer:} \\
+\\
 Der Codierer wandelt dann das quantisierte Signal in ein binäres um. Am Ende ist 
 dann ein digitales Signal in Binärform vorhanden. \\
 \\
@@ -2219,7 +2221,8 @@ also das Verhältnis von der Pulslänge zu der Periodenlänge, wird in Prozent a
 
 \subsection{I2C Funktionsweise [\textcolor{blue}{Schweitzer}]}
 \label{chap:I2C Funktionsweise}
-\textbf{Funktionsweise:} \\
+\textbf{Funktionsweise} \\
+\\
 I2C beschreibt eine Möglichkeit, über die zwei verschiedene Geräte miteinander 
 kommunizieren können. Die Daten werden hintereinander gesendet und dies über zwei 
 Datenleitungen. Es kann dabei mit bis zu 128 Teilnehmern kommuniziert werden. Am Ende 
@@ -2235,7 +2238,8 @@ oder welche von einem Slave anfordern. Die zweite Leitung heißt SCL (serial clo
 und ist für den Takt zuständig, der für alle per I2C verbundenen Geräte gilt. Es 
 wird also ein synchroner Bus verwendet. \\
 \\
-\textbf{Beispiel Protokoll:} \\
+\textbf{Beispiel Protokoll} \\
+\\
 Die Daten sind grundsätzlich in Datenpaketen verpackt, jedes besteht aus 1 Byte. 
 Wenn nichts kommuniziert wird, dann hat SDA und SCL den Wert 1. Nachdem eine 
 Start-Condition gesendet wurde, durch die alle Slaves wissen, dass sie nun auf den 
@@ -2278,6 +2282,7 @@ oder eben im Umkehrschluss auch, wie viele Symbole pro Sekunde gesendet werden
 (Baudrate/1s). \\
 \\
 \textbf{Beispiel Protokoll für 8-Bit Packet} \\
+\\
 Es ist ein Startbit vorhanden (LOW), dann noch 8 Datenbits (inklusive einem 
 Paritybit, das Fehler identifizieren kann) und ein oder zwei Stopbits (HIGH). 
 Zur Kontrolle, ob es eine gerade oder ungerade Anzahl von Highbits gibt, wird 
@@ -2582,7 +2587,7 @@ ständig dem Zug der Angelschnur entgegenwirkt und den Finger entsprechend
 austreckt. \\
 In diesem Modell wird daher ein Elastomer, ein elastisches Material in Form 
 eines Bandes mit ausreichender Kraft gewählt. \\
-
+\newpage
 \paragraph{Realisierung und Zusammenbau}
 \label{par:Realisierung und Zusammenbau}
 \hfill \break
@@ -2725,7 +2730,6 @@ Erkenntnisse geliefert. Diese haben zu einem frühzeitigen Abbruch weiterer
 Tests geführt. Die sich dabei erschlossenen Problematiken und Erkenntnisse 
 werden in [\textcolor{blue}{\autoref{par:Fazit und Ergebnisse}}] erläutert. \\
 \\
-
 \paragraph{Fazit und Ergebnisse}
 \label{par:Fazit und Ergebnisse}
 \hfill \break
@@ -2947,7 +2951,6 @@ Die einzelnen Fingerglieder sind tatsächlich mechanisch durch eine Schraube mit
 All dies führt zu präziseren und genaueren Bewegungen, der Faltmechanismus erfolgt annähernd linear zur Zugkraft. Trotzdem hat sich herausgestellt, wie brüchig das Modell ist, besonders an den Fingern. Reibung ist weiterhin ein großes Thema und 
 wird durch die zweite Schnur im Faltmechanismus noch trivialer. \\
 Ziel ist es, im dritten Versuchsmodell die Problematik mit der Reibung zu verringern und daraus folglich auch ein stabileres Modell zu ermöglichen.\\
-\\
 
 \subsubsection{Entwicklungsstufe: Silikon}
 \label{chap:Entwicklungsstufe: Silikon}
@@ -2968,7 +2971,7 @@ Eine Hand aus Silikon springt von selbst wieder in ihre Ursprungsposition zurüc
 ähnlich wie bei den vorherigen Modellen eine Verjüngung zueinander haben und durch Zug an der Schnur der Finger sich falten. Reibung dürfte nach Überlegungen nicht mehr existieren, da die Schnur bei Bewegung das Material eher bewegt und nicht wirklich 
 reibt. Befestigt wird die Silikonhand dann an einer Vorrichtung am Handgelenk. \\
 \\
-
+\newpage
 \paragraph{Gussform}
 \label{par:Gussform}
 \hfill \break
@@ -3019,6 +3022,7 @@ Material. \\
 Das Ergebnis nach dem ersten Guss: Während des Entwurfs der Gussform wurde nicht daran gedacht, dass das Loch für den Einguss auf derselben Höhe wie die höchste Fläche oder Decke des Innenraums sein muss. Durch diesen Fehler hat sich ab dieser Höhe 
 ein Luftraum gebildet, welcher nicht mit Silikon gefüllt wurde. \\
 \\
+\newpage
 \textbf{Verbesserung:} \\
 \\
 \begin{figure}[H]
@@ -3035,7 +3039,7 @@ Verschraubungsmöglichkeit geschaffen wurde um die beiden Teile der Gussform st�
 Gezeigt hat sich nach dem Guss, dass das fertige Objekt aus Silikon sich auch in andere Richtungen biegen lässt als ausschließlich in die Faltrichtung. Um alle anderen Richtung außer die gewünschte zu verhindern, benötigt der Finger einen 
 Stabilisator von innen, ähnlich dem Finger des Menschen, welcher einen Knochen hat. \\
 \\
-
+\newpage
 \paragraph{Gelenke}
 \hfill \break
 \hfill \break
@@ -3062,6 +3066,7 @@ mechanisches Gelenk, welches durch den gesamten Finger verläuft. \\
 Das Gelenk besteht aus drei Komponenten, verbunden sind diese durch eine Schraube, exakt an dem Punkt an dem sich der Finger beim Falten biegt. Durch eine mechanische Blockade kann sich das Gelenk ausschließlich in Faltrichtung falten. \\
 Mit einer Erweiterung wird das gesamte Modell in der Gussform befestigt und positioniert, nach dem Guss findet sich dann das Gelenk eingegossen im Finger. \\
 \\
+\newpage
 \textbf{Ergebnis:} \\
 \\
 \begin{figure}[H]
@@ -3076,6 +3081,7 @@ Mit einer Erweiterung wird das gesamte Modell in der Gussform befestigt und posi
 Während des Gusses ist Silikon ausgetreten, obwohl bereits im Vorhinein vorgesorgt wurde, dass dies nicht passiert – wie beispielsweise durch die Verschraubmöglichkeiten, mit denen beide Teile aneinander gepresst werden sollen oder die Steckvorrichtung. 
 Gelöst wurde dies mit Klebebändern, die zum Abdichten verwendet wurden. \\
 Trotz der Komplikationen hat sich der Versuch als erfolgreich herausgestellt, denn der Finger funktioniert im Zusammenspiel mit dem Gelenk wie erwartet. \\
+\newpage
 \paragraph{Entwurf einer neuen Gussform}
 \hfill \break
 \hfill \break
@@ -3131,7 +3137,7 @@ Diese neue Form der Verbindung war notwendig um die einzelnen Elemente der Knoch
 und dem Raum im Finger nicht umsetzbar wäre. Zwar blockiert dieser Mechanismus nicht Bewegungen in alle anderen Richtungen außer die Faltrichtung, schafft jedoch mehr Flexibilität für den Finger – dennoch wurde jeder Finger so modelliert und an den 
 Krümmungsstellen so verstärkt, dass er sich hauptsächlich in die Faltrichtung biegt. \\
 \\
-
+\newpage
 \paragraph{Gussform und Gussversuch der gesamten Hand}
 \hfill \break
 \hfill \break
@@ -3172,6 +3178,7 @@ Wie in dieser Veranschaulichung ersichtlich wird in aufrechtem Zustand der Gussf
 Stelle des Innenraums liegt. Um sicherzustellen, dass die Hand stets aufrecht bleibt und während des Härteprozesses des Silikons gesichert in ihrer Position bleibt, wurde eine Halterung entworfen, auf welche die Form gesteckt werden kann. Das Loch 
 wurde möglichst groß modelliert, damit die im Innenraum verbleibende Luft der Gussform ausreichend entweichen kann. \\
 \\
+\newpage
 \textbf{Resultate des Gussversuchs:} \\
 \\
 \begin{figure}[H]
@@ -3197,7 +3204,7 @@ nicht die \textquote{Handfläche} halten ohne auszurinnen. \\
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.8}
+		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch2}}
 		\caption{Notkonzept: Handfäche aus hartem Kunststoff (PLA)}
 		\label{fig:Silikonhand_Fehlversuch2}			
@@ -3205,12 +3212,13 @@ nicht die \textquote{Handfläche} halten ohne auszurinnen. \\
 \end{figure}
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.8}
+		\scalebox{0.7}
 		{\includegraphics[width=0.8 \linewidth]{Silikonhand_Fehlversuch3}}
 		\caption{Realisierung des Notkonzepts}
 		\label{fig:Silikonhand_Fehlversuch3}			
 	\end{center}
 \end{figure}
+\hfill \break
 \hfill \break
 Jedoch gab es einen Notlösungsversuch um das vorhandene Material zu retten, dafür wurden die Finger abgeschnitten bis zu dem Punkt, an dem der Guss nicht gelungen ist, daraufhin vermessen und ein Modell wurde modelliert. Dieses ersetzt die Handfläche 
 aus Silikon mit einer 3D gedruckten und auf diese können die bestehenden Silikonfinger auf eine Einkerbung für diese gesteckt werden. In der Abbildung ist der Unterschied zwischen Silikon und Kunststoff anhand der Farben zu sehen, dunkelgrau steht 
@@ -3222,7 +3230,7 @@ Instabilität der einzelnen Fingern mit härterem Silikon. Grundsätzlich wurde 
 Die Problematik mit dem Guss, dass das Modell sich nicht in einem gießen lässt und die Erkenntnis beim Notmodell, dass die Finger nicht stabil bleiben, haben gezeigt, dass dieses Konzept für unser Projekt nicht tauglich ist. Aufgrund dieser 
 Ergebnisse wird das Konzept vorerst verworfen, dennoch soll Silikon weiterhin ein Bestandteil der zukünftigen Modelle bleiben, besonders aufgrund des Griffs, der damit gesichert werden kann. \\
 \\
-
+\newpage
 \subsubsection{Entwicklungsstufe: Hybrid} 
 \label{chap:Entwicklungsstufe: Hybrid}
 \paragraph{Erfahrung und Konzepterläuterung}
@@ -3241,6 +3249,7 @@ diese erstreckt sich durch den gesamten Finger und ist am Anfang und seinem Ende
 Doch nicht alles war ideal an dem Modell der neuen Hand, denn der Motorblock wurde nicht optimiert und nutzt weiterhin den Mechanismus, bei dem sich die Zugschnur um einen Aufsatz auf dem Motor wickelt. Daher muss eigens ein neuer Mechanismus 
 entworfen werden. In diesem soll die Drehbewegung des Servomotors in eine geradlinige Zugbewegung übersetzt werden. \\
 \\
+\newpage
 \paragraph{Erster Entwurf}
 \hfill \break
 \hfill \break
@@ -3267,7 +3276,7 @@ in der Fassung platzierte Zahnstange. Der Mechanismus nennt sich \textquote{Rack
 Nach dem Druck und einer ersten Inbetriebnahme hat sich die Funktionalität des Mechanismus erwiesen. Der Motor dreht sich und wandelt dies in eine geradlinige Zugbewegung um, auf der Zahnstange wird dann die Angelschnur montiert und somit kann an 
 dieser kontrolliert gezogen werden. \\
 \\
-
+\newpage
 \paragraph{Verbesserungen – zweiter Entwurf}
 \hfill \break
 \hfill \break
@@ -3286,7 +3295,7 @@ Dadurch konnte der Durchmesser des Zahnrades um ein Vielfaches verkleinert werde
 In diesem Modell ist zu sehen, dass alle Servomotoren auf einer Höhe liegen. Diese werden auf einer Servohalterung (2) montiert, welche dann auf der Platte (1) montiert wird. Aufgrund der Toleranzen des 3D-Drucks können die Halterungen mit 
 Langlöchern adjustiert werden. Das Modell wurde mit der Rücksicht entworfen, Schrauben und Muttern im Modell zu versenken. \\
 \\
-
+\newpage
 \paragraph{Realisierung und Aufbau}
 \hfill \break
 \hfill \break
@@ -4584,6 +4593,7 @@ den einzelnen ESP32 möglich ist. Es wird dafür kein Router oder Access Point b
 ist, einzustellen, welche Platine über ESP-NOW senden, empfangen oder der Transceiver sein soll, kann man sehr leicht den 
 spezifischen Anwendungsfall realisieren. \\
 \\
+\newpage
 \paragraph{Programmiersprache/Entwicklungsumgebung}
 \hfill \break
 \hfill \break
@@ -4808,7 +4818,7 @@ map-Funktion somit immer gute Werte übermitteln kann. \\
 	\end{center}
 \end{figure}
 \hfill \break
-
+\newpage
 \subsubsection{Realisierung und Gliederung}
 \paragraph{Realisierung}
 \hfill \break
@@ -5111,7 +5121,7 @@ System und liefert dem Userinterface relevante Daten. \\
 Die Vielfalt der Software fordert Struktur und eine systematische Gliederung. Empfangene Daten durchlaufen mehrere Strecken, an denen diese dann 
 verarbeitet werden, um letztlich die gewünschte Bewegung des Fingers umzusetzen. \\
 \\
-
+\newpage
 \paragraph{Programmfluss}
 \hfill \break
 \hfill \break
@@ -5524,6 +5534,7 @@ Anordnungen erstellt werden, mit denen folglich ein visuell ansprechendes GUI kr
 \\
 \subsubsection{Erläuterung der Grafikoberfläche}
 \textbf{Einstellung des Steuermodus} \\
+\\
 Links oben in [\textcolor{blue}{\autoref{fig:UI_Oberfläche}}], sind zwei Elemente zu sehen. Der obere Schalter, ein sogenannter $Toggle-Switch$, ist dafür zuständig
 zwischen zwei Kontrolmodi für die Roboterhand zu wechseln. In der gezeigten Stellung, kann das Ausgabesubsystem ausschließlich vom Eingabesubsystem,
 mithilfe der angebrachten Flexsensoren gesteuert werden. Wird dieser Schalter betätigt, so kann die Roboterhand nur mehr mit dem User-Interface
@@ -5534,15 +5545,18 @@ den Steuermodus automatisch umstellt. Hierzu müsste ein kurzer String übergebe
 und erkannt wird. \\
 \\
 \textbf{Serial-Port Initialisierung} \\
+\\
 Direkt unter dem Schalter zur Einstellung des Steuermodus, befindet sich das Eingabefeld für den Serial-Port, der vom Benutzer eingegeben werden muss. Durch 
 einen Druck mit der Maus of den $OK-Button$, oder durch ein Drücken der $Enter-Taste$ nach dem Eingeben des Portnamen, wird die Serial-Kommunikation mit der Platine des Ausgabesubsystem 
 initialisiert und gestartet. \\
 \\
 \textbf{Dark-Mode-Switch} \\
+\\
 In der rechten, oberen Ecke der UI-Oberfläche, befindet sich ein Schalter, mit dem der $Theme$ des Interfaces zwischen $Dark$ und $Light$ gewechselt werden kann. Dies dient ausschließlich der 
 visuellen Darstellung und hat keinen Einfluss auf die Funktionalitäten der Anwendung. QT führt die Farbänderung aller Elemente automatisch durch, wodurch Programmieraufwand gespart wird. \\
 \\
 \textbf{Standby-Switch} \\
+\\
 Unterhalb des $Dark-Mode-Switches$, befindet sich ein $Standby-Button$. Wird dieser Knopf gedrückt, so bewegen sich alle Finger der Roboterhand in eine halbgeschlossene Stellung. Der Standby-Modus
 wird aufgehoben, sobald eine erneute Eingabe erfolgt. Wichtig zu beachten ist allerdings, dass die $Standby-Funktion$ im User-Interface nur verwendet werden kann, wenn der Schalter zum Einstellen des 
 Steuermodus auf $UI-Controlled$ gestellt ist. \\
@@ -5584,8 +5598,6 @@ Das Backend ist in ein $Main-Programm$, ein $Header-File$ und ein $Source-File$ 
 ausprogrammiert und miteinander verknüpft. Das Wort $Verknuepfen$, bezieht sich dabei auf das $Signal-Slot-System$ von QT, durch das Funktionen anhand von bestimmten Ereignissen aufgerufen werden können. Im Main-Programm $main.cpp$, werden die $Signals$
 und $Slots$ in Abhängigkeit gesetzt und somit die Funktionen des Backends miteinander verknüpft. \\
 \\
-Der gesamte Code des User-Interface, ist in [\textcolor{blue}{\autoref{chap:Fertigungsunterlagen_Software_Code}}] zu sehen. \\
-\\
 Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden. \\
 \\
 
@@ -5610,7 +5622,7 @@ werden, dass sich der Wert, aufgrund der Befestigung am Handschuh, welche keine 
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{1.0}
+		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Punkte_zur_Messung_Flexsensoren}}
 		\caption{Punkte zur Messung (Winkel)}
 		\label{fig:Punkte_zur_Messung_Flexsensoren}				
@@ -6045,12 +6057,10 @@ zukünftigen Modellierungen deutlich reduziert werden können. \\
 \\
 \textbf{Professionell gefertigte mechanische Teile} \\
 \\
-\textcolor{red}{
 Zwar eignet sich der 3D-Druck mit dem Kunstoff PLA für einen Anfangsprototypen, führt jedoch auch dazu, dass die daraus gewonnene Qualität langfristig keine Option ist.
 Somit müssen besonders mechanische Komponenten mit Verfahren gefertigt werden, die auch industriell ihre Annerkennung finden. Besonders Zahnräder und Zahnstangen
 sollten aus zuverlässigen Kunstoffen oder Metallen bestehen, die belastbar und haltbar sind. Weiters stehen die Finger und deren Glieder unter ständiger Belastung, 
 besonders während des Faltvorgangs und müssen demnach auch aus einem härteren Kunststoff gefertigt werden.
-}
 \\
 
 \newpage
@@ -6632,14 +6642,36 @@ besonders während des Faltvorgangs und müssen demnach auch aus einem härteren
 	\end{tabular}
     \label{tab:Arbeitsstunden11}
 \end{table}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
+        \hline
+        \textbf{Datum} & \textbf{Arbeitstunden} & \textbf{Uhrzeit} & \textbf{Person} & \textbf{verrichtete Arbeit} \\
+        \hline
+		20.03.2024 & 3,5 & 12:30 - 16:00 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		20.03.2024 & 3,5 & 12:30 - 16:00 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		20.03.2024 & 3,5 & 12:30 - 16:00 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		21.03.2024 & 3,5 & 9:50 - 13:20 & Fabian Schweitzer & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		21.03.2024 & 3,5 & 9:50 - 13:20 & Amir Al-Maytah & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+		21.03.2024 & 3,5 & 9:50 - 13:20 & Ladislaus Szabo & \fcolorbox{white}{white}{\parbox{5cm}{an der Dokumentation weitergearbeitet}} \\
+		\hline
+	\end{tabular}
+    \label{tab:Arbeitsstunden11}
+\end{table}
 \hfill \break
 \hfill \break
 \hfill \break
-\textbf{Gesamtstundenanzahl:} \\	
+\textbf{Gesamtstundenanzahl} \\	
 \\
-Fabian Schweitzer: 197,5 \\
-Amir Al-Maytah: 202 \\
-Ladislaus Szabo: 191,5 \\
+Fabian Schweitzer: 211,5 \\
+Amir Al-Maytah: 219,5 \\
+Ladislaus Szabo: 209 \\
 
 \newpage
 %--------------------------------------------------------------------------
@@ -6675,8 +6707,6 @@ erstellt werden. \\
 \label{chap:Fertigungsunterlagen}
 \subsection{Mechanik}
 \label{chap:Fertigungsunterlagen_Mechanik}
-\subsubsection{Skizzen ud Konzepte}
-
 \subsubsection{CAD-Zeichnungen}
 
 \subsubsection{3D-Modelle}
@@ -6684,10 +6714,9 @@ erstellt werden. \\
 \newpage
 \subsection{Hardware}
 \label{chap:Fertigungsunterlagen_Hardware}
-\subsubsection{Skizzen und Konzepte}
-
-\newpage
 \subsubsection{Stromlaufpläne}
+
+\textbf{siehe kommende Seiten !}
 
 \includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v1.pdf}
 \includepdf[fitpaper]{/Users/laci/Schule/Diplomarbeit_GitHub/LATEX_DOKU_DA/src/Schaltplan_Handschuh_v2.pdf}
@@ -7273,38 +7302,21 @@ erstellt werden. \\
 \end{table}
 
 \newpage
-\subsection{Software}
-\label{chap:Fertigungsunterlagen_Software}
-\subsubsection{Skizzen und Konzepte}
-
-
-\subsubsection{Diagramme}
-\subsection{Software}
-\label{chap:Fertigungsunterlagen_Software}
-\subsubsection{Skizzen und Konzepte}
-
-
-\subsubsection{Code}
-\label{chap:Fertigungsunterlagen_Software_Code}
-\paragraph{Eingabesubsystem}
-
-\paragraph{Ausgabesubsystem}
-
-\paragraph{User-Interface}
-
-\newpage
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==VERZEICHNISSE===========================================================
 \listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
 \newpage
 
 \listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
 
 \newpage
 
 \printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 
 \newpage
 %--------------------------------------------------------------------------

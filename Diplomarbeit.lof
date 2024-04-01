@@ -32,7 +32,7 @@
 \contentsline {figure}{\numberline {31}{\ignorespaces Multiplexer Beispiel\relax }}{53}{figure.caption.35}%
 \contentsline {figure}{\numberline {32}{\ignorespaces I2C Adressierung (Quelle: \textcolor {blue}{\blx@tocontentsinit {0}\cite {I2Cabbildung}})\relax }}{54}{figure.caption.36}%
 \contentsline {figure}{\numberline {33}{\ignorespaces UART erklärendes Diagramm\relax }}{55}{figure.caption.37}%
-\contentsline {figure}{\numberline {34}{\ignorespaces WiFi Logo (Quelle: \textcolor {blue}{\blx@tocontentsinit {0}\cite {WIFIabbildung}})\relax }}{55}{figure.caption.38}%
+\contentsline {figure}{\numberline {34}{\ignorespaces WiFi Logo (Quelle: \textcolor {blue}{\blx@tocontentsinit {0}\cite {WIFIabbildung}})\relax }}{56}{figure.caption.38}%
 \contentsline {figure}{\numberline {35}{\ignorespaces Blockschaltbild des Gesamtsystems\relax }}{57}{figure.caption.39}%
 \contentsline {figure}{\numberline {36}{\ignorespaces Blockschaltbild des Eingabesubsystems\relax }}{58}{figure.caption.40}%
 \contentsline {figure}{\numberline {37}{\ignorespaces Blockschaltbild des Ausgabesubsystems\relax }}{59}{figure.caption.41}%
@@ -66,7 +66,7 @@
 \contentsline {figure}{\numberline {65}{\ignorespaces Gussform mit Halterung\relax }}{90}{figure.caption.69}%
 \contentsline {figure}{\numberline {66}{\ignorespaces Silikonhand Fehlversuch\relax }}{91}{figure.caption.70}%
 \contentsline {figure}{\numberline {67}{\ignorespaces Notkonzept: Handfäche aus hartem Kunststoff (PLA)\relax }}{92}{figure.caption.71}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Realisierung des Notkonzepts\relax }}{93}{figure.caption.72}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Realisierung des Notkonzepts\relax }}{92}{figure.caption.72}%
 \contentsline {figure}{\numberline {69}{\ignorespaces Rekonstruktion des Motorblocks\relax }}{95}{figure.caption.73}%
 \contentsline {figure}{\numberline {70}{\ignorespaces Mechanismus mit Zahnrad und Zahnstange\relax }}{96}{figure.caption.74}%
 \contentsline {figure}{\numberline {71}{\ignorespaces Verbesserung der ersten Rekonstruktion\relax }}{97}{figure.caption.75}%
@@ -138,18 +138,18 @@
 \contentsline {figure}{\numberline {137}{\ignorespaces Median\relax }}{177}{figure.caption.143}%
 \contentsline {figure}{\numberline {138}{\ignorespaces User-Interface Konzept\relax }}{180}{figure.caption.145}%
 \contentsline {figure}{\numberline {139}{\ignorespaces UI Benutzeroberfläche\relax }}{181}{figure.caption.146}%
-\contentsline {figure}{\numberline {140}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{185}{figure.caption.147}%
-\contentsline {figure}{\numberline {141}{\ignorespaces Einstellung 1\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {142}{\ignorespaces Einstellung 2\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {143}{\ignorespaces Einstellung 3\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {144}{\ignorespaces Einstellung 4\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {145}{\ignorespaces Einstellung 5\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {146}{\ignorespaces Einstellung 6\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {147}{\ignorespaces Einstellung 7\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {148}{\ignorespaces Einstellung 8\relax }}{187}{table.caption.150}%
-\contentsline {figure}{\numberline {149}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{221}{figure.caption.163}%
-\contentsline {figure}{\numberline {150}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{222}{figure.caption.164}%
-\contentsline {figure}{\numberline {151}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{223}{figure.caption.165}%
-\contentsline {figure}{\numberline {152}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{224}{figure.caption.166}%
-\contentsline {figure}{\numberline {153}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{225}{figure.caption.167}%
-\contentsline {figure}{\numberline {154}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{226}{figure.caption.168}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Punkte zur Messung (Winkel)\relax }}{184}{figure.caption.147}%
+\contentsline {figure}{\numberline {141}{\ignorespaces Einstellung 1\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {142}{\ignorespaces Einstellung 2\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {143}{\ignorespaces Einstellung 3\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {144}{\ignorespaces Einstellung 4\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {145}{\ignorespaces Einstellung 5\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {146}{\ignorespaces Einstellung 6\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {147}{\ignorespaces Einstellung 7\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {148}{\ignorespaces Einstellung 8\relax }}{186}{table.caption.150}%
+\contentsline {figure}{\numberline {149}{\ignorespaces PCB Layout Eingabesubsystem Version 1\relax }}{219}{figure.caption.164}%
+\contentsline {figure}{\numberline {150}{\ignorespaces PCB Layout Eingabesubsystem Version 2\relax }}{220}{figure.caption.165}%
+\contentsline {figure}{\numberline {151}{\ignorespaces PCB Layout Eingabesubsystem Version 3\relax }}{221}{figure.caption.166}%
+\contentsline {figure}{\numberline {152}{\ignorespaces PCB Layout Ausgabesubsystem Version 1\relax }}{222}{figure.caption.167}%
+\contentsline {figure}{\numberline {153}{\ignorespaces PCB Layout Ausgabesubsystem Version 2\relax }}{223}{figure.caption.168}%
+\contentsline {figure}{\numberline {154}{\ignorespaces PCB Layout Ausgabesubsystem Version 3\relax }}{224}{figure.caption.169}%
