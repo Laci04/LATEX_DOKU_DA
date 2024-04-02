@@ -632,7 +632,7 @@ verschiedener Applikationen in der Industrie. \footnote{\cite{Q1}} \\
 \\
 Die anhand der Umwandlung resultierende Bewegung kann rotierend oder 
 geradlinig sein. Rotierende Bewegungen werden anhand eines Drehantriebs 
-erzeugt, bei linearen Bewegungen hingegen bewegt sich der Antrieb auf 
+erzeugt, bei geradlinigen Bewegungen hingegen bewegt sich der Antrieb auf 
 einer Achse in beide Richtungen, vor und zurück. \footnote{\cite{Q4}} \\
 \\
 \begin{figure}[H]
@@ -911,7 +911,7 @@ den Motor gibt. \\
 \hfill \break
 Beschreiben lässt sich der Motor anhand folgendem Block, welcher sich aus einem 
 PT1-Glied und sämtlichen Störmomenten zusammensetzt. Als Verzögerungsglied erster 
-Ordnung beschreibt dieses das Anlaufverhalten des Motors. (Q12) Zusätzlich werden 
+Ordnung beschreibt dieses das Anlaufverhalten des Motors. \footnote{\cite{Q12}} Zusätzlich werden 
 das Lastmoment, die Reibung und die Trägheit in das System miteinkalkuliert. \\
 Aus der mathematischen Modellierung des Gleichstrommotors, wie im Blockschaltbild 
 dargestellt, ergibt sich eine Winkelgeschwindigkeit, die Drehzahl des Motors \textquote{$\Omega$}.
@@ -2581,7 +2581,7 @@ Im Versuch [siehe \textcolor{blue}{\autoref{chap:Versuchsaufbauten}}] hat sich e
 Fingerglieder verbindet, nicht genügend Kraft aufbringt, um den Finger wieder in 
 seine Ursprungsposition zu bewegen. Demnach wird eine Kraft benötigt, welche 
 ständig dem Zug der Angelschnur entgegenwirkt und den Finger entsprechend 
-austreckt. \\
+ausstreckt. \\
 In diesem Modell wird daher ein Elastomer, ein elastisches Material in Form 
 eines Bandes mit ausreichender Kraft gewählt. \\
 \newpage
@@ -2705,7 +2705,7 @@ werden. \\
 	\end{center}
 \end{figure}
 \hfill \break
-Letztlich beinhalt das Modell der Roboterhand ein Element, welches hier als 
+Letztlich beinhaltet das Modell der Roboterhand ein Element, welches hier als 
 Motorblock bezeichnet wird. Dieses Element trägt diesen Namen, da es alle 
 für die Antriebsmechanik relevanten Komponenten beinhaltet. \\
 Das Modell setzt sich aus einer Grundplatte, der fünf Halterungen für die 
@@ -2755,7 +2755,7 @@ Die entstandenen Problematiken:
 	diesem Fall besser gesagt biegen lässt, sondern ausschließlich nach innen. 
 	Weiters ist auch bei der Verbindung anzumerken, dass der Finger sich auch 
 	nach links oder rechts biegen kann. Diese Funktion ist jedoch nicht 
-	erwünscht und muss mechanisch blockiert werden, die alleinige die Verwendung der 
+	erwünscht und muss mechanisch blockiert werden, die alleinige Verwendung der 
 	Bänder ist dabei zu schwach um dies zu verhindern.
 	\begin{figure}[H]
 		\begin{center}
@@ -4624,7 +4624,7 @@ Generation ohne Probleme funktioniert, die Datei mit dem Programm auf den ESP32 
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.7}
+		\scalebox{0.8}
 		{\includegraphics[width=0.8 \linewidth]{Beispiel_ArduinoIDE}}
 		\caption{Beispiel Arduino IDE 2}
 		\label{fig:Beispiel_ArduinoIDE}			
@@ -4648,8 +4648,8 @@ Standardversion des Programmes dann bereits vorhanden sein. \\
 Jedes Programm muss ausführlich getestet werden. Die Tests bei der Senderplatine (Handschuh) beschäftigen sich vor allem mit 
 dem Auslesen der Widerstandswerte der Flexsensoren. Es soll überprüft werden, ob sich die Werte in dem von dem Benutzer 
 freiwillig ausgesuchten Bereich der map Funktion liegen. Bei dem Test soll bei dem gestreckten Flexsensor der maximale Wert 
-angezeigt werden und bei ganz gebeugtem Zustand (maximale Biegung am Handschuh durch Fingerbiegung) der niedrigste. Es ist 
-wichtig auch zu testen, ob der Multiplexer [siehe \textcolor{blue}{\autoref{chap:Multiplexer}}] überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
+angezeigt werden und bei ganz gebeugtem Zustand (maximale Biegung am Handschuh durch Fingerbiegung) der niedrigste. \\ 
+Es ist wichtig auch zu testen, ob der Multiplexer [siehe \textcolor{blue}{\autoref{chap:Multiplexer}}] überall durchschaltet und das in richtiger Weise. Nachdem dies erfolgreich 
 implementiert wurde, sollen die Werte des ADCs überprüft werden, der hinter den Multiplexer geschaltet wurde. Wenn diese Werte 
 ebenfalls realistisch sind, dann können diese Werte wie vorher bereits erwähnt gemapt werden und dann in einem bestimmten Format 
 über ESP-NOW an die Empfängerplatine (Roboterhand) gesendet werden. Dabei soll überprüft werden, ob auch wirklich Daten 
@@ -4672,6 +4672,7 @@ ausgeben, dass die Daten erfolgreich gesendet und empfangen wurden. \\
 		\label{fig:Beispiel_30k}			
 	\end{center}
 \end{figure}
+\newpage
 \paragraph{Allgemeines Konzept}
 \hfill \break
 \hfill \break
@@ -4710,7 +4711,7 @@ trotzdem noch eine sehr gute Messung und valide Werte zur Übertragung möglich 
 \\
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{0.55}
 		{\includegraphics[width=0.8 \linewidth]{minimalerWert}}
 		\caption{Flexsensor minimaler Wert}
 		\label{fig:minimalerWert}			
@@ -4718,7 +4719,7 @@ trotzdem noch eine sehr gute Messung und valide Werte zur Übertragung möglich 
 \end{figure}
 \begin{figure}[H]
 	\begin{center}
-		\scalebox{0.5}
+		\scalebox{0.55}
 		{\includegraphics[width=0.8 \linewidth]{maximalerWert}}
 		\caption{Flexsensor maximaler Wert}
 		\label{fig:maximalerWert}			
@@ -4860,7 +4861,6 @@ Falls diese Schritte alle abgearbeitet wurden, dann geht das ganze Prozedere wie
 \normalsize
 Am Anfang des Senderprogramms werden die zu inkludierenden Bibliotheken eingebunden. Diese beinhalten die I2C Kommunikation [siehe \textcolor{blue}{\autoref{chap:I2C Funktionsweise}}] für 
 den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi Bibliothek inkludiert wird. \\
-\\
 \footnotesize
 \begin{lstlisting}
 	// ADC - Parameter
@@ -4879,14 +4879,15 @@ den ADC, die Möglichkeit ESP-NOW zu verwenden, indem auch zusätzlich die Wifi 
 Danach werden die ADC-Parameter festgelegt, sowie die Ports zur Ansteuerung des Multiplexers. Minimale und maximale 
 Widerstandswerte [siehe \textcolor{blue}{Minimale und maximale Grenze in \autoref{par:Wichtige Codezeilen}}] werden festgelegt, damit es bei einer kleinen Toleranz im ganz unteren und oberen Bereich trotzdem immer den 
 minimalen oder maximalen Wert erreicht. \\
-\\
 \footnotesize
 \begin{lstlisting}
-	uint8_t broadcastAddress[] = { 0x70, 0xB8, 0xF6, 0xC4, 0xEB, 0x2D };  // Empfaenger-Adresse
+	uint8_t broadcastAddress[] = { 0x70, 0xB8, 0xF6, 0xC4, 0xEB, 0x2D };  
+	// Empfaenger-Adresse
 	
 	void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
 	  Serial.print("\rEmpfangsstatus : Roboterhand:\t");
-	  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "empfangen\n" : "nicht empfangen\n");
+	  Serial.println(status == ESP_NOW_SEND_SUCCESS ? 
+	  				"empfangen\n" : "nicht empfangen\n");
 	}			
 \end{lstlisting}
 \hfill \break
@@ -4894,7 +4895,6 @@ minimalen oder maximalen Wert erreicht. \\
 Die ESP-NOW Parameter sind noch zu definieren. Also die Empfänger-Adresse, die Nummer des Flexsensors, sowie der Wert. Außerdem 
 wird eine Funktion erstellt, die später dazu verwendet wird, um zu überprüfen, ob die Empfängerplatine (Roboterarm) die Daten 
 erfolgreich empfangen hat. \\
-\\
 \footnotesize
 \begin{lstlisting}
 	// ADC-Setup
@@ -4910,7 +4910,6 @@ erfolgreich empfangen hat. \\
 Im Setup Teil werden anfangs die Ausgänge festgelegt, die für den ADC notwendig sind, sowie die SDA und SCL. Danach wird das 
 ESP-NOW-Setup erstellt. In diesem Bereich werden alle notwendigen Schritte abgearbeitet, sodass man über ESP-NOW erfolgreich 
 Daten senden kann. \\
-\\
 \footnotesize
 \begin{lstlisting}
 	void loop() {
@@ -4972,6 +4971,7 @@ kleinen Finger an. Somit kann jeder Finger im Array leicht einen neuen Wert
 zugewiesen bekommen und das Programm arbeitet automatisch mit den neu zugewiesenen 
 Werten bei erneutem Hochladen auf den ESP32. \\
 \\
+\newpage
 \textbf{Datenkorrektur mit minimaler und maximaler Grenze} \\
 \footnotesize
 \begin{lstlisting}
@@ -5028,6 +5028,7 @@ den zuletzt gespeicherten um 10 über- oder unterschreitet, wird der aktuell gem
 Wert dann an die Empfängerseite übermittelt, ansonsten der alte Wert, der in der 
 Variable \textquote{vergleich} gespeichert steht. \\
 \\
+\newpage
 \textbf{Multiplexer durchschalten} \\
 \footnotesize
 \begin{lstlisting}
@@ -5160,16 +5161,17 @@ Feedback an das Userinterface, beispielsweise Messdaten des Stromflusses. \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{ONLY-GLOVE Modus:} \\
+\textbf{ONLY-GLOVE Modus} \\
 \\
-Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer „Datenroute“. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
-die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. In [\textcolor{blue}{\autoref{ESP-NOW und Wifi.h}}] wird 
-die Anwendung dieser Komponente in dem System detailliert erläutert. \\
+Dieser Modus ist im Vergleich zum zweiten einfacher und besteht nur aus einer \textquote{Datenroute}. Die über das ESP-NOW Protokoll empfangenen Daten, welche 
+die erfassten Fingerpositionen mitteilen, werden auf dieser Route interpretiert und verarbeitet. \\
 Wurden Daten empfangen, wird die Zustandsvariable (data\_received) auf den Wert (true) gesetzt und alle erfassten Daten werden in einem String gespeichert. 
 Dieser String wird daraufhin an die Komponente \textquote{interpretiere Daten} vom [\textcolor{blue}{\autoref{par:Parser und Interpretation: drahtloser Datenströme}}] weitergegeben, 
 dort werden diese interpretiert. Die extrahierte Fingerposition sowie der Index werden an die Komponente „Datenkorrektur“ übergeben, dort wird anhand 
 eines Algorithmus die Sinnhaftigkeit der Daten überprüft. Eine genauere Erläuterung dieses Algorithmus ist in [\textcolor{blue}{\autoref{par:proaktiver Datenkorrekturalgorithmus}}]
 zu finden. \\
+\\
+\hfill \break
 Wurden die Daten überprüft und je nach Situation auch korrigiert, wird dies an den Block \textquote{Servomapping} übergeben, beschrieben in 
 [\textcolor{blue}{\autoref{par:Datenaufbereitung und Anweisung für Servoaktoren}}], dort wird der Positionswert des Fingers noch auf den Motor und seine Zugcharakteristik 
 gemappt. Letztlich wird dann die Position an den Motor übergeben. \\
@@ -5183,7 +5185,7 @@ gemappt. Letztlich wird dann die Position an den Motor übergeben. \\
 	\end{center}
 \end{figure}
 \hfill \break
-\textbf{User Interface Modus:} \\
+\textbf{User Interface Modus} \\
 \\
 Dieser Modus ermöglicht es, die Hand über jeweils das Userinterface und auch den Handschuh zu steuern, jedoch getrennt voneinander. Oft wird dieser Modus 
 missverstanden, da interpretiert wird, dass er ausschließlich eine Steuerungsmöglichkeit über das Userinterface bietet. \\
@@ -5193,7 +5195,7 @@ Anfrage von der Roboterhand-Software die Information mit auf welchen Modus der S
 Erhält das Userinterface eine Anfrage, antwortet dieses entsprechend mit - \$answ.here und fügt daraufhin, je nachdem welcher Modus im Userinterface gewählt 
 wurde, ein .han für die Steuerung per Handschuh oder ein .ser für eine Steuerung per Interface an diesen String an. \\
 Die Antwort vom Userinterface darf ausschließlich \textquote{\$answ.here.ser} oder \textquote{\$answ.here.han} sein. \\
-Im Kapitel (8.3.4 Realisierung des Frontends) sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
+In [\textcolor{blue}{\autoref{chap:Realisierung des Frontends}}] sind zusätzliche Beschreibungen und Veranschaulichungen des Interfaces zu finden. \\
 \\
 Wird nun über das Userinterface die Anweisung mitübergeben, dass die Steuerung ausschließlich per Handschuh erfolgt, werden alle empfangenen Befehle vom 
 diesem ignoriert, außer die Anweisung die Steuerungsoption zu wechseln. Der Ablauf in dieser Option gleicht dem des im Only-Glove Modus. Die drahtlos 
@@ -5269,7 +5271,6 @@ Die serielle Kommunikation beschreibt den Datenverkehr zwischen dem Ausgabesubsy
 der bidirektionalen Kommunikationslinie muss das Protokoll in mehrere Abschnitte unterteilt werden. Darunter Fingersteuerungen, Gesten und das Feedback. \\
 \\
 Fingersteuerungen: \\
-\\
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|c|}  % c für zentrierte Ausrichtung, l für linksbündig
@@ -5324,9 +5325,9 @@ Das Format der Geste beschreibt sich wie folgt: $\$G:V_{1},V_{2},V_{3},V_{4},V_{
 Geste beschreibt, darauf folgen fünf Werte von 0 bis 100, welche als V1 bis V5 benannt wurden, diese geben die Position in Prozent jedes einzelnen Fingers 
 an. \\
 \\
-Aufgrund des bidirektionalen Datenverkehrs zwischen dem Ausgangssubsystem und dem Userinterface muss nun auch ein Protokoll für das Feedback geschaffen 
+Aufgrund des bidirektionalen Datenverkehrs zwischen dem Ausgangssubsystem und dem User-\\interface muss nun auch ein Protokoll für das Feedback geschaffen 
 werden. \\
-An das Userinterface werden bei aktuellstem Entwicklungsstand ausschließlich Daten der Strommessung gesendet. \\
+An das Userinterface werden bei aktuellstem Entwicklungsstand ausschließlich Daten der Strom-\\messung gesendet. \\
 \\
 Dies erfolgt in folgendem Format: \\
 \$A:INDEX:WERT \\
@@ -5337,7 +5338,7 @@ von 0 bis 5 erlaubt, welcher angibt zu welchem Motor der Strom zuzuordnen ist. D
 
 \subsubsection{Individuelle Komponenten}
 Wie in [\textcolor{blue}{\autoref{par:Effiziente Gliederung essentieller Systemkomponenten}}] bereits erläutert, setzt sich das Hauptprogramm aus mehreren 
-Unterprogrammen zusammen, diese werden als \textquote{Komponente} bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
+Unterpro-\\grammen zusammen, diese werden als \textquote{Komponente} bezeichnet und bringen zahlreiche Vorteile mit sich. Unter anderem ermöglichen diese, dass 
 sich die jeweiligen Routen, die ein Datenpaket im Hauptprogramm durchlaufen kann, aus den einzelnen Komponenten zusammensetzen. Dadurch wird für mehr 
 Überblick und Effizienz im Programm des Ausgabesubsystems gesorgt. Unter „individuellen Komponenten“ können eigens entwickelte Unterprogramme verstanden 
 werden, welche in diesem Fall Korrekturalgorithmen oder Parser bzw. Interpreter sind. \\
@@ -5377,14 +5378,14 @@ Das Unterprogramm prüft, ob die Grundbedingung, somit das erforderte Format wie
 Ist dies der Fall, wird in die Struktur \textquote{Rückgabe} der extrahierte Servoindex und die gesendete Fingerposition gespeichert. \\
 \\
 
-\paragraph{Parser und Interpretation: serieller Datenströme}
+\paragraph{Parser und Interpretation serieller Datenströme}
 \label{par:Parser und Interpretation: serieller Datenströme}
 \hfill \break
 \hfill \break
 Sofern das Userinterface angeschlossen ist und eine Steuerung über das Interface vorgibt, kommt diese Komponente zum Einsatz. Ihr Zweck ist es die über 
 die serielle Schnittstelle empfangenen Daten zu parsen.  Wie in [\textcolor{blue}{\autoref{par:Serielle Kommunikation}}] beschrieben, hat dieser Parser mit 
 Datenpaketen zu rechnen, die umfangreichere Daten enthalten. Zum Beispiel Anweisungen für einzelne Finger, sowie auch Gesten. \\
-
+\newpage
 \paragraph{proaktiver Datenkorrekturalgorithmus}
 \label{par:proaktiver Datenkorrekturalgorithmus}
 \hfill \break
@@ -5439,6 +5440,7 @@ Anhand der Verzögerung der Elemente, welche im Falle des Beispiels neun Element
 Dies verhindert, dass eine rapide Änderung als Fehler identifiziert wird. Aufgrund des hohen Datenflusses sind Verzögerungen von rund zehn Elementen für 
 den Gebraucher nicht wahrnehmbar. \\
 \\
+\newpage
 \paragraph{Datenaufbereitung und Anweisung für Servoaktoren}
 \label{par:Datenaufbereitung und Anweisung für Servoaktoren}
 \hfill \break
@@ -5506,7 +5508,7 @@ Weitere Eigenschaften von Qt sind:
 	\item ein Debugger
 	\item eine 3D-Umgebung um Modelle zu animieren
 \end{itemize}
-
+\newpage
 \subsubsection{Konzepte und Überlegungen}
 Zunächst musste überlegt werden, wie die grafische Oberfläche aussehen soll. Diese wird nämlich immer vor allen Funktionalitäten 
 erstellt, um die anschließende Programmierung übersichtlicher und gegliedert durchführen zu können. Das Erstkonzept sieht folgendermaßen aus:
@@ -5525,6 +5527,7 @@ und Schieberegler zur weiteren Navigation und Kontrolle des UIs platziert werden
 die externe Steuerung der Roboterhand hinzugefügt werden. Diese Features sind allerdings nicht gefordert. \\
 \\
 \subsubsection{Realisierung des Frontends}
+\label{chap:Realisierung des Frontends}
 \begin{figure}[H]
 	\begin{center}
 		\scalebox{1.2}
@@ -5548,7 +5551,6 @@ bewegt werden. \\
 Als erweiterte Funktion für die Zukunft, kann auf der Platine des Eingabesubsystems ein Schalter angebracht werden, der bei Bestätigung
 den Steuermodus automatisch umstellt. Hierzu müsste ein kurzer String übergeben werden, der folglich in der QT-Entwicklungsumgebung verarbeitet
 und erkannt wird. \\
-\\
 \textbf{Serial-Port Initialisierung} \\
 \\
 Direkt unter dem Schalter zur Einstellung des Steuermodus, befindet sich das Eingabefeld für den Serial-Port, der vom Benutzer eingegeben werden muss. Durch 
@@ -5577,6 +5579,11 @@ wird folglich von der Roboterhand eingenommen. \\
 Bei jeder, durch das User-Interface, initiierten Bewegung, wird ein $String$ an das Ausgabesubsystem geschickt. Durch dieses, im Vorhinein, festgelegte Protokoll, wird die Servostellung übergeben, wodurch die Finger der
 Roboterhand in die gewünschte Position bewegt werden. Das Code des Ausgabesubsystems prüft die ankommenden Werte vor der Bewegung der Motoren auf Plausibilität. \\
 \\
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
+\hfill \break
 \textbf{Finger-Slider} \\
 \\
 Im untere, linken Bereich des Grafikoberfläche, befindet sich ein $Stack-Layout$, das mit sechs $Slidern$ gefüllt ist. Diese Schieberegler ermöglichen es dem Benutzer jeden Finger der Roboterhand einzeln zu steuern. Dies
@@ -5603,10 +5610,7 @@ Das Backend ist in ein $Main-Programm$, ein $Header-File$ und ein $Source-File$ 
 ausprogrammiert und miteinander verknüpft. Das Wort $Verknuepfen$, bezieht sich dabei auf das $Signal-Slot-System$ von QT, durch das Funktionen anhand von bestimmten Ereignissen aufgerufen werden können. Im Main-Programm $main.cpp$, werden die $Signals$
 und $Slots$ in Abhängigkeit gesetzt und somit die Funktionen des Backends miteinander verknüpft. \\
 \\
-Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden. \\
-\\
-
-\newpage
+Bei der Programmierung des Backends, wurden grundlegende C++-Kenntnisse aus dem Unterricht angewendet, die in dieser Dokumentation nicht näher erläutert werden.
 %--------------------------------------------------------------------------
 %--------------------------------------------------------------------------
 %==TESTS-UND-MESSUNGEN=====================================================
@@ -5778,7 +5782,7 @@ Schaltungen und Testplatinen. Durch diese konnten wir Verbesserungen vornehmen u
 \\
 Frühzeitige Fehler bei der Testschaltung des Eingabesubsystems waren keine Seltenheit. Rund ein -bis zwei Wochen wurden damit verbracht die Platine funktionsfähig zu machen, da 
 durch die Schuliinterne Fertigung einige Fehler beim Fräsen der Leiterbahnen aufgetreten sind. Nicht nur Probleme bei der Fertigung, sondern auch beim Anlöten der Bauteile stoppten 
-den Entwicklungsprozess kurzzeitig. Nachdem mit Jumper-Kabeln alle kaputten elektrischen Leitungen überbrückt worden sind, konnte die Schaltung auf Funktionalität durchgemessen werden.
+den Entwicklungs-\\prozess kurzzeitig. Nachdem mit Jumper-Kabeln alle kaputten elektrischen Leitungen überbrückt worden sind, konnte die Schaltung auf Funktionalität durchgemessen werden.
 Diese Messungen verliefen, nach der Behebung aller Leitungsdefekte, reibungslos und das Konzept der Messschaltung wurde bestätigt. Dies gab uns die Sicherheit nun die zweite Version der
 Platine für das Eingabesubsystem zu entwerfen und extern, bei der Firma JLCPCB, fertigen zu lassen. \\
 \\
@@ -5818,7 +5822,7 @@ werden. \\
 \\
 Mit der Überlegung, welche Datenübertragung gewählt werden soll, wurde 
 ebenfalls Zeit verbracht. Die zu Beginn angestrebte Übertragung per Bluetooth 
-wurde schlussendlich verworfen. Schlussendlich wird diese nun per ESP-NOW 
+wurde schlussendlich verworfen. Schluss-\\endlich wird diese nun per ESP-NOW 
 Protokoll (ähnlich zu Wifi) durchgeführt. Einige Wochen vergingen, bis klar 
 war, inwiefern die Datenübertragung per ESP-NOW realisiert werden kann. Als 
 es aber dann möglich war, einen stabilen Datenaustausch zwischen Eingabe- und 
@@ -5873,7 +5877,7 @@ im Bereich der Software fehlt. Zahlreiche Maßnahmen wurden ergriffen um dem
 entgegen zu wirken. Zu einem eine bessere und einheitliche Organisation des Eingabe- sowie 
 Ausgabesubsystems im GitHub-Repository und das Einführen gewisser Entwicklungsstufen und Branchen. 
 Wodurch es immer eine Version gab die getestet ist und zuverlässig funktioniert, sowie auch eine 
-Entwickler-Version welche unter ständiger Bearbeitung stand. \\
+Entwickler-Ver-\\sion welche unter ständiger Bearbeitung stand. \\
 \\
 Im Laufe der Zeit hat sich ergeben, dass es zu unübersichtlich ist, den gesamten Code in eine einzelne
 Datei zu schreiben. Demnach wurde das Gesamtsystem in einzelne Komponenten gegliedert. 
@@ -5885,7 +5889,7 @@ Als Beispiel wurde der Datenkorrekturalgorithmus extern entwickelt und in einem 
 Hat dieser funktioniert, wurde er als Komponente in das Hauptprogramm eingebunden.
 Meist waren wenige Tests notwendig bis die Implementierung vollendet war. \\
 \\
-Äußerst lehrreich war die drahtlose Übertragung der Daten zwischen dem Eingabe- und Ausgabesubsystem.
+Äußerst lehrreich war die drahtlose Übertragung der Daten zwischen dem Eingabe- und Ausgabe-\\subsystem.
 Diese hat für eine lange Zeit nicht funktioniert und war auch nicht äußerst stabil. 
 Als die Datenübertragung erstmals möglich war, konnte die Hand mit dem Handschuh
 das erste Mal bedient werden. \\
@@ -5898,7 +5902,7 @@ haben vieles ermöglicht. \\
 
 \subsection{Gesamtintegration [\textcolor{blue}{Schweitzer}]}
 In diesem Abschnitt reflektieren wir die Vielfalt an Erkenntnissen, die wir 
-während der Projektentwicklung gesammelt haben. Dabei nehmen wir sowohl die 
+während der Projekt-\\entwicklung gesammelt haben. Dabei nehmen wir sowohl die 
 positiven Errungenschaften als auch die Herausforderungen und Rückschläge in 
 den Blick, die wir erlebt haben. \\
 \\
@@ -5926,7 +5930,7 @@ Teile zu produzieren. \\
 \\
 Die Entwicklung der Hardware konnte beginnen, sobald wir festgelegt hatten, 
 welche elektronischen Bauteile zum Einsatz kommen sollten. Jede einzelne 
-Verbindung, die wir in der Elektronik-Design-Automatisierung Software KiCad [siehe \textcolor{blue}{\autoref{chap:KiCad}}]
+Verbindung, die wir in der Elektronik-Design-\\Automatisierung Software KiCad [siehe \textcolor{blue}{\autoref{chap:KiCad}}]
 erstellt haben, wurde sorgfältig durchdacht. Gleiches gilt für die Anordnung 
 der Bauteile, um mögliche Störungen verschiedener Signale zu vermeiden. \\
 \\
@@ -6031,6 +6035,7 @@ beschädigt oder zerstört beziehungsweise aber auch nicht fallengelassen werden
 wiederum könnte beispielsweise den Befehl an die Platine senden, dass die Roboterhand in der 
 derzeitigen Position halten soll. \\
 \\
+\newpage
 \textbf{Sicherheit beim Senden von Daten} \\
 \\
 Es könnte auf eine Verschlüsselung beim Senden von Daten gesetzt werden, damit diese kein 
@@ -6109,6 +6114,8 @@ besonders während des Faltvorgangs und müssen demnach auch aus einem härteren
 \\
 {\large \textbf{USB}} Universal Serial Bus \\
 \\
+{\large \textbf{VWTT}} Vorwissenschaftlicher Theorieteil \\
+\\
 {\large \textbf{WIFI}} Wireless Fidelity \\
 \\
 {\large \textbf{WLAN}} Wireless Local Area Network \\
@@ -6117,8 +6124,6 @@ besonders während des Faltvorgangs und müssen demnach auch aus einem härteren
 \newpage
 %==PROJEKTMANAGEMENT=======================================================
 \section{Projektmanagement}
-\subsection{Projektstrukturplan}
-
 \subsection{Milestoneplan}
 \begin{table}[H]
     \centering
@@ -6148,8 +6153,6 @@ besonders während des Faltvorgangs und müssen demnach auch aus einem härteren
     \caption{Milestoneplan}
     \label{tab:Milestoneplan}
 \end{table}
-
-\subsection{Gantt-Diagram}
 
 \newpage
 \subsection{Arbeitstunden}
