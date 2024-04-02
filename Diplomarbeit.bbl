@@ -413,6 +413,87 @@
       \verb https://commons.wikimedia.org/wiki/File:Flex_Sensor.jpg#/media/File:Flex_Sensor.jpg
       \endverb
     \endentry
+    \entry{espressif}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=baa9f9a7cca5a1ec0743ab3474b0473c}{%
+           family={Espressif},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \strng{fullhash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \strng{bibnamehash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \strng{authorbibnamehash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \strng{authornamehash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \strng{authorfullhash}{baa9f9a7cca5a1ec0743ab3474b0473c}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP-NOW}
+      \field{year}{21.02.2024}
+      \verb{urlraw}
+      \verb https://www.espressif.com/en/solutions/low-power-solutions/esp-now
+      \endverb
+      \verb{url}
+      \verb https://www.espressif.com/en/solutions/low-power-solutions/esp-now
+      \endverb
+    \endentry
+    \entry{wolles}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ca32cf75df1f52742531e3a08c470e4}{%
+           family={Ewald},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ca32cf75df1f52742531e3a08c470e4}
+      \strng{fullhash}{4ca32cf75df1f52742531e3a08c470e4}
+      \strng{bibnamehash}{4ca32cf75df1f52742531e3a08c470e4}
+      \strng{authorbibnamehash}{4ca32cf75df1f52742531e3a08c470e4}
+      \strng{authornamehash}{4ca32cf75df1f52742531e3a08c470e4}
+      \strng{authorfullhash}{4ca32cf75df1f52742531e3a08c470e4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ESP-NOW}
+      \field{year}{21.02.2024}
+      \verb{urlraw}
+      \verb https://wolles-elektronikkiste.de/esp-now#range
+      \endverb
+      \verb{url}
+      \verb https://wolles-elektronikkiste.de/esp-now#range
+      \endverb
+    \endentry
+    \entry{filamentworld}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1272ead544435e948f67f6990ff14e62}{%
+           family={FILAMENTworld},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1272ead544435e948f67f6990ff14e62}
+      \strng{fullhash}{1272ead544435e948f67f6990ff14e62}
+      \strng{bibnamehash}{1272ead544435e948f67f6990ff14e62}
+      \strng{authorbibnamehash}{1272ead544435e948f67f6990ff14e62}
+      \strng{authornamehash}{1272ead544435e948f67f6990ff14e62}
+      \strng{authorfullhash}{1272ead544435e948f67f6990ff14e62}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3D DRUCKVERFAHREN EINFACH ERKLÄRT}
+      \field{year}{21.02.2024}
+      \verb{urlraw}
+      \verb https://filamentworld.de/3d-druckverfahren/
+      \endverb
+      \verb{url}
+      \verb https://filamentworld.de/3d-druckverfahren/
+      \endverb
+    \endentry
     \entry{I2Cabbildung}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7b672e35850c75b0a44dbbe3e1dbc4c9}{%
@@ -1457,6 +1538,33 @@
       \verb https://simpleclub.com/lessons/fachinformatikerin-softwarelizenzen
       \endverb
     \endentry
+    \entry{sls3D}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=60946c25e280a036336c7c1a39839b57}{%
+           family={SLS3D},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{60946c25e280a036336c7c1a39839b57}
+      \strng{fullhash}{60946c25e280a036336c7c1a39839b57}
+      \strng{bibnamehash}{60946c25e280a036336c7c1a39839b57}
+      \strng{authorbibnamehash}{60946c25e280a036336c7c1a39839b57}
+      \strng{authornamehash}{60946c25e280a036336c7c1a39839b57}
+      \strng{authorfullhash}{60946c25e280a036336c7c1a39839b57}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist selektives Lasersintern?}
+      \field{year}{24.02.2024}
+      \verb{urlraw}
+      \verb https://sls3d.de/wissen/was-ist-selektives-lasersintern/#:%5C~:text=SLS%5C%20%5C–%20engl.,(3D%5C%2DDruck)%5C%20aufzubauen
+      \endverb
+      \verb{url}
+      \verb https://sls3d.de/wissen/was-ist-selektives-lasersintern/#:%5C~:text=SLS%5C%20%5C%E2%80%93%20engl.,(3D%5C%2DDruck)%5C%20aufzubauen
+      \endverb
+    \endentry
     \entry{Q9}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7f697089a266d5be4f7ba9047699556a}{%
@@ -1538,10 +1646,10 @@
       \field{title}{Week 13: Networking and Communications}
       \field{year}{25.03.2024}
       \verb{urlraw}
-      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wireless-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
+      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wirel-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
       \endverb
       \verb{url}
-      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wireless-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
+      \verb https://fabacademy.wantinghsieh.com/assignment/13-networking-and-communications#build-esp32-wirel-two-way-communication-project---built-in-touch-sensors--conductive-fabrics--led
       \endverb
     \endentry
     \entry{rubigm.p10}{online}{}

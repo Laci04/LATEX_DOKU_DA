@@ -1,85 +1,89 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Diplomarbeit.blg'
-[34] biber-darwin:340> INFO - === Mon Apr  1, 2024, 14:34:13
-[42] Biber.pm:419> INFO - Reading 'Diplomarbeit.bcf'
-[95] Biber.pm:979> INFO - Found 67 citekeys in bib section 0
-[102] Biber.pm:4419> INFO - Processing section 0
-[107] Biber.pm:4610> INFO - Looking for bibtex file 'Literatur.bib' for section 0
-[108] bibtex.pm:1713> INFO - LaTeX decoding ...
-[125] bibtex.pm:1519> INFO - Found BibTeX data source 'Literatur.bib'
-[238] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[238] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[238] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
-[238] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[263] bbl.pm:660> INFO - Writing 'Diplomarbeit.bbl' with encoding 'UTF-8'
-[275] bbl.pm:763> INFO - Output to Diplomarbeit.bbl
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q1' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q4' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q6' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q7' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q8' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '19.03.2024' in entry 'Q13' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q9' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p7' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p8' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p10' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p11' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p29' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos7' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos8' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos9' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos10' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource12' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Opensource' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Giga' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource16' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL2' is not an integer - this will probably not sort properly.
-[275] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'WikipediaLinux' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'PWC' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'PWC2' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'bitkom' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub23' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub24' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub25' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '09.03.2024' in entry 'GNU' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL3' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL4' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Apache' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaApache' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton1' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton2' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton3' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons35' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons36' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons37' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'bpb' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommonsBilder' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeComonsLizenz' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '05.03.2024' in entry 'rubigm.p10' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '05.03.2024' in entry 'rubigm.p11' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'TÜVaustria' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '21.03.2024' in entry 'CIAtriade' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer17' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer18' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '11.03.2024' in entry 'FHvorarlberg' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'ISA' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'Pilz' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'TÜVsüd' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Generationrobots' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer21' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer22' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer23' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Flexsensorabbildung' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Servoabbildung' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'I2Cabbildung' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'WIFIabbildung' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '27.03.2024' in entry 'Inmoovhand' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '25.03.2024' in entry 'Hsieh' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '25.03.2024' in entry 'Pelayo' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'TexasInstruments' is not an integer - this will probably not sort properly.
-[276] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_yPOC/fe6d16e8a0935a16f008a64fa11444f8_3174.utf8, line 81, warning: 42 characters of junk seen at toplevel
-[276] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_yPOC/fe6d16e8a0935a16f008a64fa11444f8_3174.utf8, line 324, warning: 42 characters of junk seen at toplevel
-[276] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_yPOC/fe6d16e8a0935a16f008a64fa11444f8_3174.utf8, line 418, warning: 42 characters of junk seen at toplevel
-[276] Biber.pm:133> INFO - WARNINGS: 69
+[35] biber-darwin:340> INFO - === Tue Apr  2, 2024, 11:52:44
+[43] Biber.pm:419> INFO - Reading 'Diplomarbeit.bcf'
+[97] Biber.pm:979> INFO - Found 71 citekeys in bib section 0
+[104] Biber.pm:4419> INFO - Processing section 0
+[109] Biber.pm:4610> INFO - Looking for bibtex file 'Literatur.bib' for section 0
+[111] bibtex.pm:1713> INFO - LaTeX decoding ...
+[130] bibtex.pm:1519> INFO - Found BibTeX data source 'Literatur.bib'
+[253] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[253] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[253] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'de-DE'
+[253] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[280] bbl.pm:660> INFO - Writing 'Diplomarbeit.bbl' with encoding 'UTF-8'
+[291] bbl.pm:763> INFO - Output to Diplomarbeit.bbl
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q1' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q4' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q6' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q7' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q8' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '19.03.2024' in entry 'Q13' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Q9' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p7' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p8' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p10' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p11' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Saferinternet.p29' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos7' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos8' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos9' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'Ionos10' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource12' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Opensource' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Giga' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaOpenSource16' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL2' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'WikipediaLinux' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'PWC' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'PWC2' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'bitkom' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub23' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub24' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'Simpleclub25' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '09.03.2024' in entry 'GNU' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL3' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaGPL4' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Apache' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '07.03.2024' in entry 'WikipediaApache' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton1' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton2' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '24.03.2024' in entry 'Holton3' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons35' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons36' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommons37' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'bpb' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeCommonsBilder' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'CreativeComonsLizenz' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '05.03.2024' in entry 'rubigm.p10' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '05.03.2024' in entry 'rubigm.p11' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '06.03.2024' in entry 'TÜVaustria' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '21.03.2024' in entry 'CIAtriade' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer17' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer18' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '11.03.2024' in entry 'FHvorarlberg' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'ISA' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'Pilz' is not an integer - this will probably not sort properly.
+[292] Biber.pm:131> WARN - legacy year field '13.03.2024' in entry 'TÜVsüd' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Generationrobots' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer21' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer22' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '18.03.2024' in entry 'Frauenhofer23' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Flexsensorabbildung' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'Servoabbildung' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '21.02.2024' in entry 'wolles' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '21.02.2024' in entry 'espressif' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'I2Cabbildung' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'WIFIabbildung' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '21.02.2024' in entry 'filamentworld' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '27.03.2024' in entry 'Inmoovhand' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '24.02.2024' in entry 'sls3D' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '25.03.2024' in entry 'Hsieh' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '25.03.2024' in entry 'Pelayo' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - legacy year field '10.03.2024' in entry 'TexasInstruments' is not an integer - this will probably not sort properly.
+[293] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_q7k8/fe6d16e8a0935a16f008a64fa11444f8_8998.utf8, line 81, warning: 42 characters of junk seen at toplevel
+[293] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_q7k8/fe6d16e8a0935a16f008a64fa11444f8_8998.utf8, line 324, warning: 42 characters of junk seen at toplevel
+[293] Biber.pm:131> WARN - BibTeX subsystem: /var/folders/06/qmz904mj2bx375591f1yn4qr0000gn/T/biber_tmp_q7k8/fe6d16e8a0935a16f008a64fa11444f8_8998.utf8, line 418, warning: 42 characters of junk seen at toplevel
+[293] Biber.pm:133> INFO - WARNINGS: 73
